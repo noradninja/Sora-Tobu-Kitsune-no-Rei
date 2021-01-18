@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c4d45021d1097eb4f8f77b71ef4f2296
+timeCreated: 1607124005
+licenseType: Pro
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: kouichi.sakurai font felt pen
+  fontNames:
+  - kouichi.sakurai font felt pen
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "C:/PSVITA/SORA-T~1/Assets/SORATO~1/Model/Enviro/INCREM~1/CLOUDT~1.MA/CLOUDT~2.MA"`)
+{		
+	file -o "C:/PSVITA/SORA-T~1/Assets/SORATO~1/Model/Enviro/INCREM~1/CLOUDT~1.MA/CLOUDT~2.MA";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "C:/PSVITA/SORA-T~1/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "C:/PSVITA/SORA-T~1/Temp/CommandPipe";
+
+$donepipeKill = `fopen "C:/PSVITA/SORA-T~1/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;

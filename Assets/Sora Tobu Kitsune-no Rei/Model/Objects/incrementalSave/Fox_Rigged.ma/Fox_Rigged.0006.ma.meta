@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 026fc1c6ae311a847836b7d5c2eacbae
+timeCreated: 1607552096
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: A_Front_Hip_Jt
+    100002: B01
+    100004: B02
+    100006: B03
+    100008: B04
+    100010: B_Back_Hip_Jt
+    100012: Controls
+    100014: DO_NOT_TOUCH_Bones
+    100016: Fox_Mesh
+    100018: //RootNode
+    100020: Front_Spine_Ctrl
+    100022: GRP_All_Spine_Ctrl
+    100024: GRP_Head_Ctrl
+    100026: GRP_Ik_ik_Back_Ctrl
+    100028: GRP_Ik_ik_Back_Ctrl 1
+    100030: GRP_Ik_ik_Front_Ctrl
+    100032: GRP_Ik_ik_Front_Ctrl 1
+    100034: GRP_L_Ear_Ctrl
+    100036: GRP_Locs
+    100038: GRP_Locs 1
+    100040: GRP_Locs 2
+    100042: GRP_LocsB
+    100044: GRP_Neck
+    100046: GRP_R_Ear_Ctrl
+    100048: GRP_Shoulder_Ctrl
+    100050: GRP_Tail_Master
+    100052: GRP_Tail_MasterB
+    100054: GRP_Tail_MasterC
+    100056: Head_Ctrl
+    100058: Head_Jt
+    100060: HelpLocs_0
+    100062: HelpLocs_00
+    100064: HelpLocs_01
+    100066: HelpLocs_1
+    100068: HelpLocsB_0
+    100070: HelpLocsB_00
+    100072: HelpLocsB_01
+    100074: HelpLocsB_1
+    100076: Ik_Spine_01
+    100078: Ik_Spine_02
+    100080: Ik_Spine_Support
+    100082: ikHandle_L_Back_Ctrl_Ankle
+    100084: ikHandle_L_Back_Ctrl_Heel
+    100086: ikHandle_L_Back_Ctrl_Toe
+    100088: ikHandle_L_Front_Ctrl_Ankle
+    100090: ikHandle_L_Front_Ctrl_Heel
+    100092: ikHandle_L_Front_Ctrl_Toe
+    100094: ikHandle_R_Back_Ctrl_Ankle
+    100096: ikHandle_R_Back_Ctrl_Heel
+    100098: ikHandle_R_Back_Ctrl_Toe
+    100100: ikHandle_R_Front_Ctrl_Ankle
+    100102: ikHandle_R_Front_Ctrl_Heel
+    100104: ikHandle_R_Front_Ctrl_Toe
+    100106: imagePlane1
+    100108: Jaw_Jt
+    100110: L_Back_Feet_Ctrl
+    100112: L_Back_Foot_Ctrl
+    100114: L_Back_Heel_Jt
+    100116: L_Back_Knee_Jt
+    100118: L_Back_Pelvic_Jt
+    100120: L_Back_Toe01_Jt
+    100122: L_Back_Toe02_Jt
+    100124: L_Ear_Ctrl
+    100126: L_Ear_Jt
+    100128: L_Ear_Tip_Jt
+    100130: L_Elbow_Front_Cap
+    100132: L_Front_Elbow_Jt
+    100134: L_Front_Feet_Ctrl
+    100136: L_Front_Foot_Ctrl
+    100138: L_Front_Shoulder_Jt
+    100140: L_Front_Toe_Jt
+    100142: L_Front_Wrist_Jt
+    100144: L_Front_WristExtra_Jt
+    100146: L_Knee_Back_Cap
+    100148: L_Shoulder_Ctrl
+    100150: Main_Spine_Ctrl
+    100152: Middle_Spine_Ctrl
+    100154: Neck_Ctrl
+    100156: Neck_Jt
+    100158: R_Back_Feet_Ctrl
+    100160: R_Back_Foot_Ctrl
+    100162: R_Back_Heel_Jt
+    100164: R_Back_Knee_Jt
+    100166: R_Back_Pelvic_Jt
+    100168: R_Back_Toe01_Jt
+    100170: R_Back_Toe02_Jt
+    100172: R_Ear_Ctrl
+    100174: R_Ear_Jt
+    100176: R_Ear_Tip_Jt
+    100178: R_Elbow_Front_Cap
+    100180: R_Front_Elbow_Jt
+    100182: R_Front_Feet_Ctrl
+    100184: R_Front_Foot_Ctrl
+    100186: R_Front_Shoulder_Jt
+    100188: R_Front_Toe_Jt
+    100190: R_Front_Wrist_Jt
+    100192: R_Front_WristExtra_Jt
+    100194: R_Knee_Back_Cap
+    100196: R_Shoulder_Ctrl
+    100198: Rear_Spine_Ctrl
+    100200: Tail_Ctrl_0
+    100202: Tail_Ctrl_0 1
+    100204: Tail_Ctrl_0 2
+    100206: Tail_Ctrl_1
+    100208: Tail_Ctrl_1 1
+    100210: Tail_Ctrl_1 2
+    100212: Tail_Ctrl_2
+    100214: Tail_Ctrl_2 1
+    100216: Tail_Ctrl_2 2
+    100218: Tail_Ctrl_3
+    100220: Tail_Ctrl_3 1
+    100222: Tail_Ctrl_3 2
+    100224: Tail_Ctrl_4
+    100226: Tail_Ctrl_4 1
+    100228: Tail_Ctrl_4 2
+    100230: Tail_Jt_A
+    100232: Tail_Jt_B
+    100234: Tail_Jt_B 1
+    100236: Tail_Jt_B 2
+    100238: Tail_Jt_B 3
+    100240: Tail_Jt_C
+    100242: Tail_Jt_C 1
+    100244: Tail_Jt_C 2
+    100246: Tail_Jt_C 3
+    100248: Tail_Jt_D
+    100250: Tail_Jt_D 1
+    100252: Tail_Jt_D 2
+    100254: Tail_Jt_E
+    100256: Tail_Jt_E 1
+    100258: Tail_Jt_E 2
+    100260: Tail_Jt_F
+    100262: Tail_Jt_F 1
+    100264: Tail_Jt_F 2
+    400000: A_Front_Hip_Jt
+    400002: B01
+    400004: B02
+    400006: B03
+    400008: B04
+    400010: B_Back_Hip_Jt
+    400012: Controls
+    400014: DO_NOT_TOUCH_Bones
+    400016: Fox_Mesh
+    400018: //RootNode
+    400020: Front_Spine_Ctrl
+    400022: GRP_All_Spine_Ctrl
+    400024: GRP_Head_Ctrl
+    400026: GRP_Ik_ik_Back_Ctrl
+    400028: GRP_Ik_ik_Back_Ctrl 1
+    400030: GRP_Ik_ik_Front_Ctrl
+    400032: GRP_Ik_ik_Front_Ctrl 1
+    400034: GRP_L_Ear_Ctrl
+    400036: GRP_Locs
+    400038: GRP_Locs 1
+    400040: GRP_Locs 2
+    400042: GRP_LocsB
+    400044: GRP_Neck
+    400046: GRP_R_Ear_Ctrl
+    400048: GRP_Shoulder_Ctrl
+    400050: GRP_Tail_Master
+    400052: GRP_Tail_MasterB
+    400054: GRP_Tail_MasterC
+    400056: Head_Ctrl
+    400058: Head_Jt
+    400060: HelpLocs_0
+    400062: HelpLocs_00
+    400064: HelpLocs_01
+    400066: HelpLocs_1
+    400068: HelpLocsB_0
+    400070: HelpLocsB_00
+    400072: HelpLocsB_01
+    400074: HelpLocsB_1
+    400076: Ik_Spine_01
+    400078: Ik_Spine_02
+    400080: Ik_Spine_Support
+    400082: ikHandle_L_Back_Ctrl_Ankle
+    400084: ikHandle_L_Back_Ctrl_Heel
+    400086: ikHandle_L_Back_Ctrl_Toe
+    400088: ikHandle_L_Front_Ctrl_Ankle
+    400090: ikHandle_L_Front_Ctrl_Heel
+    400092: ikHandle_L_Front_Ctrl_Toe
+    400094: ikHandle_R_Back_Ctrl_Ankle
+    400096: ikHandle_R_Back_Ctrl_Heel
+    400098: ikHandle_R_Back_Ctrl_Toe
+    400100: ikHandle_R_Front_Ctrl_Ankle
+    400102: ikHandle_R_Front_Ctrl_Heel
+    400104: ikHandle_R_Front_Ctrl_Toe
+    400106: imagePlane1
+    400108: Jaw_Jt
+    400110: L_Back_Feet_Ctrl
+    400112: L_Back_Foot_Ctrl
+    400114: L_Back_Heel_Jt
+    400116: L_Back_Knee_Jt
+    400118: L_Back_Pelvic_Jt
+    400120: L_Back_Toe01_Jt
+    400122: L_Back_Toe02_Jt
+    400124: L_Ear_Ctrl
+    400126: L_Ear_Jt
+    400128: L_Ear_Tip_Jt
+    400130: L_Elbow_Front_Cap
+    400132: L_Front_Elbow_Jt
+    400134: L_Front_Feet_Ctrl
+    400136: L_Front_Foot_Ctrl
+    400138: L_Front_Shoulder_Jt
+    400140: L_Front_Toe_Jt
+    400142: L_Front_Wrist_Jt
+    400144: L_Front_WristExtra_Jt
+    400146: L_Knee_Back_Cap
+    400148: L_Shoulder_Ctrl
+    400150: Main_Spine_Ctrl
+    400152: Middle_Spine_Ctrl
+    400154: Neck_Ctrl
+    400156: Neck_Jt
+    400158: R_Back_Feet_Ctrl
+    400160: R_Back_Foot_Ctrl
+    400162: R_Back_Heel_Jt
+    400164: R_Back_Knee_Jt
+    400166: R_Back_Pelvic_Jt
+    400168: R_Back_Toe01_Jt
+    400170: R_Back_Toe02_Jt
+    400172: R_Ear_Ctrl
+    400174: R_Ear_Jt
+    400176: R_Ear_Tip_Jt
+    400178: R_Elbow_Front_Cap
+    400180: R_Front_Elbow_Jt
+    400182: R_Front_Feet_Ctrl
+    400184: R_Front_Foot_Ctrl
+    400186: R_Front_Shoulder_Jt
+    400188: R_Front_Toe_Jt
+    400190: R_Front_Wrist_Jt
+    400192: R_Front_WristExtra_Jt
+    400194: R_Knee_Back_Cap
+    400196: R_Shoulder_Ctrl
+    400198: Rear_Spine_Ctrl
+    400200: Tail_Ctrl_0
+    400202: Tail_Ctrl_0 1
+    400204: Tail_Ctrl_0 2
+    400206: Tail_Ctrl_1
+    400208: Tail_Ctrl_1 1
+    400210: Tail_Ctrl_1 2
+    400212: Tail_Ctrl_2
+    400214: Tail_Ctrl_2 1
+    400216: Tail_Ctrl_2 2
+    400218: Tail_Ctrl_3
+    400220: Tail_Ctrl_3 1
+    400222: Tail_Ctrl_3 2
+    400224: Tail_Ctrl_4
+    400226: Tail_Ctrl_4 1
+    400228: Tail_Ctrl_4 2
+    400230: Tail_Jt_A
+    400232: Tail_Jt_B
+    400234: Tail_Jt_B 1
+    400236: Tail_Jt_B 2
+    400238: Tail_Jt_B 3
+    400240: Tail_Jt_C
+    400242: Tail_Jt_C 1
+    400244: Tail_Jt_C 2
+    400246: Tail_Jt_C 3
+    400248: Tail_Jt_D
+    400250: Tail_Jt_D 1
+    400252: Tail_Jt_D 2
+    400254: Tail_Jt_E
+    400256: Tail_Jt_E 1
+    400258: Tail_Jt_E 2
+    400260: Tail_Jt_F
+    400262: Tail_Jt_F 1
+    400264: Tail_Jt_F 2
+    2100000: Fox_Rigged_lambert2
+    2300000: Fox_Mesh
+    3300000: Fox_Mesh
+    4300000: Fox_Mesh
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

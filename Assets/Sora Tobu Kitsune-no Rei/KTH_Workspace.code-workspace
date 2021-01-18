@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "Script"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/*.cs.meta": true,
+			"**/*.meta": true
+		}
+	}
+}
