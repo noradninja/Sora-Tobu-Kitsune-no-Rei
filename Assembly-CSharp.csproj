@@ -122,6 +122,7 @@
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\ClearPlayerPrefs.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Dupe_Rotation.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\FadeIn.cs" />
+     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\FadeMe.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Fadeout.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\FireControl.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Follow_Player.cs" />

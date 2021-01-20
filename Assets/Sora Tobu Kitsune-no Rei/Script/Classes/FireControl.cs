@@ -85,7 +85,7 @@ public class FireControl : MonoBehaviour {
 				Debug.DrawRay (targetingRays[i].origin, targetingRays[i].direction * 45, Color.red);
 				GameObject checkHit = GameObject.Find (hit.transform.name);
 				if (checkHit.tag == "Enemy") {
-					//print ("There is a new collision with " + checkHit.transform.name + " in front of the reticle!");
+					print ("There is a new collision with " + checkHit.transform.name + " in front of the reticle!");
 					missileTarget = checkHit;
 				}
 				//else missileTarget = null;
