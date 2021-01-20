@@ -1,5 +1,6 @@
 Shader "NPR Contour Drawing/Contour Drawing" {
     Properties {
+		_Color ("Main Color", Color) = (1,1,1,1)
 		_ContourColor ("Contour Color", Color) = (0, 0, 0, 0)
 		_ContourWidth ("Contour Width", Float) = 0.01
 		_Amplitude ("Amplitude", Float) = 0.01
@@ -10,7 +11,7 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 	}
 	 SubShader {
 	   Tags {
-        	//"Queue"="Transparent"
+        	"Queue"="Transparent"
             //"RenderType" = "TransparentCutout"
             }
 			ZWrite On
@@ -48,14 +49,14 @@ Shader "NPR Contour Drawing/Contour Drawing" {
         o.depth = CalculateDepth(i.vertex);
         return o;
       }
-
+	fixed4 _Color;
       fixed4 frag(v2f i) : COLOR {
-        fixed4 main_color = tex2D(_MainTexture, i.uv);
+        fixed4 main_color = (tex2D(_MainTexture, i.uv) * _Color);
 		
         // The magic
         // clip(main_color.a + 0.1f);
         // Place `vert` depth calculation into alpha channel
-        main_color.a = i.depth;
+        main_color.a = (i.depth + _Color.a);
 		UNITY_APPLY_FOG(i.fogCoord, main_color);
         return main_color;
       }

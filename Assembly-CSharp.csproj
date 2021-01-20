@@ -191,6 +191,7 @@
      <None Include="Assets\Addons\NPR Paint Filter\ReadMe.txt" />
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\Sphere Map.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\SimpleMask.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Blackboard Color.shader" />
@@ -216,6 +217,7 @@
      <None Include="Assets\Addons\NPR Paint Filter\Shader\MosaicHexagon.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Lego.shader" />
      <None Include="Assets\Addons\DepthOfField\Shaders\DepthOfField.shader" />
+     <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\Contour Drawing_Stencil.shader" />
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\With_Tex.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Pencil.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Blackboard.shader" />
