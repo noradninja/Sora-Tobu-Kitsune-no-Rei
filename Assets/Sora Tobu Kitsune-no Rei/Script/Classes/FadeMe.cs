@@ -6,34 +6,39 @@ public class FadeMe : MonoBehaviour {
 
 public Shader fadeShader;
 public Shader defaultShader;
-private RaycastHit hit;
-private GameObject hitObject;
-private GameObject lastObject;
+public RaycastHit hit;
+public GameObject checkHit;
+public GameObject lastHit;
 
-
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
 	// Update is called once per frame
 	void Update () {
 		//create ray that aims behind player 10 units
 		Ray stencilCheckRay = new Ray(transform.position, (-1*transform.forward));
 		//draw ray for debug
 		Debug.DrawRay (transform.position, (-1*transform.forward * 10), Color.green);
-			//if the ray hits something
-			if (Physics.Raycast (stencilCheckRay, out hit)) {
-				//get the name of the object we hit
-				hitObject = GameObject.Find (hit.transform.name);
-				//if the tag on the object is a fadeable object
-				if (hitObject.tag == "Fade"){
-					//set lastHit to the object we are currently hitting
-					lastObject = hitObject;
-					//switch the shader used on the object to enable the stencil test so object doesn't obscure the player
-					hitObject.GetComponent<Renderer>().material.shader = fadeShader;
-				}
+		//cast a sphere along the ray so you have a larger area to check with- this way your player is never obscured and you 
+		//don't have to cast multiple rays
+		if (Physics.SphereCast (stencilCheckRay, 5.1f, out hit)) {
+			//get the name of the object we hit
+			checkHit = GameObject.Find (hit.transform.name);
+			//if the tag on the object is a fadeable object
+			if (checkHit.tag == "Fade"){
+				//set lastHit to the object we are currently hitting
+				lastHit = checkHit;
+				//switch the shader used on the object to enable the stencil test so object doesn't obscure the player
+				checkHit.GetComponent<Renderer>().material.shader = fadeShader;
 			}
-			//if the current object we are hitting isn't the last object we hit
-			if (lastObject != hitObject){
-				//restore the shader on the last object so stencil testing is diabled so that it only happens when the object is between the player and camera
-				lastObject.GetComponent<Renderer>().material.shader = defaultShader;
-			}
+		}
+		//if the current object we are hitting isn't the last object we hit
+		if (lastHit != checkHit){
+			//restore the shader
+			lastHit.GetComponent<Renderer>().material.shader = defaultShader;
+		}
 	}
 }
 
