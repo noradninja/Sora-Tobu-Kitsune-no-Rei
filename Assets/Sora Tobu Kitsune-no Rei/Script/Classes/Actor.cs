@@ -15,10 +15,16 @@ public class Actor : MonoBehaviour {
 	public GameObject eventManager;
 	public bool playerDead = false;
 	public GameObject currentTarget;
+	public GameObject explosion;
 	public Graphic deathOverlay;
 	public Color deathColor;
+	public GameObject audioManager;
+	public AudioSource audioSource;
+	private List<AudioClip> clipList;
+
 	
 	void Start () {
+		clipList = audioManager.GetComponent<AudioManager>().SFXList;
 		if (gameObject.tag == "Enemy"){
 			currentTarget = gameObject;
 		}
@@ -31,6 +37,9 @@ public class Actor : MonoBehaviour {
 			if (gameObject.tag == "Enemy" && health <=0 && gameObject != null){
 				//print(gameObject.name + " Has Died!");
 				eventManager.BroadcastMessage ("LinkIncrementer");
+				GameObject boom = Instantiate (explosion, transform.position, Quaternion.identity);
+				boom.SetActive(true);
+				audioSource.PlayOneShot(clipList[13]);
 				Destroy(gameObject);	
 			}
 			if (gameObject.tag == "Player" && health <=0){

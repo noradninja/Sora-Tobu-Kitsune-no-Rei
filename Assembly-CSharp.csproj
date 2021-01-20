@@ -54,6 +54,9 @@
      <Compile Include="Assets\Addons\CameraPathCreator\DEMO\CPC_DEMO_UpDown.cs" />
      <Compile Include="Assets\Addons\CameraPathCreator\Scripts\CPC_CameraPath.cs" />
      <Compile Include="Assets\Addons\DepthOfField\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\Addons\FadeObstructions\Reyn\Visual\Fade\FadeObjectOptions.cs" />
+     <Compile Include="Assets\Addons\FadeObstructions\Reyn\Visual\Fade\FadeObstructionsManager.cs" />
+     <Compile Include="Assets\Addons\FadeObstructions\Reyn\Visual\Fade\FadeToMe.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\FiltersController.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\FXAA3_11_ConsoleEffect.cs" />
      <Compile Include="Assets\Addons\NPR Paint Filter\Common\FreeCamera.cs" />
@@ -193,6 +196,7 @@
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Blackboard Color.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Addons\FadeObstructions\Readme.txt" />
      <None Include="Assets\Addons\DepthOfField\Example\Shaders\NormalSurfaceExample.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Polygonization.shader" />

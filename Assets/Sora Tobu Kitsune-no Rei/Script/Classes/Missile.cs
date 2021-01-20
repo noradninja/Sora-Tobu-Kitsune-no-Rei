@@ -53,19 +53,19 @@ public class Missile : MonoBehaviour {
 			//Destroy the missile, and apply its damage to the target
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage);
 			List.Remove (missileTarget);
-			other.gameObject.transform.GetChild (0).gameObject.SetActive(false);
+			other.gameObject.transform.GetChild (0).gameObject.SetActive(false);	
 			Destroy (gameObject);
-			
 		}
-			//if missile somehow collides with the player, destroy missile
-			if (other.tag == "Player") {
+		//if missile somehow collides with the player, destroy missile
+		if (other.tag == "Player") {
 			Destroy (gameObject);
-			}
+		}
 
 		
-	//if there are still enemies in the target list and the first item isnt null, generate another missile	
-	if (targetCount > 1 && List[0] != null) {
-				Event.gameObject.BroadcastMessage ("fireMissiles");
-			} 
+		//if there are still enemies in the target list and the first item isnt null, generate another missile	
+		if (targetCount > 1 && List[0] != null) {
+					Event.gameObject.BroadcastMessage ("fireMissiles");
+					Destroy (gameObject);
+				} 
 	}
 }
