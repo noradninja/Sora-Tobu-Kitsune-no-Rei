@@ -29,6 +29,7 @@ public class FireControl : MonoBehaviour {
 	public GameObject Missile;
 	public GameObject targetVector;
 	private GameObject resetVector;
+	private int maskLayer;
 	public GameObject Reticle;
 	public Component joyTarget;
 	public List<GameObject> targetList;
@@ -45,6 +46,7 @@ public class FireControl : MonoBehaviour {
 		frameCounter = 0;
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
 		resetVector = GameObject.Find ("Main Camera");
+		
 	}
 
 	// Update is called once per frame
@@ -61,7 +63,7 @@ public class FireControl : MonoBehaviour {
         Vector3 position = Reticle.transform.position;
         reticleX = position.x;
         reticleY = position.y;
-
+		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
         //clear target list if it is empty
         if (targetList.Count < 1)
         {
@@ -73,20 +75,15 @@ public class FireControl : MonoBehaviour {
         // cast ray from camera through location of targeting reticle sprite
         targetingRay = Camera.main.ScreenPointToRay(new Vector3(reticleX, reticleY, 0));
         // draw for debug purposes
-        Debug.DrawRay(targetingRay.origin, targetingRay.direction * 45, Color.red);
+        Debug.DrawRay(targetingRay.origin, targetingRay.direction * 45f, Color.red);
         // cast a sphere along the length of the ray
-        if (Physics.SphereCast(targetingRay, 0.5f, out hit))
+        if (Physics.SphereCast(targetingRay, 1.0f, out hit, 45f, maskLayer))
         {
             // get the name of the object we hit
             GameObject checkHit = GameObject.Find(hit.transform.name);
-            // is it an enemy
-            if (checkHit.tag == "Enemy")
-            {
-                // debug print 
                 print("There is a new collision with " + checkHit.transform.name + " in front of the reticle!");
                 // make the enemy a target for a missile
                 missileTarget = checkHit;
-            }
         }
         //reenable missile firing when the list is empty
         if (targetList.Count < 1)
@@ -114,7 +111,7 @@ public class FireControl : MonoBehaviour {
 			img2.texture = (Texture)Locked;
 			//add enemies to list if we still have empty spots, and the current target under the recticle isnt the previous one
 			//and the current target is an enemy and not null
-			if (objCount < maxTargets && missileTarget != obj && missileTarget.tag == "Enemy" && missileTarget != null && firingMissiles == false){
+			if (objCount < maxTargets && missileTarget != obj && missileTarget != null && firingMissiles == false){
                 targetVector = missileTarget;// set our current vector location to the target location- this is used for the missile 
 				//make sure target isn't already in list, if it is ignore it
 				if (targetList.Contains(targetVector)){

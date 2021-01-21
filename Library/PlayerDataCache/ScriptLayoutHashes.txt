@@ -11,7 +11,6 @@ SceneListEnd?
 1f1b0161e98601750124cc205250e376 Assembly-CSharp.dll:NprPaintFilter.MangaSpeedLine
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexZoom
 c906602d9b43cc5e075f80e1d8ae7c79 Assembly-CSharp.dll:TMPro.Examples.Benchmark01_UGUI
-28af40e0b5178541ef7355182d327d01 Assembly-CSharp.dll:.FadeObstructionsManager
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -169,7 +168,6 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FadeToMe
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BounceScaleAwake
 50a0fa002cfc67638c87a901e46b763e Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_B
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClearPlayerPrefs
@@ -227,7 +225,7 @@ ba2791d1892a3597ec50cec2b783c69a Assembly-CSharp.dll:.Link_System
 8e392726e9189569299d2ca9b78eb55e Assembly-CSharp.dll:.SceneLoader
 2149df7fdad246e43552a7c0edb0129b Assembly-CSharp.dll:WayPoint.WaypointAgent
 8a50d3d11bf0cc541f5c35347dd25633 Assembly-CSharp.dll:TMPro.Examples.ShaderPropAnimator
-7be0393f69d6b6d15e8ceade1245d52e Assembly-CSharp.dll:.FireControl
+e81aca78fd31daeaad78aecfd3649126 Assembly-CSharp.dll:.FireControl
 76015de5fcb247eeb8df66c001d5a22d Assembly-CSharp.dll:TMPro.Examples.TMP_FrameRateCounter
 3d9afd0c3399b7637d081e056793603e Assembly-CSharp.dll:.BGM_Player
 b8f04bdad423045528c67dfa4c3dca0d Assembly-CSharp.dll:TMPro.Examples.VertexShakeA
@@ -252,7 +250,6 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 1f33cd59bd2b3ee83b0b9c84658a688b Assembly-CSharp.dll:.Rotation
 1938766749170bcfd95048b28db5dcc6 Assembly-CSharp.dll:.Buttons
 061469590548733e3ab6b2cead128abd Assembly-CSharp.dll:.AudioManager
-bf438a26ba7237fa42cb8ea489c23a6c Assembly-CSharp.dll:.FadeObjectOptions
 6de00ce5ed0bfe830a219a93e06354c6 Assembly-CSharp.dll:NPRContourDrawing.MultiPass.Demo
 83a1b236ee280dc0e3e8ff29fce154e3 Assembly-CSharp.dll:.OnGameOver
 ff25a1ea3304957a29570ffa182a982e Assembly-CSharp.dll:.OutlinePost
@@ -290,6 +287,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 709eda206fde5880c08aad4fd3a16cef Assembly-CSharp.dll:.GetResolution
 68d44bb8382f48891c1e7a907be985b4 Assembly-CSharp.dll:.Fadeout
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexShakeB
+59dd909418d2524543e69a648bb9f9ec Assembly-CSharp.dll:.FadeMe
 f0c2ee7f86f51430df3294122dfc5ab1 Assembly-CSharp.dll:.TitleSaveManagerInputs
 6826e26f7cc718f870001971f13e79c7 Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.VertexColorCycler
@@ -310,4 +308,3 @@ af7666733efcc974926d7d470e1732a6 Assembly-CSharp.dll:TMPro.Examples.SkewTextExam
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 f8f1c341c82c3a48504f430c7d4c9c67 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.FPSWalkerEnhanced
-59dd909418d2524543e69a648bb9f9ec Assembly-CSharp.dll:.FadeMe

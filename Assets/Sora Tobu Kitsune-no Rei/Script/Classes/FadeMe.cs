@@ -23,7 +23,7 @@ public GameObject lastHit;
 		Debug.DrawRay (transform.position, (-1*transform.forward * 10), Color.green);
 		//cast a sphere along the ray so you have a larger area to check with- this way your player is never obscured and you 
 		//don't have to cast multiple rays
-		if (Physics.SphereCast (stencilCheckRay, 5.1f, out hit)) {
+		if (Physics.SphereCast (stencilCheckRay, 4.1f, out hit)) {
 			//get the name of the object we hit
 			checkHit = GameObject.Find (hit.transform.name);
 			//if the tag on the object is a fadeable object
