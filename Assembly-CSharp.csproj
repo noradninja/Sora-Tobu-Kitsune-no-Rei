@@ -53,10 +53,10 @@
   <ItemGroup>
      <Compile Include="Assets\Addons\CameraPathCreator\DEMO\CPC_DEMO_UpDown.cs" />
      <Compile Include="Assets\Addons\CameraPathCreator\Scripts\CPC_CameraPath.cs" />
+     <Compile Include="Assets\Addons\Contour Draw\AutoRotate.cs" />
+     <Compile Include="Assets\Addons\Contour Draw\ContourDrawing.cs" />
+     <Compile Include="Assets\Addons\Contour Draw\Demo.cs" />
      <Compile Include="Assets\Addons\DepthOfField\Scripts\DepthOfField.cs" />
-     <Compile Include="Assets\Addons\FadeObstructions\Reyn\Visual\Fade\FadeObjectOptions.cs" />
-     <Compile Include="Assets\Addons\FadeObstructions\Reyn\Visual\Fade\FadeObstructionsManager.cs" />
-     <Compile Include="Assets\Addons\FadeObstructions\Reyn\Visual\Fade\FadeToMe.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\FiltersController.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\FXAA3_11_ConsoleEffect.cs" />
      <Compile Include="Assets\Addons\NPR Paint Filter\Common\FreeCamera.cs" />
@@ -105,9 +105,6 @@
      <Compile Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Line.cs" />
-     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Contour Draw\AutoRotate.cs" />
-     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Contour Draw\ContourDrawing.cs" />
-     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Contour Draw\Demo.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\3D Skybox\Parallax_BG.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\AimToggler.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Actor.cs" />
@@ -198,7 +195,6 @@
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Blackboard Color.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\Addons\FadeObstructions\Readme.txt" />
      <None Include="Assets\Addons\DepthOfField\Example\Shaders\NormalSurfaceExample.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Polygonization.shader" />
@@ -231,7 +227,7 @@
      <None Include="Assets\Addons\Scene Streamer\_README.txt" />
      <None Include="Assets\Addons\DepthOfField\Example\Shaders\DepthCG.cginc" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\MosaicWindmill.shader" />
-     <None Include="Assets\SimplestMeshBaker\Readme.txt" />
+     <None Include="Assets\Addons\SimplestMeshBaker\Readme.txt" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Cmyk Halftone.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

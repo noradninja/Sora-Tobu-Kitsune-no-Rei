@@ -52,12 +52,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Addons\CameraPathCreator\Scripts\Editor\CPC_CameraPathInspector.cs" />
-     <Compile Include="Assets\Addons\FadeObstructions\Reyn\Visual\Fade\Editor\FadeObjectOptionsInspector.cs" />
-     <Compile Include="Assets\Addons\FadeObstructions\Reyn\Visual\Fade\Editor\FadeObstructingObjectsInspector.cs" />
+     <Compile Include="Assets\Addons\SimplestMeshBaker\Editor\BonesBaker.cs" />
+     <Compile Include="Assets\Addons\SimplestMeshBaker\Editor\MeshBaker.cs" />
      <Compile Include="Assets\Editor\WaypointAgentEditor.cs" />
      <Compile Include="Assets\Editor\WaypointEditor.cs" />
-     <Compile Include="Assets\SimplestMeshBaker\Editor\BonesBaker.cs" />
-     <Compile Include="Assets\SimplestMeshBaker\Editor\MeshBaker.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
