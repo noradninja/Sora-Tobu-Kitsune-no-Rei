@@ -3,6 +3,8 @@
 	Properties
 	{
 		_MainTex ("Texture", 2D) = "white" {}
+		_CutOff("CutOff",Range(0,1)) = 0
+		_Radius("Radius",Range(0,1)) = 0.2
 		_ContourWidth ("Contour Width", Float) = 0.01
 		_Amplitude ("Amplitude", Float) = 0.01
 		_Speed("speed",Float) = 1
@@ -42,12 +44,15 @@ Stencil
 			struct v2f
 			{
 				float2 uv : TEXCOORD0;
+				UNITY_FOG_COORDS(1)
 				float4 vertex : SV_POSITION;
 				 float4 ObjectSpace : TEXCOORD2;
 			};
 
 			sampler2D _MainTex;
 			float4 _MainTex_ST;
+			float _CutOff;
+			float _Radius;
 			fixed _ContourWidth, _Speed, _Amplitude;
 			
 				float hash(float2 seed)
@@ -63,7 +68,6 @@ Stencil
 			v2f vert (appdata_base v)
 			{
 				v2f o;
-				// This is to give the same kind of perturbation as the oulines
 				fixed4 os = fixed4(v.normal, 0) * (_ContourWidth + _Amplitude * (hash(v.texcoord.xy + floor(_Time.y * _Speed)) - 0.5));
 				o.vertex = UnityObjectToClipPos(v.vertex + os);
 				return o;
@@ -76,6 +80,8 @@ Stencil
 				return col;
 			}
 			ENDCG
-		}	
+		}
+
+		
 	}
 }

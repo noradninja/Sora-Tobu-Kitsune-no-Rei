@@ -18,7 +18,7 @@ public class Follow_Player : MonoBehaviour {
 		if ((PauseManager.isPaused) == false){
 		gameObject.transform.localRotation = Player.transform.localRotation;
 		playerPosition = new Vector3 (Player.transform.position.x, Player.transform.position.y, Player.transform.position.z);
-		gameObject.transform.position = playerPosition;
+		transform.position = playerPosition;
 	}
 	}
 }

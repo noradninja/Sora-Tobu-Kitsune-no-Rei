@@ -64,6 +64,7 @@ public class FireControl : MonoBehaviour {
         reticleX = position.x;
         reticleY = position.y;
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
+
         //clear target list if it is empty
         if (targetList.Count < 1)
         {
@@ -77,7 +78,7 @@ public class FireControl : MonoBehaviour {
         // draw for debug purposes
         Debug.DrawRay(targetingRay.origin, targetingRay.direction * 45f, Color.red);
         // cast a sphere along the length of the ray
-        if (Physics.SphereCast(targetingRay, 1.0f, out hit, 45f, maskLayer))
+        if (Physics.SphereCast(targetingRay, 0.5f, out hit, 45f, maskLayer) && (frameCounter >= lockDelay))
         {
             // get the name of the object we hit
             GameObject checkHit = GameObject.Find(hit.transform.name);

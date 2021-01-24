@@ -18,6 +18,7 @@ Shader "NPR Contour Drawing/Contour Drawing Stencil" {
 		Stencil {
   			Ref 1
  			 Comp NotEqual
+			
 		}
 		 Pass {
             Name "FORWARD"

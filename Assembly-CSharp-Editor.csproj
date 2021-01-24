@@ -54,6 +54,7 @@
      <Compile Include="Assets\Addons\CameraPathCreator\Scripts\Editor\CPC_CameraPathInspector.cs" />
      <Compile Include="Assets\Addons\SimplestMeshBaker\Editor\BonesBaker.cs" />
      <Compile Include="Assets\Addons\SimplestMeshBaker\Editor\MeshBaker.cs" />
+     <Compile Include="Assets\Editor\ComponentsCopier.cs" />
      <Compile Include="Assets\Editor\WaypointAgentEditor.cs" />
      <Compile Include="Assets\Editor\WaypointEditor.cs" />
  <Reference Include="UnityEngine.UI">

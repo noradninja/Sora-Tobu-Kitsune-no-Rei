@@ -6,38 +6,48 @@ public class FadeMe : MonoBehaviour {
 
 public Shader fadeShader;
 public Shader defaultShader;
-public RaycastHit hit;
+
+[Range (-10,10)]
+public float stencilCheckOffset;
+private RaycastHit hit;
 public GameObject checkHit;
 public GameObject lastHit;
+public bool isHitting = false;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
 	// Update is called once per frame
-	void Update () {
-		//create ray that aims behind player 10 units
-		Ray stencilCheckRay = new Ray(transform.position, (-1*transform.forward));
-		//draw ray for debug
-		Debug.DrawRay (transform.position, (-1*transform.forward * 10), Color.green);
-		//cast a sphere along the ray so you have a larger area to check with- this way your player is never obscured and you 
-		//don't have to cast multiple rays
-		if (Physics.SphereCast (stencilCheckRay, 4.1f, out hit)) {
+void Update () {
+	int maskLayer = 1 << 11; //this is a bitshift check to ignore objects in layers that don't contain enemies
+	//create ray that aims behind player 10 units, with an adjustable offset on the Z axis
+	Ray stencilCheckRay = new Ray(transform.position + (stencilCheckOffset*transform.forward), (-1*transform.forward));
+	//draw ray for debug
+	
+	Debug.DrawRay (transform.position + (stencilCheckOffset*transform.forward), (-1*transform.forward * 10f), Color.green);
+	//cast a sphere along the ray so you have a larger area to check with- this way your player is never obscured and you don't have to cast multiple rays
+		if (Physics.SphereCast (stencilCheckRay, 6f, out hit, 10f, maskLayer)) {
 			//get the name of the object we hit
 			checkHit = GameObject.Find (hit.transform.name);
-			//if the tag on the object is a fadeable object
-			if (checkHit.tag == "Fade"){
-				//set lastHit to the object we are currently hitting
-				lastHit = checkHit;
-				//switch the shader used on the object to enable the stencil test so object doesn't obscure the player
+			//if we havent hit anything previously, change the shader on the curent hit to the stencil check
+			if (lastHit == null){
+			//switch the shader used on the object to enable the stencil test so object doesn't obscure the player
+			checkHit.GetComponent<Renderer>().material.shader = fadeShader;
+			//checkHit.GetComponent<StencilHitCheck>().hitCheck = true;
+			}
+			//if our last hit and the current hit are the same, keep the shader set to the stencil check
+			else if (lastHit.GetInstanceID() == checkHit.GetInstanceID()){
+				//lastHit.GetComponent<Renderer>().material.shader = fadeShader;
+			}
+			//if our last hit and current hit are different, restore the non stencil shader on the last hit and set our current hit to the stencil check
+			else {
+				lastHit.GetComponent<Renderer>().material.shader = defaultShader;
 				checkHit.GetComponent<Renderer>().material.shader = fadeShader;
 			}
+			isHitting = true;
+			lastHit = checkHit;
 		}
-		//if the current object we are hitting isn't the last object we hit
-		if (lastHit != checkHit){
-			//restore the shader
+		else if (isHitting){
 			lastHit.GetComponent<Renderer>().material.shader = defaultShader;
+			isHitting = false;
+			lastHit = null;
 		}
 	}
 }
