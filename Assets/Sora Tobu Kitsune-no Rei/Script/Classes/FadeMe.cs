@@ -9,6 +9,8 @@ public Shader defaultShader;
 
 [Range (-10,10)]
 public float stencilCheckOffset;
+[Range (1,10)]
+public float stencilCheckDiameter;
 private RaycastHit hit;
 public GameObject checkHit;
 public GameObject lastHit;
@@ -23,32 +25,33 @@ void Update () {
 	
 	Debug.DrawRay (transform.position + (stencilCheckOffset*transform.forward), (-1*transform.forward * 10f), Color.green);
 	//cast a sphere along the ray so you have a larger area to check with- this way your player is never obscured and you don't have to cast multiple rays
-		if (Physics.SphereCast (stencilCheckRay, 6f, out hit, 10f, maskLayer)) {
+		if (Physics.SphereCast (stencilCheckRay, stencilCheckDiameter, out hit, 10f, maskLayer, QueryTriggerInteraction.Collide)) {
 			//get the name of the object we hit
 			checkHit = GameObject.Find (hit.transform.name);
 			//if we havent hit anything previously, change the shader on the curent hit to the stencil check
 			if (lastHit == null){
 			//switch the shader used on the object to enable the stencil test so object doesn't obscure the player
 			checkHit.GetComponent<Renderer>().material.shader = fadeShader;
-			//checkHit.GetComponent<StencilHitCheck>().hitCheck = true;
+			lastHit = checkHit;
 			}
 			//if our last hit and the current hit are the same, keep the shader set to the stencil check
 			else if (lastHit.GetInstanceID() == checkHit.GetInstanceID()){
-				//lastHit.GetComponent<Renderer>().material.shader = fadeShader;
+				checkHit.GetComponent<Renderer>().material.shader = fadeShader;
+				lastHit = checkHit;
 			}
 			//if our last hit and current hit are different, restore the non stencil shader on the last hit and set our current hit to the stencil check
 			else {
 				lastHit.GetComponent<Renderer>().material.shader = defaultShader;
 				checkHit.GetComponent<Renderer>().material.shader = fadeShader;
+				lastHit = lastHit;
 			}
 			isHitting = true;
-			lastHit = checkHit;
 		}
-		else if (isHitting){
-			lastHit.GetComponent<Renderer>().material.shader = defaultShader;
-			isHitting = false;
-			lastHit = null;
-		}
+			else if (isHitting){
+				lastHit.GetComponent<Renderer>().material.shader = defaultShader;
+				isHitting = false;
+				lastHit = lastHit;
+			}
 	}
 }
 
