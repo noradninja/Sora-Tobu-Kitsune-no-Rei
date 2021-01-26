@@ -264,6 +264,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 aa9d1bd0cc771545f2ae1f63a6d0ed6a Assembly-CSharp.dll:TMPro.Examples.TMP_TextEventCheck
 48492c3dffebef1155d609bcc11733e8 Assembly-CSharp.dll:.PauseManager
+27269793cb6f0f9979a575f8b212819a Assembly-CSharp.dll:.StencilHitCheck
 9d11a80e7a97b0160e11b508f02cbbaa Assembly-CSharp.dll:.Dupe_Rotation
 9e0ef5bf862444b5dc48b5a99554ce7c UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
@@ -287,10 +288,11 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 709eda206fde5880c08aad4fd3a16cef Assembly-CSharp.dll:.GetResolution
 68d44bb8382f48891c1e7a907be985b4 Assembly-CSharp.dll:.Fadeout
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexShakeB
-59dd909418d2524543e69a648bb9f9ec Assembly-CSharp.dll:.FadeMe
+935b8b1851edc7fb433fe37dd2f416b1 Assembly-CSharp.dll:.FadeMe
 f0c2ee7f86f51430df3294122dfc5ab1 Assembly-CSharp.dll:.TitleSaveManagerInputs
 6826e26f7cc718f870001971f13e79c7 Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.VertexColorCycler
+d720d104ba371072094e66111bc68ea5 Assembly-CSharp.dll:.FollowPlayerwithRotation
 22d0936cb538dc6053295cc40731687c Assembly-CSharp.dll:.Line
 7f02f6232042a5fbfd728a90ec4de85b Assembly-CSharp.dll:.MenuManagerInputs
 0c4dea12d5ccc08c2c80e5a188a9699c Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.SmoothMouseLook

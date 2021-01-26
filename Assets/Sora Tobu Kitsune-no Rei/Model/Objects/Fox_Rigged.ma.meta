@@ -138,6 +138,37 @@ ModelImporter:
     100260: Tail_Jt_F
     100262: Tail_Jt_F 1
     100264: Tail_Jt_F 2
+    100266: b_Head
+    100268: b_Hip
+    100270: b_LeftFoot01
+    100272: b_LeftFoot02
+    100274: b_LeftForeArm
+    100276: b_LeftHand
+    100278: b_LeftLeg01
+    100280: b_LeftLeg02
+    100282: b_LeftUpperArm
+    100284: b_Neck
+    100286: b_RightFoot01
+    100288: b_RightFoot02
+    100290: b_RightForeArm
+    100292: b_RightHand
+    100294: b_RightLeg01
+    100296: b_RightLeg02
+    100298: b_RightUpperArm
+    100300: b_Root
+    100302: b_Spine01
+    100304: b_Spine02
+    100306: b_Tail01
+    100308: b_Tail02
+    100310: b_Tail02 1
+    100312: b_Tail02 2
+    100314: b_Tail03
+    100316: b_Tail03 1
+    100318: b_Tail03 2
+    100320: b_Tail04
+    100322: b_Tail05
+    100324: imagePlane2
+    100326: polySurface80Shape
     400000: A_Front_Hip_Jt
     400002: B01
     400004: B02
@@ -271,14 +302,49 @@ ModelImporter:
     400260: Tail_Jt_F
     400262: Tail_Jt_F 1
     400264: Tail_Jt_F 2
+    400266: b_Head
+    400268: b_Hip
+    400270: b_LeftFoot01
+    400272: b_LeftFoot02
+    400274: b_LeftForeArm
+    400276: b_LeftHand
+    400278: b_LeftLeg01
+    400280: b_LeftLeg02
+    400282: b_LeftUpperArm
+    400284: b_Neck
+    400286: b_RightFoot01
+    400288: b_RightFoot02
+    400290: b_RightForeArm
+    400292: b_RightHand
+    400294: b_RightLeg01
+    400296: b_RightLeg02
+    400298: b_RightUpperArm
+    400300: b_Root
+    400302: b_Spine01
+    400304: b_Spine02
+    400306: b_Tail01
+    400308: b_Tail02
+    400310: b_Tail02 1
+    400312: b_Tail02 2
+    400314: b_Tail03
+    400316: b_Tail03 1
+    400318: b_Tail03 2
+    400320: b_Tail04
+    400322: b_Tail05
+    400324: imagePlane2
+    400326: polySurface80Shape
     2100000: Fox_Rigged_lambert2
     2300000: Fox_Mesh
     3300000: Fox_Mesh
     4300000: Fox_Mesh
-    7400000: Take 001
+    4300002: polySurface80Shape
+    7400000: Idle
+    7400002: Walk
+    7400004: Run
     9500000: //RootNode
     11100000: //RootNode
     13700000: Fox_Mesh
+    13700002: polySurface80Shape
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -290,7 +356,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: <Root Transform>
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
@@ -305,7 +371,91 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 214
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 215
+      lastFrame: 323
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 360
+      lastFrame: 476
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -347,7 +497,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: b_Root
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1

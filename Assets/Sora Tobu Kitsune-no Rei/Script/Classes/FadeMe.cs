@@ -34,12 +34,12 @@ void Update () {
 			checkHit.GetComponent<Renderer>().material.shader = fadeShader;
 			lastHit = checkHit;
 			}
-			//if our last hit and the current hit are the same, keep the shader set to the stencil check
+			//if our last hit and the current hit are the same, keep the shader set to the stencil check and set our last hit to the current one
 			else if (lastHit.GetInstanceID() == checkHit.GetInstanceID()){
 				checkHit.GetComponent<Renderer>().material.shader = fadeShader;
 				lastHit = checkHit;
 			}
-			//if our last hit and current hit are different, restore the non stencil shader on the last hit and set our current hit to the stencil check
+			//if our last hit and current hit are different, restore the non stencil shader on the last hit and keep our last hit
 			else {
 				lastHit.GetComponent<Renderer>().material.shader = defaultShader;
 				checkHit.GetComponent<Renderer>().material.shader = fadeShader;
@@ -47,11 +47,12 @@ void Update () {
 			}
 			isHitting = true;
 		}
-			else if (isHitting){
-				lastHit.GetComponent<Renderer>().material.shader = defaultShader;
-				isHitting = false;
-				lastHit = lastHit;
-			}
+		//if we are hitting, disable the stencil on our last hit and keep that hit
+		else if (isHitting){
+			lastHit.GetComponent<Renderer>().material.shader = defaultShader;
+			isHitting = false;
+			lastHit = lastHit;
+		}
 	}
 }
 

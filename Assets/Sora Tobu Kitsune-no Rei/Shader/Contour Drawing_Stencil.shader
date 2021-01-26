@@ -33,7 +33,7 @@ Shader "NPR Contour Drawing/Contour Drawing Stencil" {
 			#pragma glsl
 			#pragma fragmentoption ARB_precision_hint_fastest
             #include "UnityCG.cginc"
-			#include "Shared.cginc"
+			#include "DepthCG.cginc"
 			#pragma only_renderers psp2 d3d11
            
             uniform fixed4 main_color;
@@ -82,7 +82,7 @@ Shader "NPR Contour Drawing/Contour Drawing Stencil" {
 			#pragma glsl
 			#pragma fragmentoption ARB_precision_hint_fastest
             #include "UnityCG.cginc"
-			#include "Shared.cginc"
+			#include "DepthCG.cginc"
 			#pragma only_renderers psp2 d3d11
 			struct v2f2
 		{
@@ -139,7 +139,7 @@ Stencil {
 			#pragma glsl
 			#pragma fragmentoption ARB_precision_hint_fastest
             #include "UnityCG.cginc"
-			#include "Shared.cginc"
+			#include "DepthCG.cginc"
 			#pragma only_renderers psp2 d3d11
 			struct v2f3
 		{
@@ -196,7 +196,7 @@ Stencil {
 			#pragma glsl
 			#pragma fragmentoption ARB_precision_hint_fastest
             #include "UnityCG.cginc"
-			#include "Shared.cginc"
+			#include "DepthCG.cginc"
 			#pragma only_renderers psp2 d3d11
 			struct v2f4
 		{
