@@ -180,6 +180,12 @@ ModelImporter:
     100344: ikHandle6
     100346: polySurface115
     100348: Rigged_Fox
+    100350: b_Tail05 1
+    100352: b_Tail06
+    100354: FL
+    100356: FR
+    100358: RL
+    100360: RR
     400000: A_Front_Hip_Jt
     400002: B01
     400004: B02
@@ -355,7 +361,14 @@ ModelImporter:
     400344: ikHandle6
     400346: polySurface115
     400348: Rigged_Fox
+    400350: b_Tail05 1
+    400352: b_Tail06
+    400354: FL
+    400356: FR
+    400358: RL
+    400360: RR
     2100000: Fox_Rigged_lambert2
+    2100002: Fox_Rigged_0056_Fox_Rigged_lambert2
     2300000: Fox_Mesh
     3300000: Fox_Mesh
     4300000: Fox_Mesh
@@ -399,66 +412,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Idle
-      takeName: Take 001
-      firstFrame: 30
-      lastFrame: 214
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Walk
-      takeName: Take 001
-      firstFrame: 217
-      lastFrame: 323
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 1
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 1
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
       name: Run
       takeName: Take 001
-      firstFrame: 360
-      lastFrame: 476
+      firstFrame: 0
+      lastFrame: 97
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -507,8 +464,8 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 180
-    normalImportMode: 1
-    tangentImportMode: 3
+    normalImportMode: 0
+    tangentImportMode: 0
     normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
