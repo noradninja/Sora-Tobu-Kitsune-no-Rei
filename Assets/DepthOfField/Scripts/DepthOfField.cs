@@ -20,10 +20,11 @@ public class DepthOfField : MonoBehaviour {
   public Material material;
 
   private RenderTexture GetTemporaryTexture(int width, int height) {
-    RenderTexture temporaryTexture = RenderTexture.GetTemporary(width, height, 0, RenderTextureFormat.ARGB32);
+    RenderTexture temporaryTexture = RenderTexture.GetTemporary(width, height, 0, RenderTextureFormat.Default);//changes RenderTextureFormat to Default, better on Vita than RGBA32
     temporaryTexture.wrapMode = TextureWrapMode.Clamp;
-    // temporaryTexture.useMipMap = false;
-    temporaryTexture.isPowerOfTwo = true;
+    temporaryTexture.anisoLevel = 0;
+    temporaryTexture.antiAliasing = 1;
+    temporaryTexture.isPowerOfTwo = false; //disable PoT texture for this effect- was forcing a 1024x1024 texture for the screen which is slow on Vita due to rendering clipped pixels
     temporaryTexture.filterMode = FilterMode.Bilinear;
     return temporaryTexture;
   }
@@ -54,10 +55,10 @@ public class DepthOfField : MonoBehaviour {
       return;
     }
 
-    int scale = Screen.dpi >= 220 ? 2 : 1; // Multiply downsampleFactor by scale to compensate for retina
+      int scale = 1; // Multiply downsampleFactor by 2 to compensate for retina if you use this on iOS
 
-    int temporaryWidth = Mathf.NextPowerOfTwo(Screen.width / (downsampleFactor * scale));
-    int temporaryHeight = Mathf.NextPowerOfTwo(Screen.height / (downsampleFactor * scale));
+    int temporaryWidth = (Screen.width / (downsampleFactor * scale));
+    int temporaryHeight = (Screen.height / (downsampleFactor * scale));
     if (temporaryWidth > temporaryHeight) {
       temporaryHeight = temporaryWidth;
     } else {

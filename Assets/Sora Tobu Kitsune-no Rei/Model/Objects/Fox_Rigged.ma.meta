@@ -169,6 +169,17 @@ ModelImporter:
     100322: b_Tail05
     100324: imagePlane2
     100326: polySurface80Shape
+    100328: ikHandle1
+    100330: ikHandle2
+    100332: ikHandle3
+    100334: ikHandle4
+    100336: M_Root
+    100338: b_LeftWrist
+    100340: b_RightWrist
+    100342: ikHandle5
+    100344: ikHandle6
+    100346: polySurface115
+    100348: Rigged_Fox
     400000: A_Front_Hip_Jt
     400002: B01
     400004: B02
@@ -333,11 +344,24 @@ ModelImporter:
     400322: b_Tail05
     400324: imagePlane2
     400326: polySurface80Shape
+    400328: ikHandle1
+    400330: ikHandle2
+    400332: ikHandle3
+    400334: ikHandle4
+    400336: M_Root
+    400338: b_LeftWrist
+    400340: b_RightWrist
+    400342: ikHandle5
+    400344: ikHandle6
+    400346: polySurface115
+    400348: Rigged_Fox
     2100000: Fox_Rigged_lambert2
     2300000: Fox_Mesh
     3300000: Fox_Mesh
     4300000: Fox_Mesh
     4300002: polySurface80Shape
+    4300004: polySurface115
+    4300006: Rigged_Fox
     7400000: Idle
     7400002: Walk
     7400004: Run
@@ -345,6 +369,8 @@ ModelImporter:
     11100000: //RootNode
     13700000: Fox_Mesh
     13700002: polySurface80Shape
+    13700004: polySurface115
+    13700006: Rigged_Fox
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -353,8 +379,8 @@ ModelImporter:
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
-    bakeSimulation: 0
-    resampleCurves: 1
+    bakeSimulation: 1
+    resampleCurves: 0
     optimizeGameObjects: 0
     motionNodeName: <Root Transform>
     rigImportErrors: 
@@ -364,7 +390,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    animationCompression: 3
+    animationCompression: 0
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -403,7 +429,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Take 001
-      firstFrame: 215
+      firstFrame: 217
       lastFrame: 323
       wrapMode: 0
       orientationOffsetY: 0
@@ -480,8 +506,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 180
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
   importAnimation: 1
