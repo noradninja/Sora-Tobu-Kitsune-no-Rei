@@ -52,7 +52,7 @@ public class Buttons : MonoBehaviour {
 	public int screenHeight = 544;
 	[Range (1.0f, 2.0f)]
 	public float divisionFactor = 1.0f;
-	public bool enableAA = true;
+	public bool enablePaint = true;
 	public bool enableDoF = true;
 	private TextMeshProUGUI currentRes;
 	private GameObject mainCam;
@@ -61,10 +61,10 @@ public class Buttons : MonoBehaviour {
 	private GameObject overlayCam;
 	private Camera aaCam;
 	public bool canFire = true;
-	private string aaOn = "Paint Effect On";
-	private string aaOff = "Paint Effect Off";
-	private string DoFOn = "Depth Effect On";
-	private string DoFOff = "Depth Effect Off";
+	private string paintOn = "Paint Effect On";
+	private string paintOff = "Paint Effect Off";
+	private string depthOn = "Depth Effect On";
+	private string depthOff = "Depth Effect Off";
 
 
 
@@ -99,26 +99,26 @@ public class Buttons : MonoBehaviour {
 	}
 
 	if (PauseManager.isPaused == false) {	//ignore all inputs in game world if game is paused 
-	if (enableAA == true && enableDoF == false){
-		indicatorText.text = (aaOn + " / " + DoFOff);
+	if (enablePaint == true && enableDoF == false){
+		indicatorText.text = (paintOn + " / " + depthOff);// + " / Threshold: " + mainCam.GetComponent<FXAA>().Threshold);
 	}
-	if (enableAA == false && enableDoF == false){
-		indicatorText.text = (aaOff + " / " + DoFOff);
+	if (enablePaint == false && enableDoF == false){
+		indicatorText.text = (paintOff + " / " + depthOff);// + " / Threshold: " + mainCam.GetComponent<FXAA>().Threshold);
 	}
-	if (enableAA == true && enableDoF == true){
-		indicatorText.text = (aaOn + " / " + DoFOn);
+	if (enablePaint == true && enableDoF == true){
+		indicatorText.text = (paintOn + " / " + depthOn);// + " / Threshold: " + mainCam.GetComponent<FXAA>().Threshold);
 	}
-	if (enableAA == false && enableDoF == true){
-		indicatorText.text = (aaOff + " / " + DoFOn);
+	if (enablePaint == false && enableDoF == true){
+		indicatorText.text = (paintOff + " / " + depthOn);// + " / Threshold: " + mainCam.GetComponent<FXAA>().Threshold);
 	}
 		if (Input.GetKeyDown (joystick1 + UP) || (Input.GetKeyDown(KeyCode.UpArrow))){
-			if (enableAA == true){
+			if (enablePaint == true){
 				mainCam.GetComponent<FiltersController>().enabled = false;
-				enableAA = false;
+				enablePaint = false;
 			}
-			else if (enableAA == false){
+			else if (enablePaint == false){
 				mainCam.GetComponent<FiltersController>().enabled = true;
-				enableAA = true;
+				enablePaint = true;
 			}
 			myguiText.text = "Up";
 		}
@@ -133,12 +133,12 @@ public class Buttons : MonoBehaviour {
 			}
 			myguiText.text = "Down";
 			}
-		else if (Input.GetKeyDown (joystick1 + LEFT) && mainCam.GetComponent<DepthOfField>().downsampleFactor > 2){
-			mainCam.GetComponent<DepthOfField>().downsampleFactor -= 1;
+		else if (Input.GetKeyDown (joystick1 + LEFT) && mainCam.GetComponent<FXAA>().Threshold > 0){
+			mainCam.GetComponent<FXAA>().Threshold -= 0.1f;
 			myguiText.text = "Left";
 		}
-		else if (Input.GetKeyDown (joystick1 + RIGHT) && mainCam.GetComponent<DepthOfField>().downsampleFactor < 4){
-			mainCam.GetComponent<DepthOfField>().downsampleFactor += 1;
+		else if (Input.GetKeyDown (joystick1 + RIGHT) && mainCam.GetComponent<FXAA>().Threshold < 1){
+			mainCam.GetComponent<FXAA>().Threshold += 0.1f;
 			myguiText.text = "Right";
 		}
 		else if (Input.GetKeyDown (joystick1 + CROSS) && playerTemp.GetComponent<PlayerMoveJump>().jumpEnable == true) {

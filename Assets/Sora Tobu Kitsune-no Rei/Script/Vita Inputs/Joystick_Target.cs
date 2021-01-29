@@ -50,10 +50,10 @@ public class Joystick_Target : MonoBehaviour {
 		float tY = target.transform.position.y;
 
 		// Set up x/y coords for joystick and recticle
-		float x = Input.GetAxis (Stick + " Stick Horizontal") * tiltAngle;
-		float y = Input.GetAxis (Stick + " Stick Vertical") * targetAngle;
-		float x2 = Input.GetAxis (Stick + " Stick Horizontal") * (tiltAngle/2);
-		float y2 = Input.GetAxis (Stick + " Stick Vertical") * (targetAngle/2);
+		float stickX = Input.GetAxis (Stick + " Stick Horizontal") * -45F;
+		float stickY = Input.GetAxis (Stick + " Stick Vertical") * 45F;
+		float stickXCam = Input.GetAxis (Stick + " Stick Horizontal") * (tiltAngle/2);
+		float stickYCam = Input.GetAxis (Stick + " Stick Vertical") * (targetAngle/2);
 		float xTarget = Input.GetAxis (Stick + " Stick Horizontal") * targetAngle;
 		float yTarget = Input.GetAxis (Stick + " Stick Vertical") * tiltAngle;
 
@@ -109,8 +109,8 @@ public class Joystick_Target : MonoBehaviour {
 		//if we are behind the player
 		if (count == 0) {     
 //			var pxTarget = new Vector3 (Input.GetAxis (Stick + " Stick Horizontal") * targetAngle,0,0);
-			Quaternion target = Quaternion.Euler (y2+6f, (-1*x2), 0);
-			Quaternion Ptarget = Quaternion.Euler (player.transform.rotation.x, (-1*x), 0);
+			Quaternion target = Quaternion.Euler (stickYCam+6f, (-1*stickXCam), 0);
+			Quaternion Ptarget = Quaternion.Euler (player.transform.rotation.x, (-1*stickX), 0);
 			//rotate camera
 			transform.localRotation = Quaternion.Slerp (transform.localRotation, target, Time.deltaTime * smooth);
 			//rotate player	
@@ -123,8 +123,8 @@ public class Joystick_Target : MonoBehaviour {
 		//if we are in front of the player
 		if (count == 2) {     
 			
-			Quaternion target = Quaternion.Euler (y2+6f, (-1*x2), 0);
-			Quaternion Ptarget = Quaternion.Euler (0, x, 0);
+			Quaternion target = Quaternion.Euler (stickYCam+6f, (-1*stickXCam), 0);
+			Quaternion Ptarget = Quaternion.Euler (0, stickX, 0);
 			//rotate camera
 			transform.localRotation = Quaternion.Slerp (transform.localRotation, target, Time.deltaTime * smooth);
 			//rotate player
@@ -137,12 +137,12 @@ public class Joystick_Target : MonoBehaviour {
 		//change axis calculations, because Euler angles are fucking unreliable pieces of shit
 		//if we are to the left of the player
 		if (count == 1) {
-			Quaternion target = Quaternion.Euler (y+6f, (-1*x), 0);
+			Quaternion target = Quaternion.Euler (stickYCam+6f, (-1*stickXCam), 0);
 			transform.localRotation = Quaternion.Slerp (transform.localRotation, target, Time.deltaTime * smooth);
 		}
 		//if we are to the right of the player
 		if (count == 3) {
-			Quaternion target = Quaternion.Euler (y+6f, (-1*x), 0);
+			Quaternion target = Quaternion.Euler (stickYCam+6f, (-1*stickXCam), 0);
 			transform.localRotation = Quaternion.Slerp (transform.localRotation, target, Time.deltaTime * smooth);
 		}
 

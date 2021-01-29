@@ -57,7 +57,7 @@
      <Compile Include="Assets\Addons\Contour Draw\ContourDrawing.cs" />
      <Compile Include="Assets\Addons\Contour Draw\Demo.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\FiltersController.cs" />
-     <Compile Include="Assets\Addons\Fullscreen Effects\FXAA3_11_ConsoleEffect.cs" />
+     <Compile Include="Assets\Addons\Fullscreen Effects\FXAA\FXAA.cs" />
      <Compile Include="Assets\Addons\NPR Paint Filter\Common\FreeCamera.cs" />
      <Compile Include="Assets\Addons\NPR Paint Filter\Common\Rotation.cs" />
      <Compile Include="Assets\Addons\NPR Paint Filter\MangaSpeedLine\MangaSpeedLine.cs" />
@@ -168,6 +168,7 @@
      <None Include="Assets\Addons\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Water Color.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Addons\Fullscreen Effects\FXAA\FXAA.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\MangaSpeedLine\MangaSpeedLine.shader" />
      <None Include="Assets\DepthOfField\Shaders\DepthCG.cginc" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
@@ -209,7 +210,6 @@
      <None Include="Assets\Addons\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\MosaicCircle.shader" />
-     <None Include="Assets\Addons\Fullscreen Effects\FXAA3_11_Console\_Sources\Shaders\FXAA3_11_Console.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\WashPainting\WashPainting.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Abstract Painting.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />

@@ -28,13 +28,13 @@ Shader "NPR Contour Drawing/Contour Drawing Stencil" {
             //Blend Zero One          
             CGPROGRAM
             #pragma vertex vert
-			#pragma fragment frag
-           	#pragma multi_compile_fog 
-			#pragma glsl
-			#pragma fragmentoption ARB_precision_hint_fastest
-            #include "UnityCG.cginc"
-			#include "DepthCG.cginc"
-			#pragma only_renderers psp2 d3d11
+		#pragma fragment frag
+		#pragma multi_compile_fog 
+		#define SHADER_API_VITA
+		#include "UnityCG.cginc"
+		#include "DepthCG.cginc"
+		#pragma only_renderers psp2 d3d11
+        #pragma fragmentoption ARB_precision_hint_fastest
            
             uniform fixed4 main_color;
             uniform sampler2D _MainTexture; uniform fixed4 _MainTexture_ST;
@@ -77,13 +77,13 @@ Shader "NPR Contour Drawing/Contour Drawing Stencil" {
 			Blend SrcAlpha OneMinusSrcAlpha
 		 CGPROGRAM
             #pragma vertex vert
-			#pragma fragment frag
-           	#pragma multi_compile_fog 
-			#pragma glsl
-			#pragma fragmentoption ARB_precision_hint_fastest
-            #include "UnityCG.cginc"
-			#include "DepthCG.cginc"
-			#pragma only_renderers psp2 d3d11
+		#pragma fragment frag
+		#pragma multi_compile_fog 
+		#define SHADER_API_VITA
+		#include "UnityCG.cginc"
+		#include "DepthCG.cginc"
+		#pragma only_renderers psp2 d3d11
+        #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f2
 		{
 			float4 pos : SV_POSITION;
@@ -134,13 +134,13 @@ Stencil {
 			Blend SrcAlpha OneMinusSrcAlpha
 		 CGPROGRAM
             #pragma vertex vert
-			#pragma fragment frag
-           	#pragma multi_compile_fog 
-			#pragma glsl
-			#pragma fragmentoption ARB_precision_hint_fastest
-            #include "UnityCG.cginc"
-			#include "DepthCG.cginc"
-			#pragma only_renderers psp2 d3d11
+		#pragma fragment frag
+		#pragma multi_compile_fog 
+		#define SHADER_API_VITA
+		#include "UnityCG.cginc"
+		#include "DepthCG.cginc"
+		#pragma only_renderers psp2 d3d11
+        #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f3
 		{
 			float4 pos : SV_POSITION;
@@ -191,13 +191,13 @@ Stencil {
 			Blend SrcAlpha OneMinusSrcAlpha
 		 CGPROGRAM
             #pragma vertex vert
-			#pragma fragment frag
-           	#pragma multi_compile_fog 
-			#pragma glsl
-			#pragma fragmentoption ARB_precision_hint_fastest
-            #include "UnityCG.cginc"
-			#include "DepthCG.cginc"
-			#pragma only_renderers psp2 d3d11
+		#pragma fragment frag
+		#pragma multi_compile_fog 
+		#define SHADER_API_VITA
+		#include "UnityCG.cginc"
+		#include "DepthCG.cginc"
+		#pragma only_renderers psp2 d3d11
+        #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f4
 		{
 			float4 pos : SV_POSITION;

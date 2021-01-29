@@ -173,7 +173,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClearPlayerPrefs
 a67426b1d196d552ee8bf5aab64b5a7d Assembly-CSharp.dll:.OptionsManagerInputs
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.Benchmark03
-65db87bd6edbb37d4167cb3a210090b8 Assembly-CSharp.dll:.FXAA3_11_ConsoleEffect
 b9332c0eee630779376843b5343eb250 Assembly-CSharp.dll:TMPro.Examples.TMP_TextInfoDebugTool
 f4bd1aee67eeef7953cce6c44588b3d7 TextMeshPro-2017.3-Runtime.dll:TMPro.TextContainer
 bf22e89fa4b77e86d45d7ae313079474 TextMeshPro-2017.3-Runtime.dll:TMPro.TextMeshPro
@@ -248,7 +247,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 7dad59e39fb327268940fe467452fef3 Assembly-CSharp.dll:.BG_Parallax
 1f33cd59bd2b3ee83b0b9c84658a688b Assembly-CSharp.dll:.Rotation
-1938766749170bcfd95048b28db5dcc6 Assembly-CSharp.dll:.Buttons
+64e375fc557dc8eeaf853a9fc4b5b299 Assembly-CSharp.dll:.Buttons
 061469590548733e3ab6b2cead128abd Assembly-CSharp.dll:.AudioManager
 6de00ce5ed0bfe830a219a93e06354c6 Assembly-CSharp.dll:NPRContourDrawing.MultiPass.Demo
 83a1b236ee280dc0e3e8ff29fce154e3 Assembly-CSharp.dll:.OnGameOver
@@ -310,3 +309,4 @@ af7666733efcc974926d7d470e1732a6 Assembly-CSharp.dll:TMPro.Examples.SkewTextExam
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 f8f1c341c82c3a48504f430c7d4c9c67 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.FPSWalkerEnhanced
+cc70b44a4e3497be9738c0d43ed3b67c Assembly-CSharp.dll:.FXAA

@@ -68,13 +68,11 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 		#pragma vertex vert
 		#pragma fragment frag
 		#pragma multi_compile_fog 
-		//#define UNITY_PASS_FORWARDBASE
 		#define SHADER_API_VITA
 		#include "UnityCG.cginc"
 		#include "DepthCG.cginc"
 		#pragma only_renderers psp2 d3d11
-		//#pragma multi_compile_fwdbase
-		//#pragma target 3.0
+        #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f2
 		{
 			float4 pos : SV_POSITION;
@@ -124,13 +122,11 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 		#pragma vertex vert
 		#pragma fragment frag
 		#pragma multi_compile_fog 
-		//#define UNITY_PASS_FORWARDBASE
 		#define SHADER_API_VITA
 		#include "UnityCG.cginc"
 		#include "DepthCG.cginc"
 		#pragma only_renderers psp2 d3d11
-		//#pragma multi_compile_fwdbase
-		//#pragma target 3.0
+        #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f3
 		{
 			float4 pos : SV_POSITION;
@@ -180,13 +176,11 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 		#pragma vertex vert
 		#pragma fragment frag
 		#pragma multi_compile_fog 
-		//#define UNITY_PASS_FORWARDBASE
 		#define SHADER_API_VITA
 		#include "UnityCG.cginc"
 		#include "DepthCG.cginc"
 		#pragma only_renderers psp2 d3d11
-		//#pragma multi_compile_fwdbase
-		//#pragma target 3.0
+        #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f4
 		{
 			float4 pos : SV_POSITION;
