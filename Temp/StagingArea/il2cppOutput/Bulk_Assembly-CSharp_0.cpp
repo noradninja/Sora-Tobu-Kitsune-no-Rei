@@ -22696,8 +22696,14 @@ public:
 	float ___ArP_3;
 	// System.Single Title_DoF_Animator::incrementor
 	float ___incrementor_4;
+	// System.Single Title_DoF_Animator::timeIncrementor
+	float ___timeIncrementor_5;
+	// System.Single Title_DoF_Animator::delay
+	float ___delay_6;
+	// System.Single Title_DoF_Animator::time
+	float ___time_7;
 	// UnityEngine.GameObject Title_DoF_Animator::mainCamera
-	GameObject_t1113636619 * ___mainCamera_5;
+	GameObject_t1113636619 * ___mainCamera_8;
 
 public:
 	inline static int32_t get_offset_of_DoF_2() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___DoF_2)); }
@@ -22724,13 +22730,37 @@ public:
 		___incrementor_4 = value;
 	}
 
-	inline static int32_t get_offset_of_mainCamera_5() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___mainCamera_5)); }
-	inline GameObject_t1113636619 * get_mainCamera_5() const { return ___mainCamera_5; }
-	inline GameObject_t1113636619 ** get_address_of_mainCamera_5() { return &___mainCamera_5; }
-	inline void set_mainCamera_5(GameObject_t1113636619 * value)
+	inline static int32_t get_offset_of_timeIncrementor_5() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___timeIncrementor_5)); }
+	inline float get_timeIncrementor_5() const { return ___timeIncrementor_5; }
+	inline float* get_address_of_timeIncrementor_5() { return &___timeIncrementor_5; }
+	inline void set_timeIncrementor_5(float value)
 	{
-		___mainCamera_5 = value;
-		Il2CppCodeGenWriteBarrier((&___mainCamera_5), value);
+		___timeIncrementor_5 = value;
+	}
+
+	inline static int32_t get_offset_of_delay_6() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___delay_6)); }
+	inline float get_delay_6() const { return ___delay_6; }
+	inline float* get_address_of_delay_6() { return &___delay_6; }
+	inline void set_delay_6(float value)
+	{
+		___delay_6 = value;
+	}
+
+	inline static int32_t get_offset_of_time_7() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___time_7)); }
+	inline float get_time_7() const { return ___time_7; }
+	inline float* get_address_of_time_7() { return &___time_7; }
+	inline void set_time_7(float value)
+	{
+		___time_7 = value;
+	}
+
+	inline static int32_t get_offset_of_mainCamera_8() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___mainCamera_8)); }
+	inline GameObject_t1113636619 * get_mainCamera_8() const { return ___mainCamera_8; }
+	inline GameObject_t1113636619 ** get_address_of_mainCamera_8() { return &___mainCamera_8; }
+	inline void set_mainCamera_8(GameObject_t1113636619 * value)
+	{
+		___mainCamera_8 = value;
+		Il2CppCodeGenWriteBarrier((&___mainCamera_8), value);
 	}
 };
 
@@ -51756,6 +51786,7 @@ extern "C"  void Title_DoF_Animator__ctor_m816137784 (Title_DoF_Animator_t380462
 {
 	{
 		__this->set_incrementor_4((0.001f));
+		__this->set_timeIncrementor_5((0.001f));
 		MonoBehaviour__ctor_m1579109191(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -51778,37 +51809,60 @@ extern "C"  void Title_DoF_Animator_Update_m2815560040 (Title_DoF_Animator_t3804
 	}
 	float V_0 = 0.0f;
 	{
-		GameObject_t1113636619 * L_0 = __this->get_mainCamera_5();
+		GameObject_t1113636619 * L_0 = __this->get_mainCamera_8();
 		DepthOfField_t300342762 * L_1 = GameObject_GetComponent_TisDepthOfField_t300342762_m362718722(L_0, /*hidden argument*/GameObject_GetComponent_TisDepthOfField_t300342762_m362718722_RuntimeMethod_var);
 		float L_2 = L_1->get_focalDistance_3();
 		__this->set_DoF_2(L_2);
-		GameObject_t1113636619 * L_3 = __this->get_mainCamera_5();
+		GameObject_t1113636619 * L_3 = __this->get_mainCamera_8();
 		DepthOfField_t300342762 * L_4 = GameObject_GetComponent_TisDepthOfField_t300342762_m362718722(L_3, /*hidden argument*/GameObject_GetComponent_TisDepthOfField_t300342762_m362718722_RuntimeMethod_var);
 		float L_5 = L_4->get_aperture_4();
 		__this->set_ArP_3(L_5);
-		GameObject_t1113636619 * L_6 = __this->get_mainCamera_5();
-		DepthOfField_t300342762 * L_7 = GameObject_GetComponent_TisDepthOfField_t300342762_m362718722(L_6, /*hidden argument*/GameObject_GetComponent_TisDepthOfField_t300342762_m362718722_RuntimeMethod_var);
-		float L_8 = L_7->get_focalDistance_3();
-		if ((!(((float)L_8) < ((float)(2.4f)))))
+		float L_6 = __this->get_time_7();
+		float L_7 = __this->get_delay_6();
+		if ((!(((float)L_6) < ((float)L_7))))
 		{
-			goto IL_0084;
+			goto IL_005c;
 		}
 	}
 	{
-		float L_9 = __this->get_DoF_2();
-		float L_10 = __this->get_incrementor_4();
-		float L_11 = ((float)il2cpp_codegen_add((float)L_9, (float)((float)il2cpp_codegen_multiply((float)((float)((float)L_10/(float)(10000.0f))), (float)(6.0f)))));
-		V_0 = L_11;
-		__this->set_DoF_2(L_11);
-		float L_12 = V_0;
-		__this->set_DoF_2(L_12);
-		GameObject_t1113636619 * L_13 = __this->get_mainCamera_5();
-		DepthOfField_t300342762 * L_14 = GameObject_GetComponent_TisDepthOfField_t300342762_m362718722(L_13, /*hidden argument*/GameObject_GetComponent_TisDepthOfField_t300342762_m362718722_RuntimeMethod_var);
-		float L_15 = __this->get_DoF_2();
-		L_14->set_focalDistance_3(L_15);
+		float L_8 = __this->get_time_7();
+		float L_9 = __this->get_timeIncrementor_5();
+		__this->set_time_7(((float)il2cpp_codegen_add((float)L_8, (float)((float)il2cpp_codegen_multiply((float)((float)((float)L_9/(float)(10000.0f))), (float)(12.0f))))));
 	}
 
-IL_0084:
+IL_005c:
+	{
+		GameObject_t1113636619 * L_10 = __this->get_mainCamera_8();
+		DepthOfField_t300342762 * L_11 = GameObject_GetComponent_TisDepthOfField_t300342762_m362718722(L_10, /*hidden argument*/GameObject_GetComponent_TisDepthOfField_t300342762_m362718722_RuntimeMethod_var);
+		float L_12 = L_11->get_focalDistance_3();
+		if ((!(((float)L_12) < ((float)(2.4f)))))
+		{
+			goto IL_00c5;
+		}
+	}
+	{
+		float L_13 = __this->get_time_7();
+		float L_14 = __this->get_delay_6();
+		if ((!(((float)L_13) >= ((float)L_14))))
+		{
+			goto IL_00c5;
+		}
+	}
+	{
+		float L_15 = __this->get_DoF_2();
+		float L_16 = __this->get_incrementor_4();
+		float L_17 = ((float)il2cpp_codegen_add((float)L_15, (float)((float)il2cpp_codegen_multiply((float)((float)((float)L_16/(float)(10000.0f))), (float)(12.0f)))));
+		V_0 = L_17;
+		__this->set_DoF_2(L_17);
+		float L_18 = V_0;
+		__this->set_DoF_2(L_18);
+		GameObject_t1113636619 * L_19 = __this->get_mainCamera_8();
+		DepthOfField_t300342762 * L_20 = GameObject_GetComponent_TisDepthOfField_t300342762_m362718722(L_19, /*hidden argument*/GameObject_GetComponent_TisDepthOfField_t300342762_m362718722_RuntimeMethod_var);
+		float L_21 = __this->get_DoF_2();
+		L_20->set_focalDistance_3(L_21);
+	}
+
+IL_00c5:
 	{
 		return;
 	}

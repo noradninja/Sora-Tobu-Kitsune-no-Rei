@@ -23,6 +23,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+cc70b44a4e3497be9738c0d43ed3b67c Assembly-CSharp.dll:.FXAA
 101f180d13324960193c6e6f3d7a82a6 Assembly-CSharp.dll:.SceneLoadTrigger
 d720d104ba371072094e66111bc68ea5 Assembly-CSharp.dll:.Follow_Player
 dcf3ed76442c48e3a57dd27e6f2fecc5 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.NeighboringScenes
@@ -303,10 +304,9 @@ af7666733efcc974926d7d470e1732a6 Assembly-CSharp.dll:TMPro.Examples.SkewTextExam
 9ddca358d43be23a49fd9081d8c549c9 Assembly-CSharp.dll:.Bullet
 9aa1376c8b9823ae6852e98d608a3c05 Assembly-CSharp.dll:WayPoint.WaypointData
 2644d057f63d93704a3f0a5fca484633 Assembly-CSharp.dll:.Waypoint
-2c9033121c0834aa6311eb70e7ebba26 Assembly-CSharp.dll:.Title_DoF_Animator
+ccf46ea869884024addfe9fba6c985b2 Assembly-CSharp.dll:.Title_DoF_Animator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Touch
 89f29e3cc4b6eeee528661845ba3f177 Assembly-CSharp.dll:.AutoRotate
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 f8f1c341c82c3a48504f430c7d4c9c67 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.FPSWalkerEnhanced
-cc70b44a4e3497be9738c0d43ed3b67c Assembly-CSharp.dll:.FXAA

@@ -4550,8 +4550,14 @@ public:
 	float ___ArP_3;
 	// System.Single Title_DoF_Animator::incrementor
 	float ___incrementor_4;
+	// System.Single Title_DoF_Animator::timeIncrementor
+	float ___timeIncrementor_5;
+	// System.Single Title_DoF_Animator::delay
+	float ___delay_6;
+	// System.Single Title_DoF_Animator::time
+	float ___time_7;
 	// UnityEngine.GameObject Title_DoF_Animator::mainCamera
-	GameObject_t1113636619 * ___mainCamera_5;
+	GameObject_t1113636619 * ___mainCamera_8;
 
 public:
 	inline static int32_t get_offset_of_DoF_2() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___DoF_2)); }
@@ -4578,13 +4584,37 @@ public:
 		___incrementor_4 = value;
 	}
 
-	inline static int32_t get_offset_of_mainCamera_5() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___mainCamera_5)); }
-	inline GameObject_t1113636619 * get_mainCamera_5() const { return ___mainCamera_5; }
-	inline GameObject_t1113636619 ** get_address_of_mainCamera_5() { return &___mainCamera_5; }
-	inline void set_mainCamera_5(GameObject_t1113636619 * value)
+	inline static int32_t get_offset_of_timeIncrementor_5() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___timeIncrementor_5)); }
+	inline float get_timeIncrementor_5() const { return ___timeIncrementor_5; }
+	inline float* get_address_of_timeIncrementor_5() { return &___timeIncrementor_5; }
+	inline void set_timeIncrementor_5(float value)
 	{
-		___mainCamera_5 = value;
-		Il2CppCodeGenWriteBarrier((&___mainCamera_5), value);
+		___timeIncrementor_5 = value;
+	}
+
+	inline static int32_t get_offset_of_delay_6() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___delay_6)); }
+	inline float get_delay_6() const { return ___delay_6; }
+	inline float* get_address_of_delay_6() { return &___delay_6; }
+	inline void set_delay_6(float value)
+	{
+		___delay_6 = value;
+	}
+
+	inline static int32_t get_offset_of_time_7() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___time_7)); }
+	inline float get_time_7() const { return ___time_7; }
+	inline float* get_address_of_time_7() { return &___time_7; }
+	inline void set_time_7(float value)
+	{
+		___time_7 = value;
+	}
+
+	inline static int32_t get_offset_of_mainCamera_8() { return static_cast<int32_t>(offsetof(Title_DoF_Animator_t3804621630, ___mainCamera_8)); }
+	inline GameObject_t1113636619 * get_mainCamera_8() const { return ___mainCamera_8; }
+	inline GameObject_t1113636619 ** get_address_of_mainCamera_8() { return &___mainCamera_8; }
+	inline void set_mainCamera_8(GameObject_t1113636619 * value)
+	{
+		___mainCamera_8 = value;
+		Il2CppCodeGenWriteBarrier((&___mainCamera_8), value);
 	}
 };
 
@@ -11237,12 +11267,15 @@ extern const int32_t g_FieldOffsetTable2176[5] =
 	U3CPlayU3Ec__Iterator1_t2316854480::get_offset_of_U24PC_4(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2177 = { sizeof (Title_DoF_Animator_t3804621630), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2177[4] = 
+extern const int32_t g_FieldOffsetTable2177[7] = 
 {
 	Title_DoF_Animator_t3804621630::get_offset_of_DoF_2(),
 	Title_DoF_Animator_t3804621630::get_offset_of_ArP_3(),
 	Title_DoF_Animator_t3804621630::get_offset_of_incrementor_4(),
-	Title_DoF_Animator_t3804621630::get_offset_of_mainCamera_5(),
+	Title_DoF_Animator_t3804621630::get_offset_of_timeIncrementor_5(),
+	Title_DoF_Animator_t3804621630::get_offset_of_delay_6(),
+	Title_DoF_Animator_t3804621630::get_offset_of_time_7(),
+	Title_DoF_Animator_t3804621630::get_offset_of_mainCamera_8(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2178 = { sizeof (WaypointAgent_t2735810886), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2178[12] = 
