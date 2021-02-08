@@ -56,7 +56,7 @@ public class FireControl : MonoBehaviour {
     }
 
 	// called in Update for tracking targets
-    private void targetingSystem()
+    void targetingSystem()
     {
         // update needed positions
         playerLocation = GameObject.Find("ShootPoint").transform.position;

@@ -154,6 +154,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{65736AFC-DAAB-00E1-8FFA-83C755B9B5C3}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="AmplifyShaderEditor.Samples.BuiltIn.csproj">
+      <Project>{EB820720-97FE-1B01-ABB2-296165E77516}</Project>      <Name>AmplifyShaderEditor.Samples.BuiltIn</Name>    </ProjectReference>
     <ProjectReference Include="AmplifyShaderEditor.csproj">
       <Project>{BECF4721-3CE7-9924-2B1C-58CA2268DE42}</Project>      <Name>AmplifyShaderEditor</Name>    </ProjectReference>
   </ItemGroup>

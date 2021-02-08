@@ -171,6 +171,7 @@
      <None Include="Assets\Addons\Fullscreen Effects\FXAA\FXAA.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\MangaSpeedLine\MangaSpeedLine.shader" />
      <None Include="Assets\DepthOfField\Shaders\DepthCG.cginc" />
+     <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\SimpleUnlit.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\DepthOfField\Example\Shaders\DiffuseSurfaceExample.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Background.shader" />
@@ -223,10 +224,12 @@
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Blackboard.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Ascii.shader" />
      <None Include="Assets\DepthOfField\Example\Shaders\SpecularSurfaceExample.shader" />
+     <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\DayNightSB.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Halftone.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\MosaicDiamond.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\BluePrint.shader" />
      <None Include="Assets\Addons\Scene Streamer\_README.txt" />
+     <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\UnlitMaskCheck.shader" />
      <None Include="Assets\DepthOfField\Example\Shaders\UnityBuiltin2xTreeLibrary.cginc" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\MosaicWindmill.shader" />
      <None Include="Assets\Addons\SimplestMeshBaker\Readme.txt" />
@@ -278,6 +281,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AmplifyShaderEditor.Samples.BuiltIn.csproj">
+      <Project>{EB820720-97FE-1B01-ABB2-296165E77516}</Project>      <Name>AmplifyShaderEditor.Samples.BuiltIn</Name>    </ProjectReference>
     <ProjectReference Include="AmplifyShaderEditor.csproj">
       <Project>{BECF4721-3CE7-9924-2B1C-58CA2268DE42}</Project>      <Name>AmplifyShaderEditor</Name>    </ProjectReference>
   </ItemGroup>

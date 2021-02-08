@@ -17,6 +17,7 @@ public class Bullet : MonoBehaviour {
 	public float speed=6.0f;
 	public int lifespan = 180;
 	public Component FireController;
+	private GameObject checkHit;
 
 
 	// Use this for initialization
@@ -26,56 +27,25 @@ public class Bullet : MonoBehaviour {
 		Vector3 position = Reticle.transform.position;
 		reticleX = position.x;
 		reticleY = position.y;
-		Ray[] raysx = new Ray[16];
-		//Ray[] negraysx = new Ray[16]; 
-		Ray[] raysy = new Ray[16];
-		//Ray[] negraysy = new Ray[16]; 
 		noTarget = Camera.main.ScreenToWorldPoint (new Vector3 (reticleX, reticleY, Camera.main.farClipPlane));
 
-		for (int i=1; i<16; i ++){
+		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 
-			raysx [i] = Camera.main.ScreenPointToRay (new Vector3 (reticleX + i, reticleY, 0));
-
-			if (Physics.Raycast (raysx[i], out hit, 45)) {
-				Debug.DrawRay (raysx[i].origin,	 raysx[i].direction * 45, Color.yellow);
-				if (hit.transform.tag == "Enemy") {
-					target = GameObject.Find (hit.transform.name);
-				}
-			}
-		}	
-		for (int j=1; j<16; j ++){
-
-			raysy [j] = Camera.main.ScreenPointToRay (new Vector3 (reticleX, reticleY + j, 0));
-
-			if (Physics.Raycast (raysy[j], out hit, 45)) {
-				Debug.DrawRay (raysy[j].origin, raysy[j].direction * 45, Color.yellow);
-				if (hit.transform.tag == "Enemy") {
-					target = GameObject.Find (hit.transform.name);
-				}
-			}
-		}	
-		for (int k=1; k<16; k ++){
-
-			raysx [k] = Camera.main.ScreenPointToRay (new Vector3 (reticleX - k, reticleY, 0));
-
-			if (Physics.Raycast (raysx[k], out hit, 45)) {
-				Debug.DrawRay (raysx[k].origin, raysx[k].direction * 45, Color.yellow);
-				if (hit.transform.tag == "Enemy") {
-					target = GameObject.Find (hit.transform.name);
-				}
-			}
-		}	
-		for (int l=1; l<16; l ++){
-
-			raysy [l] = Camera.main.ScreenPointToRay (new Vector3 (reticleX, reticleY - l, 0));
-
-			if (Physics.Raycast (raysy[l], out hit, 45)) {
-				Debug.DrawRay (raysy[l].origin, raysy[l].direction * 45, Color.yellow);
-				if (hit.transform.tag == "Enemy") {
-					target = GameObject.Find (hit.transform.name);
-				}
-			}
-		}	
+        // set up targeting ray
+        Ray targetingRay = new Ray();
+        // cast ray from camera through location of targeting reticle sprite
+        targetingRay = Camera.main.ScreenPointToRay(new Vector3(reticleX, reticleY, 0));
+        // draw for debug purposes
+        Debug.DrawRay(targetingRay.origin, targetingRay.direction * 45f, Color.yellow);
+        // cast a sphere along the length of the ray
+        if (Physics.SphereCast(targetingRay, 0.5f, out hit, 45f, maskLayer))
+        {
+            // get the name of the object we hit
+        	checkHit = GameObject.Find(hit.transform.name);
+                print("There is a new collision with " + checkHit.transform.name + " in front of the reticle!");
+                // make the enemy a target for a missile
+               target = checkHit;
+        }
 	}
 		
 	// Update is called once per frame
@@ -93,13 +63,10 @@ public class Bullet : MonoBehaviour {
 			//Destroy (gameObject);
 			return;
 		}
-		if (target.transform.tag == "Enemy") {
+		if (target == checkHit) {
 			transform.position = Vector3.MoveTowards (transform.position, target.transform.position, step);
-		} else if (target.transform.tag == "Enviro") {
-			transform.position = Vector3.MoveTowards (transform.position, noTarget, step);
-		} else {
-			transform.position = Vector3.MoveTowards (transform.position, noTarget, step);
-		}
+		} 
+		else transform.position = Vector3.MoveTowards (transform.position, noTarget, step);
 		}
 	}
 

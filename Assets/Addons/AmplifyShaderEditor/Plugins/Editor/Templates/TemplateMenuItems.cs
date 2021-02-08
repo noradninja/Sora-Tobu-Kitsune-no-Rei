@@ -51,50 +51,10 @@ namespace AmplifyShaderEditor
 		{
 			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "ed95fe726fd7b4644bb42f4d1ddd2bcd" );
 		}
-		[MenuItem( "Assets/Create/Amplify Shader/Templates/Legacy/DefaultUnlit", false, 85 )]
-		public static void ApplyTemplateTemplatesLegacyDefaultUnlit()
+		[MenuItem( "Assets/Create/Amplify Shader/Legacy/Samples/DoublePassUnlit", false, 85 )]
+		public static void ApplyTemplateLegacySamplesDoublePassUnlit()
 		{
-			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "c619d9d0967a1d248bfa61914b9df47e" );
-		}
-		[MenuItem( "Assets/Create/Amplify Shader/Legacy/Lit 1", false, 85 )]
-		public static void ApplyTemplateLegacyLit1()
-		{
-			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "36fb95776f8808f4db8de33b2ed7391b" );
-		}
-		[MenuItem( "Assets/Create/Amplify Shader/Templates/Legacy/Multi Pass Unlit", false, 85 )]
-		public static void ApplyTemplateTemplatesLegacyMultiPassUnlit()
-		{
-			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "ea682b0f820423c47aac89332269b338" );
-		}
-		[MenuItem( "Assets/Create/Amplify Shader/Templates/Legacy/Particles Alpha Blended", false, 85 )]
-		public static void ApplyTemplateTemplatesLegacyParticlesAlphaBlended()
-		{
-			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "d37a0998654aabd4f8ec936b553b9e61" );
-		}
-		[MenuItem( "Assets/Create/Amplify Shader/Templates/Legacy/PostProcess", false, 85 )]
-		public static void ApplyTemplateTemplatesLegacyPostProcess()
-		{
-			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "ec4a7467ca52eca4f858b13b5a91b0dc" );
-		}
-		[MenuItem( "Assets/Create/Amplify Shader/Templates/Legacy/Sprites Default", false, 85 )]
-		public static void ApplyTemplateTemplatesLegacySpritesDefault()
-		{
-			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "ec2699b0112c5dd4cb2e0aad8597f791" );
-		}
-		[MenuItem( "Assets/Create/Amplify Shader/Templates/Legacy/UIDefault", false, 85 )]
-		public static void ApplyTemplateTemplatesLegacyUIDefault()
-		{
-			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "5ef20e6c868d4c246bf64c99a49bd0a7" );
-		}
-		[MenuItem( "Assets/Create/Amplify Shader/Templates/Unlit", false, 85 )]
-		public static void ApplyTemplateTemplatesUnlit()
-		{
-			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "c2bcf0f4e8569ba468e026d3bc95d42a" );
-		}
-		[MenuItem( "Assets/Create/Amplify Shader/Templates/Legacy/UnlitLightmap", false, 85 )]
-		public static void ApplyTemplateTemplatesLegacyUnlitLightmap()
-		{
-			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "f9b65beaa66dbd54897b8685b966b24c" );
+			AmplifyShaderEditorWindow.CreateConfirmationTemplateShader( "003dfa9c16768d048b74f75c088119d8" );
 		}
 	}
 }
