@@ -12,6 +12,7 @@
 		Cull Off ZWrite Off ZTest Always
 		CGINCLUDE
 			#include "UnityCG.cginc"
+			#pragma fragmentoption ARB_precision_hint_fastest
 
 			struct v2f
 			{
@@ -51,6 +52,7 @@
 			CGPROGRAM
 			#pragma vertex vert_img
 			#pragma fragment frag
+			#pragma fragmentoption ARB_precision_hint_fastest
 			float _EdgeSize, _EdgePower;
 
 			fixed4 frag (v2f_img i) : COLOR

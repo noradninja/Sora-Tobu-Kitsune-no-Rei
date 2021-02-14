@@ -105,6 +105,11 @@
      <Compile Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\DepthOfField\Scripts\DepthOfField.cs" />
      <Compile Include="Assets\Line.cs" />
+     <Compile Include="Assets\SonyExamples\Utils\IScreen.cs" />
+     <Compile Include="Assets\SonyExamples\Utils\MenuLayout.cs" />
+     <Compile Include="Assets\SonyExamples\Utils\MenuStack.cs" />
+     <Compile Include="Assets\SonyExamples\Utils\OnScreenLog.cs" />
+     <Compile Include="Assets\SonyExamples\Vita\SystemSettings\Scripts\SonyVitaSystemSettings.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\3D Skybox\Parallax_BG.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\AimToggler.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Actor.cs" />
@@ -232,6 +237,7 @@
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\UnlitMaskCheck.shader" />
      <None Include="Assets\DepthOfField\Example\Shaders\UnityBuiltin2xTreeLibrary.cginc" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\MosaicWindmill.shader" />
+     <None Include="Assets\SonyExamples\Vita\SystemSettings\SonyVitaSystemSettingsReadme.txt" />
      <None Include="Assets\Addons\SimplestMeshBaker\Readme.txt" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Cmyk Halftone.shader" />
  <Reference Include="UnityEngine.UI">
@@ -266,6 +272,9 @@
  </Reference>
  <Reference Include="TextMeshPro-2017.3-Runtime">
  <HintPath>C:/PSVITA/Sora-Tobu-Kitsune-no-Rei/Assets/Addons/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SonyVitaSystemSettings">
+ <HintPath>C:/PSVITA/Sora-Tobu-Kitsune-no-Rei/Assets/SonyAssemblies/SonyVitaSystemSettings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.4/UnityEngine.Advertisements.dll</HintPath>

@@ -20,11 +20,10 @@ public class DepthOfField : MonoBehaviour {
   public Material material;
 
   private RenderTexture GetTemporaryTexture(int width, int height) {
-    RenderTexture temporaryTexture = RenderTexture.GetTemporary(width, height, 0, RenderTextureFormat.Default);//changes RenderTextureFormat to Default, better on Vita than RGBA32
+    RenderTexture temporaryTexture = RenderTexture.GetTemporary(width, height, 0, RenderTextureFormat.Default);
     temporaryTexture.wrapMode = TextureWrapMode.Clamp;
-    temporaryTexture.anisoLevel = 0;
-    temporaryTexture.antiAliasing = 1;
-    temporaryTexture.isPowerOfTwo = false; //disable PoT texture for this effect- was forcing a 1024x1024 texture for the screen which is slow on Vita due to rendering clipped pixels
+    // temporaryTexture.useMipMap = false;
+    temporaryTexture.isPowerOfTwo = false;
     temporaryTexture.filterMode = FilterMode.Bilinear;
     return temporaryTexture;
   }
@@ -55,7 +54,7 @@ public class DepthOfField : MonoBehaviour {
       return;
     }
 
-      int scale = 1; // Multiply downsampleFactor by 2 to compensate for retina if you use this on iOS
+    int scale = Screen.dpi >= 220 ? 2 : 1; // Multiply downsampleFactor by scale to compensate for retina
 
     int temporaryWidth = (Screen.width / (downsampleFactor * scale));
     int temporaryHeight = (Screen.height / (downsampleFactor * scale));
@@ -67,9 +66,9 @@ public class DepthOfField : MonoBehaviour {
 
     // Create temporary textures
     var grabTextureA = GetTemporaryTexture(temporaryWidth, temporaryHeight);
-    var grabTextureB = GetTemporaryTexture(temporaryWidth / 1, temporaryHeight / 1);
-    var grabTextureC = GetTemporaryTexture(temporaryWidth / 1, temporaryHeight / 1);
-    var grabTextureD = GetTemporaryTexture(temporaryWidth / 1, temporaryHeight / 1);
+    var grabTextureB = GetTemporaryTexture(temporaryWidth / 2, temporaryHeight / 2);
+    var grabTextureC = GetTemporaryTexture(temporaryWidth / 4, temporaryHeight / 4);
+    var grabTextureD = GetTemporaryTexture(temporaryWidth / 2, temporaryHeight / 2);
 
     // Pass in textures
     material.SetTexture("_GrabTextureB", grabTextureB);

@@ -6,7 +6,7 @@ namespace NprPaintFilter
 	[ExecuteInEditMode]
 	public class FiltersController : MonoBehaviour
 	{
-		public RenderTexture FinalTex;
+		//public RenderTexture FinalTex;
 		public enum EFilter {
 			None,
 			WaterColor 
@@ -35,7 +35,7 @@ namespace NprPaintFilter
 						rt0.anisoLevel = 0;
 		
 						rt0.isPowerOfTwo = false; //disable PoT texture for this effect- was forcing a 1024x1024 texture for the screen which is slow on Vita due to rendering clipped pixels
-						rt0.filterMode = FilterMode.Bilinear;
+						rt0.filterMode = FilterMode.Point;
 						return rt0;
 					}
 		void Start ()

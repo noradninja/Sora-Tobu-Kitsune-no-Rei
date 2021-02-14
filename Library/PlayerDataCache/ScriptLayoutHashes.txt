@@ -28,7 +28,7 @@ cc70b44a4e3497be9738c0d43ed3b67c Assembly-CSharp.dll:.FXAA
 d720d104ba371072094e66111bc68ea5 Assembly-CSharp.dll:.Follow_Player
 dcf3ed76442c48e3a57dd27e6f2fecc5 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.NeighboringScenes
 735e690453415b4dd8f1049b6e2df406 Assembly-CSharp.dll:.FreeCamera
-ae23f0d062326c58541e9c2f54bac13c Assembly-CSharp.dll:NprPaintFilter.FiltersController
+847aeeb7ab45b2ea8d8b8802c2699066 Assembly-CSharp.dll:NprPaintFilter.FiltersController
 2c4d995b37281b9f843061903b90cfcb Assembly-CSharp.dll:.GameOverButtons
 5be477358093a9e3773daac9e564f5d6 Assembly-CSharp.dll:.Joystick_Target
 83a1b236ee280dc0e3e8ff29fce154e3 Assembly-CSharp.dll:.OnNextLevel
@@ -68,6 +68,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+05524b8f659e7bfe5756d1335fec24ba AmplifyShaderEditor.Samples.BuiltIn.dll:TFHC_Shader_Samples.highlightAnimated
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -100,14 +101,16 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+b1a33f5780d6e504036e7f0c6c178ea1 AmplifyShaderEditor.Samples.BuiltIn.dll:TFHC_ForceShield_Shader_Sample.ForceShieldShootBall
 6a492d7b8465b2c00d15794caa46ec2e Assembly-CSharp.dll:TMPro.Examples.TMPro_InstructionOverlay
 8733a24c22910ccab9c11e0cc322872d Assembly-CSharp.dll:.TitleScreenButtons
 1325774eb0bc8170cf2cf63e3ed27df6 Assembly-CSharp.dll:.ContourDrawing
 a049a5041924f75c612e817908652940 Assembly-CSharp.dll:.AimToggler
-7262ae179c0f7e95aae2820048a26943 Assembly-CSharp.dll:.ResolutionSetter
+a6846c3a84b1f14d923b82251b1dc9b4 Assembly-CSharp.dll:.ResolutionSetter
 765037da3d8faeee91e39d672b924c61 Assembly-CSharp.dll:.EnvMapAnimator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bullet_Destroyer
 9d998475649a9a5c1d04a38ebea8637f Assembly-CSharp.dll:.CameraFacingBillboard
+05524b8f659e7bfe5756d1335fec24ba AmplifyShaderEditor.Samples.BuiltIn.dll:TFHC_ForceShield_Shader_Sample.ForceShieldImpactDetection
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -144,6 +147,7 @@ d4aa9301235ddaf552134fdc6fdf3b90 Assembly-CSharp.dll:.VitaRenderTexturePlayback
 53caac406dac7d06e9c253a30fe84a34 Assembly-CSharp.dll:.BuildSetup
 c5e40bfb2eef7716060c741cf93c2fd2 Assembly-CSharp.dll:.DepthOfField
 1957a9369e72d2661ae9d0de26e7d064 Assembly-CSharp.dll:TMPro.Examples.WarpTextExample
+c55f73f8f1562b6824faf4063dd4b0fd AmplifyShaderEditor.Samples.BuiltIn.dll:TFHC_ForceShield_Shader_Sample.ForceShieldDestroyBall
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:NprPaintFilter.BlackboardObject
 f4bd1aee67eeef7953cce6c44588b3d7 TextMeshPro-2017.3-Runtime.dll:TMPro.TextContainer
 bf22e89fa4b77e86d45d7ae313079474 TextMeshPro-2017.3-Runtime.dll:TMPro.TextMeshPro
@@ -172,6 +176,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BounceScaleAwake
 50a0fa002cfc67638c87a901e46b763e Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_B
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClearPlayerPrefs
+77fadc14e2399d4e021f2635e54681b8 AmplifyShaderEditor.Samples.BuiltIn.dll:.PlaneClip
 a67426b1d196d552ee8bf5aab64b5a7d Assembly-CSharp.dll:.OptionsManagerInputs
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.Benchmark03
 b9332c0eee630779376843b5343eb250 Assembly-CSharp.dll:TMPro.Examples.TMP_TextInfoDebugTool
@@ -197,6 +202,7 @@ b900ead596b2fb1093b31cb63a678767 Assembly-CSharp.dll:TMPro.Examples.TextMeshProF
 959bd7b567fca81937238fe8d9921a51 Assembly-CSharp.dll:NprPaintFilter.Demo
 373eaa321c3e55931967052630f0b131 Assembly-CSharp.dll:.CPC_CameraPath
 a67426b1d196d552ee8bf5aab64b5a7d Assembly-CSharp.dll:.TitleScreenOptionsManager
+05524b8f659e7bfe5756d1335fec24ba AmplifyShaderEditor.Samples.BuiltIn.dll:.Pixelize
 dad1c1272dfe1898bb613dcb2631bcce Assembly-CSharp.dll:TMPro.Examples.Benchmark02
 05524b8f659e7bfe5756d1335fec24ba TextMeshPro-2017.3-Editor.dll:TMPro.EditorUtilities.DropdownEditor
 05524b8f659e7bfe5756d1335fec24ba TextMeshPro-2017.3-Editor.dll:TMPro.EditorUtilities.TMP_ColorGradientEditor
@@ -216,6 +222,7 @@ a8ed45ab553b07236625df6cc6ac449c TextMeshPro-2017.3-Editor.dll:TMPro.EditorUtili
 05524b8f659e7bfe5756d1335fec24ba TextMeshPro-2017.3-Editor.dll:TMPro.EditorUtilities.TMPro_TextContainerEditor
 d538a6fe900875625ba0efe59835c53e Assembly-CSharp.dll:.Parallax_BG
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.TMP_DigitValidator
+4beb1950b0f102b2eff82f55a62cb94d AmplifyShaderEditor.Samples.BuiltIn.dll:.Smear
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ObjectFader
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.TeleType
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Reloader
@@ -231,6 +238,8 @@ e81aca78fd31daeaad78aecfd3649126 Assembly-CSharp.dll:.FireControl
 b8f04bdad423045528c67dfa4c3dca0d Assembly-CSharp.dll:TMPro.Examples.VertexShakeA
 72fe19725df76656cb1f8a12b161761f Assembly-CSharp.dll:.PlayerMoveJump
 2e53a33676aca83c8cc108e1967e35f1 Assembly-CSharp.dll:WayPoint.WaypointManager
+8fb2adfa0c6b07a1cc61b4a9d4728af9 AmplifyShaderEditor.Samples.BuiltIn.dll:.PostProcessExample
+16db926c938cd2d3028fdb8e7ad59ac2 AmplifyShaderEditor.Samples.BuiltIn.dll:.SimpleGPUInstancingExample
 df587c9dca955edc08baa7d1a685977f Assembly-CSharp.dll:.BG_Layer_Shift
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -248,11 +257,13 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 7dad59e39fb327268940fe467452fef3 Assembly-CSharp.dll:.BG_Parallax
 1f33cd59bd2b3ee83b0b9c84658a688b Assembly-CSharp.dll:.Rotation
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SonyVitaSystemSettings
 64e375fc557dc8eeaf853a9fc4b5b299 Assembly-CSharp.dll:.Buttons
 061469590548733e3ab6b2cead128abd Assembly-CSharp.dll:.AudioManager
 6de00ce5ed0bfe830a219a93e06354c6 Assembly-CSharp.dll:NPRContourDrawing.MultiPass.Demo
 83a1b236ee280dc0e3e8ff29fce154e3 Assembly-CSharp.dll:.OnGameOver
 ff25a1ea3304957a29570ffa182a982e Assembly-CSharp.dll:.OutlinePost
+172a8a45e7570c4d3d974240012ec095 AmplifyShaderEditor.Samples.BuiltIn.dll:.SimpleMoveExample
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -271,6 +282,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 730283abd5811ca53cdde8a9471a4e4b Assembly-CSharp.dll:.FadeIn
+48af82586e38789ced7fdf051ee0822a AmplifyShaderEditor.Samples.BuiltIn.dll:.VolumetricSphere
 f0f0ab6b8a39d0572cfa4ea315d84fbf Assembly-CSharp.dll:TMPro.Examples.Benchmark04
 29273f491d11f6bdd02a43a9d8df84c7 Assembly-CSharp.dll:TMPro.Examples.TMP_ExampleScript_01
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -289,9 +301,11 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 68d44bb8382f48891c1e7a907be985b4 Assembly-CSharp.dll:.Fadeout
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexShakeB
 935b8b1851edc7fb433fe37dd2f416b1 Assembly-CSharp.dll:.FadeMe
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OnScreenLog
 f0c2ee7f86f51430df3294122dfc5ab1 Assembly-CSharp.dll:.TitleSaveManagerInputs
 6826e26f7cc718f870001971f13e79c7 Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.VertexColorCycler
+05524b8f659e7bfe5756d1335fec24ba AmplifyShaderEditor.Samples.BuiltIn.dll:.SpriteMaskController
 d720d104ba371072094e66111bc68ea5 Assembly-CSharp.dll:.FollowPlayerwithRotation
 22d0936cb538dc6053295cc40731687c Assembly-CSharp.dll:.Line
 7f02f6232042a5fbfd728a90ec4de85b Assembly-CSharp.dll:.MenuManagerInputs

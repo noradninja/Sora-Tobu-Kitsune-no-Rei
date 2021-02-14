@@ -186,6 +186,24 @@ ModelImporter:
     100356: FR
     100358: RL
     100360: RR
+    100362: cluster1Handle
+    100364: cluster2Handle
+    100366: cluster3Handle
+    100368: group1
+    100370: group2
+    100372: group3
+    100374: L_Tail
+    100376: Lt_Tail_Ctrl
+    100378: Lt_Tail_Ctrl_Base
+    100380: Mid_Tail
+    100382: Mid_Tail_Ctrl
+    100384: Mid_Tail_Ctrl_Base
+    100386: R_Tail
+    100388: Root_Joint
+    100390: Rt_Tail_Ctrl
+    100392: Rt_Tail_Ctrl_Base
+    100394: Tail_Jt_A1
+    100396: Tail_Jt_A2
     400000: A_Front_Hip_Jt
     400002: B01
     400004: B02
@@ -367,10 +385,31 @@ ModelImporter:
     400356: FR
     400358: RL
     400360: RR
+    400362: cluster1Handle
+    400364: cluster2Handle
+    400366: cluster3Handle
+    400368: group1
+    400370: group2
+    400372: group3
+    400374: L_Tail
+    400376: Lt_Tail_Ctrl
+    400378: Lt_Tail_Ctrl_Base
+    400380: Mid_Tail
+    400382: Mid_Tail_Ctrl
+    400384: Mid_Tail_Ctrl_Base
+    400386: R_Tail
+    400388: Root_Joint
+    400390: Rt_Tail_Ctrl
+    400392: Rt_Tail_Ctrl_Base
+    400394: Tail_Jt_A1
+    400396: Tail_Jt_A2
     2100000: Fox_Rigged_lambert2
     2100002: Fox_Rigged_0056_Fox_Rigged_lambert2
+    2100004: lambert1
     2300000: Fox_Mesh
+    2300002: Rigged_Fox
     3300000: Fox_Mesh
+    3300002: Rigged_Fox
     4300000: Fox_Mesh
     4300002: polySurface80Shape
     4300004: polySurface115
@@ -393,20 +432,20 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 1
-    resampleCurves: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: <Root Transform>
+    motionNodeName: Root_Joint
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
+    importAnimatedCustomProperties: 1
     animationCompression: 0
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: 0.1
+    animationPositionError: 0.1
+    animationScaleError: 0.1
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
@@ -414,8 +453,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Run
       takeName: Take 001
-      firstFrame: 0
-      lastFrame: 97
+      firstFrame: 31
+      lastFrame: 130
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -442,20 +481,20 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
-    meshCompression: 3
+    globalScale: 12
+    meshCompression: 0
     addColliders: 0
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
-    weldVertices: 1
-    preserveHierarchy: 0
+    weldVertices: 0
+    preserveHierarchy: 1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -463,10 +502,10 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 180
+    normalSmoothAngle: 90
     normalImportMode: 0
     tangentImportMode: 0
-    normalCalculationMode: 4
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -480,7 +519,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: b_Root
+    rootMotionBoneName: Root_Joint
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1

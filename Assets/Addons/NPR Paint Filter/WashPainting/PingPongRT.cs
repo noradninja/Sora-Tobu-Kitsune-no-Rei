@@ -18,7 +18,7 @@ namespace NprPaintFilter
 
 			for (int i = 0; i < 2; i++)
 			{
-				m_Buffers[i] = new RenderTexture(w, h, 0, RenderTextureFormat.ARGBFloat);
+				m_Buffers[i] = new RenderTexture(w, h, 0, RenderTextureFormat.Default);
 				m_Buffers[i].hideFlags  = HideFlags.DontSave;
 				m_Buffers[i].filterMode = FilterMode.Point;
 				m_Buffers[i].wrapMode   = TextureWrapMode.Repeat;
