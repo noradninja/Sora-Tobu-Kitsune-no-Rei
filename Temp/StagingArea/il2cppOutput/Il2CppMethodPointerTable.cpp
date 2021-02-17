@@ -8586,6 +8586,7 @@ extern "C" void PropertyName_ToString_m3328159423_AdjustorThunk ();
 extern "C" void PropertyNameUtils_PropertyNameFromString_m3719796130 ();
 extern "C" void PropertyNameUtils_PropertyNameFromString_Injected_m1259736140 ();
 extern "C" void PSVitaVideoPlayer_Play_m439140063 ();
+extern "C" void PSVitaVideoPlayer_TransferMemToHeap_m3307362304 ();
 extern "C" void PSVitaVideoPlayer_Init_m2659996897 ();
 extern "C" void PSVitaVideoPlayer_Update_m3897723372 ();
 extern "C" void QualitySettings_get_activeColorSpace_m2902748248 ();
@@ -12649,6 +12650,8 @@ extern "C" void GetResolution_Update_m2847888505 ();
 extern "C" void HealthBar__ctor_m478465810 ();
 extern "C" void HealthBar_Start_m1393300404 ();
 extern "C" void HealthBar_Update_m3256225700 ();
+extern "C" void HeapAllocator__ctor_m4091207571 ();
+extern "C" void HeapAllocator_Awake_m3377598147 ();
 extern "C" void HintList__ctor_m1693648247 ();
 extern "C" void Joystick_Target__ctor_m3731848802 ();
 extern "C" void Joystick_Target_Start_m1400747374 ();
@@ -13341,7 +13344,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13323] = 
+extern const Il2CppMethodPointer g_MethodPointers[13326] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -21911,6 +21914,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13323] =
 	PropertyNameUtils_PropertyNameFromString_m3719796130,
 	PropertyNameUtils_PropertyNameFromString_Injected_m1259736140,
 	PSVitaVideoPlayer_Play_m439140063,
+	PSVitaVideoPlayer_TransferMemToHeap_m3307362304,
 	PSVitaVideoPlayer_Init_m2659996897,
 	PSVitaVideoPlayer_Update_m3897723372,
 	QualitySettings_get_activeColorSpace_m2902748248,
@@ -25974,6 +25978,8 @@ extern const Il2CppMethodPointer g_MethodPointers[13323] =
 	HealthBar__ctor_m478465810,
 	HealthBar_Start_m1393300404,
 	HealthBar_Update_m3256225700,
+	HeapAllocator__ctor_m4091207571,
+	HeapAllocator_Awake_m3377598147,
 	HintList__ctor_m1693648247,
 	Joystick_Target__ctor_m3731848802,
 	Joystick_Target_Start_m1400747374,

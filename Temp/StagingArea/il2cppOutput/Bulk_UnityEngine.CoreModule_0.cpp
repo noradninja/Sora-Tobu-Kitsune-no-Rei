@@ -31969,6 +31969,16 @@ extern "C"  bool PSVitaVideoPlayer_Play_m439140063 (RuntimeObject * __this /* st
 	bool retVal = _il2cpp_icall_func(___path0, ___loop1, ___fullscreenvideo2);
 	return retVal;
 }
+// System.Boolean UnityEngine.PSVita.PSVitaVideoPlayer::TransferMemToHeap()
+extern "C"  bool PSVitaVideoPlayer_TransferMemToHeap_m3307362304 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	typedef bool (*PSVitaVideoPlayer_TransferMemToHeap_m3307362304_ftn) ();
+	static PSVitaVideoPlayer_TransferMemToHeap_m3307362304_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (PSVitaVideoPlayer_TransferMemToHeap_m3307362304_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.PSVita.PSVitaVideoPlayer::TransferMemToHeap()");
+	bool retVal = _il2cpp_icall_func();
+	return retVal;
+}
 // System.Void UnityEngine.PSVita.PSVitaVideoPlayer::Init(UnityEngine.RenderTexture)
 extern "C"  void PSVitaVideoPlayer_Init_m2659996897 (RuntimeObject * __this /* static, unused */, RenderTexture_t2108887433 * ___renderTexture0, const RuntimeMethod* method)
 {

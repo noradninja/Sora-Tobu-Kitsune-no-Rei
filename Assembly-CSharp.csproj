@@ -150,6 +150,7 @@
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\BuildSetup.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\Fremerate Manager.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\GetResolution.cs" />
+     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\HeapAllocator.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\OutlinePost.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\ResolutionSetter.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\SequencePlayer.cs" />

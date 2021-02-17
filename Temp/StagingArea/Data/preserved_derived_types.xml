@@ -92,6 +92,7 @@
 <type fullname="BuildSetup" preserve="all"/>
 <type fullname="FremerateManager" preserve="all"/>
 <type fullname="GetResolution" preserve="all"/>
+<type fullname="HeapAllocator" preserve="all"/>
 <type fullname="OutlinePost" preserve="all"/>
 <type fullname="ResolutionSetter" preserve="all"/>
 <type fullname="SequencePlayer" preserve="all"/>
