@@ -32247,8 +32247,6 @@ extern "C"  Color_t2555686324  Color_get_white_m332174077 (RuntimeObject * __thi
 extern "C"  RenderTexture_t2108887433 * RenderTexture_GetTemporary_m3378328322 (RuntimeObject * __this /* static, unused */, int32_t p0, int32_t p1, int32_t p2, int32_t p3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Texture::set_wrapMode(UnityEngine.TextureWrapMode)
 extern "C"  void Texture_set_wrapMode_m587872754 (Texture_t3661962703 * __this, int32_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.RenderTexture::set_isPowerOfTwo(System.Boolean)
-extern "C"  void RenderTexture_set_isPowerOfTwo_m3873419893 (RenderTexture_t2108887433 * __this, bool p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Texture::set_filterMode(UnityEngine.FilterMode)
 extern "C"  void Texture_set_filterMode_m3078068058 (Texture_t3661962703 * __this, int32_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()
@@ -32263,8 +32261,6 @@ extern "C"  float Vector3_Distance_m886789632 (RuntimeObject * __this /* static,
 extern "C"  void Shader_SetGlobalFloat_m863034566 (RuntimeObject * __this /* static, unused */, String_t* p0, float p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Graphics::Blit(UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material,System.Int32)
 extern "C"  void Graphics_Blit_m4126770912 (RuntimeObject * __this /* static, unused */, Texture_t3661962703 * p0, RenderTexture_t2108887433 * p1, Material_t340375123 * p2, int32_t p3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Single UnityEngine.Screen::get_dpi()
-extern "C"  float Screen_get_dpi_m495672463 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Screen::get_width()
 extern "C"  int32_t Screen_get_width_m345039817 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Screen::get_height()
@@ -32641,6 +32637,8 @@ extern "C"  void PlayerPrefs_SetInt_m2842000469 (RuntimeObject * __this /* stati
 extern "C"  void PlayerPrefs_SetFloat_m3161432420 (RuntimeObject * __this /* static, unused */, String_t* p0, float p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RenderTexture::set_antiAliasing(System.Int32)
 extern "C"  void RenderTexture_set_antiAliasing_m157775987 (RenderTexture_t2108887433 * __this, int32_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.RenderTexture::set_isPowerOfTwo(System.Boolean)
+extern "C"  void RenderTexture_set_isPowerOfTwo_m3873419893 (RenderTexture_t2108887433 * __this, bool p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RenderTexture OutlinePost::GetTemporaryTexture(System.Int32,System.Int32)
 extern "C"  RenderTexture_t2108887433 * OutlinePost_GetTemporaryTexture_m895280361 (OutlinePost_t3737395541 * __this, int32_t ___width0, int32_t ___height1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Transform>()
@@ -37064,11 +37062,9 @@ extern "C"  RenderTexture_t2108887433 * DepthOfField_GetTemporaryTexture_m419801
 		RenderTexture_t2108887433 * L_3 = V_0;
 		Texture_set_wrapMode_m587872754(L_3, 1, /*hidden argument*/NULL);
 		RenderTexture_t2108887433 * L_4 = V_0;
-		RenderTexture_set_isPowerOfTwo_m3873419893(L_4, (bool)0, /*hidden argument*/NULL);
+		Texture_set_filterMode_m3078068058(L_4, 1, /*hidden argument*/NULL);
 		RenderTexture_t2108887433 * L_5 = V_0;
-		Texture_set_filterMode_m3078068058(L_5, 1, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_6 = V_0;
-		return L_6;
+		return L_5;
 	}
 }
 // System.Void DepthOfField::Awake()
@@ -37102,7 +37098,6 @@ extern "C"  void DepthOfField_OnRenderImage_m2672079185 (DepthOfField_t300342762
 	RenderTexture_t2108887433 * V_4 = NULL;
 	RenderTexture_t2108887433 * V_5 = NULL;
 	RenderTexture_t2108887433 * V_6 = NULL;
-	int32_t G_B12_0 = 0;
 	{
 		Shader_t4151988712 * L_0 = __this->get_shader_7();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_t631007953_il2cpp_TypeInfo_var);
@@ -37182,107 +37177,89 @@ IL_008e:
 
 IL_00b8:
 	{
-		float L_20 = Screen_get_dpi_m495672463(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((!(((float)L_20) >= ((float)(220.0f)))))
+		V_0 = 1;
+		int32_t L_20 = Screen_get_width_m345039817(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_21 = __this->get_downsampleFactor_6();
+		int32_t L_22 = V_0;
+		V_1 = ((int32_t)((int32_t)L_20/(int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_21, (int32_t)L_22))));
+		int32_t L_23 = Screen_get_height_m1623532518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_24 = __this->get_downsampleFactor_6();
+		int32_t L_25 = V_0;
+		V_2 = ((int32_t)((int32_t)L_23/(int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_24, (int32_t)L_25))));
+		int32_t L_26 = V_1;
+		int32_t L_27 = V_2;
+		if ((((int32_t)L_26) <= ((int32_t)L_27)))
 		{
-			goto IL_00cd;
+			goto IL_00e6;
 		}
 	}
 	{
-		G_B12_0 = 2;
-		goto IL_00ce;
+		int32_t L_28 = V_1;
+		V_2 = L_28;
+		goto IL_00e8;
 	}
 
-IL_00cd:
+IL_00e6:
 	{
-		G_B12_0 = 1;
+		int32_t L_29 = V_2;
+		V_1 = L_29;
 	}
 
-IL_00ce:
+IL_00e8:
 	{
-		V_0 = G_B12_0;
-		int32_t L_21 = Screen_get_width_m345039817(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_22 = __this->get_downsampleFactor_6();
-		int32_t L_23 = V_0;
-		V_1 = ((int32_t)((int32_t)L_21/(int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_22, (int32_t)L_23))));
-		int32_t L_24 = Screen_get_height_m1623532518(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_25 = __this->get_downsampleFactor_6();
-		int32_t L_26 = V_0;
-		V_2 = ((int32_t)((int32_t)L_24/(int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_25, (int32_t)L_26))));
-		int32_t L_27 = V_1;
-		int32_t L_28 = V_2;
-		if ((((int32_t)L_27) <= ((int32_t)L_28)))
-		{
-			goto IL_00fb;
-		}
-	}
-	{
-		int32_t L_29 = V_1;
-		V_2 = L_29;
-		goto IL_00fd;
-	}
-
-IL_00fb:
-	{
-		int32_t L_30 = V_2;
-		V_1 = L_30;
-	}
-
-IL_00fd:
-	{
-		int32_t L_31 = V_1;
-		int32_t L_32 = V_2;
-		RenderTexture_t2108887433 * L_33 = DepthOfField_GetTemporaryTexture_m4198016680(__this, L_31, L_32, /*hidden argument*/NULL);
-		V_3 = L_33;
-		int32_t L_34 = V_1;
-		int32_t L_35 = V_2;
-		RenderTexture_t2108887433 * L_36 = DepthOfField_GetTemporaryTexture_m4198016680(__this, ((int32_t)((int32_t)L_34/(int32_t)2)), ((int32_t)((int32_t)L_35/(int32_t)2)), /*hidden argument*/NULL);
-		V_4 = L_36;
-		int32_t L_37 = V_1;
-		int32_t L_38 = V_2;
-		RenderTexture_t2108887433 * L_39 = DepthOfField_GetTemporaryTexture_m4198016680(__this, ((int32_t)((int32_t)L_37/(int32_t)4)), ((int32_t)((int32_t)L_38/(int32_t)4)), /*hidden argument*/NULL);
-		V_5 = L_39;
-		int32_t L_40 = V_1;
-		int32_t L_41 = V_2;
-		RenderTexture_t2108887433 * L_42 = DepthOfField_GetTemporaryTexture_m4198016680(__this, ((int32_t)((int32_t)L_40/(int32_t)2)), ((int32_t)((int32_t)L_41/(int32_t)2)), /*hidden argument*/NULL);
-		V_6 = L_42;
-		Material_t340375123 * L_43 = __this->get_material_8();
-		RenderTexture_t2108887433 * L_44 = V_4;
-		Material_SetTexture_m1829349465(L_43, _stringLiteral2991681293, L_44, /*hidden argument*/NULL);
-		Material_t340375123 * L_45 = __this->get_material_8();
-		RenderTexture_t2108887433 * L_46 = V_5;
-		Material_SetTexture_m1829349465(L_45, _stringLiteral2991681294, L_46, /*hidden argument*/NULL);
-		Material_t340375123 * L_47 = __this->get_material_8();
-		RenderTexture_t2108887433 * L_48 = V_6;
-		Material_SetTexture_m1829349465(L_47, _stringLiteral2991681299, L_48, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_49 = ___src0;
-		RenderTexture_t2108887433 * L_50 = V_3;
-		Material_t340375123 * L_51 = __this->get_material_8();
+		int32_t L_30 = V_1;
+		int32_t L_31 = V_2;
+		RenderTexture_t2108887433 * L_32 = DepthOfField_GetTemporaryTexture_m4198016680(__this, L_30, L_31, /*hidden argument*/NULL);
+		V_3 = L_32;
+		int32_t L_33 = V_1;
+		int32_t L_34 = V_2;
+		RenderTexture_t2108887433 * L_35 = DepthOfField_GetTemporaryTexture_m4198016680(__this, L_33, L_34, /*hidden argument*/NULL);
+		V_4 = L_35;
+		int32_t L_36 = V_1;
+		int32_t L_37 = V_2;
+		RenderTexture_t2108887433 * L_38 = DepthOfField_GetTemporaryTexture_m4198016680(__this, ((int32_t)((int32_t)L_36/(int32_t)2)), ((int32_t)((int32_t)L_37/(int32_t)2)), /*hidden argument*/NULL);
+		V_5 = L_38;
+		int32_t L_39 = V_1;
+		int32_t L_40 = V_2;
+		RenderTexture_t2108887433 * L_41 = DepthOfField_GetTemporaryTexture_m4198016680(__this, L_39, L_40, /*hidden argument*/NULL);
+		V_6 = L_41;
+		Material_t340375123 * L_42 = __this->get_material_8();
+		RenderTexture_t2108887433 * L_43 = V_4;
+		Material_SetTexture_m1829349465(L_42, _stringLiteral2991681293, L_43, /*hidden argument*/NULL);
+		Material_t340375123 * L_44 = __this->get_material_8();
+		RenderTexture_t2108887433 * L_45 = V_5;
+		Material_SetTexture_m1829349465(L_44, _stringLiteral2991681294, L_45, /*hidden argument*/NULL);
+		Material_t340375123 * L_46 = __this->get_material_8();
+		RenderTexture_t2108887433 * L_47 = V_6;
+		Material_SetTexture_m1829349465(L_46, _stringLiteral2991681299, L_47, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_48 = ___src0;
+		RenderTexture_t2108887433 * L_49 = V_3;
+		Material_t340375123 * L_50 = __this->get_material_8();
 		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t783367614_il2cpp_TypeInfo_var);
-		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_49, L_50, L_51, 0, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_52 = V_3;
-		RenderTexture_t2108887433 * L_53 = V_4;
-		Material_t340375123 * L_54 = __this->get_material_8();
-		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_52, L_53, L_54, 1, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_55 = V_4;
-		RenderTexture_t2108887433 * L_56 = V_5;
-		Material_t340375123 * L_57 = __this->get_material_8();
-		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_55, L_56, L_57, 1, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_58 = V_6;
-		Material_t340375123 * L_59 = __this->get_material_8();
-		Graphics_Blit_m4126770912(NULL /*static, unused*/, (Texture_t3661962703 *)NULL, L_58, L_59, 2, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_60 = ___src0;
-		RenderTexture_t2108887433 * L_61 = ___dest1;
-		Material_t340375123 * L_62 = __this->get_material_8();
-		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_60, L_61, L_62, 3, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_63 = V_3;
+		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_48, L_49, L_50, 0, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_51 = V_3;
+		RenderTexture_t2108887433 * L_52 = V_4;
+		Material_t340375123 * L_53 = __this->get_material_8();
+		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_51, L_52, L_53, 1, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_54 = V_4;
+		RenderTexture_t2108887433 * L_55 = V_5;
+		Material_t340375123 * L_56 = __this->get_material_8();
+		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_54, L_55, L_56, 1, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_57 = V_6;
+		Material_t340375123 * L_58 = __this->get_material_8();
+		Graphics_Blit_m4126770912(NULL /*static, unused*/, (Texture_t3661962703 *)NULL, L_57, L_58, 2, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_59 = ___src0;
+		RenderTexture_t2108887433 * L_60 = ___dest1;
+		Material_t340375123 * L_61 = __this->get_material_8();
+		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_59, L_60, L_61, 3, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_62 = V_3;
+		RenderTexture_ReleaseTemporary_m2400081536(NULL /*static, unused*/, L_62, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_63 = V_4;
 		RenderTexture_ReleaseTemporary_m2400081536(NULL /*static, unused*/, L_63, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_64 = V_4;
+		RenderTexture_t2108887433 * L_64 = V_5;
 		RenderTexture_ReleaseTemporary_m2400081536(NULL /*static, unused*/, L_64, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_65 = V_5;
+		RenderTexture_t2108887433 * L_65 = V_6;
 		RenderTexture_ReleaseTemporary_m2400081536(NULL /*static, unused*/, L_65, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_66 = V_6;
-		RenderTexture_ReleaseTemporary_m2400081536(NULL /*static, unused*/, L_66, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -43165,18 +43142,18 @@ extern "C"  RenderTexture_t2108887433 * FiltersController_GetTemporaryTexture_m2
 {
 	RenderTexture_t2108887433 * V_0 = NULL;
 	{
-		RenderTexture_t2108887433 * L_0 = RenderTexture_GetTemporary_m3378328322(NULL /*static, unused*/, ((int32_t)960), ((int32_t)544), 0, 7, /*hidden argument*/NULL);
-		V_0 = L_0;
-		RenderTexture_t2108887433 * L_1 = V_0;
-		Texture_set_wrapMode_m587872754(L_1, 1, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_2 = V_0;
-		Texture_set_anisoLevel_m4149907611(L_2, 0, /*hidden argument*/NULL);
+		int32_t L_0 = Screen_get_width_m345039817(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m1623532518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_2 = RenderTexture_GetTemporary_m3378328322(NULL /*static, unused*/, L_0, L_1, 0, 7, /*hidden argument*/NULL);
+		V_0 = L_2;
 		RenderTexture_t2108887433 * L_3 = V_0;
-		RenderTexture_set_isPowerOfTwo_m3873419893(L_3, (bool)0, /*hidden argument*/NULL);
+		Texture_set_wrapMode_m587872754(L_3, 1, /*hidden argument*/NULL);
 		RenderTexture_t2108887433 * L_4 = V_0;
-		Texture_set_filterMode_m3078068058(L_4, 0, /*hidden argument*/NULL);
+		Texture_set_anisoLevel_m4149907611(L_4, 0, /*hidden argument*/NULL);
 		RenderTexture_t2108887433 * L_5 = V_0;
-		return L_5;
+		Texture_set_filterMode_m3078068058(L_5, 1, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_6 = V_0;
+		return L_6;
 	}
 }
 // System.Void NprPaintFilter.FiltersController::Start()
@@ -43207,30 +43184,34 @@ extern "C"  void FiltersController_OnRenderImage_m209331152 (FiltersController_t
 	RenderTexture_t2108887433 * V_0 = NULL;
 	RenderTexture_t2108887433 * V_1 = NULL;
 	{
-		RenderTexture_t2108887433 * L_0 = FiltersController_GetTemporaryTexture_m2288601334(__this, ((int32_t)960), ((int32_t)544), /*hidden argument*/NULL);
-		V_0 = L_0;
-		RenderTexture_t2108887433 * L_1 = FiltersController_GetTemporaryTexture_m2288601334(__this, ((int32_t)960), ((int32_t)544), /*hidden argument*/NULL);
-		V_1 = L_1;
-		RenderTexture_t2108887433 * L_2 = ___src0;
-		RenderTexture_t2108887433 * L_3 = V_0;
-		WaterColor_t777644432 * L_4 = __this->get_m_WaterColor_2();
-		Material_t340375123 * L_5 = L_4->get_m_Mat_0();
-		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t783367614_il2cpp_TypeInfo_var);
-		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_2, L_3, L_5, 0, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_6 = V_0;
-		RenderTexture_t2108887433 * L_7 = V_1;
+		int32_t L_0 = Screen_get_width_m345039817(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = Screen_get_height_m1623532518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_2 = FiltersController_GetTemporaryTexture_m2288601334(__this, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		int32_t L_3 = Screen_get_width_m345039817(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_height_m1623532518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_5 = FiltersController_GetTemporaryTexture_m2288601334(__this, L_3, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		RenderTexture_t2108887433 * L_6 = ___src0;
+		RenderTexture_t2108887433 * L_7 = V_0;
 		WaterColor_t777644432 * L_8 = __this->get_m_WaterColor_2();
 		Material_t340375123 * L_9 = L_8->get_m_Mat_0();
-		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_6, L_7, L_9, 1, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_10 = V_1;
-		RenderTexture_t2108887433 * L_11 = ___dst1;
+		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t783367614_il2cpp_TypeInfo_var);
+		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_6, L_7, L_9, 0, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_10 = V_0;
+		RenderTexture_t2108887433 * L_11 = V_1;
 		WaterColor_t777644432 * L_12 = __this->get_m_WaterColor_2();
 		Material_t340375123 * L_13 = L_12->get_m_Mat_0();
 		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_10, L_11, L_13, 1, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_14 = V_0;
-		RenderTexture_ReleaseTemporary_m2400081536(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
-		RenderTexture_t2108887433 * L_15 = V_1;
-		RenderTexture_ReleaseTemporary_m2400081536(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_14 = V_1;
+		RenderTexture_t2108887433 * L_15 = ___dst1;
+		WaterColor_t777644432 * L_16 = __this->get_m_WaterColor_2();
+		Material_t340375123 * L_17 = L_16->get_m_Mat_0();
+		Graphics_Blit_m4126770912(NULL /*static, unused*/, L_14, L_15, L_17, 1, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_18 = V_0;
+		RenderTexture_ReleaseTemporary_m2400081536(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		RenderTexture_t2108887433 * L_19 = V_1;
+		RenderTexture_ReleaseTemporary_m2400081536(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
 		return;
 	}
 }

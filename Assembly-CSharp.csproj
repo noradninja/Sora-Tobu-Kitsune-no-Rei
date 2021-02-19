@@ -209,6 +209,7 @@
      <None Include="Assets\DepthOfField\Example\Shaders\NormalSurfaceExample.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Polygonization.shader" />
+     <None Include="Assets\SaveConfig.txt" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\Contour Drawing.shader" />
@@ -236,6 +237,7 @@
      <None Include="Assets\Addons\NPR Paint Filter\Shader\BluePrint.shader" />
      <None Include="Assets\Addons\Scene Streamer\_README.txt" />
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\UnlitMaskCheck.shader" />
+     <None Include="Assets\LastBuildDir.txt" />
      <None Include="Assets\DepthOfField\Example\Shaders\UnityBuiltin2xTreeLibrary.cginc" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\MosaicWindmill.shader" />
      <None Include="Assets\SonyExamples\Vita\SystemSettings\SonyVitaSystemSettingsReadme.txt" />

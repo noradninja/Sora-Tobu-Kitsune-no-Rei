@@ -276,6 +276,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 aa9d1bd0cc771545f2ae1f63a6d0ed6a Assembly-CSharp.dll:TMPro.Examples.TMP_TextEventCheck
 48492c3dffebef1155d609bcc11733e8 Assembly-CSharp.dll:.PauseManager
 27269793cb6f0f9979a575f8b212819a Assembly-CSharp.dll:.StencilHitCheck
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HeapAllocator
 9d11a80e7a97b0160e11b508f02cbbaa Assembly-CSharp.dll:.Dupe_Rotation
 9e0ef5bf862444b5dc48b5a99554ce7c UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
@@ -324,4 +325,3 @@ ccf46ea869884024addfe9fba6c985b2 Assembly-CSharp.dll:.Title_DoF_Animator
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 f8f1c341c82c3a48504f430c7d4c9c67 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.FPSWalkerEnhanced
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.HeapAllocator

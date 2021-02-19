@@ -10,7 +10,7 @@ public class DepthOfField : MonoBehaviour {
   public float aperture = 3;
   public bool debug = false;
 
-  [Range(2, 8)]
+  [Range(1, 8)]
   public int downsampleFactor = 4;
 
   [HideInInspector]
@@ -23,7 +23,7 @@ public class DepthOfField : MonoBehaviour {
     RenderTexture temporaryTexture = RenderTexture.GetTemporary(width, height, 0, RenderTextureFormat.Default);
     temporaryTexture.wrapMode = TextureWrapMode.Clamp;
     // temporaryTexture.useMipMap = false;
-    temporaryTexture.isPowerOfTwo = false;
+   // temporaryTexture.isPowerOfTwo = false;
     temporaryTexture.filterMode = FilterMode.Bilinear;
     return temporaryTexture;
   }
@@ -54,7 +54,7 @@ public class DepthOfField : MonoBehaviour {
       return;
     }
 
-    int scale = Screen.dpi >= 220 ? 2 : 1; // Multiply downsampleFactor by scale to compensate for retina
+    int scale = 1; // Multiply downsampleFactor by scale to compensate for retina
 
     int temporaryWidth = (Screen.width / (downsampleFactor * scale));
     int temporaryHeight = (Screen.height / (downsampleFactor * scale));
@@ -66,9 +66,9 @@ public class DepthOfField : MonoBehaviour {
 
     // Create temporary textures
     var grabTextureA = GetTemporaryTexture(temporaryWidth, temporaryHeight);
-    var grabTextureB = GetTemporaryTexture(temporaryWidth / 2, temporaryHeight / 2);
-    var grabTextureC = GetTemporaryTexture(temporaryWidth / 4, temporaryHeight / 4);
-    var grabTextureD = GetTemporaryTexture(temporaryWidth / 2, temporaryHeight / 2);
+    var grabTextureB = GetTemporaryTexture(temporaryWidth / 1, temporaryHeight / 1);
+    var grabTextureC = GetTemporaryTexture(temporaryWidth / 2, temporaryHeight / 2);
+    var grabTextureD = GetTemporaryTexture(temporaryWidth / 1, temporaryHeight / 1);
 
     // Pass in textures
     material.SetTexture("_GrabTextureB", grabTextureB);

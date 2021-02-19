@@ -33578,7 +33578,7 @@ static void DepthOfField_t300342762_CustomAttributesCacheGenerator_downsampleFac
 {
 	{
 		RangeAttribute_t3337244227 * tmp = (RangeAttribute_t3337244227 *)cache->attributes[0];
-		RangeAttribute__ctor_m32920615(tmp, 2.0f, 8.0f, NULL);
+		RangeAttribute__ctor_m32920615(tmp, 1.0f, 8.0f, NULL);
 	}
 }
 static void DepthOfField_t300342762_CustomAttributesCacheGenerator_shader(CustomAttributesCache* cache)

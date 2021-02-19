@@ -30,12 +30,12 @@ namespace NprPaintFilter
 		[Header("WaterColor")] public WaterColor m_WaterColor;
 	
 		RenderTexture GetTemporaryTexture(int width, int height) {
-						RenderTexture rt0 = RenderTexture.GetTemporary(960, 544, 0, RenderTextureFormat.Default);
+						RenderTexture rt0 = RenderTexture.GetTemporary(Screen.width, Screen.height, 0, RenderTextureFormat.Default);
 						rt0.wrapMode = TextureWrapMode.Clamp;
 						rt0.anisoLevel = 0;
 		
-						rt0.isPowerOfTwo = false; //disable PoT texture for this effect- was forcing a 1024x1024 texture for the screen which is slow on Vita due to rendering clipped pixels
-						rt0.filterMode = FilterMode.Point;
+						//rt0.isPowerOfTwo = false; //disable PoT texture for this effect- was forcing a 1024x1024 texture for the screen which is slow on Vita due to rendering clipped pixels
+						rt0.filterMode = FilterMode.Bilinear;
 						return rt0;
 					}
 		void Start ()
@@ -49,8 +49,8 @@ namespace NprPaintFilter
 		{
 	
 				//RenderTexture rt1 = RenderTexture.GetTemporary(src.width, src.height, 0, RenderTextureFormat.Default);
-			    var rendertex = GetTemporaryTexture(960, 544);
-				var rendertex2 = GetTemporaryTexture(960, 544);
+			    var rendertex = GetTemporaryTexture(Screen.width, Screen.height);
+				var rendertex2 = GetTemporaryTexture(Screen.width, Screen.height);
 
 				Graphics.Blit (src, rendertex, m_WaterColor.m_Mat, 0);
 				Graphics.Blit(rendertex, rendertex2, m_WaterColor.m_Mat, 1);
