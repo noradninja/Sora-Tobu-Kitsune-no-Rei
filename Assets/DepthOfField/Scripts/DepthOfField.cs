@@ -23,7 +23,7 @@ public class DepthOfField : MonoBehaviour {
     RenderTexture temporaryTexture = RenderTexture.GetTemporary(width, height, 0, RenderTextureFormat.Default);
     temporaryTexture.wrapMode = TextureWrapMode.Clamp;
     // temporaryTexture.useMipMap = false;
-   // temporaryTexture.isPowerOfTwo = false;
+    temporaryTexture.isPowerOfTwo = false;
     temporaryTexture.filterMode = FilterMode.Bilinear;
     return temporaryTexture;
   }
