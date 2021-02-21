@@ -230,6 +230,7 @@ extern const Il2CppType Exception_t_0_0_0;
 extern const Il2CppType GUIStyle_t3956901511_0_0_0;
 extern const Il2CppType KeyValuePair_2_t1844862681_0_0_0;
 extern const Il2CppType RaycastHit_t1056001966_0_0_0;
+extern const Il2CppType Collider_t1773347010_0_0_0;
 extern const Il2CppType ContactPoint_t3758755253_0_0_0;
 extern const Il2CppType Sprite_t280657092_0_0_0;
 extern const Il2CppType XRNodeState_t3752602430_0_0_0;
@@ -1212,6 +1213,8 @@ static const RuntimeType* GenInst_KeyValuePair_2_t1844862681_0_0_0_Types[] = { (
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1844862681_0_0_0 = { 1, GenInst_KeyValuePair_2_t1844862681_0_0_0_Types };
 static const RuntimeType* GenInst_RaycastHit_t1056001966_0_0_0_Types[] = { (&RaycastHit_t1056001966_0_0_0) };
 extern const Il2CppGenericInst GenInst_RaycastHit_t1056001966_0_0_0 = { 1, GenInst_RaycastHit_t1056001966_0_0_0_Types };
+static const RuntimeType* GenInst_Collider_t1773347010_0_0_0_Types[] = { (&Collider_t1773347010_0_0_0) };
+extern const Il2CppGenericInst GenInst_Collider_t1773347010_0_0_0 = { 1, GenInst_Collider_t1773347010_0_0_0_Types };
 static const RuntimeType* GenInst_ContactPoint_t3758755253_0_0_0_Types[] = { (&ContactPoint_t3758755253_0_0_0) };
 extern const Il2CppGenericInst GenInst_ContactPoint_t3758755253_0_0_0 = { 1, GenInst_ContactPoint_t3758755253_0_0_0_Types };
 static const RuntimeType* GenInst_Sprite_t280657092_0_0_0_Types[] = { (&Sprite_t280657092_0_0_0) };
@@ -2448,7 +2451,7 @@ static const RuntimeType* GenInst_TMP_TextInfo_Resize_m670922699_gp_0_0_0_0_Type
 extern const Il2CppGenericInst GenInst_TMP_TextInfo_Resize_m670922699_gp_0_0_0_0 = { 1, GenInst_TMP_TextInfo_Resize_m670922699_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0_Types[] = { (&TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0 = { 1, GenInst_TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[868] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[869] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0,
@@ -2700,6 +2703,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[868] =
 	&GenInst_String_t_0_0_0_GUIStyle_t3956901511_0_0_0_DictionaryEntry_t3123975638_0_0_0,
 	&GenInst_KeyValuePair_2_t1844862681_0_0_0,
 	&GenInst_RaycastHit_t1056001966_0_0_0,
+	&GenInst_Collider_t1773347010_0_0_0,
 	&GenInst_ContactPoint_t3758755253_0_0_0,
 	&GenInst_Sprite_t280657092_0_0_0,
 	&GenInst_XRNodeState_t3752602430_0_0_0,

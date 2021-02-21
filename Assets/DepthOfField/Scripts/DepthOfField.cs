@@ -23,7 +23,7 @@ public class DepthOfField : MonoBehaviour {
     RenderTexture temporaryTexture = RenderTexture.GetTemporary(width, height, 0, RenderTextureFormat.Default);
     temporaryTexture.wrapMode = TextureWrapMode.Clamp;
     // temporaryTexture.useMipMap = false;
-    temporaryTexture.isPowerOfTwo = false;
+    //temporaryTexture.isPowerOfTwo = false;
     temporaryTexture.filterMode = FilterMode.Bilinear;
     return temporaryTexture;
   }
@@ -63,28 +63,24 @@ public class DepthOfField : MonoBehaviour {
     } else {
       temporaryWidth = temporaryHeight;
     }
-
-    // Create temporary textures
     var grabTextureA = GetTemporaryTexture(temporaryWidth, temporaryHeight);
     var grabTextureB = GetTemporaryTexture(temporaryWidth / 1, temporaryHeight / 1);
-    var grabTextureC = GetTemporaryTexture(temporaryWidth / 2, temporaryHeight / 2);
-    var grabTextureD = GetTemporaryTexture(temporaryWidth / 1, temporaryHeight / 1);
-
-    // Pass in textures
     material.SetTexture("_GrabTextureB", grabTextureB);
-    material.SetTexture("_GrabTextureC", grabTextureC);
-    material.SetTexture("_GrabTextureD", grabTextureD);
 
     Graphics.Blit(src, grabTextureA, material, 0); // Downsample 1
     Graphics.Blit(grabTextureA, grabTextureB, material, 1); // Downsample 2
-    Graphics.Blit(grabTextureB, grabTextureC, material, 1); // Upsample
-    Graphics.Blit(null, grabTextureD, material, 2); // Blend midground and background
-    Graphics.Blit(src, dest, material, 3); // Blend foreground and background
-
-    // Release textures
     RenderTexture.ReleaseTemporary(grabTextureA);
+
+    var grabTextureC = GetTemporaryTexture(temporaryWidth / 2, temporaryHeight / 2);
+    material.SetTexture("_GrabTextureC", grabTextureC);
+    Graphics.Blit(grabTextureB, grabTextureC, material, 1); // Upsample
     RenderTexture.ReleaseTemporary(grabTextureB);
     RenderTexture.ReleaseTemporary(grabTextureC);
+
+    var grabTextureD = GetTemporaryTexture(temporaryWidth / 1, temporaryHeight / 1);
+    material.SetTexture("_GrabTextureD", grabTextureD);
+    Graphics.Blit(null, grabTextureD, material, 2); // Blend midground and background
+    Graphics.Blit(src, dest, material, 3); // Blend foreground and background
     RenderTexture.ReleaseTemporary(grabTextureD);
   }
 }

@@ -30300,6 +30300,20 @@ void* RuntimeInvoker_RuntimeObject_Vector3U26_t3464235976_Vector3U26_t3464235976
 	return ret;
 }
 
+void* RuntimeInvoker_RuntimeObject_Vector3_t3722313464_Single_t1397266774_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef RuntimeObject * (*Func)(void* obj, Vector3_t3722313464  p1, float p2, int32_t p3, const RuntimeMethod* method);
+	RuntimeObject * ret = ((Func)methodPointer)(obj, *((Vector3_t3722313464 *)args[0]), *((float*)args[1]), *((int32_t*)args[2]), methodMetadata);
+	return ret;
+}
+
+void* RuntimeInvoker_RuntimeObject_Vector3U26_t3464235976_Single_t1397266774_Int32_t2950945753_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef RuntimeObject * (*Func)(void* obj, Vector3_t3722313464 * p1, float p2, int32_t p3, int32_t p4, const RuntimeMethod* method);
+	RuntimeObject * ret = ((Func)methodPointer)(obj, (Vector3_t3722313464 *)args[0], *((float*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), methodMetadata);
+	return ret;
+}
+
 void* RuntimeInvoker_Boolean_t97287965_Ray_t3785851493_Single_t1397266774_RaycastHitU26_t2429360258_Single_t1397266774_Int32_t2950945753 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Ray_t3785851493  p1, float p2, RaycastHit_t1056001966 * p3, float p4, int32_t p5, const RuntimeMethod* method);
@@ -36642,7 +36656,7 @@ void* RuntimeInvoker_RuntimeObject_FloatTween_t1274330004 (Il2CppMethodPointer m
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[2015] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[2017] = 
 {
 	RuntimeInvoker_Void_t1185182177,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject,
@@ -37753,6 +37767,8 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2015] =
 	RuntimeInvoker_RuntimeObject_Vector3_t3722313464_Vector3_t3722313464_Single_t1397266774,
 	RuntimeInvoker_RuntimeObject_Vector3_t3722313464_Vector3_t3722313464,
 	RuntimeInvoker_RuntimeObject_Vector3U26_t3464235976_Vector3U26_t3464235976_Single_t1397266774_Int32_t2950945753_Int32_t2950945753,
+	RuntimeInvoker_RuntimeObject_Vector3_t3722313464_Single_t1397266774_Int32_t2950945753,
+	RuntimeInvoker_RuntimeObject_Vector3U26_t3464235976_Single_t1397266774_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Boolean_t97287965_Ray_t3785851493_Single_t1397266774_RaycastHitU26_t2429360258_Single_t1397266774_Int32_t2950945753,
 	RuntimeInvoker_Boolean_t97287965_Ray_t3785851493_Single_t1397266774_RaycastHitU26_t2429360258_Single_t1397266774_Int32_t2950945753_Int32_t2950945753,
 	RuntimeInvoker_Boolean_t97287965_Vector3U26_t3464235976_Vector3U26_t3464235976_RaycastHitU26_t2429360258_Single_t1397266774_Int32_t2950945753_Int32_t2950945753,

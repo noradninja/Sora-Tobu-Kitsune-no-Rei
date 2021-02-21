@@ -16,23 +16,29 @@ public class FireControl : MonoBehaviour {
 
 	//publics
 	public int objCount = 0;
+	public GameObject player;
 	public GameObject missileTarget;
 	public int frameCounter = 0;
 	public int lockDelay = 30;
 	public int maxTargets = 4;
 	public bool firingMissiles;
+	public bool bezerkActive;
+	public float bezerkRadius;
 	public Text myguiText;
 	public Texture Locked;
+	public Image bezerkMeter;
 	public GameObject Target;
 	public GameObject Target2;
 	public GameObject Bullet;
 	public GameObject Missile;
+	public GameObject bezerkMissile;
 	public GameObject targetVector;
 	private GameObject resetVector;
 	private int maskLayer;
 	public GameObject Reticle;
 	public Component joyTarget;
 	public List<GameObject> targetList;
+	public List<GameObject> bezerkList;
 	public GameObject audioManager;
 	public List<AudioClip> clipList;
 	public AudioSource audioSource;
@@ -52,7 +58,10 @@ public class FireControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        targetingSystem();
+		targetingSystem();
+		if (bezerkMeter.fillAmount <= 0){
+			bezerkActive = false;
+		}
     }
 
 	// called in Update for tracking targets
@@ -175,6 +184,28 @@ public class FireControl : MonoBehaviour {
 		}
 	}
 
+	//bezerker
+	void bezerkMode(){
+		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
+		if (bezerkMeter.fillAmount > 0){
+			bezerkActive = true;
+			Collider[] bezerkHits = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
+			
+				for (int i = 0; i < bezerkHits.Length; i++){
+					GameObject bezerkHit = GameObject.Find(bezerkHits[i].transform.name); //get the name of the enemy
+						if (bezerkList.Contains(bezerkHit)){
+							return; //ignore it if it is already /somehow/ in the list
+						}
+					else bezerkList.Add(bezerkHit); //add the enemy to the list
+					bezerkHit.gameObject.transform.GetChild (0).gameObject.SetActive(true); //turn on target icon 
+					bezerkHit.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce"); //animate target icon
+					audioSource.PlayOneShot(clipList[7]); //play target sfx
+					StartCoroutine(timer(0.5f*i)); //wait for 0.5*i seconds to dleay each loop?
+					Debug.Log(0.5f*i + ", " + bezerkHits[i].transform.name + ", index " + i);
+				}
+		}
+	}
+
 	/*reset frameCounter and objCount when called (happens on release of fire button)
 	reset targetVector and missileTarget to defaults, set current obj to null so we can
 	reselect the last selected target on new lock-on*/		
@@ -184,5 +215,9 @@ public class FireControl : MonoBehaviour {
 		targetVector = resetVector;
 		missileTarget = null;
 		obj = null;
+	}
+	IEnumerator timer(float time)
+    {
+    yield return new WaitForSeconds(time);
 	}
 }

@@ -174,8 +174,7 @@ public class Buttons : MonoBehaviour {
 		//disable triangle when player has died, to keep us from endlessley loading the load screen if you keep mashing the button
 		else if (Input.GetKeyDown (joystick1 + TRIANGLE) && playerTemp.GetComponent<Actor>().health != 0.0001f){
 			myguiText.text = "Triangle";
-			playerTemp.GetComponent<Actor>().health -= 15.0f;
-			print("Player health Remaining: " + playerTemp.GetComponent<Actor>().health);
+			FireControl.gameObject.BroadcastMessage ("bezerkMode");
 		}
 		else if (Input.GetKeyDown (joystick1 + SELECT)){
 			SetScenes.sceneToLoad = SetScenes.currentScene;

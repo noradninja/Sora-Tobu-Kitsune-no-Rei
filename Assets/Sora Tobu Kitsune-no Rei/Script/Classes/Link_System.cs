@@ -18,7 +18,9 @@ public TextMeshProUGUI linkText;
 public GameObject audioManager;
 public List<AudioClip> clipList;
 public AudioSource audioSource;
+public Image bezerkBar;
 private Animation anim;
+private float newValue;
 
 	// Use this for initialization
 	void Start () {
@@ -27,6 +29,8 @@ private Animation anim;
 	}
 	
 	void Update (){
+		float originalValue = bezerkBar.fillAmount;
+		bezerkBar.fillAmount = Mathf.Lerp(originalValue, newValue, 0.1f);
 		//Update link count text or blank it if link delay has expired
 		if (linkCount > 1){
 				linkText.text = (linkCount + " Link");
@@ -41,6 +45,7 @@ private Animation anim;
 	public IEnumerator IncrementCount(){
 		//This is called when an enemy dies, and we increment linkCount as they are destroyed, and increment a time counter between each destruction.
 		linkCount += 1;
+		newValue = bezerkBar.fillAmount + 0.025f;
 		//Play back ever increasing SFX tones based on the number of successive links you earn
 		if (linkCount == 2){
 		audioSource.PlayOneShot(clipList[9]);

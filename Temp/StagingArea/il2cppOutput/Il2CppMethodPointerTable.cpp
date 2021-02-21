@@ -9532,6 +9532,7 @@ extern "C" void CharacterController_INTERNAL_CALL_Move_m3619696939 ();
 extern "C" void CharacterController_get_radius_m4250137633 ();
 extern "C" void CharacterController_get_height_m4025328698 ();
 extern "C" void CharacterController_get_slopeLimit_m485529875 ();
+extern "C" void Collider__ctor_m1632031523 ();
 extern "C" void Collider_get_attachedRigidbody_m135494519 ();
 extern "C" void Collision_get_gameObject_m3662658840 ();
 extern "C" void Collision_get_contacts_m116535001 ();
@@ -9564,6 +9565,8 @@ extern "C" void Physics_RaycastAll_m2709753186 ();
 extern "C" void Physics_RaycastAll_m447622039 ();
 extern "C" void Physics_RaycastAll_m2266459302 ();
 extern "C" void Physics_INTERNAL_CALL_RaycastAll_m1113565514 ();
+extern "C" void Physics_OverlapSphere_m1831955946 ();
+extern "C" void Physics_INTERNAL_CALL_OverlapSphere_m1366282712 ();
 extern "C" void Physics_SphereCast_m3682136630 ();
 extern "C" void Physics_SphereCast_m115790328 ();
 extern "C" void Physics_Internal_Raycast_m2789434453 ();
@@ -12611,7 +12614,15 @@ extern "C" void FireControl_targetingSystem_m2714901240 ();
 extern "C" void FireControl_fireControl_m2504077789 ();
 extern "C" void FireControl_fireBullet_m1648016421 ();
 extern "C" void FireControl_fireMissiles_m3673707173 ();
+extern "C" void FireControl_bezerkMode_m1976399553 ();
 extern "C" void FireControl_reset_m3529346042 ();
+extern "C" void FireControl_timer_m1076032261 ();
+extern "C" void U3CtimerU3Ec__Iterator0__ctor_m3866835447 ();
+extern "C" void U3CtimerU3Ec__Iterator0_MoveNext_m1789085359 ();
+extern "C" void U3CtimerU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3496731737 ();
+extern "C" void U3CtimerU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2067476701 ();
+extern "C" void U3CtimerU3Ec__Iterator0_Dispose_m452679774 ();
+extern "C" void U3CtimerU3Ec__Iterator0_Reset_m2946107915 ();
 extern "C" void Follow_Player__ctor_m3821773790 ();
 extern "C" void Follow_Player_Start_m890372082 ();
 extern "C" void Follow_Player_Update_m2596979162 ();
@@ -13344,7 +13355,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13326] = 
+extern const Il2CppMethodPointer g_MethodPointers[13337] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -22860,6 +22871,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13326] =
 	CharacterController_get_radius_m4250137633,
 	CharacterController_get_height_m4025328698,
 	CharacterController_get_slopeLimit_m485529875,
+	Collider__ctor_m1632031523,
 	Collider_get_attachedRigidbody_m135494519,
 	Collision_get_gameObject_m3662658840,
 	Collision_get_contacts_m116535001,
@@ -22892,6 +22904,8 @@ extern const Il2CppMethodPointer g_MethodPointers[13326] =
 	Physics_RaycastAll_m447622039,
 	Physics_RaycastAll_m2266459302,
 	Physics_INTERNAL_CALL_RaycastAll_m1113565514,
+	Physics_OverlapSphere_m1831955946,
+	Physics_INTERNAL_CALL_OverlapSphere_m1366282712,
 	Physics_SphereCast_m3682136630,
 	Physics_SphereCast_m115790328,
 	Physics_Internal_Raycast_m2789434453,
@@ -25939,7 +25953,15 @@ extern const Il2CppMethodPointer g_MethodPointers[13326] =
 	FireControl_fireControl_m2504077789,
 	FireControl_fireBullet_m1648016421,
 	FireControl_fireMissiles_m3673707173,
+	FireControl_bezerkMode_m1976399553,
 	FireControl_reset_m3529346042,
+	FireControl_timer_m1076032261,
+	U3CtimerU3Ec__Iterator0__ctor_m3866835447,
+	U3CtimerU3Ec__Iterator0_MoveNext_m1789085359,
+	U3CtimerU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3496731737,
+	U3CtimerU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2067476701,
+	U3CtimerU3Ec__Iterator0_Dispose_m452679774,
+	U3CtimerU3Ec__Iterator0_Reset_m2946107915,
 	Follow_Player__ctor_m3821773790,
 	Follow_Player_Start_m890372082,
 	Follow_Player_Update_m2596979162,

@@ -23,9 +23,9 @@ void Update () {
 	Ray stencilCheckRay = new Ray(transform.position + (stencilCheckOffset*transform.forward), (-1*transform.forward));
 	//draw ray for debug
 	
-	Debug.DrawRay (transform.position + (stencilCheckOffset*transform.forward), (-1*transform.forward * 10f), Color.green);
+	Debug.DrawRay (transform.position + (stencilCheckOffset*transform.forward), (-1*transform.forward * 20f), Color.green);
 	//cast a sphere along the ray so you have a larger area to check with- this way your player is never obscured and you don't have to cast multiple rays
-		if (Physics.SphereCast (stencilCheckRay, stencilCheckDiameter, out hit, 10f, maskLayer, QueryTriggerInteraction.Collide)) {
+		if (Physics.SphereCast (stencilCheckRay, stencilCheckDiameter, out hit, 20f, maskLayer, QueryTriggerInteraction.Collide)) {
 			//get the name of the object we hit
 			checkHit = GameObject.Find (hit.transform.name);
 			//if we havent hit anything previously, change the shader on the curent hit to the stencil check
