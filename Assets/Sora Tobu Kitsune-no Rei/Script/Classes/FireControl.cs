@@ -42,7 +42,7 @@ public class FireControl : MonoBehaviour {
 	public GameObject audioManager;
 	public List<AudioClip> clipList;
 	public AudioSource audioSource;
-	private Collider[] bezerkHits;
+	public Collider[] bezerkHits;
 	public GameObject bezerkHit;
 	public int counter;
 	public int speed;
@@ -68,6 +68,10 @@ public class FireControl : MonoBehaviour {
 	
 		if (bezerkMeter.fillAmount <= 0){
 			bezerkActive = false;
+		}
+		if (bezerkHits.Length ==0 && bezerkMeter.fillAmount > 0 && bezerkActive == true){
+			BroadcastMessage("resetBar");
+			bezerkActive  = false;
 		}
 		if (bezerkList.Count >0){
 			for (int i = 0; i < bezerkList.Count; i++){	

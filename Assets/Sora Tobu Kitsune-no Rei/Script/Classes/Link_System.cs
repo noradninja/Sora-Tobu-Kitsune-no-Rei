@@ -18,9 +18,9 @@ public TextMeshProUGUI linkText;
 public GameObject audioManager;
 public List<AudioClip> clipList;
 public AudioSource audioSource;
-public Image bezerkBar;
+public Image bezerkMeter;
 private Animation anim;
-private float newValue = 1.0f;
+public float newValue = 1.0f;
 private float originalValue;
 public List<GameObject> bezerkList;
 
@@ -32,8 +32,8 @@ public List<GameObject> bezerkList;
 	}
 	
 	void Update (){
-		originalValue = bezerkBar.fillAmount;
-		bezerkBar.fillAmount = Mathf.Lerp(originalValue, newValue, 0.1f);
+		originalValue = bezerkMeter.fillAmount;
+		bezerkMeter.fillAmount = Mathf.Lerp(originalValue, newValue, 0.1f);
 		//Update link count text or blank it if link delay has expired
 		if (linkCount > 1){
 				linkText.text = (linkCount + " Link");
@@ -41,16 +41,16 @@ public List<GameObject> bezerkList;
 		else if (linkCount == 0){
 			linkText.text = ("");
 		}
-		// if (bezerkList.Count <=0 && gameObject.GetComponent<FireControl>().bezerkActive == true){
-		// 	bezerkBar.fillAmount = 0;
-		// }
+		
 	}
 	public void LinkIncrementer () {
 		StartCoroutine(IncrementCount());
 	}
 	public void LinkDecrementor (){
-		newValue = originalValue - 0.07f;
-		
+		newValue = originalValue - 0.07f;	
+	}
+	public void resetBar(){
+		newValue = 0.0f;
 	}
 	public IEnumerator IncrementCount(){
 		//This is called when an enemy dies, and we increment linkCount as they are destroyed, and increment a time counter between each destruction.

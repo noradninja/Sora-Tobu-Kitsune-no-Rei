@@ -38,6 +38,7 @@ public class BezerkMissile : MonoBehaviour {
 			}
 			else {
 				missileTarget.gameObject.transform.GetChild (0).gameObject.SetActive(true);
+				missileTarget.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce");
 				transform.position = Vector3.Slerp (transform.position, missileTarget.transform.position, step);
 			}
 		}	
@@ -52,6 +53,7 @@ public class BezerkMissile : MonoBehaviour {
 			other.gameObject.BroadcastMessage ("BezerkMissile");
 			//Destroy the missile, and apply its damage to the target
 			other.gameObject.BroadcastMessage ("ApplyDamage", 2.5f);
+			missileTarget.gameObject.transform.GetChild (0).gameObject.SetActive(false);
 			//List.Remove (missileTarget);
 			Destroy (gameObject);
 				//if there are still enemies in the target list and the first item isnt null, generate another missile	
