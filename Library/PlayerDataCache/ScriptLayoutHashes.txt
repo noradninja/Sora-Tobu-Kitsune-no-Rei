@@ -1,6 +1,6 @@
 PSP2
 PlayerPath?
-C:/PSVITA/Builds/New folder
+C:/PSVITA/Builds/CurrentBuild
 SceneListBegin?
 Assets/Sora Tobu Kitsune-no Rei/Scenes/Title.unity
 Assets/Sora Tobu Kitsune-no Rei/Scenes/LoadScreen.unity
@@ -223,6 +223,7 @@ a8ed45ab553b07236625df6cc6ac449c TextMeshPro-2017.3-Editor.dll:TMPro.EditorUtili
 d538a6fe900875625ba0efe59835c53e Assembly-CSharp.dll:.Parallax_BG
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.TMP_DigitValidator
 4beb1950b0f102b2eff82f55a62cb94d AmplifyShaderEditor.Samples.BuiltIn.dll:.Smear
+e041aa6cee361928a0a28d744d7f6a42 Assembly-CSharp.dll:.BezerkMissile
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ObjectFader
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.TeleType
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Reloader
@@ -325,4 +326,3 @@ ccf46ea869884024addfe9fba6c985b2 Assembly-CSharp.dll:.Title_DoF_Animator
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 f8f1c341c82c3a48504f430c7d4c9c67 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.FPSWalkerEnhanced
-e041aa6cee361928a0a28d744d7f6a42 Assembly-CSharp.dll:.BezerkMissile

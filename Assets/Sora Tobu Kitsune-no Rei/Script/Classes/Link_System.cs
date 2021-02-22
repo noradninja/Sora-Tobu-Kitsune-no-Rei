@@ -20,11 +20,13 @@ public List<AudioClip> clipList;
 public AudioSource audioSource;
 public Image bezerkBar;
 private Animation anim;
-private float newValue;
+private float newValue = 1.0f;
 private float originalValue;
+public List<GameObject> bezerkList;
 
 	// Use this for initialization
 	void Start () {
+		bezerkList = gameObject.GetComponent<FireControl>().bezerkList;
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
 		anim = linkText.GetComponent<Animation>();
 	}
@@ -39,17 +41,21 @@ private float originalValue;
 		else if (linkCount == 0){
 			linkText.text = ("");
 		}
+		// if (bezerkList.Count <=0 && gameObject.GetComponent<FireControl>().bezerkActive == true){
+		// 	bezerkBar.fillAmount = 0;
+		// }
 	}
 	public void LinkIncrementer () {
 		StartCoroutine(IncrementCount());
 	}
 	public void LinkDecrementor (){
-		newValue = originalValue - 0.1f;
+		newValue = originalValue - 0.07f;
+		
 	}
 	public IEnumerator IncrementCount(){
 		//This is called when an enemy dies, and we increment linkCount as they are destroyed, and increment a time counter between each destruction.
 		linkCount += 1;
-		newValue = bezerkBar.fillAmount + 0.025f;
+		newValue = originalValue + 0.025f;
 		//Play back ever increasing SFX tones based on the number of successive links you earn
 		if (linkCount == 2){
 		audioSource.PlayOneShot(clipList[9]);

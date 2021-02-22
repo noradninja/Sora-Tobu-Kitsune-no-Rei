@@ -10,7 +10,7 @@ public class Actor : MonoBehaviour {
 	public float health;
 	public float colDamage = 20.0f;
 	private GameObject Event;
-	private List<Vector3> List;	
+	private List<GameObject> List;	
 	public float actorDamage = 10.0f;
 	public GameObject eventManager;
 	public bool playerDead = false;
@@ -26,6 +26,7 @@ public class Actor : MonoBehaviour {
 	
 	void Start () {
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
+		List = eventManager.GetComponent<FireControl>().bezerkList;
 		if (gameObject.tag == "Enemy"){
 			currentTarget = gameObject;
 		}
@@ -43,6 +44,7 @@ public class Actor : MonoBehaviour {
 				GameObject boom = Instantiate (explosion, transform.position, Quaternion.identity);
 				boom.SetActive(true);
 				audioSource.PlayOneShot(clipList[13]);
+				//List.Remove(gameObject);
 				Destroy(gameObject);	
 			}
 			if (gameObject.tag == "Player" && health <=0){

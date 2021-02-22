@@ -65,22 +65,23 @@ public class FireControl : MonoBehaviour {
 	void Update ()
     {
 		targetingSystem();
+	
 		if (bezerkMeter.fillAmount <= 0){
 			bezerkActive = false;
 		}
 		if (bezerkList.Count >0){
 			for (int i = 0; i < bezerkList.Count; i++){	
-				if (bezerkActive == false){
+				if (bezerkActive == false && bezerkList[i] != null){
 					bezerkList[i].gameObject.transform.GetChild (0).gameObject.SetActive(false); //turn off target icon 
 				}
 				if (bezerkList[i] == null){
 					bezerkList.Remove (bezerkList[i]);
-					bezerkList[i].gameObject.transform.GetChild (0).gameObject.SetActive(false); //turn off target icon 
+//					bezerkList[i].gameObject.transform.GetChild (0).gameObject.SetActive(false); //turn off target icon 
 				}	
 			}
-			if (bezerkActive == false){
-				bezerkList.Clear();
-			}
+				if (counter == bezerkList.Count && bezerkActive == true){
+					bezerkMode();
+				}	
 		}
     }
 
@@ -204,10 +205,10 @@ public class FireControl : MonoBehaviour {
 		}
 	}
 
-	void fireBezerk(int target){
+	void fireBezerk(GameObject target){
 		GameObject firedBezerk = Instantiate (bezerkMissile, originVec.transform.position, Quaternion.identity);
 					audioSource.PlayOneShot(clipList[6]);
-					firedBezerk.GetComponent<BezerkMissile>().counter = target;
+					firedBezerk.GetComponent<BezerkMissile>().missileTarget = target;
 					firedBezerk.SetActive(true);
 	}
 	//bezerker
@@ -215,15 +216,14 @@ public class FireControl : MonoBehaviour {
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		if (bezerkMeter.fillAmount > 0){
 			bezerkActive = true;
-			StartCoroutine(fader(bgCam.backgroundColor, 0.5f));
+			//StartCoroutine(fader(bgCam.backgroundColor, 0.5f));
 			bezerkHits = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
 			
-				for (int i = 0; i < bezerkHits.Length; i++){
-					counter = i;
-					StartCoroutine(timer((counter*0.25f), counter)); //get current counter value and pass it to timer CR
-					//fireBezerk();
-				}		
-				
+			for (int i = 0; i < bezerkHits.Length; i++){
+				counter = i;
+				StartCoroutine(timer((counter*0.2f), counter)); //get current counter value and pass it to timer CR
+				//fireBezerk();
+			}		
 		}
 	}
 	
@@ -245,12 +245,12 @@ public class FireControl : MonoBehaviour {
 
 	IEnumerator adder(int i){
 	float step = speed * Time.deltaTime;
-		if(bezerkActive == true){
+		if(bezerkActive == true && i <= counter && bezerkHits[i] != null){
 			bezerkList.Add(GameObject.Find(bezerkHits[i].transform.name)); //add the enemy to the list
-			bezerkHits[i].gameObject.transform.GetChild (0).gameObject.SetActive(true); //turn on target icon 
-			bezerkHits[i].gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce"); //animate target icon
+			//bezerkHits[i].gameObject.transform.GetChild (0).gameObject.SetActive(true); //turn on target icon 
+			//bezerkHits[i].gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce"); //animate target icon
 			audioSource.PlayOneShot(clipList[7]); //play target sfx
-			fireBezerk(i);
+			fireBezerk(GameObject.Find(bezerkHits[i].transform.name));
 			//Debug.Log(0.5f*i + ", " + bezerkHits[i].transform.name + ", index " + i);
 			yield return null;
 		}
