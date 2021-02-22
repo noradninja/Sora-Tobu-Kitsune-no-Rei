@@ -37,8 +37,7 @@ public class BezerkMissile : MonoBehaviour {
 				Destroy (gameObject);
 			}
 			else {
-				missileTarget.gameObject.transform.GetChild (0).gameObject.SetActive(true);
-				missileTarget.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce");
+				
 				transform.position = Vector3.Slerp (transform.position, missileTarget.transform.position, step);
 			}
 		}	

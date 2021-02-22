@@ -33,6 +33,7 @@ public class FireControl : MonoBehaviour {
 	public GameObject Missile;
 	public GameObject bezerkMissile;
 	public GameObject targetVector;
+	public GameObject BGMManager;
 	private GameObject resetVector;
 	private int maskLayer;
 	public GameObject Reticle;
@@ -48,7 +49,10 @@ public class FireControl : MonoBehaviour {
 	public int speed;
 	public GameObject originVec;
 	public Color bgColor;
-	public Camera bgCam;
+	public Color resetColor;
+	public RawImage bgBezerkFader;
+	public AudioLowPassFilter filter;
+	public float LPFSweepDuration;
 	// Use this for initialization
 	void Start () {
 		joyTarget = GameObject.Find ("Main Camera").GetComponent("Joystick_Target");
@@ -58,6 +62,8 @@ public class FireControl : MonoBehaviour {
 		frameCounter = 0;
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
 		resetVector = GameObject.Find ("Main Camera");
+		//filter = GameObject.Find("BGMManager_Prefab").GetComponent<AudioLowPassFilter>();
+		LPFSweepDuration = GameObject.Find("BGMManager_Prefab").GetComponent<BGM_Player>().LPFSweepDuration;
 		
 	}
 
@@ -70,8 +76,8 @@ public class FireControl : MonoBehaviour {
 			bezerkActive = false;
 		}
 		if (bezerkHits.Length ==0 && bezerkMeter.fillAmount > 0 && bezerkActive == true){
+			StartCoroutine(fadeOut());
 			BroadcastMessage("resetBar");
-			bezerkActive  = false;
 		}
 		if (bezerkList.Count >0){
 			for (int i = 0; i < bezerkList.Count; i++){	
@@ -80,7 +86,6 @@ public class FireControl : MonoBehaviour {
 				}
 				if (bezerkList[i] == null){
 					bezerkList.Remove (bezerkList[i]);
-//					bezerkList[i].gameObject.transform.GetChild (0).gameObject.SetActive(false); //turn off target icon 
 				}	
 			}
 				if (counter == bezerkList.Count && bezerkActive == true){
@@ -213,23 +218,28 @@ public class FireControl : MonoBehaviour {
 		GameObject firedBezerk = Instantiate (bezerkMissile, originVec.transform.position, Quaternion.identity);
 					audioSource.PlayOneShot(clipList[6]);
 					firedBezerk.GetComponent<BezerkMissile>().missileTarget = target;
+					target.gameObject.transform.GetChild (0).gameObject.SetActive(true);
+					target.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce");
 					firedBezerk.SetActive(true);
 	}
 	//bezerker
 	void bezerkMode(){
+		StartCoroutine(fader(bgBezerkFader.color,bgColor, 0.5f));
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		if (bezerkMeter.fillAmount > 0){
 			bezerkActive = true;
-			//StartCoroutine(fader(bgCam.backgroundColor, 0.5f));
 			bezerkHits = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
 			
 			for (int i = 0; i < bezerkHits.Length; i++){
 				counter = i;
+				
 				StartCoroutine(timer((counter*0.2f), counter)); //get current counter value and pass it to timer CR
 				//fireBezerk();
 			}		
 		}
 	}
+
+
 	
 	/*reset frameCounter and objCount when called (happens on release of fire button)
 	reset targetVector and missileTarget to defaults, set current obj to null so we can
@@ -251,23 +261,39 @@ public class FireControl : MonoBehaviour {
 	float step = speed * Time.deltaTime;
 		if(bezerkActive == true && i <= counter && bezerkHits[i] != null){
 			bezerkList.Add(GameObject.Find(bezerkHits[i].transform.name)); //add the enemy to the list
-			//bezerkHits[i].gameObject.transform.GetChild (0).gameObject.SetActive(true); //turn on target icon 
-			//bezerkHits[i].gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce"); //animate target icon
 			audioSource.PlayOneShot(clipList[7]); //play target sfx
 			fireBezerk(GameObject.Find(bezerkHits[i].transform.name));
 			//Debug.Log(0.5f*i + ", " + bezerkHits[i].transform.name + ", index " + i);
 			yield return null;
 		}
 	}
-	IEnumerator fader(Color startValue, float duration){
+	IEnumerator fader(Color startValue, Color bgColor, float duration){
         float time = 0;
 
 		//fade out the loadscreen canvas group
         while (time < duration)
         {
-            bgCam.backgroundColor = Color.Lerp(startValue, bgColor, time / duration);
+            bgBezerkFader.color = Color.Lerp(startValue, bgColor, time / duration);
             time += Time.deltaTime;
             yield return null;
+			//StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(860.0F));
         }
+	}
+	IEnumerator fadeOut(){
+		//reduce image alpha value to 0 over time
+		bgBezerkFader.CrossFadeAlpha (0, 0.5f, true);	
+		yield return null;
+		//StartCoroutine(scaleLPF(2200f));
+	}
+	IEnumerator scaleLPF(float endValue){
+		BGMManager.GetComponent<BGM_Player>().scaler = 1;
+		float time = 0;
+		while (time < LPFSweepDuration) {
+			filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, endValue, time / LPFSweepDuration);	
+			time += Time.deltaTime;
+			yield return null;	
+		}
+		filter.cutoffFrequency = endValue;
+		Debug.Log("Scaling Audio UP");
 	}
 }

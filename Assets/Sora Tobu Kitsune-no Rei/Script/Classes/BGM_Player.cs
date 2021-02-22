@@ -6,7 +6,7 @@ public class BGM_Player : MonoBehaviour {
 
 private AudioSource bgmMusic;
 private AudioLowPassFilter filter;
-[HideInInspector]
+//[HideInInspector]
 public float scaler;
 [Range(0.0f, 1.0f)]
 public float LPFSweepDuration = 0.5f; //we clamp this range because anything > 1.0f causes unpredicatble behavior on the cutoff frequency
@@ -29,6 +29,7 @@ public float LPFSweepDuration = 0.5f; //we clamp this range because anything > 1
 	}
 	//scales audio LPF with time when pausing/unpausing game, called from Buttons.cs when Start is pressed
 	public IEnumerator scaleLPF(float endValue){
+		
 		float time = 0;
 		while (time < LPFSweepDuration) {
 			filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, endValue, time / LPFSweepDuration);	
@@ -36,8 +37,9 @@ public float LPFSweepDuration = 0.5f; //we clamp this range because anything > 1
 			yield return null;	
 		}
 		if (scaler == 0 ){
-			PauseManager.isPaused = true;
+			//PauseManager.isPaused = true;
 		}
 		filter.cutoffFrequency = endValue;
+		//Debug.Log("Scaling Audio");
 	}
 }

@@ -19,6 +19,8 @@ public GameObject audioManager;
 public List<AudioClip> clipList;
 public AudioSource audioSource;
 public Image bezerkMeter;
+public RawImage bgBezerkFader;
+public Color restoreColor;
 private Animation anim;
 public float newValue = 1.0f;
 private float originalValue;
@@ -51,6 +53,8 @@ public List<GameObject> bezerkList;
 	}
 	public void resetBar(){
 		newValue = 0.0f;
+		//StartCoroutine(fader(Color.white, restoreColor, 1f));
+		gameObject.GetComponent<FireControl>().bezerkActive = false;
 	}
 	public IEnumerator IncrementCount(){
 		//This is called when an enemy dies, and we increment linkCount as they are destroyed, and increment a time counter between each destruction.
@@ -72,6 +76,17 @@ public List<GameObject> bezerkList;
 		//start timer incrementor
 		StartCoroutine(WaitCalculate());
 		yield return null;
+	}
+	IEnumerator fader(Color startValue, Color bgColor, float duration){
+        float time = 0;
+
+		//fade out the loadscreen canvas group
+        while (time < duration)
+        {
+            bgBezerkFader.color = Color.Lerp(startValue, bgColor, time / duration);
+            time += Time.deltaTime;
+            yield return null;
+        }
 	}
 	public IEnumerator WaitCalculate(){
 		//increment a timer to create a window for adding to linkCount
