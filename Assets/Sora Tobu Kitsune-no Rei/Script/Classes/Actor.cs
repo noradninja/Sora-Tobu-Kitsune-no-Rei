@@ -20,6 +20,7 @@ public class Actor : MonoBehaviour {
 	public Color deathColor;
 	public GameObject audioManager;
 	public AudioSource audioSource;
+	public bool bezerkHit = false;
 	private List<AudioClip> clipList;
 
 	
@@ -36,7 +37,9 @@ public class Actor : MonoBehaviour {
 			//check for no health, kill if true
 			if (gameObject.tag == "Enemy" && health <=0 && gameObject != null){
 				//print(gameObject.name + " Has Died!");
-				eventManager.BroadcastMessage ("LinkIncrementer");
+				if (bezerkHit == false){
+					eventManager.BroadcastMessage ("LinkIncrementer");
+				}
 				GameObject boom = Instantiate (explosion, transform.position, Quaternion.identity);
 				boom.SetActive(true);
 				audioSource.PlayOneShot(clipList[13]);
@@ -55,13 +58,19 @@ public class Actor : MonoBehaviour {
 			}
 		}
 	}
-
 	//apply damage
 	public void ApplyDamage(float damage){
 		
 		health -= damage;
 		//print(gameObject.name + " health Remaining: " + health);
 	}
+	public void BezerkMissile(){
+		Debug.Log("hit by bezerker");
+		bezerkHit = true;
+		ApplyDamage(5.0f);
+		eventManager.BroadcastMessage("LinkDecrementor");
+	}
+
 }
 
 

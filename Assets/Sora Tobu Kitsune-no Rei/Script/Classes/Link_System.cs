@@ -21,6 +21,7 @@ public AudioSource audioSource;
 public Image bezerkBar;
 private Animation anim;
 private float newValue;
+private float originalValue;
 
 	// Use this for initialization
 	void Start () {
@@ -29,7 +30,7 @@ private float newValue;
 	}
 	
 	void Update (){
-		float originalValue = bezerkBar.fillAmount;
+		originalValue = bezerkBar.fillAmount;
 		bezerkBar.fillAmount = Mathf.Lerp(originalValue, newValue, 0.1f);
 		//Update link count text or blank it if link delay has expired
 		if (linkCount > 1){
@@ -41,6 +42,9 @@ private float newValue;
 	}
 	public void LinkIncrementer () {
 		StartCoroutine(IncrementCount());
+	}
+	public void LinkDecrementor (){
+		newValue = originalValue - 0.1f;
 	}
 	public IEnumerator IncrementCount(){
 		//This is called when an enemy dies, and we increment linkCount as they are destroyed, and increment a time counter between each destruction.
