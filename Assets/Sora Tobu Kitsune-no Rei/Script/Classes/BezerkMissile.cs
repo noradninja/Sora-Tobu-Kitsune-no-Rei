@@ -23,7 +23,8 @@ public class BezerkMissile : MonoBehaviour {
 		Event = GameObject.Find ("EventSystem");
 		//targetObject = GameObject.Find ("Main Camera");
 		bezerkMeter = GameObject.Find ("Bezerk_Bar").GetComponent<Image>();
-		List = Event.GetComponent<FireControl>().bezerkList;					
+		List = Event.GetComponent<FireControl>().bezerkList;	
+		Event.BroadcastMessage("LinkDecrementor");			
 	}
 
 	// Update is called once per frame
@@ -55,11 +56,6 @@ public class BezerkMissile : MonoBehaviour {
 			missileTarget.gameObject.transform.GetChild (0).gameObject.SetActive(false);
 			//List.Remove (missileTarget);
 			Destroy (gameObject);
-				//if there are still enemies in the target list and the first item isnt null, generate another missile	
-			// if (List.Count > 1 && List[0] != null) {
-			// 		Event.gameObject.BroadcastMessage ("fireBezerk");
-			// 		Destroy (gameObject);
-			// 	} 
 		}
 		//if missile somehow collides with the player, destroy missile
 		if (other.tag == "Player") {

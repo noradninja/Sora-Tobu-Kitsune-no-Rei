@@ -70,7 +70,6 @@ public class Actor : MonoBehaviour {
 		Debug.Log("hit by bezerker");
 		bezerkHit = true;
 		ApplyDamage(5.0f);
-		eventManager.BroadcastMessage("LinkDecrementor");
 	}
 
 }

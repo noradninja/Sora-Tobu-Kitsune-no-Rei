@@ -133,12 +133,12 @@ public class Buttons : MonoBehaviour {
 			}
 			myguiText.text = "Down";
 			}
-		else if (Input.GetKeyDown (joystick1 + LEFT) && mainCam.GetComponent<FXAA>().Threshold > 0){
-			mainCam.GetComponent<FXAA>().Threshold -= 0.1f;
+		else if (Input.GetKeyDown (joystick1 + LEFT) || Input.GetKeyDown(KeyCode.LeftArrow)){
+			eventManager.GetComponent<Link_System>().newValue -= 0.05f;
 			myguiText.text = "Left";
 		}
-		else if (Input.GetKeyDown (joystick1 + RIGHT) && mainCam.GetComponent<FXAA>().Threshold < 1){
-			mainCam.GetComponent<FXAA>().Threshold += 0.1f;
+		else if (Input.GetKeyDown (joystick1 + RIGHT) || Input.GetKeyDown(KeyCode.RightArrow)){
+			eventManager.GetComponent<Link_System>().newValue += 0.05f;
 			myguiText.text = "Right";
 		}
 		else if (Input.GetKeyDown (joystick1 + CROSS) && playerTemp.GetComponent<PlayerMoveJump>().jumpEnable == true) {

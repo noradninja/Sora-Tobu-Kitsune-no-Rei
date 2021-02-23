@@ -85,13 +85,13 @@ public class FireControl : MonoBehaviour {
         {
             StartCoroutine(fadeOut());
             BroadcastMessage("resetBar");
-            bezerkActive = false;
+           	bezerkOff();
         }
         if (bezerkHit == null && bezerkMeter.fillAmount <= 0 && bezerkActive == true)
         {
             StartCoroutine(fadeOut());
             BroadcastMessage("resetBar");
-            bezerkActive = false;
+           	bezerkOff();
         }
         if (bezerkList.Count > 0)
         {
@@ -265,8 +265,18 @@ public class FireControl : MonoBehaviour {
 		missileTarget = null;
 		obj = null;
 	}
-	IEnumerator delayTimer(float time, int i)
+ void bezerkOff()
     {
+        bezerkActive = false;
+        for (int i = 0; i < bezerkList.Count; i++)
+        {
+         if(bezerkList[i] != null){
+		    bezerkList[i].gameObject.transform.GetChild(0).gameObject.SetActive(false);
+		 }
+        }
+        bezerkList.Clear();
+    }
+	IEnumerator delayTimer(float time, int i){
     yield return new WaitForSeconds(time); //wait for counter value increment
 	StartCoroutine(bezerkAdder(i)); //pass current counter value to adder CR
 	}
@@ -294,18 +304,17 @@ public class FireControl : MonoBehaviour {
         }
 	}
 	IEnumerator fadeOut(){
-		//reduce image alpha value to 0 over time
-		bgBezerkFader.CrossFadeAlpha (0, 0.5f, true);	
-		yield return null;
+
 		//ScaleLPF back up in here because calling the BGMManagerCorutine for it doesnt work for some reason
 		BGMManager.GetComponent<BGM_Player>().scaler = 1;
 		float time = 0;
-		while (time < 1.2f) {
-			filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, 22000.0f, time / 1.2f);	
+		while (time < 1.3f) {
+			filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, 22000.0f, time / 1.3f);	
 			time += Time.deltaTime;
 			yield return null;	
 		}
 		filter.cutoffFrequency = 22000.0f;
-		Debug.Log("Scaling Audio UP");
+		//reduce image alpha value to 0 over time
+		bgBezerkFader.CrossFadeAlpha (0, 0.5f, true);	
 	}
 }
