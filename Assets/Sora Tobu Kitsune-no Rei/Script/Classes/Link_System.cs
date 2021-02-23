@@ -31,6 +31,7 @@ public List<GameObject> bezerkList;
 		bezerkList = gameObject.GetComponent<FireControl>().bezerkList;
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
 		anim = linkText.GetComponent<Animation>();
+		bezerkMeter.fillAmount = 0.0f;
 	}
 	
 	void Update (){
@@ -53,6 +54,7 @@ public List<GameObject> bezerkList;
 	}
 	public void resetBar(){
 		newValue = 0.0f;
+		bezerkMeter.fillAmount = 0.0f;
 		//StartCoroutine(fader(Color.white, restoreColor, 1f));
 		gameObject.GetComponent<FireControl>().bezerkActive = false;
 	}

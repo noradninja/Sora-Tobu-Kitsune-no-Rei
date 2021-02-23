@@ -70,31 +70,50 @@ public class FireControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-		targetingSystem();
-	
-		if (bezerkMeter.fillAmount <= 0){
-			bezerkActive = false;
-		}
-		if (bezerkHits.Length ==0 && bezerkMeter.fillAmount > 0 && bezerkActive == true){
-			StartCoroutine(fadeOut());
-			BroadcastMessage("resetBar");
-		}
-		if (bezerkList.Count >0){
-			for (int i = 0; i < bezerkList.Count; i++){	
-				if (bezerkActive == false && bezerkList[i] != null){
-					bezerkList[i].gameObject.transform.GetChild (0).gameObject.SetActive(false); //turn off target icon 
-				}
-				if (bezerkList[i] == null){
-					bezerkList.Remove (bezerkList[i]);
-				}	
-			}
-				if (counter == bezerkList.Count && bezerkActive == true){
-					bezerkMode();
-				}	
-		}
+        targetingSystem();
+
+        bezerkManager();
     }
 
-	// called in Update for tracking targets
+    void bezerkManager()
+    {
+        if (bezerkMeter.fillAmount <= 0)
+        {
+            bezerkHit = null;
+        }
+        if (bezerkHits.Length == 0 && bezerkMeter.fillAmount > 0 && bezerkActive == true)
+        {
+            StartCoroutine(fadeOut());
+            BroadcastMessage("resetBar");
+            bezerkActive = false;
+        }
+        if (bezerkHit == null && bezerkMeter.fillAmount <= 0 && bezerkActive == true)
+        {
+            StartCoroutine(fadeOut());
+            BroadcastMessage("resetBar");
+            bezerkActive = false;
+        }
+        if (bezerkList.Count > 0)
+        {
+            for (int i = 0; i < bezerkList.Count; i++)
+            {
+                if (bezerkActive == false && bezerkList[i] != null)
+                {
+                    bezerkList[i].gameObject.transform.GetChild(0).gameObject.SetActive(false); //turn off target icon 
+                }
+                if (bezerkList[i] == null)
+                {
+                    bezerkList.Remove(bezerkList[i]);
+                }
+            }
+            if (counter == bezerkList.Count && bezerkActive == true)
+            {
+                bezerkMode();
+            }
+        }
+    }
+
+    // called in Update for tracking targets
     void targetingSystem()
     {
         // update needed positions
@@ -224,7 +243,7 @@ public class FireControl : MonoBehaviour {
 	}
 	//bezerker
 	void bezerkMode(){
-		StartCoroutine(fader(bgBezerkFader.color,bgColor, 0.5f));
+		StartCoroutine(fadeIn(bgBezerkFader.color,bgColor, 0.5f));
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		if (bezerkMeter.fillAmount > 0){
 			bezerkActive = true;
@@ -232,18 +251,13 @@ public class FireControl : MonoBehaviour {
 			
 			for (int i = 0; i < bezerkHits.Length; i++){
 				counter = i;
-				
-				StartCoroutine(timer((counter*0.2f), counter)); //get current counter value and pass it to timer CR
+				bezerkHit = GameObject.Find(bezerkHits[i].GetComponent<Collider>().name);
+				StartCoroutine(delayTimer((counter*0.2f), counter)); //get current counter value and pass it to timer CR
 				//fireBezerk();
 			}		
 		}
 	}
 
-
-	
-	/*reset frameCounter and objCount when called (happens on release of fire button)
-	reset targetVector and missileTarget to defaults, set current obj to null so we can
-	reselect the last selected target on new lock-on*/		
 	void reset(){
 		frameCounter = 0;
 		objCount = 0;
@@ -251,13 +265,13 @@ public class FireControl : MonoBehaviour {
 		missileTarget = null;
 		obj = null;
 	}
-	IEnumerator timer(float time, int i)
+	IEnumerator delayTimer(float time, int i)
     {
     yield return new WaitForSeconds(time); //wait for counter value increment
-	StartCoroutine(adder(i)); //pass current counter value to adder CR
+	StartCoroutine(bezerkAdder(i)); //pass current counter value to adder CR
 	}
 
-	IEnumerator adder(int i){
+	IEnumerator bezerkAdder(int i){
 	float step = speed * Time.deltaTime;
 		if(bezerkActive == true && i <= counter && bezerkHits[i] != null){
 			bezerkList.Add(GameObject.Find(bezerkHits[i].transform.name)); //add the enemy to the list
@@ -267,7 +281,7 @@ public class FireControl : MonoBehaviour {
 			yield return null;
 		}
 	}
-	IEnumerator fader(Color startValue, Color bgColor, float duration){
+	IEnumerator fadeIn(Color startValue, Color bgColor, float duration){
         float time = 0;
 
 		//fade out the loadscreen canvas group
@@ -276,24 +290,22 @@ public class FireControl : MonoBehaviour {
             bgBezerkFader.color = Color.Lerp(startValue, bgColor, time / duration);
             time += Time.deltaTime;
             yield return null;
-			//StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(860.0F));
+			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(860.0F));
         }
 	}
 	IEnumerator fadeOut(){
 		//reduce image alpha value to 0 over time
 		bgBezerkFader.CrossFadeAlpha (0, 0.5f, true);	
 		yield return null;
-		//StartCoroutine(scaleLPF(2200f));
-	}
-	IEnumerator scaleLPF(float endValue){
+		//ScaleLPF back up in here because calling the BGMManagerCorutine for it doesnt work for some reason
 		BGMManager.GetComponent<BGM_Player>().scaler = 1;
 		float time = 0;
-		while (time < LPFSweepDuration) {
-			filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, endValue, time / LPFSweepDuration);	
+		while (time < 1.2f) {
+			filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, 22000.0f, time / 1.2f);	
 			time += Time.deltaTime;
 			yield return null;	
 		}
-		filter.cutoffFrequency = endValue;
+		filter.cutoffFrequency = 22000.0f;
 		Debug.Log("Scaling Audio UP");
 	}
 }
