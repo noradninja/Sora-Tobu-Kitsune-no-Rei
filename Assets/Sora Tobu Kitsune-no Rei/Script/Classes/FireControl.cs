@@ -51,6 +51,7 @@ public class FireControl : MonoBehaviour {
 	public Color bgColor;
 	public Color resetColor;
 	public RawImage bgBezerkFader;
+	public CanvasGroup bezerkCanvas;
 	public AudioLowPassFilter filter;
 	public float LPFSweepDuration;
 	// Use this for initialization
@@ -83,13 +84,19 @@ public class FireControl : MonoBehaviour {
         }
         if (bezerkHits.Length == 0 && bezerkMeter.fillAmount > 0 && bezerkActive == true)
         {
-            StartCoroutine(fadeOut());
+            StartCoroutine(Fader(0.0f,0.5f));
+            BroadcastMessage("resetBar");
+           	bezerkOff();
+        }
+		 if (bezerkHits.Length > 0 && bezerkMeter.fillAmount > 0 && bezerkActive == true && bezerkHit == null)
+        {
+            StartCoroutine(Fader(0.0f,0.5f));
             BroadcastMessage("resetBar");
            	bezerkOff();
         }
         if (bezerkHit == null && bezerkMeter.fillAmount <= 0 && bezerkActive == true)
         {
-            StartCoroutine(fadeOut());
+            StartCoroutine(Fader(0.0f,0.5f));
             BroadcastMessage("resetBar");
            	bezerkOff();
         }
@@ -243,7 +250,7 @@ public class FireControl : MonoBehaviour {
 	}
 	//bezerker
 	void bezerkMode(){
-		StartCoroutine(fadeIn(bgBezerkFader.color,bgColor, 0.5f));
+		StartCoroutine(Fader(1.0f,0.5f));
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		if (bezerkMeter.fillAmount > 0){
 			bezerkActive = true;
@@ -291,30 +298,45 @@ public class FireControl : MonoBehaviour {
 			yield return null;
 		}
 	}
-	IEnumerator fadeIn(Color startValue, Color bgColor, float duration){
+	// IEnumerator fadeIn(Color startValue, Color bgColor, float duration){
+    //     float time = 0;
+
+	// 	//fade out the loadscreen canvas group
+    //     while (time < duration)
+    //     {
+    //         bgBezerkFader.color = Color.Lerp(startValue, bgColor, time / duration);
+    //         time += Time.deltaTime;
+    //         yield return null;
+	// 		StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(860.0F));
+    //     }
+	// }
+	// IEnumerator fadeOut(){
+
+	// 	//ScaleLPF back up in here because calling the BGMManagerCorutine for it doesnt work for some reason
+	// 	BGMManager.GetComponent<BGM_Player>().scaler = 1;
+	// 	float time = 0;
+	// 	while (time < 1.3f) {
+	// 		filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, 22000.0f, time / 1.3f);	
+	// 		time += Time.deltaTime;
+	// 		yield return null;	
+	// 	}
+	// 	filter.cutoffFrequency = 22000.0f;
+	// 	//reduce image alpha value to 0 over time
+	// 	bgBezerkFader.CrossFadeAlpha (0, 0.5f, true);	
+	// }
+	IEnumerator Fader(float targetValue, float duration)
+    {
+        float startValue = bezerkCanvas.alpha;
         float time = 0;
 
-		//fade out the loadscreen canvas group
+		//fade out the menu canvas group
         while (time < duration)
         {
-            bgBezerkFader.color = Color.Lerp(startValue, bgColor, time / duration);
+            bezerkCanvas.alpha = Mathf.Lerp(startValue, targetValue, time / duration);
             time += Time.deltaTime;
             yield return null;
-			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(860.0F));
         }
-	}
-	IEnumerator fadeOut(){
+		bezerkCanvas.alpha = targetValue;
 
-		//ScaleLPF back up in here because calling the BGMManagerCorutine for it doesnt work for some reason
-		BGMManager.GetComponent<BGM_Player>().scaler = 1;
-		float time = 0;
-		while (time < 1.3f) {
-			filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, 22000.0f, time / 1.3f);	
-			time += Time.deltaTime;
-			yield return null;	
-		}
-		filter.cutoffFrequency = 22000.0f;
-		//reduce image alpha value to 0 over time
-		bgBezerkFader.CrossFadeAlpha (0, 0.5f, true);	
 	}
 }

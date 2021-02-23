@@ -50,9 +50,9 @@ public class BezerkMissile : MonoBehaviour {
 	{
 		//if you collide with an enemy, remove it from the list
 		if (other.tag == "Enemy") {
-			other.gameObject.BroadcastMessage ("BezerkMissile");
+			//other.gameObject.BroadcastMessage ("BezerkMissile");
 			//Destroy the missile, and apply its damage to the target
-			other.gameObject.BroadcastMessage ("ApplyDamage", 2.5f);
+			other.gameObject.BroadcastMessage ("ApplyDamage", damage);
 			missileTarget.gameObject.transform.GetChild (0).gameObject.SetActive(false);
 			//List.Remove (missileTarget);
 			Destroy (gameObject);

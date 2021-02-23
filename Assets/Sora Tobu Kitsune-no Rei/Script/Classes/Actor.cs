@@ -41,6 +41,7 @@ public class Actor : MonoBehaviour {
 				if (bezerkHit == false){
 					eventManager.BroadcastMessage ("LinkIncrementer");
 				}
+				
 				GameObject boom = Instantiate (explosion, transform.position, Quaternion.identity);
 				boom.SetActive(true);
 				audioSource.PlayOneShot(clipList[13]);
@@ -59,6 +60,7 @@ public class Actor : MonoBehaviour {
 				health = 0.0001f;
 			}
 		}
+	
 	}
 	//apply damage
 	public void ApplyDamage(float damage){
@@ -66,11 +68,17 @@ public class Actor : MonoBehaviour {
 		health -= damage;
 		//print(gameObject.name + " health Remaining: " + health);
 	}
-	public void BezerkMissile(){
-		Debug.Log("hit by bezerker");
-		bezerkHit = true;
-		ApplyDamage(5.0f);
-	}
+	public void OnTriggerEnter(Collider collider){
+			if (collider.tag == "Bezerk"){
+				bezerkHit = true;
+			}
+			else bezerkHit = false;
+		}
+	// public void BezerkMissile(){
+	// 	Debug.Log("hit by bezerker");
+	// 	bezerkHit = true;
+	// 	//ApplyDamage(5.0f);
+	// }
 
 }
 
