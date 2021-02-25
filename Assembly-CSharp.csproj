@@ -173,6 +173,7 @@
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Vita Inputs\TitleScreenOptionsManager.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Vita Inputs\Touch.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Vita Inputs\VitaRenderTexturePlayback.cs" />
+     <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\SoftMask.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Water Color.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />

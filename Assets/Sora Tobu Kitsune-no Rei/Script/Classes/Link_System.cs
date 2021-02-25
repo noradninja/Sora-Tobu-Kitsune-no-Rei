@@ -19,10 +19,12 @@ public GameObject audioManager;
 public List<AudioClip> clipList;
 public AudioSource audioSource;
 public Image bezerkMeter;
+public Image bezerkMeterBG;
 public Color restoreColor;
 private Animation anim;
 public float newValue = 1.0f;
 private float originalValue;
+private float bgOriginalvalue;
 public List<GameObject> bezerkList;
 
 	// Use this for initialization
@@ -31,11 +33,14 @@ public List<GameObject> bezerkList;
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
 		anim = linkText.GetComponent<Animation>();
 		bezerkMeter.fillAmount = 0.0f;
+		bezerkMeterBG.fillAmount = 1.0f;
 	}
 	
 	void Update (){
 		originalValue = bezerkMeter.fillAmount;
+		bgOriginalvalue = bezerkMeterBG.fillAmount;
 		bezerkMeter.fillAmount = Mathf.Lerp(originalValue, newValue, 0.1f);
+		bezerkMeterBG.fillAmount = Mathf.Lerp(bgOriginalvalue, 1-newValue, 0.1f);
 		//Update link count text or blank it if link delay has expired
 		if (linkCount > 1){
 				linkText.text = (linkCount + " Link");

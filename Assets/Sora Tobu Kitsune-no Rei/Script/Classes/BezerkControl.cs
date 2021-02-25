@@ -17,6 +17,7 @@ public class BezerkControl : MonoBehaviour {
 	public bool bezerkActive;
 	public float bezerkRadius;
 	public Image bezerkMeter;
+	public Image bezerkMeterBG;
 	public CanvasGroup bezerkCanvas;
 	public GameObject SFXManager;
 	public GameObject BGMManager;
