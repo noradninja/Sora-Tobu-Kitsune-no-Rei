@@ -33,6 +33,7 @@ namespace NprPaintFilter
 						RenderTexture temporaryTexture = RenderTexture.GetTemporary(width, height, 0, RenderTextureFormat.Default);
 						temporaryTexture.wrapMode = TextureWrapMode.Clamp;
 						temporaryTexture.anisoLevel = 0;
+						temporaryTexture.antiAliasing = 4;
 						//temporaryTexture.isPowerOfTwo = false; //disable PoT texture for this effect- was forcing a 1024x1024 texture for the screen which is slow on Vita due to rendering clipped pixels
 						temporaryTexture.filterMode = FilterMode.Bilinear;
 						return temporaryTexture;

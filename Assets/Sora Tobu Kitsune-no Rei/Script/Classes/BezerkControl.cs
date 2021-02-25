@@ -59,18 +59,21 @@ public class BezerkControl : MonoBehaviour {
 		if (bezerkHit == null && bezerkMeter.fillAmount > 0 && bezerkActive == true && bezerkArray.Length == 1)
         {
             BroadcastMessage("resetBar");
-           	bezerkOff();
+           	bezerkActive = false;
+			StartCoroutine(Fader(0.0f,0.5f));
+			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+			bezerkList.Clear();
         }
 	//reinitialize bezerk if there are still objects in the array, cycle selection icon on each loop through the array
         if (bezerkArray.Length > 0)
         {
-            for (int i = 0; i < bezerkArray.Length; i++)
-            {
-                if (bezerkActive == false && bezerkArray[i] != null)
-                {
-                    bezerkArray[i].gameObject.transform.GetChild(0).gameObject.SetActive(false); //turn off target icon 
-                }
-            }
+            // for (int i = 0; i < bezerkArray.Length; i++)
+            // {
+            //     if (bezerkActive == false && bezerkArray[i] != null)
+            //     {
+            //         bezerkArray[i].gameObject.transform.GetChild(0).gameObject.SetActive(false); //turn off target icon 
+            //     }
+            // }
             if (counter < bezerkArray.Length && bezerkActive == true && bezerkList.Count == 0 && bezerkArray.Length > 1)
             {
                 bezerkMode();
@@ -102,15 +105,13 @@ public class BezerkControl : MonoBehaviour {
 					firedBezerk.SetActive(true);
 	}
 	//cleanup tasks
-	 void bezerkOff()
-    {
+	 void bezerkOff(){
         bezerkActive = false;
-        for (int i = 0; i < bezerkList.Count; i++)
-        {
-         if(bezerkArray[i] != null){
-		    bezerkArray[i].gameObject.transform.GetChild(0).gameObject.SetActive(false);
-		 }
-        }
+        for (int i = 0; i < bezerkList.Count; i++){
+			if (bezerkArray[i] != null){
+				bezerkArray[i].gameObject.transform.GetChild(0).gameObject.SetActive(false);
+			}
+		}
 		StartCoroutine(Fader(0.0f,0.5f));
 		StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
 		bezerkList.Clear();
