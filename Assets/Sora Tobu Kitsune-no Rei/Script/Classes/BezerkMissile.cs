@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class BezerkMissile : MonoBehaviour {
 
-	private GameObject Event;
-	public List<GameObject> List;
+	private GameObject eventManager;
+	public List<GameObject> bezerkList;
 	public GameObject missileTarget;
 	//private GameObject targetObject;
 	public float speed=6.0f;
@@ -20,19 +20,19 @@ public class BezerkMissile : MonoBehaviour {
 
 	void Awake () {
 		//find the event manager
-		Event = GameObject.Find ("EventSystem");
+		eventManager = GameObject.Find ("EventSystem");
 		//targetObject = GameObject.Find ("Main Camera");
-		bezerkMeter = GameObject.Find ("Bezerk_Bar").GetComponent<Image>();
-		List = Event.GetComponent<FireControl>().bezerkList;	
-		Event.BroadcastMessage("LinkDecrementor");			
+		eventManager.BroadcastMessage("LinkDecrementor");	
+		//Event.GetComponent<FireControl>().firingBezerk = true;		
 	}
 
 	// Update is called once per frame
 	void Update () {
-		
+	//bezerkMeter = GameObject.Find ("Bezerk_Bar").GetComponent<Image>();
+	bezerkList = eventManager.GetComponent<BezerkControl>().bezerkList;		
 	float step = speed * Time.deltaTime;
 	
-	if (Event.GetComponent<FireControl>().bezerkActive || List.Count > 0){
+	
 		if ((PauseManager.isPaused) == false){
 			if (missileTarget == null) {
 				Destroy (gameObject);
@@ -42,21 +42,21 @@ public class BezerkMissile : MonoBehaviour {
 				transform.position = Vector3.Slerp (transform.position, missileTarget.transform.position, step);
 			}
 		}	
-	}
+	
 	else Destroy (gameObject);
 	}
 
 	public void OnTriggerEnter(Collider other)
 	{
 		//if you collide with an enemy, remove it from the list
-		if (other.tag == "Enemy") {
-			//other.gameObject.BroadcastMessage ("BezerkMissile");
+	
+			other.gameObject.BroadcastMessage ("BezerkMissile");
 			//Destroy the missile, and apply its damage to the target
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage);
 			missileTarget.gameObject.transform.GetChild (0).gameObject.SetActive(false);
-			//List.Remove (missileTarget);
+			bezerkList.Remove(missileTarget);
 			Destroy (gameObject);
-		}
+	
 		//if missile somehow collides with the player, destroy missile
 		if (other.tag == "Player") {
 			Destroy (gameObject);

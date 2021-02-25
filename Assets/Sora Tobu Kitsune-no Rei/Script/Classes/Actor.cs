@@ -22,14 +22,13 @@ public class Actor : MonoBehaviour {
 	public AudioSource audioSource;
 	public bool bezerkHit = false;
 	private List<AudioClip> clipList;
+	public string hitTag;
+
 
 	
 	void Start () {
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
-		List = eventManager.GetComponent<FireControl>().bezerkList;
-		if (gameObject.tag == "Enemy"){
-			currentTarget = gameObject;
-		}
+		List = eventManager.GetComponent<BezerkControl>().bezerkList;
 	}
 	
 	// Update is called once per frame
@@ -68,17 +67,16 @@ public class Actor : MonoBehaviour {
 		health -= damage;
 		//print(gameObject.name + " health Remaining: " + health);
 	}
-	public void OnTriggerEnter(Collider collider){
-			if (collider.tag == "Bezerk"){
-				bezerkHit = true;
-			}
-			else bezerkHit = false;
-		}
-	// public void BezerkMissile(){
-	// 	Debug.Log("hit by bezerker");
-	// 	bezerkHit = true;
-	// 	//ApplyDamage(5.0f);
-	// }
+
+	public void BezerkMissile(){
+		//health -= 5.0f;
+		Debug.Log("hit by bezerker");
+		bezerkHit = true;
+		
+	}
+	public void Shot(){
+		bezerkHit = false;
+	}
 
 }
 

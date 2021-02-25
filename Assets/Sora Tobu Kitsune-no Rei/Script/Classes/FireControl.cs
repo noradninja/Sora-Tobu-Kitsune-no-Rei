@@ -22,16 +22,12 @@ public class FireControl : MonoBehaviour {
 	public int lockDelay = 30;
 	public int maxTargets = 4;
 	public bool firingMissiles;
-	public bool bezerkActive;
-	public float bezerkRadius;
 	public Text myguiText;
 	public Texture Locked;
-	public Image bezerkMeter;
 	public GameObject Target;
 	public GameObject Target2;
 	public GameObject Bullet;
 	public GameObject Missile;
-	public GameObject bezerkMissile;
 	public GameObject targetVector;
 	public GameObject BGMManager;
 	private GameObject resetVector;
@@ -39,21 +35,13 @@ public class FireControl : MonoBehaviour {
 	public GameObject Reticle;
 	public Component joyTarget;
 	public List<GameObject> targetList;
-	public List<GameObject> bezerkList;
+	
 	public GameObject audioManager;
 	public List<AudioClip> clipList;
 	public AudioSource audioSource;
-	public Collider[] bezerkHits;
-	public GameObject bezerkHit;
-	public int counter;
-	public int speed;
-	public GameObject originVec;
-	public Color bgColor;
-	public Color resetColor;
-	public RawImage bgBezerkFader;
-	public CanvasGroup bezerkCanvas;
-	public AudioLowPassFilter filter;
-	public float LPFSweepDuration;
+
+
+
 	// Use this for initialization
 	void Start () {
 		joyTarget = GameObject.Find ("Main Camera").GetComponent("Joystick_Target");
@@ -63,9 +51,7 @@ public class FireControl : MonoBehaviour {
 		frameCounter = 0;
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
 		resetVector = GameObject.Find ("Main Camera");
-		//filter = GameObject.Find("BGMManager_Prefab").GetComponent<AudioLowPassFilter>();
-		LPFSweepDuration = GameObject.Find("BGMManager_Prefab").GetComponent<BGM_Player>().LPFSweepDuration;
-		
+		//filter = GameObject.Find("BGMManager_Prefab").GetComponent<AudioLowPassFilter>();		
 	}
 
 	// Update is called once per frame
@@ -73,52 +59,9 @@ public class FireControl : MonoBehaviour {
     {
         targetingSystem();
 
-        bezerkManager();
     }
 
-    void bezerkManager()
-    {
-        if (bezerkMeter.fillAmount <= 0)
-        {
-            bezerkHit = null;
-        }
-        if (bezerkHits.Length == 0 && bezerkMeter.fillAmount > 0 && bezerkActive == true)
-        {
-            StartCoroutine(Fader(0.0f,0.5f));
-            BroadcastMessage("resetBar");
-           	bezerkOff();
-        }
-		 if (bezerkHits.Length > 0 && bezerkMeter.fillAmount > 0 && bezerkActive == true && bezerkHit == null)
-        {
-            StartCoroutine(Fader(0.0f,0.5f));
-            BroadcastMessage("resetBar");
-           	bezerkOff();
-        }
-        if (bezerkHit == null && bezerkMeter.fillAmount <= 0 && bezerkActive == true)
-        {
-            StartCoroutine(Fader(0.0f,0.5f));
-            BroadcastMessage("resetBar");
-           	bezerkOff();
-        }
-        if (bezerkList.Count > 0)
-        {
-            for (int i = 0; i < bezerkList.Count; i++)
-            {
-                if (bezerkActive == false && bezerkList[i] != null)
-                {
-                    bezerkList[i].gameObject.transform.GetChild(0).gameObject.SetActive(false); //turn off target icon 
-                }
-                if (bezerkList[i] == null)
-                {
-                    bezerkList.Remove(bezerkList[i]);
-                }
-            }
-            if (counter == bezerkList.Count && bezerkActive == true)
-            {
-                bezerkMode();
-            }
-        }
-    }
+   
 
     // called in Update for tracking targets
     void targetingSystem()
@@ -240,31 +183,6 @@ public class FireControl : MonoBehaviour {
 		}
 	}
 
-	void fireBezerk(GameObject target){
-		GameObject firedBezerk = Instantiate (bezerkMissile, originVec.transform.position, Quaternion.identity);
-					audioSource.PlayOneShot(clipList[6]);
-					firedBezerk.GetComponent<BezerkMissile>().missileTarget = target;
-					target.gameObject.transform.GetChild (0).gameObject.SetActive(true);
-					target.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce");
-					firedBezerk.SetActive(true);
-	}
-	//bezerker
-	void bezerkMode(){
-		StartCoroutine(Fader(1.0f,0.5f));
-		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
-		if (bezerkMeter.fillAmount > 0){
-			bezerkActive = true;
-			bezerkHits = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
-			
-			for (int i = 0; i < bezerkHits.Length; i++){
-				counter = i;
-				bezerkHit = GameObject.Find(bezerkHits[i].GetComponent<Collider>().name);
-				StartCoroutine(delayTimer((counter*0.2f), counter)); //get current counter value and pass it to timer CR
-				//fireBezerk();
-			}		
-		}
-	}
-
 	void reset(){
 		frameCounter = 0;
 		objCount = 0;
@@ -272,32 +190,7 @@ public class FireControl : MonoBehaviour {
 		missileTarget = null;
 		obj = null;
 	}
- void bezerkOff()
-    {
-        bezerkActive = false;
-        for (int i = 0; i < bezerkList.Count; i++)
-        {
-         if(bezerkList[i] != null){
-		    bezerkList[i].gameObject.transform.GetChild(0).gameObject.SetActive(false);
-		 }
-        }
-        bezerkList.Clear();
-    }
-	IEnumerator delayTimer(float time, int i){
-    yield return new WaitForSeconds(time); //wait for counter value increment
-	StartCoroutine(bezerkAdder(i)); //pass current counter value to adder CR
-	}
 
-	IEnumerator bezerkAdder(int i){
-	float step = speed * Time.deltaTime;
-		if(bezerkActive == true && i <= counter && bezerkHits[i] != null){
-			bezerkList.Add(GameObject.Find(bezerkHits[i].transform.name)); //add the enemy to the list
-			audioSource.PlayOneShot(clipList[7]); //play target sfx
-			fireBezerk(GameObject.Find(bezerkHits[i].transform.name));
-			//Debug.Log(0.5f*i + ", " + bezerkHits[i].transform.name + ", index " + i);
-			yield return null;
-		}
-	}
 	// IEnumerator fadeIn(Color startValue, Color bgColor, float duration){
     //     float time = 0;
 
@@ -324,19 +217,6 @@ public class FireControl : MonoBehaviour {
 	// 	//reduce image alpha value to 0 over time
 	// 	bgBezerkFader.CrossFadeAlpha (0, 0.5f, true);	
 	// }
-	IEnumerator Fader(float targetValue, float duration)
-    {
-        float startValue = bezerkCanvas.alpha;
-        float time = 0;
 
-		//fade out the menu canvas group
-        while (time < duration)
-        {
-            bezerkCanvas.alpha = Mathf.Lerp(startValue, targetValue, time / duration);
-            time += Time.deltaTime;
-            yield return null;
-        }
-		bezerkCanvas.alpha = targetValue;
 
-	}
 }

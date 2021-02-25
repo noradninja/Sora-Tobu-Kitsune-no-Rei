@@ -52,6 +52,7 @@ public class Missile : MonoBehaviour {
 		if (other.tag == "Enemy") {
 			//Destroy the missile, and apply its damage to the target
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage);
+			other.gameObject.BroadcastMessage ("Shot");
 			List.Remove (missileTarget);
 			other.gameObject.transform.GetChild (0).gameObject.SetActive(false);	
 			Destroy (gameObject);

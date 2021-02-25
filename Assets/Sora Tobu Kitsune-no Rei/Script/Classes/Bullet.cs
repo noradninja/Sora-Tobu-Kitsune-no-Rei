@@ -75,6 +75,7 @@ public class Bullet : MonoBehaviour {
 		//if bullet hits and enemy, destroy the bullet and apply damage to enemy
 		if (other.tag == "Enemy") {
 			Destroy (gameObject);
+			other.gameObject.BroadcastMessage ("Shot");
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage); 
 			//Debug.Log ("Bullet collided with " + other.gameObject.name);
 		}
