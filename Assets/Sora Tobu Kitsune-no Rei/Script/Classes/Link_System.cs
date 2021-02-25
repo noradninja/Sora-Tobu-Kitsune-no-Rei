@@ -53,7 +53,6 @@ public List<GameObject> bezerkList;
 	}
 	public void resetBar(){
 		newValue = 0.0f;
-		bezerkMeter.fillAmount = 0.0f;
 		gameObject.GetComponent<BezerkControl>().bezerkActive = false;
 	}
 	public IEnumerator IncrementCount(){
