@@ -7,17 +7,16 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour {
 
 	public GameObject playerTemp;
-	public float targetValue;
 	public Image fillImage;
 	public Image endImage;
 	public float originalValue;
 	public float currentValue;
-	public float oldMaskAngle;
-	public float maskAngle;
+	public float oldCapAngle;
+	public float capAngle;
 	public float angleCalc;
 	public Color newColor;
 	public Color finalColor;
-	public RectTransform mask;
+	public RectTransform capRotationPoint;
 	private float r;
 	private float g;
 	private float b;
@@ -31,17 +30,15 @@ public class HealthBar : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		originalValue = fillImage.fillAmount;
-		//get the current amount of health the player has
-		targetValue = playerTemp.GetComponent<Actor>().health;
 		//convert the player health to a float
-		currentValue = (targetValue/100);
+		currentValue = (playerTemp.GetComponent<Actor>().health/100.0f);
 		//calculate cap angles
-		oldMaskAngle = originalValue * 360;
-		maskAngle = currentValue * 360;
+		oldCapAngle = Mathf.RoundToInt(originalValue * 360.0f);
+		capAngle = Mathf.RoundToInt(currentValue * 360.0f);
 		//calculate cap angle change over time
-		angleCalc = Mathf.Lerp (oldMaskAngle, maskAngle, 0.1f);
+		angleCalc = Mathf.Lerp (oldCapAngle, capAngle, 0.1f);
 		//set mask angle so blob follows lifebar reduction to eliminate sharp edge
-		mask.localEulerAngles = new Vector3(0,0,angleCalc);
+		capRotationPoint.localEulerAngles = new Vector3(0,0,angleCalc);
 		//adjust the size of the lifebar/cap based on the health amount the player has with change over time
 		fillImage.fillAmount = Mathf.Lerp (originalValue, currentValue, 0.1f);
 		//calculate lifebar/cap color based on health value
@@ -53,7 +50,7 @@ public class HealthBar : MonoBehaviour {
 		fillImage.color = finalColor;
 		endImage.color = finalColor;
 		//turn off cap when player dies
-		if (targetValue == 0.0001f){
+		if (currentValue == 0.0001f){
 			endImage.color = new Vector4(0,0,0,0);
 		}
 	}

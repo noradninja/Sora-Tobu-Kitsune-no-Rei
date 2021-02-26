@@ -22,4 +22,6 @@
     public bool CustomUploaderFolder;
 
     public string UploaderFolder;
+
+    public bool KeepFolderAfterBuild;
 }

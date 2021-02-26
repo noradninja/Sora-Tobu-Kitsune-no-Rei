@@ -7433,34 +7433,32 @@ struct  HealthBar_t4188698988  : public MonoBehaviour_t3962482529
 public:
 	// UnityEngine.GameObject HealthBar::playerTemp
 	GameObject_t1113636619 * ___playerTemp_2;
-	// System.Single HealthBar::targetValue
-	float ___targetValue_3;
 	// UnityEngine.UI.Image HealthBar::fillImage
-	Image_t2670269651 * ___fillImage_4;
+	Image_t2670269651 * ___fillImage_3;
 	// UnityEngine.UI.Image HealthBar::endImage
-	Image_t2670269651 * ___endImage_5;
+	Image_t2670269651 * ___endImage_4;
 	// System.Single HealthBar::originalValue
-	float ___originalValue_6;
+	float ___originalValue_5;
 	// System.Single HealthBar::currentValue
-	float ___currentValue_7;
-	// System.Single HealthBar::oldMaskAngle
-	float ___oldMaskAngle_8;
-	// System.Single HealthBar::maskAngle
-	float ___maskAngle_9;
+	float ___currentValue_6;
+	// System.Single HealthBar::oldCapAngle
+	float ___oldCapAngle_7;
+	// System.Single HealthBar::capAngle
+	float ___capAngle_8;
 	// System.Single HealthBar::angleCalc
-	float ___angleCalc_10;
+	float ___angleCalc_9;
 	// UnityEngine.Color HealthBar::newColor
-	Color_t2555686324  ___newColor_11;
+	Color_t2555686324  ___newColor_10;
 	// UnityEngine.Color HealthBar::finalColor
-	Color_t2555686324  ___finalColor_12;
-	// UnityEngine.RectTransform HealthBar::mask
-	RectTransform_t3704657025 * ___mask_13;
+	Color_t2555686324  ___finalColor_11;
+	// UnityEngine.RectTransform HealthBar::capRotationPoint
+	RectTransform_t3704657025 * ___capRotationPoint_12;
 	// System.Single HealthBar::r
-	float ___r_14;
+	float ___r_13;
 	// System.Single HealthBar::g
-	float ___g_15;
+	float ___g_14;
 	// System.Single HealthBar::b
-	float ___b_16;
+	float ___b_15;
 
 public:
 	inline static int32_t get_offset_of_playerTemp_2() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___playerTemp_2)); }
@@ -7472,119 +7470,111 @@ public:
 		Il2CppCodeGenWriteBarrier((&___playerTemp_2), value);
 	}
 
-	inline static int32_t get_offset_of_targetValue_3() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___targetValue_3)); }
-	inline float get_targetValue_3() const { return ___targetValue_3; }
-	inline float* get_address_of_targetValue_3() { return &___targetValue_3; }
-	inline void set_targetValue_3(float value)
+	inline static int32_t get_offset_of_fillImage_3() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___fillImage_3)); }
+	inline Image_t2670269651 * get_fillImage_3() const { return ___fillImage_3; }
+	inline Image_t2670269651 ** get_address_of_fillImage_3() { return &___fillImage_3; }
+	inline void set_fillImage_3(Image_t2670269651 * value)
 	{
-		___targetValue_3 = value;
+		___fillImage_3 = value;
+		Il2CppCodeGenWriteBarrier((&___fillImage_3), value);
 	}
 
-	inline static int32_t get_offset_of_fillImage_4() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___fillImage_4)); }
-	inline Image_t2670269651 * get_fillImage_4() const { return ___fillImage_4; }
-	inline Image_t2670269651 ** get_address_of_fillImage_4() { return &___fillImage_4; }
-	inline void set_fillImage_4(Image_t2670269651 * value)
+	inline static int32_t get_offset_of_endImage_4() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___endImage_4)); }
+	inline Image_t2670269651 * get_endImage_4() const { return ___endImage_4; }
+	inline Image_t2670269651 ** get_address_of_endImage_4() { return &___endImage_4; }
+	inline void set_endImage_4(Image_t2670269651 * value)
 	{
-		___fillImage_4 = value;
-		Il2CppCodeGenWriteBarrier((&___fillImage_4), value);
+		___endImage_4 = value;
+		Il2CppCodeGenWriteBarrier((&___endImage_4), value);
 	}
 
-	inline static int32_t get_offset_of_endImage_5() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___endImage_5)); }
-	inline Image_t2670269651 * get_endImage_5() const { return ___endImage_5; }
-	inline Image_t2670269651 ** get_address_of_endImage_5() { return &___endImage_5; }
-	inline void set_endImage_5(Image_t2670269651 * value)
+	inline static int32_t get_offset_of_originalValue_5() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___originalValue_5)); }
+	inline float get_originalValue_5() const { return ___originalValue_5; }
+	inline float* get_address_of_originalValue_5() { return &___originalValue_5; }
+	inline void set_originalValue_5(float value)
 	{
-		___endImage_5 = value;
-		Il2CppCodeGenWriteBarrier((&___endImage_5), value);
+		___originalValue_5 = value;
 	}
 
-	inline static int32_t get_offset_of_originalValue_6() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___originalValue_6)); }
-	inline float get_originalValue_6() const { return ___originalValue_6; }
-	inline float* get_address_of_originalValue_6() { return &___originalValue_6; }
-	inline void set_originalValue_6(float value)
+	inline static int32_t get_offset_of_currentValue_6() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___currentValue_6)); }
+	inline float get_currentValue_6() const { return ___currentValue_6; }
+	inline float* get_address_of_currentValue_6() { return &___currentValue_6; }
+	inline void set_currentValue_6(float value)
 	{
-		___originalValue_6 = value;
+		___currentValue_6 = value;
 	}
 
-	inline static int32_t get_offset_of_currentValue_7() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___currentValue_7)); }
-	inline float get_currentValue_7() const { return ___currentValue_7; }
-	inline float* get_address_of_currentValue_7() { return &___currentValue_7; }
-	inline void set_currentValue_7(float value)
+	inline static int32_t get_offset_of_oldCapAngle_7() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___oldCapAngle_7)); }
+	inline float get_oldCapAngle_7() const { return ___oldCapAngle_7; }
+	inline float* get_address_of_oldCapAngle_7() { return &___oldCapAngle_7; }
+	inline void set_oldCapAngle_7(float value)
 	{
-		___currentValue_7 = value;
+		___oldCapAngle_7 = value;
 	}
 
-	inline static int32_t get_offset_of_oldMaskAngle_8() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___oldMaskAngle_8)); }
-	inline float get_oldMaskAngle_8() const { return ___oldMaskAngle_8; }
-	inline float* get_address_of_oldMaskAngle_8() { return &___oldMaskAngle_8; }
-	inline void set_oldMaskAngle_8(float value)
+	inline static int32_t get_offset_of_capAngle_8() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___capAngle_8)); }
+	inline float get_capAngle_8() const { return ___capAngle_8; }
+	inline float* get_address_of_capAngle_8() { return &___capAngle_8; }
+	inline void set_capAngle_8(float value)
 	{
-		___oldMaskAngle_8 = value;
+		___capAngle_8 = value;
 	}
 
-	inline static int32_t get_offset_of_maskAngle_9() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___maskAngle_9)); }
-	inline float get_maskAngle_9() const { return ___maskAngle_9; }
-	inline float* get_address_of_maskAngle_9() { return &___maskAngle_9; }
-	inline void set_maskAngle_9(float value)
+	inline static int32_t get_offset_of_angleCalc_9() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___angleCalc_9)); }
+	inline float get_angleCalc_9() const { return ___angleCalc_9; }
+	inline float* get_address_of_angleCalc_9() { return &___angleCalc_9; }
+	inline void set_angleCalc_9(float value)
 	{
-		___maskAngle_9 = value;
+		___angleCalc_9 = value;
 	}
 
-	inline static int32_t get_offset_of_angleCalc_10() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___angleCalc_10)); }
-	inline float get_angleCalc_10() const { return ___angleCalc_10; }
-	inline float* get_address_of_angleCalc_10() { return &___angleCalc_10; }
-	inline void set_angleCalc_10(float value)
+	inline static int32_t get_offset_of_newColor_10() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___newColor_10)); }
+	inline Color_t2555686324  get_newColor_10() const { return ___newColor_10; }
+	inline Color_t2555686324 * get_address_of_newColor_10() { return &___newColor_10; }
+	inline void set_newColor_10(Color_t2555686324  value)
 	{
-		___angleCalc_10 = value;
+		___newColor_10 = value;
 	}
 
-	inline static int32_t get_offset_of_newColor_11() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___newColor_11)); }
-	inline Color_t2555686324  get_newColor_11() const { return ___newColor_11; }
-	inline Color_t2555686324 * get_address_of_newColor_11() { return &___newColor_11; }
-	inline void set_newColor_11(Color_t2555686324  value)
+	inline static int32_t get_offset_of_finalColor_11() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___finalColor_11)); }
+	inline Color_t2555686324  get_finalColor_11() const { return ___finalColor_11; }
+	inline Color_t2555686324 * get_address_of_finalColor_11() { return &___finalColor_11; }
+	inline void set_finalColor_11(Color_t2555686324  value)
 	{
-		___newColor_11 = value;
+		___finalColor_11 = value;
 	}
 
-	inline static int32_t get_offset_of_finalColor_12() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___finalColor_12)); }
-	inline Color_t2555686324  get_finalColor_12() const { return ___finalColor_12; }
-	inline Color_t2555686324 * get_address_of_finalColor_12() { return &___finalColor_12; }
-	inline void set_finalColor_12(Color_t2555686324  value)
+	inline static int32_t get_offset_of_capRotationPoint_12() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___capRotationPoint_12)); }
+	inline RectTransform_t3704657025 * get_capRotationPoint_12() const { return ___capRotationPoint_12; }
+	inline RectTransform_t3704657025 ** get_address_of_capRotationPoint_12() { return &___capRotationPoint_12; }
+	inline void set_capRotationPoint_12(RectTransform_t3704657025 * value)
 	{
-		___finalColor_12 = value;
+		___capRotationPoint_12 = value;
+		Il2CppCodeGenWriteBarrier((&___capRotationPoint_12), value);
 	}
 
-	inline static int32_t get_offset_of_mask_13() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___mask_13)); }
-	inline RectTransform_t3704657025 * get_mask_13() const { return ___mask_13; }
-	inline RectTransform_t3704657025 ** get_address_of_mask_13() { return &___mask_13; }
-	inline void set_mask_13(RectTransform_t3704657025 * value)
+	inline static int32_t get_offset_of_r_13() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___r_13)); }
+	inline float get_r_13() const { return ___r_13; }
+	inline float* get_address_of_r_13() { return &___r_13; }
+	inline void set_r_13(float value)
 	{
-		___mask_13 = value;
-		Il2CppCodeGenWriteBarrier((&___mask_13), value);
+		___r_13 = value;
 	}
 
-	inline static int32_t get_offset_of_r_14() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___r_14)); }
-	inline float get_r_14() const { return ___r_14; }
-	inline float* get_address_of_r_14() { return &___r_14; }
-	inline void set_r_14(float value)
+	inline static int32_t get_offset_of_g_14() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___g_14)); }
+	inline float get_g_14() const { return ___g_14; }
+	inline float* get_address_of_g_14() { return &___g_14; }
+	inline void set_g_14(float value)
 	{
-		___r_14 = value;
+		___g_14 = value;
 	}
 
-	inline static int32_t get_offset_of_g_15() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___g_15)); }
-	inline float get_g_15() const { return ___g_15; }
-	inline float* get_address_of_g_15() { return &___g_15; }
-	inline void set_g_15(float value)
+	inline static int32_t get_offset_of_b_15() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___b_15)); }
+	inline float get_b_15() const { return ___b_15; }
+	inline float* get_address_of_b_15() { return &___b_15; }
+	inline void set_b_15(float value)
 	{
-		___g_15 = value;
-	}
-
-	inline static int32_t get_offset_of_b_16() { return static_cast<int32_t>(offsetof(HealthBar_t4188698988, ___b_16)); }
-	inline float get_b_16() const { return ___b_16; }
-	inline float* get_address_of_b_16() { return &___b_16; }
-	inline void set_b_16(float value)
-	{
-		___b_16 = value;
+		___b_15 = value;
 	}
 };
 
@@ -9556,23 +9546,22 @@ extern const int32_t g_FieldOffsetTable2166[3] =
 	FollowPlayerwithRotation_t153715049::get_offset_of_playerRotation_4(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2167 = { sizeof (HealthBar_t4188698988), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2167[15] = 
+extern const int32_t g_FieldOffsetTable2167[14] = 
 {
 	HealthBar_t4188698988::get_offset_of_playerTemp_2(),
-	HealthBar_t4188698988::get_offset_of_targetValue_3(),
-	HealthBar_t4188698988::get_offset_of_fillImage_4(),
-	HealthBar_t4188698988::get_offset_of_endImage_5(),
-	HealthBar_t4188698988::get_offset_of_originalValue_6(),
-	HealthBar_t4188698988::get_offset_of_currentValue_7(),
-	HealthBar_t4188698988::get_offset_of_oldMaskAngle_8(),
-	HealthBar_t4188698988::get_offset_of_maskAngle_9(),
-	HealthBar_t4188698988::get_offset_of_angleCalc_10(),
-	HealthBar_t4188698988::get_offset_of_newColor_11(),
-	HealthBar_t4188698988::get_offset_of_finalColor_12(),
-	HealthBar_t4188698988::get_offset_of_mask_13(),
-	HealthBar_t4188698988::get_offset_of_r_14(),
-	HealthBar_t4188698988::get_offset_of_g_15(),
-	HealthBar_t4188698988::get_offset_of_b_16(),
+	HealthBar_t4188698988::get_offset_of_fillImage_3(),
+	HealthBar_t4188698988::get_offset_of_endImage_4(),
+	HealthBar_t4188698988::get_offset_of_originalValue_5(),
+	HealthBar_t4188698988::get_offset_of_currentValue_6(),
+	HealthBar_t4188698988::get_offset_of_oldCapAngle_7(),
+	HealthBar_t4188698988::get_offset_of_capAngle_8(),
+	HealthBar_t4188698988::get_offset_of_angleCalc_9(),
+	HealthBar_t4188698988::get_offset_of_newColor_10(),
+	HealthBar_t4188698988::get_offset_of_finalColor_11(),
+	HealthBar_t4188698988::get_offset_of_capRotationPoint_12(),
+	HealthBar_t4188698988::get_offset_of_r_13(),
+	HealthBar_t4188698988::get_offset_of_g_14(),
+	HealthBar_t4188698988::get_offset_of_b_15(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2168 = { sizeof (HintList_t1636427951), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2168[1] = 

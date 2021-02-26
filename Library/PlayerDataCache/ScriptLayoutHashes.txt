@@ -33,7 +33,7 @@ dcf3ed76442c48e3a57dd27e6f2fecc5 Assembly-CSharp.dll:PixelCrushers.SceneStreamer
 5be477358093a9e3773daac9e564f5d6 Assembly-CSharp.dll:.Joystick_Target
 83a1b236ee280dc0e3e8ff29fce154e3 Assembly-CSharp.dll:.OnNextLevel
 9330df9cdbd2773bef4f0fedac739433 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.SceneStreamer
-58b8e7c54f0e8f3e6b4caeb3de1f8604 Assembly-CSharp.dll:.HealthBar
+b922a49dcceeaab1c05ec239ff3c6633 Assembly-CSharp.dll:.HealthBar
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button

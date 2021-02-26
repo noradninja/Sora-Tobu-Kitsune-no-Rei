@@ -110,7 +110,16 @@ public class UploadBuild
 		if(!Directory.Exists(File.ReadAllText(LastBuildDirSavePath)))
 			UnityEngine.Debug.Log("No build directory found!");
 		
-		string args = "-i \"" + buildDir + "\" -o \"" + UploaderPath + "/" + GetProjectName() + "\"" + " -f -u -r -p -d";
+		string args;
+
+		if (!data.KeepFolderAfterBuild)
+		{
+			args = "-i \"" + buildDir + "\" -o \"" + UploaderPath + "/" + GetProjectName() + "\"" + " -f -u -r -p -d";
+		}
+		else
+		{
+			args = "-i \"" + buildDir + "\" -o \"" + UploaderPath + "/" + GetProjectName() + "\"" + " -f -u -r -p";
+		}
 		ProcessStartInfo processStartInfo = new ProcessStartInfo();
 		processStartInfo.FileName = UploaderPath + "/UnityTools.exe";
 		processStartInfo.Arguments = args;

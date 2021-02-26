@@ -179,8 +179,9 @@ public class Buttons : MonoBehaviour {
 			StartCoroutine(FireControl.GetComponent<BezerkControl>().Fader(1.0f,0.5f));
 		}
 		else if (Input.GetKeyDown (joystick1 + SELECT)){
-			SetScenes.sceneToLoad = SetScenes.currentScene;
-			SceneManager.LoadScene("LoadScreen");
+			//SetScenes.sceneToLoad = SetScenes.currentScene;
+			//SceneManager.LoadScene("LoadScreen");
+			playerTemp.GetComponent<Actor>().health -= 15f;
 		}	
 		else {
 			//myguiText.text = " ";
