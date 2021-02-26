@@ -40282,61 +40282,59 @@ extern "C"  void HealthBar_Update_m3256225700 (HealthBar_t4188698988 * __this, c
 		float L_4 = L_3->get_health_2();
 		__this->set_currentValue_6(((float)((float)L_4/(float)(100.0f))));
 		float L_5 = __this->get_originalValue_5();
+		__this->set_oldCapAngle_7(((float)il2cpp_codegen_multiply((float)L_5, (float)(360.0f))));
+		float L_6 = __this->get_currentValue_6();
+		__this->set_capAngle_8(((float)il2cpp_codegen_multiply((float)L_6, (float)(360.0f))));
+		float L_7 = __this->get_oldCapAngle_7();
+		float L_8 = __this->get_capAngle_8();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t3464937446_il2cpp_TypeInfo_var);
-		int32_t L_6 = Mathf_RoundToInt_m1874334613(NULL /*static, unused*/, ((float)il2cpp_codegen_multiply((float)L_5, (float)(360.0f))), /*hidden argument*/NULL);
-		__this->set_oldCapAngle_7((((float)((float)L_6))));
-		float L_7 = __this->get_currentValue_6();
-		int32_t L_8 = Mathf_RoundToInt_m1874334613(NULL /*static, unused*/, ((float)il2cpp_codegen_multiply((float)L_7, (float)(360.0f))), /*hidden argument*/NULL);
-		__this->set_capAngle_8((((float)((float)L_8))));
-		float L_9 = __this->get_oldCapAngle_7();
-		float L_10 = __this->get_capAngle_8();
-		float L_11 = Mathf_Lerp_m1004423579(NULL /*static, unused*/, L_9, L_10, (0.1f), /*hidden argument*/NULL);
-		__this->set_angleCalc_9(L_11);
-		RectTransform_t3704657025 * L_12 = __this->get_capRotationPoint_12();
-		float L_13 = __this->get_angleCalc_9();
-		Vector3_t3722313464  L_14;
-		memset(&L_14, 0, sizeof(L_14));
-		Vector3__ctor_m3353183577((&L_14), (0.0f), (0.0f), L_13, /*hidden argument*/NULL);
-		Transform_set_localEulerAngles_m4202601546(L_12, L_14, /*hidden argument*/NULL);
-		Image_t2670269651 * L_15 = __this->get_fillImage_3();
-		float L_16 = __this->get_originalValue_5();
+		float L_9 = Mathf_Lerp_m1004423579(NULL /*static, unused*/, L_7, L_8, (0.1f), /*hidden argument*/NULL);
+		__this->set_angleCalc_9(L_9);
+		RectTransform_t3704657025 * L_10 = __this->get_capRotationPoint_12();
+		float L_11 = __this->get_angleCalc_9();
+		Vector3_t3722313464  L_12;
+		memset(&L_12, 0, sizeof(L_12));
+		Vector3__ctor_m3353183577((&L_12), (0.0f), (0.0f), L_11, /*hidden argument*/NULL);
+		Transform_set_localEulerAngles_m4202601546(L_10, L_12, /*hidden argument*/NULL);
+		Image_t2670269651 * L_13 = __this->get_fillImage_3();
+		float L_14 = __this->get_originalValue_5();
+		float L_15 = __this->get_currentValue_6();
+		float L_16 = Mathf_Lerp_m1004423579(NULL /*static, unused*/, L_14, L_15, (0.1f), /*hidden argument*/NULL);
+		Image_set_fillAmount_m3737925590(L_13, L_16, /*hidden argument*/NULL);
 		float L_17 = __this->get_currentValue_6();
-		float L_18 = Mathf_Lerp_m1004423579(NULL /*static, unused*/, L_16, L_17, (0.1f), /*hidden argument*/NULL);
-		Image_set_fillAmount_m3737925590(L_15, L_18, /*hidden argument*/NULL);
+		float L_18 = __this->get_currentValue_6();
 		float L_19 = __this->get_currentValue_6();
-		float L_20 = __this->get_currentValue_6();
-		float L_21 = __this->get_currentValue_6();
-		Color_t2555686324  L_22;
-		memset(&L_22, 0, sizeof(L_22));
-		Color__ctor_m2943235014((&L_22), ((float)il2cpp_codegen_subtract((float)(1.205f), (float)L_19)), ((float)il2cpp_codegen_subtract((float)L_20, (float)(0.4075f))), ((float)il2cpp_codegen_subtract((float)L_21, (float)(0.55f))), (1.0f), /*hidden argument*/NULL);
-		__this->set_newColor_10(L_22);
-		Image_t2670269651 * L_23 = __this->get_fillImage_3();
-		Color_t2555686324  L_24 = VirtFuncInvoker0< Color_t2555686324  >::Invoke(22 /* UnityEngine.Color UnityEngine.UI.Graphic::get_color() */, L_23);
-		Color_t2555686324  L_25 = __this->get_newColor_10();
-		Color_t2555686324  L_26 = Color_Lerp_m973389909(NULL /*static, unused*/, L_24, L_25, (0.1f), /*hidden argument*/NULL);
-		__this->set_finalColor_11(L_26);
-		Image_t2670269651 * L_27 = __this->get_fillImage_3();
+		Color_t2555686324  L_20;
+		memset(&L_20, 0, sizeof(L_20));
+		Color__ctor_m2943235014((&L_20), ((float)il2cpp_codegen_subtract((float)(1.205f), (float)L_17)), ((float)il2cpp_codegen_subtract((float)L_18, (float)(0.4075f))), ((float)il2cpp_codegen_subtract((float)L_19, (float)(0.55f))), (1.0f), /*hidden argument*/NULL);
+		__this->set_newColor_10(L_20);
+		Image_t2670269651 * L_21 = __this->get_fillImage_3();
+		Color_t2555686324  L_22 = VirtFuncInvoker0< Color_t2555686324  >::Invoke(22 /* UnityEngine.Color UnityEngine.UI.Graphic::get_color() */, L_21);
+		Color_t2555686324  L_23 = __this->get_newColor_10();
+		Color_t2555686324  L_24 = Color_Lerp_m973389909(NULL /*static, unused*/, L_22, L_23, (0.1f), /*hidden argument*/NULL);
+		__this->set_finalColor_11(L_24);
+		Image_t2670269651 * L_25 = __this->get_fillImage_3();
+		Color_t2555686324  L_26 = __this->get_finalColor_11();
+		VirtActionInvoker1< Color_t2555686324  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_25, L_26);
+		Image_t2670269651 * L_27 = __this->get_endImage_4();
 		Color_t2555686324  L_28 = __this->get_finalColor_11();
 		VirtActionInvoker1< Color_t2555686324  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_27, L_28);
-		Image_t2670269651 * L_29 = __this->get_endImage_4();
-		Color_t2555686324  L_30 = __this->get_finalColor_11();
-		VirtActionInvoker1< Color_t2555686324  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_29, L_30);
-		float L_31 = __this->get_currentValue_6();
-		if ((!(((float)L_31) == ((float)(0.0001f)))))
+		float L_29 = __this->get_currentValue_6();
+		if ((!(((float)((float)il2cpp_codegen_multiply((float)L_29, (float)(100.0f)))) == ((float)(0.0001f)))))
 		{
-			goto IL_016a;
+			goto IL_0164;
 		}
 	}
 	{
-		Image_t2670269651 * L_32 = __this->get_endImage_4();
-		Vector4_t3319028937  L_33;
-		memset(&L_33, 0, sizeof(L_33));
-		Vector4__ctor_m2498754347((&L_33), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		Color_t2555686324  L_34 = Color_op_Implicit_m2665280078(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
-		VirtActionInvoker1< Color_t2555686324  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_32, L_34);
+		Image_t2670269651 * L_30 = __this->get_endImage_4();
+		Vector4_t3319028937  L_31;
+		memset(&L_31, 0, sizeof(L_31));
+		Vector4__ctor_m2498754347((&L_31), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Color_t2555686324  L_32 = Color_op_Implicit_m2665280078(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		VirtActionInvoker1< Color_t2555686324  >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_30, L_32);
 	}
 
-IL_016a:
+IL_0164:
 	{
 		return;
 	}

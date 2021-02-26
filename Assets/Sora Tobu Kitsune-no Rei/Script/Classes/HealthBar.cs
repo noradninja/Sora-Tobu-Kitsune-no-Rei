@@ -33,8 +33,8 @@ public class HealthBar : MonoBehaviour {
 		//convert the player health to a float
 		currentValue = (playerTemp.GetComponent<Actor>().health/100.0f);
 		//calculate cap angles
-		oldCapAngle = Mathf.RoundToInt(originalValue * 360.0f);
-		capAngle = Mathf.RoundToInt(currentValue * 360.0f);
+		oldCapAngle = originalValue * 360.0f;
+		capAngle = currentValue * 360.0f;
 		//calculate cap angle change over time
 		angleCalc = Mathf.Lerp (oldCapAngle, capAngle, 0.1f);
 		//set mask angle so blob follows lifebar reduction to eliminate sharp edge
@@ -50,7 +50,7 @@ public class HealthBar : MonoBehaviour {
 		fillImage.color = finalColor;
 		endImage.color = finalColor;
 		//turn off cap when player dies
-		if (currentValue == 0.0001f){
+		if (currentValue*100 == 0.0001f){
 			endImage.color = new Vector4(0,0,0,0);
 		}
 	}
