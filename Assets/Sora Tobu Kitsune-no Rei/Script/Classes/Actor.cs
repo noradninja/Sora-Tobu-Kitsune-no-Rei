@@ -25,7 +25,9 @@ public class Actor : MonoBehaviour {
 	public bool bezerkHit = false;
 	public Component[] subObjectsScripts;
 	public List<GameObject> subObjectsGO;
+	public bool isActive = true;
 	public GameObject bossObject;
+	public Text bossInfoText;
 	private List<AudioClip> clipList;
 	public string hitTag;
 
@@ -52,13 +54,19 @@ public class Actor : MonoBehaviour {
 	void Update () {
 		if ((PauseManager.isPaused) == false){
 			if (gameObject.tag == "Boss"){
+				if (bossHealth > 0){
+				bossInfoText.text = ("Boss Health: " + bossHealth);
+				}
+				else bossInfoText.text = ("Boss Health: 0");
+				
 				for (int i = 0; i<subObjectsGO.Count; i++){
 					if (subObjectsGO[i].GetComponent<Actor>().health <=0){
-						subObjectsGO[i].SetActive(false);
+						subObjectsGO[i].GetComponent<Actor>().isActive = false;
+						subObjectsGO[i].GetComponent<Collider>().enabled = false;
 					}
 				}
 			}
-			//check for no health, kill if true
+			//check enemy for no health, kill if true
 			if (gameObject.tag == "Enemy" && health <=0 && gameObject != null){
 				//print(gameObject.name + " Has Died!");
 				if (bezerkHit == false){
@@ -68,8 +76,18 @@ public class Actor : MonoBehaviour {
 				GameObject boom = Instantiate (explosion, transform.position, Quaternion.identity);
 				boom.SetActive(true);
 				audioSource.PlayOneShot(clipList[13]);
-				//List.Remove(gameObject);
 				Destroy(gameObject);	
+			}
+			if (gameObject.tag == "Boss" && bossHealth <=0 && gameObject != null){
+				//print(gameObject.name + " Has Died!");
+				for (int i = 0; i<subObjectsGO.Count; i++){
+					if (subObjectsGO[i].GetComponent<Actor>().isActive == false){
+						GameObject boom = Instantiate (explosion, subObjectsGO[i].transform.position, Quaternion.identity);
+						boom.SetActive(true);
+						audioSource.PlayOneShot(clipList[13]);
+					}
+					Destroy(gameObject);
+				}	
 			}
 			if (gameObject.tag == "Player" && health <=0){
 				print ("Player has Died!");
