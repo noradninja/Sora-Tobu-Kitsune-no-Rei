@@ -4,8 +4,6 @@
 -langversion:4
 -out:Temp/Assembly-CSharp.dll
 -unsafe
--r:Library/ScriptAssemblies/AmplifyShaderEditor.Samples.BuiltIn.dll
--r:Library/ScriptAssemblies/AmplifyShaderEditor.dll
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.CoreModule.dll"
@@ -52,6 +50,8 @@
 -r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.UnityWebRequestWWWModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.VideoModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.WindModule.dll"
+-r:Library/ScriptAssemblies/AmplifyShaderEditor.Samples.BuiltIn.dll
+-r:Library/ScriptAssemblies/AmplifyShaderEditor.dll
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"

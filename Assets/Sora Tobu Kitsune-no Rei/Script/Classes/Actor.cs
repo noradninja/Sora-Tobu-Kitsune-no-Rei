@@ -8,6 +8,8 @@ public class Actor : MonoBehaviour {
 //test update
 [Range(0.0f, 100.0f)]
 	public float health;
+[Range(0.0f, 100.0f)]
+	public float bossHealth;
 	public float colDamage = 20.0f;
 	private GameObject Event;
 	private List<GameObject> List;	
@@ -21,6 +23,9 @@ public class Actor : MonoBehaviour {
 	public GameObject audioManager;
 	public AudioSource audioSource;
 	public bool bezerkHit = false;
+	public Component[] subObjectsScripts;
+	public List<GameObject> subObjectsGO;
+	public GameObject bossObject;
 	private List<AudioClip> clipList;
 	public string hitTag;
 
@@ -29,11 +34,30 @@ public class Actor : MonoBehaviour {
 	void Start () {
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
 		List = eventManager.GetComponent<BezerkControl>().bezerkList;
+		if (gameObject.tag == "Boss"){
+			//get Actor scripts of subObjets so we can access their individual health values for the boss object
+				subObjectsScripts = GetComponentsInChildren<Actor>();
+				foreach (Actor subsScript in subObjectsScripts){
+					bossHealth += subsScript.GetComponent<Actor>().health;
+				}
+			//get a list of the actual subObjects so we can do things with them when they die
+				foreach (Transform subs in this.transform){
+					subObjectsGO.Add(subs.gameObject);
+				}
+
+			}
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if ((PauseManager.isPaused) == false){
+			if (gameObject.tag == "Boss"){
+				for (int i = 0; i<subObjectsGO.Count; i++){
+					if (subObjectsGO[i].GetComponent<Actor>().health <=0){
+						subObjectsGO[i].SetActive(false);
+					}
+				}
+			}
 			//check for no health, kill if true
 			if (gameObject.tag == "Enemy" && health <=0 && gameObject != null){
 				//print(gameObject.name + " Has Died!");
@@ -66,10 +90,12 @@ public class Actor : MonoBehaviour {
 		
 		health -= damage;
 		//print(gameObject.name + " health Remaining: " + health);
+		if (gameObject.tag == "BossSO"){
+			bossObject.GetComponent<Actor>().bossHealth -= damage;
+		}
 	}
 
 	public void BezerkMissile(){
-		//health -= 5.0f;
 		Debug.Log("hit by bezerker");
 		bezerkHit = true;
 		

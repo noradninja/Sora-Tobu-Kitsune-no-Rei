@@ -49,7 +49,7 @@ public class Missile : MonoBehaviour {
 	public void OnTriggerEnter(Collider other)
 	{
 		//if you collide with an enemy, remove it from the list
-		if (other.tag == "Enemy") {
+		if (other.tag == "Enemy" || other.tag == "BossSO") {
 			//Destroy the missile, and apply its damage to the target
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage);
 			other.gameObject.BroadcastMessage ("Shot");

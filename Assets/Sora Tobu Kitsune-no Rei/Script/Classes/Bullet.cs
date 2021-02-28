@@ -73,7 +73,7 @@ public class Bullet : MonoBehaviour {
 	public void OnTriggerEnter(Collider other)
 	{
 		//if bullet hits and enemy, destroy the bullet and apply damage to enemy
-		if (other.tag == "Enemy") {
+		if (other.tag == "Enemy" || other.tag == "BossSO") {
 			Destroy (gameObject);
 			other.gameObject.BroadcastMessage ("Shot");
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage); 
