@@ -50,7 +50,7 @@ public class HealthBar : MonoBehaviour {
 		fillImage.color = finalColor;
 		endImage.color = finalColor;
 		//turn off cap when player dies
-		if (currentValue*100 == 0.0001f){
+		if (playerTemp.GetComponent<Actor>().health <= 0.0001f){
 			endImage.color = new Vector4(0,0,0,0);
 		}
 	}
