@@ -58,7 +58,7 @@ public class Actor : MonoBehaviour {
 				bossInfoText.text = ("Boss Health: " + bossHealth);
 				}
 				else bossInfoText.text = ("Boss Health: 0");
-				
+
 				for (int i = 0; i<subObjectsGO.Count; i++){
 					if (subObjectsGO[i].GetComponent<Actor>().health <=0){
 						subObjectsGO[i].GetComponent<Actor>().isActive = false;
@@ -84,7 +84,8 @@ public class Actor : MonoBehaviour {
 					if (subObjectsGO[i].GetComponent<Actor>().isActive == false){
 						GameObject boom = Instantiate (explosion, subObjectsGO[i].transform.position, Quaternion.identity);
 						boom.SetActive(true);
-						audioSource.PlayOneShot(clipList[13]);
+						//audioSource.PlayOneShot(clipList[13]);
+						audioSource.PlayOneShot(clipList[14]);
 					}
 					Destroy(gameObject);
 				}	
