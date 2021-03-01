@@ -118,22 +118,42 @@ public class Buttons : MonoBehaviour {
 			switch (enemyGroup){
 			 	case SelectedEnemy.enemy:
 				 	enemyGroup = SelectedEnemy.mpBoss;
+					if (enemyTypes[0] !=null){	
 					enemyTypes[0].SetActive(false); 
-					enemyTypes[1].SetActive(true);
+					}
+					if (enemyTypes[1] !=null){
+						enemyTypes[1].SetActive(true);
+					}
+					if (enemyTypes[2] !=null){
 					enemyTypes[2].SetActive(false);
+					}
 					break;
 				case SelectedEnemy.mpBoss:
 					enemyGroup = SelectedEnemy.mtBoss;
+					if (enemyTypes[0] !=null){	
 					enemyTypes[0].SetActive(false); 
-					enemyTypes[1].SetActive(false);
+					}
+					if (enemyTypes[1] !=null){
+						enemyTypes[1].SetActive(false);
+					}
+					if (enemyTypes[2] !=null){
 					enemyTypes[2].SetActive(true);
+					}
 					break;
 				case SelectedEnemy.mtBoss:
 					enemyGroup = SelectedEnemy.enemy;
+				if (enemyTypes[0] != null){
+						if (enemyTypes[0] !=null){	
 					enemyTypes[0].SetActive(true); 
-					enemyTypes[1].SetActive(false);
+					}
+					if (enemyTypes[1] !=null){
+						enemyTypes[1].SetActive(false);
+					}
+					if (enemyTypes[2] !=null){
 					enemyTypes[2].SetActive(false);
+					}
 					GameObject.Find("BossInfoText").GetComponent<Text>().text = " ";
+				}
 					break;
 			 }
 			myguiText.text = "Up";
