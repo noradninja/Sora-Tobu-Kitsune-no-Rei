@@ -48,6 +48,9 @@ public class Buttons : MonoBehaviour {
 	public GameObject audioManager;
 	public List<AudioClip> clipList;
 	public AudioSource audioSource;
+	public enum SelectedEnemy{enemy, mpBoss, mtBoss};
+	public SelectedEnemy enemyGroup = SelectedEnemy.enemy;
+	public GameObject[] enemyTypes;
 	public int screenWidth = 960;
 	public int screenHeight = 544;
 	[Range (1.0f, 2.0f)]
@@ -112,14 +115,27 @@ public class Buttons : MonoBehaviour {
 		indicatorText.text = (paintOff + " / " + depthOn);// + " / Threshold: " + mainCam.GetComponent<FXAA>().Threshold);
 	}
 		if (Input.GetKeyDown (joystick1 + UP) || (Input.GetKeyDown(KeyCode.UpArrow))){
-			if (enablePaint == true){
-				mainCam.GetComponent<FiltersController>().enabled = false;
-				enablePaint = false;
-			}
-			else if (enablePaint == false){
-				mainCam.GetComponent<FiltersController>().enabled = true;
-				enablePaint = true;
-			}
+			switch (enemyGroup){
+			 	case SelectedEnemy.enemy:
+				 	enemyGroup = SelectedEnemy.mpBoss;
+					enemyTypes[0].SetActive(false); 
+					enemyTypes[1].SetActive(true);
+					enemyTypes[2].SetActive(false);
+					break;
+				case SelectedEnemy.mpBoss:
+					enemyGroup = SelectedEnemy.mtBoss;
+					enemyTypes[0].SetActive(false); 
+					enemyTypes[1].SetActive(false);
+					enemyTypes[2].SetActive(true);
+					break;
+				case SelectedEnemy.mtBoss:
+					enemyGroup = SelectedEnemy.enemy;
+					enemyTypes[0].SetActive(true); 
+					enemyTypes[1].SetActive(false);
+					enemyTypes[2].SetActive(false);
+					GameObject.Find("BossInfoText").GetComponent<Text>().text = " ";
+					break;
+			 }
 			myguiText.text = "Up";
 		}
 		else if (Input.GetKeyDown (joystick1 + DOWN) || (Input.GetKeyDown(KeyCode.DownArrow))){
@@ -130,6 +146,14 @@ public class Buttons : MonoBehaviour {
 			else if (enableDoF == false){
 				enableDoF = true;
 				mainCam.GetComponent<DepthOfField>().enabled = true;
+			}
+			if (enablePaint == true){
+				mainCam.GetComponent<FiltersController>().enabled = false;
+				enablePaint = false;
+			}
+			else if (enablePaint == false){
+				mainCam.GetComponent<FiltersController>().enabled = true;
+				enablePaint = true;
 			}
 			myguiText.text = "Down";
 			}
