@@ -327,3 +327,4 @@ ccf46ea869884024addfe9fba6c985b2 Assembly-CSharp.dll:.Title_DoF_Animator
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 f8f1c341c82c3a48504f430c7d4c9c67 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.FPSWalkerEnhanced
+5f8515f2e5e7bee9c7fbe8e4647e7fec Assembly-CSharp.dll:.Contour_Drawing_Post

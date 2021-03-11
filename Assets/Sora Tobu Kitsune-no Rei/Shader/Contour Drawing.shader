@@ -5,13 +5,13 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 		_Amplitude ("Amplitude", Float) = 0.01
 		_Speed ("Speed", Float) = 6.0
         _MainTexture ("Main Texture", 2D) = "white" {}
-		
+		_Color ("Color Tint", Color) = (1,1,1,1)
 	
 	}
 	 SubShader {
 	   Tags {
         	//"Queue"="Transparent"
-            //"RenderType" = "TransparentCutout"
+            //"RenderType" = "Transparent"
             }
 			ZWrite On
 		 Pass {
@@ -19,7 +19,7 @@ Shader "NPR Contour Drawing/Contour Drawing" {
           
             Cull Back
             Lighting Off
-            //Blend Zero One          
+            //Blend SrcAlpha OneMinusSrcAlpha          
             CGPROGRAM
             #pragma vertex vert
 			#pragma fragment frag
@@ -28,12 +28,13 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 			#include "DepthCG.cginc"
 			#pragma only_renderers psp2 d3d11
            
-            uniform fixed4 main_color;
-            uniform sampler2D _MainTexture; uniform fixed4 _MainTexture_ST;
+            uniform fixed4 main_color; uniform fixed4 tint_color;
+            uniform sampler2D _MainTexture; uniform fixed4 _MainTexture_ST; half4 _Color;
             struct v2f {
 				float4 position : SV_POSITION;
 				float2 uv : TEXCOORD0;
 				float depth : TEXCOORD2; // Define depth float to pass to `frag`
+				half4 color : COLOR;
 				UNITY_FOG_COORDS(8)
      		 };
             v2f vert(appdata_base i) {
@@ -41,19 +42,22 @@ Shader "NPR Contour Drawing/Contour Drawing" {
         o.position = UnityObjectToClipPos(i.vertex);
         o.uv = TRANSFORM_TEX(i.texcoord, _MainTexture);
 		UNITY_TRANSFER_FOG(o,o.position);
-
+		o.color = _Color;
         // Calculate depth and place in output
         o.depth = CalculateDepth(i.vertex);
         return o;
       }
 
       fixed4 frag(v2f i) : COLOR {
+		fixed4 color = color;
         fixed4 main_color = tex2D(_MainTexture, i.uv);
+		
 		
         // The magic
         // clip(main_color.a + 0.1f);
         // Place `vert` depth calculation into alpha channel
-        main_color.a = i.depth;
+		main_color.rgb = i.color.rgb*main_color.rgb;
+        main_color.a = i.depth * i.color.a;
 		UNITY_APPLY_FOG(i.fogCoord, main_color);
         return main_color;
       }

@@ -50,7 +50,7 @@ public class VitaFTPOptions : EditorWindow
     [MenuItem("VitaFTPI/Options")]
     public static void ShowWindow()
     {
-        GetWindow<VitaFTPOptions>("Upload Options");
+        GetWindow<VitaFTPOptions>("Post Build");
     }
 
     void OnEnable()

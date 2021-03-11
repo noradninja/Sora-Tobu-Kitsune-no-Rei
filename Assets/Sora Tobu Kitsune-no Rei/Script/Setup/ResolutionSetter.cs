@@ -12,16 +12,18 @@ public class ResolutionSetter : MonoBehaviour
     public FilterMode filterMode = FilterMode.Point;
 
     public RenderTexture rt;
-
-    
-    void OnRenderImage(RenderTexture src, RenderTexture dest)
-    {
-        // set our filtering mode and blit to the screen
-        src.filterMode = filterMode;
-        
-        Graphics.Blit(src, dest);
-        
-        //RenderTexture.ReleaseTemporary(rt);
+    void Start(){
+        Screen.SetResolution(720, 408, true); 
     }
+    
+    // void OnRenderImage(RenderTexture src, RenderTexture dest)
+    // {
+    //     // set our filtering mode and blit to the screen
+    //     src.filterMode = filterMode;
+        
+    //     Graphics.Blit(src, dest);
+        
+    //     //RenderTexture.ReleaseTemporary(rt);
+    // }
     
 }
