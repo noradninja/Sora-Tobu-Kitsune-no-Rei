@@ -34319,18 +34319,18 @@ static void ResolutionSetter_t853612697_CustomAttributesCacheGenerator(CustomAtt
 		RequireComponent__ctor_m886241599(tmp, il2cpp_codegen_type_get_object(Camera_t4157153871_0_0_0_var), NULL);
 	}
 }
-static void ResolutionSetter_t853612697_CustomAttributesCacheGenerator_scale(CustomAttributesCache* cache)
-{
-	{
-		RangeAttribute_t3337244227 * tmp = (RangeAttribute_t3337244227 *)cache->attributes[0];
-		RangeAttribute__ctor_m32920615(tmp, 1.0f, 2.0f, NULL);
-	}
-}
-static void ResolutionSetter_t853612697_CustomAttributesCacheGenerator_maxQueuedFrames(CustomAttributesCache* cache)
+static void ResolutionSetter_t853612697_CustomAttributesCacheGenerator_bufferedFrames(CustomAttributesCache* cache)
 {
 	{
 		RangeAttribute_t3337244227 * tmp = (RangeAttribute_t3337244227 *)cache->attributes[0];
 		RangeAttribute__ctor_m32920615(tmp, 0.0f, 2.0f, NULL);
+	}
+}
+static void ResolutionSetter_t853612697_CustomAttributesCacheGenerator_divisor(CustomAttributesCache* cache)
+{
+	{
+		RangeAttribute_t3337244227 * tmp = (RangeAttribute_t3337244227 *)cache->attributes[0];
+		RangeAttribute__ctor_m32920615(tmp, 1.0f, 2.0f, NULL);
 	}
 }
 static void SequencePlayer_t1120302796_CustomAttributesCacheGenerator_SequencePlayer_PlayLoop_m3110095142(CustomAttributesCache* cache)
@@ -38695,8 +38695,8 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[3542] =
 	BuildSetup_t1563323527_CustomAttributesCacheGenerator,
 	OutlinePost_t3737395541_CustomAttributesCacheGenerator_downsampleFactor,
 	ResolutionSetter_t853612697_CustomAttributesCacheGenerator,
-	ResolutionSetter_t853612697_CustomAttributesCacheGenerator_scale,
-	ResolutionSetter_t853612697_CustomAttributesCacheGenerator_maxQueuedFrames,
+	ResolutionSetter_t853612697_CustomAttributesCacheGenerator_bufferedFrames,
+	ResolutionSetter_t853612697_CustomAttributesCacheGenerator_divisor,
 	SequencePlayer_t1120302796_CustomAttributesCacheGenerator_SequencePlayer_PlayLoop_m3110095142,
 	SequencePlayer_t1120302796_CustomAttributesCacheGenerator_SequencePlayer_Play_m336803356,
 	U3CPlayLoopU3Ec__Iterator0_t3076249267_CustomAttributesCacheGenerator,

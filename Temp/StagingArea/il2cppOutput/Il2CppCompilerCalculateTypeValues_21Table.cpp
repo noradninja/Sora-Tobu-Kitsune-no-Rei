@@ -6438,12 +6438,16 @@ public:
 	float ___aperture_4;
 	// System.Boolean DepthOfField::debug
 	bool ___debug_5;
+	// System.Int32 DepthOfField::temporaryWidth
+	int32_t ___temporaryWidth_6;
+	// System.Int32 DepthOfField::temporaryHeight
+	int32_t ___temporaryHeight_7;
 	// System.Single DepthOfField::downsampleFactor
-	float ___downsampleFactor_6;
+	float ___downsampleFactor_8;
 	// UnityEngine.Shader DepthOfField::shader
-	Shader_t4151988712 * ___shader_7;
+	Shader_t4151988712 * ___shader_9;
 	// UnityEngine.Material DepthOfField::material
-	Material_t340375123 * ___material_8;
+	Material_t340375123 * ___material_10;
 
 public:
 	inline static int32_t get_offset_of_focus_2() { return static_cast<int32_t>(offsetof(DepthOfField_t300342762, ___focus_2)); }
@@ -6479,30 +6483,46 @@ public:
 		___debug_5 = value;
 	}
 
-	inline static int32_t get_offset_of_downsampleFactor_6() { return static_cast<int32_t>(offsetof(DepthOfField_t300342762, ___downsampleFactor_6)); }
-	inline float get_downsampleFactor_6() const { return ___downsampleFactor_6; }
-	inline float* get_address_of_downsampleFactor_6() { return &___downsampleFactor_6; }
-	inline void set_downsampleFactor_6(float value)
+	inline static int32_t get_offset_of_temporaryWidth_6() { return static_cast<int32_t>(offsetof(DepthOfField_t300342762, ___temporaryWidth_6)); }
+	inline int32_t get_temporaryWidth_6() const { return ___temporaryWidth_6; }
+	inline int32_t* get_address_of_temporaryWidth_6() { return &___temporaryWidth_6; }
+	inline void set_temporaryWidth_6(int32_t value)
 	{
-		___downsampleFactor_6 = value;
+		___temporaryWidth_6 = value;
 	}
 
-	inline static int32_t get_offset_of_shader_7() { return static_cast<int32_t>(offsetof(DepthOfField_t300342762, ___shader_7)); }
-	inline Shader_t4151988712 * get_shader_7() const { return ___shader_7; }
-	inline Shader_t4151988712 ** get_address_of_shader_7() { return &___shader_7; }
-	inline void set_shader_7(Shader_t4151988712 * value)
+	inline static int32_t get_offset_of_temporaryHeight_7() { return static_cast<int32_t>(offsetof(DepthOfField_t300342762, ___temporaryHeight_7)); }
+	inline int32_t get_temporaryHeight_7() const { return ___temporaryHeight_7; }
+	inline int32_t* get_address_of_temporaryHeight_7() { return &___temporaryHeight_7; }
+	inline void set_temporaryHeight_7(int32_t value)
 	{
-		___shader_7 = value;
-		Il2CppCodeGenWriteBarrier((&___shader_7), value);
+		___temporaryHeight_7 = value;
 	}
 
-	inline static int32_t get_offset_of_material_8() { return static_cast<int32_t>(offsetof(DepthOfField_t300342762, ___material_8)); }
-	inline Material_t340375123 * get_material_8() const { return ___material_8; }
-	inline Material_t340375123 ** get_address_of_material_8() { return &___material_8; }
-	inline void set_material_8(Material_t340375123 * value)
+	inline static int32_t get_offset_of_downsampleFactor_8() { return static_cast<int32_t>(offsetof(DepthOfField_t300342762, ___downsampleFactor_8)); }
+	inline float get_downsampleFactor_8() const { return ___downsampleFactor_8; }
+	inline float* get_address_of_downsampleFactor_8() { return &___downsampleFactor_8; }
+	inline void set_downsampleFactor_8(float value)
 	{
-		___material_8 = value;
-		Il2CppCodeGenWriteBarrier((&___material_8), value);
+		___downsampleFactor_8 = value;
+	}
+
+	inline static int32_t get_offset_of_shader_9() { return static_cast<int32_t>(offsetof(DepthOfField_t300342762, ___shader_9)); }
+	inline Shader_t4151988712 * get_shader_9() const { return ___shader_9; }
+	inline Shader_t4151988712 ** get_address_of_shader_9() { return &___shader_9; }
+	inline void set_shader_9(Shader_t4151988712 * value)
+	{
+		___shader_9 = value;
+		Il2CppCodeGenWriteBarrier((&___shader_9), value);
+	}
+
+	inline static int32_t get_offset_of_material_10() { return static_cast<int32_t>(offsetof(DepthOfField_t300342762, ___material_10)); }
+	inline Material_t340375123 * get_material_10() const { return ___material_10; }
+	inline Material_t340375123 ** get_address_of_material_10() { return &___material_10; }
+	inline void set_material_10(Material_t340375123 * value)
+	{
+		___material_10 = value;
+		Il2CppCodeGenWriteBarrier((&___material_10), value);
 	}
 };
 
@@ -9417,15 +9437,17 @@ extern const int32_t g_FieldOffsetTable2135[12] =
 	U3CWarpTextU3Ec__Iterator0_t4025661343::get_offset_of_U24PC_11(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2136 = { sizeof (DepthOfField_t300342762), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2136[7] = 
+extern const int32_t g_FieldOffsetTable2136[9] = 
 {
 	DepthOfField_t300342762::get_offset_of_focus_2(),
 	DepthOfField_t300342762::get_offset_of_focalDistance_3(),
 	DepthOfField_t300342762::get_offset_of_aperture_4(),
 	DepthOfField_t300342762::get_offset_of_debug_5(),
-	DepthOfField_t300342762::get_offset_of_downsampleFactor_6(),
-	DepthOfField_t300342762::get_offset_of_shader_7(),
-	DepthOfField_t300342762::get_offset_of_material_8(),
+	DepthOfField_t300342762::get_offset_of_temporaryWidth_6(),
+	DepthOfField_t300342762::get_offset_of_temporaryHeight_7(),
+	DepthOfField_t300342762::get_offset_of_downsampleFactor_8(),
+	DepthOfField_t300342762::get_offset_of_shader_9(),
+	DepthOfField_t300342762::get_offset_of_material_10(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2137 = { sizeof (Line_t3796957314), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2137[2] = 

@@ -3647,30 +3647,30 @@ public:
 struct  ResolutionSetter_t853612697  : public MonoBehaviour_t3962482529
 {
 public:
-	// System.Single ResolutionSetter::scale
-	float ___scale_2;
-	// System.Int32 ResolutionSetter::maxQueuedFrames
-	int32_t ___maxQueuedFrames_3;
+	// System.Int32 ResolutionSetter::bufferedFrames
+	int32_t ___bufferedFrames_2;
+	// System.Single ResolutionSetter::divisor
+	float ___divisor_3;
 	// System.Int32 ResolutionSetter::hResolution
 	int32_t ___hResolution_4;
 	// System.Int32 ResolutionSetter::vResolution
 	int32_t ___vResolution_5;
 
 public:
-	inline static int32_t get_offset_of_scale_2() { return static_cast<int32_t>(offsetof(ResolutionSetter_t853612697, ___scale_2)); }
-	inline float get_scale_2() const { return ___scale_2; }
-	inline float* get_address_of_scale_2() { return &___scale_2; }
-	inline void set_scale_2(float value)
+	inline static int32_t get_offset_of_bufferedFrames_2() { return static_cast<int32_t>(offsetof(ResolutionSetter_t853612697, ___bufferedFrames_2)); }
+	inline int32_t get_bufferedFrames_2() const { return ___bufferedFrames_2; }
+	inline int32_t* get_address_of_bufferedFrames_2() { return &___bufferedFrames_2; }
+	inline void set_bufferedFrames_2(int32_t value)
 	{
-		___scale_2 = value;
+		___bufferedFrames_2 = value;
 	}
 
-	inline static int32_t get_offset_of_maxQueuedFrames_3() { return static_cast<int32_t>(offsetof(ResolutionSetter_t853612697, ___maxQueuedFrames_3)); }
-	inline int32_t get_maxQueuedFrames_3() const { return ___maxQueuedFrames_3; }
-	inline int32_t* get_address_of_maxQueuedFrames_3() { return &___maxQueuedFrames_3; }
-	inline void set_maxQueuedFrames_3(int32_t value)
+	inline static int32_t get_offset_of_divisor_3() { return static_cast<int32_t>(offsetof(ResolutionSetter_t853612697, ___divisor_3)); }
+	inline float get_divisor_3() const { return ___divisor_3; }
+	inline float* get_address_of_divisor_3() { return &___divisor_3; }
+	inline void set_divisor_3(float value)
 	{
-		___maxQueuedFrames_3 = value;
+		___divisor_3 = value;
 	}
 
 	inline static int32_t get_offset_of_hResolution_4() { return static_cast<int32_t>(offsetof(ResolutionSetter_t853612697, ___hResolution_4)); }
@@ -5969,8 +5969,8 @@ extern const int32_t g_FieldOffsetTable2200[3] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2201 = { sizeof (ResolutionSetter_t853612697), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2201[4] = 
 {
-	ResolutionSetter_t853612697::get_offset_of_scale_2(),
-	ResolutionSetter_t853612697::get_offset_of_maxQueuedFrames_3(),
+	ResolutionSetter_t853612697::get_offset_of_bufferedFrames_2(),
+	ResolutionSetter_t853612697::get_offset_of_divisor_3(),
 	ResolutionSetter_t853612697::get_offset_of_hResolution_4(),
 	ResolutionSetter_t853612697::get_offset_of_vResolution_5(),
 };

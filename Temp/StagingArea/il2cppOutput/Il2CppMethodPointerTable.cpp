@@ -12922,7 +12922,6 @@ extern "C" void Reloader_OnTriggerEnter_m3016177912 ();
 extern "C" void Reloader_Update_m4032890136 ();
 extern "C" void ResolutionSetter__ctor_m2115661707 ();
 extern "C" void ResolutionSetter_Start_m1939724955 ();
-extern "C" void ResolutionSetter_Update_m4284582925 ();
 extern "C" void Rotation__ctor_m2035013864 ();
 extern "C" void Rotation_Start_m3515992868 ();
 extern "C" void Rotation_Update_m4244688278 ();
@@ -13388,7 +13387,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13370] = 
+extern const Il2CppMethodPointer g_MethodPointers[13369] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -26294,7 +26293,6 @@ extern const Il2CppMethodPointer g_MethodPointers[13370] =
 	Reloader_Update_m4032890136,
 	ResolutionSetter__ctor_m2115661707,
 	ResolutionSetter_Start_m1939724955,
-	ResolutionSetter_Update_m4284582925,
 	Rotation__ctor_m2035013864,
 	Rotation_Start_m3515992868,
 	Rotation_Update_m4244688278,

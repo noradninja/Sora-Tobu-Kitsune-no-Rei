@@ -9,6 +9,8 @@ public class DepthOfField : MonoBehaviour {
   public float focalDistance = 10.0f;
   public float aperture = 3;
   public bool debug = false;
+  public int temporaryWidth;
+  public int temporaryHeight;
 
   [Range(1, 8)]
   public float downsampleFactor = 4;
@@ -55,14 +57,10 @@ public class DepthOfField : MonoBehaviour {
     }
 
     int scale = 1; // Multiply downsampleFactor by scale to compensate for retina
-
-    int temporaryWidth = Mathf.RoundToInt((Screen.width / (downsampleFactor * scale)));
-    int temporaryHeight = Mathf.RoundToInt((Screen.height / (downsampleFactor * scale)));
-    if (temporaryWidth > temporaryHeight) {
-      temporaryHeight = temporaryWidth;
-    } else {
-      temporaryWidth = temporaryHeight;
-    }
+    
+    temporaryWidth = Mathf.RoundToInt((Screen.width / (downsampleFactor * scale)));
+    temporaryHeight = Mathf.RoundToInt((Screen.height / (downsampleFactor * scale)));
+ 
     var grabTextureA = GetTemporaryTexture(temporaryWidth, temporaryHeight);
     var grabTextureB = GetTemporaryTexture(temporaryWidth / 1, temporaryHeight / 1);
     material.SetTexture("_GrabTextureB", grabTextureB);
