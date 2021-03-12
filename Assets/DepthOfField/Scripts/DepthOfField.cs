@@ -11,7 +11,7 @@ public class DepthOfField : MonoBehaviour {
   public bool debug = false;
 
   [Range(1, 8)]
-  public int downsampleFactor = 4;
+  public float downsampleFactor = 4;
 
   [HideInInspector]
   public Shader shader;
@@ -56,8 +56,8 @@ public class DepthOfField : MonoBehaviour {
 
     int scale = 1; // Multiply downsampleFactor by scale to compensate for retina
 
-    int temporaryWidth = (Screen.width / (downsampleFactor * scale));
-    int temporaryHeight = (Screen.height / (downsampleFactor * scale));
+    int temporaryWidth = Mathf.RoundToInt((Screen.width / (downsampleFactor * scale)));
+    int temporaryHeight = Mathf.RoundToInt((Screen.height / (downsampleFactor * scale)));
     if (temporaryWidth > temporaryHeight) {
       temporaryHeight = temporaryWidth;
     } else {

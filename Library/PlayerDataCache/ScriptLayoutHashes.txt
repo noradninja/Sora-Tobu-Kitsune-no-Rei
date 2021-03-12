@@ -106,7 +106,7 @@ b1a33f5780d6e504036e7f0c6c178ea1 AmplifyShaderEditor.Samples.BuiltIn.dll:TFHC_Fo
 8733a24c22910ccab9c11e0cc322872d Assembly-CSharp.dll:.TitleScreenButtons
 1325774eb0bc8170cf2cf63e3ed27df6 Assembly-CSharp.dll:.ContourDrawing
 a049a5041924f75c612e817908652940 Assembly-CSharp.dll:.AimToggler
-a6846c3a84b1f14d923b82251b1dc9b4 Assembly-CSharp.dll:.ResolutionSetter
+21bf42e22c40e22c67fa6417518f3a26 Assembly-CSharp.dll:.ResolutionSetter
 765037da3d8faeee91e39d672b924c61 Assembly-CSharp.dll:.EnvMapAnimator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bullet_Destroyer
 9d998475649a9a5c1d04a38ebea8637f Assembly-CSharp.dll:.CameraFacingBillboard
@@ -145,7 +145,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.TMP_PhoneNumberValidator
 d4aa9301235ddaf552134fdc6fdf3b90 Assembly-CSharp.dll:.VitaRenderTexturePlayback
 53caac406dac7d06e9c253a30fe84a34 Assembly-CSharp.dll:.BuildSetup
-c5e40bfb2eef7716060c741cf93c2fd2 Assembly-CSharp.dll:.DepthOfField
+275638430f714f2a58277856ecf63ef6 Assembly-CSharp.dll:.DepthOfField
 1957a9369e72d2661ae9d0de26e7d064 Assembly-CSharp.dll:TMPro.Examples.WarpTextExample
 c55f73f8f1562b6824faf4063dd4b0fd AmplifyShaderEditor.Samples.BuiltIn.dll:TFHC_ForceShield_Shader_Sample.ForceShieldDestroyBall
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:NprPaintFilter.BlackboardObject
@@ -178,6 +178,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClearPlayerPrefs
 77fadc14e2399d4e021f2635e54681b8 AmplifyShaderEditor.Samples.BuiltIn.dll:.PlaneClip
 a67426b1d196d552ee8bf5aab64b5a7d Assembly-CSharp.dll:.OptionsManagerInputs
+5f8515f2e5e7bee9c7fbe8e4647e7fec Assembly-CSharp.dll:.Contour_Drawing_Post
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.Benchmark03
 b9332c0eee630779376843b5343eb250 Assembly-CSharp.dll:TMPro.Examples.TMP_TextInfoDebugTool
 f4bd1aee67eeef7953cce6c44588b3d7 TextMeshPro-2017.3-Runtime.dll:TMPro.TextContainer
@@ -327,4 +328,3 @@ ccf46ea869884024addfe9fba6c985b2 Assembly-CSharp.dll:.Title_DoF_Animator
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 f8f1c341c82c3a48504f430c7d4c9c67 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.FPSWalkerEnhanced
-5f8515f2e5e7bee9c7fbe8e4647e7fec Assembly-CSharp.dll:.Contour_Drawing_Post
