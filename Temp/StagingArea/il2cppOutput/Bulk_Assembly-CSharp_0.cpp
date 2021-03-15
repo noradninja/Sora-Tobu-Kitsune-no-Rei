@@ -39661,7 +39661,7 @@ extern "C"  void FadeMe_Update_m3435640446 (FadeMe_t1801940979 * __this, const R
 		bool L_26 = Physics_SphereCast_m115790328(NULL /*static, unused*/, L_22, L_23, L_24, (20.0f), L_25, 2, /*hidden argument*/NULL);
 		if (!L_26)
 		{
-			goto IL_0196;
+			goto IL_01bd;
 		}
 	}
 	{
@@ -39686,7 +39686,7 @@ extern "C"  void FadeMe_Update_m3435640446 (FadeMe_t1801940979 * __this, const R
 		Material_set_shader_m1402562841(L_35, L_36, /*hidden argument*/NULL);
 		GameObject_t1113636619 * L_37 = __this->get_checkHit_7();
 		__this->set_lastHit_8(L_37);
-		goto IL_018a;
+		goto IL_01b1;
 	}
 
 IL_010d:
@@ -39708,47 +39708,47 @@ IL_010d:
 		Material_set_shader_m1402562841(L_44, L_45, /*hidden argument*/NULL);
 		GameObject_t1113636619 * L_46 = __this->get_checkHit_7();
 		__this->set_lastHit_8(L_46);
-		goto IL_018a;
+		goto IL_01b1;
 	}
 
 IL_0154:
 	{
 		GameObject_t1113636619 * L_47 = __this->get_lastHit_8();
-		Renderer_t2627027031 * L_48 = GameObject_GetComponent_TisRenderer_t2627027031_m1370005186(L_47, /*hidden argument*/GameObject_GetComponent_TisRenderer_t2627027031_m1370005186_RuntimeMethod_var);
-		Material_t340375123 * L_49 = Renderer_get_material_m4171603682(L_48, /*hidden argument*/NULL);
-		Shader_t4151988712 * L_50 = __this->get_defaultShader_3();
-		Material_set_shader_m1402562841(L_49, L_50, /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_51 = __this->get_checkHit_7();
-		Renderer_t2627027031 * L_52 = GameObject_GetComponent_TisRenderer_t2627027031_m1370005186(L_51, /*hidden argument*/GameObject_GetComponent_TisRenderer_t2627027031_m1370005186_RuntimeMethod_var);
-		Material_t340375123 * L_53 = Renderer_get_material_m4171603682(L_52, /*hidden argument*/NULL);
-		Shader_t4151988712 * L_54 = __this->get_fadeShader_2();
-		Material_set_shader_m1402562841(L_53, L_54, /*hidden argument*/NULL);
-	}
-
-IL_018a:
-	{
-		__this->set_isHitting_9((bool)1);
-		goto IL_01c3;
-	}
-
-IL_0196:
-	{
-		bool L_55 = __this->get_isHitting_9();
-		if (!L_55)
+		int32_t L_48 = Object_GetInstanceID_m1255174761(L_47, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_49 = __this->get_checkHit_7();
+		int32_t L_50 = Object_GetInstanceID_m1255174761(L_49, /*hidden argument*/NULL);
+		if ((((int32_t)L_48) == ((int32_t)L_50)))
 		{
-			goto IL_01c3;
+			goto IL_01b1;
 		}
 	}
 	{
-		GameObject_t1113636619 * L_56 = __this->get_lastHit_8();
-		Renderer_t2627027031 * L_57 = GameObject_GetComponent_TisRenderer_t2627027031_m1370005186(L_56, /*hidden argument*/GameObject_GetComponent_TisRenderer_t2627027031_m1370005186_RuntimeMethod_var);
-		Material_t340375123 * L_58 = Renderer_get_material_m4171603682(L_57, /*hidden argument*/NULL);
-		Shader_t4151988712 * L_59 = __this->get_defaultShader_3();
-		Material_set_shader_m1402562841(L_58, L_59, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_51 = __this->get_lastHit_8();
+		Renderer_t2627027031 * L_52 = GameObject_GetComponent_TisRenderer_t2627027031_m1370005186(L_51, /*hidden argument*/GameObject_GetComponent_TisRenderer_t2627027031_m1370005186_RuntimeMethod_var);
+		Material_t340375123 * L_53 = Renderer_get_material_m4171603682(L_52, /*hidden argument*/NULL);
+		Shader_t4151988712 * L_54 = __this->get_defaultShader_3();
+		Material_set_shader_m1402562841(L_53, L_54, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_55 = __this->get_checkHit_7();
+		Renderer_t2627027031 * L_56 = GameObject_GetComponent_TisRenderer_t2627027031_m1370005186(L_55, /*hidden argument*/GameObject_GetComponent_TisRenderer_t2627027031_m1370005186_RuntimeMethod_var);
+		Material_t340375123 * L_57 = Renderer_get_material_m4171603682(L_56, /*hidden argument*/NULL);
+		Shader_t4151988712 * L_58 = __this->get_fadeShader_2();
+		Material_set_shader_m1402562841(L_57, L_58, /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_59 = __this->get_checkHit_7();
+		__this->set_lastHit_8(L_59);
+	}
+
+IL_01b1:
+	{
+		__this->set_isHitting_9((bool)1);
+		goto IL_01c4;
+	}
+
+IL_01bd:
+	{
 		__this->set_isHitting_9((bool)0);
 	}
 
-IL_01c3:
+IL_01c4:
 	{
 		return;
 	}
@@ -42440,7 +42440,7 @@ extern "C"  void Joystick_Target_FixedUpdate_m1900868220 (Joystick_Target_t20619
 		bool L_0 = ((PauseManager_t1166378904_StaticFields*)il2cpp_codegen_static_fields_for(PauseManager_t1166378904_il2cpp_TypeInfo_var))->get_isPaused_2();
 		if (L_0)
 		{
-			goto IL_00bd;
+			goto IL_00bb;
 		}
 	}
 	{
@@ -42448,7 +42448,7 @@ extern "C"  void Joystick_Target_FixedUpdate_m1900868220 (Joystick_Target_t20619
 		int32_t L_1 = ((Joystick_Target_t2061983948_StaticFields*)il2cpp_codegen_static_fields_for(Joystick_Target_t2061983948_il2cpp_TypeInfo_var))->get_count_17();
 		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
 		{
-			goto IL_0064;
+			goto IL_0063;
 		}
 	}
 	{
@@ -42457,44 +42457,42 @@ extern "C"  void Joystick_Target_FixedUpdate_m1900868220 (Joystick_Target_t20619
 		String_t* L_3 = String_Concat_m3937257545(NULL /*static, unused*/, L_2, _stringLiteral4069244570, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
 		float L_4 = Input_GetAxis_m4009438427(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
-		float L_5 = __this->get_joySensitivity_12();
-		Vector3__ctor_m3353183577((&V_0), ((float)il2cpp_codegen_multiply((float)((float)il2cpp_codegen_multiply((float)L_4, (float)L_5)), (float)(-45.0f))), (0.0f), (0.0f), /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_6 = __this->get_player_8();
-		Rigidbody_t3916780224 * L_7 = GameObject_GetComponent_TisRigidbody_t3916780224_m564316479(L_6, /*hidden argument*/GameObject_GetComponent_TisRigidbody_t3916780224_m564316479_RuntimeMethod_var);
-		Vector3_t3722313464  L_8 = V_0;
-		float L_9 = __this->get_moveDamp_19();
+		Vector3__ctor_m3353183577((&V_0), ((float)il2cpp_codegen_multiply((float)((float)il2cpp_codegen_multiply((float)L_4, (float)(1.5f))), (float)(-45.0f))), (0.0f), (0.0f), /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_5 = __this->get_player_8();
+		Rigidbody_t3916780224 * L_6 = GameObject_GetComponent_TisRigidbody_t3916780224_m564316479(L_5, /*hidden argument*/GameObject_GetComponent_TisRigidbody_t3916780224_m564316479_RuntimeMethod_var);
+		Vector3_t3722313464  L_7 = V_0;
+		float L_8 = __this->get_moveDamp_19();
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		Vector3_t3722313464  L_10 = Vector3_op_Multiply_m3376773913(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
-		Rigidbody_AddForce_m3395934484(L_7, L_10, /*hidden argument*/NULL);
+		Vector3_t3722313464  L_9 = Vector3_op_Multiply_m3376773913(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		Rigidbody_AddForce_m3395934484(L_6, L_9, /*hidden argument*/NULL);
 	}
 
-IL_0064:
+IL_0063:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Joystick_Target_t2061983948_il2cpp_TypeInfo_var);
-		int32_t L_11 = ((Joystick_Target_t2061983948_StaticFields*)il2cpp_codegen_static_fields_for(Joystick_Target_t2061983948_il2cpp_TypeInfo_var))->get_count_17();
-		if (L_11)
+		int32_t L_10 = ((Joystick_Target_t2061983948_StaticFields*)il2cpp_codegen_static_fields_for(Joystick_Target_t2061983948_il2cpp_TypeInfo_var))->get_count_17();
+		if (L_10)
 		{
-			goto IL_00bd;
+			goto IL_00bb;
 		}
 	}
 	{
-		String_t* L_12 = __this->get_Stick_7();
+		String_t* L_11 = __this->get_Stick_7();
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		String_t* L_13 = String_Concat_m3937257545(NULL /*static, unused*/, L_12, _stringLiteral4069244570, /*hidden argument*/NULL);
+		String_t* L_12 = String_Concat_m3937257545(NULL /*static, unused*/, L_11, _stringLiteral4069244570, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1431474628_il2cpp_TypeInfo_var);
-		float L_14 = Input_GetAxis_m4009438427(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
-		float L_15 = __this->get_joySensitivity_12();
-		Vector3__ctor_m3353183577((&V_1), ((float)il2cpp_codegen_multiply((float)((float)il2cpp_codegen_multiply((float)L_14, (float)L_15)), (float)(45.0f))), (0.0f), (0.0f), /*hidden argument*/NULL);
-		GameObject_t1113636619 * L_16 = __this->get_player_8();
-		Rigidbody_t3916780224 * L_17 = GameObject_GetComponent_TisRigidbody_t3916780224_m564316479(L_16, /*hidden argument*/GameObject_GetComponent_TisRigidbody_t3916780224_m564316479_RuntimeMethod_var);
-		Vector3_t3722313464  L_18 = V_1;
-		float L_19 = __this->get_moveDamp_19();
+		float L_13 = Input_GetAxis_m4009438427(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		Vector3__ctor_m3353183577((&V_1), ((float)il2cpp_codegen_multiply((float)((float)il2cpp_codegen_multiply((float)L_13, (float)(1.5f))), (float)(45.0f))), (0.0f), (0.0f), /*hidden argument*/NULL);
+		GameObject_t1113636619 * L_14 = __this->get_player_8();
+		Rigidbody_t3916780224 * L_15 = GameObject_GetComponent_TisRigidbody_t3916780224_m564316479(L_14, /*hidden argument*/GameObject_GetComponent_TisRigidbody_t3916780224_m564316479_RuntimeMethod_var);
+		Vector3_t3722313464  L_16 = V_1;
+		float L_17 = __this->get_moveDamp_19();
 		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t3722313464_il2cpp_TypeInfo_var);
-		Vector3_t3722313464  L_20 = Vector3_op_Multiply_m3376773913(NULL /*static, unused*/, L_18, L_19, /*hidden argument*/NULL);
-		Rigidbody_AddForce_m3395934484(L_17, L_20, /*hidden argument*/NULL);
+		Vector3_t3722313464  L_18 = Vector3_op_Multiply_m3376773913(NULL /*static, unused*/, L_16, L_17, /*hidden argument*/NULL);
+		Rigidbody_AddForce_m3395934484(L_15, L_18, /*hidden argument*/NULL);
 	}
 
-IL_00bd:
+IL_00bb:
 	{
 		return;
 	}
@@ -46937,7 +46935,7 @@ extern "C"  void OptionsManagerInputs__ctor_m2244302629 (OptionsManagerInputs_t1
 		__this->set_selectedSlot_13(1);
 		__this->set_delay_24((0.1f));
 		__this->set_BGMToSave_25((1.0f));
-		__this->set_SensitivityToSave_26((1.0f));
+		__this->set_SensitivityToSave_26((1.5f));
 		MonoBehaviour__ctor_m1579109191(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -47018,7 +47016,7 @@ extern "C"  void OptionsManagerInputs_Update_m1520178053 (OptionsManagerInputs_t
 		bool L_0 = ((PauseManager_t1166378904_StaticFields*)il2cpp_codegen_static_fields_for(PauseManager_t1166378904_il2cpp_TypeInfo_var))->get_isPaused_2();
 		if (!L_0)
 		{
-			goto IL_0292;
+			goto IL_029e;
 		}
 	}
 	{
@@ -47027,7 +47025,7 @@ extern "C"  void OptionsManagerInputs_Update_m1520178053 (OptionsManagerInputs_t
 		bool L_3 = L_2->get_optionEnabled_30();
 		if (!L_3)
 		{
-			goto IL_0292;
+			goto IL_029e;
 		}
 	}
 	{
@@ -47135,7 +47133,7 @@ IL_0112:
 		bool L_30 = Input_GetKeyDown_m2928138282(NULL /*static, unused*/, L_29, /*hidden argument*/NULL);
 		if (!L_30)
 		{
-			goto IL_01c2;
+			goto IL_01c8;
 		}
 	}
 	{
@@ -47165,7 +47163,7 @@ IL_0183:
 		int32_t L_40 = __this->get_selectedSlot_13();
 		if ((!(((uint32_t)L_40) == ((uint32_t)2))))
 		{
-			goto IL_01c2;
+			goto IL_01c8;
 		}
 	}
 	{
@@ -47175,11 +47173,11 @@ IL_0183:
 		Image_set_fillAmount_m3737925590(L_42, ((float)il2cpp_codegen_subtract((float)L_43, (float)(0.05f))), /*hidden argument*/NULL);
 		Image_t2670269651 * L_44 = __this->get_sensitivityLevel_22();
 		float L_45 = Image_get_fillAmount_m2193224718(L_44, /*hidden argument*/NULL);
-		__this->set_SensitivityToSave_26(L_45);
+		__this->set_SensitivityToSave_26(((float)il2cpp_codegen_multiply((float)L_45, (float)(1.5f))));
 		PlayerPrefs_SetInt_m2842000469(NULL /*static, unused*/, _stringLiteral1981176267, 1, /*hidden argument*/NULL);
 	}
 
-IL_01c2:
+IL_01c8:
 	{
 		int32_t L_46 = ((int32_t)9);
 		RuntimeObject * L_47 = Box(Int32_t2950945753_il2cpp_TypeInfo_var, &L_46);
@@ -47189,7 +47187,7 @@ IL_01c2:
 		bool L_49 = Input_GetKeyDown_m2928138282(NULL /*static, unused*/, L_48, /*hidden argument*/NULL);
 		if (!L_49)
 		{
-			goto IL_0272;
+			goto IL_027e;
 		}
 	}
 	{
@@ -47200,7 +47198,7 @@ IL_01c2:
 		int32_t L_53 = __this->get_selectedSlot_13();
 		if ((!(((uint32_t)L_53) == ((uint32_t)1))))
 		{
-			goto IL_0233;
+			goto IL_0239;
 		}
 	}
 	{
@@ -47214,12 +47212,12 @@ IL_01c2:
 		PlayerPrefs_SetInt_m2842000469(NULL /*static, unused*/, _stringLiteral1981176267, 1, /*hidden argument*/NULL);
 	}
 
-IL_0233:
+IL_0239:
 	{
 		int32_t L_59 = __this->get_selectedSlot_13();
 		if ((!(((uint32_t)L_59) == ((uint32_t)2))))
 		{
-			goto IL_0272;
+			goto IL_027e;
 		}
 	}
 	{
@@ -47229,11 +47227,11 @@ IL_0233:
 		Image_set_fillAmount_m3737925590(L_61, ((float)il2cpp_codegen_add((float)L_62, (float)(0.05f))), /*hidden argument*/NULL);
 		Image_t2670269651 * L_63 = __this->get_sensitivityLevel_22();
 		float L_64 = Image_get_fillAmount_m2193224718(L_63, /*hidden argument*/NULL);
-		__this->set_SensitivityToSave_26(L_64);
+		__this->set_SensitivityToSave_26(((float)il2cpp_codegen_multiply((float)L_64, (float)(1.5f))));
 		PlayerPrefs_SetInt_m2842000469(NULL /*static, unused*/, _stringLiteral1981176267, 1, /*hidden argument*/NULL);
 	}
 
-IL_0272:
+IL_027e:
 	{
 		float L_65 = __this->get_BGMToSave_25();
 		PlayerPrefs_SetFloat_m3161432420(NULL /*static, unused*/, _stringLiteral1305173550, L_65, /*hidden argument*/NULL);
@@ -47241,7 +47239,7 @@ IL_0272:
 		PlayerPrefs_SetFloat_m3161432420(NULL /*static, unused*/, _stringLiteral4106277301, L_66, /*hidden argument*/NULL);
 	}
 
-IL_0292:
+IL_029e:
 	{
 		return;
 	}

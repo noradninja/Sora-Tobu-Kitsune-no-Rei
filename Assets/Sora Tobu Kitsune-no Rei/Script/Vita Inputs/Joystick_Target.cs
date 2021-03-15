@@ -15,6 +15,7 @@ public class Joystick_Target : MonoBehaviour {
 	public Rigidbody playerRB;
 	public GameObject target;
 	public float Speed = 1.0F;
+	[Range (1.0f, 2.0f)]
 	public float joySensitivity = 1.0f;
 	public Text myguiText;
 	public Text joyText;
@@ -199,13 +200,13 @@ public class Joystick_Target : MonoBehaviour {
 		if ((PauseManager.isPaused) == false){
 		if (count==2){
 			const float tiltAngle = -45F;
-			var pxTarget = new Vector3 (Input.GetAxis (Stick + " Stick Horizontal") * joySensitivity * tiltAngle,0,0);
+			var pxTarget = new Vector3 (Input.GetAxis (Stick + " Stick Horizontal") * 1.5f * tiltAngle,0,0);
 			//move player in direction of stick
 			player.GetComponent<Rigidbody>().AddForce (pxTarget * moveDamp);
 		}
 		if (count==0){
 			const float targetAngle = 45F;
-			var pxTarget = new Vector3 (Input.GetAxis (Stick + " Stick Horizontal") * joySensitivity * targetAngle,0,0);
+			var pxTarget = new Vector3 (Input.GetAxis (Stick + " Stick Horizontal") * 1.5f * targetAngle,0,0);
 			//move player in direction of stick
 			player.GetComponent<Rigidbody>().AddForce (pxTarget * moveDamp);
 		}

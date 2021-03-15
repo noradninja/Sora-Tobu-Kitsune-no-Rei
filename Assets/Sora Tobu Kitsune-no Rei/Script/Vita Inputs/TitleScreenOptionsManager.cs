@@ -101,7 +101,7 @@ private const string joystick1 = "joystick 1 button ";
 				}
 				if (selectedSlot == 2){
 					sensitivityLevel.fillAmount -= 0.05f;
-					SensitivityToSave = sensitivityLevel.fillAmount;
+					SensitivityToSave = sensitivityLevel.fillAmount*1.5f;
 					PlayerPrefs.SetInt("SavedOnce", 1);
 				}
 			}
@@ -115,7 +115,7 @@ private const string joystick1 = "joystick 1 button ";
 				}
 				if (selectedSlot == 2){
 					sensitivityLevel.fillAmount += 0.05f;
-					SensitivityToSave = sensitivityLevel.fillAmount;
+					SensitivityToSave = sensitivityLevel.fillAmount*1.5f;
 					PlayerPrefs.SetInt("SavedOnce", 1);
 					
 				}

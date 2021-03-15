@@ -30,7 +30,7 @@ private const string joystick1 = "joystick 1 button ";
 	public float timer = 0.0f;
 	private float delay = 0.1f;
 	public float BGMToSave = 1.0f;
-	public float SensitivityToSave = 1.0f;
+	public float SensitivityToSave = 1.5f;
 	public List<AudioClip> clipList;
 	public AudioSource audioSource;
 	public GameObject currentSelection;
@@ -102,7 +102,7 @@ private const string joystick1 = "joystick 1 button ";
 				}
 				if (selectedSlot == 2){
 					sensitivityLevel.fillAmount -= 0.05f;
-					SensitivityToSave = sensitivityLevel.fillAmount;
+					SensitivityToSave = sensitivityLevel.fillAmount*1.5f;
 					PlayerPrefs.SetInt("SavedOnce", 1);
 				}
 			}
@@ -116,7 +116,7 @@ private const string joystick1 = "joystick 1 button ";
 				}
 				if (selectedSlot == 2){
 					sensitivityLevel.fillAmount += 0.05f;
-					SensitivityToSave = sensitivityLevel.fillAmount;
+					SensitivityToSave = sensitivityLevel.fillAmount*1.5f;
 					PlayerPrefs.SetInt("SavedOnce", 1);
 					
 				}

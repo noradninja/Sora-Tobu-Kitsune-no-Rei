@@ -34865,6 +34865,13 @@ static void U3CFadeLoadingScreenU3Ec__Iterator1_t2104540285_CustomAttributesCach
 		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
 	}
 }
+static void Joystick_Target_t2061983948_CustomAttributesCacheGenerator_joySensitivity(CustomAttributesCache* cache)
+{
+	{
+		RangeAttribute_t3337244227 * tmp = (RangeAttribute_t3337244227 *)cache->attributes[0];
+		RangeAttribute__ctor_m32920615(tmp, 1.0f, 2.0f, NULL);
+	}
+}
 static void MenuManagerInputs_t1631057777_CustomAttributesCacheGenerator_MenuManagerInputs_FadeScreen_m1575709093(CustomAttributesCache* cache)
 {
 	{
@@ -35453,7 +35460,7 @@ static void U3CInputDelayU3Ec__Iterator1_t2666026029_CustomAttributesCacheGenera
 		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[3559] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[3560] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -38930,6 +38937,7 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[3559] =
 	U3CFadeLoadingScreenU3Ec__Iterator1_t2104540285_CustomAttributesCacheGenerator_U3CFadeLoadingScreenU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m3187051718,
 	U3CFadeLoadingScreenU3Ec__Iterator1_t2104540285_CustomAttributesCacheGenerator_U3CFadeLoadingScreenU3Ec__Iterator1_Dispose_m1421786607,
 	U3CFadeLoadingScreenU3Ec__Iterator1_t2104540285_CustomAttributesCacheGenerator_U3CFadeLoadingScreenU3Ec__Iterator1_Reset_m439443148,
+	Joystick_Target_t2061983948_CustomAttributesCacheGenerator_joySensitivity,
 	MenuManagerInputs_t1631057777_CustomAttributesCacheGenerator_MenuManagerInputs_FadeScreen_m1575709093,
 	U3CFadeScreenU3Ec__Iterator0_t3422042327_CustomAttributesCacheGenerator,
 	U3CFadeScreenU3Ec__Iterator0_t3422042327_CustomAttributesCacheGenerator_U3CFadeScreenU3Ec__Iterator0__ctor_m3608880051,
