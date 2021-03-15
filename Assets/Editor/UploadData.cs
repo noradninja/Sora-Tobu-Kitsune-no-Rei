@@ -24,4 +24,6 @@
     public string UploaderFolder;
 
     public bool KeepFolderAfterBuild;
+
+    public bool ExtractOnPC = true;
 }

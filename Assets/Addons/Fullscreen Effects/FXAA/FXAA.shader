@@ -1,103 +1,250 @@
-﻿Shader "SupGames/Mobile/Fxaa"
+﻿Shader "FXAA/FXAA"
 {
-	Properties{
-		_MainTex("-", 2D) = "white" {}
-	}
+    Properties
+    {
+        _MainTex ("Texture", 2D) = "white" {}
+		_ContrastThreshold("Contrast Threshold", float) = 0.0312
+		_RelativeThreshold("Relative Threshold", float) = 0.063
+		_SubpixelBlending("Subpixel Blending", float) = 1
+    }
 
-	CGINCLUDE
+    SubShader
+    {
+        Cull Off ZWrite Off ZTest Always
 
-	#include "UnityCG.cginc"
+        Pass
+        {
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
 
-	UNITY_DECLARE_SCREENSPACE_TEXTURE(_MainTex);
-	half _Threshold;
-	half _Sharpness;
-	half4 _MainTex_TexelSize;
+            #include "UnityCG.cginc"
 
-	#ifdef UNITY_COLORSPACE_GAMMA
-	#define lum half3(0.22h, 0.707h, 0.071h)
-	#else 
-	#define lum half3(0.0396819152h, 0.45802179h, 0.00609653955h)
-	#endif
+            struct appdata
+            {
+                float4 vertex : POSITION;
+                float2 uv : TEXCOORD0;
+            };
 
-	struct appdata {
-		half4 vertex : POSITION;
-		half2 uv : TEXCOORD0;
-		UNITY_VERTEX_INPUT_INSTANCE_ID
-	};
+            struct v2f
+            {
+                float2 uv : TEXCOORD0;
+                float4 vertex : SV_POSITION;
+            };
 
-	struct v2f {
-		half4 pos : SV_POSITION;
-		half2 uv : TEXCOORD0;
-		half4 uv1 : TEXCOORD1;
-		half4 uv2 : TEXCOORD2;
-		//UNITY_VERTEX_OUTPUT_STEREO
-	};
+            v2f vert (appdata v)
+            {
+                v2f o;
+                o.vertex = UnityObjectToClipPos(v.vertex);
+                o.uv = v.uv;
+                return o;
+            }
 
-	v2f vert(appdata v)
-	{
-		v2f o;
-		UNITY_SETUP_INSTANCE_ID(v);
-		UNITY_INITIALIZE_OUTPUT(v2f, o);
-		//UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
-		o.pos = UnityObjectToClipPos(v.vertex);
-		o.uv = v.uv;
-		half2 offset = _MainTex_TexelSize.xy * 0.5h;
-		o.uv1 = half4(v.uv - offset, v.uv + offset);
-		o.uv2 = half4(offset, offset * 4.0h);
-		return o;
-	}
 
-	half4 frag(v2f i) : SV_Target
-	{
-		//UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
+			uniform sampler2D _MainTex;
+			float4 _MainTex_TexelSize;
 
-		half3 col = UNITY_SAMPLE_SCREENSPACE_TEXTURE(_MainTex, UnityStereoTransformScreenSpaceTex(i.uv)).rgb;
-		half gr = dot(col, lum);
-		half gtl = dot(UNITY_SAMPLE_SCREENSPACE_TEXTURE(_MainTex, UnityStereoTransformScreenSpaceTex(i.uv1.xy)).rgb, lum);
-		half gbl = dot(UNITY_SAMPLE_SCREENSPACE_TEXTURE(_MainTex, UnityStereoTransformScreenSpaceTex(i.uv1.xw)).rgb, lum);
-		half gtr = dot(UNITY_SAMPLE_SCREENSPACE_TEXTURE(_MainTex, UnityStereoTransformScreenSpaceTex(i.uv1.zy)).rgb, lum) + 0.0026041667h;
-		half gbr = dot(UNITY_SAMPLE_SCREENSPACE_TEXTURE(_MainTex, UnityStereoTransformScreenSpaceTex(i.uv1.zw)).rgb, lum);
+			fixed _ContrastThreshold;
+			fixed _RelativeThreshold;
+			fixed _SubpixelBlending;
 
-		half gmax = max(max(gtr, gbr), max(gtl, gbl));
-		half gmin = min(min(gtr, gbr), min(gtl, gbl));
+			struct LuminanceData
+			{
+				fixed m, n, e, s, w;
+				fixed ne, nw, se, sw;
+				fixed highest, lowest, contrast;
+			};
 
-		if (max(gmax, gr) - min(gmin, gr) < max(0.0h, gmax * _Threshold))
-			return half4(col, 1.0h);
+			struct EdgeData 
+			{
+				bool isHorizontal;
+				fixed pixelStep;
+				fixed oppositeLuminance, gradient;
+			};
 
-		half diff1 = gbl - gtr;
-		half diff2 = gbr - gtl;
 
-		half2 mltp = normalize(half2(diff1 + diff2, diff1 - diff2));
-		half dvd = min(abs(mltp.x), abs(mltp.y)) * _Sharpness;
+			fixed SampleLuminance(float2 uv)
+			{
+				return LinearRgbToLuminance(saturate(tex2D(_MainTex, uv).rgb));
+			}
 
-		half3 tmp1 = UNITY_SAMPLE_SCREENSPACE_TEXTURE(_MainTex, UnityStereoTransformScreenSpaceTex(i.uv - mltp * i.uv2.xy)).rgb;
-		half3 tmp2 = UNITY_SAMPLE_SCREENSPACE_TEXTURE(_MainTex, UnityStereoTransformScreenSpaceTex(i.uv + mltp * i.uv2.xy)).rgb;
 
-		mltp = clamp(mltp.xy / dvd, -2.0h, 2.0h);
+			LuminanceData SampleLuminanceNeighborhood(float2 uv)
+			{
+				LuminanceData l;
+				l.m = SampleLuminance(uv);
+				l.n = SampleLuminance(uv + _MainTex_TexelSize.xy * half2(0, 1));
+				l.s = SampleLuminance(uv + _MainTex_TexelSize.xy * half2(0, -1));
+				l.e = SampleLuminance(uv + _MainTex_TexelSize.xy * half2(1, 0));
+				l.w = SampleLuminance(uv + _MainTex_TexelSize.xy * half2(-1, 0));
+				l.ne = SampleLuminance(uv + _MainTex_TexelSize.xy * half2(1, 1));
+				l.nw = SampleLuminance(uv + _MainTex_TexelSize.xy * half2(-1, 1));
+				l.se = SampleLuminance(uv + _MainTex_TexelSize.xy * half2(1, -1));
+				l.sw = SampleLuminance(uv + _MainTex_TexelSize.xy * half2(-1, -1));
+				l.highest = max(max(max(max(l.n, l.e), l.s), l.w), l.m);
+				l.lowest = min(min(min(min(l.n, l.e), l.s), l.w), l.m);
+				l.contrast = l.highest - l.lowest;
+				return l;
+			}
 
-		half3 tmp3 = saturate(UNITY_SAMPLE_SCREENSPACE_TEXTURE(_MainTex, UnityStereoTransformScreenSpaceTex(i.uv - mltp * i.uv2.zw)).rgb);
-		half3 tmp4 = saturate(UNITY_SAMPLE_SCREENSPACE_TEXTURE(_MainTex, UnityStereoTransformScreenSpaceTex(i.uv + mltp * i.uv2.zw)).rgb);
 
-		half3 col1 = tmp1 + tmp2;
-		half3 col2 = ((tmp3 + tmp4) * 0.25h) + (col1 * 0.25h);
+			bool ShouldSkipPixel(LuminanceData l)
+			{
+				fixed threshold = max(_ContrastThreshold, _RelativeThreshold * l.highest);
+				return l.contrast < threshold;
+			}
 
-		if (dot(col1, lum) < gmin || dot(col2, lum) > gmax)
-			return half4(col1 * 0.5h, 1.0h);
-		else
-			return half4(col2, 1.0h);
-	}
-	ENDCG
-	
-	SubShader{
-		Pass {
-			ZTest Always Cull Off ZWrite Off
-			Fog { Mode off }      
-			CGPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
-			#pragma fragmentoption ARB_precision_hint_fastest
-			ENDCG
-		}
-	}
-	FallBack Off
+
+			fixed DeterminePixelBlendFactor(LuminanceData l)
+			{
+				fixed filter = 2 * (l.n + l.e + l.s + l.w);
+				filter += l.ne + l.nw + l.se + l.sw;
+				filter *= 1.0 / 12;
+				filter = abs(filter - l.m);
+				filter = saturate(filter / max(0.0001, l.contrast));
+				fixed blendFactor = smoothstep(0, 1, filter);
+				return blendFactor * blendFactor * _SubpixelBlending;
+			}
+			
+			
+			EdgeData DetermineEdge(LuminanceData l)
+			{
+				EdgeData e;
+				fixed horizontal =
+					abs(l.n + l.s - 2 * l.m) * 2 +
+					abs(l.ne + l.se - 2 * l.e) +
+					abs(l.nw + l.sw - 2 * l.w);
+				fixed vertical =
+					abs(l.e + l.w - 2 * l.m) * 2 +
+					abs(l.ne + l.nw - 2 * l.n) +
+					abs(l.se + l.sw - 2 * l.s);
+				e.isHorizontal = horizontal >= vertical;
+				e.pixelStep = e.isHorizontal ? _MainTex_TexelSize.y : _MainTex_TexelSize.x;
+
+				fixed pLuminance = e.isHorizontal ? l.n : l.e;
+				fixed nLuminance = e.isHorizontal ? l.s : l.w;
+				fixed pGradient = abs(pLuminance - l.m);
+				fixed nGradient = abs(nLuminance - l.m);
+				if (pGradient < nGradient)
+				{
+					e.pixelStep = -e.pixelStep;
+					e.oppositeLuminance = nLuminance;
+					e.gradient = nGradient;
+				}
+				else
+				{
+					e.oppositeLuminance = pLuminance;
+					e.gradient = pGradient;
+				}
+				return e;
+			}
+
+
+			#define EDGE_STEP_COUNT 10
+			#define EDGE_STEPS 1, 1.5, 2, 2, 2, 2, 2, 2, 2, 4
+			#define EDGE_GUESS 8
+			static const fixed edgeSteps[EDGE_STEP_COUNT] = { EDGE_STEPS };
+
+			fixed DetermineEdgeBlendFactor(LuminanceData l, EdgeData e, float2 uv) 
+			{
+				float2 uvEdge = uv;
+				float2 edgeStep;
+				if (e.isHorizontal) {
+					uvEdge.y += e.pixelStep * 0.5;
+					edgeStep = float2(_MainTex_TexelSize.x, 0);
+				}
+				else {
+					uvEdge.x += e.pixelStep * 0.5;
+					edgeStep = float2(0, _MainTex_TexelSize.y);
+				}
+
+				fixed edgeLuminance = (l.m + e.oppositeLuminance) * 0.5;
+				fixed gradientThreshold = e.gradient * 0.25;
+
+				float2 puv = uvEdge + edgeStep * edgeSteps[0];
+				fixed pLuminanceDelta = SampleLuminance(puv) - edgeLuminance;
+				bool pAtEnd = abs(pLuminanceDelta) >= gradientThreshold;
+				UNITY_UNROLL
+				for (int i = 1; i < EDGE_STEP_COUNT && !pAtEnd; i++)
+				{
+					puv += edgeStep * edgeSteps[i];
+					pLuminanceDelta = SampleLuminance(puv) - edgeLuminance;
+					pAtEnd = abs(pLuminanceDelta) >= gradientThreshold;
+				}
+				if (!pAtEnd) {
+					puv += edgeStep * EDGE_GUESS;
+				}
+
+				float2 nuv = uvEdge - edgeStep * edgeSteps[0];
+				fixed nLuminanceDelta = SampleLuminance(nuv) - edgeLuminance;
+				bool nAtEnd = abs(nLuminanceDelta) >= gradientThreshold;
+				UNITY_UNROLL
+				for (int i = 1; i < EDGE_STEP_COUNT && !nAtEnd; i++) {
+					nuv -= edgeStep * edgeSteps[i];
+					nLuminanceDelta = SampleLuminance(nuv) - edgeLuminance;
+					nAtEnd = abs(nLuminanceDelta) >= gradientThreshold;
+				}
+				if (!nAtEnd) {
+					nuv -= edgeStep * EDGE_GUESS;
+				}
+
+				fixed pDistance, nDistance;
+				if (e.isHorizontal) {
+					pDistance = puv.x - uv.x;
+					nDistance = uv.x - nuv.x;
+				}
+				else {
+					pDistance = puv.y - uv.y;
+					nDistance = uv.y - nuv.y;
+				}
+
+				fixed shortestDistance;
+				bool deltaSign;
+				if (pDistance <= nDistance) {
+					shortestDistance = pDistance;
+					deltaSign = pLuminanceDelta >= 0;
+				}
+				else {
+					shortestDistance = nDistance;
+					deltaSign = nLuminanceDelta >= 0;
+				}
+
+				if (deltaSign == (l.m - edgeLuminance >= 0)) {
+					return 0;
+				}
+
+				return 0.5 - shortestDistance / (pDistance + nDistance);
+			}
+
+
+			float4 ApplyFXAA(float2 uv)
+			{
+				LuminanceData l = SampleLuminanceNeighborhood(uv);
+				if (ShouldSkipPixel(l))
+					return tex2D(_MainTex, uv);
+
+				fixed pixelBlend = DeterminePixelBlendFactor(l);
+				EdgeData e = DetermineEdge(l);
+				fixed edgeBlend = DetermineEdgeBlendFactor(l, e, uv);
+				fixed finalBlend = max(pixelBlend, edgeBlend);
+
+				if (e.isHorizontal)
+				{
+					uv.y += e.pixelStep * finalBlend;
+				}
+				else
+				{
+					uv.x += e.pixelStep * finalBlend;
+				}
+				return tex2Dlod(_MainTex, float4(uv, 0, 0));
+			}
+
+
+            fixed4 frag (v2f i) : SV_Target
+            {
+                return ApplyFXAA(i.uv);
+            }
+            ENDCG
+        }
+    }
 }

@@ -1,23 +1,17 @@
-﻿using UnityEngine;
-
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 [ExecuteInEditMode]
-[RequireComponent(typeof(Camera))]
 public class FXAA : MonoBehaviour
 {
-    public Material material;
+	public Material mat;
 
-    public float Sharpness = 4.0f;
-    public float Threshold = 0.2f;
+	private void OnRenderImage(RenderTexture source, RenderTexture destination)
+	{
+		if (mat == null)
+			mat = new Material(Shader.Find("FXAA/FXAA"));
 
-    static readonly int sharpnessString = Shader.PropertyToID("_Sharpness");
-    static readonly int thresholdString = Shader.PropertyToID("_Threshold");
-
-    public void OnRenderImage(RenderTexture source, RenderTexture destination)
-    {
-        material.SetFloat(sharpnessString, Sharpness);
-        material.SetFloat(thresholdString, Threshold);
-
-        Graphics.Blit(source, destination, material);
-    }
+		Graphics.Blit(source, destination, mat);
+	}
 }

@@ -80,7 +80,8 @@ public class UploadBuild
 			return;
 		}
 
-		string args = "--vpk \"" + UploaderPath + "/" + GetProjectName() + ".vpk\" --ip " + data.IP + " --usb " + boolToString(data.UseUSB) + " --drive-letter " + data.DriveLetter + " --storage-type " + data.storageType + " --upload-dir \"" + data.UploaderFolder + "\"";
+		string args = "--vpk \"" + UploaderPath + "/" + GetProjectName() + ".vpk\" --ip " + data.IP + " --usb " + boolToString(data.UseUSB) + " --drive-letter " + data.DriveLetter + " --storage-type " + data.storageType + " --upload-dir \"" + data.UploaderFolder + "\" --extracted " + boolToString(data.ExtractOnPC);
+		
 		ProcessStartInfo VitaFTPIStartInfo = new ProcessStartInfo();
 		VitaFTPIStartInfo.Arguments = args;
 		if(File.Exists(UploaderPath + "/Vita-FTPI-Core.exe"))
@@ -120,6 +121,7 @@ public class UploadBuild
 		{
 			args = "-i \"" + buildDir + "\" -o \"" + UploaderPath + "/" + GetProjectName() + "\"" + " -f -u -r -p";
 		}
+
 		ProcessStartInfo processStartInfo = new ProcessStartInfo();
 		processStartInfo.FileName = UploaderPath + "/UnityTools.exe";
 		processStartInfo.Arguments = args;

@@ -22,7 +22,6 @@ void Update () {
 	//create ray that aims behind player 10 units, with an adjustable offset on the Z axis
 	Ray stencilCheckRay = new Ray(transform.position + (stencilCheckOffset*transform.forward), (-1*transform.forward));
 	//draw ray for debug
-	
 	Debug.DrawRay (transform.position + (stencilCheckOffset*transform.forward), (-1*transform.forward * 20f), Color.green);
 	//cast a sphere along the ray so you have a larger area to check with- this way your player is never obscured and you don't have to cast multiple rays
 		if (Physics.SphereCast (stencilCheckRay, stencilCheckDiameter, out hit, 20f, maskLayer, QueryTriggerInteraction.Collide)) {
@@ -40,19 +39,14 @@ void Update () {
 				lastHit = checkHit;
 			}
 			//if our last hit and current hit are different, restore the non stencil shader on the last hit and keep our last hit
-			else {
+			else if (lastHit.GetInstanceID() != checkHit.GetInstanceID()){
 				lastHit.GetComponent<Renderer>().material.shader = defaultShader;
 				checkHit.GetComponent<Renderer>().material.shader = fadeShader;
-				lastHit = lastHit;
+				lastHit = checkHit;
 			}
 			isHitting = true;
 		}
-		//if we are hitting, disable the stencil on our last hit and keep that hit
-		else if (isHitting){
-			lastHit.GetComponent<Renderer>().material.shader = defaultShader;
-			isHitting = false;
-			lastHit = lastHit;
-		}
+		else isHitting = false;
 	}
 }
 

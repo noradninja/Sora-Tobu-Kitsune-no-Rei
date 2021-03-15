@@ -23,7 +23,6 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-cc70b44a4e3497be9738c0d43ed3b67c Assembly-CSharp.dll:.FXAA
 101f180d13324960193c6e6f3d7a82a6 Assembly-CSharp.dll:.SceneLoadTrigger
 d720d104ba371072094e66111bc68ea5 Assembly-CSharp.dll:.Follow_Player
 dcf3ed76442c48e3a57dd27e6f2fecc5 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.NeighboringScenes
@@ -106,7 +105,7 @@ b1a33f5780d6e504036e7f0c6c178ea1 AmplifyShaderEditor.Samples.BuiltIn.dll:TFHC_Fo
 8733a24c22910ccab9c11e0cc322872d Assembly-CSharp.dll:.TitleScreenButtons
 1325774eb0bc8170cf2cf63e3ed27df6 Assembly-CSharp.dll:.ContourDrawing
 a049a5041924f75c612e817908652940 Assembly-CSharp.dll:.AimToggler
-eac43404fe745e3647242716ec6c8dbc Assembly-CSharp.dll:.ResolutionSetter
+ae0da52e0acaab8369973fe94aa0d007 Assembly-CSharp.dll:.ResolutionSetter
 765037da3d8faeee91e39d672b924c61 Assembly-CSharp.dll:.EnvMapAnimator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bullet_Destroyer
 9d998475649a9a5c1d04a38ebea8637f Assembly-CSharp.dll:.CameraFacingBillboard
@@ -175,6 +174,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BounceScaleAwake
 50a0fa002cfc67638c87a901e46b763e Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_B
+444f72058661e9410c450cef4c86a297 Assembly-CSharp.dll:.FXAA
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClearPlayerPrefs
 77fadc14e2399d4e021f2635e54681b8 AmplifyShaderEditor.Samples.BuiltIn.dll:.PlaneClip
 a67426b1d196d552ee8bf5aab64b5a7d Assembly-CSharp.dll:.OptionsManagerInputs
@@ -305,6 +305,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexShakeB
 935b8b1851edc7fb433fe37dd2f416b1 Assembly-CSharp.dll:.FadeMe
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.OnScreenLog
+18759df54ffb3460be26f2d9a2ad728e Assembly-CSharp.dll:Smaa.SMAA
 f0c2ee7f86f51430df3294122dfc5ab1 Assembly-CSharp.dll:.TitleSaveManagerInputs
 6826e26f7cc718f870001971f13e79c7 Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.VertexColorCycler

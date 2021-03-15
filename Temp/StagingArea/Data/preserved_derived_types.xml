@@ -8,6 +8,7 @@
 <type fullname="Contour_Drawing_Post" preserve="all"/>
 <type fullname="NprPaintFilter.FiltersController" preserve="all"/>
 <type fullname="FXAA" preserve="all"/>
+<type fullname="Smaa.SMAA" preserve="all"/>
 <type fullname="FreeCamera" preserve="all"/>
 <type fullname="Rotation" preserve="all"/>
 <type fullname="NprPaintFilter.MangaSpeedLine" preserve="all"/>

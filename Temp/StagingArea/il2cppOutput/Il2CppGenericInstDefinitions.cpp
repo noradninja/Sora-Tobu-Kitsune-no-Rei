@@ -421,6 +421,7 @@ extern const Il2CppType TMP_LinkInfo_t1092083476_0_0_0;
 extern const Il2CppType TMP_Text_t2599618874_0_0_0;
 extern const Il2CppType CPC_Point_t1099946389_0_0_0;
 extern const Il2CppType ContourDrawing_t2789473180_0_0_0;
+extern const Il2CppType Preset_t1831320083_0_0_0;
 extern const Il2CppType RenderTexture_t2108887433_0_0_0;
 extern const Il2CppType Texture_t3661962703_0_0_0;
 extern const Il2CppType Link_t1976611498_0_0_0;
@@ -504,6 +505,7 @@ extern const Il2CppType NeighboringScenes_t2352515565_0_0_0;
 extern const Il2CppType SceneLoadTrigger_t68892663_0_0_0;
 extern const Il2CppType TitleSaveManagerInputs_t2244120510_0_0_0;
 extern const Il2CppType HintList_t1636427951_0_0_0;
+extern const Il2CppType Texture2D_t3840446185_0_0_0;
 extern const Il2CppType TitleScreenOptionsManager_t2832345059_0_0_0;
 extern const Il2CppType StartMenuManagerInputs_t1631812305_0_0_0;
 extern const Il2CppType SaveSerial_t2776190746_0_0_0;
@@ -1777,6 +1779,8 @@ static const RuntimeType* GenInst_CPC_Point_t1099946389_0_0_0_Types[] = { (&CPC_
 extern const Il2CppGenericInst GenInst_CPC_Point_t1099946389_0_0_0 = { 1, GenInst_CPC_Point_t1099946389_0_0_0_Types };
 static const RuntimeType* GenInst_ContourDrawing_t2789473180_0_0_0_Types[] = { (&ContourDrawing_t2789473180_0_0_0) };
 extern const Il2CppGenericInst GenInst_ContourDrawing_t2789473180_0_0_0 = { 1, GenInst_ContourDrawing_t2789473180_0_0_0_Types };
+static const RuntimeType* GenInst_Preset_t1831320083_0_0_0_Types[] = { (&Preset_t1831320083_0_0_0) };
+extern const Il2CppGenericInst GenInst_Preset_t1831320083_0_0_0 = { 1, GenInst_Preset_t1831320083_0_0_0_Types };
 static const RuntimeType* GenInst_RenderTexture_t2108887433_0_0_0_Types[] = { (&RenderTexture_t2108887433_0_0_0) };
 extern const Il2CppGenericInst GenInst_RenderTexture_t2108887433_0_0_0 = { 1, GenInst_RenderTexture_t2108887433_0_0_0_Types };
 static const RuntimeType* GenInst_Texture_t3661962703_0_0_0_Types[] = { (&Texture_t3661962703_0_0_0) };
@@ -1955,6 +1959,8 @@ static const RuntimeType* GenInst_TitleSaveManagerInputs_t2244120510_0_0_0_Types
 extern const Il2CppGenericInst GenInst_TitleSaveManagerInputs_t2244120510_0_0_0 = { 1, GenInst_TitleSaveManagerInputs_t2244120510_0_0_0_Types };
 static const RuntimeType* GenInst_HintList_t1636427951_0_0_0_Types[] = { (&HintList_t1636427951_0_0_0) };
 extern const Il2CppGenericInst GenInst_HintList_t1636427951_0_0_0 = { 1, GenInst_HintList_t1636427951_0_0_0_Types };
+static const RuntimeType* GenInst_Texture2D_t3840446185_0_0_0_Types[] = { (&Texture2D_t3840446185_0_0_0) };
+extern const Il2CppGenericInst GenInst_Texture2D_t3840446185_0_0_0 = { 1, GenInst_Texture2D_t3840446185_0_0_0_Types };
 static const RuntimeType* GenInst_TitleScreenOptionsManager_t2832345059_0_0_0_Types[] = { (&TitleScreenOptionsManager_t2832345059_0_0_0) };
 extern const Il2CppGenericInst GenInst_TitleScreenOptionsManager_t2832345059_0_0_0 = { 1, GenInst_TitleScreenOptionsManager_t2832345059_0_0_0_Types };
 static const RuntimeType* GenInst_StartMenuManagerInputs_t1631812305_0_0_0_Types[] = { (&StartMenuManagerInputs_t1631812305_0_0_0) };
@@ -2457,7 +2463,7 @@ static const RuntimeType* GenInst_TMP_TextInfo_Resize_m670922699_gp_0_0_0_0_Type
 extern const Il2CppGenericInst GenInst_TMP_TextInfo_Resize_m670922699_gp_0_0_0_0 = { 1, GenInst_TMP_TextInfo_Resize_m670922699_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0_Types[] = { (&TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0 = { 1, GenInst_TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[871] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[873] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0,
@@ -2990,6 +2996,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[871] =
 	&GenInst_TMP_Text_t2599618874_0_0_0,
 	&GenInst_CPC_Point_t1099946389_0_0_0,
 	&GenInst_ContourDrawing_t2789473180_0_0_0,
+	&GenInst_Preset_t1831320083_0_0_0,
 	&GenInst_RenderTexture_t2108887433_0_0_0,
 	&GenInst_Texture_t3661962703_0_0_0,
 	&GenInst_Link_t1976611498_0_0_0,
@@ -3079,6 +3086,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[871] =
 	&GenInst_SceneLoadTrigger_t68892663_0_0_0,
 	&GenInst_TitleSaveManagerInputs_t2244120510_0_0_0,
 	&GenInst_HintList_t1636427951_0_0_0,
+	&GenInst_Texture2D_t3840446185_0_0_0,
 	&GenInst_TitleScreenOptionsManager_t2832345059_0_0_0,
 	&GenInst_StartMenuManagerInputs_t1631812305_0_0_0,
 	&GenInst_SaveSerial_t2776190746_0_0_0,

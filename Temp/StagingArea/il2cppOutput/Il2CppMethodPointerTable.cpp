@@ -7979,6 +7979,8 @@ extern "C" void Camera_get_pixelRect_m2283183456 ();
 extern "C" void Camera_INTERNAL_get_pixelRect_m2277658347 ();
 extern "C" void Camera_get_targetTexture_m2278634983 ();
 extern "C" void Camera_set_targetTexture_m3148311140 ();
+extern "C" void Camera_get_pixelWidth_m1110053668 ();
+extern "C" void Camera_get_pixelHeight_m722276884 ();
 extern "C" void Camera_get_clearFlags_m992534691 ();
 extern "C" void Camera_set_clearFlags_m2207032996 ();
 extern "C" void Camera_get_targetDisplay_m2285699927 ();
@@ -8000,6 +8002,7 @@ extern "C" void Camera_FireOnPreRender_m3450823610 ();
 extern "C" void Camera_FireOnPostRender_m1456255957 ();
 extern "C" void Camera_RenderWithShader_m3316153747 ();
 extern "C" void Camera_CopyFrom_m3501145412 ();
+extern "C" void Camera_get_depthTextureMode_m871144641 ();
 extern "C" void Camera_set_depthTextureMode_m754977860 ();
 extern "C" void Camera_RaycastTry_m3913529496 ();
 extern "C" void Camera_INTERNAL_CALL_RaycastTry_m3238909295 ();
@@ -8740,6 +8743,7 @@ extern "C" void RenderTexture__ctor_m1464033784 ();
 extern "C" void RenderTexture__ctor_m2187158709 ();
 extern "C" void RenderTexture__ctor_m3368882316 ();
 extern "C" void RenderTexture_Internal_CreateRenderTexture_m3273952128 ();
+extern "C" void RenderTexture_GetTemporary_m1363375227 ();
 extern "C" void RenderTexture_GetTemporary_m3378328322 ();
 extern "C" void RenderTexture_GetTemporary_m2234063094 ();
 extern "C" void RenderTexture_GetTemporary_m1832746092 ();
@@ -8757,6 +8761,7 @@ extern "C" void RenderTexture_get_height_m1018441327 ();
 extern "C" void RenderTexture_set_height_m1102706773 ();
 extern "C" void RenderTexture_set_depth_m936447630 ();
 extern "C" void RenderTexture_set_isPowerOfTwo_m3873419893 ();
+extern "C" void RenderTexture_get_format_m3846871418 ();
 extern "C" void RenderTexture_set_format_m2479999990 ();
 extern "C" void RenderTexture_set_useMipMap_m793379106 ();
 extern "C" void RenderTexture_set_autoGenerateMips_m4005201898 ();
@@ -8848,6 +8853,7 @@ extern "C" void SetupCoroutine_InvokeMoveNext_m3199342729 ();
 extern "C" void SetupCoroutine_InvokeMember_m2661944898 ();
 extern "C" void Shader__ctor_m837260462 ();
 extern "C" void Shader_Find_m2092206247 ();
+extern "C" void Shader_get_isSupported_m755080316 ();
 extern "C" void Shader_EnableKeyword_m3103559844 ();
 extern "C" void Shader_DisableKeyword_m433641454 ();
 extern "C" void Shader_SetGlobalFloatImpl_m3644180143 ();
@@ -8897,6 +8903,7 @@ extern "C" void StackTraceUtility_PostprocessStacktrace_m1043256299 ();
 extern "C" void StackTraceUtility_ExtractFormattedStackTrace_m1281750362 ();
 extern "C" void StackTraceUtility__cctor_m1981266436 ();
 extern "C" void SystemInfo_get_operatingSystemFamily_m4256884728 ();
+extern "C" void SystemInfo_get_supportsImageEffects_m2886934848 ();
 extern "C" void TextAreaAttribute__ctor_m2173231689 ();
 extern "C" void TextAsset_get_text_m2027878391 ();
 extern "C" void TextAsset_ToString_m2170047097 ();
@@ -12667,7 +12674,6 @@ extern "C" void FremerateManager_Start_m1996138170 ();
 extern "C" void FremerateManager_Update_m3920395920 ();
 extern "C" void FXAA__ctor_m2750438762 ();
 extern "C" void FXAA_OnRenderImage_m1700901963 ();
-extern "C" void FXAA__cctor_m1741484243 ();
 extern "C" void GameOverButtons__ctor_m1407105206 ();
 extern "C" void GameOverButtons_Start_m473358338 ();
 extern "C" void GameOverButtons_Update_m1246355668 ();
@@ -12997,6 +13003,18 @@ extern "C" void U3CPlayLoopU3Ec__Iterator0_System_Collections_Generic_IEnumerato
 extern "C" void U3CPlayLoopU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1709745136 ();
 extern "C" void U3CPlayLoopU3Ec__Iterator0_Dispose_m2325185699 ();
 extern "C" void U3CPlayLoopU3Ec__Iterator0_Reset_m3910945363 ();
+extern "C" void MinAttribute__ctor_m440264838 ();
+extern "C" void PredicationPreset__ctor_m288160507 ();
+extern "C" void Preset__ctor_m696776117 ();
+extern "C" void SMAA__ctor_m2659620534 ();
+extern "C" void SMAA_get_Material_m3961644092 ();
+extern "C" void SMAA_OnEnable_m1626359159 ();
+extern "C" void SMAA_Start_m1003239242 ();
+extern "C" void SMAA_OnDisable_m3390115037 ();
+extern "C" void SMAA_OnRenderImage_m2547156891 ();
+extern "C" void SMAA_Clear_m2039251473 ();
+extern "C" void SMAA_TempRT_m2789170022 ();
+extern "C" void SMAA_CreatePresets_m1229150244 ();
 extern "C" void SonyVitaSystemSettings__ctor_m4223959046 ();
 extern "C" void SonyVitaSystemSettings_Start_m4276077884 ();
 extern "C" void SonyVitaSystemSettings_OnEnter_m634705056 ();
@@ -13387,7 +13405,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13369] = 
+extern const Il2CppMethodPointer g_MethodPointers[13387] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -21350,6 +21368,8 @@ extern const Il2CppMethodPointer g_MethodPointers[13369] =
 	Camera_INTERNAL_get_pixelRect_m2277658347,
 	Camera_get_targetTexture_m2278634983,
 	Camera_set_targetTexture_m3148311140,
+	Camera_get_pixelWidth_m1110053668,
+	Camera_get_pixelHeight_m722276884,
 	Camera_get_clearFlags_m992534691,
 	Camera_set_clearFlags_m2207032996,
 	Camera_get_targetDisplay_m2285699927,
@@ -21371,6 +21391,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13369] =
 	Camera_FireOnPostRender_m1456255957,
 	Camera_RenderWithShader_m3316153747,
 	Camera_CopyFrom_m3501145412,
+	Camera_get_depthTextureMode_m871144641,
 	Camera_set_depthTextureMode_m754977860,
 	Camera_RaycastTry_m3913529496,
 	Camera_INTERNAL_CALL_RaycastTry_m3238909295,
@@ -22111,6 +22132,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13369] =
 	RenderTexture__ctor_m2187158709,
 	RenderTexture__ctor_m3368882316,
 	RenderTexture_Internal_CreateRenderTexture_m3273952128,
+	RenderTexture_GetTemporary_m1363375227,
 	RenderTexture_GetTemporary_m3378328322,
 	RenderTexture_GetTemporary_m2234063094,
 	RenderTexture_GetTemporary_m1832746092,
@@ -22128,6 +22150,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13369] =
 	RenderTexture_set_height_m1102706773,
 	RenderTexture_set_depth_m936447630,
 	RenderTexture_set_isPowerOfTwo_m3873419893,
+	RenderTexture_get_format_m3846871418,
 	RenderTexture_set_format_m2479999990,
 	RenderTexture_set_useMipMap_m793379106,
 	RenderTexture_set_autoGenerateMips_m4005201898,
@@ -22219,6 +22242,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13369] =
 	SetupCoroutine_InvokeMember_m2661944898,
 	Shader__ctor_m837260462,
 	Shader_Find_m2092206247,
+	Shader_get_isSupported_m755080316,
 	Shader_EnableKeyword_m3103559844,
 	Shader_DisableKeyword_m433641454,
 	Shader_SetGlobalFloatImpl_m3644180143,
@@ -22268,6 +22292,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13369] =
 	StackTraceUtility_ExtractFormattedStackTrace_m1281750362,
 	StackTraceUtility__cctor_m1981266436,
 	SystemInfo_get_operatingSystemFamily_m4256884728,
+	SystemInfo_get_supportsImageEffects_m2886934848,
 	TextAreaAttribute__ctor_m2173231689,
 	TextAsset_get_text_m2027878391,
 	TextAsset_ToString_m2170047097,
@@ -26038,7 +26063,6 @@ extern const Il2CppMethodPointer g_MethodPointers[13369] =
 	FremerateManager_Update_m3920395920,
 	FXAA__ctor_m2750438762,
 	FXAA_OnRenderImage_m1700901963,
-	FXAA__cctor_m1741484243,
 	GameOverButtons__ctor_m1407105206,
 	GameOverButtons_Start_m473358338,
 	GameOverButtons_Update_m1246355668,
@@ -26368,6 +26392,18 @@ extern const Il2CppMethodPointer g_MethodPointers[13369] =
 	U3CPlayLoopU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1709745136,
 	U3CPlayLoopU3Ec__Iterator0_Dispose_m2325185699,
 	U3CPlayLoopU3Ec__Iterator0_Reset_m3910945363,
+	MinAttribute__ctor_m440264838,
+	PredicationPreset__ctor_m288160507,
+	Preset__ctor_m696776117,
+	SMAA__ctor_m2659620534,
+	SMAA_get_Material_m3961644092,
+	SMAA_OnEnable_m1626359159,
+	SMAA_Start_m1003239242,
+	SMAA_OnDisable_m3390115037,
+	SMAA_OnRenderImage_m2547156891,
+	SMAA_Clear_m2039251473,
+	SMAA_TempRT_m2789170022,
+	SMAA_CreatePresets_m1229150244,
 	SonyVitaSystemSettings__ctor_m4223959046,
 	SonyVitaSystemSettings_Start_m4276077884,
 	SonyVitaSystemSettings_OnEnter_m634705056,

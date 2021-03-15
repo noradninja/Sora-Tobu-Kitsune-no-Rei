@@ -50,7 +50,7 @@ public class VitaFTPOptions : EditorWindow
     [MenuItem("VitaFTPI/Options")]
     public static void ShowWindow()
     {
-        GetWindow<VitaFTPOptions>("Post Build");
+        GetWindow<VitaFTPOptions>("Upload Options");
     }
 
     void OnEnable()
@@ -78,6 +78,7 @@ public class VitaFTPOptions : EditorWindow
         uploadData.startOnBuildEnd = EditorGUILayout.Toggle("Start on build end: ", uploadData.startOnBuildEnd);
 
         uploadData.KeepFolderAfterBuild = EditorGUILayout.Toggle("Keep build folder", uploadData.KeepFolderAfterBuild);
+        uploadData.ExtractOnPC = EditorGUILayout.Toggle("Extract VPK on PC", uploadData.ExtractOnPC);
 
         GUILayout.Label("IP Adress: ", EditorStyles.largeLabel);
         uploadData.IP = EditorGUILayout.TextField(uploadData.IP,EditorStyles.numberField).Split(' ')[0];

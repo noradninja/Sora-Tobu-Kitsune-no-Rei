@@ -17624,6 +17624,26 @@ extern "C"  void Camera_set_targetTexture_m3148311140 (Camera_t4157153871 * __th
 	_il2cpp_icall_func = (Camera_set_targetTexture_m3148311140_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::set_targetTexture(UnityEngine.RenderTexture)");
 	_il2cpp_icall_func(__this, ___value0);
 }
+// System.Int32 UnityEngine.Camera::get_pixelWidth()
+extern "C"  int32_t Camera_get_pixelWidth_m1110053668 (Camera_t4157153871 * __this, const RuntimeMethod* method)
+{
+	typedef int32_t (*Camera_get_pixelWidth_m1110053668_ftn) (Camera_t4157153871 *);
+	static Camera_get_pixelWidth_m1110053668_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_get_pixelWidth_m1110053668_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_pixelWidth()");
+	int32_t retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// System.Int32 UnityEngine.Camera::get_pixelHeight()
+extern "C"  int32_t Camera_get_pixelHeight_m722276884 (Camera_t4157153871 * __this, const RuntimeMethod* method)
+{
+	typedef int32_t (*Camera_get_pixelHeight_m722276884_ftn) (Camera_t4157153871 *);
+	static Camera_get_pixelHeight_m722276884_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_get_pixelHeight_m722276884_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_pixelHeight()");
+	int32_t retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
 // UnityEngine.CameraClearFlags UnityEngine.Camera::get_clearFlags()
 extern "C"  int32_t Camera_get_clearFlags_m992534691 (Camera_t4157153871 * __this, const RuntimeMethod* method)
 {
@@ -17926,6 +17946,16 @@ extern "C"  void Camera_CopyFrom_m3501145412 (Camera_t4157153871 * __this, Camer
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Camera_CopyFrom_m3501145412_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::CopyFrom(UnityEngine.Camera)");
 	_il2cpp_icall_func(__this, ___other0);
+}
+// UnityEngine.DepthTextureMode UnityEngine.Camera::get_depthTextureMode()
+extern "C"  int32_t Camera_get_depthTextureMode_m871144641 (Camera_t4157153871 * __this, const RuntimeMethod* method)
+{
+	typedef int32_t (*Camera_get_depthTextureMode_m871144641_ftn) (Camera_t4157153871 *);
+	static Camera_get_depthTextureMode_m871144641_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_get_depthTextureMode_m871144641_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_depthTextureMode()");
+	int32_t retVal = _il2cpp_icall_func(__this);
+	return retVal;
 }
 // System.Void UnityEngine.Camera::set_depthTextureMode(UnityEngine.DepthTextureMode)
 extern "C"  void Camera_set_depthTextureMode_m754977860 (Camera_t4157153871 * __this, int32_t ___value0, const RuntimeMethod* method)
@@ -35959,6 +35989,39 @@ extern "C"  void RenderTexture_Internal_CreateRenderTexture_m3273952128 (Runtime
 	_il2cpp_icall_func = (RenderTexture_Internal_CreateRenderTexture_m3273952128_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.RenderTexture::Internal_CreateRenderTexture(UnityEngine.RenderTexture)");
 	_il2cpp_icall_func(___rt0);
 }
+// UnityEngine.RenderTexture UnityEngine.RenderTexture::GetTemporary(System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite)
+extern "C"  RenderTexture_t2108887433 * RenderTexture_GetTemporary_m1363375227 (RuntimeObject * __this /* static, unused */, int32_t ___width0, int32_t ___height1, int32_t ___depthBuffer2, int32_t ___format3, int32_t ___readWrite4, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	RenderTexture_t2108887433 * V_4 = NULL;
+	{
+		V_0 = (bool)0;
+		V_1 = 0;
+		V_2 = 0;
+		V_3 = 1;
+		int32_t L_0 = ___width0;
+		int32_t L_1 = ___height1;
+		int32_t L_2 = ___depthBuffer2;
+		int32_t L_3 = ___format3;
+		int32_t L_4 = ___readWrite4;
+		int32_t L_5 = V_3;
+		int32_t L_6 = V_2;
+		int32_t L_7 = V_1;
+		bool L_8 = V_0;
+		RenderTexture_t2108887433 * L_9 = RenderTexture_GetTemporary_m1832746092(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, /*hidden argument*/NULL);
+		V_4 = L_9;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		RenderTexture_t2108887433 * L_10 = V_4;
+		return L_10;
+	}
+}
 // UnityEngine.RenderTexture UnityEngine.RenderTexture::GetTemporary(System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat)
 extern "C"  RenderTexture_t2108887433 * RenderTexture_GetTemporary_m3378328322 (RuntimeObject * __this /* static, unused */, int32_t ___width0, int32_t ___height1, int32_t ___depthBuffer2, int32_t ___format3, const RuntimeMethod* method)
 {
@@ -36216,6 +36279,16 @@ extern "C"  void RenderTexture_set_isPowerOfTwo_m3873419893 (RenderTexture_t2108
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (RenderTexture_set_isPowerOfTwo_m3873419893_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.RenderTexture::set_isPowerOfTwo(System.Boolean)");
 	_il2cpp_icall_func(__this, ___value0);
+}
+// UnityEngine.RenderTextureFormat UnityEngine.RenderTexture::get_format()
+extern "C"  int32_t RenderTexture_get_format_m3846871418 (RenderTexture_t2108887433 * __this, const RuntimeMethod* method)
+{
+	typedef int32_t (*RenderTexture_get_format_m3846871418_ftn) (RenderTexture_t2108887433 *);
+	static RenderTexture_get_format_m3846871418_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (RenderTexture_get_format_m3846871418_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.RenderTexture::get_format()");
+	int32_t retVal = _il2cpp_icall_func(__this);
+	return retVal;
 }
 // System.Void UnityEngine.RenderTexture::set_format(UnityEngine.RenderTextureFormat)
 extern "C"  void RenderTexture_set_format_m2479999990 (RenderTexture_t2108887433 * __this, int32_t ___value0, const RuntimeMethod* method)
@@ -38982,6 +39055,16 @@ extern "C"  Shader_t4151988712 * Shader_Find_m2092206247 (RuntimeObject * __this
 	Shader_t4151988712 * retVal = _il2cpp_icall_func(___name0);
 	return retVal;
 }
+// System.Boolean UnityEngine.Shader::get_isSupported()
+extern "C"  bool Shader_get_isSupported_m755080316 (Shader_t4151988712 * __this, const RuntimeMethod* method)
+{
+	typedef bool (*Shader_get_isSupported_m755080316_ftn) (Shader_t4151988712 *);
+	static Shader_get_isSupported_m755080316_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Shader_get_isSupported_m755080316_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Shader::get_isSupported()");
+	bool retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
 // System.Void UnityEngine.Shader::EnableKeyword(System.String)
 extern "C"  void Shader_EnableKeyword_m3103559844 (RuntimeObject * __this /* static, unused */, String_t* ___keyword0, const RuntimeMethod* method)
 {
@@ -40727,6 +40810,16 @@ extern "C"  int32_t SystemInfo_get_operatingSystemFamily_m4256884728 (RuntimeObj
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (SystemInfo_get_operatingSystemFamily_m4256884728_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::get_operatingSystemFamily()");
 	int32_t retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// System.Boolean UnityEngine.SystemInfo::get_supportsImageEffects()
+extern "C"  bool SystemInfo_get_supportsImageEffects_m2886934848 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	typedef bool (*SystemInfo_get_supportsImageEffects_m2886934848_ftn) ();
+	static SystemInfo_get_supportsImageEffects_m2886934848_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SystemInfo_get_supportsImageEffects_m2886934848_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SystemInfo::get_supportsImageEffects()");
+	bool retVal = _il2cpp_icall_func();
 	return retVal;
 }
 #ifdef __clang__
