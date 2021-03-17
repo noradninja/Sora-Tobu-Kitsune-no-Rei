@@ -177,7 +177,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 444f72058661e9410c450cef4c86a297 Assembly-CSharp.dll:.FXAA
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClearPlayerPrefs
 77fadc14e2399d4e021f2635e54681b8 AmplifyShaderEditor.Samples.BuiltIn.dll:.PlaneClip
-a67426b1d196d552ee8bf5aab64b5a7d Assembly-CSharp.dll:.OptionsManagerInputs
+caeff54b1e2e0057f49b4f54cc8906ed Assembly-CSharp.dll:.OptionsManagerInputs
 5f8515f2e5e7bee9c7fbe8e4647e7fec Assembly-CSharp.dll:.Contour_Drawing_Post
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.Benchmark03
 b9332c0eee630779376843b5343eb250 Assembly-CSharp.dll:TMPro.Examples.TMP_TextInfoDebugTool
@@ -202,7 +202,7 @@ e763036081c708b34f78f5a56f72c23d TextMeshPro-2017.3-Runtime.dll:TMPro.TMP_StyleS
 b900ead596b2fb1093b31cb63a678767 Assembly-CSharp.dll:TMPro.Examples.TextMeshProFloatingText
 959bd7b567fca81937238fe8d9921a51 Assembly-CSharp.dll:NprPaintFilter.Demo
 373eaa321c3e55931967052630f0b131 Assembly-CSharp.dll:.CPC_CameraPath
-a67426b1d196d552ee8bf5aab64b5a7d Assembly-CSharp.dll:.TitleScreenOptionsManager
+caeff54b1e2e0057f49b4f54cc8906ed Assembly-CSharp.dll:.TitleScreenOptionsManager
 05524b8f659e7bfe5756d1335fec24ba AmplifyShaderEditor.Samples.BuiltIn.dll:.Pixelize
 dad1c1272dfe1898bb613dcb2631bcce Assembly-CSharp.dll:TMPro.Examples.Benchmark02
 05524b8f659e7bfe5756d1335fec24ba TextMeshPro-2017.3-Editor.dll:TMPro.EditorUtilities.DropdownEditor
@@ -236,7 +236,7 @@ b7ad719bfe9bc03a0d7d2c978ec03dcb Assembly-CSharp.dll:.Link_System
 8a50d3d11bf0cc541f5c35347dd25633 Assembly-CSharp.dll:TMPro.Examples.ShaderPropAnimator
 401f6fdaad87e9a6194f3542c14e4c5d Assembly-CSharp.dll:.FireControl
 76015de5fcb247eeb8df66c001d5a22d Assembly-CSharp.dll:TMPro.Examples.TMP_FrameRateCounter
-3d9afd0c3399b7637d081e056793603e Assembly-CSharp.dll:.BGM_Player
+42d1ee01b2aa4efd94725fdfbc29706b Assembly-CSharp.dll:.BGM_Player
 b8f04bdad423045528c67dfa4c3dca0d Assembly-CSharp.dll:TMPro.Examples.VertexShakeA
 72fe19725df76656cb1f8a12b161761f Assembly-CSharp.dll:.PlayerMoveJump
 2e53a33676aca83c8cc108e1967e35f1 Assembly-CSharp.dll:WayPoint.WaypointManager

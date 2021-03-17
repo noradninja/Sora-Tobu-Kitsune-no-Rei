@@ -274,7 +274,7 @@ namespace Smaa
 			// Skip the depth & stencil buffer creation when DebugPass is set to avoid flickering
 			// TODO: Stencil buffer not working for some reason
 			// int depthStencilBits = DebugPass == DebugPass.Off ? 24 : 0;
-			int depthStencilBits = 0;
+		//	int depthStencilBits = 0;
 			return RenderTexture.GetTemporary(width, height, 0, format, RenderTextureReadWrite.Linear);
 		}
 
