@@ -56,7 +56,6 @@
      <Compile Include="Assets\Addons\Fullscreen Effects\SMAA\Scripts\Editor\SMAAEditor.cs" />
      <Compile Include="Assets\Addons\SimplestMeshBaker\Editor\BonesBaker.cs" />
      <Compile Include="Assets\Addons\SimplestMeshBaker\Editor\MeshBaker.cs" />
-     <Compile Include="Assets\Editor\ComponentsCopier.cs" />
      <Compile Include="Assets\Editor\UploadBuild.cs" />
      <Compile Include="Assets\Editor\UploadData.cs" />
      <Compile Include="Assets\Editor\VitaFTPOptions.cs" />

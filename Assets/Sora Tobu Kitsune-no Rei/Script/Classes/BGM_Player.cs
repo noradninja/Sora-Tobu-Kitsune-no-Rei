@@ -7,6 +7,7 @@ public class BGM_Player : MonoBehaviour {
 private AudioSource bgmMusic;
 private AudioLowPassFilter filter;
 //[HideInInspector]
+public AudioSource sfxPlayer;
 public float scaler;
 [Range(0.0f, 1.0f)]
 public float LPFSweepDuration = 0.5f; //we clamp this range because anything > 1.0f causes unpredicatble behavior on the cutoff frequency
@@ -16,16 +17,21 @@ public float LPFSweepDuration = 0.5f; //we clamp this range because anything > 1
 	void Start () {
 		filter = GetComponent<AudioLowPassFilter>();
 		bgmMusic = GetComponent<AudioSource>();
+		sfxPlayer = GameObject.Find("SFXManager_Prefab").GetComponent<AudioSource>();
 		bgmMusic.Play(0);
 		//Debug.Log("BGM is playing!");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (PlayerPrefs.GetInt ("SavedOnce") == 1){
+		if (PlayerPrefs.GetInt ("SavedOnce") == 1 && PlayerPrefs.HasKey("SavedBGM") && PlayerPrefs.HasKey("SavedSFX")){
 		bgmMusic.volume = PlayerPrefs.GetFloat("SavedBGM");
+		sfxPlayer.volume = PlayerPrefs.GetFloat("SavedSFX");
 		}
-		else bgmMusic.volume = 1.0f;
+		else {
+			bgmMusic.volume = 1.0f;
+			sfxPlayer.volume = 1.0f;
+		}
 	}
 	//scales audio LPF with time when pausing/unpausing game, called from Buttons.cs when Start is pressed
 	public IEnumerator scaleLPF(float endValue){

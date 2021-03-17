@@ -21,57 +21,64 @@ private const string joystick1 = "joystick 1 button ";
 	public Color hilightColor;
 	public Text slot1;
 	public Text slot2;
+	public Text slot3;
 	public GameObject ButtonManager;
 	public GameObject menuManager;
+	
 	public GameObject audioManager;
 	public Image BGMLevel;
+	public Image SFXLevel;
 	public Image sensitivityLevel;
 
 	public float timer = 0.0f;
 	private float delay = 0.1f;
 	public float BGMToSave = 1.0f;
-	public float SensitivityToSave = 1.5f;
+	public float SFXToSave = 1.0f;
+	public float SensitivityToSave = 1.0f;
 	public List<AudioClip> clipList;
 	public AudioSource audioSource;
 	public GameObject currentSelection;
 	public Animation anim;
 
-
 	// Use this for initialization
 	void Start () {
 		//set the color of the initially selected slot
 		setColor();
-			//set BGM/Sensitivity values from previous changes, if they've never been altered, set default values to 1
+		//set BGM/SFX/Sensitivity values from previous changes, if they've never been altered, set default values to 1
 		if(PlayerPrefs.HasKey("SavedBGM")){
 		BGMToSave = PlayerPrefs.GetFloat("SavedBGM");
 		}
 		else BGMToSave = 1;
 
+		if(PlayerPrefs.HasKey("SavedSFX")){
+		SFXToSave = PlayerPrefs.GetFloat("SavedSFX");
+		}
+		else SFXToSave = 1;
+
 		if(PlayerPrefs.HasKey("SavedSensitivity")){
 		SensitivityToSave = PlayerPrefs.GetFloat("SavedSensitivity");
 		}
 		else SensitivityToSave = 1;
-
+		
 		BGMLevel.fillAmount = BGMToSave;
+		SFXLevel.fillAmount = SFXToSave;
 		sensitivityLevel.fillAmount = SensitivityToSave;
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
-
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	
-		if ((PauseManager.isPaused) == true && menuManager.GetComponent<MenuManagerInputs>().optionEnabled == true){
+		if ((menuManager.GetComponent<MenuManagerInputs>().optionEnabled == true)){
 			timer = timer += 0.01f;
 		if (timer > delay){
 			//Decrement slot by -1 if you press up
 			if (Input.GetKeyDown (joystick1 + UP)){
 				audioSource.PlayOneShot(clipList[2]);
 				if (selectedSlot == 1){
-					//set slot to 2 if you are at slot 1 to wrap selection
-					selectedSlot = 2;
+					//set slot to 3 if you are at slot 1 to wrap selection
+					selectedSlot = 3;
 				}
-				//decrement the slot for each up press
 				else selectedSlot -=1;
 				//set the color of the selected slot
 				setColor();
@@ -81,12 +88,12 @@ private const string joystick1 = "joystick 1 button ";
 			//Increment slot by +1 if you press down
 			if (Input.GetKeyDown (joystick1 + DOWN)){
 				audioSource.PlayOneShot(clipList[3]);
-				if (selectedSlot == 2){
-					//set slot to 1 if you are at slot 2 to wrap selection
+				if (selectedSlot == 3){
+					//set slot to 2 if you are at slot 1 to wrap selection
 					selectedSlot = 1;
 				}
-				//increment the slot by 1 for each down press
-				else selectedSlot +=1;
+				else selectedSlot += 1;
+			
 				//set the color of the selected slot
 				setColor();
 				animateButtons();
@@ -101,6 +108,11 @@ private const string joystick1 = "joystick 1 button ";
 					PlayerPrefs.SetInt("SavedOnce", 1);
 				}
 				if (selectedSlot == 2){
+					SFXLevel.fillAmount -= 0.1f;
+					SFXToSave = SFXLevel.fillAmount;
+					PlayerPrefs.SetInt("SavedOnce", 1);
+				}
+				if (selectedSlot == 3){
 					sensitivityLevel.fillAmount -= 0.05f;
 					SensitivityToSave = sensitivityLevel.fillAmount*1.5f;
 					PlayerPrefs.SetInt("SavedOnce", 1);
@@ -115,6 +127,11 @@ private const string joystick1 = "joystick 1 button ";
 					
 				}
 				if (selectedSlot == 2){
+					SFXLevel.fillAmount += 0.1f;
+					SFXToSave = SFXLevel.fillAmount;
+					PlayerPrefs.SetInt("SavedOnce", 1);
+				}
+				if (selectedSlot == 3){
 					sensitivityLevel.fillAmount += 0.05f;
 					SensitivityToSave = sensitivityLevel.fillAmount*1.5f;
 					PlayerPrefs.SetInt("SavedOnce", 1);
@@ -122,6 +139,7 @@ private const string joystick1 = "joystick 1 button ";
 				}
 			}
 			PlayerPrefs.SetFloat("SavedBGM", BGMToSave);
+			PlayerPrefs.SetFloat("SavedSFX", SFXToSave);
 			PlayerPrefs.SetFloat("SavedSensitivity", SensitivityToSave);
 		}
 	}		
@@ -134,24 +152,43 @@ private const string joystick1 = "joystick 1 button ";
 		if (selectedSlot==1){
 			slot1.color = hilightColor;
 			slot2.color = baseColor;
+			slot3.color = baseColor;
 		}
-		else if (selectedSlot==2){
+		if (selectedSlot==2){
 			slot1.color = baseColor;
 			slot2.color = hilightColor;
+			slot3.color = baseColor;
+		}
+		else if (selectedSlot==3){
+			slot1.color = baseColor;
+			slot2.color = baseColor;
+			slot3.color = hilightColor;
 		}
 	}
 		void animateButtons(){
-		if (selectedSlot == 2){
+		if (selectedSlot == 3){
 			currentSelection = GameObject.Find("Sensitivity_Text");
 			anim = currentSelection.GetComponent<Animation>();
 			anim.Play("Menu_Bounce");
+			if (anim.IsPlaying("Menu_Bounce")){
+				print("Playing Sensitivity");
 			}
-		
+		}
+		if (selectedSlot == 2){
+			currentSelection = GameObject.Find("SFX_Text");
+			anim = currentSelection.GetComponent<Animation>();
+			anim.Play("Menu_Bounce");
+			if (anim.IsPlaying("Menu_Bounce")){
+				print("Playing SFX");
+			}
+		}
 		if (selectedSlot == 1){
 			currentSelection = GameObject.Find("BGM_Text");
 			anim = currentSelection.GetComponent<Animation>();
-				anim.Play("Menu_Bounce");
+			anim.Play("Menu_Bounce");
+			if (anim.IsPlaying("Menu_Bounce")){
+				print("Playing BGM");
+			}
 		}
 	}
-	
 }
