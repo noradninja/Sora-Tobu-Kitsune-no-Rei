@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class BezerkControl : MonoBehaviour {
+	private float adderDelay;
+	public float adderInspector;
+	public int hitCount;
 	public Collider[] bezerkArray;
 	public List<GameObject> bezerkList;
 	public GameObject bezerkHit;
@@ -37,6 +40,7 @@ public class BezerkControl : MonoBehaviour {
 		  bezerkManager();
 		  BezerkArrayLength = bezerkArray.Length;
 		  BezerkListCount = bezerkList.Count;
+		  adderInspector = adderDelay;
 	}
 	 void bezerkManager(){
 	//update the player location so we are always generating shots from there
@@ -57,43 +61,48 @@ public class BezerkControl : MonoBehaviour {
             BroadcastMessage("resetBar");
            	bezerkOff();
         }
-		if (bezerkHit == null && bezerkMeter.fillAmount > 0 && bezerkActive == true && bezerkArray.Length == 1)
+		if (bezerkHit == null && bezerkMeter.fillAmount > 0 && bezerkActive == true && bezerkList.Count == 0)
         {
             BroadcastMessage("resetBar");
-           	bezerkActive = false;
-			StartCoroutine(Fader(0.0f,0.5f));
-			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
-			bezerkList.Clear();
+			bezerkOff();
+           	// bezerkActive = false;
+			// StartCoroutine(Fader(0.0f,0.5f));
+			// StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+			// bezerkList.Clear();
         }
 	//reinitialize bezerk if there are still objects in the array, cycle selection icon on each loop through the array
-        if (bezerkArray.Length > 0)
-        {
-            // for (int i = 0; i < bezerkArray.Length; i++)
-            // {
-            //     if (bezerkActive == false && bezerkArray[i] != null)
-            //     {
-            //         bezerkArray[i].gameObject.transform.GetChild(0).gameObject.SetActive(false); //turn off target icon 
-            //     }
-            // }
-            if (counter < bezerkArray.Length && bezerkActive == true && bezerkList.Count == 0 && bezerkArray.Length > 1)
+
+            if (counter < bezerkArray.Length && bezerkActive == true && bezerkList.Count == bezerkArray.Length && hitCount == bezerkArray.Length)
             {
                 bezerkMode();
             }
-        }
     }
 	void bezerkMode(){
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
+	
 		if (bezerkMeter.fillAmount > 0){
-			bezerkActive = true;
 			bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
-			
-			for (int i = 0; i < bezerkArray.Length; i++){
-				counter = i;
-				bezerkHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
-				bezerkList.Add(bezerkHit);
-				StartCoroutine(bezerkAdder((counter*0.2f), counter)); //get current counter value and pass it to adder CR
-
-			}		
+			if (bezerkArray.Length > 0){
+				bezerkActive = true;
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f));
+				StartCoroutine(Fader(1.0f,0.5f));
+				for (int i = 0; i < bezerkArray.Length; i++){
+					counter = i;
+					bezerkHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
+					if (!bezerkList.Contains(bezerkHit)){
+						bezerkList.Add(bezerkHit);
+					}
+					if (counter == 0){
+						StartCoroutine(bezerkAdder(0.0f, counter)); //get current counter value and pass it to adder CR, this is to ensure NaN doesn't get passed to bezerkAdder()
+					}
+					else { 
+						// adderDelay = (counter*0.15f - (0.15f/counter));
+						// print (adderDelay);
+						StartCoroutine(bezerkAdder(counter*0.15f, counter)); //get current counter value and pass it to adder CR, with a delay that has a shrinking delta for each shot
+					}
+				}
+			}
+			else print ("No targets for Bezerk!");		
 		}
 	}
 	//shoot the bezerk missile
@@ -116,6 +125,8 @@ public class BezerkControl : MonoBehaviour {
 		StartCoroutine(Fader(0.0f,0.5f));
 		StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
 		bezerkList.Clear();
+		
+		hitCount = 0;
     }
 	IEnumerator bezerkAdder(float time, int i){
 		yield return new WaitForSeconds(time); //wait for counter value increment
@@ -124,7 +135,7 @@ public class BezerkControl : MonoBehaviour {
 			missileTarget = GameObject.Find(bezerkArray[i].transform.name);
 			audioSource.PlayOneShot(clipList[7]); //play target sfx
 			fireBezerk(missileTarget);
-			yield return null;
+			hitCount ++;
 		}
 		
 	}

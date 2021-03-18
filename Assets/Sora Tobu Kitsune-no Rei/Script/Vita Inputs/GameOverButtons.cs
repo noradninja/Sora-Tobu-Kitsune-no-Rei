@@ -23,7 +23,7 @@ public class GameOverButtons : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {		
 		//start loading coroutine if X is pressed
-		if (Input.GetKeyDown (joystick1 + CROSS)){
+		if (Input.GetKeyDown (joystick1 + CROSS) && loading == false){
 			StartCoroutine(StartLoad());
 		}
 		//check if we are actually loading a level to avoid spamming the console with nullrefs 

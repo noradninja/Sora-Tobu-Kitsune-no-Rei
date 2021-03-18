@@ -311,7 +311,7 @@ f0c2ee7f86f51430df3294122dfc5ab1 Assembly-CSharp.dll:.TitleSaveManagerInputs
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.VertexColorCycler
 05524b8f659e7bfe5756d1335fec24ba AmplifyShaderEditor.Samples.BuiltIn.dll:.SpriteMaskController
 d720d104ba371072094e66111bc68ea5 Assembly-CSharp.dll:.FollowPlayerwithRotation
-d54e6dac0fe1462dba9c4a49f24cdca6 Assembly-CSharp.dll:.BezerkControl
+6c8b44c888f93366c4656840afa0bd94 Assembly-CSharp.dll:.BezerkControl
 22d0936cb538dc6053295cc40731687c Assembly-CSharp.dll:.Line
 7f02f6232042a5fbfd728a90ec4de85b Assembly-CSharp.dll:.MenuManagerInputs
 0c4dea12d5ccc08c2c80e5a188a9699c Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.SmoothMouseLook

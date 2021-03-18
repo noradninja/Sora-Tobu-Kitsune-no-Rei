@@ -216,11 +216,9 @@ public class Buttons : MonoBehaviour {
 			StartCoroutine(timer(1, 0.25f));
 		} 
 		//disable triangle when player has died, to keep us from endlessley loading the load screen if you keep mashing the button
-		else if (Input.GetKeyDown (joystick1 + TRIANGLE) && playerTemp.GetComponent<Actor>().health != 0.0001f && GameObject.Find("Bezerk_Bar").GetComponent<Image>().fillAmount > 0.0f){
+		else if (Input.GetKeyDown (joystick1 + TRIANGLE) && playerTemp.GetComponent<Actor>().health != 0.0001f && GameObject.Find("Bezerk_Bar").GetComponent<Image>().fillAmount > 0.01f){
 			myguiText.text = "Triangle";
 			FireControl.gameObject.BroadcastMessage ("bezerkMode");
-			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f));
-			StartCoroutine(FireControl.GetComponent<BezerkControl>().Fader(1.0f,0.5f));
 		}
 		else if (Input.GetKeyDown (joystick1 + SELECT)){
 			//SetScenes.sceneToLoad = SetScenes.currentScene;

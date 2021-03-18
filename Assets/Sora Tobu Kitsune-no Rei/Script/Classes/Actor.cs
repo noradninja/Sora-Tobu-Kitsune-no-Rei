@@ -72,6 +72,9 @@ public class Actor : MonoBehaviour {
 				if (bezerkHit == false){
 					eventManager.BroadcastMessage ("LinkIncrementer");
 				}
+				if (bezerkHit == true){
+					eventManager.GetComponent<BezerkControl>().bezerkList.Remove(gameObject);
+				}
 				
 				GameObject boom = Instantiate (explosion, transform.position, Quaternion.identity);
 				boom.SetActive(true);
@@ -82,9 +85,9 @@ public class Actor : MonoBehaviour {
 				//print(gameObject.name + " Has Died!");
 				for (int i = 0; i<subObjectsGO.Count; i++){
 					if (subObjectsGO[i].GetComponent<Actor>().isActive == false){
+						eventManager.GetComponent<BezerkControl>().bezerkList.Remove(subObjectsGO[i]);
 						GameObject boom = Instantiate (explosion, subObjectsGO[i].transform.position, Quaternion.identity);
 						boom.SetActive(true);
-						//audioSource.PlayOneShot(clipList[13]);
 						audioSource.PlayOneShot(clipList[14]);
 					}
 					Destroy(gameObject);
@@ -115,7 +118,7 @@ public class Actor : MonoBehaviour {
 	}
 
 	public void BezerkMissile(){
-		Debug.Log("hit by bezerker");
+		Debug.Log(gameObject.transform.name + " hit by bezerker");
 		bezerkHit = true;
 		
 	}

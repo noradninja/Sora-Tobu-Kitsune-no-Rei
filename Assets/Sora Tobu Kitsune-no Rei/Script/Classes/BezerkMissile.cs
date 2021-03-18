@@ -23,7 +23,9 @@ public class BezerkMissile : MonoBehaviour {
 		eventManager = GameObject.Find ("EventSystem");
 		//targetObject = GameObject.Find ("Main Camera");
 		eventManager.BroadcastMessage("LinkDecrementor");	
-		//Event.GetComponent<FireControl>().firingBezerk = true;		
+		//Event.GetComponent<FireControl>().firingBezerk = true;	
+		missileTarget = eventManager.GetComponent<BezerkControl>().missileTarget;	
+		//speed = eventManager.GetComponent<BezerkControl>().missileSpeed;
 	}
 
 	// Update is called once per frame
@@ -54,7 +56,6 @@ public class BezerkMissile : MonoBehaviour {
 			//Destroy the missile, and apply its damage to the target
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage);
 			missileTarget.gameObject.transform.GetChild (0).gameObject.SetActive(false);
-			bezerkList.Remove(missileTarget);
 			Destroy (gameObject);
 	
 		//if missile somehow collides with the player, destroy missile
