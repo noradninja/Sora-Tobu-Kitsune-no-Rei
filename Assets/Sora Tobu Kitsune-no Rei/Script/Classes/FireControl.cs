@@ -16,7 +16,10 @@ public class FireControl : MonoBehaviour {
 
 	//publics
 	public int objCount = 0;
+	public int missileCount = 0;
+	public int storedCount;
 	public GameObject player;
+	private Vector3 shootVec;
 	public GameObject missileTarget;
 	public int frameCounter = 0;
 	public int lockDelay = 30;
@@ -51,12 +54,14 @@ public class FireControl : MonoBehaviour {
 		frameCounter = 0;
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
 		resetVector = GameObject.Find ("Main Camera");
+		missileTarget = resetVector;
 		//filter = GameObject.Find("BGMManager_Prefab").GetComponent<AudioLowPassFilter>();		
 	}
 
 	// Update is called once per frame
 	void Update ()
     {
+		shootVec = new Vector3 (playerLocation.x, playerLocation.y, (playerLocation.z));
         targetingSystem();
 
     }
@@ -73,12 +78,6 @@ public class FireControl : MonoBehaviour {
         reticleY = position.y;
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 
-        //clear target list if it is empty
-        if (targetList.Count < 1)
-        {
-            targetList.Clear();
-        }
-
         // set up targeting ray
         Ray targetingRay = new Ray();
         // cast ray from camera through location of targeting reticle sprite
@@ -94,22 +93,20 @@ public class FireControl : MonoBehaviour {
                 // make the enemy a target for a missile
                 missileTarget = checkHit;
         }
-        //reenable missile firing when the list is empty
-        if (targetList.Count < 1)
+		else missileTarget = resetVector;
+        //reenable missile firing when all missiles have been fired
+        if (targetList.Count == missileCount)
         {
             firingMissiles = false;
+			targetList.Clear();
+			missileCount = 0;
+			obj = null;
         }
     }
 
     //deals with lock on system
     void fireControl(){ //called from Buttons.cs when fire button is down
 		
-		//clear list and reset target vector 
-		if (targetList.Count <1){
-		targetList.Clear();
-		targetVector = resetVector;
-		
-		}
 		
 		//Increment frame counter while held
 		frameCounter = frameCounter + 1;
@@ -118,9 +115,11 @@ public class FireControl : MonoBehaviour {
 			//change reticle to lock on texture if held for delay period
 			img.texture = (Texture)Locked;
 			img2.texture = (Texture)Locked;
+			
 			//add enemies to list if we still have empty spots, and the current target under the recticle isnt the previous one
 			//and the current target is an enemy and not null
-			if (objCount < maxTargets && missileTarget != obj && missileTarget != null && firingMissiles == false){
+			if (objCount < maxTargets && missileTarget != obj && firingMissiles == false && missileTarget != resetVector){
+				
                 targetVector = missileTarget;// set our current vector location to the target location- this is used for the missile 
 				//make sure target isn't already in list, if it is ignore it
 				if (targetList.Contains(targetVector)){
@@ -129,11 +128,12 @@ public class FireControl : MonoBehaviour {
 				//add the target to the list and keep track of how long the list is
 				targetList.Add (targetVector);
 				objCount = objCount + 1;
-				obj = missileTarget;
-				//turn on the lock cursor on the target so we have visual feedback, and play back an animation and sound effect
-				obj.gameObject.transform.GetChild (0).gameObject.SetActive(true);
-				obj.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce");
-				audioSource.PlayOneShot(clipList[7]);
+				
+					obj = targetVector;
+					//turn on the lock cursor on the target so we have visual feedback, and play back an animation and sound effect
+					obj.gameObject.transform.GetChild (0).gameObject.SetActive(true);
+					obj.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce");
+					audioSource.PlayOneShot(clipList[7]);
 			}
 		}
 	}
@@ -170,53 +170,35 @@ public class FireControl : MonoBehaviour {
 	}
 
 	//fires missiles
-	void fireMissiles(){
+	void missileMode(){
 		//print ("Fire Missiles");
-		if (targetList.Count > 0) {
-			//fire a missile at the current target
-			Vector3 shootVec = new Vector3 (playerLocation.x, playerLocation.y, (playerLocation.z));
-			GameObject fired2 = Instantiate (Missile, shootVec, Quaternion.identity);
-			audioSource.PlayOneShot(clipList[6]);
-			fired2.SetActive(true);
+		if (targetList.Count > 0) {	
 			firingMissiles = true;
-			
+			for (int i = 0; i < (targetList.Count); i++){
+			StartCoroutine(shotIterator(i*0.2f, i));			
+			}
 		}
+	}
+	void fireMissiles(GameObject target){
+		GameObject firedMissile = Instantiate (Missile, shootVec, Quaternion.identity);
+		audioSource.PlayOneShot(clipList[6]);
+		firedMissile.GetComponent<Missile>().missileTarget = target;
+		firedMissile.SetActive(true);
 	}
 
 	void reset(){
 		frameCounter = 0;
 		objCount = 0;
 		targetVector = resetVector;
-		missileTarget = null;
-		obj = null;
+		missileTarget = resetVector;
 	}
-
-	// IEnumerator fadeIn(Color startValue, Color bgColor, float duration){
-    //     float time = 0;
-
-	// 	//fade out the loadscreen canvas group
-    //     while (time < duration)
-    //     {
-    //         bgBezerkFader.color = Color.Lerp(startValue, bgColor, time / duration);
-    //         time += Time.deltaTime;
-    //         yield return null;
-	// 		StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(860.0F));
-    //     }
-	// }
-	// IEnumerator fadeOut(){
-
-	// 	//ScaleLPF back up in here because calling the BGMManagerCorutine for it doesnt work for some reason
-	// 	BGMManager.GetComponent<BGM_Player>().scaler = 1;
-	// 	float time = 0;
-	// 	while (time < 1.3f) {
-	// 		filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, 22000.0f, time / 1.3f);	
-	// 		time += Time.deltaTime;
-	// 		yield return null;	
-	// 	}
-	// 	filter.cutoffFrequency = 22000.0f;
-	// 	//reduce image alpha value to 0 over time
-	// 	bgBezerkFader.CrossFadeAlpha (0, 0.5f, true);	
-	// }
-
-
+	IEnumerator shotIterator(float time, int i){
+		yield return new WaitForSeconds(time);
+			if (firingMissiles == true && targetList[i] != null && targetList.Contains(targetList[i])){
+				//fire a missile at the current target
+				missileTarget = GameObject.Find(targetList[i].transform.name);
+				fireMissiles (missileTarget);
+				missileCount ++;
+			}
+	}
 }

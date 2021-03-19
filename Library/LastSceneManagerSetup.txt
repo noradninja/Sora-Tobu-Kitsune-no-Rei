@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Sora Tobu Kitsune-no Rei/Scenes/Title.unity
+- path: Assets/Sora Tobu Kitsune-no Rei/Scenes/GameOver.unity
   isLoaded: 1
   isActive: 1

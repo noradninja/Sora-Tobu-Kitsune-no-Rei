@@ -30,20 +30,13 @@ public class Missile : MonoBehaviour {
 		float step = speed * Time.deltaTime;
 		
 		//check that list contains more than 0 items, set target to [List.Count-1] transform, send missile to it
-		if (targetCount > 0 && List[0] != null) {
 			if ((PauseManager.isPaused) == false){
-			missileTarget = List[0];
-
-			
-				transform.position = Vector3.Slerp (transform.position, missileTarget.transform.position, step);
+				if (missileTarget == null){
+					Destroy(gameObject);
+				}
+				else transform.position = Vector3.Slerp (transform.position, missileTarget.transform.position, step);
 			}
-		}
-		//if list has no items or the first item is null, destroy the missile and clear list
-		if (targetCount <= 0 || List [0] == null) {
-			Destroy (gameObject);
-			List.Clear();
-			missileTarget = targetObject;
-		}
+		else Destroy (gameObject);
 	}
 
 	public void OnTriggerEnter(Collider other)
@@ -53,7 +46,6 @@ public class Missile : MonoBehaviour {
 			//Destroy the missile, and apply its damage to the target
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage);
 			other.gameObject.BroadcastMessage ("Shot");
-			List.Remove (missileTarget);
 			other.gameObject.transform.GetChild (0).gameObject.SetActive(false);	
 			Destroy (gameObject);
 		}
@@ -61,12 +53,5 @@ public class Missile : MonoBehaviour {
 		if (other.tag == "Player") {
 			Destroy (gameObject);
 		}
-
-		
-		//if there are still enemies in the target list and the first item isnt null, generate another missile	
-		if (targetCount > 1 && List[0] != null) {
-					Event.gameObject.BroadcastMessage ("fireMissiles");
-					Destroy (gameObject);
-				} 
 	}
 }

@@ -208,12 +208,12 @@ public class Buttons : MonoBehaviour {
 		} 
 		else if (Input.GetKeyUp(joystick1 + SQUARE)) {
 			//fire missiles, reset the frame counter and number of objects counted on release
-			FireControl.gameObject.BroadcastMessage ("reset");
-			FireControl.gameObject.BroadcastMessage ("fireMissiles");
+			FireControl.gameObject.BroadcastMessage ("missileMode");
 			//change to regular texture on release
 			img.texture = (Texture)Unlocked;
 			img2.texture = (Texture)Blank;
 			StartCoroutine(timer(1, 0.25f));
+			FireControl.gameObject.BroadcastMessage ("reset");
 		} 
 		//disable triangle when player has died, to keep us from endlessley loading the load screen if you keep mashing the button
 		else if (Input.GetKeyDown (joystick1 + TRIANGLE) && playerTemp.GetComponent<Actor>().health != 0.0001f && GameObject.Find("Bezerk_Bar").GetComponent<Image>().fillAmount > 0.01f){
