@@ -19,19 +19,13 @@ public class Buttons : MonoBehaviour {
 	private const int RIGHT = 9;
 	private const int DOWN = 10;
 	private const int LEFT = 11;
-	private Quaternion qTo;
 	private RawImage img;
 	private RawImage img2;
 	private GameObject playerTemp;
 	
 	//public bool PauseManager.isPaused = false;
 	public Text myguiText;
-	public Text pauseguiText;
 	public Text indicatorText;
-	public GameObject left;
-	public GameObject right;
-	public GameObject Cam_Rotate_Point;
-	public GameObject Player;
 	public GameObject FireControl;
 	public Texture Unlocked;
 	public Texture Blank;
@@ -44,7 +38,6 @@ public class Buttons : MonoBehaviour {
 	public CanvasGroup menuCanvas;
 	public CanvasGroup saveCanvas;
 	public CanvasGroup optionCanvas;
-	public Canvas textCanvas;
 	public GameObject audioManager;
 	public List<AudioClip> clipList;
 	public AudioSource audioSource;
@@ -62,7 +55,6 @@ public class Buttons : MonoBehaviour {
 	private GameObject bgCam;
 	private GameObject miniMapCam;
 	private GameObject overlayCam;
-	private Camera aaCam;
 	public bool canFire = true;
 	private string paintOn = "Paint Effect On";
 	private string paintOff = "Paint Effect Off";
@@ -216,13 +208,11 @@ public class Buttons : MonoBehaviour {
 			FireControl.gameObject.BroadcastMessage ("reset");
 		} 
 		//disable triangle when player has died, to keep us from endlessley loading the load screen if you keep mashing the button
-		else if (Input.GetKeyDown (joystick1 + TRIANGLE) && playerTemp.GetComponent<Actor>().health != 0.0001f && GameObject.Find("Bezerk_Bar").GetComponent<Image>().fillAmount > 0.01f){
+		else if (Input.GetKeyDown (joystick1 + TRIANGLE) && GameObject.Find("Bezerk_Bar").GetComponent<Image>().fillAmount > 0.01f){
 			myguiText.text = "Triangle";
 			FireControl.gameObject.BroadcastMessage ("bezerkMode");
 		}
-		else if (Input.GetKeyDown (joystick1 + SELECT)){
-			//SetScenes.sceneToLoad = SetScenes.currentScene;
-			//SceneManager.LoadScene("LoadScreen");
+		else if (Input.GetKeyDown (joystick1 + SELECT) && playerTemp.GetComponent<Actor>().health != 0.0001f ){
 			playerTemp.GetComponent<Actor>().health -= 15f;
 		}	
 		else {

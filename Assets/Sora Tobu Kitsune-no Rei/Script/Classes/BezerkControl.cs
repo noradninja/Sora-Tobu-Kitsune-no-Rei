@@ -64,12 +64,9 @@ public class BezerkControl : MonoBehaviour {
 		if (bezerkHit == null && bezerkMeter.fillAmount > 0 && bezerkActive == true && bezerkList.Count == 0)
         {
             BroadcastMessage("resetBar");
-			bezerkOff();
-           	// bezerkActive = false;
-			// StartCoroutine(Fader(0.0f,0.5f));
-			// StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
-			// bezerkList.Clear();
+           	bezerkOff();
         }
+		
 	//reinitialize bezerk if there are still objects in the array, cycle selection icon on each loop through the array
 
             if (counter < bezerkArray.Length && bezerkActive == true && bezerkList.Count == bezerkArray.Length && hitCount == bezerkArray.Length)
@@ -88,16 +85,18 @@ public class BezerkControl : MonoBehaviour {
 				StartCoroutine(Fader(1.0f,0.5f));
 				for (int i = 0; i < bezerkArray.Length; i++){
 					counter = i;
-					bezerkHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
+					if (bezerkArray[i] != null){
+						StartCoroutine(materialFader(bezerkArray[i].GetComponent<Renderer>().material.color, Color.black, 0.5f, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));
+						bezerkHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
+					}
 					if (!bezerkList.Contains(bezerkHit)){
 						bezerkList.Add(bezerkHit);
+						//coroutine to fade enemy color
 					}
 					if (counter == 0){
 						StartCoroutine(bezerkAdder(0.0f, counter)); //get current counter value and pass it to adder CR, this is to ensure NaN doesn't get passed to bezerkAdder()
 					}
 					else { 
-						// adderDelay = (counter*0.15f - (0.15f/counter));
-						// print (adderDelay);
 						StartCoroutine(bezerkAdder(counter*0.15f, counter)); //get current counter value and pass it to adder CR, with a delay that has a shrinking delta for each shot
 					}
 				}
@@ -118,14 +117,14 @@ public class BezerkControl : MonoBehaviour {
 	 void bezerkOff(){
         bezerkActive = false;
         for (int i = 0; i < bezerkList.Count; i++){
-			if (bezerkArray[i] != null){
-				bezerkArray[i].gameObject.transform.GetChild(0).gameObject.SetActive(false);
+			if (bezerkList[i] != null){
+				bezerkList[i].gameObject.transform.GetChild(0).gameObject.SetActive(false);
+				StartCoroutine(materialFader(bezerkList[i].GetComponent<Renderer>().material.color, Color.white, 0.5f, GameObject.Find(bezerkList[i].name)));
 			}
 		}
 		StartCoroutine(Fader(0.0f,0.5f));
 		StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
 		bezerkList.Clear();
-		
 		hitCount = 0;
     }
 	IEnumerator bezerkAdder(float time, int i){
@@ -144,12 +143,37 @@ public class BezerkControl : MonoBehaviour {
         float time = 0;
 
 		//fade out the menu canvas group
-        while (time < duration)
-        {
+        while (time < duration){
             bezerkCanvas.alpha = Mathf.Lerp(startValue, targetValue, time / duration);
             time += Time.deltaTime;
             yield return null;
         }
 		bezerkCanvas.alpha = targetValue;
+	}
+
+	public IEnumerator materialFader(Color startColor, Color targetColor, float duration, GameObject currentObject){
+		float time = 0;	
+		Material objectMat = currentObject.GetComponent<Renderer>().material;
+		if (currentObject.GetComponent<Renderer>().material == null){
+			Renderer[] subObjects = currentObject.GetComponentsInChildren<Renderer>();
+			foreach (Renderer SORenderer in subObjects){
+				if (SORenderer.material.color != targetColor){
+					while (time < duration){
+							SORenderer.material.color = Color.Lerp(startColor, targetColor, time / duration);
+							time += Time.deltaTime;
+						yield return null;
+					}
+				}
+			SORenderer.material.color = targetColor;
+			}
+		}
+		else if (objectMat.color != targetColor){
+			while (time < duration){
+					objectMat.color = Color.Lerp(startColor, targetColor, time / duration);
+					time += Time.deltaTime;
+				yield return null;
+			}
+		}
+		objectMat.color = targetColor;
 	}
 }
