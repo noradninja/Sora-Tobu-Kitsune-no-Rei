@@ -65,7 +65,7 @@ public class BezerkControl : MonoBehaviour {
             BroadcastMessage("resetBar");
            	bezerkOff();
         }
-		if (bezerkHit == null && bezerkMeter.fillAmount > 0 && bezerkActive == true && bezerkList.Count == 0)
+		if (bezerkHit == null && bezerkMeter.fillAmount > 0 && bezerkActive == true && bezerkList.Count <= bezerkArray.Length)
         {
             BroadcastMessage("resetBar");
            	bezerkOff();
@@ -73,7 +73,7 @@ public class BezerkControl : MonoBehaviour {
 		
 	//reinitialize bezerk if there are still objects in the array, cycle selection icon on each loop through the array
 
-            if (counter < bezerkArray.Length && bezerkActive == true && bezerkList.Count == bezerkArray.Length && hitCount >= bezerkList.Count && hitRemaining == 0)
+            if (counter < bezerkArray.Length && bezerkActive == true && bezerkList.Count <= bezerkArray.Length && hitCount >= bezerkList.Count && hitRemaining == 0)
             {
                 bezerkMode();
             }
@@ -125,6 +125,8 @@ public class BezerkControl : MonoBehaviour {
 	}
 	//cleanup tasks
 	 void bezerkOff(){
+		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
+		bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
         bezerkActive = false;
         for (int i = 0; i < bezerkList.Count; i++){
 			if (bezerkList[i] != null){

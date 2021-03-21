@@ -59,6 +59,7 @@ public List<GameObject> bezerkList;
 	public void resetBar(){
 		newValue = 0.0f;
 		gameObject.GetComponent<BezerkControl>().bezerkActive = false;
+		BroadcastMessage("bezerkOff");
 	}
 	public IEnumerator IncrementCount(){
 		//This is called when an enemy dies, and we increment linkCount as they are destroyed, and increment a time counter between each destruction.

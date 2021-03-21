@@ -91,6 +91,10 @@ public class Actor : MonoBehaviour {
 						audioSource.PlayOneShot(clipList[14]);
 					}
 					Destroy(gameObject);
+					if (eventManager.GetComponent<BezerkControl>().bezerkActive == true){
+						eventManager.GetComponent<BezerkControl>().bezerkActive = false;
+						eventManager.BroadcastMessage("bezerkOff");
+					}
 				}	
 			}
 			if (gameObject.tag == "Player" && health <=0){

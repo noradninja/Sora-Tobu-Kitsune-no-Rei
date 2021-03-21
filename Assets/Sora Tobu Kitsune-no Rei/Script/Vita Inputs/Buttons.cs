@@ -41,7 +41,7 @@ public class Buttons : MonoBehaviour {
 	public GameObject audioManager;
 	public List<AudioClip> clipList;
 	public AudioSource audioSource;
-	public enum SelectedEnemy{enemy, mpBoss, mtBoss};
+	public enum SelectedEnemy{enemy, mtBoss};
 	public SelectedEnemy enemyGroup = SelectedEnemy.enemy;
 	public GameObject[] enemyTypes;
 	public int screenWidth = 960;
@@ -109,27 +109,12 @@ public class Buttons : MonoBehaviour {
 		if (Input.GetKeyDown (joystick1 + UP) || (Input.GetKeyDown(KeyCode.UpArrow))){
 			switch (enemyGroup){
 			 	case SelectedEnemy.enemy:
-				 	enemyGroup = SelectedEnemy.mpBoss;
+				 	enemyGroup = SelectedEnemy.mtBoss;
 					if (enemyTypes[0] !=null){	
 					enemyTypes[0].SetActive(false); 
 					}
 					if (enemyTypes[1] !=null){
 						enemyTypes[1].SetActive(true);
-					}
-					if (enemyTypes[2] !=null){
-					enemyTypes[2].SetActive(false);
-					}
-					break;
-				case SelectedEnemy.mpBoss:
-					enemyGroup = SelectedEnemy.mtBoss;
-					if (enemyTypes[0] !=null){	
-					enemyTypes[0].SetActive(false); 
-					}
-					if (enemyTypes[1] !=null){
-						enemyTypes[1].SetActive(false);
-					}
-					if (enemyTypes[2] !=null){
-					enemyTypes[2].SetActive(true);
 					}
 					break;
 				case SelectedEnemy.mtBoss:
@@ -140,9 +125,6 @@ public class Buttons : MonoBehaviour {
 					}
 					if (enemyTypes[1] !=null){
 						enemyTypes[1].SetActive(false);
-					}
-					if (enemyTypes[2] !=null){
-					enemyTypes[2].SetActive(false);
 					}
 					GameObject.Find("BossInfoText").GetComponent<Text>().text = " ";
 				}
