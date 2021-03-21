@@ -56,6 +56,7 @@ public class BezerkMissile : MonoBehaviour {
 			//Destroy the missile, and apply its damage to the target
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage);
 			missileTarget.gameObject.transform.GetChild (0).gameObject.SetActive(false);
+			eventManager.GetComponent<BezerkControl>().hitRemaining --;
 			Destroy (gameObject);
 	
 		//if missile somehow collides with the player, destroy missile

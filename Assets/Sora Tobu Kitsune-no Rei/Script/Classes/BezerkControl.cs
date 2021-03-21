@@ -7,6 +7,7 @@ public class BezerkControl : MonoBehaviour {
 	private float adderDelay;
 	public float adderInspector;
 	public int hitCount;
+	public int hitRemaining;
 	public Collider[] bezerkArray;
 	public List<GameObject> bezerkList;
 	public GameObject bezerkHit;
@@ -41,6 +42,9 @@ public class BezerkControl : MonoBehaviour {
 		  BezerkArrayLength = bezerkArray.Length;
 		  BezerkListCount = bezerkList.Count;
 		  adderInspector = adderDelay;
+		  if (bezerkActive == false){
+			  hitRemaining = 0;
+		  }
 	}
 	 void bezerkManager(){
 	//update the player location so we are always generating shots from there
@@ -69,11 +73,11 @@ public class BezerkControl : MonoBehaviour {
 		
 	//reinitialize bezerk if there are still objects in the array, cycle selection icon on each loop through the array
 
-            if (counter < bezerkArray.Length && bezerkActive == true && bezerkList.Count == bezerkArray.Length && hitCount == bezerkArray.Length)
+            if (counter < bezerkArray.Length && bezerkActive == true && bezerkList.Count == bezerkArray.Length && hitCount >= bezerkArray.Length && hitRemaining == 0)
             {
                 bezerkMode();
             }
-    }
+	 }
 	void bezerkMode(){
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 	
@@ -86,7 +90,13 @@ public class BezerkControl : MonoBehaviour {
 				for (int i = 0; i < bezerkArray.Length; i++){
 					counter = i;
 					if (bezerkArray[i] != null){
-						StartCoroutine(materialFader(bezerkArray[i].GetComponent<Renderer>().material.color, Color.black, 0.5f, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));
+						if(bezerkArray[i].GetComponent<Renderer>() != null){				
+						//TODO: if object has renderer do this otherwise get renderer in parent 
+						StartCoroutine(materialFader(GameObject.Find(bezerkArray[i].GetComponent<Collider>().name).GetComponent<Renderer>().material.color, Color.black, 0.5f, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));
+						}
+						else {
+							StartCoroutine(materialFader(GameObject.Find(bezerkArray[i].GetComponent<Collider>().name).GetComponentInParent<Renderer>().material.color, Color.black, 0.5f, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));	
+						}
 						bezerkHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
 					}
 					if (!bezerkList.Contains(bezerkHit)){
@@ -119,22 +129,31 @@ public class BezerkControl : MonoBehaviour {
         for (int i = 0; i < bezerkList.Count; i++){
 			if (bezerkList[i] != null){
 				bezerkList[i].gameObject.transform.GetChild(0).gameObject.SetActive(false);
-				StartCoroutine(materialFader(bezerkList[i].GetComponent<Renderer>().material.color, Color.white, 0.5f, GameObject.Find(bezerkList[i].name)));
+				//TODO: if object has renderer do this otherwise get renderer in parent 
+			if(bezerkList[i].GetComponent<Renderer>() != null){				
+				//TODO: if object has renderer do this otherwise get renderer in parent 
+				StartCoroutine(materialFader(bezerkList[i].GetComponent<Renderer>().material.color, Color.white, 0.5f, bezerkList[i]));
+			}
+			else {
+					StartCoroutine(materialFader(bezerkList[i].GetComponentInParent<Renderer>().material.color, Color.white, 0.5f, bezerkList[i]));	
+				}
 			}
 		}
 		StartCoroutine(Fader(0.0f,0.5f));
 		StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
 		bezerkList.Clear();
 		hitCount = 0;
+		hitRemaining = 0;
     }
 	IEnumerator bezerkAdder(float time, int i){
 		yield return new WaitForSeconds(time); //wait for counter value increment
 		float step = speed * Time.deltaTime;
-		if(bezerkActive == true && bezerkArray[i] != null){
+		if(bezerkActive == true && bezerkArray[i] != bezerkHit && bezerkArray[i] != null){
 			missileTarget = GameObject.Find(bezerkArray[i].transform.name);
 			audioSource.PlayOneShot(clipList[7]); //play target sfx
 			fireBezerk(missileTarget);
 			hitCount ++;
+			hitRemaining ++;
 		}
 		
 	}
@@ -153,27 +172,32 @@ public class BezerkControl : MonoBehaviour {
 
 	public IEnumerator materialFader(Color startColor, Color targetColor, float duration, GameObject currentObject){
 		float time = 0;	
-		Material objectMat = currentObject.GetComponent<Renderer>().material;
-		if (currentObject.GetComponent<Renderer>().material == null){
-			Renderer[] subObjects = currentObject.GetComponentsInChildren<Renderer>();
+		if (currentObject.GetComponent<Renderer>() == null){
+			Renderer[] subObjects = currentObject.GetComponentsInParent<Renderer>();
 			foreach (Renderer SORenderer in subObjects){
 				if (SORenderer.material.color != targetColor){
-					while (time < duration){
-							SORenderer.material.color = Color.Lerp(startColor, targetColor, time / duration);
-							time += Time.deltaTime;
-						yield return null;
+					if (SORenderer != null){
+						while (time < duration){
+								SORenderer.material.color = Color.Lerp(startColor, targetColor, time / duration);
+								time += Time.deltaTime;
+								yield return null;
+							}
 					}
 				}
-			SORenderer.material.color = targetColor;
+			//SORenderer.material.color = targetColor;
 			}
 		}
-		else if (objectMat.color != targetColor){
-			while (time < duration){
-					objectMat.color = Color.Lerp(startColor, targetColor, time / duration);
-					time += Time.deltaTime;
-				yield return null;
+
+		else if (currentObject.GetComponent<Renderer>() != null){
+			Material objectMat = currentObject.GetComponent<Renderer>().material;
+			if (objectMat.color != targetColor){
+				while (time < duration){
+						objectMat.color = Color.Lerp(startColor, targetColor, time / duration);
+						time += Time.deltaTime;
+					yield return null;
+				}
 			}
+			//objectMat.color = targetColor;
 		}
-		objectMat.color = targetColor;
 	}
 }
