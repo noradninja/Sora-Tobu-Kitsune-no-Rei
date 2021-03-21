@@ -73,7 +73,7 @@ public class BezerkControl : MonoBehaviour {
 		
 	//reinitialize bezerk if there are still objects in the array, cycle selection icon on each loop through the array
 
-            if (counter < bezerkArray.Length && bezerkActive == true && bezerkList.Count == bezerkArray.Length && hitCount >= bezerkArray.Length && hitRemaining == 0)
+            if (counter < bezerkArray.Length && bezerkActive == true && bezerkList.Count == bezerkArray.Length && hitCount >= bezerkList.Count && hitRemaining == 0)
             {
                 bezerkMode();
             }
@@ -172,32 +172,25 @@ public class BezerkControl : MonoBehaviour {
 
 	public IEnumerator materialFader(Color startColor, Color targetColor, float duration, GameObject currentObject){
 		float time = 0;	
-		if (currentObject.GetComponent<Renderer>() == null){
-			Renderer[] subObjects = currentObject.GetComponentsInParent<Renderer>();
-			foreach (Renderer SORenderer in subObjects){
-				if (SORenderer.material.color != targetColor){
-					if (SORenderer != null){
-						while (time < duration){
-								SORenderer.material.color = Color.Lerp(startColor, targetColor, time / duration);
-								time += Time.deltaTime;
-								yield return null;
-							}
+		if (currentObject.GetComponent<Renderer>() != null){
+				Material objectMat = currentObject.GetComponent<Renderer>().material;
+				if (objectMat.color != targetColor){
+					while (time < duration){
+							objectMat.color = Color.Lerp(startColor, targetColor, time / duration);
+							time += Time.deltaTime;
+							yield return null;
 					}
 				}
-			//SORenderer.material.color = targetColor;
 			}
-		}
-
-		else if (currentObject.GetComponent<Renderer>() != null){
-			Material objectMat = currentObject.GetComponent<Renderer>().material;
+		else {
+			Material objectMat = currentObject.GetComponentInParent<Renderer>().material;
 			if (objectMat.color != targetColor){
 				while (time < duration){
 						objectMat.color = Color.Lerp(startColor, targetColor, time / duration);
 						time += Time.deltaTime;
-					yield return null;
+						yield return null;
 				}
 			}
-			//objectMat.color = targetColor;
 		}
 	}
 }
