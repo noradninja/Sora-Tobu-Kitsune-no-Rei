@@ -54,7 +54,7 @@ public class BezerkControl : MonoBehaviour {
         {
             bezerkHit = null;
         }
-        if (bezerkArray.Length == 0 && bezerkMeter.fillAmount > 0 && bezerkActive == true)
+        if (bezerkArray.Length == 0 && bezerkMeter.fillAmount >= 0 && bezerkActive == true)
         {
 			bezerkHit = null;
 		    BroadcastMessage("resetBar");
@@ -65,7 +65,7 @@ public class BezerkControl : MonoBehaviour {
             BroadcastMessage("resetBar");
            	bezerkOff();
         }
-		if (bezerkHit == null && bezerkMeter.fillAmount > 0 && bezerkActive == true && bezerkList.Count <= bezerkArray.Length)
+		if (bezerkHit == null && bezerkMeter.fillAmount >= 0 && bezerkActive == true && bezerkList.Count <= bezerkArray.Length)
         {
             BroadcastMessage("resetBar");
            	bezerkOff();
@@ -83,6 +83,10 @@ public class BezerkControl : MonoBehaviour {
 	
 		if (bezerkMeter.fillAmount > 0){
 			bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
+			if (bezerkArray.Length <=0){
+				StartCoroutine(Fader(0.0f,0.5f));
+				bezerkOff();
+			}
 			if (bezerkArray.Length > 0){
 				bezerkActive = true;
 				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f));
@@ -124,21 +128,23 @@ public class BezerkControl : MonoBehaviour {
 					firedBezerk.SetActive(true);
 	}
 	//cleanup tasks
-	 void bezerkOff(){
+	public void bezerkOff(){
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
         bezerkActive = false;
-        for (int i = 0; i < bezerkList.Count; i++){
-			if (bezerkList[i] != null){
-				bezerkList[i].gameObject.transform.GetChild(0).gameObject.SetActive(false);
+	
+        for (int i = 0; i < bezerkArray.Length; i++){
+			if (bezerkArray[i] != null){
+				
+				GameObject.Find(bezerkArray[i].GetComponent<Collider>().name).GetComponent<Transform>().GetChild(0).gameObject.SetActive(false);
 				//TODO: if object has renderer do this otherwise get renderer in parent 
-			if(bezerkList[i].GetComponent<Renderer>() != null){				
-				//TODO: if object has renderer do this otherwise get renderer in parent 
-				StartCoroutine(materialFader(bezerkList[i].GetComponent<Renderer>().material.color, Color.white, 0.5f, bezerkList[i]));
-			}
-			else {
-					StartCoroutine(materialFader(bezerkList[i].GetComponentInParent<Renderer>().material.color, Color.white, 0.5f, bezerkList[i]));	
-				}
+				if(bezerkArray[i].GetComponent<Renderer>() != null){				
+					//TODO: if object has renderer do this otherwise get renderer in parent 
+					StartCoroutine(materialFader(GameObject.Find(bezerkArray[i].GetComponent<Collider>().name).GetComponent<Renderer>().material.color, Color.white, 0.5f, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));
+					}
+				else {
+					StartCoroutine(materialFader(GameObject.Find(bezerkArray[i].GetComponent<Collider>().name).GetComponentInParent<Renderer>().material.color, Color.white, 0.5f, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));	
+				}	
 			}
 		}
 		StartCoroutine(Fader(0.0f,0.5f));
@@ -167,9 +173,9 @@ public class BezerkControl : MonoBehaviour {
         while (time < duration){
             bezerkCanvas.alpha = Mathf.Lerp(startValue, targetValue, time / duration);
             time += Time.deltaTime;
-            yield return null;
+            yield return bezerkCanvas.alpha;
         }
-		bezerkCanvas.alpha = targetValue;
+		//bezerkCanvas.alpha = targetValue;
 	}
 
 	public IEnumerator materialFader(Color startColor, Color targetColor, float duration, GameObject currentObject){
@@ -180,7 +186,7 @@ public class BezerkControl : MonoBehaviour {
 					while (time < duration){
 							objectMat.color = Color.Lerp(startColor, targetColor, time / duration);
 							time += Time.deltaTime;
-							yield return null;
+							yield return objectMat.color;
 					}
 				}
 			}
@@ -190,7 +196,7 @@ public class BezerkControl : MonoBehaviour {
 				while (time < duration){
 						objectMat.color = Color.Lerp(startColor, targetColor, time / duration);
 						time += Time.deltaTime;
-						yield return null;
+						yield return objectMat.color;
 				}
 			}
 		}

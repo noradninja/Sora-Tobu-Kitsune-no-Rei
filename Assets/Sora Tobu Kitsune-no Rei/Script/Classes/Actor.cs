@@ -94,6 +94,7 @@ public class Actor : MonoBehaviour {
 					if (eventManager.GetComponent<BezerkControl>().bezerkActive == true){
 						eventManager.GetComponent<BezerkControl>().bezerkActive = false;
 						eventManager.BroadcastMessage("bezerkOff");
+						eventManager.BroadcastMessage("resetBar");
 					}
 				}	
 			}

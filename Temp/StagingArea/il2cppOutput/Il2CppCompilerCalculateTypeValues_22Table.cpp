@@ -6739,10 +6739,9 @@ extern const int32_t g_FieldOffsetTable2220[48] =
 	Buttons_t3044739808::get_offset_of_depthOff_49(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2221 = { sizeof (SelectedEnemy_t916768779)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2221[4] = 
+extern const int32_t g_FieldOffsetTable2221[3] = 
 {
 	SelectedEnemy_t916768779::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
-	0,
 	0,
 	0,
 };
