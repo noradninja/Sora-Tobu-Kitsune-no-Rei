@@ -4038,6 +4038,7 @@ const RuntimeMethod* GameObject_GetComponentInParent_TisRenderer_t2627027031_m29
 const RuntimeMethod* List_1_Contains_m4222374550_RuntimeMethod_var;
 const RuntimeMethod* GameObject_GetComponent_TisBezerkMissile_t794639485_m908106503_RuntimeMethod_var;
 const RuntimeMethod* Component_GetComponent_TisAnimation_t3648466861_m4214971628_RuntimeMethod_var;
+const RuntimeMethod* GameObject_GetComponent_TisTransform_t3600365921_m3348034436_RuntimeMethod_var;
 const RuntimeMethod* U3CbezerkAdderU3Ec__Iterator0_Reset_m3402219523_RuntimeMethod_var;
 const RuntimeMethod* U3CFaderU3Ec__Iterator1_Reset_m1153759456_RuntimeMethod_var;
 const RuntimeMethod* U3CmaterialFaderU3Ec__Iterator2_Reset_m3540227183_RuntimeMethod_var;
@@ -8966,6 +8967,7 @@ String_t* _stringLiteral3950753077;
 String_t* _stringLiteral760905195;
 String_t* _stringLiteral3463737949;
 String_t* _stringLiteral3223548892;
+String_t* _stringLiteral2188249622;
 String_t* _stringLiteral2261822918;
 String_t* _stringLiteral3437929566;
 String_t* _stringLiteral789990092;
@@ -8973,7 +8975,6 @@ String_t* _stringLiteral2123747327;
 String_t* _stringLiteral2362139805;
 String_t* _stringLiteral2916407943;
 String_t* _stringLiteral1105672276;
-String_t* _stringLiteral2188249622;
 String_t* _stringLiteral2747580721;
 String_t* _stringLiteral2234125573;
 String_t* _stringLiteral3534642813;
@@ -9232,7 +9233,7 @@ String_t* _stringLiteral46997234;
 String_t* _stringLiteral1132744560;
 String_t* _stringLiteral1864861238;
 String_t* _stringLiteral3926843441;
-extern void** const g_MetadataUsages[9214] = 
+extern void** const g_MetadataUsages[9215] = 
 {
 	(void**)(&Contraction_t1589275354_0_0_0_var),
 	(void**)(&Level2Map_t3640798870_0_0_0_var),
@@ -13254,6 +13255,7 @@ extern void** const g_MetadataUsages[9214] =
 	(void**)(&List_1_Contains_m4222374550_RuntimeMethod_var),
 	(void**)(&GameObject_GetComponent_TisBezerkMissile_t794639485_m908106503_RuntimeMethod_var),
 	(void**)(&Component_GetComponent_TisAnimation_t3648466861_m4214971628_RuntimeMethod_var),
+	(void**)(&GameObject_GetComponent_TisTransform_t3600365921_m3348034436_RuntimeMethod_var),
 	(void**)(&U3CbezerkAdderU3Ec__Iterator0_Reset_m3402219523_RuntimeMethod_var),
 	(void**)(&U3CFaderU3Ec__Iterator1_Reset_m1153759456_RuntimeMethod_var),
 	(void**)(&U3CmaterialFaderU3Ec__Iterator2_Reset_m3540227183_RuntimeMethod_var),
@@ -18182,6 +18184,7 @@ extern void** const g_MetadataUsages[9214] =
 	(void**)(&_stringLiteral760905195),
 	(void**)(&_stringLiteral3463737949),
 	(void**)(&_stringLiteral3223548892),
+	(void**)(&_stringLiteral2188249622),
 	(void**)(&_stringLiteral2261822918),
 	(void**)(&_stringLiteral3437929566),
 	(void**)(&_stringLiteral789990092),
@@ -18189,7 +18192,6 @@ extern void** const g_MetadataUsages[9214] =
 	(void**)(&_stringLiteral2362139805),
 	(void**)(&_stringLiteral2916407943),
 	(void**)(&_stringLiteral1105672276),
-	(void**)(&_stringLiteral2188249622),
 	(void**)(&_stringLiteral2747580721),
 	(void**)(&_stringLiteral2234125573),
 	(void**)(&_stringLiteral3534642813),

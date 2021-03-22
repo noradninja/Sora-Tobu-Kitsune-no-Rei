@@ -92,7 +92,6 @@ public class Actor : MonoBehaviour {
 					}
 					Destroy(gameObject);
 					if (eventManager.GetComponent<BezerkControl>().bezerkActive == true){
-						eventManager.GetComponent<BezerkControl>().bezerkActive = false;
 						eventManager.BroadcastMessage("bezerkOff");
 						eventManager.BroadcastMessage("resetBar");
 					}
