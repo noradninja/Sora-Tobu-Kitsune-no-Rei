@@ -51,12 +51,13 @@ public class BezerkMissile : MonoBehaviour {
 	public void OnTriggerEnter(Collider other)
 	{
 		//if you collide with an enemy, remove it from the list
-	
+
 			other.gameObject.BroadcastMessage ("BezerkMissile");
 			//Destroy the missile, and apply its damage to the target
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage);
 			missileTarget.gameObject.transform.GetChild (0).gameObject.SetActive(false);
-			//eventManager.GetComponent<BezerkControl>().hitRemaining --;
+			eventManager.GetComponent<BezerkControl>().bezerkList.Remove(missileTarget);
+			eventManager.GetComponent<BezerkControl>().hitCount++;
 			Destroy (gameObject);
 	
 		//if missile somehow collides with the player, destroy missile

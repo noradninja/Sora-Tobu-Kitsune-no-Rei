@@ -55,7 +55,7 @@ public class FireControl : MonoBehaviour {
 		clipList = audioManager.GetComponent<AudioManager>().SFXList;
 		resetVector = GameObject.Find ("Main Camera");
 		missileTarget = resetVector;
-
+		//filter = GameObject.Find("BGMManager_Prefab").GetComponent<AudioLowPassFilter>();		
 	}
 
 	// Update is called once per frame
@@ -91,7 +91,7 @@ public class FireControl : MonoBehaviour {
                 // make the enemy a target for a missile
                 missileTarget = checkHit;
         }
-		else missileTarget = resetVector; //reset the missileTarget so we don't automatically select the last hit enemy when we re-engage lock 
+		else missileTarget = resetVector;
         //reenable missile firing when all missiles have been fired
         if (targetList.Count == missileCount)
         {
@@ -125,12 +125,13 @@ public class FireControl : MonoBehaviour {
 				}
 				//add the target to the list and keep track of how long the list is
 				targetList.Add (targetVector);
-				objCount = objCount + 1;	
-				obj = targetVector;
-				//turn on the lock cursor on the target so we have visual feedback, and play back an animation and sound effect
-				obj.gameObject.transform.GetChild (0).gameObject.SetActive(true);
-				obj.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce");
-				audioSource.PlayOneShot(clipList[7]);
+				objCount = objCount + 1;
+				
+					obj = targetVector;
+					//turn on the lock cursor on the target so we have visual feedback, and play back an animation and sound effect
+					obj.gameObject.transform.GetChild (0).gameObject.SetActive(true);
+					obj.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce");
+					audioSource.PlayOneShot(clipList[7]);
 			}
 		}
 	}

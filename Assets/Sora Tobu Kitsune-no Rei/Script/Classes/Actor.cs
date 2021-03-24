@@ -84,17 +84,11 @@ public class Actor : MonoBehaviour {
 			if (gameObject.tag == "Boss" && bossHealth <=0 && gameObject != null){
 				//print(gameObject.name + " Has Died!");
 				for (int i = 0; i<subObjectsGO.Count; i++){
-					if (subObjectsGO[i].GetComponent<Actor>().isActive == false){
-						eventManager.GetComponent<BezerkControl>().bezerkList.Remove(subObjectsGO[i]);
-						GameObject boom = Instantiate (explosion, subObjectsGO[i].transform.position, Quaternion.identity);
-						boom.SetActive(true);
-						audioSource.PlayOneShot(clipList[14]);
-					}
+					eventManager.GetComponent<BezerkControl>().bezerkList.Remove(subObjectsGO[i]);
+					GameObject boom = Instantiate (explosion, subObjectsGO[i].transform.position, Quaternion.identity);
+					boom.SetActive(true);
+					audioSource.PlayOneShot(clipList[14]);
 					Destroy(gameObject);
-					if (eventManager.GetComponent<BezerkControl>().bezerkActive == true){
-						eventManager.GetComponent<BezerkControl>().bezerkActive = false;
-						eventManager.BroadcastMessage("bezerkOff");
-					}
 				}	
 			}
 			if (gameObject.tag == "Player" && health <=0){
@@ -122,7 +116,7 @@ public class Actor : MonoBehaviour {
 	}
 
 	public void BezerkMissile(){
-		Debug.Log(gameObject.transform.name + " hit by bezerker");
+		//Debug.Log(gameObject.transform.name + " hit by bezerker");
 		bezerkHit = true;
 		
 	}
