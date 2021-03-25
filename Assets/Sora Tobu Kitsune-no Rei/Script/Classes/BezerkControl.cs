@@ -20,7 +20,8 @@ public class BezerkControl : MonoBehaviour {
 	public float bezerkRadius;
 	public Image bezerkMeter;
 	public Image bezerkMeterBG;
-	public CanvasGroup bezerkCanvas;
+	public RawImage bezerkBGImage;
+	public Color bezerkFadeColor;
 	public GameObject SFXManager;
 	public GameObject BGMManager;
 	public List<AudioClip> clipList;
@@ -53,18 +54,24 @@ public class BezerkControl : MonoBehaviour {
         if (bezerkMeter.fillAmount <= 0 && bezerkActive == true)
         {
             BroadcastMessage("resetBar");
+			StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
+			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
            	bezerkOff();
 			print ("Exit A");
         }
 		if (bezerkHit == null && bezerkMeter.fillAmount > 0 && bezerkActive == true && BezerkListCount == 0)
         {
             BroadcastMessage("resetBar");
+			StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
+			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
 			bezerkOff();
 			print ("Exit B");
         }
 		if (bezerkActive == false && bezerkArray.Length > 1 && currentHitCount > 0){
+			StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
+			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
 		 	bezerkOff();
-			 print("Exit C");
+			print("Exit C");
 		}
 		if (bezerkList.Count == 0 && bezerkActive == true && bezerkArray.Length > 1 && currentHitCount > 0 && hitCount >= currentHitCount){
 		 	print("Bezerk again");
@@ -75,38 +82,35 @@ public class BezerkControl : MonoBehaviour {
 	void bezerkMode(){
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		hitCount = 0;
-			bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
-			if (bezerkArray.Length >= 1){
-				if (bezerkMeter.fillAmount <=0){
-					print ("Bezerk Exit");
-					bezerkOff();
+		bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
+		if (bezerkArray.Length > 0 && bezerkArray[0] != null){
+			bezerkActive = true;
+			for (int i = 0; i < bezerkArray.Length; i++){
+				counter = i;
+				bezerkHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
+				if(bezerkArray[i].GetComponent<Renderer>() != null){	
+					Color hitColor = bezerkHit.GetComponent<Renderer>().material.color;			
+					//TODO: if object has renderer do this otherwise get renderer in parent 
+				//	StartCoroutine(materialFader(0.5f, hitColor, Color.black, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));
 				}
-				bezerkActive = true;
-				StartCoroutine(Fader(1.0f,0.5f));
-				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f));
-				for (int i = 0; i < bezerkArray.Length; i++){
-					counter = i;
-					if(bezerkArray[i].GetComponent<Renderer>() != null){				
-						//TODO: if object has renderer do this otherwise get renderer in parent 
-						StartCoroutine(materialFader(1.0f, 0.5f, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name).GetComponent<Renderer>().material.color, Color.black, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));
-					}
-					else {
-						StartCoroutine(materialFader(1.0f, 0.5f, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name).GetComponentInParent<Renderer>().material.color, Color.black, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));	
-					}	
-					bezerkHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
-					if (!bezerkList.Contains(bezerkHit)){
-						bezerkList.Add(bezerkHit);
-						currentHitCount ++;
-					}
-					if (counter == 0){
-						StartCoroutine(bezerkAdder(0.0f, bezerkHit)); //get current counter value and pass it to adder CR, this is to ensure NaN doesn't get passed to bezerkAdder()
-					}
-					else { 
-						StartCoroutine(bezerkAdder(counter*0.15f, bezerkHit)); //get current counter value and pass it to adder CR, with a delay that has a shrinking delta for each shot
-					}
+				else {
+					Color parentColor = bezerkHit.GetComponentInParent<Renderer>().material.color;
+					StartCoroutine(materialFader(0.5f, parentColor, Color.black, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));	
+				}	
+				
+				if (!bezerkList.Contains(bezerkHit)){
+					bezerkList.Add(bezerkHit);
+					currentHitCount ++;
+				}
+				if (counter == 0){
+					StartCoroutine(bezerkAdder(0.0f, bezerkHit)); //get current counter value and pass it to adder CR, this is to ensure NaN doesn't get passed to bezerkAdder()
+				}
+				else { 
+					StartCoroutine(bezerkAdder(counter*0.15f, bezerkHit)); //get current counter value and pass it to adder CR, with a delay that has a shrinking delta for each shot
 				}
 			}
-			else print ("No targets for Bezerk!");
+		}
+		else print ("No targets for Bezerk!");
 	}
 	//shoot the bezerk missile
 	void fireBezerk(GameObject target){
@@ -122,25 +126,27 @@ public class BezerkControl : MonoBehaviour {
 	//cleanup tasks
 	 void bezerkOff(){
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
-        bezerkActive = false;
-		bezerkList.Clear();
-		hitCount = 0;
-		currentHitCount = 0;
+     
 		bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
         for (int i = 0; i < bezerkArray.Length; i++){
-			if (GameObject.Find(bezerkArray[i].GetComponent<Collider>().name) != null){
+			GameObject deactivateHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
+			if (deactivateHit != null){
 				bezerkArray[i].gameObject.transform.GetChild(0).gameObject.SetActive(false);
-					if(bezerkArray[i].GetComponent<Renderer>() != null){				
+					if(bezerkArray[i].GetComponent<Renderer>() != null){
+					Color hitColor = deactivateHit.GetComponent<Renderer>().material.color;					
 					//TODO: if object has renderer do this otherwise get renderer in parent 
-					StartCoroutine(materialFader(0.0f, 0.5f, Color.black, Color.white, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));
+					StartCoroutine(materialFader(0.5f, hitColor, Color.white, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));
 					}
 				else {
-					StartCoroutine(materialFader(0.0f, 0.5f, Color.black, Color.white, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));	
+					Color parentColor = deactivateHit.GetComponentInParent<Renderer>().material.color;
+					StartCoroutine(materialFader(0.5f, parentColor, Color.white, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));	
 				}
 			}
 		}
-		StartCoroutine(Fader(0.0f,0.5f));
-		StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+		bezerkActive = false;
+		bezerkList.Clear();
+		hitCount = 0;
+		currentHitCount = 0;
     }
 	IEnumerator bezerkAdder(float time, GameObject currentHit){
 		if (currentHit != null){
@@ -154,27 +160,21 @@ public class BezerkControl : MonoBehaviour {
 		}
 		
 	}
-	public IEnumerator Fader(float targetValue, float duration){
-        float startValue = bezerkCanvas.alpha;
+	public IEnumerator backgroundFader(Color bgStart, Color bgTarget, float duration){
         float time = 0;
-
-		//fade out the menu canvas group
         while (time < duration)
         {
-            bezerkCanvas.alpha = Mathf.Lerp(startValue, targetValue, time / duration);
+          	bezerkBGImage.color = Color.Lerp(bgStart, bgTarget, time / duration);
             time += Time.deltaTime;
             yield return null;
         }
-	//	bezerkCanvas.alpha = targetValue;
 	}
-		public IEnumerator materialFader(float targetValue, float duration, Color startColor, Color targetColor, GameObject currentObject){
+	public IEnumerator materialFader(float duration, Color startColor, Color targetColor, GameObject currentObject){
         float time = 0;
 		if (currentObject.GetComponent<Renderer>() != null){
 				Material objectMat = currentObject.GetComponent<Renderer>().material;
-				if (objectMat.color != targetColor){
-			//fade out the menu canvas group
+			if (objectMat.color != targetColor){
 				while (time < duration){
-				//	bezerkCanvas.alpha = Mathf.Lerp(bezerkCanvas.alpha, targetValue, time / duration);
 					objectMat.color = Color.Lerp(startColor, targetColor, time / duration);
 					time += Time.deltaTime;
 					yield return null;
@@ -185,7 +185,6 @@ public class BezerkControl : MonoBehaviour {
 			Material objectMat = currentObject.GetComponentInParent<Renderer>().material;
 			if (objectMat.color != targetColor){
 				while (time < duration){
-				//	bezerkCanvas.alpha = Mathf.Lerp(bezerkCanvas.alpha, targetValue, time / duration);
 					objectMat.color = Color.Lerp(startColor, targetColor, time / duration);
 					time += Time.deltaTime;
 					yield return null;

@@ -199,9 +199,7 @@ public class Buttons : MonoBehaviour {
 					audioSource.PlayOneShot(clipList[8]); //play doublejump SFX3
 					
 				}
-		}
-
-		
+		}	
 		else if (Input.GetKey (joystick1 + SQUARE)) {
 			//initiate lock on when button is held
 			FireControl.gameObject.BroadcastMessage ("fireControl");
@@ -219,10 +217,20 @@ public class Buttons : MonoBehaviour {
 		else if (Input.GetKeyDown (joystick1 + TRIANGLE) && playerTemp.GetComponent<Actor>().health != 0.0001f && GameObject.Find("Bezerk_Bar").GetComponent<Image>().fillAmount > 0.01f){
 			myguiText.text = "Triangle";
 			FireControl.gameObject.BroadcastMessage ("bezerkMode");
+			StartCoroutine(eventManager.GetComponent<BezerkControl>().backgroundFader(eventManager.GetComponent<BezerkControl>().bezerkBGImage.color, Color.white, 0.5f));
+			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f));
+			for (int i = 0; i < eventManager.GetComponent<BezerkControl>().bezerkArray.Length; i++){
+				if(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Renderer>() != null){	
+					Color hitColor =eventManager.GetComponent<BezerkControl>().bezerkHit.GetComponent<Renderer>().material.color;			
+					StartCoroutine(eventManager.GetComponent<BezerkControl>().materialFader(0.5f, hitColor, Color.black, GameObject.Find(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Collider>().name)));
+				}
+				else {
+					Color parentColor = eventManager.GetComponent<BezerkControl>().bezerkHit.GetComponentInParent<Renderer>().material.color;
+					StartCoroutine(eventManager.GetComponent<BezerkControl>().materialFader(0.5f, parentColor, Color.black, GameObject.Find(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Collider>().name)));	
+				}	
+			}
 		}
 		else if (Input.GetKeyDown (joystick1 + SELECT)){
-			//SetScenes.sceneToLoad = SetScenes.currentScene;
-			//SceneManager.LoadScene("LoadScreen");
 			playerTemp.GetComponent<Actor>().health -= 15f;
 		}	
 		else {
