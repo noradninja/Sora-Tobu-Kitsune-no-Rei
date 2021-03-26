@@ -88,16 +88,6 @@ public class BezerkControl : MonoBehaviour {
 			for (int i = 0; i < bezerkArray.Length; i++){
 				counter = i;
 				bezerkHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
-				if(bezerkArray[i].GetComponent<Renderer>() != null){	
-					Color hitColor = bezerkHit.GetComponent<Renderer>().material.color;			
-					//TODO: if object has renderer do this otherwise get renderer in parent 
-				//	StartCoroutine(materialFader(0.5f, hitColor, Color.black, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));
-				}
-				else {
-					Color parentColor = bezerkHit.GetComponentInParent<Renderer>().material.color;
-					StartCoroutine(materialFader(0.5f, parentColor, Color.black, GameObject.Find(bezerkArray[i].GetComponent<Collider>().name)));	
-				}	
-				
 				if (!bezerkList.Contains(bezerkHit)){
 					bezerkList.Add(bezerkHit);
 					currentHitCount ++;
@@ -112,7 +102,7 @@ public class BezerkControl : MonoBehaviour {
 		}
 		else print ("No targets for Bezerk!");
 	}
-	//shoot the bezerk missile
+
 	void fireBezerk(GameObject target){
 		GameObject firedBezerk = Instantiate (bezerkMissile, originVec.transform.position, Quaternion.identity);
 		audioSource.PlayOneShot(clipList[6]);

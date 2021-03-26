@@ -39,9 +39,9 @@ Shader "NPR Contour Drawing/Contour Drawing Stencil" {
             uniform fixed4 main_color;
             uniform sampler2D _MainTexture; uniform fixed4 _MainTexture_ST;
             struct v2f {
-				float4 position : SV_POSITION;
-				float2 uv : TEXCOORD0;
-				float depth : TEXCOORD2; // Define depth float to pass to `frag`
+				fixed4 position : SV_POSITION;
+				fixed2 uv : TEXCOORD0;
+				fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
 				UNITY_FOG_COORDS(8)
      		 };
             v2f vert(appdata_base i) {
@@ -86,9 +86,9 @@ Shader "NPR Contour Drawing/Contour Drawing Stencil" {
         #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f2
 		{
-			float4 pos : SV_POSITION;
-			float4 scrpos : TEXCOORD0;
-			float depth : TEXCOORD2; // Define depth float to pass to `frag`
+			fixed4 pos : SV_POSITION;
+			fixed4 scrpos : TEXCOORD0;
+			fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
 			UNITY_FOG_COORDS(8)
 		};
 		fixed4 _ContourColor;
@@ -143,9 +143,9 @@ Stencil {
         #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f3
 		{
-			float4 pos : SV_POSITION;
-			float4 scrpos : TEXCOORD0;
-			float depth : TEXCOORD2; // Define depth float to pass to `frag`
+			fixed4 pos : SV_POSITION;
+			fixed4 scrpos : TEXCOORD0;
+			fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
 			UNITY_FOG_COORDS(8)
 		};
 		fixed4 _ContourColor;
@@ -200,9 +200,9 @@ Stencil {
         #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f4
 		{
-			float4 pos : SV_POSITION;
-			float4 scrpos : TEXCOORD0;
-			float depth : TEXCOORD2; // Define depth float to pass to `frag`
+			fixed4 pos : SV_POSITION;
+			fixed4 scrpos : TEXCOORD0;
+			fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
 			UNITY_FOG_COORDS(8)
 		};
 		fixed4 _ContourColor;

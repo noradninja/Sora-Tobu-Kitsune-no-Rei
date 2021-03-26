@@ -5,6 +5,7 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 		_Amplitude ("Amplitude", Float) = 0.01
 		_Speed ("Speed", Float) = 6.0
         _MainTexture ("Main Texture", 2D) = "white" {}
+		_NoiseTex ("Noise texture", 2D) = "grey" {}
 		_Color ("Color Tint", Color) = (1,1,1,1)
 	
 	}
@@ -29,12 +30,12 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 			#pragma only_renderers psp2 d3d11
            
             uniform fixed4 main_color; uniform fixed4 tint_color;
-            uniform sampler2D _MainTexture; uniform fixed4 _MainTexture_ST; half4 _Color;
+            uniform sampler2D _MainTexture; uniform fixed4 _MainTexture_ST; fixed4 _Color;
             struct v2f {
-				float4 position : SV_POSITION;
-				float2 uv : TEXCOORD0;
-				float depth : TEXCOORD2; // Define depth float to pass to `frag`
-				half4 color : COLOR;
+				fixed4 position : SV_POSITION;
+				fixed2 uv : TEXCOORD0;
+				fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
+				fixed4 color : COLOR;
 				UNITY_FOG_COORDS(8)
      		 };
             v2f vert(appdata_base i) {
@@ -72,18 +73,19 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 		#pragma vertex vert
 		#pragma fragment frag
 		#pragma multi_compile_fog 
-		#define SHADER_API_VITA
+	
 		#include "UnityCG.cginc"
 		#include "DepthCG.cginc"
 		#pragma only_renderers psp2 d3d11
         #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f2
 		{
-			float4 pos : SV_POSITION;
-			float4 scrpos : TEXCOORD0;
-			float depth : TEXCOORD2; // Define depth float to pass to `frag`
+			fixed4 pos : SV_POSITION;
+			fixed4 scrpos : TEXCOORD0;
+			fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
 			UNITY_FOG_COORDS(8)
 		};
+		sampler2D _NoiseTex;
 		fixed4 _ContourColor;
 		fixed _ContourWidth, _Speed, _Amplitude;
 		fixed4 frag (v2f2 IN) : COLOR {
@@ -95,7 +97,7 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 	   	UNITY_APPLY_FOG(IN.fogCoord,_ContourColor);
 			return _ContourColor;
 		}
-		float hash(float2 seed)
+		fixed hash(float2 seed)
 		{
 		// We need irrationals for pseudo randomness.
 		// Most (all?) known transcendental numbers will (generally) work.
@@ -126,16 +128,16 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 		#pragma vertex vert
 		#pragma fragment frag
 		#pragma multi_compile_fog 
-		#define SHADER_API_VITA
+	
 		#include "UnityCG.cginc"
 		#include "DepthCG.cginc"
 		#pragma only_renderers psp2 d3d11
         #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f3
 		{
-			float4 pos : SV_POSITION;
-			float4 scrpos : TEXCOORD0;
-			float depth : TEXCOORD2; // Define depth float to pass to `frag`
+			fixed4 pos : SV_POSITION;
+			fixed4 scrpos : TEXCOORD0;
+			fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
 			UNITY_FOG_COORDS(8)
 		};
 		fixed4 _ContourColor;
@@ -149,7 +151,7 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 	   	UNITY_APPLY_FOG(IN.fogCoord,_ContourColor);
 			return _ContourColor;
 		}
-		float hash(float2 seed)
+		fixed hash(float2 seed)
 		{
 		// We need irrationals for pseudo randomness.
 		// Most (all?) known transcendental numbers will (generally) work.
@@ -180,16 +182,16 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 		#pragma vertex vert
 		#pragma fragment frag
 		#pragma multi_compile_fog 
-		#define SHADER_API_VITA
+	
 		#include "UnityCG.cginc"
 		#include "DepthCG.cginc"
 		#pragma only_renderers psp2 d3d11
         #pragma fragmentoption ARB_precision_hint_fastest
 			struct v2f4
 		{
-			float4 pos : SV_POSITION;
-			float4 scrpos : TEXCOORD0;
-			float depth : TEXCOORD2; // Define depth float to pass to `frag`
+			fixed4 pos : SV_POSITION;
+			fixed4 scrpos : TEXCOORD0;
+			fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
 			UNITY_FOG_COORDS(8)
 		};
 		fixed4 _ContourColor;
@@ -203,7 +205,7 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 	   	UNITY_APPLY_FOG(IN.fogCoord,_ContourColor);
 			return _ContourColor;
 		}
-		float hash(float2 seed)
+		fixed hash(float2 seed)
 		{
 		// We need irrationals for pseudo randomness.
 		// Most (all?) known transcendental numbers will (generally) work.
