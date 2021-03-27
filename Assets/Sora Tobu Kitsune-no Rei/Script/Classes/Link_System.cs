@@ -54,7 +54,7 @@ public List<GameObject> bezerkList;
 		StartCoroutine(IncrementCount());
 	}
 	public void LinkDecrementor (){
-		newValue = originalValue - 0.08f;	
+		newValue = originalValue - 0.22f;	
 	}
 	public void resetBar(){
 		newValue = 0.0f;

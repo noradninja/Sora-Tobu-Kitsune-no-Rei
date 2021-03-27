@@ -214,21 +214,21 @@ public class Buttons : MonoBehaviour {
 			FireControl.gameObject.BroadcastMessage ("reset");
 		} 
 		//disable triangle when player has died, to keep us from endlessley loading the load screen if you keep mashing the button
-		else if (Input.GetKeyDown (joystick1 + TRIANGLE) && playerTemp.GetComponent<Actor>().health != 0.0001f && GameObject.Find("Bezerk_Bar").GetComponent<Image>().fillAmount > 0.01f){
+		else if (Input.GetKeyDown (joystick1 + TRIANGLE) || Input.GetKeyDown(KeyCode.Space) && playerTemp.GetComponent<Actor>().health != 0.0001f && eventManager.GetComponent<Link_System>().newValue > 0.2f){
 			myguiText.text = "Triangle";
-			FireControl.gameObject.BroadcastMessage ("bezerkMode");
-			StartCoroutine(eventManager.GetComponent<BezerkControl>().backgroundFader(eventManager.GetComponent<BezerkControl>().bezerkBGImage.color, Color.white, 0.5f));
-			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f));
-			for (int i = 0; i < eventManager.GetComponent<BezerkControl>().bezerkArray.Length; i++){
-				if(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Renderer>() != null){	
-					Color hitColor =eventManager.GetComponent<BezerkControl>().bezerkHit.GetComponent<Renderer>().material.color;			
-					StartCoroutine(eventManager.GetComponent<BezerkControl>().materialFader(0.5f, hitColor, Color.black, GameObject.Find(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Collider>().name)));
+				FireControl.gameObject.BroadcastMessage ("bezerkMode");
+				StartCoroutine(eventManager.GetComponent<BezerkControl>().backgroundFader(eventManager.GetComponent<BezerkControl>().bezerkBGImage.color, Color.white, 0.6f));
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f));
+				for (int i = 0; i < eventManager.GetComponent<BezerkControl>().bezerkArray.Length; i++){
+					if(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Renderer>() != null){	
+						Color hitColor = eventManager.GetComponent<BezerkControl>().bezerkHit.GetComponent<Renderer>().material.color;			
+						StartCoroutine(eventManager.GetComponent<BezerkControl>().materialFader(0.5f, hitColor, Color.black, GameObject.Find(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Collider>().name)));
+					}
+					else{
+						Color parentColor = eventManager.GetComponent<BezerkControl>().bezerkHit.GetComponentInParent<Renderer>().material.color;
+						StartCoroutine(eventManager.GetComponent<BezerkControl>().materialFader(0.5f, parentColor, Color.black, GameObject.Find(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Collider>().name)));	
+					}	
 				}
-				else {
-					Color parentColor = eventManager.GetComponent<BezerkControl>().bezerkHit.GetComponentInParent<Renderer>().material.color;
-					StartCoroutine(eventManager.GetComponent<BezerkControl>().materialFader(0.5f, parentColor, Color.black, GameObject.Find(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Collider>().name)));	
-				}	
-			}
 		}
 		else if (Input.GetKeyDown (joystick1 + SELECT)){
 			playerTemp.GetComponent<Actor>().health -= 15f;
@@ -286,7 +286,7 @@ public class Buttons : MonoBehaviour {
 			}
 	}	
 
-	if (Input.GetKeyDown(joystick1 + START) || Input.GetKeyDown(KeyCode.Space)){
+	if (Input.GetKeyDown(joystick1 + START)){
 			//pause/unpause game
 			if (PauseManager.isPaused == false) { 
 				audioSource.PlayOneShot(clipList[0]);

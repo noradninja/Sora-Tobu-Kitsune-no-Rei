@@ -51,7 +51,7 @@ public class BezerkControl : MonoBehaviour {
 			hitCount = 0;
 			currentHitCount = 0;
         }
-        if (bezerkMeter.fillAmount <= 0 && bezerkActive == true)
+        if (bezerkHit == null && bezerkMeter.fillAmount <= 0 && bezerkActive == true)
         {
             BroadcastMessage("resetBar");
 			StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
@@ -83,24 +83,26 @@ public class BezerkControl : MonoBehaviour {
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		hitCount = 0;
 		bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
-		if (bezerkArray.Length > 0 && bezerkArray[0] != null){
-			bezerkActive = true;
-			for (int i = 0; i < bezerkArray.Length; i++){
-				counter = i;
-				bezerkHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
-				if (!bezerkList.Contains(bezerkHit)){
-					bezerkList.Add(bezerkHit);
-					currentHitCount ++;
-				}
-				if (counter == 0){
-					StartCoroutine(bezerkAdder(0.0f, bezerkHit)); //get current counter value and pass it to adder CR, this is to ensure NaN doesn't get passed to bezerkAdder()
-				}
-				else { 
-					StartCoroutine(bezerkAdder(counter*0.15f, bezerkHit)); //get current counter value and pass it to adder CR, with a delay that has a shrinking delta for each shot
+		if (GetComponent<Link_System>().newValue > 0.2f){
+			if (bezerkArray.Length > 0 && bezerkArray[0] != null){
+				bezerkActive = true;
+				for (int i = 0; i < bezerkArray.Length; i++){
+					counter = i;
+					bezerkHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
+					if (!bezerkList.Contains(bezerkHit)){
+						bezerkList.Add(bezerkHit);
+						currentHitCount ++;
+					}
+					if (counter == 0){
+						StartCoroutine(bezerkAdder(0.0f, bezerkHit)); //get current counter value and pass it to adder CR, this is to ensure NaN doesn't get passed to bezerkAdder()
+					}
+					else { 
+						StartCoroutine(bezerkAdder(counter*0.15f, bezerkHit)); //get current counter value and pass it to adder CR, with a delay that has a shrinking delta for each shot
+					}
 				}
 			}
+			else print ("No targets for Bezerk!");
 		}
-		else print ("No targets for Bezerk!");
 	}
 
 	void fireBezerk(GameObject target){
@@ -139,7 +141,7 @@ public class BezerkControl : MonoBehaviour {
 		currentHitCount = 0;
     }
 	IEnumerator bezerkAdder(float time, GameObject currentHit){
-		if (currentHit != null){
+		if (currentHit != null && GetComponent<Link_System>().newValue > 0){
 		yield return new WaitForSeconds(time); //wait for counter value increment
 		float step = speed * Time.deltaTime;
 			if(bezerkActive == true){
