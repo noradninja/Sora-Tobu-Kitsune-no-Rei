@@ -54,7 +54,7 @@ public List<GameObject> bezerkList;
 		StartCoroutine(IncrementCount());
 	}
 	public void LinkDecrementor (){
-		newValue = originalValue - 0.22f;	
+		newValue = originalValue - 0.125f;	
 	}
 	public void resetBar(){
 		newValue = 0.0f;
@@ -63,7 +63,7 @@ public List<GameObject> bezerkList;
 	public IEnumerator IncrementCount(){
 		//This is called when an enemy dies, and we increment linkCount as they are destroyed, and increment a time counter between each destruction.
 		linkCount += 1;
-		newValue = originalValue + (linkCount * 0.025f);
+		newValue = originalValue + (linkCount * 0.016f);
 		//Play back ever increasing SFX tones based on the number of successive links you earn
 		if (linkCount == 2){
 		audioSource.PlayOneShot(clipList[9]);

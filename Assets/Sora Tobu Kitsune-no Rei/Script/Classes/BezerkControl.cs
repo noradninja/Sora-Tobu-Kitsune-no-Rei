@@ -83,7 +83,7 @@ public class BezerkControl : MonoBehaviour {
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		hitCount = 0;
 		bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
-		if (GetComponent<Link_System>().newValue > 0.2f){
+		if (GetComponent<Link_System>().newValue > 0f){
 			if (bezerkArray.Length > 0 && bezerkArray[0] != null){
 				bezerkActive = true;
 				for (int i = 0; i < bezerkArray.Length; i++){
