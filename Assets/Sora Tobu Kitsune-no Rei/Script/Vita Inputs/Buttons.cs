@@ -88,18 +88,18 @@ public class Buttons : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	//Enable/disable ingame cameras when menus are on/offscreen	
-	if (PauseManager.isPaused == true){
-		mainCam.SetActive(false);
-		bgCam.SetActive(false);
-		overlayCam.SetActive(false);
-		miniMapCam.SetActive(false);
-	}	
-	if (PauseManager.isPaused == false){
-		mainCam.SetActive(true);
-		bgCam.SetActive(true);
-		overlayCam.SetActive(true);
-		miniMapCam.SetActive(true);
-	}
+	// if (PauseManager.isPaused == true){
+	// 	mainCam.SetActive(false);
+	// 	bgCam.SetActive(false);
+	// 	overlayCam.SetActive(false);
+	// 	miniMapCam.SetActive(false);
+	// }	
+	// if (PauseManager.isPaused == false){
+	// 	mainCam.SetActive(true);
+	// 	bgCam.SetActive(true);
+	// 	overlayCam.SetActive(true);
+	// 	miniMapCam.SetActive(true);
+	// }
 
 	if (PauseManager.isPaused == false) {	//ignore all inputs in game world if game is paused 
 	if (enablePaint == true && enableDoF == false){
@@ -214,7 +214,7 @@ public class Buttons : MonoBehaviour {
 			FireControl.gameObject.BroadcastMessage ("reset");
 		} 
 		//disable triangle when player has died, to keep us from endlessley loading the load screen if you keep mashing the button
-		else if (Input.GetKeyDown (joystick1 + TRIANGLE) || Input.GetKeyDown(KeyCode.Space) && playerTemp.GetComponent<Actor>().health != 0.0001f && eventManager.GetComponent<Link_System>().newValue > 0.2f){
+		else if ((Input.GetKeyDown (joystick1 + TRIANGLE) || Input.GetKeyDown(KeyCode.Space)) && playerTemp.GetComponent<Actor>().health != 0.0001f && eventManager.GetComponent<Link_System>().newValue > 0.2f){
 			myguiText.text = "Triangle";
 				FireControl.gameObject.BroadcastMessage ("bezerkMode");
 				StartCoroutine(eventManager.GetComponent<BezerkControl>().backgroundFader(eventManager.GetComponent<BezerkControl>().bezerkBGImage.color, Color.white, 0.6f));
@@ -263,7 +263,7 @@ public class Buttons : MonoBehaviour {
 				/*fire missiles, reset the frame counter and number of objects counted change to regular texture on release when unpaused
 				to avoid hard crash*/
 				FireControl.gameObject.BroadcastMessage ("reset");
-				FireControl.gameObject.BroadcastMessage ("fireMissiles");
+				//FireControl.gameObject.BroadcastMessage ("fireMissiles");
 				img.texture = (Texture)Unlocked;
 				img2.texture = (Texture)Blank;
 			}
@@ -301,11 +301,19 @@ public class Buttons : MonoBehaviour {
 				StartCoroutine(FadeLoadSaveScreen(0,0.5f));
 				saveManager.gameObject.BroadcastMessage("setColor");
 				PauseManager.isPaused = false;
-				
+				if ((GameObject.Find("Explode(Clone)") != null)||(GameObject.Find("Boss_Explode(Clone)")) != null){
+					GameObject[] bossExplosions = (GameObject.FindGameObjectsWithTag("Exploder"));
+					foreach (GameObject targetObject in bossExplosions){
+						targetObject.BroadcastMessage ("Resume");
+					}
+				}
 				/*fire missiles, reset the frame counter and number of objects counted change to regular texture on release when unpaused
 				to avoid hard crash*/
 				FireControl.gameObject.BroadcastMessage ("reset");
-				FireControl.gameObject.BroadcastMessage ("fireMissiles");
+				if (eventManager.GetComponent<BezerkControl>().bezerkActive == true){
+					eventManager.BroadcastMessage ("bezerkMode");
+				}
+				//FireControl.gameObject.BroadcastMessage ("fireMissiles", eventManager.GetComponent<FireControl>().missileTarget);
 				img.texture = (Texture)Unlocked;
 				img2.texture = (Texture)Blank;
 			}

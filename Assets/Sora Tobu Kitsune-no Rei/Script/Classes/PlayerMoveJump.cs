@@ -37,7 +37,7 @@ public class PlayerMoveJump : MonoBehaviour {
 	//make player jump
 	void Jump (){
 		//If the player is jumping, increase the jump count by one to enable a double jump	
-		if (jumpCount < 2){
+		if (jumpCount < 2 && PauseManager.isPaused == false){
 		myguiText.text = "Jump";
 		jumpCount = jumpCount + 1;
 		//we've jumped once, so reduce the height of the second jump by the divisor assuming < 1.0f, otherwise increase it if > 1.0f
@@ -56,6 +56,13 @@ public class PlayerMoveJump : MonoBehaviour {
 		}
 	}
 	void FixedUpdate(){
-		playerRB.velocity = new Vector3 (playerRB.velocity.x,playerRB.velocity.y,speed);
+		if (PauseManager.isPaused == false){
+			playerRB.useGravity = true;
+			playerRB.velocity = new Vector3 (playerRB.velocity.x,playerRB.velocity.y,speed);
+		}
+		else {
+			playerRB.useGravity = false;
+			playerRB.velocity = new Vector3 (0,0,0);
+		}
 	}
 }

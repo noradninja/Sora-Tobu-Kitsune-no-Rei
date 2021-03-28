@@ -36,7 +36,6 @@ public class Missile : MonoBehaviour {
 				}
 				else transform.position = Vector3.Slerp (transform.position, missileTarget.transform.position, step);
 			}
-		else Destroy (gameObject);
 	}
 
 	public void OnTriggerEnter(Collider other)

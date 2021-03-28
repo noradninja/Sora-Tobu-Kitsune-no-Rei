@@ -67,7 +67,7 @@ public class Actor : MonoBehaviour {
 				}
 			}
 			//check enemy for no health, kill if true
-			if (gameObject.tag == "Enemy" && health <=0 && gameObject != null){
+			if (gameObject.tag == "Enemy" && health <=0 && gameObject != null && PauseManager.isPaused == false){
 				//print(gameObject.name + " Has Died!");
 				if (bezerkHit == false){
 					eventManager.BroadcastMessage ("LinkIncrementer");
@@ -81,7 +81,7 @@ public class Actor : MonoBehaviour {
 				audioSource.PlayOneShot(clipList[13]);
 				Destroy(gameObject);	
 			}
-			if (gameObject.tag == "Boss" && bossHealth <=0 && gameObject != null){
+			if (gameObject.tag == "Boss" && bossHealth <=0 && gameObject != null && PauseManager.isPaused == false){
 				//print(gameObject.name + " Has Died!");
 				for (int i = 0; i<subObjectsGO.Count; i++){
 					eventManager.GetComponent<BezerkControl>().bezerkList.Remove(subObjectsGO[i]);

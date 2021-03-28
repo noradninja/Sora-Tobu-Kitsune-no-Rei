@@ -170,7 +170,7 @@ public class FireControl : MonoBehaviour {
 	//fires missiles
 	void missileMode(){
 		//print ("Fire Missiles");
-		if (targetList.Count > 0) {	
+		if (targetList.Count > 0 && PauseManager.isPaused == false) {	
 			firingMissiles = true;
 			for (int i = 0; i < (targetList.Count); i++){
 			StartCoroutine(shotIterator(i*0.2f, i));			
@@ -189,6 +189,9 @@ public class FireControl : MonoBehaviour {
 		objCount = 0;
 		targetVector = resetVector;
 		missileTarget = resetVector;
+		// foreach (GameObject targets in targetList){
+		// 	targets.gameObject.transform.GetChild (0).gameObject.SetActive(false);
+		// }
 	}
 	IEnumerator shotIterator(float time, int i){
 		yield return new WaitForSeconds(time);

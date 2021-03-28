@@ -148,6 +148,7 @@
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\ObjectFader.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\OnGameOver.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\OnNextLevel.cs" />
+     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Particle_Pauser.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\PlayerMoveJump.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Point.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Reloader.cs" />

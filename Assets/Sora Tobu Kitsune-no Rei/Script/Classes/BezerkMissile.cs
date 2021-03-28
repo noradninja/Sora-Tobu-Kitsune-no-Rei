@@ -35,7 +35,7 @@ public class BezerkMissile : MonoBehaviour {
 	float step = speed * Time.deltaTime;
 	
 	
-		if ((PauseManager.isPaused) == false){
+		if (PauseManager.isPaused == false){
 			if (missileTarget == null) {
 				Destroy (gameObject);
 			}
@@ -45,7 +45,7 @@ public class BezerkMissile : MonoBehaviour {
 			}
 		}	
 	
-	else Destroy (gameObject);
+	//else Destroy (gameObject);
 	}
 
 	public void OnTriggerEnter(Collider other)

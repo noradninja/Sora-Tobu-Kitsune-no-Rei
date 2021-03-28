@@ -41,50 +41,51 @@ public class BezerkControl : MonoBehaviour {
 		  //BezerkArrayLength = bezerkArray.Length;
 		  //BezerkListCount = bezerkList.Count;
 	}
-	 void bezerkManager(){
-	//update the player location so we are always generating shots from there
-		playerLocation = originVec.transform.position;
-    //various checks to ensure proper resetting of bezerk mode    
-	    if (bezerkMeter.fillAmount <= 0)
-        {
-            bezerkHit = null;
-			hitCount = 0;
-			currentHitCount = 0;
-        }
-        if (bezerkHit == null && bezerkMeter.fillAmount <= 0 && bezerkActive == true)
-        {
-            BroadcastMessage("resetBar");
-			StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
-			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
-           	bezerkOff();
-			print ("Exit A");
-        }
-		if (bezerkHit == null && bezerkMeter.fillAmount > 0 && bezerkActive == true && BezerkListCount == 0)
-        {
-            BroadcastMessage("resetBar");
-			StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
-			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
-			bezerkOff();
-			print ("Exit B");
-        }
-		if (bezerkActive == false && bezerkArray.Length > 1 && currentHitCount > 0){
-			StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
-			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
-		 	bezerkOff();
-			print("Exit C");
-		}
-		if (bezerkList.Count == 0 && bezerkActive == true && bezerkArray.Length > 1 && currentHitCount > 0 && hitCount >= currentHitCount){
-		 	print("Bezerk again");
-			currentHitCount = 0; 
-		 	bezerkMode();
-		}
+	void bezerkManager(){
+
+			//update the player location so we are always generating shots from there
+			playerLocation = originVec.transform.position;
+			//various checks to ensure proper resetting of bezerk mode    
+			if (bezerkMeter.fillAmount <= 0)
+			{
+				bezerkHit = null;
+				hitCount = 0;
+				currentHitCount = 0;
+			}
+			if (bezerkHit == null && bezerkMeter.fillAmount <= 0 && bezerkActive == true)
+			{
+				BroadcastMessage("resetBar");
+				StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+				bezerkOff();
+				print ("Exit A");
+			}
+			if (bezerkHit == null && bezerkMeter.fillAmount > 0 && bezerkActive == true && BezerkListCount == 0)
+			{
+				BroadcastMessage("resetBar");
+				StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+				bezerkOff();
+				print ("Exit B");
+			}
+			if (bezerkActive == false && bezerkArray.Length > 1 && currentHitCount > 0){
+				StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+				bezerkOff();
+				print("Exit C");
+			}
+			if (bezerkList.Count == 0 && bezerkActive == true && bezerkArray.Length > 1 && currentHitCount > 0 && hitCount >= currentHitCount){
+				print("Bezerk again");
+				currentHitCount = 0; 
+				bezerkMode();
+			}
     }
 	void bezerkMode(){
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		hitCount = 0;
 		bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
-		if (GetComponent<Link_System>().newValue > 0f){
-			if (bezerkArray.Length > 0 && bezerkArray[0] != null){
+	//	if (GetComponent<Link_System>().newValue > 0f){
+			if (bezerkArray.Length > 0){
 				bezerkActive = true;
 				for (int i = 0; i < bezerkArray.Length; i++){
 					counter = i;
@@ -102,17 +103,18 @@ public class BezerkControl : MonoBehaviour {
 				}
 			}
 			else print ("No targets for Bezerk!");
-		}
 	}
 
 	void fireBezerk(GameObject target){
-		GameObject firedBezerk = Instantiate (bezerkMissile, originVec.transform.position, Quaternion.identity);
-		audioSource.PlayOneShot(clipList[6]);
-		firedBezerk.GetComponent<BezerkMissile>().missileTarget = target;
-		if (target != null){
-			target.gameObject.transform.GetChild (0).gameObject.SetActive(true);
-			target.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce");
-			firedBezerk.SetActive(true);
+		if (PauseManager.isPaused == false){
+			GameObject firedBezerk = Instantiate (bezerkMissile, originVec.transform.position, Quaternion.identity);
+			audioSource.PlayOneShot(clipList[6]);
+			firedBezerk.GetComponent<BezerkMissile>().missileTarget = target;
+			if (target != null){
+				target.gameObject.transform.GetChild (0).gameObject.SetActive(true);
+				target.gameObject.transform.GetChild (0).gameObject.transform.GetChild (0).GetComponent<Animation>().Play("Target_Bounce");
+				firedBezerk.SetActive(true);
+			}
 		}
 	}
 	//cleanup tasks
