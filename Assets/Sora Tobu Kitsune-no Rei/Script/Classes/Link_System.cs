@@ -39,8 +39,8 @@ public List<GameObject> bezerkList;
 	void Update (){
 		originalBezerkValue = bezerkMeter.fillAmount;
 		bgOriginalvalue = bezerkMeterBG.fillAmount;
-		bezerkMeter.fillAmount = Mathf.Lerp(originalBezerkValue, newBezerkValue, 0.3f);
-		bezerkMeterBG.fillAmount = Mathf.Lerp(bgOriginalvalue, 1-newBezerkValue, 0.3f);
+		bezerkMeter.fillAmount = Mathf.Lerp(originalBezerkValue, newBezerkValue, 0.1f);
+		bezerkMeterBG.fillAmount = Mathf.Lerp(bgOriginalvalue, 1-newBezerkValue, 0.1f);
 		//Update link count text or blank it if link delay has expired
 		if (linkCount > 1){
 				linkText.text = (linkCount + " Link");

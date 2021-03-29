@@ -43,7 +43,8 @@ public class BezerkControl : MonoBehaviour {
 		  //BezerkListCount = bezerkList.Count;
 	}
 	void bezerkManager(){
-
+			int maskLayer = 1 << 15;
+			bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
 			//update the player location so we are always generating shots from there
 			playerLocation = originVec.transform.position;
 			//various checks to ensure proper resetting of bezerk mode    
@@ -80,7 +81,7 @@ public class BezerkControl : MonoBehaviour {
 				currentHitCount = 0; 
 				bezerkMode();
 			}
-			if (GetComponent<Link_System>().newBezerkValue == 0.25f){
+			if (GetComponent<Link_System>().newBezerkValue >= 0.25f){
 				meterCharged = true;
 			}
 			else if (GetComponent<Link_System>().newBezerkValue < 0.25f){
@@ -88,9 +89,9 @@ public class BezerkControl : MonoBehaviour {
 			}
     }
 	void bezerkMode(){
-		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
+		//int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		hitCount = 0;
-		bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
+		//bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
 	//	if (GetComponent<Link_System>().newValue > 0f){
 			if (bezerkArray.Length > 0){
 				bezerkActive = true;

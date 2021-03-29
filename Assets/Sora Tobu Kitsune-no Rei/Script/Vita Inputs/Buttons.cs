@@ -178,11 +178,18 @@ public class Buttons : MonoBehaviour {
 			myguiText.text = "Down";
 			}
 		else if (Input.GetKeyDown (joystick1 + LEFT) || Input.GetKeyDown(KeyCode.LeftArrow)){
-			eventManager.GetComponent<Link_System>().newBezerkValue -= 0.05f;
+			if (eventManager.GetComponent<Link_System>().newBezerkValue > 0.0f){
+				eventManager.GetComponent<Link_System>().newBezerkValue -= 0.05f;
+			}
+			else eventManager.GetComponent<Link_System>().newBezerkValue = 0.0f;
 			myguiText.text = "Left";
 		}
 		else if (Input.GetKeyDown (joystick1 + RIGHT) || Input.GetKeyDown(KeyCode.RightArrow)){
-			eventManager.GetComponent<Link_System>().newBezerkValue += 0.05f;
+			
+			if (eventManager.GetComponent<Link_System>().newBezerkValue < 1.0f){
+				eventManager.GetComponent<Link_System>().newBezerkValue += 0.05f;
+			}
+			else eventManager.GetComponent<Link_System>().newBezerkValue = 1.0f;
 			myguiText.text = "Right";
 		}
 		else if (Input.GetKeyDown (joystick1 + CROSS) && playerTemp.GetComponent<PlayerMoveJump>().jumpEnable == true) {
@@ -214,7 +221,7 @@ public class Buttons : MonoBehaviour {
 			FireControl.gameObject.BroadcastMessage ("reset");
 		} 
 		//disable triangle when player has died, to keep us from endlessley loading the load screen if you keep mashing the button
-		else if ((Input.GetKeyDown (joystick1 + TRIANGLE) || Input.GetKeyDown(KeyCode.Space)) && playerTemp.GetComponent<Actor>().health != 0.0001f && eventManager.GetComponent<Link_System>().newBezerkValue > 0.2f){
+		else if ((Input.GetKeyDown (joystick1 + TRIANGLE) || Input.GetKeyDown(KeyCode.Space)) && playerTemp.GetComponent<Actor>().health != 0.0001f && eventManager.GetComponent<BezerkControl>().meterCharged == true && eventManager.GetComponent<BezerkControl>().bezerkArray.Length > 0){
 			myguiText.text = "Triangle";
 				FireControl.gameObject.BroadcastMessage ("bezerkMode");
 				StartCoroutine(eventManager.GetComponent<BezerkControl>().backgroundFader(eventManager.GetComponent<BezerkControl>().bezerkBGImage.color, Color.white, 0.6f));
