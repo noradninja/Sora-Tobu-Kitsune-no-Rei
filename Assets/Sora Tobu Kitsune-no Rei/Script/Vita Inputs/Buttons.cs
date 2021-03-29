@@ -231,7 +231,7 @@ public class Buttons : MonoBehaviour {
 				}
 		}
 		else if (Input.GetKeyDown (joystick1 + SELECT)){
-			playerTemp.GetComponent<Actor>().health -= 15f;
+			playerTemp.GetComponent<Actor>().health -= 10f;
 		}	
 		else {
 			//myguiText.text = " ";

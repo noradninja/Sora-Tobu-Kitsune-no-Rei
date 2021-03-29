@@ -7,6 +7,10 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour {
 
 	public GameObject playerTemp;
+	public Color baseColor;
+	public Color dimColor;
+	public Color brightColor;
+	public float repeatRate;
 	public Image fillImage;
 	public Image endImage;
 	public float originalValue;
@@ -49,9 +53,26 @@ public class HealthBar : MonoBehaviour {
 		//apply finalColor to lifebar/cap
 		fillImage.color = finalColor;
 		endImage.color = finalColor;
+		if (currentValue <= 0.25f){
+			Blinker(baseColor, dimColor, repeatRate);
+		}
 		//turn off cap when player dies
 		if (playerTemp.GetComponent<Actor>().health <= 0.0001f){
 			endImage.color = new Vector4(0,0,0,0);
 		}
+	}
+
+	void Blinker(Color intialColor, Color flashColor, float duration){
+		StartCoroutine(colorAnimator(intialColor, flashColor, (repeatRate/4)));
+	}
+	IEnumerator colorAnimator (Color startColor, Color endColor, float duration){
+		float time = 0;
+		while (time < duration){
+			fillImage.color = Color.Lerp(startColor, endColor, time/duration); //lerp the colors from dark to light
+			endImage.color = Color.Lerp(startColor, endColor, time/duration); //lerp the colors from dark to light
+			time += Time.deltaTime;
+			yield return null;
+		}
+	StartCoroutine(colorAnimator(brightColor, dimColor, repeatRate)); //call the routine again to lerp the color back from light to dark, this will cycle until bezerk drops below
 	}
 }

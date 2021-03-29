@@ -9,7 +9,7 @@ public static class ColorExtension{
 		
 		var startVector = new Vector3 (startColor.r, startColor.g, startColor.b);
 		var endVector = new Vector3 (endColor.r, endColor.g, endColor.b);
-		var slerpValues = Vector3.Slerp(startVector, endVector, time);
+		var slerpValues = Vector3.MoveTowards(startVector, endVector, time);
 		var alpha = Mathf.Lerp(startColor.a, endColor.a, time);
 		var newColor = new Color();
 		newColor.r = slerpValues.x;
