@@ -160,6 +160,7 @@
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\UV_Scroller.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Waypoint.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\WaypointUtility.cs" />
+     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Extensions\ColorExtension.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\BuildSetup.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\Fremerate Manager.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\GetResolution.cs" />

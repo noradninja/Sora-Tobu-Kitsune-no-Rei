@@ -27,6 +27,7 @@ df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 d720d104ba371072094e66111bc68ea5 Assembly-CSharp.dll:.Follow_Player
 dcf3ed76442c48e3a57dd27e6f2fecc5 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.NeighboringScenes
 735e690453415b4dd8f1049b6e2df406 Assembly-CSharp.dll:.FreeCamera
+efed0c375e6d97004846c5532bb68751 Assembly-CSharp.dll:.Bezerk_Blinker
 847aeeb7ab45b2ea8d8b8802c2699066 Assembly-CSharp.dll:NprPaintFilter.FiltersController
 2c4d995b37281b9f843061903b90cfcb Assembly-CSharp.dll:.GameOverButtons
 5be477358093a9e3773daac9e564f5d6 Assembly-CSharp.dll:.Joystick_Target
@@ -329,4 +330,4 @@ ccf46ea869884024addfe9fba6c985b2 Assembly-CSharp.dll:.Title_DoF_Animator
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 f8f1c341c82c3a48504f430c7d4c9c67 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.FPSWalkerEnhanced
-efed0c375e6d97004846c5532bb68751 Assembly-CSharp.dll:.Bezerk_Blinker
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Particle_Pauser

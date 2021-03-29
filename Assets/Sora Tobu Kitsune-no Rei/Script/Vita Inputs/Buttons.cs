@@ -88,18 +88,18 @@ public class Buttons : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	//Enable/disable ingame cameras when menus are on/offscreen	
-	// if (PauseManager.isPaused == true){
-	// 	mainCam.SetActive(false);
-	// 	bgCam.SetActive(false);
-	// 	overlayCam.SetActive(false);
-	// 	miniMapCam.SetActive(false);
-	// }	
-	// if (PauseManager.isPaused == false){
-	// 	mainCam.SetActive(true);
-	// 	bgCam.SetActive(true);
-	// 	overlayCam.SetActive(true);
-	// 	miniMapCam.SetActive(true);
-	// }
+	if (PauseManager.isPaused == true){
+		mainCam.SetActive(false);
+		bgCam.SetActive(false);
+		overlayCam.SetActive(false);
+		miniMapCam.SetActive(false);
+	}	
+	if (PauseManager.isPaused == false){
+		mainCam.SetActive(true);
+		bgCam.SetActive(true);
+		overlayCam.SetActive(true);
+		miniMapCam.SetActive(true);
+	}
 
 	if (PauseManager.isPaused == false) {	//ignore all inputs in game world if game is paused 
 	if (enablePaint == true && enableDoF == false){
@@ -178,11 +178,11 @@ public class Buttons : MonoBehaviour {
 			myguiText.text = "Down";
 			}
 		else if (Input.GetKeyDown (joystick1 + LEFT) || Input.GetKeyDown(KeyCode.LeftArrow)){
-			eventManager.GetComponent<Link_System>().newValue -= 0.05f;
+			eventManager.GetComponent<Link_System>().newBezerkValue -= 0.05f;
 			myguiText.text = "Left";
 		}
 		else if (Input.GetKeyDown (joystick1 + RIGHT) || Input.GetKeyDown(KeyCode.RightArrow)){
-			eventManager.GetComponent<Link_System>().newValue += 0.05f;
+			eventManager.GetComponent<Link_System>().newBezerkValue += 0.05f;
 			myguiText.text = "Right";
 		}
 		else if (Input.GetKeyDown (joystick1 + CROSS) && playerTemp.GetComponent<PlayerMoveJump>().jumpEnable == true) {
@@ -214,7 +214,7 @@ public class Buttons : MonoBehaviour {
 			FireControl.gameObject.BroadcastMessage ("reset");
 		} 
 		//disable triangle when player has died, to keep us from endlessley loading the load screen if you keep mashing the button
-		else if ((Input.GetKeyDown (joystick1 + TRIANGLE) || Input.GetKeyDown(KeyCode.Space)) && playerTemp.GetComponent<Actor>().health != 0.0001f && eventManager.GetComponent<Link_System>().newValue > 0.2f){
+		else if ((Input.GetKeyDown (joystick1 + TRIANGLE) || Input.GetKeyDown(KeyCode.Space)) && playerTemp.GetComponent<Actor>().health != 0.0001f && eventManager.GetComponent<Link_System>().newBezerkValue > 0.2f){
 			myguiText.text = "Triangle";
 				FireControl.gameObject.BroadcastMessage ("bezerkMode");
 				StartCoroutine(eventManager.GetComponent<BezerkControl>().backgroundFader(eventManager.GetComponent<BezerkControl>().bezerkBGImage.color, Color.white, 0.6f));
@@ -258,6 +258,12 @@ public class Buttons : MonoBehaviour {
 				StartCoroutine(FadeLoadSaveScreen(0,0.5f));
 				saveManager.gameObject.BroadcastMessage("setColor");
 				audioSource.PlayOneShot(clipList[1]);
+				if ((GameObject.Find("Explode(Clone)") != null)||(GameObject.Find("Boss_Explode(Clone)")) != null){
+					GameObject[] bossExplosions = (GameObject.FindGameObjectsWithTag("Exploder"));
+					foreach (GameObject targetObject in bossExplosions){
+						targetObject.BroadcastMessage ("Resume");
+					}
+				}
 				PauseManager.isPaused = false;
 				
 				/*fire missiles, reset the frame counter and number of objects counted change to regular texture on release when unpaused

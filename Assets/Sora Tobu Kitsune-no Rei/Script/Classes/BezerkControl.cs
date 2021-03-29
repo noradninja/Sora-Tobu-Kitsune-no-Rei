@@ -17,6 +17,7 @@ public class BezerkControl : MonoBehaviour {
 	public int BezerkArrayLength;
 	public int BezerkListCount;
 	public bool bezerkActive;
+	public bool meterCharged;
 	public float bezerkRadius;
 	public Image bezerkMeter;
 	public Image bezerkMeterBG;
@@ -78,6 +79,12 @@ public class BezerkControl : MonoBehaviour {
 				print("Bezerk again");
 				currentHitCount = 0; 
 				bezerkMode();
+			}
+			if (GetComponent<Link_System>().newBezerkValue == 0.25f){
+				meterCharged = true;
+			}
+			else if (GetComponent<Link_System>().newBezerkValue < 0.25f){
+				meterCharged = false;
 			}
     }
 	void bezerkMode(){
@@ -143,7 +150,7 @@ public class BezerkControl : MonoBehaviour {
 		currentHitCount = 0;
     }
 	IEnumerator bezerkAdder(float time, GameObject currentHit){
-		if (currentHit != null && GetComponent<Link_System>().newValue > 0){
+		if (currentHit != null && GetComponent<Link_System>().newBezerkValue > 0){
 		yield return new WaitForSeconds(time); //wait for counter value increment
 		float step = speed * Time.deltaTime;
 			if(bezerkActive == true){

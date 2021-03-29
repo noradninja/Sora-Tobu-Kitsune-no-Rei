@@ -10,6 +10,7 @@ public class Bezerk_Blinker : MonoBehaviour {
 	public Color brightColor;
 	public GameObject eventManager;
 	public float repeatRate;
+	public bool blinkerOn = false;
 	// Use this for initialization
 	void Start () {
 		
@@ -17,31 +18,35 @@ public class Bezerk_Blinker : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (eventManager.GetComponent<Link_System>().newValue >= 0.25f){ //is meter > 25% full
-			Blinker();
+		if (eventManager.GetComponent<BezerkControl>().meterCharged == true && blinkerOn == false){ //is meter > 25% full
+			Blinker(baseColor, dimColor, repeatRate);
 		}
 	}
 
-	void Blinker(){
-		StartCoroutine(colorAnimator(dimColor, brightColor, repeatRate)); //blinkenlights
+	void Blinker(Color intialColor, Color flashColor, float duration){
+		StartCoroutine(colorAnimator(intialColor, flashColor, (repeatRate/4)));
 	}
 
 	IEnumerator colorAnimator (Color startColor, Color endColor, float duration){
 		float time = 0;
-		if(eventManager.GetComponent<Link_System>().newValue < 0.25f){ //if we're blinking and meter drop below 25%, lerp back to red
+		if(eventManager.GetComponent<BezerkControl>().meterCharged == false){ //if we're blinking and meter drop below 25%, lerp back to red
+			blinkerOn = false;
 			while (time < duration){
 				Color currentColor = GetComponent<Image>().color;
-				GetComponent<Image>().color = Color.Lerp(currentColor, baseColor, time/duration);
+				GetComponent<Image>().color = Color.Lerp(currentColor, baseColor, (time/duration)*4);
 				time += Time.deltaTime;
 				yield return null;
 			}
-			
 		}
-		while (time < duration){
-			GetComponent<Image>().color = Color.Lerp(startColor, endColor, time/duration); //lerp the colors from dark to light
-			time += Time.deltaTime;
-			yield return null;
+		else{
+			time = 0;
+			while (time < duration){
+				blinkerOn = true;
+				GetComponent<Image>().color = Color.Lerp(startColor, endColor, time/duration); //lerp the colors from dark to light
+				time += Time.deltaTime;
+				yield return null;
+			}
+		StartCoroutine(colorAnimator(brightColor, dimColor, repeatRate)); //call the routine again to lerp the color back from light to dark, this will cycle until bezerk drops below
 		}
-	StartCoroutine(colorAnimator(brightColor, dimColor, repeatRate)); //call the routine again to lerp the color back from light to dark, this will cycle until bezerk drops below 25%
 	}
 }

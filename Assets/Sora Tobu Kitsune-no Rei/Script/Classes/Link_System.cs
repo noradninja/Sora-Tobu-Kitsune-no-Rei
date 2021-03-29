@@ -22,8 +22,8 @@ public Image bezerkMeter;
 public Image bezerkMeterBG;
 public Color restoreColor;
 private Animation anim;
-public float newValue = 1.0f;
-private float originalValue;
+public float newBezerkValue = 1.0f;
+private float originalBezerkValue;
 private float bgOriginalvalue;
 public List<GameObject> bezerkList;
 
@@ -37,10 +37,10 @@ public List<GameObject> bezerkList;
 	}
 	
 	void Update (){
-		originalValue = bezerkMeter.fillAmount;
+		originalBezerkValue = bezerkMeter.fillAmount;
 		bgOriginalvalue = bezerkMeterBG.fillAmount;
-		bezerkMeter.fillAmount = Mathf.Lerp(originalValue, newValue, 0.1f);
-		bezerkMeterBG.fillAmount = Mathf.Lerp(bgOriginalvalue, 1-newValue, 0.1f);
+		bezerkMeter.fillAmount = Mathf.Lerp(originalBezerkValue, newBezerkValue, 0.3f);
+		bezerkMeterBG.fillAmount = Mathf.Lerp(bgOriginalvalue, 1-newBezerkValue, 0.3f);
 		//Update link count text or blank it if link delay has expired
 		if (linkCount > 1){
 				linkText.text = (linkCount + " Link");
@@ -54,16 +54,16 @@ public List<GameObject> bezerkList;
 		StartCoroutine(IncrementCount());
 	}
 	public void LinkDecrementor (){
-		newValue = originalValue - 0.125f;	
+		newBezerkValue = originalBezerkValue - 0.125f;	
 	}
 	public void resetBar(){
-		newValue = 0.0f;
+		newBezerkValue = 0.0f;
 		gameObject.GetComponent<BezerkControl>().bezerkActive = false;
 	}
 	public IEnumerator IncrementCount(){
 		//This is called when an enemy dies, and we increment linkCount as they are destroyed, and increment a time counter between each destruction.
 		linkCount += 1;
-		newValue = originalValue + (linkCount * 0.016f);
+		newBezerkValue = originalBezerkValue + (linkCount * 0.016f);
 		//Play back ever increasing SFX tones based on the number of successive links you earn
 		if (linkCount == 2){
 		audioSource.PlayOneShot(clipList[9]);
