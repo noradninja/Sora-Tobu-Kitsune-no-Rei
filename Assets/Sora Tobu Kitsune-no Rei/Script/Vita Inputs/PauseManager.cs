@@ -11,9 +11,9 @@ public bool isPausedInspector;
 		//set isPausedInspector so we can verify state in Editor
 		isPausedInspector = isPaused;
 		//set framerate based on wether the game is paused or not- 60FPS in menus, 30FPS in game
-// 		if (isPaused == true){
-// 				Application.targetFrameRate = 60;
-// 			}
-// 			else Application.targetFrameRate = 30;
-		}
+		// if (isPaused == true){
+		// 		Time.timeScale = 0;
+		// 	}
+		// 	else Time.timeScale = 1;
+	}
 }

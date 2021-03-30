@@ -45,7 +45,8 @@ public class Missile : MonoBehaviour {
 			//Destroy the missile, and apply its damage to the target
 			other.gameObject.BroadcastMessage ("ApplyDamage", damage);
 			other.gameObject.BroadcastMessage ("Shot");
-			other.gameObject.transform.GetChild (0).gameObject.SetActive(false);	
+			other.gameObject.transform.GetChild (0).gameObject.SetActive(false);
+			//List.Remove(other.gameObject);	
 			Destroy (gameObject);
 		}
 		//if missile somehow collides with the player, destroy missile

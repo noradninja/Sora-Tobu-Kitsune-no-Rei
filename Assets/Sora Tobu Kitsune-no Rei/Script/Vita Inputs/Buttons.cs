@@ -221,21 +221,9 @@ public class Buttons : MonoBehaviour {
 			FireControl.gameObject.BroadcastMessage ("reset");
 		} 
 		//disable triangle when player has died, to keep us from endlessley loading the load screen if you keep mashing the button
-		else if ((Input.GetKeyDown (joystick1 + TRIANGLE) || Input.GetKeyDown(KeyCode.Space)) && playerTemp.GetComponent<Actor>().health != 0.0001f && eventManager.GetComponent<BezerkControl>().meterCharged == true && eventManager.GetComponent<BezerkControl>().bezerkArray.Length > 0){
+		else if ((Input.GetKeyDown (joystick1 + TRIANGLE) || Input.GetKeyDown(KeyCode.Space)) && playerTemp.GetComponent<Actor>().health != 0.0001f && eventManager.GetComponent<BezerkControl>().meterCharged == true){
 			myguiText.text = "Triangle";
-				FireControl.gameObject.BroadcastMessage ("bezerkMode");
-				StartCoroutine(eventManager.GetComponent<BezerkControl>().backgroundFader(eventManager.GetComponent<BezerkControl>().bezerkBGImage.color, Color.white, 0.6f));
-				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f));
-				for (int i = 0; i < eventManager.GetComponent<BezerkControl>().bezerkArray.Length; i++){
-					if(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Renderer>() != null){	
-						Color hitColor = eventManager.GetComponent<BezerkControl>().bezerkHit.GetComponent<Renderer>().material.color;			
-						StartCoroutine(eventManager.GetComponent<BezerkControl>().materialFader(0.5f, hitColor, Color.black, GameObject.Find(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Collider>().name)));
-					}
-					else{
-						Color parentColor = eventManager.GetComponent<BezerkControl>().bezerkHit.GetComponentInParent<Renderer>().material.color;
-						StartCoroutine(eventManager.GetComponent<BezerkControl>().materialFader(0.5f, parentColor, Color.black, GameObject.Find(eventManager.GetComponent<BezerkControl>().bezerkArray[i].GetComponent<Collider>().name)));	
-					}	
-				}
+			FireControl.gameObject.BroadcastMessage ("bezerkMode");
 		}
 		else if (Input.GetKeyDown (joystick1 + SELECT)){
 			playerTemp.GetComponent<Actor>().health -= 10f;
@@ -260,22 +248,31 @@ public class Buttons : MonoBehaviour {
 			}
 			//if the game is paused but we are at the main pause menu
 			else if (PauseManager.isPaused == true && menuManager.GetComponent<MenuManagerInputs>().loaderEnabled == false && menuManager.GetComponent<MenuManagerInputs>().optionEnabled == false){
+								PauseManager.isPaused = false;
 				BGMManager.GetComponent<BGM_Player>().scaler = 1;
 				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
 				StartCoroutine(FadeLoadSaveScreen(0,0.5f));
 				saveManager.gameObject.BroadcastMessage("setColor");
 				audioSource.PlayOneShot(clipList[1]);
+
 				if ((GameObject.Find("Explode(Clone)") != null)||(GameObject.Find("Boss_Explode(Clone)")) != null){
 					GameObject[] bossExplosions = (GameObject.FindGameObjectsWithTag("Exploder"));
 					foreach (GameObject targetObject in bossExplosions){
 						targetObject.BroadcastMessage ("Resume");
 					}
 				}
-				PauseManager.isPaused = false;
+				if ((GameObject.Find("Explode(Clone)") != null)||(GameObject.Find("Boss_Explode(Clone)")) != null){
+					GameObject[] bossExplosions = (GameObject.FindGameObjectsWithTag("Exploder"));
+					foreach (GameObject targetObject in bossExplosions){
+						targetObject.BroadcastMessage ("Resume");
+					}
+				}
+					//FireControl.gameObject.BroadcastMessage ("resumeMissiles");
+				
 				
 				/*fire missiles, reset the frame counter and number of objects counted change to regular texture on release when unpaused
 				to avoid hard crash*/
-				FireControl.gameObject.BroadcastMessage ("reset");
+				//FireControl.gameObject.BroadcastMessage ("reset");
 				//FireControl.gameObject.BroadcastMessage ("fireMissiles");
 				img.texture = (Texture)Unlocked;
 				img2.texture = (Texture)Blank;
@@ -309,23 +306,25 @@ public class Buttons : MonoBehaviour {
 			} 
 			
 			else if (PauseManager.isPaused == true && menuManager.GetComponent<MenuManagerInputs>().optionEnabled == false && menuManager.GetComponent<MenuManagerInputs>().loaderEnabled == false) {
+				PauseManager.isPaused = false;
 				BGMManager.GetComponent<BGM_Player>().scaler = 1;
 				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
 				StartCoroutine(FadeLoadSaveScreen(0,0.5f));
 				saveManager.gameObject.BroadcastMessage("setColor");
-				PauseManager.isPaused = false;
 				if ((GameObject.Find("Explode(Clone)") != null)||(GameObject.Find("Boss_Explode(Clone)")) != null){
 					GameObject[] bossExplosions = (GameObject.FindGameObjectsWithTag("Exploder"));
 					foreach (GameObject targetObject in bossExplosions){
 						targetObject.BroadcastMessage ("Resume");
 					}
 				}
+				//FireControl.gameObject.BroadcastMessage ("resumeMissiles");
 				/*fire missiles, reset the frame counter and number of objects counted change to regular texture on release when unpaused
 				to avoid hard crash*/
-				FireControl.gameObject.BroadcastMessage ("reset");
+				//FireControl.gameObject.BroadcastMessage ("reset");
 				if (eventManager.GetComponent<BezerkControl>().bezerkActive == true){
 					eventManager.BroadcastMessage ("bezerkMode");
 				}
+				//Time.timeScale = 1;
 				//FireControl.gameObject.BroadcastMessage ("fireMissiles", eventManager.GetComponent<FireControl>().missileTarget);
 				img.texture = (Texture)Unlocked;
 				img2.texture = (Texture)Blank;
@@ -339,7 +338,9 @@ IEnumerator FadeLoadSaveScreen(float targetValue, float duration)
     {
         float startValue = menuCanvas.alpha;
         float time = 0;
-
+		if (PauseManager.isPaused == false){
+			Time.timeScale = 1;
+		}
 		//fade out the menu canvas group
         while (time < duration)
         {
@@ -348,7 +349,9 @@ IEnumerator FadeLoadSaveScreen(float targetValue, float duration)
             yield return null;
         }
 		menuCanvas.alpha = targetValue;
-
+		if (PauseManager.isPaused == true){
+			Time.timeScale = 0;
+		}
 	}
 	IEnumerator timer(float targetValue, float duration)
     {
