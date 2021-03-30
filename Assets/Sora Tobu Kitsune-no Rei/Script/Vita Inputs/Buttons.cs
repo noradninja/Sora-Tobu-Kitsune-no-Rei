@@ -224,6 +224,10 @@ public class Buttons : MonoBehaviour {
 		else if ((Input.GetKeyDown (joystick1 + TRIANGLE) || Input.GetKeyDown(KeyCode.Space)) && playerTemp.GetComponent<Actor>().health != 0.0001f && eventManager.GetComponent<BezerkControl>().meterCharged == true){
 			myguiText.text = "Triangle";
 			FireControl.gameObject.BroadcastMessage ("bezerkMode");
+			if (eventManager.GetComponent<BezerkControl>().bezerkArray.Length > 0){
+			StartCoroutine(eventManager.GetComponent<BezerkControl>().backgroundFader(eventManager.GetComponent<BezerkControl>().bezerkBGImage.color, Color.white, 0.5f));
+			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f));
+			}
 		}
 		else if (Input.GetKeyDown (joystick1 + SELECT)){
 			playerTemp.GetComponent<Actor>().health -= 10f;

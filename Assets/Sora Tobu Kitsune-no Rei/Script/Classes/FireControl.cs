@@ -15,6 +15,7 @@ public class FireControl : MonoBehaviour {
 	private GameObject obj;
 
 	//publics
+	public Camera aimCam;
 	public int objCount = 0;
 	public int missileCount = 0;
 	public int storedCount;
@@ -69,37 +70,39 @@ public class FireControl : MonoBehaviour {
     // called in Update for tracking targets
     void targetingSystem()
     {
-        // update needed positions
-        playerLocation = GameObject.Find("ShootPoint").transform.position;
-        Vector3 position = Reticle.transform.position;
-        reticleX = position.x;
-        reticleY = position.y;
-		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
+		if(PauseManager.isPaused == false){
+			// update needed positions
+			playerLocation = GameObject.Find("ShootPoint").transform.position;
+			Vector3 position = Reticle.transform.position;
+			reticleX = position.x;
+			reticleY = position.y;
+			int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 
-        // set up targeting ray
-        Ray targetingRay = new Ray();
-        // cast ray from camera through location of targeting reticle sprite
-        targetingRay = Camera.main.ScreenPointToRay(new Vector3(reticleX, reticleY, 0));
-        // draw for debug purposes
-        Debug.DrawRay(targetingRay.origin, targetingRay.direction * 45f, Color.red);
-        // cast a sphere along the length of the ray
-        if (Physics.SphereCast(targetingRay, 0.5f, out hit, 45f, maskLayer) && (frameCounter >= lockDelay))
-        {
-            // get the name of the object we hit
-            GameObject checkHit = GameObject.Find(hit.transform.name);
-                print("There is a new collision with " + checkHit.transform.name + " in front of the reticle!");
-                // make the enemy a target for a missile
-                missileTarget = checkHit;
-        }
-		else missileTarget = resetVector;
-        //reenable missile firing when all missiles have been fired
-        if (targetList.Count == missileCount)
-        {
-            firingMissiles = false;
-			targetList.Clear();
-			missileCount = 0;
-			obj = null;
-        }
+			// set up targeting ray
+			Ray targetingRay = new Ray();
+			// cast ray from camera through location of targeting reticle sprite
+			targetingRay = aimCam.ScreenPointToRay(new Vector3(reticleX, reticleY, 45));
+			// draw for debug purposes
+			Debug.DrawRay(targetingRay.origin, targetingRay.direction * 45f, Color.red);
+			// cast a sphere along the length of the ray
+			if (Physics.SphereCast(targetingRay, 0.5f, out hit, 45f, maskLayer) && (frameCounter >= lockDelay))
+			{
+				// get the name of the object we hit
+				GameObject checkHit = GameObject.Find(hit.transform.name);
+					print("There is a new collision with " + checkHit.transform.name + " in front of the reticle!");
+					// make the enemy a target for a missile
+					missileTarget = checkHit;
+			}
+			else missileTarget = resetVector;
+			//reenable missile firing when all missiles have been fired
+			if (targetList.Count == missileCount)
+			{
+				firingMissiles = false;
+				targetList.Clear();
+				missileCount = 0;
+				obj = null;
+			}
+		}
     }
 
     //deals with lock on system

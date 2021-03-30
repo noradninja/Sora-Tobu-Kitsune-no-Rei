@@ -179,7 +179,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 444f72058661e9410c450cef4c86a297 Assembly-CSharp.dll:.FXAA
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClearPlayerPrefs
 77fadc14e2399d4e021f2635e54681b8 AmplifyShaderEditor.Samples.BuiltIn.dll:.PlaneClip
-caeff54b1e2e0057f49b4f54cc8906ed Assembly-CSharp.dll:.OptionsManagerInputs
+561fdfa530b6ded22cd2a0e14ad905b0 Assembly-CSharp.dll:.OptionsManagerInputs
 5f8515f2e5e7bee9c7fbe8e4647e7fec Assembly-CSharp.dll:.Contour_Drawing_Post
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.Benchmark03
 b9332c0eee630779376843b5343eb250 Assembly-CSharp.dll:TMPro.Examples.TMP_TextInfoDebugTool
@@ -236,7 +236,7 @@ d538a6fe900875625ba0efe59835c53e Assembly-CSharp.dll:.Parallax_BG
 8e392726e9189569299d2ca9b78eb55e Assembly-CSharp.dll:.SceneLoader
 2149df7fdad246e43552a7c0edb0129b Assembly-CSharp.dll:WayPoint.WaypointAgent
 8a50d3d11bf0cc541f5c35347dd25633 Assembly-CSharp.dll:TMPro.Examples.ShaderPropAnimator
-f8776911f3f9b8729679f0513de3c904 Assembly-CSharp.dll:.FireControl
+8d364fbe01628976ef2fea9f632d015e Assembly-CSharp.dll:.FireControl
 76015de5fcb247eeb8df66c001d5a22d Assembly-CSharp.dll:TMPro.Examples.TMP_FrameRateCounter
 42d1ee01b2aa4efd94725fdfbc29706b Assembly-CSharp.dll:.BGM_Player
 b8f04bdad423045528c67dfa4c3dca0d Assembly-CSharp.dll:TMPro.Examples.VertexShakeA
@@ -271,7 +271,7 @@ ff25a1ea3304957a29570ffa182a982e Assembly-CSharp.dll:.OutlinePost
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
-f0c2ee7f86f51430df3294122dfc5ab1 Assembly-CSharp.dll:.SaveManager_Inputs
+16d64540bca48405ae4648ed858ed5ae Assembly-CSharp.dll:.SaveManager_Inputs
 abcbf99f1c95f1a0c6922fb7c2b24324 Assembly-CSharp.dll:.SaveSerial
 9e0ef5bf862444b5dc48b5a99554ce7c UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
@@ -315,7 +315,7 @@ f0c2ee7f86f51430df3294122dfc5ab1 Assembly-CSharp.dll:.TitleSaveManagerInputs
 d720d104ba371072094e66111bc68ea5 Assembly-CSharp.dll:.FollowPlayerwithRotation
 9d71505a7183a2a0aa404a20996f7753 Assembly-CSharp.dll:.BezerkControl
 22d0936cb538dc6053295cc40731687c Assembly-CSharp.dll:.Line
-7f02f6232042a5fbfd728a90ec4de85b Assembly-CSharp.dll:.MenuManagerInputs
+14cd929beb6593b8260fa87701e0ecf8 Assembly-CSharp.dll:.MenuManagerInputs
 0c4dea12d5ccc08c2c80e5a188a9699c Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.SmoothMouseLook
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.TextMeshSpawner
 8617577f2f05ade67d0be2d6346c8ac6 Assembly-CSharp.dll:NprPaintFilter.BlackboardCamera
