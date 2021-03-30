@@ -126,7 +126,7 @@ public class TitleSaveManagerInputs : MonoBehaviour {
 				setLoadedColor();
 				loadDialogGroup.alpha = 1;
 				anim = GameObject.Find ("Confirmation_Load_Dialog").GetComponent<Animation>();
-				anim.Play("Menu_Bounce");
+				anim.Play("Menu_Bounce_Legacy");
 				menuManager.GetComponent<StartMenuManagerInputs>().loadDialogEnabled= true;
 				StartCoroutine(DialogHandler());
 				audioSource.PlayOneShot(clipList[0]);
@@ -220,17 +220,17 @@ public class TitleSaveManagerInputs : MonoBehaviour {
 		if (selectedSlot == 1){
 			currentSelection = GameObject.Find("Slot_1");
 			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
+			anim.Play("Menu_Bounce_Legacy");
 		}
 		if (selectedSlot == 2){
 			currentSelection = GameObject.Find("Slot_2");
 			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
+			anim.Play("Menu_Bounce_Legacy");
 		}
 		if (selectedSlot != 1 && selectedSlot !=2){
 			currentSelection = GameObject.Find("Slot_3");
 			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
+			anim.Play("Menu_Bounce_Legacy");
 		}	
 	}
 	

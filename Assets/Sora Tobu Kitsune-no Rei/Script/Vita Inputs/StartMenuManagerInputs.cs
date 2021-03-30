@@ -202,17 +202,17 @@ private const string joystick1 = "joystick 1 button ";
 		if (selectedSlot == 1){
 			currentSelection = GameObject.Find("Options");
 			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
+			anim.Play("Menu_Bounce_Legacy");
 		}
 		if (selectedSlot == 2){
 			currentSelection = GameObject.Find("Load_Game");
 			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
+			anim.Play("Menu_Bounce_Legacy");
 		}
 		if (selectedSlot != 1 && selectedSlot !=2){
 			currentSelection = GameObject.Find("New_Game");
 			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
+			anim.Play("Menu_Bounce_Legacy");
 		}	
 	}
 

@@ -42,7 +42,8 @@ private const string joystick1 = "joystick 1 button ";
 	public List<AudioClip> clipList;
 	public AudioSource audioSource;
 	public GameObject currentSelection;
-	public Animation anim;
+	public GameObject previousSelection;
+	public Animator anim;
 
 	// Use this for initialization
 	void Start () {
@@ -96,7 +97,10 @@ private const string joystick1 = "joystick 1 button ";
 					selectedSlot = 2;
 				}
 				//decrement the slot for each up press
-				else selectedSlot -=1;
+				else if (selectedSlot == 2){
+					//set slot to 1 if you are at slot 2 to wrap selection
+					selectedSlot = 1;
+				}
 				//set the color of the selected slot
 				setColor();
 				animateButtons();
@@ -110,7 +114,10 @@ private const string joystick1 = "joystick 1 button ";
 					selectedSlot = 1;
 				}
 				//increment the slot by 1 for each down press
-				else selectedSlot +=1;
+				else if (selectedSlot == 1){
+					//set slot to 1 if you are at slot 2 to wrap selection
+					selectedSlot = 2;
+				}
 				//set the color of the selected slot
 				setColor();
 				animateButtons();
@@ -166,15 +173,21 @@ private const string joystick1 = "joystick 1 button ";
 		void animateButtons(){
 		if (selectedSlot == 2){
 			currentSelection = GameObject.Find("Options");
-			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
-			}
+			previousSelection = GameObject.Find("New_Game");
+			anim = currentSelection.GetComponent<Animator>();
+			anim.SetTrigger("MakeBounce");
+			previousSelection.GetComponent<Animator>().SetTrigger("SteadyState");
+		}
+		//	else anim.SetTrigger("SteadyState");
 		
 		if (selectedSlot == 1){
 			currentSelection = GameObject.Find("New_Game");
-			anim = currentSelection.GetComponent<Animation>();
-				anim.Play("Menu_Bounce");
+			previousSelection = GameObject.Find("Options");
+			anim = currentSelection.GetComponent<Animator>();
+			anim.SetTrigger("MakeBounce");
+			previousSelection.GetComponent<Animator>().SetTrigger("SteadyState");
 		}
+		//else anim.SetTrigger("SteadyState");
 	}
 
 	IEnumerator FadeScreen(float targetValue, float duration) {

@@ -169,24 +169,24 @@ private const string joystick1 = "joystick 1 button ";
 		if (selectedSlot == 3){
 			currentSelection = GameObject.Find("Sensitivity_Text");
 			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
-			if (anim.IsPlaying("Menu_Bounce")){
+			anim.Play("Menu_Bounce_Legacy");
+			if (anim.IsPlaying("Menu_Bounce_Legacy")){
 				print("Playing Sensitivity");
 			}
 		}
 		if (selectedSlot == 2){
 			currentSelection = GameObject.Find("SFX_Text");
 			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
-			if (anim.IsPlaying("Menu_Bounce")){
+			anim.Play("Menu_Bounce_Legacy");
+			if (anim.IsPlaying("Menu_Bounce_Legacy")){
 				print("Playing SFX");
 			}
 		}
 		if (selectedSlot == 1){
 			currentSelection = GameObject.Find("BGM_Text");
 			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
-			if (anim.IsPlaying("Menu_Bounce")){
+			anim.Play("Menu_Bounce_Legacy");
+			if (anim.IsPlaying("Menu_Bounce_Legacy")){
 				print("Playing BGM");
 			}
 		}

@@ -286,6 +286,8 @@ public class Buttons : MonoBehaviour {
 			else if (PauseManager.isPaused == true && menuManager.GetComponent<MenuManagerInputs>().loaderEnabled == true && menuManager.GetComponent<MenuManagerInputs>().dialogEnabled == true){
 				menuManager.GetComponent<MenuManagerInputs>().dialogEnabled = false;
 				menuManager.GetComponent<MenuManagerInputs>().dialogCanvas.GetComponent<CanvasGroup>().alpha = 0;
+				GameObject.Find ("Confirmation_Load_Dialog").GetComponent<Animator>().SetTrigger("SteadyState");
+				;
 				audioSource.PlayOneShot(clipList[1]);
 			}
 			//if we are paused and in the options menu

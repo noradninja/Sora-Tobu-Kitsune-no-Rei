@@ -21,6 +21,7 @@ public class SaveManager_Inputs : MonoBehaviour {
 	private const int LEFT = 11;
 
 	public int selectedSlot = 1;
+	public int previousSlot = 3;
 	public Color baseColor;
 	public Color hilightColor;
 	public Color loadedColor;
@@ -50,8 +51,9 @@ public class SaveManager_Inputs : MonoBehaviour {
 	public string slot1String = "No Data";
 	public string slot2String = "No Data";
 	public string slot3String = "No Data";
-	public GameObject currentSelection;
-	private Animation anim;
+	public GameObject currentSelection; 
+	public GameObject previousSelection;
+	private Animator anim;
 
 
 	// Use this for initialization
@@ -98,11 +100,21 @@ public class SaveManager_Inputs : MonoBehaviour {
 			if (Input.GetKeyDown (joystick1 + UP)){
 				audioSource.PlayOneShot(clipList[2]);
 				if (selectedSlot == 1){
+					previousSlot = selectedSlot;
 					//set slot to 3 if you are at slot 1 to wrap selection
 					selectedSlot = 3;
 				}
-				//decrement the slot for each up press
-				else selectedSlot -=1;
+				else if (selectedSlot == 2){
+					previousSlot = selectedSlot;
+					//set slot to 3 if you are at slot 1 to wrap selection
+					selectedSlot = 1;
+				}
+				else if (selectedSlot == 3){
+					previousSlot = selectedSlot;
+					//set slot to 3 if you are at slot 1 to wrap selection
+					selectedSlot = 2;
+				}
+				
 				//set the color of the selected slot
 				setColor();
 				animateButtons();
@@ -113,10 +125,20 @@ public class SaveManager_Inputs : MonoBehaviour {
 				audioSource.PlayOneShot(clipList[3]);
 				if (selectedSlot == 3){
 					//set slot to 1 if you are at slot 3 to wrap selection
+					previousSlot = selectedSlot;
 					selectedSlot = 1;
 				}
-				//increment the slot by 1 for each down press
-				else selectedSlot +=1;
+				else if (selectedSlot == 2){
+					//set slot to 1 if you are at slot 3 to wrap selection
+					previousSlot = selectedSlot;
+					selectedSlot = 3;
+				}
+				else if (selectedSlot == 1){
+					//set slot to 1 if you are at slot 3 to wrap selection
+					previousSlot = selectedSlot;
+					selectedSlot = 2;
+				}
+				
 				//set the color of the selected slot
 				setColor();
 				animateButtons();
@@ -125,8 +147,8 @@ public class SaveManager_Inputs : MonoBehaviour {
 			if (Input.GetKeyDown (joystick1 + CROSS) && menuManager.GetComponent<MenuManagerInputs>().dialogEnabled == false){
 				setLoadedColor();
 				loadDialogGroup.alpha = 1;
-				anim = GameObject.Find ("Confirmation_Load_Dialog").GetComponent<Animation>();
-				anim.Play("Menu_Bounce");
+				anim = GameObject.Find ("Confirmation_Load_Dialog").GetComponent<Animator>();
+				anim.SetTrigger("MakeBounce");
 				menuManager.GetComponent<MenuManagerInputs>().dialogEnabled = true;
 				StartCoroutine(DialogHandler());
 				audioSource.PlayOneShot(clipList[0]);
@@ -224,18 +246,24 @@ public class SaveManager_Inputs : MonoBehaviour {
 	void animateButtons(){
 		if (selectedSlot == 1){
 			currentSelection = GameObject.Find("Slot_1");
-			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
+			previousSelection = GameObject.Find("Slot_" + previousSlot);
+			anim = currentSelection.GetComponent<Animator>();
+			anim.SetTrigger("MakeBounce");
+			previousSelection.GetComponent<Animator>().SetTrigger("SteadyState");
 		}
 		if (selectedSlot == 2){
 			currentSelection = GameObject.Find("Slot_2");
-			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
+			previousSelection = GameObject.Find("Slot_" + previousSlot);
+			anim = currentSelection.GetComponent<Animator>();
+			anim.SetTrigger("MakeBounce");
+			previousSelection.GetComponent<Animator>().SetTrigger("SteadyState");
 		}
-		if (selectedSlot != 1 && selectedSlot !=2){
+		if (selectedSlot == 3){
 			currentSelection = GameObject.Find("Slot_3");
-			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
+			previousSelection = GameObject.Find("Slot_" + previousSlot);
+			anim = currentSelection.GetComponent<Animator>();
+			anim.SetTrigger("MakeBounce");
+			previousSelection.GetComponent<Animator>().SetTrigger("SteadyState");
 		}	
 	}
 	

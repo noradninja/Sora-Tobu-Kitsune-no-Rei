@@ -17,6 +17,7 @@ private const string joystick1 = "joystick 1 button ";
 	private const int LEFT = 11;
 
 	public int selectedSlot = 1;
+	public int previousSlot = 3;
 	public Color baseColor;
 	public Color hilightColor;
 	public Text slot1;
@@ -38,7 +39,8 @@ private const string joystick1 = "joystick 1 button ";
 	public List<AudioClip> clipList;
 	public AudioSource audioSource;
 	public GameObject currentSelection;
-	public Animation anim;
+	public GameObject previousSelection;
+	public Animator anim;
 
 	// Use this for initialization
 	void Start () {
@@ -76,10 +78,20 @@ private const string joystick1 = "joystick 1 button ";
 			if (Input.GetKeyDown (joystick1 + UP)){
 				audioSource.PlayOneShot(clipList[2]);
 				if (selectedSlot == 1){
+					previousSlot = selectedSlot;
 					//set slot to 3 if you are at slot 1 to wrap selection
 					selectedSlot = 3;
 				}
-				else selectedSlot -=1;
+				else if (selectedSlot == 2){
+					previousSlot = selectedSlot;
+					//set slot to 3 if you are at slot 1 to wrap selection
+					selectedSlot = 1;
+				}
+				else if (selectedSlot == 3){
+					previousSlot = selectedSlot;
+					//set slot to 3 if you are at slot 1 to wrap selection
+					selectedSlot = 2;
+				}
 				//set the color of the selected slot
 				setColor();
 				animateButtons();
@@ -89,10 +101,20 @@ private const string joystick1 = "joystick 1 button ";
 			if (Input.GetKeyDown (joystick1 + DOWN)){
 				audioSource.PlayOneShot(clipList[3]);
 				if (selectedSlot == 3){
-					//set slot to 2 if you are at slot 1 to wrap selection
+					//set slot to 1 if you are at slot 3 to wrap selection
+					previousSlot = selectedSlot;
 					selectedSlot = 1;
 				}
-				else selectedSlot += 1;
+				else if (selectedSlot == 2){
+					//set slot to 1 if you are at slot 3 to wrap selection
+					previousSlot = selectedSlot;
+					selectedSlot = 3;
+				}
+				else if (selectedSlot == 1){
+					//set slot to 1 if you are at slot 3 to wrap selection
+					previousSlot = selectedSlot;
+					selectedSlot = 2;
+				}
 			
 				//set the color of the selected slot
 				setColor();
@@ -165,30 +187,27 @@ private const string joystick1 = "joystick 1 button ";
 			slot3.color = hilightColor;
 		}
 	}
-		void animateButtons(){
-		if (selectedSlot == 3){
-			currentSelection = GameObject.Find("Sensitivity_Text");
-			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
-			if (anim.IsPlaying("Menu_Bounce")){
-				print("Playing Sensitivity");
-			}
+	void animateButtons(){
+		if (selectedSlot == 1){
+			currentSelection = GameObject.Find("Item_1");
+			previousSelection = GameObject.Find("Item_" + previousSlot);
+			anim = currentSelection.GetComponent<Animator>();
+			anim.SetTrigger("MakeBounce");
+			previousSelection.GetComponent<Animator>().SetTrigger("SteadyState");
 		}
 		if (selectedSlot == 2){
-			currentSelection = GameObject.Find("SFX_Text");
-			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
-			if (anim.IsPlaying("Menu_Bounce")){
-				print("Playing SFX");
-			}
+			currentSelection = GameObject.Find("Item_2");
+			previousSelection = GameObject.Find("Item_" + previousSlot);
+			anim = currentSelection.GetComponent<Animator>();
+			anim.SetTrigger("MakeBounce");
+			previousSelection.GetComponent<Animator>().SetTrigger("SteadyState");
 		}
-		if (selectedSlot == 1){
-			currentSelection = GameObject.Find("BGM_Text");
-			anim = currentSelection.GetComponent<Animation>();
-			anim.Play("Menu_Bounce");
-			if (anim.IsPlaying("Menu_Bounce")){
-				print("Playing BGM");
-			}
-		}
+		if (selectedSlot == 3){
+			currentSelection = GameObject.Find("Item_3");
+			previousSelection = GameObject.Find("Item_" + previousSlot);
+			anim = currentSelection.GetComponent<Animator>();
+			anim.SetTrigger("MakeBounce");
+			previousSelection.GetComponent<Animator>().SetTrigger("SteadyState");
+		}	
 	}
 }
