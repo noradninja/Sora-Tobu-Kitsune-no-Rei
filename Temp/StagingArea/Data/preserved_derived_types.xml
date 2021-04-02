@@ -56,6 +56,7 @@
 <type fullname="DepthOfField" preserve="all"/>
 <type fullname="Line" preserve="all"/>
 <type fullname="OnScreenLog" preserve="all"/>
+<type fullname="SimpleNativePlugin" preserve="all"/>
 <type fullname="SonyVitaSystemSettings" preserve="all"/>
 <type fullname="Parallax_BG" preserve="all"/>
 <type fullname="AimToggler" preserve="all"/>

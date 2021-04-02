@@ -1266,6 +1266,7 @@ extern String_t* _stringLiteral1942005715;
 extern const uint32_t File_Delete_m321251800_MetadataUsageId;
 extern const uint32_t File_Exists_m3943585060_MetadataUsageId;
 extern const uint32_t File_Open_m664439378_MetadataUsageId;
+extern const uint32_t File_Open_m70483901_MetadataUsageId;
 extern const uint32_t File_OpenRead_m2936789020_MetadataUsageId;
 extern const uint32_t File_OpenText_m196858847_MetadataUsageId;
 extern String_t* _stringLiteral3923874395;
@@ -12913,6 +12914,10 @@ extern "C"  void Exception_set_HResult_m3489164646 (Exception_t * __this, int32_
 extern "C"  void MemberAccessException__ctor_m3713703094 (MemberAccessException_t1734467078 * __this, SerializationInfo_t950877179 * ___info0, StreamingContext_t3711869237  ___context1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Attribute::.ctor()
 extern "C"  void Attribute__ctor_m1529526131 (Attribute_t861562559 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.GC::get_MaxGeneration()
+extern "C"  int32_t GC_get_MaxGeneration_m2376144064 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void System.GC::InternalCollect(System.Int32)
+extern "C"  void GC_InternalCollect_m742461464 (RuntimeObject * __this /* static, unused */, int32_t ___generation0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Object::MemberwiseClone()
 extern "C"  RuntimeObject * Object_MemberwiseClone_m1474068832 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.InvalidOperationException::.ctor(System.String)
@@ -15970,6 +15975,29 @@ extern "C"  void FormatException__ctor_m3747066592 (FormatException_t154580423 *
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Int32 System.GC::get_MaxGeneration()
+extern "C"  int32_t GC_get_MaxGeneration_m2376144064 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	typedef int32_t (*GC_get_MaxGeneration_m2376144064_ftn) ();
+	using namespace il2cpp::icalls;
+	return  ((GC_get_MaxGeneration_m2376144064_ftn)mscorlib::System::GC::get_MaxGeneration) ();
+}
+// System.Void System.GC::InternalCollect(System.Int32)
+extern "C"  void GC_InternalCollect_m742461464 (RuntimeObject * __this /* static, unused */, int32_t ___generation0, const RuntimeMethod* method)
+{
+	typedef void (*GC_InternalCollect_m742461464_ftn) (int32_t);
+	using namespace il2cpp::icalls;
+	 ((GC_InternalCollect_m742461464_ftn)mscorlib::System::GC::InternalCollect) (___generation0);
+}
+// System.Void System.GC::Collect()
+extern "C"  void GC_Collect_m743975114 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = GC_get_MaxGeneration_m2376144064(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GC_InternalCollect_m742461464(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void System.GC::KeepAlive(System.Object)
 extern "C"  void GC_KeepAlive_m1400443516 (RuntimeObject * __this /* static, unused */, RuntimeObject * ___obj0, const RuntimeMethod* method)
 {
@@ -36715,6 +36743,24 @@ IL_0010:
 	{
 		FileStream_t4292183065 * L_3 = (FileStream_t4292183065 *)il2cpp_codegen_object_new(FileStream_t4292183065_il2cpp_TypeInfo_var);
 		FileStream__ctor_m2889718780(L_3, G_B3_2, G_B3_1, G_B3_0, 0, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.IO.FileStream System.IO.File::Open(System.String,System.IO.FileMode,System.IO.FileAccess)
+extern "C"  FileStream_t4292183065 * File_Open_m70483901 (RuntimeObject * __this /* static, unused */, String_t* ___path0, int32_t ___mode1, int32_t ___access2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (File_Open_m70483901_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___path0;
+		int32_t L_1 = ___mode1;
+		int32_t L_2 = ___access2;
+		FileStream_t4292183065 * L_3 = (FileStream_t4292183065 *)il2cpp_codegen_object_new(FileStream_t4292183065_il2cpp_TypeInfo_var);
+		FileStream__ctor_m2889718780(L_3, L_0, L_1, L_2, 0, /*hidden argument*/NULL);
 		return L_3;
 	}
 }

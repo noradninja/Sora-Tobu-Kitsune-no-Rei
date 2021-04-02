@@ -420,6 +420,11 @@ extern const Il2CppGenericInst GenInst__Attribute_t122494719_0_0_0;
 extern const Il2CppGenericInst GenInst_ExecuteInEditMode_t3727731349_0_0_0;
 extern const Il2CppGenericInst GenInst_RequireComponent_t3490506609_0_0_0;
 extern const Il2CppGenericInst GenInst_OrderBlock_t1585977831_0_0_0;
+extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0;
+extern const Il2CppGenericInst GenInst_KeyValuePair_2_t71524366_0_0_0;
+extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0;
+extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0;
+extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t71524366_0_0_0;
 extern const Il2CppGenericInst GenInst_Vector4_t3319028937_0_0_0;
 extern const Il2CppGenericInst GenInst_Vector2_t2156229523_0_0_0;
 extern const Il2CppGenericInst GenInst_Color32_t2600501292_0_0_0;
@@ -467,11 +472,6 @@ extern const Il2CppGenericInst GenInst_AudioClipPlayable_t785069022_0_0_0;
 extern const Il2CppGenericInst GenInst_AudioMixerPlayable_t3520548497_0_0_0;
 extern const Il2CppGenericInst GenInst_GUILayoutOption_t811797299_0_0_0;
 extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_LayoutCache_t78309876_0_0_0;
-extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0;
-extern const Il2CppGenericInst GenInst_KeyValuePair_2_t71524366_0_0_0;
-extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0;
-extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0;
-extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t71524366_0_0_0;
 extern const Il2CppGenericInst GenInst_LayoutCache_t78309876_0_0_0;
 extern const Il2CppGenericInst GenInst_Int32_t2950945753_0_0_0_LayoutCache_t78309876_0_0_0_DictionaryEntry_t3123975638_0_0_0;
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1364695374_0_0_0;
@@ -482,6 +482,16 @@ extern const Il2CppGenericInst GenInst_GUIStyle_t3956901511_0_0_0;
 extern const Il2CppGenericInst GenInst_String_t_0_0_0_GUIStyle_t3956901511_0_0_0;
 extern const Il2CppGenericInst GenInst_String_t_0_0_0_GUIStyle_t3956901511_0_0_0_DictionaryEntry_t3123975638_0_0_0;
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1844862681_0_0_0;
+extern const Il2CppGenericInst GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0;
+extern const Il2CppGenericInst GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0;
+extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1377593753_0_0_0;
+extern const Il2CppGenericInst GenInst_TextEditOp_t1927482598_0_0_0;
+extern const Il2CppGenericInst GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0_TextEditOp_t1927482598_0_0_0;
+extern const Il2CppGenericInst GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0_DictionaryEntry_t3123975638_0_0_0;
+extern const Il2CppGenericInst GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0_KeyValuePair_2_t1377593753_0_0_0;
+extern const Il2CppGenericInst GenInst_Event_t2956885303_0_0_0;
+extern const Il2CppGenericInst GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0_DictionaryEntry_t3123975638_0_0_0;
+extern const Il2CppGenericInst GenInst_KeyValuePair_2_t1157710762_0_0_0;
 extern const Il2CppGenericInst GenInst_RaycastHit_t1056001966_0_0_0;
 extern const Il2CppGenericInst GenInst_Collider_t1773347010_0_0_0;
 extern const Il2CppGenericInst GenInst_ContactPoint_t3758755253_0_0_0;
@@ -4568,7 +4578,7 @@ extern const RuntimeType ICollection_1_t3459160187_0_0_0 = { &ICollection_1_t345
 Il2CppGenericClass IEnumerable_1_t3905828138_GenericClass = { 29, { &GenInst_Object_t631007953_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerable_1_t3905828138_0_0_0 = { &IEnumerable_1_t3905828138_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass CastHelper_1_t2613165452_GenericClass = { 1404, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass CastHelper_1_t2613165452_GenericClass = { 1405, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType CastHelper_1_t2613165452_0_0_0 = { &CastHelper_1_t2613165452_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t3395709193_GenericClass = { 174, { &GenInst_Component_t1923634451_0_0_0, NULL }, NULL };
@@ -4656,8 +4666,8 @@ extern const RuntimeType IEnumerable_1_t3615195308_0_0_0 = { &IEnumerable_1_t361
 Il2CppGenericClass IEnumerator_1_t2920190231_GenericClass = { 25, { &GenInst_Resolution_t2487619763_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2920190231_0_0_0 = { &IEnumerator_1_t2920190231_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Resolution_t2487619763_0_0_0 = { (void*)1410, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Resolution_t2487619763_1_0_0 = { (void*)1410, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Resolution_t2487619763_0_0_0 = { (void*)1411, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Resolution_t2487619763_1_0_0 = { (void*)1411, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3394683880_GenericClass = { 41, { &GenInst_Resolution_t2487619763_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t3394683880_0_0_0 = { &InternalEnumerator_1_t3394683880_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -4689,7 +4699,7 @@ extern const RuntimeType ICollection_1_t2739595180_0_0_0 = { &ICollection_1_t273
 Il2CppGenericClass IEnumerable_1_t3186263131_GenericClass = { 29, { &GenInst_Keyframe_t4206410242_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerable_1_t3186263131_0_0_0 = { &IEnumerable_1_t3186263131_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_2_t2165061829_GenericClass = { 1481, { &GenInst_Scene_t2348375561_0_0_0_LoadSceneMode_t3251202195_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_2_t2165061829_GenericClass = { 1483, { &GenInst_Scene_t2348375561_0_0_0_LoadSceneMode_t3251202195_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_2_t2165061829_0_0_0 = { &UnityAction_2_t2165061829_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_2_t2165061829_0_0_17 = { &UnityAction_2_t2165061829_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -4701,11 +4711,11 @@ extern const RuntimeType LoadSceneMode_t3251202195_0_0_0 = { (void*)1370, 0, IL2
 extern const RuntimeType LoadSceneMode_t3251202195_1_0_0 = { (void*)1370, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 extern const RuntimeType LoadSceneMode_t3251202195_0_0_32854 = { (void*)1370, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t2933211702_GenericClass = { 1479, { &GenInst_Scene_t2348375561_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t2933211702_GenericClass = { 1481, { &GenInst_Scene_t2348375561_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t2933211702_0_0_0 = { &UnityAction_1_t2933211702_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_1_t2933211702_0_0_17 = { &UnityAction_1_t2933211702_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_2_t1262235195_GenericClass = { 1481, { &GenInst_Scene_t2348375561_0_0_0_Scene_t2348375561_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_2_t1262235195_GenericClass = { 1483, { &GenInst_Scene_t2348375561_0_0_0_Scene_t2348375561_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_2_t1262235195_0_0_0 = { &UnityAction_2_t1262235195_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_2_t1262235195_0_0_17 = { &UnityAction_2_t1262235195_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -4742,8 +4752,8 @@ extern const RuntimeType SpriteAtlas_t646931412_1_0_0 = { (void*)1383, 0, IL2CPP
 Il2CppGenericClass IEnumerator_1_t1854623685_GenericClass = { 25, { &GenInst_DisallowMultipleComponent_t1422053217_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1854623685_0_0_0 = { &IEnumerator_1_t1854623685_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType DisallowMultipleComponent_t1422053217_0_0_0 = { (void*)1388, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DisallowMultipleComponent_t1422053217_1_0_0 = { (void*)1388, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DisallowMultipleComponent_t1422053217_0_0_0 = { (void*)1389, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DisallowMultipleComponent_t1422053217_1_0_0 = { (void*)1389, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t2329117334_GenericClass = { 41, { &GenInst_DisallowMultipleComponent_t1422053217_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t2329117334_0_0_0 = { &InternalEnumerator_1_t2329117334_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -4796,8 +4806,8 @@ extern const RuntimeType IEnumerable_1_t3397314904_0_0_0 = { &IEnumerable_1_t339
 Il2CppGenericClass IEnumerator_1_t4160301817_GenericClass = { 25, { &GenInst_ExecuteInEditMode_t3727731349_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t4160301817_0_0_0 = { &IEnumerator_1_t4160301817_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ExecuteInEditMode_t3727731349_0_0_0 = { (void*)1392, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ExecuteInEditMode_t3727731349_1_0_0 = { (void*)1392, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ExecuteInEditMode_t3727731349_0_0_0 = { (void*)1393, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ExecuteInEditMode_t3727731349_1_0_0 = { (void*)1393, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t339828170_GenericClass = { 41, { &GenInst_ExecuteInEditMode_t3727731349_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t339828170_0_0_0 = { &InternalEnumerator_1_t339828170_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -4814,8 +4824,8 @@ extern const RuntimeType IEnumerable_1_t2707584238_0_0_0 = { &IEnumerable_1_t270
 Il2CppGenericClass IEnumerator_1_t3923077077_GenericClass = { 25, { &GenInst_RequireComponent_t3490506609_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3923077077_0_0_0 = { &IEnumerator_1_t3923077077_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType RequireComponent_t3490506609_0_0_0 = { (void*)1389, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RequireComponent_t3490506609_1_0_0 = { (void*)1389, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RequireComponent_t3490506609_0_0_0 = { (void*)1390, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RequireComponent_t3490506609_1_0_0 = { (void*)1390, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t102603430_GenericClass = { 41, { &GenInst_RequireComponent_t3490506609_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t102603430_0_0_0 = { &InternalEnumerator_1_t102603430_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -4854,8 +4864,8 @@ Il2CppGenericClass List_1_t3058052573_GenericClass = { 174, { &GenInst_OrderBloc
 extern const RuntimeType List_1_t3058052573_0_0_0 = { &List_1_t3058052573_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t3058052573_0_0_17 = { &List_1_t3058052573_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType OrderBlock_t1585977831_0_0_0 = { (void*)1403, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType OrderBlock_t1585977831_1_0_0 = { (void*)1403, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType OrderBlock_t1585977831_0_0_0 = { (void*)1404, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType OrderBlock_t1585977831_1_0_0 = { (void*)1404, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass ICollection_1_t119162769_GenericClass = { 49, { &GenInst_OrderBlock_t1585977831_0_0_0, NULL }, NULL };
 extern const RuntimeType ICollection_1_t119162769_0_0_0 = { &ICollection_1_t119162769_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -4911,16 +4921,62 @@ extern const RuntimeType DefaultComparer_t3733548460_0_0_0 = { &DefaultComparer_
 Il2CppGenericClass Comparison_1_t1360909010_GenericClass = { 920, { &GenInst_OrderBlock_t1585977831_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t1360909010_0_0_0 = { &Comparison_1_t1360909010_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
+Il2CppGenericClass Dictionary_2_t1968819495_GenericClass = { 160, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t1968819495_0_0_0 = { &Dictionary_2_t1968819495_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Dictionary_2_t1968819495_0_0_17 = { &Dictionary_2_t1968819495_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2899676600_GenericClass = { 49, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2899676600_0_0_0 = { &ICollection_1_t2899676600_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t71524366_GenericClass = { 173, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t71524366_0_0_0 = { &KeyValuePair_2_t71524366_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t504094834_GenericClass = { 25, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t504094834_0_0_0 = { &IEnumerator_1_t504094834_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t978588483_GenericClass = { 41, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t978588483_0_0_0 = { &InternalEnumerator_1_t978588483_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1886844149_GenericClass = { 48, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1886844149_0_0_0 = { &IList_1_t1886844149_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3346344551_GenericClass = { 29, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3346344551_0_0_0 = { &IEnumerable_1_t3346344551_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IDictionary_2_t432670886_GenericClass = { 170, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType IDictionary_2_t432670886_0_0_0 = { &IDictionary_2_t432670886_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t3684863813_GenericClass = { 163, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t3684863813_0_0_0 = { &ValueCollection_t3684863813_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t2537713152_GenericClass = { 164, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t2537713152_0_0_0 = { &Enumerator_t2537713152_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3923002270_GenericClass = { 162, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3923002270_0_0_0 = { &Enumerator_t3923002270_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t2404408695_GenericClass = { 165, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t2404408695_0_0_0 = { &Transform_1_t2404408695_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t2448278169_GenericClass = { 165, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t2448278169_0_0_0 = { &Transform_1_t2448278169_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t3690794193_GenericClass = { 165, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t3690794193_0_0_0 = { &Transform_1_t3690794193_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ShimEnumerator_t1965540292_GenericClass = { 161, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType ShimEnumerator_t1965540292_0_0_0 = { &ShimEnumerator_t1965540292_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
 Il2CppGenericClass IEnumerator_1_t3751599405_GenericClass = { 25, { &GenInst_Vector4_t3319028937_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3751599405_0_0_0 = { &IEnumerator_1_t3751599405_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Vector4_t3319028937_0_0_0 = { (void*)1491, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector4_t3319028937_1_0_0 = { (void*)1491, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Vector4_t3319028937_1_0_2 = { (void*)1491, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Vector4_t3319028937_0_0_49 = { (void*)1491, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector4_t3319028937_0_0_6 = { (void*)1491, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector4_t3319028937_0_0_1 = { (void*)1491, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector4_t3319028937_0_0_4 = { (void*)1491, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector4_t3319028937_0_0_0 = { (void*)1493, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector4_t3319028937_1_0_0 = { (void*)1493, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Vector4_t3319028937_1_0_2 = { (void*)1493, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Vector4_t3319028937_0_0_49 = { (void*)1493, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector4_t3319028937_0_0_6 = { (void*)1493, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector4_t3319028937_0_0_1 = { (void*)1493, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector4_t3319028937_0_0_4 = { (void*)1493, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t4226093054_GenericClass = { 41, { &GenInst_Vector4_t3319028937_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t4226093054_0_0_0 = { &InternalEnumerator_1_t4226093054_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -4937,18 +4993,18 @@ extern const RuntimeType IEnumerable_1_t2298881826_0_0_0 = { &IEnumerable_1_t229
 Il2CppGenericClass IEnumerator_1_t2588799991_GenericClass = { 25, { &GenInst_Vector2_t2156229523_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2588799991_0_0_0 = { &IEnumerator_1_t2588799991_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Vector2_t2156229523_0_0_0 = { (void*)1489, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector2_t2156229523_1_0_0 = { (void*)1489, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Vector2_t2156229523_0_0_1 = { (void*)1489, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector2_t2156229523_1_0_2 = { (void*)1489, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Vector2_t2156229523_0_0_49 = { (void*)1489, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector2_t2156229523_0_0_3 = { (void*)1489, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector2_t2156229523_0_0_6 = { (void*)1489, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector2_t2156229523_0_0_19 = { (void*)1489, 19, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector2_t2156229523_0_0_17 = { (void*)1489, 17, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector2_t2156229523_0_0_4 = { (void*)1489, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector2_t2156229523_0_0_22 = { (void*)1489, 22, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector2_t2156229523_0_0_20 = { (void*)1489, 20, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector2_t2156229523_0_0_0 = { (void*)1491, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector2_t2156229523_1_0_0 = { (void*)1491, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Vector2_t2156229523_0_0_1 = { (void*)1491, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector2_t2156229523_1_0_2 = { (void*)1491, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Vector2_t2156229523_0_0_49 = { (void*)1491, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector2_t2156229523_0_0_3 = { (void*)1491, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector2_t2156229523_0_0_6 = { (void*)1491, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector2_t2156229523_0_0_19 = { (void*)1491, 19, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector2_t2156229523_0_0_17 = { (void*)1491, 17, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector2_t2156229523_0_0_4 = { (void*)1491, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector2_t2156229523_0_0_22 = { (void*)1491, 22, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector2_t2156229523_0_0_20 = { (void*)1491, 20, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3063293640_GenericClass = { 41, { &GenInst_Vector2_t2156229523_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t3063293640_0_0_0 = { &InternalEnumerator_1_t3063293640_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -4965,14 +5021,14 @@ extern const RuntimeType IEnumerable_1_t1136082412_0_0_0 = { &IEnumerable_1_t113
 Il2CppGenericClass IEnumerator_1_t3033071760_GenericClass = { 25, { &GenInst_Color32_t2600501292_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3033071760_0_0_0 = { &IEnumerator_1_t3033071760_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Color32_t2600501292_0_0_0 = { (void*)1407, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color32_t2600501292_1_0_0 = { (void*)1407, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Color32_t2600501292_0_0_6 = { (void*)1407, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color32_t2600501292_0_0_49 = { (void*)1407, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color32_t2600501292_0_0_4 = { (void*)1407, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color32_t2600501292_0_0_20 = { (void*)1407, 20, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color32_t2600501292_0_0_1 = { (void*)1407, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color32_t2600501292_0_0_3 = { (void*)1407, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color32_t2600501292_0_0_0 = { (void*)1408, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color32_t2600501292_1_0_0 = { (void*)1408, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Color32_t2600501292_0_0_6 = { (void*)1408, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color32_t2600501292_0_0_49 = { (void*)1408, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color32_t2600501292_0_0_4 = { (void*)1408, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color32_t2600501292_0_0_20 = { (void*)1408, 20, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color32_t2600501292_0_0_1 = { (void*)1408, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color32_t2600501292_0_0_3 = { (void*)1408, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3507565409_GenericClass = { 41, { &GenInst_Color32_t2600501292_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t3507565409_0_0_0 = { &InternalEnumerator_1_t3507565409_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5182,8 +5238,8 @@ extern const RuntimeType Comparison_1_t2725876932_0_0_0 = { &Comparison_1_t27258
 Il2CppGenericClass IEnumerator_1_t3662180208_GenericClass = { 25, { &GenInst_HitInfo_t3229609740_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3662180208_0_0_0 = { &IEnumerator_1_t3662180208_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType HitInfo_t3229609740_0_0_0 = { (void*)1440, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType HitInfo_t3229609740_1_0_0 = { (void*)1440, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType HitInfo_t3229609740_0_0_0 = { (void*)1442, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HitInfo_t3229609740_1_0_0 = { (void*)1442, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t4136673857_GenericClass = { 41, { &GenInst_HitInfo_t3229609740_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t4136673857_0_0_0 = { &InternalEnumerator_1_t4136673857_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5197,75 +5253,75 @@ extern const RuntimeType ICollection_1_t1762794678_0_0_0 = { &ICollection_1_t176
 Il2CppGenericClass IEnumerable_1_t2209462629_GenericClass = { 29, { &GenInst_HitInfo_t3229609740_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerable_1_t2209462629_0_0_0 = { &IEnumerable_1_t2209462629_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_1_t3197270402_GenericClass = { 1467, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_1_t3197270402_GenericClass = { 1469, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_1_t3197270402_0_0_0 = { &InvokableCall_1_t3197270402_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t3664942305_GenericClass = { 1479, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t3664942305_GenericClass = { 1481, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t3664942305_0_0_0 = { &UnityAction_1_t3664942305_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_2_t362407658_GenericClass = { 1468, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_2_t362407658_GenericClass = { 1470, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_2_t362407658_0_0_0 = { &InvokableCall_2_t362407658_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_2_t3283971887_GenericClass = { 1481, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_2_t3283971887_GenericClass = { 1483, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_2_t3283971887_0_0_0 = { &UnityAction_2_t3283971887_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_3_t4059188962_GenericClass = { 1469, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_3_t4059188962_GenericClass = { 1471, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_3_t4059188962_0_0_0 = { &InvokableCall_3_t4059188962_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_3_t1557236713_GenericClass = { 1483, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_3_t1557236713_GenericClass = { 1485, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_3_t1557236713_0_0_0 = { &UnityAction_3_t1557236713_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_4_t2756980746_GenericClass = { 1470, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_4_t2756980746_GenericClass = { 1472, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_4_t2756980746_0_0_0 = { &InvokableCall_4_t2756980746_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_4_t682480391_GenericClass = { 1485, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_4_t682480391_GenericClass = { 1487, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_4_t682480391_0_0_0 = { &UnityAction_4_t682480391_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass CachedInvokableCall_1_t1111334208_GenericClass = { 1471, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass CachedInvokableCall_1_t1111334208_GenericClass = { 1473, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType CachedInvokableCall_1_t1111334208_0_0_0 = { &CachedInvokableCall_1_t1111334208_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass CachedInvokableCall_1_t3723462114_GenericClass = { 1471, { &GenInst_Single_t1397266774_0_0_0, NULL }, NULL };
+Il2CppGenericClass CachedInvokableCall_1_t3723462114_GenericClass = { 1473, { &GenInst_Single_t1397266774_0_0_0, NULL }, NULL };
 extern const RuntimeType CachedInvokableCall_1_t3723462114_0_0_0 = { &CachedInvokableCall_1_t3723462114_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_1_t1514431012_GenericClass = { 1467, { &GenInst_Single_t1397266774_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_1_t1514431012_GenericClass = { 1469, { &GenInst_Single_t1397266774_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_1_t1514431012_0_0_0 = { &InvokableCall_1_t1514431012_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t1982102915_GenericClass = { 1479, { &GenInst_Single_t1397266774_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t1982102915_GenericClass = { 1481, { &GenInst_Single_t1397266774_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t1982102915_0_0_0 = { &UnityAction_1_t1982102915_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass CachedInvokableCall_1_t982173797_GenericClass = { 1471, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass CachedInvokableCall_1_t982173797_GenericClass = { 1473, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType CachedInvokableCall_1_t982173797_0_0_0 = { &CachedInvokableCall_1_t982173797_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_1_t3068109991_GenericClass = { 1467, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_1_t3068109991_GenericClass = { 1469, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_1_t3068109991_0_0_0 = { &InvokableCall_1_t3068109991_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t3535781894_GenericClass = { 1479, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t3535781894_GenericClass = { 1481, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t3535781894_0_0_0 = { &UnityAction_1_t3535781894_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass CachedInvokableCall_1_t4173646029_GenericClass = { 1471, { &GenInst_String_t_0_0_0, NULL }, NULL };
+Il2CppGenericClass CachedInvokableCall_1_t4173646029_GenericClass = { 1473, { &GenInst_String_t_0_0_0, NULL }, NULL };
 extern const RuntimeType CachedInvokableCall_1_t4173646029_0_0_0 = { &CachedInvokableCall_1_t4173646029_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_1_t1964614927_GenericClass = { 1467, { &GenInst_String_t_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_1_t1964614927_GenericClass = { 1469, { &GenInst_String_t_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_1_t1964614927_0_0_0 = { &InvokableCall_1_t1964614927_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t2432286830_GenericClass = { 1479, { &GenInst_String_t_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t2432286830_GenericClass = { 1481, { &GenInst_String_t_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t2432286830_0_0_0 = { &UnityAction_1_t2432286830_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass CachedInvokableCall_1_t2423483305_GenericClass = { 1471, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
+Il2CppGenericClass CachedInvokableCall_1_t2423483305_GenericClass = { 1473, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
 extern const RuntimeType CachedInvokableCall_1_t2423483305_0_0_0 = { &CachedInvokableCall_1_t2423483305_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_1_t214452203_GenericClass = { 1467, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_1_t214452203_GenericClass = { 1469, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_1_t214452203_0_0_0 = { &InvokableCall_1_t214452203_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t682124106_GenericClass = { 1479, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t682124106_GenericClass = { 1481, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t682124106_0_0_0 = { &UnityAction_1_t682124106_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t584821570_GenericClass = { 174, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t584821570_0_0_0 = { &List_1_t584821570_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t584821570_0_0_1 = { &List_1_t584821570_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType PersistentCall_t3407714124_0_0_0 = { (void*)1473, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PersistentCall_t3407714124_1_0_0 = { (void*)1473, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PersistentCall_t3407714124_0_0_0 = { (void*)1475, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PersistentCall_t3407714124_1_0_0 = { (void*)1475, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3840284592_GenericClass = { 25, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3840284592_0_0_0 = { &IEnumerator_1_t3840284592_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5298,8 +5354,8 @@ Il2CppGenericClass List_1_t4176035766_GenericClass = { 174, { &GenInst_BaseInvok
 extern const RuntimeType List_1_t4176035766_0_0_0 = { &List_1_t4176035766_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t4176035766_0_0_33 = { &List_1_t4176035766_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType BaseInvokableCall_t2703961024_0_0_0 = { (void*)1465, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseInvokableCall_t2703961024_1_0_0 = { (void*)1465, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BaseInvokableCall_t2703961024_0_0_0 = { (void*)1467, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseInvokableCall_t2703961024_1_0_0 = { (void*)1467, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3136531492_GenericClass = { 25, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3136531492_0_0_0 = { &IEnumerator_1_t3136531492_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5328,24 +5384,24 @@ extern const RuntimeType Enumerator_t1770312347_0_0_0 = { &Enumerator_t177031234
 Il2CppGenericClass Comparison_1_t2478892203_GenericClass = { 920, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t2478892203_0_0_0 = { &Comparison_1_t2478892203_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_1_t3961765668_GenericClass = { 1480, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_1_t3961765668_GenericClass = { 1482, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_1_t3961765668_0_0_0 = { &UnityEvent_1_t3961765668_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_2_t614268397_GenericClass = { 1482, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_2_t614268397_GenericClass = { 1484, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_2_t614268397_0_0_0 = { &UnityEvent_2_t614268397_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_3_t2404744798_GenericClass = { 1484, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_3_t2404744798_GenericClass = { 1486, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_3_t2404744798_0_0_0 = { &UnityEvent_3_t2404744798_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_4_t4085588227_GenericClass = { 1486, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_4_t4085588227_GenericClass = { 1488, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_4_t4085588227_0_0_0 = { &UnityEvent_4_t4085588227_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Queue_1_t1200778106_GenericClass = { 1079, { &GenInst_WorkRequest_t1354518612_0_0_0, NULL }, NULL };
 extern const RuntimeType Queue_1_t1200778106_0_0_0 = { &Queue_1_t1200778106_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Queue_1_t1200778106_0_0_33 = { &Queue_1_t1200778106_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType WorkRequest_t1354518612_0_0_0 = { (void*)1488, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType WorkRequest_t1354518612_1_0_0 = { (void*)1488, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType WorkRequest_t1354518612_0_0_0 = { (void*)1490, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType WorkRequest_t1354518612_1_0_0 = { (void*)1490, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerable_1_t334371501_GenericClass = { 29, { &GenInst_WorkRequest_t1354518612_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerable_1_t334371501_0_0_0 = { &IEnumerable_1_t334371501_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5369,29 +5425,29 @@ Il2CppGenericClass IEquatable_1_t4221962141_GenericClass = { 13, { &GenInst_Came
 extern const RuntimeType IEquatable_1_t4221962141_0_0_0 = { &IEquatable_1_t4221962141_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t4221962141_0_0_1 = { &IEquatable_1_t4221962141_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType CameraPlayable_t3330816414_0_0_0 = { (void*)1503, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CameraPlayable_t3330816414_1_0_0 = { (void*)1503, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CameraPlayable_t3330816414_0_0_0 = { (void*)1505, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CameraPlayable_t3330816414_1_0_0 = { (void*)1505, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass IEquatable_1_t591386409_GenericClass = { 13, { &GenInst_MaterialEffectPlayable_t3995207978_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t591386409_0_0_0 = { &IEquatable_1_t591386409_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t591386409_0_0_1 = { &IEquatable_1_t591386409_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType MaterialEffectPlayable_t3995207978_0_0_0 = { (void*)1507, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MaterialEffectPlayable_t3995207978_1_0_0 = { (void*)1507, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType MaterialEffectPlayable_t3995207978_0_0_0 = { (void*)1509, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MaterialEffectPlayable_t3995207978_1_0_0 = { (void*)1509, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass IEquatable_1_t1350971334_GenericClass = { 13, { &GenInst_Playable_t459825607_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t1350971334_0_0_0 = { &IEquatable_1_t1350971334_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t1350971334_0_0_1 = { &IEquatable_1_t1350971334_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Playable_t459825607_0_0_0 = { (void*)1508, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Playable_t459825607_1_0_0 = { (void*)1508, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Playable_t459825607_0_0_49 = { (void*)1508, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Playable_t459825607_0_0_0 = { (void*)1510, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Playable_t459825607_1_0_0 = { (void*)1510, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Playable_t459825607_0_0_49 = { (void*)1510, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t786831177_GenericClass = { 25, { &GenInst_PlayableBinding_t354260709_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t786831177_0_0_0 = { &IEnumerator_1_t786831177_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType PlayableBinding_t354260709_0_0_0 = { (void*)1509, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType PlayableBinding_t354260709_1_0_0 = { (void*)1509, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType PlayableBinding_t354260709_0_0_0 = { (void*)1511, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PlayableBinding_t354260709_1_0_0 = { (void*)1511, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t1261324826_GenericClass = { 41, { &GenInst_PlayableBinding_t354260709_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t1261324826_0_0_0 = { &InternalEnumerator_1_t1261324826_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5409,26 +5465,26 @@ Il2CppGenericClass IEquatable_1_t4071039832_GenericClass = { 13, { &GenInst_Play
 extern const RuntimeType IEquatable_1_t4071039832_0_0_0 = { &IEquatable_1_t4071039832_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t4071039832_0_0_1 = { &IEquatable_1_t4071039832_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType PlayableOutput_t3179894105_0_0_0 = { (void*)1516, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType PlayableOutput_t3179894105_1_0_0 = { (void*)1516, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType PlayableOutput_t3179894105_0_0_49 = { (void*)1516, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PlayableOutput_t3179894105_0_0_0 = { (void*)1518, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PlayableOutput_t3179894105_1_0_0 = { (void*)1518, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType PlayableOutput_t3179894105_0_0_49 = { (void*)1518, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEquatable_1_t3289749689_GenericClass = { 13, { &GenInst_TextureMixerPlayable_t2398603962_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t3289749689_0_0_0 = { &IEquatable_1_t3289749689_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t3289749689_0_0_1 = { &IEquatable_1_t3289749689_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TextureMixerPlayable_t2398603962_0_0_0 = { (void*)1518, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextureMixerPlayable_t2398603962_1_0_0 = { (void*)1518, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextureMixerPlayable_t2398603962_0_0_0 = { (void*)1520, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextureMixerPlayable_t2398603962_1_0_0 = { (void*)1520, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-Il2CppGenericClass UnityEvent_1_t3832605257_GenericClass = { 1480, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_1_t3832605257_GenericClass = { 1482, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_1_t3832605257_0_0_0 = { &UnityEvent_1_t3832605257_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t3157010512_GenericClass = { 174, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t3157010512_0_0_0 = { &List_1_t3157010512_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t3157010512_0_0_6 = { &List_1_t3157010512_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType MessageTypeSubscribers_t1684935770_0_0_0 = { (void*)1531, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MessageTypeSubscribers_t1684935770_1_0_0 = { (void*)1531, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MessageTypeSubscribers_t1684935770_0_0_0 = { (void*)1533, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MessageTypeSubscribers_t1684935770_1_0_0 = { (void*)1533, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2117506238_GenericClass = { 25, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2117506238_0_0_0 = { &IEnumerator_1_t2117506238_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5463,13 +5519,13 @@ extern const RuntimeType Func_2_t2172606577_0_0_0 = { &Func_2_t2172606577_Generi
 Il2CppGenericClass U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3129926735_GenericClass = { 1243, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
 extern const RuntimeType U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3129926735_0_0_0 = { &U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3129926735_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_1_t2052235288_GenericClass = { 1480, { &GenInst_MessageEventArgs_t1170575784_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_1_t2052235288_GenericClass = { 1482, { &GenInst_MessageEventArgs_t1170575784_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_1_t2052235288_0_0_0 = { &UnityEvent_1_t2052235288_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType MessageEventArgs_t1170575784_0_0_0 = { (void*)1525, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MessageEventArgs_t1170575784_1_0_0 = { (void*)1525, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MessageEventArgs_t1170575784_0_0_0 = { (void*)1527, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MessageEventArgs_t1170575784_1_0_0 = { (void*)1527, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_1_t1755411925_GenericClass = { 1479, { &GenInst_MessageEventArgs_t1170575784_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t1755411925_GenericClass = { 1481, { &GenInst_MessageEventArgs_t1170575784_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t1755411925_0_0_0 = { &UnityAction_1_t1755411925_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Dictionary_2_t3851719731_GenericClass = { 160, { &GenInst_IntPtr_t_0_0_0_WeakReference_t1334886716_0_0_0, NULL }, NULL };
@@ -5586,8 +5642,8 @@ Il2CppGenericClass List_1_t2411569343_GenericClass = { 174, { &GenInst_Rigidbody
 extern const RuntimeType List_1_t2411569343_0_0_0 = { &List_1_t2411569343_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t2411569343_0_0_17 = { &List_1_t2411569343_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Rigidbody2D_t939494601_0_0_0 = { (void*)1550, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Rigidbody2D_t939494601_1_0_0 = { (void*)1550, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Rigidbody2D_t939494601_0_0_0 = { (void*)1552, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Rigidbody2D_t939494601_1_0_0 = { (void*)1552, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1372065069_GenericClass = { 25, { &GenInst_Rigidbody2D_t939494601_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1372065069_0_0_0 = { &IEnumerator_1_t1372065069_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5619,9 +5675,9 @@ extern const RuntimeType Comparison_1_t714425780_0_0_0 = { &Comparison_1_t714425
 Il2CppGenericClass IEnumerator_1_t2712152457_GenericClass = { 25, { &GenInst_RaycastHit2D_t2279581989_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2712152457_0_0_0 = { &IEnumerator_1_t2712152457_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType RaycastHit2D_t2279581989_0_0_0 = { (void*)1555, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RaycastHit2D_t2279581989_1_0_2 = { (void*)1555, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RaycastHit2D_t2279581989_1_0_0 = { (void*)1555, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RaycastHit2D_t2279581989_0_0_0 = { (void*)1557, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RaycastHit2D_t2279581989_1_0_2 = { (void*)1557, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RaycastHit2D_t2279581989_1_0_0 = { (void*)1557, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3186646106_GenericClass = { 41, { &GenInst_RaycastHit2D_t2279581989_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t3186646106_0_0_0 = { &InternalEnumerator_1_t3186646106_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5638,8 +5694,8 @@ extern const RuntimeType IEnumerable_1_t1259434878_0_0_0 = { &IEnumerable_1_t125
 Il2CppGenericClass IEnumerator_1_t3822811112_GenericClass = { 25, { &GenInst_ContactPoint2D_t3390240644_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3822811112_0_0_0 = { &IEnumerator_1_t3822811112_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ContactPoint2D_t3390240644_0_0_0 = { (void*)1554, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ContactPoint2D_t3390240644_1_0_0 = { (void*)1554, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ContactPoint2D_t3390240644_0_0_0 = { (void*)1556, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ContactPoint2D_t3390240644_1_0_0 = { (void*)1556, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t2337465_GenericClass = { 41, { &GenInst_ContactPoint2D_t3390240644_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t2337465_0_0_0 = { &InternalEnumerator_1_t2337465_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5657,18 +5713,18 @@ Il2CppGenericClass Action_1_t2129269699_GenericClass = { 917, { &GenInst_Font_t1
 extern const RuntimeType Action_1_t2129269699_0_0_0 = { &Action_1_t2129269699_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Action_1_t2129269699_0_0_17 = { &Action_1_t2129269699_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Font_t1956802104_0_0_0 = { (void*)1561, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Font_t1956802104_1_0_0 = { (void*)1561, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Font_t1956802104_0_0_6 = { (void*)1561, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Font_t1956802104_0_0_129 = { (void*)1561, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Font_t1956802104_0_0_1 = { (void*)1561, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Font_t1956802104_0_0_0 = { (void*)1563, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Font_t1956802104_1_0_0 = { (void*)1563, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Font_t1956802104_0_0_6 = { (void*)1563, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Font_t1956802104_0_0_129 = { (void*)1563, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Font_t1956802104_0_0_1 = { (void*)1563, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IList_1_t1577850092_GenericClass = { 48, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t1577850092_0_0_0 = { &IList_1_t1577850092_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType UIVertex_t4057497605_0_0_0 = { (void*)1565, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType UIVertex_t4057497605_1_0_0 = { (void*)1565, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType UIVertex_t4057497605_0_0_22 = { (void*)1565, 22, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType UIVertex_t4057497605_0_0_0 = { (void*)1567, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType UIVertex_t4057497605_1_0_0 = { (void*)1567, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType UIVertex_t4057497605_0_0_22 = { (void*)1567, 22, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t195100777_GenericClass = { 25, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t195100777_0_0_0 = { &IEnumerator_1_t195100777_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5728,8 +5784,8 @@ extern const RuntimeType Comparison_1_t3832428784_0_0_0 = { &Comparison_1_t38324
 Il2CppGenericClass IList_1_t1890820889_GenericClass = { 48, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t1890820889_0_0_0 = { &IList_1_t1890820889_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType UICharInfo_t75501106_0_0_0 = { (void*)1563, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType UICharInfo_t75501106_1_0_0 = { (void*)1563, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType UICharInfo_t75501106_0_0_0 = { (void*)1565, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType UICharInfo_t75501106_1_0_0 = { (void*)1565, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t508071574_GenericClass = { 25, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t508071574_0_0_0 = { &IEnumerator_1_t508071574_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5789,8 +5845,8 @@ extern const RuntimeType Comparison_1_t4145399581_0_0_0 = { &Comparison_1_t41453
 Il2CppGenericClass IList_1_t1715619297_GenericClass = { 48, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t1715619297_0_0_0 = { &IList_1_t1715619297_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType UILineInfo_t4195266810_0_0_0 = { (void*)1564, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType UILineInfo_t4195266810_1_0_0 = { (void*)1564, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType UILineInfo_t4195266810_0_0_0 = { (void*)1566, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType UILineInfo_t4195266810_1_0_0 = { (void*)1566, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t332869982_GenericClass = { 25, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t332869982_0_0_0 = { &IEnumerator_1_t332869982_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5851,53 +5907,53 @@ Il2CppGenericClass IEquatable_1_t1906913568_GenericClass = { 13, { &GenInst_Anim
 extern const RuntimeType IEquatable_1_t1906913568_0_0_0 = { &IEquatable_1_t1906913568_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t1906913568_0_0_1 = { &IEquatable_1_t1906913568_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AnimatorControllerPlayable_t1015767841_0_0_0 = { (void*)1584, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimatorControllerPlayable_t1015767841_1_0_0 = { (void*)1584, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType AnimatorControllerPlayable_t1015767841_0_0_49 = { (void*)1584, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimatorControllerPlayable_t1015767841_0_0_0 = { (void*)1586, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimatorControllerPlayable_t1015767841_1_0_0 = { (void*)1586, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimatorControllerPlayable_t1015767841_0_0_49 = { (void*)1586, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEquatable_1_t4080264379_GenericClass = { 13, { &GenInst_AnimationClipPlayable_t3189118652_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t4080264379_0_0_0 = { &IEquatable_1_t4080264379_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t4080264379_0_0_1 = { &IEquatable_1_t4080264379_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AnimationClipPlayable_t3189118652_0_0_0 = { (void*)1590, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimationClipPlayable_t3189118652_1_0_0 = { (void*)1590, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimationClipPlayable_t3189118652_0_0_0 = { (void*)1592, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationClipPlayable_t3189118652_1_0_0 = { (void*)1592, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass IEquatable_1_t227402328_GenericClass = { 13, { &GenInst_AnimationLayerMixerPlayable_t3631223897_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t227402328_0_0_0 = { &IEquatable_1_t227402328_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t227402328_0_0_1 = { &IEquatable_1_t227402328_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AnimationLayerMixerPlayable_t3631223897_0_0_0 = { (void*)1591, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimationLayerMixerPlayable_t3631223897_1_0_0 = { (void*)1591, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType AnimationLayerMixerPlayable_t3631223897_0_0_49 = { (void*)1591, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationLayerMixerPlayable_t3631223897_0_0_0 = { (void*)1593, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationLayerMixerPlayable_t3631223897_1_0_0 = { (void*)1593, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimationLayerMixerPlayable_t3631223897_0_0_49 = { (void*)1593, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEquatable_1_t1712517113_GenericClass = { 13, { &GenInst_AnimationMixerPlayable_t821371386_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t1712517113_0_0_0 = { &IEquatable_1_t1712517113_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t1712517113_0_0_1 = { &IEquatable_1_t1712517113_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AnimationMixerPlayable_t821371386_0_0_0 = { (void*)1592, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimationMixerPlayable_t821371386_1_0_0 = { (void*)1592, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimationMixerPlayable_t821371386_0_0_0 = { (void*)1594, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationMixerPlayable_t821371386_1_0_0 = { (void*)1594, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass IEquatable_1_t1163377278_GenericClass = { 13, { &GenInst_AnimationMotionXToDeltaPlayable_t272231551_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t1163377278_0_0_0 = { &IEquatable_1_t1163377278_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t1163377278_0_0_1 = { &IEquatable_1_t1163377278_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AnimationMotionXToDeltaPlayable_t272231551_0_0_0 = { (void*)1593, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimationMotionXToDeltaPlayable_t272231551_1_0_0 = { (void*)1593, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimationMotionXToDeltaPlayable_t272231551_0_0_0 = { (void*)1595, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationMotionXToDeltaPlayable_t272231551_1_0_0 = { (void*)1595, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass IEquatable_1_t3778566141_GenericClass = { 13, { &GenInst_AnimationOffsetPlayable_t2887420414_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t3778566141_0_0_0 = { &IEquatable_1_t3778566141_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t3778566141_0_0_1 = { &IEquatable_1_t3778566141_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AnimationOffsetPlayable_t2887420414_0_0_0 = { (void*)1594, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimationOffsetPlayable_t2887420414_1_0_0 = { (void*)1594, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType AnimationOffsetPlayable_t2887420414_0_0_49 = { (void*)1594, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationOffsetPlayable_t2887420414_0_0_0 = { (void*)1596, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationOffsetPlayable_t2887420414_1_0_0 = { (void*)1596, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimationOffsetPlayable_t2887420414_0_0_49 = { (void*)1596, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t2069970928_GenericClass = { 174, { &GenInst_AudioSpatializerExtensionDefinition_t597896186_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t2069970928_0_0_0 = { &List_1_t2069970928_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t2069970928_0_0_17 = { &List_1_t2069970928_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AudioSpatializerExtensionDefinition_t597896186_0_0_0 = { (void*)1608, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioSpatializerExtensionDefinition_t597896186_1_0_0 = { (void*)1608, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioSpatializerExtensionDefinition_t597896186_0_0_0 = { (void*)1610, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioSpatializerExtensionDefinition_t597896186_1_0_0 = { (void*)1610, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1030466654_GenericClass = { 25, { &GenInst_AudioSpatializerExtensionDefinition_t597896186_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1030466654_0_0_0 = { &IEnumerator_1_t1030466654_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5930,8 +5986,8 @@ Il2CppGenericClass List_1_t1295534336_GenericClass = { 174, { &GenInst_AudioAmbi
 extern const RuntimeType List_1_t1295534336_0_0_0 = { &List_1_t1295534336_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t1295534336_0_0_17 = { &List_1_t1295534336_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AudioAmbisonicExtensionDefinition_t4118426890_0_0_0 = { (void*)1609, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioAmbisonicExtensionDefinition_t4118426890_1_0_0 = { (void*)1609, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioAmbisonicExtensionDefinition_t4118426890_0_0_0 = { (void*)1611, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioAmbisonicExtensionDefinition_t4118426890_1_0_0 = { (void*)1611, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t256030062_GenericClass = { 25, { &GenInst_AudioAmbisonicExtensionDefinition_t4118426890_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t256030062_0_0_0 = { &IEnumerator_1_t256030062_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -5964,9 +6020,9 @@ Il2CppGenericClass List_1_t242016280_GenericClass = { 174, { &GenInst_AudioSourc
 extern const RuntimeType List_1_t242016280_0_0_0 = { &List_1_t242016280_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t242016280_0_0_17 = { &List_1_t242016280_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AudioSourceExtension_t3064908834_0_0_0 = { (void*)1611, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioSourceExtension_t3064908834_0_0_3 = { (void*)1611, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioSourceExtension_t3064908834_1_0_0 = { (void*)1611, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioSourceExtension_t3064908834_0_0_0 = { (void*)1613, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioSourceExtension_t3064908834_0_0_3 = { (void*)1613, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioSourceExtension_t3064908834_1_0_0 = { (void*)1613, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3497479302_GenericClass = { 25, { &GenInst_AudioSourceExtension_t3064908834_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3497479302_0_0_0 = { &IEnumerator_1_t3497479302_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6017,21 +6073,21 @@ Il2CppGenericClass IEquatable_1_t1676214749_GenericClass = { 13, { &GenInst_Audi
 extern const RuntimeType IEquatable_1_t1676214749_0_0_0 = { &IEquatable_1_t1676214749_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t1676214749_0_0_1 = { &IEquatable_1_t1676214749_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AudioClipPlayable_t785069022_0_0_0 = { (void*)1613, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AudioClipPlayable_t785069022_1_0_0 = { (void*)1613, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AudioClipPlayable_t785069022_0_0_0 = { (void*)1615, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AudioClipPlayable_t785069022_1_0_0 = { (void*)1615, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass IEquatable_1_t116726928_GenericClass = { 13, { &GenInst_AudioMixerPlayable_t3520548497_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t116726928_0_0_0 = { &IEquatable_1_t116726928_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEquatable_1_t116726928_0_0_1 = { &IEquatable_1_t116726928_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AudioMixerPlayable_t3520548497_0_0_0 = { (void*)1614, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AudioMixerPlayable_t3520548497_1_0_0 = { (void*)1614, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AudioMixerPlayable_t3520548497_0_0_0 = { (void*)1616, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AudioMixerPlayable_t3520548497_1_0_0 = { (void*)1616, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1244367767_GenericClass = { 25, { &GenInst_GUILayoutOption_t811797299_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1244367767_0_0_0 = { &IEnumerator_1_t1244367767_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType GUILayoutOption_t811797299_0_0_0 = { (void*)1631, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUILayoutOption_t811797299_1_0_0 = { (void*)1631, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUILayoutOption_t811797299_0_0_0 = { (void*)1635, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUILayoutOption_t811797299_1_0_0 = { (void*)1635, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t1718861416_GenericClass = { 41, { &GenInst_GUILayoutOption_t811797299_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t1718861416_0_0_0 = { &InternalEnumerator_1_t1718861416_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6049,54 +6105,9 @@ Il2CppGenericClass Dictionary_2_t3261990503_GenericClass = { 160, { &GenInst_Int
 extern const RuntimeType Dictionary_2_t3261990503_0_0_0 = { &Dictionary_2_t3261990503_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Dictionary_2_t3261990503_0_0_17 = { &Dictionary_2_t3261990503_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType LayoutCache_t78309876_0_0_0 = { (void*)1622, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LayoutCache_t78309876_0_0_19 = { (void*)1622, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LayoutCache_t78309876_1_0_0 = { (void*)1622, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-
-Il2CppGenericClass Dictionary_2_t1968819495_GenericClass = { 160, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
-extern const RuntimeType Dictionary_2_t1968819495_0_0_0 = { &Dictionary_2_t1968819495_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass ICollection_1_t2899676600_GenericClass = { 49, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
-extern const RuntimeType ICollection_1_t2899676600_0_0_0 = { &ICollection_1_t2899676600_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass KeyValuePair_2_t71524366_GenericClass = { 173, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
-extern const RuntimeType KeyValuePair_2_t71524366_0_0_0 = { &KeyValuePair_2_t71524366_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass IEnumerator_1_t504094834_GenericClass = { 25, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
-extern const RuntimeType IEnumerator_1_t504094834_0_0_0 = { &IEnumerator_1_t504094834_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass InternalEnumerator_1_t978588483_GenericClass = { 41, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
-extern const RuntimeType InternalEnumerator_1_t978588483_0_0_0 = { &InternalEnumerator_1_t978588483_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass IList_1_t1886844149_GenericClass = { 48, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
-extern const RuntimeType IList_1_t1886844149_0_0_0 = { &IList_1_t1886844149_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass IEnumerable_1_t3346344551_GenericClass = { 29, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
-extern const RuntimeType IEnumerable_1_t3346344551_0_0_0 = { &IEnumerable_1_t3346344551_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass IDictionary_2_t432670886_GenericClass = { 170, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
-extern const RuntimeType IDictionary_2_t432670886_0_0_0 = { &IDictionary_2_t432670886_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass ValueCollection_t3684863813_GenericClass = { 163, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
-extern const RuntimeType ValueCollection_t3684863813_0_0_0 = { &ValueCollection_t3684863813_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass Enumerator_t2537713152_GenericClass = { 164, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
-extern const RuntimeType Enumerator_t2537713152_0_0_0 = { &Enumerator_t2537713152_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass Enumerator_t3923002270_GenericClass = { 162, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
-extern const RuntimeType Enumerator_t3923002270_0_0_0 = { &Enumerator_t3923002270_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass Transform_1_t2404408695_GenericClass = { 165, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
-extern const RuntimeType Transform_1_t2404408695_0_0_0 = { &Transform_1_t2404408695_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass Transform_1_t2448278169_GenericClass = { 165, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
-extern const RuntimeType Transform_1_t2448278169_0_0_0 = { &Transform_1_t2448278169_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass Transform_1_t3690794193_GenericClass = { 165, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
-extern const RuntimeType Transform_1_t3690794193_0_0_0 = { &Transform_1_t3690794193_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-
-Il2CppGenericClass ShimEnumerator_t1965540292_GenericClass = { 161, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
-extern const RuntimeType ShimEnumerator_t1965540292_0_0_0 = { &ShimEnumerator_t1965540292_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType LayoutCache_t78309876_0_0_0 = { (void*)1624, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LayoutCache_t78309876_0_0_19 = { (void*)1624, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LayoutCache_t78309876_1_0_0 = { (void*)1624, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t510880344_GenericClass = { 25, { &GenInst_LayoutCache_t78309876_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t510880344_0_0_0 = { &IEnumerator_1_t510880344_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6146,8 +6157,8 @@ extern const RuntimeType Enumerator_t921205982_0_0_0 = { &Enumerator_t921205982_
 Il2CppGenericClass Enumerator_t2280962893_GenericClass = { 175, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2280962893_0_0_0 = { &Enumerator_t2280962893_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType GUILayoutEntry_t3214611570_0_0_0 = { (void*)1635, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUILayoutEntry_t3214611570_1_0_0 = { (void*)1635, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUILayoutEntry_t3214611570_0_0_0 = { (void*)1639, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUILayoutEntry_t3214611570_1_0_0 = { (void*)1639, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass List_1_t391719016_GenericClass = { 174, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t391719016_0_0_0 = { &List_1_t391719016_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6194,13 +6205,13 @@ extern const RuntimeType Exception_t_0_0_6 = { (void*)57, 6, IL2CPP_TYPE_CLASS, 
 Il2CppGenericClass IEnumerator_1_t94504683_GenericClass = { 25, { &GenInst_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t94504683_0_0_0 = { &IEnumerator_1_t94504683_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType GUIStyle_t3956901511_0_0_0 = { (void*)1625, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIStyle_t3956901511_0_0_17 = { (void*)1625, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIStyle_t3956901511_0_0_33 = { (void*)1625, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIStyle_t3956901511_1_0_0 = { (void*)1625, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType GUIStyle_t3956901511_0_0_6 = { (void*)1625, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIStyle_t3956901511_0_0_1 = { (void*)1625, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIStyle_t3956901511_0_0_19 = { (void*)1625, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_0 = { (void*)1628, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_17 = { (void*)1628, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_33 = { (void*)1628, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_1_0_0 = { (void*)1628, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_6 = { (void*)1628, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_1 = { (void*)1628, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_19 = { (void*)1628, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t568998332_GenericClass = { 41, { &GenInst_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t568998332_0_0_0 = { &InternalEnumerator_1_t568998332_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6248,13 +6259,146 @@ extern const RuntimeType Enumerator_t16084171_0_0_0 = { &Enumerator_t16084171_Ge
 Il2CppGenericClass Enumerator_t1401373289_GenericClass = { 162, { &GenInst_String_t_0_0_0_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t1401373289_0_0_0 = { &Enumerator_t1401373289_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
+Il2CppGenericClass Dictionary_2_t3055005891_GenericClass = { 160, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t3055005891_0_0_0 = { &Dictionary_2_t3055005891_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Dictionary_2_t3055005891_0_0_17 = { &Dictionary_2_t3055005891_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType Event_t2956885303_0_0_0 = { (void*)1620, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Event_t2956885303_1_0_0 = { (void*)1620, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Event_t2956885303_0_0_17 = { (void*)1620, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Event_t2956885303_0_0_1 = { (void*)1620, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+extern const RuntimeType TextEditOp_t1927482598_0_0_0 = { (void*)1649, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextEditOp_t1927482598_1_0_0 = { (void*)1649, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextEditOp_t1927482598_0_0_32854 = { (void*)1649, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+
+Il2CppGenericClass Dictionary_2_t3274888882_GenericClass = { 160, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t3274888882_0_0_0 = { &Dictionary_2_t3274888882_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t4205745987_GenericClass = { 49, { &GenInst_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t4205745987_0_0_0 = { &ICollection_1_t4205745987_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t1377593753_GenericClass = { 173, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t1377593753_0_0_0 = { &KeyValuePair_2_t1377593753_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1810164221_GenericClass = { 25, { &GenInst_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1810164221_0_0_0 = { &IEnumerator_1_t1810164221_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2284657870_GenericClass = { 41, { &GenInst_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2284657870_0_0_0 = { &InternalEnumerator_1_t2284657870_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3192913536_GenericClass = { 48, { &GenInst_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3192913536_0_0_0 = { &IList_1_t3192913536_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t357446642_GenericClass = { 29, { &GenInst_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t357446642_0_0_0 = { &IEnumerable_1_t357446642_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IDictionary_2_t1738740273_GenericClass = { 170, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IDictionary_2_t1738740273_0_0_0 = { &IDictionary_2_t1738740273_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2360053066_GenericClass = { 25, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2360053066_0_0_0 = { &IEnumerator_1_t2360053066_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2834546715_GenericClass = { 41, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2834546715_0_0_0 = { &InternalEnumerator_1_t2834546715_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3742802381_GenericClass = { 48, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3742802381_0_0_0 = { &IList_1_t3742802381_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t460667536_GenericClass = { 49, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t460667536_0_0_0 = { &ICollection_1_t460667536_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t907335487_GenericClass = { 29, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t907335487_0_0_0 = { &IEnumerable_1_t907335487_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t695965904_GenericClass = { 163, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t695965904_0_0_0 = { &ValueCollection_t695965904_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3843782539_GenericClass = { 164, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3843782539_0_0_0 = { &Enumerator_t3843782539_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t934104361_GenericClass = { 162, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t934104361_0_0_0 = { &Enumerator_t934104361_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t3239041426_GenericClass = { 165, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t3239041426_0_0_0 = { &Transform_1_t3239041426_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t140567170_GenericClass = { 165, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t140567170_0_0_0 = { &Transform_1_t140567170_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t2689152581_GenericClass = { 165, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t2689152581_0_0_0 = { &Transform_1_t2689152581_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ShimEnumerator_t3271609679_GenericClass = { 161, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType ShimEnumerator_t3271609679_0_0_0 = { &ShimEnumerator_t3271609679_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEqualityComparer_1_t4034814616_GenericClass = { 171, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IEqualityComparer_1_t4034814616_0_0_0 = { &IEqualityComparer_1_t4034814616_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass EqualityComparer_1_t97254934_GenericClass = { 166, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType EqualityComparer_1_t97254934_0_0_0 = { &EqualityComparer_1_t97254934_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEquatable_1_t2818628325_GenericClass = { 13, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IEquatable_1_t2818628325_0_0_0 = { &IEquatable_1_t2818628325_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass DefaultComparer_t2659107550_GenericClass = { 167, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType DefaultComparer_t2659107550_0_0_0 = { &DefaultComparer_t2659107550_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t3389455771_GenericClass = { 25, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t3389455771_0_0_0 = { &IEnumerator_1_t3389455771_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t3863949420_GenericClass = { 41, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t3863949420_0_0_0 = { &InternalEnumerator_1_t3863949420_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t477237790_GenericClass = { 48, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t477237790_0_0_0 = { &IList_1_t477237790_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1490070241_GenericClass = { 49, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1490070241_0_0_0 = { &ICollection_1_t1490070241_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t1936738192_GenericClass = { 29, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t1936738192_0_0_0 = { &IEnumerable_1_t1936738192_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEqualityComparer_1_t769250025_GenericClass = { 171, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType IEqualityComparer_1_t769250025_0_0_0 = { &IEqualityComparer_1_t769250025_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t1958752525_GenericClass = { 165, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t1958752525_0_0_0 = { &Transform_1_t1958752525_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t1157710762_GenericClass = { 173, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t1157710762_0_0_0 = { &KeyValuePair_2_t1157710762_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1590281230_GenericClass = { 25, { &GenInst_KeyValuePair_2_t1157710762_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1590281230_0_0_0 = { &IEnumerator_1_t1590281230_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2064774879_GenericClass = { 41, { &GenInst_KeyValuePair_2_t1157710762_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2064774879_0_0_0 = { &InternalEnumerator_1_t2064774879_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t2973030545_GenericClass = { 48, { &GenInst_KeyValuePair_2_t1157710762_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t2973030545_0_0_0 = { &IList_1_t2973030545_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3985862996_GenericClass = { 49, { &GenInst_KeyValuePair_2_t1157710762_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3985862996_0_0_0 = { &ICollection_1_t3985862996_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t137563651_GenericClass = { 29, { &GenInst_KeyValuePair_2_t1157710762_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t137563651_0_0_0 = { &IEnumerable_1_t137563651_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t476082913_GenericClass = { 163, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t476082913_0_0_0 = { &ValueCollection_t476082913_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3623899548_GenericClass = { 164, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3623899548_0_0_0 = { &Enumerator_t3623899548_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t714221370_GenericClass = { 162, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t714221370_0_0_0 = { &Enumerator_t714221370_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
 Il2CppGenericClass IEnumerator_1_t1488572434_GenericClass = { 25, { &GenInst_RaycastHit_t1056001966_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1488572434_0_0_0 = { &IEnumerator_1_t1488572434_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType RaycastHit_t1056001966_0_0_0 = { (void*)1662, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RaycastHit_t1056001966_1_0_2 = { (void*)1662, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RaycastHit_t1056001966_1_0_0 = { (void*)1662, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RaycastHit_t1056001966_0_0_1 = { (void*)1662, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RaycastHit_t1056001966_0_0_0 = { (void*)1668, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RaycastHit_t1056001966_1_0_2 = { (void*)1668, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RaycastHit_t1056001966_1_0_0 = { (void*)1668, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RaycastHit_t1056001966_0_0_1 = { (void*)1668, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t1963066083_GenericClass = { 41, { &GenInst_RaycastHit_t1056001966_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t1963066083_0_0_0 = { &InternalEnumerator_1_t1963066083_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6271,10 +6415,10 @@ extern const RuntimeType IEnumerable_1_t35854855_0_0_0 = { &IEnumerable_1_t35854
 Il2CppGenericClass IEnumerator_1_t2205917478_GenericClass = { 25, { &GenInst_Collider_t1773347010_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2205917478_0_0_0 = { &IEnumerator_1_t2205917478_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Collider_t1773347010_0_0_0 = { (void*)1657, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Collider_t1773347010_1_0_0 = { (void*)1657, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Collider_t1773347010_0_0_1 = { (void*)1657, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Collider_t1773347010_0_0_3 = { (void*)1657, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Collider_t1773347010_0_0_0 = { (void*)1663, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Collider_t1773347010_1_0_0 = { (void*)1663, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Collider_t1773347010_0_0_1 = { (void*)1663, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Collider_t1773347010_0_0_3 = { (void*)1663, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t2680411127_GenericClass = { 41, { &GenInst_Collider_t1773347010_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t2680411127_0_0_0 = { &InternalEnumerator_1_t2680411127_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6291,8 +6435,8 @@ extern const RuntimeType IEnumerable_1_t753199899_0_0_0 = { &IEnumerable_1_t7531
 Il2CppGenericClass IEnumerator_1_t4191325721_GenericClass = { 25, { &GenInst_ContactPoint_t3758755253_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t4191325721_0_0_0 = { &IEnumerator_1_t4191325721_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ContactPoint_t3758755253_0_0_0 = { (void*)1655, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ContactPoint_t3758755253_1_0_0 = { (void*)1655, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ContactPoint_t3758755253_0_0_0 = { (void*)1661, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ContactPoint_t3758755253_1_0_0 = { (void*)1661, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t370852074_GenericClass = { 41, { &GenInst_ContactPoint_t3758755253_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t370852074_0_0_0 = { &InternalEnumerator_1_t370852074_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6331,17 +6475,17 @@ Il2CppGenericClass Action_1_t3925070025_GenericClass = { 917, { &GenInst_XRNodeS
 extern const RuntimeType Action_1_t3925070025_0_0_0 = { &Action_1_t3925070025_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Action_1_t3925070025_0_0_17 = { &Action_1_t3925070025_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType XRNodeState_t3752602430_0_0_0 = { (void*)1699, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType XRNodeState_t3752602430_1_0_0 = { (void*)1699, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType XRNodeState_t3752602430_0_0_0 = { (void*)1705, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType XRNodeState_t3752602430_1_0_0 = { (void*)1705, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass List_1_t2475741330_GenericClass = { 174, { &GenInst_EventSystem_t1003666588_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t2475741330_0_0_0 = { &List_1_t2475741330_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t2475741330_0_0_17 = { &List_1_t2475741330_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType EventSystem_t1003666588_0_0_0 = { (void*)1721, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType EventSystem_t1003666588_1_0_0 = { (void*)1721, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType EventSystem_t1003666588_0_0_33 = { (void*)1721, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType EventSystem_t1003666588_0_0_1 = { (void*)1721, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType EventSystem_t1003666588_0_0_0 = { (void*)1727, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType EventSystem_t1003666588_1_0_0 = { (void*)1727, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType EventSystem_t1003666588_0_0_33 = { (void*)1727, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType EventSystem_t1003666588_0_0_1 = { (void*)1727, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1436237056_GenericClass = { 25, { &GenInst_EventSystem_t1003666588_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1436237056_0_0_0 = { &IEnumerator_1_t1436237056_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6361,8 +6505,8 @@ extern const RuntimeType IEnumerable_1_t4278486773_0_0_0 = { &IEnumerable_1_t427
 Il2CppGenericClass IList_1_t1016286005_GenericClass = { 48, { &GenInst_UIBehaviour_t3495933518_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t1016286005_0_0_0 = { &IList_1_t1016286005_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType UIBehaviour_t3495933518_0_0_0 = { (void*)1731, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UIBehaviour_t3495933518_1_0_0 = { (void*)1731, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UIBehaviour_t3495933518_0_0_0 = { (void*)1737, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UIBehaviour_t3495933518_1_0_0 = { (void*)1737, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3928503986_GenericClass = { 25, { &GenInst_UIBehaviour_t3495933518_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3928503986_0_0_0 = { &IEnumerator_1_t3928503986_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6411,9 +6555,9 @@ Il2CppGenericClass List_1_t3491343620_GenericClass = { 174, { &GenInst_BaseInput
 extern const RuntimeType List_1_t3491343620_0_0_0 = { &List_1_t3491343620_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t3491343620_0_0_1 = { &List_1_t3491343620_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType BaseInputModule_t2019268878_0_0_0 = { (void*)1739, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseInputModule_t2019268878_0_0_1 = { (void*)1739, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseInputModule_t2019268878_1_0_0 = { (void*)1739, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BaseInputModule_t2019268878_0_0_0 = { (void*)1745, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseInputModule_t2019268878_0_0_1 = { (void*)1745, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseInputModule_t2019268878_1_0_0 = { (void*)1745, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2451839346_GenericClass = { 25, { &GenInst_BaseInputModule_t2019268878_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2451839346_0_0_0 = { &IEnumerator_1_t2451839346_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6447,35 +6591,35 @@ extern const RuntimeType Comparison_1_t3135238028_0_0_0 = { &Comparison_1_t31352
 extern const RuntimeType Comparison_1_t3135238028_0_0_49 = { &Comparison_1_t3135238028_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Comparison_1_t3135238028_0_0_17 = { &Comparison_1_t3135238028_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType RaycastResult_t3360306849_0_0_0 = { (void*)1730, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RaycastResult_t3360306849_1_0_0 = { (void*)1730, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RaycastResult_t3360306849_0_0_1 = { (void*)1730, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RaycastResult_t3360306849_0_0_0 = { (void*)1736, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RaycastResult_t3360306849_1_0_0 = { (void*)1736, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RaycastResult_t3360306849_0_0_1 = { (void*)1736, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t3373214253_GenericClass = { 1727, { &GenInst_IDeselectHandler_t393712923_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t3373214253_GenericClass = { 1733, { &GenInst_IDeselectHandler_t393712923_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t3373214253_0_0_0 = { &EventFunction_1_t3373214253_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3373214253_0_0_49 = { &EventFunction_1_t3373214253_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3373214253_0_0_17 = { &EventFunction_1_t3373214253_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IDeselectHandler_t393712923_0_0_0 = { (void*)1717, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IDeselectHandler_t393712923_1_0_0 = { (void*)1717, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IDeselectHandler_t393712923_0_0_13 = { (void*)1717, 13, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IDeselectHandler_t393712923_0_0_6 = { (void*)1717, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IDeselectHandler_t393712923_0_0_2 = { (void*)1717, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDeselectHandler_t393712923_0_0_0 = { (void*)1723, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDeselectHandler_t393712923_1_0_0 = { (void*)1723, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IDeselectHandler_t393712923_0_0_13 = { (void*)1723, 13, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDeselectHandler_t393712923_0_0_6 = { (void*)1723, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDeselectHandler_t393712923_0_0_2 = { (void*)1723, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t1764640198_GenericClass = { 1727, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t1764640198_GenericClass = { 1733, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t1764640198_0_0_0 = { &EventFunction_1_t1764640198_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t531791296_GenericClass = { 174, { &GenInst_IEventSystemHandler_t3354683850_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t531791296_0_0_0 = { &List_1_t531791296_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IEventSystemHandler_t3354683850_0_0_0 = { (void*)1703, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IEventSystemHandler_t3354683850_1_0_0 = { (void*)1703, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IEventSystemHandler_t3354683850_0_0_17 = { (void*)1703, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IEventSystemHandler_t3354683850_0_0_2 = { (void*)1703, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IEventSystemHandler_t3354683850_0_0_3 = { (void*)1703, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IEventSystemHandler_t3354683850_0_0_8 = { (void*)1703, 8, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IEventSystemHandler_t3354683850_0_0_4 = { (void*)1703, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IEventSystemHandler_t3354683850_0_0_7 = { (void*)1703, 7, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEventSystemHandler_t3354683850_0_0_0 = { (void*)1709, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEventSystemHandler_t3354683850_1_0_0 = { (void*)1709, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IEventSystemHandler_t3354683850_0_0_17 = { (void*)1709, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEventSystemHandler_t3354683850_0_0_2 = { (void*)1709, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEventSystemHandler_t3354683850_0_0_3 = { (void*)1709, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEventSystemHandler_t3354683850_0_0_8 = { (void*)1709, 8, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEventSystemHandler_t3354683850_0_0_4 = { (void*)1709, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEventSystemHandler_t3354683850_0_0_7 = { (void*)1709, 7, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3787254318_GenericClass = { 25, { &GenInst_IEventSystemHandler_t3354683850_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3787254318_0_0_0 = { &IEnumerator_1_t3787254318_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6504,11 +6648,11 @@ extern const RuntimeType Enumerator_t2421035173_0_0_0 = { &Enumerator_t242103517
 Il2CppGenericClass Comparison_1_t3129615029_GenericClass = { 920, { &GenInst_IEventSystemHandler_t3354683850_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t3129615029_0_0_0 = { &Comparison_1_t3129615029_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t231414508_GenericClass = { 1870, { &GenInst_List_1_t531791296_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t231414508_GenericClass = { 1876, { &GenInst_List_1_t531791296_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t231414508_0_0_0 = { &ObjectPool_1_t231414508_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType ObjectPool_1_t231414508_0_0_49 = { &ObjectPool_1_t231414508_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t2779729376_GenericClass = { 1870, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t2779729376_GenericClass = { 1876, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t2779729376_0_0_0 = { &ObjectPool_1_t2779729376_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t1375180751_GenericClass = { 1081, { &GenInst_List_1_t531791296_0_0_0, NULL }, NULL };
@@ -6532,16 +6676,16 @@ extern const RuntimeType IEnumerable_1_t3806611481_0_0_0 = { &IEnumerable_1_t380
 Il2CppGenericClass Enumerator_t2889168170_GenericClass = { 1082, { &GenInst_List_1_t531791296_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2889168170_0_0_0 = { &Enumerator_t2889168170_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t1116627437_GenericClass = { 1479, { &GenInst_List_1_t531791296_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t1116627437_GenericClass = { 1481, { &GenInst_List_1_t531791296_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t1116627437_0_0_0 = { &UnityAction_1_t1116627437_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t2953223642_GenericClass = { 1869, { &GenInst_Component_t1923634451_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t2953223642_GenericClass = { 1875, { &GenInst_Component_t1923634451_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t2953223642_0_0_0 = { &ListPool_1_t2953223642_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t4109695355_GenericClass = { 1869, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t4109695355_GenericClass = { 1875, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t4109695355_0_0_0 = { &ListPool_1_t4109695355_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t4251804118_GenericClass = { 1870, { &GenInst_List_1_t257213610_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t4251804118_GenericClass = { 1876, { &GenInst_List_1_t257213610_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t4251804118_0_0_0 = { &ObjectPool_1_t4251804118_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t1100603065_GenericClass = { 1081, { &GenInst_List_1_t257213610_0_0_0, NULL }, NULL };
@@ -6565,10 +6709,10 @@ extern const RuntimeType IEnumerable_1_t3532033795_0_0_0 = { &IEnumerable_1_t353
 Il2CppGenericClass Enumerator_t2614590484_GenericClass = { 1082, { &GenInst_List_1_t257213610_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2614590484_0_0_0 = { &Enumerator_t2614590484_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t842049751_GenericClass = { 1479, { &GenInst_List_1_t257213610_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t842049751_GenericClass = { 1481, { &GenInst_List_1_t257213610_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t842049751_0_0_0 = { &UnityAction_1_t842049751_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t3095332405_GenericClass = { 1870, { &GenInst_List_1_t3395709193_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t3095332405_GenericClass = { 1876, { &GenInst_List_1_t3395709193_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t3095332405_0_0_0 = { &ObjectPool_1_t3095332405_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t4239098648_GenericClass = { 1081, { &GenInst_List_1_t3395709193_0_0_0, NULL }, NULL };
@@ -6592,19 +6736,19 @@ extern const RuntimeType IEnumerable_1_t2375562082_0_0_0 = { &IEnumerable_1_t237
 Il2CppGenericClass Enumerator_t1458118771_GenericClass = { 1082, { &GenInst_List_1_t3395709193_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t1458118771_0_0_0 = { &Enumerator_t1458118771_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t3980545334_GenericClass = { 1479, { &GenInst_List_1_t3395709193_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t3980545334_GenericClass = { 1481, { &GenInst_List_1_t3395709193_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t3980545334_0_0_0 = { &UnityAction_1_t3980545334_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t955952873_GenericClass = { 1727, { &GenInst_ISelectHandler_t2271418839_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t955952873_GenericClass = { 1733, { &GenInst_ISelectHandler_t2271418839_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t955952873_0_0_0 = { &EventFunction_1_t955952873_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t955952873_0_0_49 = { &EventFunction_1_t955952873_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t955952873_0_0_17 = { &EventFunction_1_t955952873_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ISelectHandler_t2271418839_0_0_0 = { (void*)1716, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ISelectHandler_t2271418839_1_0_0 = { (void*)1716, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ISelectHandler_t2271418839_0_0_12 = { (void*)1716, 12, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ISelectHandler_t2271418839_0_0_5 = { (void*)1716, 5, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ISelectHandler_t2271418839_0_0_1 = { (void*)1716, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ISelectHandler_t2271418839_0_0_0 = { (void*)1722, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ISelectHandler_t2271418839_1_0_0 = { (void*)1722, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ISelectHandler_t2271418839_0_0_12 = { (void*)1722, 12, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ISelectHandler_t2271418839_0_0_5 = { (void*)1722, 5, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ISelectHandler_t2271418839_0_0_1 = { (void*)1722, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t537414295_GenericClass = { 174, { &GenInst_RaycastResult_t3360306849_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t537414295_0_0_0 = { &List_1_t537414295_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6665,9 +6809,9 @@ Il2CppGenericClass List_1_t1327982029_GenericClass = { 174, { &GenInst_BaseRayca
 extern const RuntimeType List_1_t1327982029_0_0_0 = { &List_1_t1327982029_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t1327982029_0_0_49 = { &List_1_t1327982029_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType BaseRaycaster_t4150874583_0_0_0 = { (void*)1747, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseRaycaster_t4150874583_0_0_6 = { (void*)1747, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseRaycaster_t4150874583_1_0_0 = { (void*)1747, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BaseRaycaster_t4150874583_0_0_0 = { (void*)1753, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseRaycaster_t4150874583_0_0_6 = { (void*)1753, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseRaycaster_t4150874583_1_0_0 = { (void*)1753, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t288477755_GenericClass = { 25, { &GenInst_BaseRaycaster_t4150874583_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t288477755_0_0_0 = { &IEnumerator_1_t288477755_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6701,8 +6845,8 @@ extern const RuntimeType List_1_t521873611_0_0_0 = { &List_1_t521873611_GenericC
 extern const RuntimeType List_1_t521873611_0_0_1 = { &List_1_t521873611_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t521873611_0_0_6 = { &List_1_t521873611_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Entry_t3344766165_0_0_0 = { (void*)1724, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Entry_t3344766165_1_0_0 = { (void*)1724, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Entry_t3344766165_0_0_0 = { (void*)1730, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Entry_t3344766165_1_0_0 = { (void*)1730, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3777336633_GenericClass = { 25, { &GenInst_Entry_t3344766165_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3777336633_0_0_0 = { &IEnumerator_1_t3777336633_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6731,168 +6875,168 @@ extern const RuntimeType Enumerator_t2411117488_0_0_0 = { &Enumerator_t241111748
 Il2CppGenericClass Comparison_1_t3119697344_GenericClass = { 920, { &GenInst_Entry_t3344766165_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t3119697344_0_0_0 = { &Comparison_1_t3119697344_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_1_t489719741_GenericClass = { 1480, { &GenInst_BaseEventData_t3903027533_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_1_t489719741_GenericClass = { 1482, { &GenInst_BaseEventData_t3903027533_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_1_t489719741_0_0_0 = { &UnityEvent_1_t489719741_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType BaseEventData_t3903027533_0_0_0 = { (void*)1734, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseEventData_t3903027533_0_0_1 = { (void*)1734, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseEventData_t3903027533_1_0_0 = { (void*)1734, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BaseEventData_t3903027533_0_0_0 = { (void*)1740, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseEventData_t3903027533_0_0_1 = { (void*)1740, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseEventData_t3903027533_1_0_0 = { (void*)1740, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_1_t192896378_GenericClass = { 1479, { &GenInst_BaseEventData_t3903027533_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t192896378_GenericClass = { 1481, { &GenInst_BaseEventData_t3903027533_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t192896378_0_0_0 = { &UnityAction_1_t192896378_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t3995630009_GenericClass = { 1727, { &GenInst_IPointerEnterHandler_t1016128679_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t3995630009_GenericClass = { 1733, { &GenInst_IPointerEnterHandler_t1016128679_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t3995630009_0_0_0 = { &EventFunction_1_t3995630009_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3995630009_0_0_49 = { &EventFunction_1_t3995630009_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3995630009_0_0_17 = { &EventFunction_1_t3995630009_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IPointerEnterHandler_t1016128679_0_0_0 = { (void*)1704, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPointerEnterHandler_t1016128679_1_0_0 = { (void*)1704, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IPointerEnterHandler_t1016128679_0_0_3 = { (void*)1704, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerEnterHandler_t1016128679_0_0_0 = { (void*)1710, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerEnterHandler_t1016128679_1_0_0 = { (void*)1710, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IPointerEnterHandler_t1016128679_0_0_3 = { (void*)1710, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t2867327688_GenericClass = { 1727, { &GenInst_IPointerExitHandler_t4182793654_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t2867327688_GenericClass = { 1733, { &GenInst_IPointerExitHandler_t4182793654_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t2867327688_0_0_0 = { &EventFunction_1_t2867327688_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t2867327688_0_0_49 = { &EventFunction_1_t2867327688_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t2867327688_0_0_17 = { &EventFunction_1_t2867327688_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IPointerExitHandler_t4182793654_0_0_0 = { (void*)1705, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPointerExitHandler_t4182793654_1_0_0 = { (void*)1705, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IPointerExitHandler_t4182793654_0_0_1 = { (void*)1705, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPointerExitHandler_t4182793654_0_0_4 = { (void*)1705, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerExitHandler_t4182793654_0_0_0 = { (void*)1711, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerExitHandler_t4182793654_1_0_0 = { (void*)1711, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IPointerExitHandler_t4182793654_0_0_1 = { (void*)1711, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerExitHandler_t4182793654_0_0_4 = { (void*)1711, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t64614563_GenericClass = { 1727, { &GenInst_IPointerDownHandler_t1380080529_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t64614563_GenericClass = { 1733, { &GenInst_IPointerDownHandler_t1380080529_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t64614563_0_0_0 = { &EventFunction_1_t64614563_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t64614563_0_0_49 = { &EventFunction_1_t64614563_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t64614563_0_0_17 = { &EventFunction_1_t64614563_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IPointerDownHandler_t1380080529_0_0_0 = { (void*)1706, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPointerDownHandler_t1380080529_1_0_0 = { (void*)1706, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IPointerDownHandler_t1380080529_0_0_2 = { (void*)1706, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPointerDownHandler_t1380080529_0_0_1 = { (void*)1706, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerDownHandler_t1380080529_0_0_0 = { (void*)1712, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerDownHandler_t1380080529_1_0_0 = { (void*)1712, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IPointerDownHandler_t1380080529_0_0_2 = { (void*)1712, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerDownHandler_t1380080529_0_0_1 = { (void*)1712, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t3256600500_GenericClass = { 1727, { &GenInst_IPointerUpHandler_t277099170_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t3256600500_GenericClass = { 1733, { &GenInst_IPointerUpHandler_t277099170_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t3256600500_0_0_0 = { &EventFunction_1_t3256600500_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3256600500_0_0_49 = { &EventFunction_1_t3256600500_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3256600500_0_0_17 = { &EventFunction_1_t3256600500_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IPointerUpHandler_t277099170_0_0_0 = { (void*)1707, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPointerUpHandler_t277099170_1_0_0 = { (void*)1707, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IPointerUpHandler_t277099170_0_0_3 = { (void*)1707, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPointerUpHandler_t277099170_0_0_2 = { (void*)1707, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerUpHandler_t277099170_0_0_0 = { (void*)1713, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerUpHandler_t277099170_1_0_0 = { (void*)1713, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IPointerUpHandler_t277099170_0_0_3 = { (void*)1713, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerUpHandler_t277099170_0_0_2 = { (void*)1713, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t3111972472_GenericClass = { 1727, { &GenInst_IPointerClickHandler_t132471142_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t3111972472_GenericClass = { 1733, { &GenInst_IPointerClickHandler_t132471142_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t3111972472_0_0_0 = { &EventFunction_1_t3111972472_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3111972472_0_0_49 = { &EventFunction_1_t3111972472_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3111972472_0_0_17 = { &EventFunction_1_t3111972472_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IPointerClickHandler_t132471142_0_0_0 = { (void*)1708, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPointerClickHandler_t132471142_1_0_0 = { (void*)1708, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IPointerClickHandler_t132471142_0_0_4 = { (void*)1708, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPointerClickHandler_t132471142_0_0_2 = { (void*)1708, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerClickHandler_t132471142_0_0_0 = { (void*)1714, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerClickHandler_t132471142_1_0_0 = { (void*)1714, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IPointerClickHandler_t132471142_0_0_4 = { (void*)1714, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPointerClickHandler_t132471142_0_0_2 = { (void*)1714, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t3587542510_GenericClass = { 1727, { &GenInst_IInitializePotentialDragHandler_t608041180_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t3587542510_GenericClass = { 1733, { &GenInst_IInitializePotentialDragHandler_t608041180_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t3587542510_0_0_0 = { &EventFunction_1_t3587542510_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3587542510_0_0_49 = { &EventFunction_1_t3587542510_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3587542510_0_0_17 = { &EventFunction_1_t3587542510_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IInitializePotentialDragHandler_t608041180_0_0_0 = { (void*)1710, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IInitializePotentialDragHandler_t608041180_1_0_0 = { (void*)1710, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IInitializePotentialDragHandler_t608041180_0_0_5 = { (void*)1710, 5, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IInitializePotentialDragHandler_t608041180_0_0_2 = { (void*)1710, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IInitializePotentialDragHandler_t608041180_0_0_1 = { (void*)1710, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IInitializePotentialDragHandler_t608041180_0_0_0 = { (void*)1716, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IInitializePotentialDragHandler_t608041180_1_0_0 = { (void*)1716, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IInitializePotentialDragHandler_t608041180_0_0_5 = { (void*)1716, 5, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IInitializePotentialDragHandler_t608041180_0_0_2 = { (void*)1716, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IInitializePotentialDragHandler_t608041180_0_0_1 = { (void*)1716, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t1977848392_GenericClass = { 1727, { &GenInst_IBeginDragHandler_t3293314358_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t1977848392_GenericClass = { 1733, { &GenInst_IBeginDragHandler_t3293314358_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t1977848392_0_0_0 = { &EventFunction_1_t1977848392_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t1977848392_0_0_49 = { &EventFunction_1_t1977848392_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t1977848392_0_0_17 = { &EventFunction_1_t1977848392_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IBeginDragHandler_t3293314358_0_0_0 = { (void*)1709, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IBeginDragHandler_t3293314358_1_0_0 = { (void*)1709, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IBeginDragHandler_t3293314358_0_0_6 = { (void*)1709, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IBeginDragHandler_t3293314358_0_0_1 = { (void*)1709, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IBeginDragHandler_t3293314358_0_0_0 = { (void*)1715, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IBeginDragHandler_t3293314358_1_0_0 = { (void*)1715, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IBeginDragHandler_t3293314358_0_0_6 = { (void*)1715, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IBeginDragHandler_t3293314358_0_0_1 = { (void*)1715, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t972960537_GenericClass = { 1727, { &GenInst_IDragHandler_t2288426503_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t972960537_GenericClass = { 1733, { &GenInst_IDragHandler_t2288426503_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t972960537_0_0_0 = { &EventFunction_1_t972960537_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t972960537_0_0_49 = { &EventFunction_1_t972960537_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t972960537_0_0_17 = { &EventFunction_1_t972960537_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IDragHandler_t2288426503_0_0_0 = { (void*)1711, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IDragHandler_t2288426503_1_0_0 = { (void*)1711, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IDragHandler_t2288426503_0_0_7 = { (void*)1711, 7, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IDragHandler_t2288426503_0_0_2 = { (void*)1711, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IDragHandler_t2288426503_0_0_1 = { (void*)1711, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IDragHandler_t2288426503_0_0_3 = { (void*)1711, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDragHandler_t2288426503_0_0_0 = { (void*)1717, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDragHandler_t2288426503_1_0_0 = { (void*)1717, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IDragHandler_t2288426503_0_0_7 = { (void*)1717, 7, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDragHandler_t2288426503_0_0_2 = { (void*)1717, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDragHandler_t2288426503_0_0_1 = { (void*)1717, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDragHandler_t2288426503_0_0_3 = { (void*)1717, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t3277009892_GenericClass = { 1727, { &GenInst_IEndDragHandler_t297508562_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t3277009892_GenericClass = { 1733, { &GenInst_IEndDragHandler_t297508562_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t3277009892_0_0_0 = { &EventFunction_1_t3277009892_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3277009892_0_0_49 = { &EventFunction_1_t3277009892_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3277009892_0_0_17 = { &EventFunction_1_t3277009892_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IEndDragHandler_t297508562_0_0_0 = { (void*)1712, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IEndDragHandler_t297508562_1_0_0 = { (void*)1712, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IEndDragHandler_t297508562_0_0_8 = { (void*)1712, 8, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IEndDragHandler_t297508562_0_0_3 = { (void*)1712, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IEndDragHandler_t297508562_0_0_2 = { (void*)1712, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEndDragHandler_t297508562_0_0_0 = { (void*)1718, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEndDragHandler_t297508562_1_0_0 = { (void*)1718, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IEndDragHandler_t297508562_0_0_8 = { (void*)1718, 8, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEndDragHandler_t297508562_0_0_3 = { (void*)1718, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEndDragHandler_t297508562_0_0_2 = { (void*)1718, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t2311673543_GenericClass = { 1727, { &GenInst_IDropHandler_t3627139509_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t2311673543_GenericClass = { 1733, { &GenInst_IDropHandler_t3627139509_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t2311673543_0_0_0 = { &EventFunction_1_t2311673543_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t2311673543_0_0_49 = { &EventFunction_1_t2311673543_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t2311673543_0_0_17 = { &EventFunction_1_t2311673543_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IDropHandler_t3627139509_0_0_0 = { (void*)1713, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IDropHandler_t3627139509_1_0_0 = { (void*)1713, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IDropHandler_t3627139509_0_0_9 = { (void*)1713, 9, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDropHandler_t3627139509_0_0_0 = { (void*)1719, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IDropHandler_t3627139509_1_0_0 = { (void*)1719, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IDropHandler_t3627139509_0_0_9 = { (void*)1719, 9, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t2886331738_GenericClass = { 1727, { &GenInst_IScrollHandler_t4201797704_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t2886331738_GenericClass = { 1733, { &GenInst_IScrollHandler_t4201797704_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t2886331738_0_0_0 = { &EventFunction_1_t2886331738_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t2886331738_0_0_49 = { &EventFunction_1_t2886331738_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t2886331738_0_0_17 = { &EventFunction_1_t2886331738_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IScrollHandler_t4201797704_0_0_0 = { (void*)1714, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IScrollHandler_t4201797704_1_0_0 = { (void*)1714, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IScrollHandler_t4201797704_0_0_10 = { (void*)1714, 10, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IScrollHandler_t4201797704_0_0_4 = { (void*)1714, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IScrollHandler_t4201797704_0_0_7 = { (void*)1714, 7, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IScrollHandler_t4201797704_0_0_0 = { (void*)1720, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IScrollHandler_t4201797704_1_0_0 = { (void*)1720, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IScrollHandler_t4201797704_0_0_10 = { (void*)1720, 10, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IScrollHandler_t4201797704_0_0_4 = { (void*)1720, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IScrollHandler_t4201797704_0_0_7 = { (void*)1720, 7, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t2950825503_GenericClass = { 1727, { &GenInst_IUpdateSelectedHandler_t4266291469_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t2950825503_GenericClass = { 1733, { &GenInst_IUpdateSelectedHandler_t4266291469_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t2950825503_0_0_0 = { &EventFunction_1_t2950825503_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t2950825503_0_0_49 = { &EventFunction_1_t2950825503_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t2950825503_0_0_17 = { &EventFunction_1_t2950825503_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IUpdateSelectedHandler_t4266291469_0_0_0 = { (void*)1715, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IUpdateSelectedHandler_t4266291469_1_0_0 = { (void*)1715, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IUpdateSelectedHandler_t4266291469_0_0_11 = { (void*)1715, 11, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IUpdateSelectedHandler_t4266291469_0_0_0 = { (void*)1721, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IUpdateSelectedHandler_t4266291469_1_0_0 = { (void*)1721, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IUpdateSelectedHandler_t4266291469_0_0_11 = { (void*)1721, 11, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t3912835512_GenericClass = { 1727, { &GenInst_IMoveHandler_t933334182_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t3912835512_GenericClass = { 1733, { &GenInst_IMoveHandler_t933334182_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t3912835512_0_0_0 = { &EventFunction_1_t3912835512_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3912835512_0_0_49 = { &EventFunction_1_t3912835512_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t3912835512_0_0_17 = { &EventFunction_1_t3912835512_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IMoveHandler_t933334182_0_0_0 = { (void*)1718, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IMoveHandler_t933334182_1_0_0 = { (void*)1718, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IMoveHandler_t933334182_0_0_14 = { (void*)1718, 14, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IMoveHandler_t933334182_0_0_0 = { (void*)1724, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IMoveHandler_t933334182_1_0_0 = { (void*)1724, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IMoveHandler_t933334182_0_0_14 = { (void*)1724, 14, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t1475332338_GenericClass = { 1727, { &GenInst_ISubmitHandler_t2790798304_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t1475332338_GenericClass = { 1733, { &GenInst_ISubmitHandler_t2790798304_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t1475332338_0_0_0 = { &EventFunction_1_t1475332338_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t1475332338_0_0_49 = { &EventFunction_1_t1475332338_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t1475332338_0_0_17 = { &EventFunction_1_t1475332338_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ISubmitHandler_t2790798304_0_0_0 = { (void*)1719, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ISubmitHandler_t2790798304_1_0_0 = { (void*)1719, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ISubmitHandler_t2790798304_0_0_15 = { (void*)1719, 15, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ISubmitHandler_t2790798304_0_0_1 = { (void*)1719, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ISubmitHandler_t2790798304_0_0_5 = { (void*)1719, 5, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ISubmitHandler_t2790798304_0_0_0 = { (void*)1725, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ISubmitHandler_t2790798304_1_0_0 = { (void*)1725, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ISubmitHandler_t2790798304_0_0_15 = { (void*)1725, 15, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ISubmitHandler_t2790798304_0_0_1 = { (void*)1725, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ISubmitHandler_t2790798304_0_0_5 = { (void*)1725, 5, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t2658898854_GenericClass = { 1727, { &GenInst_ICancelHandler_t3974364820_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t2658898854_GenericClass = { 1733, { &GenInst_ICancelHandler_t3974364820_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t2658898854_0_0_0 = { &EventFunction_1_t2658898854_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t2658898854_0_0_49 = { &EventFunction_1_t2658898854_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType EventFunction_1_t2658898854_0_0_17 = { &EventFunction_1_t2658898854_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ICancelHandler_t3974364820_0_0_0 = { (void*)1720, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ICancelHandler_t3974364820_1_0_0 = { (void*)1720, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ICancelHandler_t3974364820_0_0_16 = { (void*)1720, 16, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ICancelHandler_t3974364820_0_0_1 = { (void*)1720, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ICancelHandler_t3974364820_0_0_2 = { (void*)1720, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICancelHandler_t3974364820_0_0_0 = { (void*)1726, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICancelHandler_t3974364820_1_0_0 = { (void*)1726, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ICancelHandler_t3974364820_0_0_16 = { (void*)1726, 16, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICancelHandler_t3974364820_0_0_1 = { (void*)1726, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICancelHandler_t3974364820_0_0_2 = { (void*)1726, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t777473367_GenericClass = { 174, { &GenInst_Transform_t3600365921_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t777473367_0_0_0 = { &List_1_t777473367_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6952,10 +7096,10 @@ extern const RuntimeType Comparison_1_t888567798_0_0_0 = { &Comparison_1_t888567
 Il2CppGenericClass IEnumerator_1_t4062734015_GenericClass = { 25, { &GenInst_BaseInput_t3630163547_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t4062734015_0_0_0 = { &IEnumerator_1_t4062734015_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType BaseInput_t3630163547_0_0_0 = { (void*)1738, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseInput_t3630163547_1_0_0 = { (void*)1738, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType BaseInput_t3630163547_0_0_4 = { (void*)1738, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseInput_t3630163547_0_0_1 = { (void*)1738, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseInput_t3630163547_0_0_0 = { (void*)1744, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseInput_t3630163547_1_0_0 = { (void*)1744, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BaseInput_t3630163547_0_0_4 = { (void*)1744, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseInput_t3630163547_0_0_1 = { (void*)1744, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t242260368_GenericClass = { 41, { &GenInst_BaseInput_t3630163547_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t242260368_0_0_0 = { &InternalEnumerator_1_t242260368_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -6973,12 +7117,12 @@ Il2CppGenericClass Dictionary_2_t2696614423_GenericClass = { 160, { &GenInst_Int
 extern const RuntimeType Dictionary_2_t2696614423_0_0_0 = { &Dictionary_2_t2696614423_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Dictionary_2_t2696614423_0_0_4 = { &Dictionary_2_t2696614423_GenericClass, 4, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType PointerEventData_t3807901092_0_0_0 = { (void*)1735, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PointerEventData_t3807901092_1_0_0 = { (void*)1735, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType PointerEventData_t3807901092_1_0_2 = { (void*)1735, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType PointerEventData_t3807901092_0_0_6 = { (void*)1735, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PointerEventData_t3807901092_0_0_1 = { (void*)1735, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PointerEventData_t3807901092_0_0_3 = { (void*)1735, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PointerEventData_t3807901092_0_0_0 = { (void*)1741, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PointerEventData_t3807901092_1_0_0 = { (void*)1741, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PointerEventData_t3807901092_1_0_2 = { (void*)1741, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PointerEventData_t3807901092_0_0_6 = { (void*)1741, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PointerEventData_t3807901092_0_0_1 = { (void*)1741, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PointerEventData_t3807901092_0_0_3 = { (void*)1741, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t4240471560_GenericClass = { 25, { &GenInst_PointerEventData_t3807901092_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t4240471560_0_0_0 = { &IEnumerator_1_t4240471560_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7013,8 +7157,8 @@ extern const RuntimeType IEnumerable_1_t2882880422_0_0_0 = { &IEnumerable_1_t288
 Il2CppGenericClass IList_1_t1691853218_GenericClass = { 48, { &GenInst_AbstractEventData_t4171500731_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t1691853218_0_0_0 = { &IList_1_t1691853218_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AbstractEventData_t4171500731_0_0_0 = { (void*)1733, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AbstractEventData_t4171500731_1_0_0 = { (void*)1733, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AbstractEventData_t4171500731_0_0_0 = { (void*)1739, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AbstractEventData_t4171500731_1_0_0 = { (void*)1739, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t309103903_GenericClass = { 25, { &GenInst_AbstractEventData_t4171500731_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t309103903_0_0_0 = { &IEnumerator_1_t309103903_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7062,8 +7206,8 @@ Il2CppGenericClass List_1_t2329214678_GenericClass = { 174, { &GenInst_ButtonSta
 extern const RuntimeType List_1_t2329214678_0_0_0 = { &List_1_t2329214678_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t2329214678_0_0_1 = { &List_1_t2329214678_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ButtonState_t857139936_0_0_0 = { (void*)1741, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ButtonState_t857139936_1_0_0 = { (void*)1741, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ButtonState_t857139936_0_0_0 = { (void*)1747, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ButtonState_t857139936_1_0_0 = { (void*)1747, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1289710404_GenericClass = { 25, { &GenInst_ButtonState_t857139936_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1289710404_0_0_0 = { &IEnumerator_1_t1289710404_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7096,39 +7240,39 @@ Il2CppGenericClass Comparison_1_t830933145_GenericClass = { 920, { &GenInst_Rayc
 extern const RuntimeType Comparison_1_t830933145_0_0_0 = { &Comparison_1_t830933145_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Comparison_1_t830933145_0_0_17 = { &Comparison_1_t830933145_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_1_t3437345828_GenericClass = { 1480, { &GenInst_Color_t2555686324_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_1_t3437345828_GenericClass = { 1482, { &GenInst_Color_t2555686324_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_1_t3437345828_0_0_0 = { &UnityEvent_1_t3437345828_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Color_t2555686324_0_0_0 = { (void*)1406, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color_t2555686324_1_0_0 = { (void*)1406, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Color_t2555686324_1_0_2 = { (void*)1406, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Color_t2555686324_0_0_6 = { (void*)1406, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color_t2555686324_0_0_1 = { (void*)1406, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color_t2555686324_0_0_17 = { (void*)1406, 17, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color_t2555686324_0_0_4 = { (void*)1406, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Color_t2555686324_0_0_3 = { (void*)1406, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color_t2555686324_0_0_0 = { (void*)1407, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color_t2555686324_1_0_0 = { (void*)1407, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Color_t2555686324_1_0_2 = { (void*)1407, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Color_t2555686324_0_0_6 = { (void*)1407, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color_t2555686324_0_0_1 = { (void*)1407, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color_t2555686324_0_0_17 = { (void*)1407, 17, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color_t2555686324_0_0_4 = { (void*)1407, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Color_t2555686324_0_0_3 = { (void*)1407, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t3140522465_GenericClass = { 1479, { &GenInst_Color_t2555686324_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t3140522465_GenericClass = { 1481, { &GenInst_Color_t2555686324_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t3140522465_0_0_0 = { &UnityAction_1_t3140522465_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_1_t2672850562_GenericClass = { 1467, { &GenInst_Color_t2555686324_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_1_t2672850562_GenericClass = { 1469, { &GenInst_Color_t2555686324_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_1_t2672850562_0_0_0 = { &InvokableCall_1_t2672850562_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_1_t2278926278_GenericClass = { 1480, { &GenInst_Single_t1397266774_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_1_t2278926278_GenericClass = { 1482, { &GenInst_Single_t1397266774_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_1_t2278926278_0_0_0 = { &UnityEvent_1_t2278926278_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass IndexedSet_1_t3571286806_GenericClass = { 1868, { &GenInst_ICanvasElement_t2121898866_0_0_0, NULL }, NULL };
+Il2CppGenericClass IndexedSet_1_t3571286806_GenericClass = { 1874, { &GenInst_ICanvasElement_t2121898866_0_0_0, NULL }, NULL };
 extern const RuntimeType IndexedSet_1_t3571286806_0_0_0 = { &IndexedSet_1_t3571286806_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IndexedSet_1_t3571286806_0_0_33 = { &IndexedSet_1_t3571286806_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ICanvasElement_t2121898866_0_0_0 = { (void*)1763, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ICanvasElement_t2121898866_1_0_0 = { (void*)1763, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ICanvasElement_t2121898866_0_0_6 = { (void*)1763, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ICanvasElement_t2121898866_0_0_3 = { (void*)1763, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ICanvasElement_t2121898866_0_0_5 = { (void*)1763, 5, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ICanvasElement_t2121898866_0_0_2 = { (void*)1763, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICanvasElement_t2121898866_0_0_0 = { (void*)1769, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICanvasElement_t2121898866_1_0_0 = { (void*)1769, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ICanvasElement_t2121898866_0_0_6 = { (void*)1769, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICanvasElement_t2121898866_0_0_3 = { (void*)1769, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICanvasElement_t2121898866_0_0_5 = { (void*)1769, 5, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICanvasElement_t2121898866_0_0_2 = { (void*)1769, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-Il2CppGenericClass IndexedSet_1_t234526808_GenericClass = { 1868, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass IndexedSet_1_t234526808_GenericClass = { 1874, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType IndexedSet_1_t234526808_0_0_0 = { &IndexedSet_1_t234526808_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t3593973608_GenericClass = { 174, { &GenInst_ICanvasElement_t2121898866_0_0_0, NULL }, NULL };
@@ -7203,17 +7347,17 @@ extern const RuntimeType Enumerator_t920987814_0_0_0 = { &Enumerator_t920987814_
 Il2CppGenericClass IEquatable_1_t3030177301_GenericClass = { 13, { &GenInst_ColorBlock_t2139031574_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t3030177301_0_0_0 = { &IEquatable_1_t3030177301_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ColorBlock_t2139031574_0_0_0 = { (void*)1765, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColorBlock_t2139031574_1_0_0 = { (void*)1765, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ColorBlock_t2139031574_0_0_1 = { (void*)1765, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorBlock_t2139031574_0_0_0 = { (void*)1771, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorBlock_t2139031574_1_0_0 = { (void*)1771, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ColorBlock_t2139031574_0_0_1 = { (void*)1771, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t447389798_GenericClass = { 174, { &GenInst_OptionData_t3270282352_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t447389798_0_0_0 = { &List_1_t447389798_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t447389798_0_0_1 = { &List_1_t447389798_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType OptionData_t3270282352_0_0_0 = { (void*)1770, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OptionData_t3270282352_0_0_17 = { (void*)1770, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OptionData_t3270282352_1_0_0 = { (void*)1770, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OptionData_t3270282352_0_0_0 = { (void*)1776, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OptionData_t3270282352_0_0_17 = { (void*)1776, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OptionData_t3270282352_1_0_0 = { (void*)1776, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3702852820_GenericClass = { 25, { &GenInst_OptionData_t3270282352_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3702852820_0_0_0 = { &IEnumerator_1_t3702852820_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7246,9 +7390,9 @@ Il2CppGenericClass List_1_t2924027637_GenericClass = { 174, { &GenInst_DropdownI
 extern const RuntimeType List_1_t2924027637_0_0_0 = { &List_1_t2924027637_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t2924027637_0_0_1 = { &List_1_t2924027637_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType DropdownItem_t1451952895_0_0_0 = { (void*)1769, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DropdownItem_t1451952895_1_0_0 = { (void*)1769, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType DropdownItem_t1451952895_0_0_3 = { (void*)1769, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DropdownItem_t1451952895_0_0_0 = { (void*)1775, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DropdownItem_t1451952895_1_0_0 = { (void*)1775, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DropdownItem_t1451952895_0_0_3 = { (void*)1775, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1884523363_GenericClass = { 25, { &GenInst_DropdownItem_t1451952895_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1884523363_0_0_0 = { &IEnumerator_1_t1884523363_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7307,14 +7451,14 @@ extern const RuntimeType Enumerator_t518304218_0_0_0 = { &Enumerator_t518304218_
 Il2CppGenericClass Comparison_1_t1226884074_GenericClass = { 920, { &GenInst_DropdownItem_t1451952895_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t1226884074_0_0_0 = { &Comparison_1_t1226884074_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TweenRunner_1_t3520241082_GenericClass = { 1756, { &GenInst_FloatTween_t1274330004_0_0_0, NULL }, NULL };
+Il2CppGenericClass TweenRunner_1_t3520241082_GenericClass = { 1762, { &GenInst_FloatTween_t1274330004_0_0_0, NULL }, NULL };
 extern const RuntimeType TweenRunner_1_t3520241082_0_0_0 = { &TweenRunner_1_t3520241082_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TweenRunner_1_t3520241082_0_0_1 = { &TweenRunner_1_t3520241082_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType FloatTween_t1274330004_0_0_0 = { (void*)1754, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FloatTween_t1274330004_1_0_0 = { (void*)1754, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FloatTween_t1274330004_0_0_0 = { (void*)1760, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FloatTween_t1274330004_1_0_0 = { (void*)1760, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-Il2CppGenericClass U3CStartU3Ec__Iterator0_t30141770_GenericClass = { 1757, { &GenInst_FloatTween_t1274330004_0_0_0, NULL }, NULL };
+Il2CppGenericClass U3CStartU3Ec__Iterator0_t30141770_GenericClass = { 1763, { &GenInst_FloatTween_t1274330004_0_0_0, NULL }, NULL };
 extern const RuntimeType U3CStartU3Ec__Iterator0_t30141770_0_0_0 = { &U3CStartU3Ec__Iterator0_t30141770_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t1752731834_GenericClass = { 174, { &GenInst_Sprite_t280657092_0_0_0, NULL }, NULL };
@@ -7335,11 +7479,11 @@ extern const RuntimeType Comparison_1_t55588271_0_0_0 = { &Comparison_1_t5558827
 Il2CppGenericClass List_1_t487303889_GenericClass = { 174, { &GenInst_Canvas_t3310196443_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t487303889_0_0_0 = { &List_1_t487303889_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Canvas_t3310196443_0_0_0 = { (void*)1684, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Canvas_t3310196443_1_0_0 = { (void*)1684, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Canvas_t3310196443_0_0_129 = { (void*)1684, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Canvas_t3310196443_0_0_1 = { (void*)1684, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Canvas_t3310196443_0_0_6 = { (void*)1684, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Canvas_t3310196443_0_0_0 = { (void*)1690, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Canvas_t3310196443_1_0_0 = { (void*)1690, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Canvas_t3310196443_0_0_129 = { (void*)1690, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Canvas_t3310196443_0_0_1 = { (void*)1690, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Canvas_t3310196443_0_0_6 = { (void*)1690, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3742766911_GenericClass = { 25, { &GenInst_Canvas_t3310196443_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3742766911_0_0_0 = { &IEnumerator_1_t3742766911_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7368,10 +7512,10 @@ extern const RuntimeType Enumerator_t2376547766_0_0_0 = { &Enumerator_t237654776
 Il2CppGenericClass Comparison_1_t3085127622_GenericClass = { 920, { &GenInst_Canvas_t3310196443_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t3085127622_0_0_0 = { &Comparison_1_t3085127622_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t44818338_GenericClass = { 1869, { &GenInst_Canvas_t3310196443_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t44818338_GenericClass = { 1875, { &GenInst_Canvas_t3310196443_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t44818338_0_0_0 = { &ListPool_1_t44818338_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t186927101_GenericClass = { 1870, { &GenInst_List_1_t487303889_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t186927101_GenericClass = { 1876, { &GenInst_List_1_t487303889_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t186927101_0_0_0 = { &ObjectPool_1_t186927101_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t1330693344_GenericClass = { 1081, { &GenInst_List_1_t487303889_0_0_0, NULL }, NULL };
@@ -7395,10 +7539,10 @@ extern const RuntimeType IEnumerable_1_t3762124074_0_0_0 = { &IEnumerable_1_t376
 Il2CppGenericClass Enumerator_t2844680763_GenericClass = { 1082, { &GenInst_List_1_t487303889_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2844680763_0_0_0 = { &Enumerator_t2844680763_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t1072140030_GenericClass = { 1479, { &GenInst_List_1_t487303889_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t1072140030_GenericClass = { 1481, { &GenInst_List_1_t487303889_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t1072140030_0_0_0 = { &UnityAction_1_t1072140030_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_1_t978947469_GenericClass = { 1480, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_1_t978947469_GenericClass = { 1482, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_1_t978947469_0_0_0 = { &UnityEvent_1_t978947469_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Dictionary_2_t369343732_GenericClass = { 160, { &GenInst_Font_t1956802104_0_0_0_HashSet_1_t466832188_0_0_0, NULL }, NULL };
@@ -7408,11 +7552,11 @@ extern const RuntimeType Dictionary_2_t369343732_0_0_17 = { &Dictionary_2_t36934
 Il2CppGenericClass HashSet_1_t466832188_GenericClass = { 1237, { &GenInst_Text_t1901882714_0_0_0, NULL }, NULL };
 extern const RuntimeType HashSet_1_t466832188_0_0_0 = { &HashSet_1_t466832188_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Text_t1901882714_0_0_0 = { (void*)1832, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Text_t1901882714_0_0_1 = { (void*)1832, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Text_t1901882714_0_0_4 = { (void*)1832, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Text_t1901882714_1_0_0 = { (void*)1832, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Text_t1901882714_0_0_6 = { (void*)1832, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Text_t1901882714_0_0_0 = { (void*)1838, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Text_t1901882714_0_0_1 = { (void*)1838, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Text_t1901882714_0_0_4 = { (void*)1838, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Text_t1901882714_1_0_0 = { (void*)1838, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Text_t1901882714_0_0_6 = { (void*)1838, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2463613991_GenericClass = { 25, { &GenInst_Link_t2031043523_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2463613991_0_0_0 = { &IEnumerator_1_t2463613991_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7450,12 +7594,12 @@ extern const RuntimeType IEnumerable_1_t881735603_0_0_0 = { &IEnumerable_1_t8817
 Il2CppGenericClass IList_1_t1602369197_GenericClass = { 48, { &GenInst_ILayoutElement_t4082016710_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t1602369197_0_0_0 = { &IList_1_t1602369197_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ILayoutElement_t4082016710_0_0_0 = { (void*)1856, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutElement_t4082016710_0_0_1 = { (void*)1856, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutElement_t4082016710_0_0_7 = { (void*)1856, 7, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutElement_t4082016710_0_0_6 = { (void*)1856, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutElement_t4082016710_1_0_0 = { (void*)1856, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ILayoutElement_t4082016710_1_0_2 = { (void*)1856, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ILayoutElement_t4082016710_0_0_0 = { (void*)1862, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutElement_t4082016710_0_0_1 = { (void*)1862, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutElement_t4082016710_0_0_7 = { (void*)1862, 7, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutElement_t4082016710_0_0_6 = { (void*)1862, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutElement_t4082016710_1_0_0 = { (void*)1862, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ILayoutElement_t4082016710_1_0_2 = { (void*)1862, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t219619882_GenericClass = { 25, { &GenInst_ILayoutElement_t4082016710_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t219619882_0_0_0 = { &IEnumerator_1_t219619882_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7472,8 +7616,8 @@ extern const RuntimeType IEnumerable_1_t3061869599_0_0_0 = { &IEnumerable_1_t306
 Il2CppGenericClass IList_1_t1359574046_GenericClass = { 48, { &GenInst_MaskableGraphic_t3839221559_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t1359574046_0_0_0 = { &IList_1_t1359574046_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType MaskableGraphic_t3839221559_0_0_0 = { (void*)1804, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MaskableGraphic_t3839221559_1_0_0 = { (void*)1804, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MaskableGraphic_t3839221559_0_0_0 = { (void*)1810, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MaskableGraphic_t3839221559_1_0_0 = { (void*)1810, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t4271792027_GenericClass = { 25, { &GenInst_MaskableGraphic_t3839221559_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t4271792027_0_0_0 = { &IEnumerator_1_t4271792027_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7490,8 +7634,8 @@ extern const RuntimeType IEnumerable_1_t2819074448_0_0_0 = { &IEnumerable_1_t281
 Il2CppGenericClass IList_1_t3054949134_GenericClass = { 48, { &GenInst_IClippable_t1239629351_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t3054949134_0_0_0 = { &IList_1_t3054949134_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IClippable_t1239629351_0_0_0 = { (void*)1840, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IClippable_t1239629351_1_0_0 = { (void*)1840, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IClippable_t1239629351_0_0_0 = { (void*)1846, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IClippable_t1239629351_1_0_0 = { (void*)1846, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1672199819_GenericClass = { 25, { &GenInst_IClippable_t1239629351_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1672199819_0_0_0 = { &IEnumerator_1_t1672199819_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7508,9 +7652,9 @@ extern const RuntimeType IEnumerable_1_t219482240_0_0_0 = { &IEnumerable_1_t2194
 Il2CppGenericClass IList_1_t2248706216_GenericClass = { 48, { &GenInst_IMaskable_t433386433_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t2248706216_0_0_0 = { &IList_1_t2248706216_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IMaskable_t433386433_0_0_0 = { (void*)1791, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IMaskable_t433386433_1_0_0 = { (void*)1791, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IMaskable_t433386433_0_0_1 = { (void*)1791, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IMaskable_t433386433_0_0_0 = { (void*)1797, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IMaskable_t433386433_1_0_0 = { (void*)1797, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IMaskable_t433386433_0_0_1 = { (void*)1797, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t865956901_GenericClass = { 25, { &GenInst_IMaskable_t433386433_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t865956901_0_0_0 = { &IEnumerator_1_t865956901_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7527,10 +7671,10 @@ extern const RuntimeType IEnumerable_1_t3708206618_0_0_0 = { &IEnumerable_1_t370
 Il2CppGenericClass IList_1_t3790345473_GenericClass = { 48, { &GenInst_IMaterialModifier_t1975025690_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t3790345473_0_0_0 = { &IList_1_t3790345473_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IMaterialModifier_t1975025690_0_0_0 = { (void*)1867, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IMaterialModifier_t1975025690_0_0_1 = { (void*)1867, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IMaterialModifier_t1975025690_0_0_2 = { (void*)1867, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IMaterialModifier_t1975025690_1_0_0 = { (void*)1867, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IMaterialModifier_t1975025690_0_0_0 = { (void*)1873, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IMaterialModifier_t1975025690_0_0_1 = { (void*)1873, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IMaterialModifier_t1975025690_0_0_2 = { (void*)1873, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IMaterialModifier_t1975025690_1_0_0 = { (void*)1873, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2407596158_GenericClass = { 25, { &GenInst_IMaterialModifier_t1975025690_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2407596158_0_0_0 = { &IEnumerator_1_t2407596158_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7547,12 +7691,12 @@ extern const RuntimeType IEnumerable_1_t954878579_0_0_0 = { &IEnumerable_1_t9548
 Il2CppGenericClass IList_1_t3475655394_GenericClass = { 48, { &GenInst_Graphic_t1660335611_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t3475655394_0_0_0 = { &IList_1_t3475655394_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Graphic_t1660335611_0_0_0 = { (void*)1777, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Graphic_t1660335611_1_0_0 = { (void*)1777, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Graphic_t1660335611_0_0_4 = { (void*)1777, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Graphic_t1660335611_0_0_129 = { (void*)1777, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Graphic_t1660335611_0_0_1 = { (void*)1777, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Graphic_t1660335611_0_0_6 = { (void*)1777, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Graphic_t1660335611_0_0_0 = { (void*)1783, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Graphic_t1660335611_1_0_0 = { (void*)1783, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Graphic_t1660335611_0_0_4 = { (void*)1783, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Graphic_t1660335611_0_0_129 = { (void*)1783, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Graphic_t1660335611_0_0_1 = { (void*)1783, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Graphic_t1660335611_0_0_6 = { (void*)1783, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2092906079_GenericClass = { 25, { &GenInst_Graphic_t1660335611_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2092906079_0_0_0 = { &IEnumerator_1_t2092906079_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7635,14 +7779,14 @@ extern const RuntimeType Enumerator_t938237389_0_0_0 = { &Enumerator_t938237389_
 Il2CppGenericClass Enumerator_t2323526507_GenericClass = { 162, { &GenInst_Font_t1956802104_0_0_0_HashSet_1_t466832188_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2323526507_0_0_0 = { &Enumerator_t2323526507_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TweenRunner_1_t3055525458_GenericClass = { 1756, { &GenInst_ColorTween_t809614380_0_0_0, NULL }, NULL };
+Il2CppGenericClass TweenRunner_1_t3055525458_GenericClass = { 1762, { &GenInst_ColorTween_t809614380_0_0_0, NULL }, NULL };
 extern const RuntimeType TweenRunner_1_t3055525458_0_0_0 = { &TweenRunner_1_t3055525458_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TweenRunner_1_t3055525458_0_0_161 = { &TweenRunner_1_t3055525458_GenericClass, 161, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ColorTween_t809614380_0_0_0 = { (void*)1751, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColorTween_t809614380_1_0_0 = { (void*)1751, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ColorTween_t809614380_0_0_0 = { (void*)1757, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorTween_t809614380_1_0_0 = { (void*)1757, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-Il2CppGenericClass U3CStartU3Ec__Iterator0_t3860393442_GenericClass = { 1757, { &GenInst_ColorTween_t809614380_0_0_0, NULL }, NULL };
+Il2CppGenericClass U3CStartU3Ec__Iterator0_t3860393442_GenericClass = { 1763, { &GenInst_ColorTween_t809614380_0_0_0, NULL }, NULL };
 extern const RuntimeType U3CStartU3Ec__Iterator0_t3860393442_0_0_0 = { &U3CStartU3Ec__Iterator0_t3860393442_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t3132410353_GenericClass = { 174, { &GenInst_Graphic_t1660335611_0_0_0, NULL }, NULL };
@@ -7668,7 +7812,7 @@ Il2CppGenericClass Dictionary_2_t2296117448_GenericClass = { 160, { &GenInst_Can
 extern const RuntimeType Dictionary_2_t2296117448_0_0_0 = { &Dictionary_2_t2296117448_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Dictionary_2_t2296117448_0_0_33 = { &Dictionary_2_t2296117448_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass IndexedSet_1_t3109723551_GenericClass = { 1868, { &GenInst_Graphic_t1660335611_0_0_0, NULL }, NULL };
+Il2CppGenericClass IndexedSet_1_t3109723551_GenericClass = { 1874, { &GenInst_Graphic_t1660335611_0_0_0, NULL }, NULL };
 extern const RuntimeType IndexedSet_1_t3109723551_0_0_0 = { &IndexedSet_1_t3109723551_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Dictionary_2_t1241847650_GenericClass = { 160, { &GenInst_Graphic_t1660335611_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
@@ -7758,8 +7902,8 @@ extern const RuntimeType Enumerator_t4250300223_0_0_0 = { &Enumerator_t425030022
 Il2CppGenericClass Dictionary_2_t3531485785_GenericClass = { 160, { &GenInst_IClipper_t1224123152_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType Dictionary_2_t3531485785_0_0_0 = { &Dictionary_2_t3531485785_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType IClipper_t1224123152_0_0_0 = { (void*)1839, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IClipper_t1224123152_1_0_0 = { (void*)1839, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IClipper_t1224123152_0_0_0 = { (void*)1845, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IClipper_t1224123152_1_0_0 = { (void*)1845, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1656693620_GenericClass = { 25, { &GenInst_IClipper_t1224123152_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1656693620_0_0_0 = { &IEnumerator_1_t1656693620_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7812,10 +7956,10 @@ extern const RuntimeType Enumerator_t1190701264_0_0_0 = { &Enumerator_t119070126
 Il2CppGenericClass EqualityComparer_1_t3617621160_GenericClass = { 166, { &GenInst_Type_t1152881528_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t3617621160_0_0_0 = { &EqualityComparer_1_t3617621160_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Type_t1152881528_0_0_0 = { (void*)1783, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Type_t1152881528_0_0_1 = { (void*)1783, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Type_t1152881528_1_0_0 = { (void*)1783, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Type_t1152881528_0_0_32854 = { (void*)1783, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Type_t1152881528_0_0_0 = { (void*)1789, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Type_t1152881528_0_0_1 = { (void*)1789, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Type_t1152881528_1_0_0 = { (void*)1789, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Type_t1152881528_0_0_32854 = { (void*)1789, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t3260213546_GenericClass = { 171, { &GenInst_Type_t1152881528_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t3260213546_0_0_0 = { &IEqualityComparer_1_t3260213546_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7829,10 +7973,10 @@ extern const RuntimeType DefaultComparer_t1884506480_0_0_0 = { &DefaultComparer_
 Il2CppGenericClass EqualityComparer_1_t3632197202_GenericClass = { 166, { &GenInst_FillMethod_t1167457570_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t3632197202_0_0_0 = { &EqualityComparer_1_t3632197202_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType FillMethod_t1167457570_0_0_0 = { (void*)1784, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FillMethod_t1167457570_0_0_1 = { (void*)1784, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FillMethod_t1167457570_1_0_0 = { (void*)1784, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FillMethod_t1167457570_0_0_32854 = { (void*)1784, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FillMethod_t1167457570_0_0_0 = { (void*)1790, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FillMethod_t1167457570_0_0_1 = { (void*)1790, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FillMethod_t1167457570_1_0_0 = { (void*)1790, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FillMethod_t1167457570_0_0_32854 = { (void*)1790, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t3274789588_GenericClass = { 171, { &GenInst_FillMethod_t1167457570_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t3274789588_0_0_0 = { &IEqualityComparer_1_t3274789588_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7858,10 +8002,10 @@ extern const RuntimeType DefaultComparer_t2128891726_0_0_0 = { &DefaultComparer_
 Il2CppGenericClass EqualityComparer_1_t4252043028_GenericClass = { 166, { &GenInst_ContentType_t1787303396_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t4252043028_0_0_0 = { &EqualityComparer_1_t4252043028_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ContentType_t1787303396_0_0_0 = { (void*)1793, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ContentType_t1787303396_0_0_1 = { (void*)1793, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ContentType_t1787303396_1_0_0 = { (void*)1793, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ContentType_t1787303396_0_0_32854 = { (void*)1793, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ContentType_t1787303396_0_0_0 = { (void*)1799, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ContentType_t1787303396_0_0_1 = { (void*)1799, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ContentType_t1787303396_1_0_0 = { (void*)1799, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ContentType_t1787303396_0_0_32854 = { (void*)1799, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t3894635414_GenericClass = { 171, { &GenInst_ContentType_t1787303396_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t3894635414_0_0_0 = { &IEqualityComparer_1_t3894635414_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7875,10 +8019,10 @@ extern const RuntimeType DefaultComparer_t2518928348_0_0_0 = { &DefaultComparer_
 Il2CppGenericClass EqualityComparer_1_t2384420805_GenericClass = { 166, { &GenInst_LineType_t4214648469_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t2384420805_0_0_0 = { &EqualityComparer_1_t2384420805_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType LineType_t4214648469_0_0_0 = { (void*)1796, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType LineType_t4214648469_0_0_1 = { (void*)1796, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType LineType_t4214648469_1_0_0 = { (void*)1796, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType LineType_t4214648469_0_0_32854 = { (void*)1796, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType LineType_t4214648469_0_0_0 = { (void*)1802, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType LineType_t4214648469_0_0_1 = { (void*)1802, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType LineType_t4214648469_1_0_0 = { (void*)1802, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType LineType_t4214648469_0_0_32854 = { (void*)1802, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t2027013191_GenericClass = { 171, { &GenInst_LineType_t4214648469_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t2027013191_0_0_0 = { &IEqualityComparer_1_t2027013191_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7907,10 +8051,10 @@ extern const RuntimeType IEnumerable_1_t767156285_0_0_0 = { &IEnumerable_1_t7671
 Il2CppGenericClass EqualityComparer_1_t4235140311_GenericClass = { 166, { &GenInst_InputType_t1770400679_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t4235140311_0_0_0 = { &EqualityComparer_1_t4235140311_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType InputType_t1770400679_0_0_0 = { (void*)1794, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType InputType_t1770400679_0_0_1 = { (void*)1794, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType InputType_t1770400679_1_0_0 = { (void*)1794, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType InputType_t1770400679_0_0_32854 = { (void*)1794, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputType_t1770400679_0_0_0 = { (void*)1800, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputType_t1770400679_0_0_1 = { (void*)1800, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputType_t1770400679_1_0_0 = { (void*)1800, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType InputType_t1770400679_0_0_32854 = { (void*)1800, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t3877732697_GenericClass = { 171, { &GenInst_InputType_t1770400679_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t3877732697_0_0_0 = { &IEqualityComparer_1_t3877732697_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7924,10 +8068,10 @@ extern const RuntimeType DefaultComparer_t2502025631_0_0_0 = { &DefaultComparer_
 Il2CppGenericClass EqualityComparer_1_t3995337334_GenericClass = { 166, { &GenInst_TouchScreenKeyboardType_t1530597702_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t3995337334_0_0_0 = { &EqualityComparer_1_t3995337334_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TouchScreenKeyboardType_t1530597702_0_0_0 = { (void*)1461, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TouchScreenKeyboardType_t1530597702_1_0_0 = { (void*)1461, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TouchScreenKeyboardType_t1530597702_0_0_32854 = { (void*)1461, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TouchScreenKeyboardType_t1530597702_0_0_1 = { (void*)1461, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TouchScreenKeyboardType_t1530597702_0_0_0 = { (void*)1463, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TouchScreenKeyboardType_t1530597702_1_0_0 = { (void*)1463, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TouchScreenKeyboardType_t1530597702_0_0_32854 = { (void*)1463, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TouchScreenKeyboardType_t1530597702_0_0_1 = { (void*)1463, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t3637929720_GenericClass = { 171, { &GenInst_TouchScreenKeyboardType_t1530597702_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t3637929720_0_0_0 = { &IEqualityComparer_1_t3637929720_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7941,10 +8085,10 @@ extern const RuntimeType DefaultComparer_t2262222654_0_0_0 = { &DefaultComparer_
 Il2CppGenericClass EqualityComparer_1_t2221686773_GenericClass = { 166, { &GenInst_CharacterValidation_t4051914437_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t2221686773_0_0_0 = { &EqualityComparer_1_t2221686773_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType CharacterValidation_t4051914437_0_0_0 = { (void*)1795, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CharacterValidation_t4051914437_0_0_1 = { (void*)1795, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CharacterValidation_t4051914437_1_0_0 = { (void*)1795, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType CharacterValidation_t4051914437_0_0_32854 = { (void*)1795, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CharacterValidation_t4051914437_0_0_0 = { (void*)1801, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CharacterValidation_t4051914437_0_0_1 = { (void*)1801, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CharacterValidation_t4051914437_1_0_0 = { (void*)1801, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CharacterValidation_t4051914437_0_0_32854 = { (void*)1801, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t1864279159_GenericClass = { 171, { &GenInst_CharacterValidation_t4051914437_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t1864279159_0_0_0 = { &IEqualityComparer_1_t1864279159_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7967,14 +8111,14 @@ extern const RuntimeType IEqualityComparer_1_t1446825192_0_0_0 = { &IEqualityCom
 Il2CppGenericClass DefaultComparer_t71118126_GenericClass = { 167, { &GenInst_Char_t3634460470_0_0_0, NULL }, NULL };
 extern const RuntimeType DefaultComparer_t71118126_0_0_0 = { &DefaultComparer_t71118126_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_1_t2729110193_GenericClass = { 1480, { &GenInst_String_t_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_1_t2729110193_GenericClass = { 1482, { &GenInst_String_t_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_1_t2729110193_0_0_0 = { &UnityEvent_1_t2729110193_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t3275726873_GenericClass = { 174, { &GenInst_Mask_t1803652131_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t3275726873_0_0_0 = { &List_1_t3275726873_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Mask_t1803652131_0_0_0 = { (void*)1803, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Mask_t1803652131_1_0_0 = { (void*)1803, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Mask_t1803652131_0_0_0 = { (void*)1809, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Mask_t1803652131_1_0_0 = { (void*)1809, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2236222599_GenericClass = { 25, { &GenInst_Mask_t1803652131_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2236222599_0_0_0 = { &IEnumerator_1_t2236222599_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -7994,10 +8138,10 @@ extern const RuntimeType IEnumerable_1_t783505020_0_0_0 = { &IEnumerable_1_t7835
 Il2CppGenericClass IList_1_t4270022620_GenericClass = { 48, { &GenInst_ICanvasRaycastFilter_t2454702837_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t4270022620_0_0_0 = { &IList_1_t4270022620_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ICanvasRaycastFilter_t2454702837_0_0_0 = { (void*)1688, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ICanvasRaycastFilter_t2454702837_1_0_0 = { (void*)1688, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ICanvasRaycastFilter_t2454702837_0_0_2 = { (void*)1688, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ICanvasRaycastFilter_t2454702837_0_0_1 = { (void*)1688, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICanvasRaycastFilter_t2454702837_0_0_0 = { (void*)1694, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICanvasRaycastFilter_t2454702837_1_0_0 = { (void*)1694, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ICanvasRaycastFilter_t2454702837_0_0_2 = { (void*)1694, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ICanvasRaycastFilter_t2454702837_0_0_1 = { (void*)1694, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2887273305_GenericClass = { 25, { &GenInst_ICanvasRaycastFilter_t2454702837_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2887273305_0_0_0 = { &IEnumerator_1_t2887273305_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8023,10 +8167,10 @@ extern const RuntimeType Enumerator_t870003454_0_0_0 = { &Enumerator_t870003454_
 Il2CppGenericClass Comparison_1_t1578583310_GenericClass = { 920, { &GenInst_Mask_t1803652131_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t1578583310_0_0_0 = { &Comparison_1_t1578583310_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t2833241322_GenericClass = { 1869, { &GenInst_Mask_t1803652131_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t2833241322_GenericClass = { 1875, { &GenInst_Mask_t1803652131_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t2833241322_0_0_0 = { &ListPool_1_t2833241322_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t2975350085_GenericClass = { 1870, { &GenInst_List_1_t3275726873_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t2975350085_GenericClass = { 1876, { &GenInst_List_1_t3275726873_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t2975350085_0_0_0 = { &ObjectPool_1_t2975350085_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t4119116328_GenericClass = { 1081, { &GenInst_List_1_t3275726873_0_0_0, NULL }, NULL };
@@ -8050,16 +8194,16 @@ extern const RuntimeType IEnumerable_1_t2255579762_0_0_0 = { &IEnumerable_1_t225
 Il2CppGenericClass Enumerator_t1338136451_GenericClass = { 1082, { &GenInst_List_1_t3275726873_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t1338136451_0_0_0 = { &Enumerator_t1338136451_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t3860563014_GenericClass = { 1479, { &GenInst_List_1_t3275726873_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t3860563014_GenericClass = { 1481, { &GenInst_List_1_t3275726873_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t3860563014_0_0_0 = { &UnityAction_1_t3860563014_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t651996883_GenericClass = { 174, { &GenInst_RectMask2D_t3474889437_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t651996883_0_0_0 = { &List_1_t651996883_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t651996883_0_0_129 = { &List_1_t651996883_GenericClass, 129, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType RectMask2D_t3474889437_0_0_0 = { (void*)1811, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RectMask2D_t3474889437_0_0_129 = { (void*)1811, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RectMask2D_t3474889437_1_0_0 = { (void*)1811, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RectMask2D_t3474889437_0_0_0 = { (void*)1817, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RectMask2D_t3474889437_0_0_129 = { (void*)1817, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RectMask2D_t3474889437_1_0_0 = { (void*)1817, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3907459905_GenericClass = { 25, { &GenInst_RectMask2D_t3474889437_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3907459905_0_0_0 = { &IEnumerator_1_t3907459905_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8088,10 +8232,10 @@ extern const RuntimeType Enumerator_t2541240760_0_0_0 = { &Enumerator_t254124076
 Il2CppGenericClass Comparison_1_t3249820616_GenericClass = { 920, { &GenInst_RectMask2D_t3474889437_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t3249820616_0_0_0 = { &Comparison_1_t3249820616_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t209511332_GenericClass = { 1869, { &GenInst_RectMask2D_t3474889437_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t209511332_GenericClass = { 1875, { &GenInst_RectMask2D_t3474889437_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t209511332_0_0_0 = { &ListPool_1_t209511332_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t351620095_GenericClass = { 1870, { &GenInst_List_1_t651996883_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t351620095_GenericClass = { 1876, { &GenInst_List_1_t651996883_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t351620095_0_0_0 = { &ObjectPool_1_t351620095_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t1495386338_GenericClass = { 1081, { &GenInst_List_1_t651996883_0_0_0, NULL }, NULL };
@@ -8115,15 +8259,15 @@ extern const RuntimeType IEnumerable_1_t3926817068_0_0_0 = { &IEnumerable_1_t392
 Il2CppGenericClass Enumerator_t3009373757_GenericClass = { 1082, { &GenInst_List_1_t651996883_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t3009373757_0_0_0 = { &Enumerator_t3009373757_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t1236833024_GenericClass = { 1479, { &GenInst_List_1_t651996883_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t1236833024_GenericClass = { 1481, { &GenInst_List_1_t651996883_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t1236833024_0_0_0 = { &UnityAction_1_t1236833024_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass IEquatable_1_t3940462306_GenericClass = { 13, { &GenInst_Navigation_t3049316579_0_0_0, NULL }, NULL };
 extern const RuntimeType IEquatable_1_t3940462306_0_0_0 = { &IEquatable_1_t3940462306_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Navigation_t3049316579_0_0_0 = { (void*)1808, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Navigation_t3049316579_1_0_0 = { (void*)1808, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Navigation_t3049316579_0_0_1 = { (void*)1808, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Navigation_t3049316579_0_0_0 = { (void*)1814, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Navigation_t3049316579_1_0_0 = { (void*)1814, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Navigation_t3049316579_0_0_1 = { (void*)1814, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass HashSet_1_t4099546121_GenericClass = { 1237, { &GenInst_IClippable_t1239629351_0_0_0, NULL }, NULL };
 extern const RuntimeType HashSet_1_t4099546121_0_0_0 = { &HashSet_1_t4099546121_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8156,10 +8300,10 @@ extern const RuntimeType Enumerator_t1509756096_0_0_0 = { &Enumerator_t150975609
 Il2CppGenericClass EqualityComparer_1_t1640486689_GenericClass = { 166, { &GenInst_Direction_t3470714353_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t1640486689_0_0_0 = { &EqualityComparer_1_t1640486689_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Direction_t3470714353_0_0_0 = { (void*)1813, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Direction_t3470714353_0_0_1 = { (void*)1813, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Direction_t3470714353_1_0_0 = { (void*)1813, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Direction_t3470714353_0_0_32854 = { (void*)1813, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Direction_t3470714353_0_0_0 = { (void*)1819, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Direction_t3470714353_0_0_1 = { (void*)1819, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Direction_t3470714353_1_0_0 = { (void*)1819, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Direction_t3470714353_0_0_32854 = { (void*)1819, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t1283079075_GenericClass = { 171, { &GenInst_Direction_t3470714353_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t1283079075_0_0_0 = { &IEqualityComparer_1_t1283079075_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8170,22 +8314,22 @@ extern const RuntimeType IEquatable_1_t66892784_0_0_0 = { &IEquatable_1_t6689278
 Il2CppGenericClass DefaultComparer_t4202339305_GenericClass = { 167, { &GenInst_Direction_t3470714353_0_0_0, NULL }, NULL };
 extern const RuntimeType DefaultComparer_t4202339305_0_0_0 = { &DefaultComparer_t4202339305_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_1_t3037889027_GenericClass = { 1480, { &GenInst_Vector2_t2156229523_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_1_t3037889027_GenericClass = { 1482, { &GenInst_Vector2_t2156229523_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_1_t3037889027_0_0_0 = { &UnityEvent_1_t3037889027_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t2741065664_GenericClass = { 1479, { &GenInst_Vector2_t2156229523_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t2741065664_GenericClass = { 1481, { &GenInst_Vector2_t2156229523_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t2741065664_0_0_0 = { &UnityAction_1_t2741065664_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_1_t2273393761_GenericClass = { 1467, { &GenInst_Vector2_t2156229523_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_1_t2273393761_GenericClass = { 1469, { &GenInst_Vector2_t2156229523_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_1_t2273393761_0_0_0 = { &InvokableCall_1_t2273393761_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t427135887_GenericClass = { 174, { &GenInst_Selectable_t3250028441_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t427135887_0_0_0 = { &List_1_t427135887_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t427135887_0_0_17 = { &List_1_t427135887_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Selectable_t3250028441_0_0_0 = { (void*)1821, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Selectable_t3250028441_0_0_1 = { (void*)1821, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Selectable_t3250028441_1_0_0 = { (void*)1821, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Selectable_t3250028441_0_0_0 = { (void*)1827, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Selectable_t3250028441_0_0_1 = { (void*)1827, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Selectable_t3250028441_1_0_0 = { (void*)1827, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3682598909_GenericClass = { 25, { &GenInst_Selectable_t3250028441_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3682598909_0_0_0 = { &IEnumerator_1_t3682598909_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8319,10 +8463,10 @@ extern const RuntimeType DefaultComparer_t3780941531_0_0_0 = { &DefaultComparer_
 Il2CppGenericClass EqualityComparer_1_t4234648263_GenericClass = { 166, { &GenInst_Transition_t1769908631_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t4234648263_0_0_0 = { &EqualityComparer_1_t4234648263_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Transition_t1769908631_0_0_0 = { (void*)1822, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Transition_t1769908631_0_0_1 = { (void*)1822, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Transition_t1769908631_1_0_0 = { (void*)1822, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Transition_t1769908631_0_0_32854 = { (void*)1822, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Transition_t1769908631_0_0_0 = { (void*)1828, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Transition_t1769908631_0_0_1 = { (void*)1828, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Transition_t1769908631_1_0_0 = { (void*)1828, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Transition_t1769908631_0_0_32854 = { (void*)1828, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t3877240649_GenericClass = { 171, { &GenInst_Transition_t1769908631_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t3877240649_0_0_0 = { &IEqualityComparer_1_t3877240649_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8348,9 +8492,9 @@ extern const RuntimeType DefaultComparer_t2870656526_0_0_0 = { &DefaultComparer_
 Il2CppGenericClass EqualityComparer_1_t3827726111_GenericClass = { 166, { &GenInst_SpriteState_t1362986479_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t3827726111_0_0_0 = { &EqualityComparer_1_t3827726111_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType SpriteState_t1362986479_0_0_0 = { (void*)1829, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SpriteState_t1362986479_0_0_1 = { (void*)1829, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SpriteState_t1362986479_1_0_0 = { (void*)1829, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType SpriteState_t1362986479_0_0_0 = { (void*)1835, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SpriteState_t1362986479_0_0_1 = { (void*)1835, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SpriteState_t1362986479_1_0_0 = { (void*)1835, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass GenericEqualityComparer_1_t1597298740_GenericClass = { 168, { &GenInst_SpriteState_t1362986479_0_0_0, NULL }, NULL };
 extern const RuntimeType GenericEqualityComparer_1_t1597298740_0_0_0 = { &GenericEqualityComparer_1_t1597298740_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8368,9 +8512,9 @@ Il2CppGenericClass List_1_t1260619206_GenericClass = { 174, { &GenInst_CanvasGro
 extern const RuntimeType List_1_t1260619206_0_0_0 = { &List_1_t1260619206_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t1260619206_0_0_33 = { &List_1_t1260619206_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType CanvasGroup_t4083511760_0_0_0 = { (void*)1689, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CanvasGroup_t4083511760_1_0_0 = { (void*)1689, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType CanvasGroup_t4083511760_0_0_6 = { (void*)1689, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CanvasGroup_t4083511760_0_0_0 = { (void*)1695, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CanvasGroup_t4083511760_1_0_0 = { (void*)1695, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CanvasGroup_t4083511760_0_0_6 = { (void*)1695, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t221114932_GenericClass = { 25, { &GenInst_CanvasGroup_t4083511760_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t221114932_0_0_0 = { &IEnumerator_1_t221114932_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8402,10 +8546,10 @@ extern const RuntimeType Comparison_1_t3858442939_0_0_0 = { &Comparison_1_t38584
 Il2CppGenericClass EqualityComparer_1_t2802648867_GenericClass = { 166, { &GenInst_Direction_t337909235_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t2802648867_0_0_0 = { &EqualityComparer_1_t2802648867_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Direction_t337909235_0_0_0 = { (void*)1826, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Direction_t337909235_0_0_1 = { (void*)1826, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Direction_t337909235_1_0_0 = { (void*)1826, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Direction_t337909235_0_0_32854 = { (void*)1826, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Direction_t337909235_0_0_0 = { (void*)1832, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Direction_t337909235_0_0_1 = { (void*)1832, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Direction_t337909235_1_0_0 = { (void*)1832, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Direction_t337909235_0_0_32854 = { (void*)1832, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t2445241253_GenericClass = { 171, { &GenInst_Direction_t337909235_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t2445241253_0_0_0 = { &IEqualityComparer_1_t2445241253_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8420,8 +8564,8 @@ Il2CppGenericClass List_1_t134214538_GenericClass = { 174, { &GenInst_MatEntry_t
 extern const RuntimeType List_1_t134214538_0_0_0 = { &List_1_t134214538_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t134214538_0_0_17 = { &List_1_t134214538_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType MatEntry_t2957107092_0_0_0 = { (void*)1831, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MatEntry_t2957107092_1_0_0 = { (void*)1831, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MatEntry_t2957107092_0_0_0 = { (void*)1837, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MatEntry_t2957107092_1_0_0 = { (void*)1837, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3389677560_GenericClass = { 25, { &GenInst_MatEntry_t2957107092_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3389677560_0_0_0 = { &IEnumerator_1_t3389677560_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8454,9 +8598,9 @@ Il2CppGenericClass List_1_t4207451803_GenericClass = { 174, { &GenInst_Toggle_t2
 extern const RuntimeType List_1_t4207451803_0_0_0 = { &List_1_t4207451803_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t4207451803_0_0_1 = { &List_1_t4207451803_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Toggle_t2735377061_0_0_0 = { (void*)1833, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Toggle_t2735377061_0_0_1 = { (void*)1833, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Toggle_t2735377061_1_0_0 = { (void*)1833, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Toggle_t2735377061_0_0_0 = { (void*)1839, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Toggle_t2735377061_0_0_1 = { (void*)1839, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Toggle_t2735377061_1_0_0 = { (void*)1839, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3167947529_GenericClass = { 25, { &GenInst_Toggle_t2735377061_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3167947529_0_0_0 = { &IEnumerator_1_t3167947529_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8523,7 +8667,7 @@ extern const RuntimeType Func_2_t3446800538_0_0_17 = { &Func_2_t3446800538_Gener
 Il2CppGenericClass U3CCreateWhereIteratorU3Ec__Iterator1D_1_t4180368026_GenericClass = { 1243, { &GenInst_Toggle_t2735377061_0_0_0, NULL }, NULL };
 extern const RuntimeType U3CCreateWhereIteratorU3Ec__Iterator1D_1_t4180368026_0_0_0 = { &U3CCreateWhereIteratorU3Ec__Iterator1D_1_t4180368026_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass IndexedSet_1_t2673511092_GenericClass = { 1868, { &GenInst_IClipper_t1224123152_0_0_0, NULL }, NULL };
+Il2CppGenericClass IndexedSet_1_t2673511092_GenericClass = { 1874, { &GenInst_IClipper_t1224123152_0_0_0, NULL }, NULL };
 extern const RuntimeType IndexedSet_1_t2673511092_0_0_0 = { &IndexedSet_1_t2673511092_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IndexedSet_1_t2673511092_0_0_33 = { &IndexedSet_1_t2673511092_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -8545,10 +8689,10 @@ extern const RuntimeType Comparison_1_t999054331_0_0_0 = { &Comparison_1_t999054
 Il2CppGenericClass EqualityComparer_1_t1586965335_GenericClass = { 166, { &GenInst_AspectMode_t3417192999_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t1586965335_0_0_0 = { &EqualityComparer_1_t1586965335_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AspectMode_t3417192999_0_0_0 = { (void*)1843, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AspectMode_t3417192999_0_0_1 = { (void*)1843, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AspectMode_t3417192999_1_0_0 = { (void*)1843, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType AspectMode_t3417192999_0_0_32854 = { (void*)1843, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AspectMode_t3417192999_0_0_0 = { (void*)1849, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AspectMode_t3417192999_0_0_1 = { (void*)1849, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AspectMode_t3417192999_1_0_0 = { (void*)1849, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AspectMode_t3417192999_0_0_32854 = { (void*)1849, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t1229557721_GenericClass = { 171, { &GenInst_AspectMode_t3417192999_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t1229557721_0_0_0 = { &IEqualityComparer_1_t1229557721_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8562,10 +8706,10 @@ extern const RuntimeType DefaultComparer_t4148817951_0_0_0 = { &DefaultComparer_
 Il2CppGenericClass EqualityComparer_1_t1437653550_GenericClass = { 166, { &GenInst_FitMode_t3267881214_0_0_0, NULL }, NULL };
 extern const RuntimeType EqualityComparer_1_t1437653550_0_0_0 = { &EqualityComparer_1_t1437653550_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType FitMode_t3267881214_0_0_0 = { (void*)1849, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FitMode_t3267881214_0_0_4 = { (void*)1849, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FitMode_t3267881214_1_0_0 = { (void*)1849, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FitMode_t3267881214_0_0_32854 = { (void*)1849, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FitMode_t3267881214_0_0_0 = { (void*)1855, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FitMode_t3267881214_0_0_4 = { (void*)1855, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FitMode_t3267881214_1_0_0 = { (void*)1855, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FitMode_t3267881214_0_0_32854 = { (void*)1855, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEqualityComparer_1_t1080245936_GenericClass = { 171, { &GenInst_FitMode_t3267881214_0_0_0, NULL }, NULL };
 extern const RuntimeType IEqualityComparer_1_t1080245936_0_0_0 = { &IEqualityComparer_1_t1080245936_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8615,12 +8759,12 @@ extern const RuntimeType Enumerator_t2771008348_0_0_0 = { &Enumerator_t277100834
 Il2CppGenericClass Comparison_1_t3479588204_GenericClass = { 920, { &GenInst_RectTransform_t3704657025_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t3479588204_0_0_0 = { &Comparison_1_t3479588204_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t240936516_GenericClass = { 1870, { &GenInst_LayoutRebuilder_t541313304_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t240936516_GenericClass = { 1876, { &GenInst_LayoutRebuilder_t541313304_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t240936516_0_0_0 = { &ObjectPool_1_t240936516_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType ObjectPool_1_t240936516_0_0_17 = { &ObjectPool_1_t240936516_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType LayoutRebuilder_t541313304_0_0_0 = { (void*)1864, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LayoutRebuilder_t541313304_1_0_0 = { (void*)1864, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType LayoutRebuilder_t541313304_0_0_0 = { (void*)1870, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LayoutRebuilder_t541313304_1_0_0 = { (void*)1870, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass Stack_1_t1384702759_GenericClass = { 1081, { &GenInst_LayoutRebuilder_t541313304_0_0_0, NULL }, NULL };
 extern const RuntimeType Stack_1_t1384702759_0_0_0 = { &Stack_1_t1384702759_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -8643,10 +8787,10 @@ extern const RuntimeType IEnumerable_1_t3816133489_0_0_0 = { &IEnumerable_1_t381
 Il2CppGenericClass Enumerator_t2898690178_GenericClass = { 1082, { &GenInst_LayoutRebuilder_t541313304_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2898690178_0_0_0 = { &Enumerator_t2898690178_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t1126149445_GenericClass = { 1479, { &GenInst_LayoutRebuilder_t541313304_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t1126149445_GenericClass = { 1481, { &GenInst_LayoutRebuilder_t541313304_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t1126149445_0_0_0 = { &UnityAction_1_t1126149445_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t2508470592_GenericClass = { 1479, { &GenInst_Component_t1923634451_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t2508470592_GenericClass = { 1481, { &GenInst_Component_t1923634451_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t2508470592_0_0_0 = { &UnityAction_1_t2508470592_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_1_t2508470592_0_0_17 = { &UnityAction_1_t2508470592_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -8657,10 +8801,10 @@ extern const RuntimeType Func_2_t235587086_0_0_17 = { &Func_2_t235587086_Generic
 Il2CppGenericClass Func_2_t764290984_GenericClass = { 1258, { &GenInst_RuntimeObject_0_0_0_Single_t1397266774_0_0_0, NULL }, NULL };
 extern const RuntimeType Func_2_t764290984_0_0_0 = { &Func_2_t764290984_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t456935359_GenericClass = { 1869, { &GenInst_Vector3_t3722313464_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t456935359_GenericClass = { 1875, { &GenInst_Vector3_t3722313464_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t456935359_0_0_0 = { &ListPool_1_t456935359_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t599044122_GenericClass = { 1870, { &GenInst_List_1_t899420910_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t599044122_GenericClass = { 1876, { &GenInst_List_1_t899420910_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t599044122_0_0_0 = { &ObjectPool_1_t599044122_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t1742810365_GenericClass = { 1081, { &GenInst_List_1_t899420910_0_0_0, NULL }, NULL };
@@ -8684,13 +8828,13 @@ extern const RuntimeType IEnumerable_1_t4174241095_0_0_0 = { &IEnumerable_1_t417
 Il2CppGenericClass Enumerator_t3256797784_GenericClass = { 1082, { &GenInst_List_1_t899420910_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t3256797784_0_0_0 = { &Enumerator_t3256797784_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t1484257051_GenericClass = { 1479, { &GenInst_List_1_t899420910_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t1484257051_GenericClass = { 1481, { &GenInst_List_1_t899420910_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t1484257051_0_0_0 = { &UnityAction_1_t1484257051_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t3630090483_GenericClass = { 1869, { &GenInst_Color32_t2600501292_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t3630090483_GenericClass = { 1875, { &GenInst_Color32_t2600501292_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t3630090483_0_0_0 = { &ListPool_1_t3630090483_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t3772199246_GenericClass = { 1870, { &GenInst_List_1_t4072576034_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t3772199246_GenericClass = { 1876, { &GenInst_List_1_t4072576034_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t3772199246_0_0_0 = { &ObjectPool_1_t3772199246_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t620998193_GenericClass = { 1081, { &GenInst_List_1_t4072576034_0_0_0, NULL }, NULL };
@@ -8714,13 +8858,13 @@ extern const RuntimeType IEnumerable_1_t3052428923_0_0_0 = { &IEnumerable_1_t305
 Il2CppGenericClass Enumerator_t2134985612_GenericClass = { 1082, { &GenInst_List_1_t4072576034_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2134985612_0_0_0 = { &Enumerator_t2134985612_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t362444879_GenericClass = { 1479, { &GenInst_List_1_t4072576034_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t362444879_GenericClass = { 1481, { &GenInst_List_1_t4072576034_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t362444879_0_0_0 = { &UnityAction_1_t362444879_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t3185818714_GenericClass = { 1869, { &GenInst_Vector2_t2156229523_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t3185818714_GenericClass = { 1875, { &GenInst_Vector2_t2156229523_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t3185818714_0_0_0 = { &ListPool_1_t3185818714_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t3327927477_GenericClass = { 1870, { &GenInst_List_1_t3628304265_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t3327927477_GenericClass = { 1876, { &GenInst_List_1_t3628304265_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t3327927477_0_0_0 = { &ObjectPool_1_t3327927477_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t176726424_GenericClass = { 1081, { &GenInst_List_1_t3628304265_0_0_0, NULL }, NULL };
@@ -8744,13 +8888,13 @@ extern const RuntimeType IEnumerable_1_t2608157154_0_0_0 = { &IEnumerable_1_t260
 Il2CppGenericClass Enumerator_t1690713843_GenericClass = { 1082, { &GenInst_List_1_t3628304265_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t1690713843_0_0_0 = { &Enumerator_t1690713843_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t4213140406_GenericClass = { 1479, { &GenInst_List_1_t3628304265_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t4213140406_GenericClass = { 1481, { &GenInst_List_1_t3628304265_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t4213140406_0_0_0 = { &UnityAction_1_t4213140406_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t53650832_GenericClass = { 1869, { &GenInst_Vector4_t3319028937_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t53650832_GenericClass = { 1875, { &GenInst_Vector4_t3319028937_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t53650832_0_0_0 = { &ListPool_1_t53650832_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t195759595_GenericClass = { 1870, { &GenInst_List_1_t496136383_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t195759595_GenericClass = { 1876, { &GenInst_List_1_t496136383_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t195759595_0_0_0 = { &ObjectPool_1_t195759595_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t1339525838_GenericClass = { 1081, { &GenInst_List_1_t496136383_0_0_0, NULL }, NULL };
@@ -8774,13 +8918,13 @@ extern const RuntimeType IEnumerable_1_t3770956568_0_0_0 = { &IEnumerable_1_t377
 Il2CppGenericClass Enumerator_t2853513257_GenericClass = { 1082, { &GenInst_List_1_t496136383_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2853513257_0_0_0 = { &Enumerator_t2853513257_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t1080972524_GenericClass = { 1479, { &GenInst_List_1_t496136383_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t1080972524_GenericClass = { 1481, { &GenInst_List_1_t496136383_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t1080972524_0_0_0 = { &UnityAction_1_t1080972524_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t3980534944_GenericClass = { 1869, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t3980534944_GenericClass = { 1875, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t3980534944_0_0_0 = { &ListPool_1_t3980534944_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t4122643707_GenericClass = { 1870, { &GenInst_List_1_t128053199_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t4122643707_GenericClass = { 1876, { &GenInst_List_1_t128053199_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t4122643707_0_0_0 = { &ObjectPool_1_t4122643707_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t971442654_GenericClass = { 1081, { &GenInst_List_1_t128053199_0_0_0, NULL }, NULL };
@@ -8804,13 +8948,13 @@ extern const RuntimeType IEnumerable_1_t3402873384_0_0_0 = { &IEnumerable_1_t340
 Il2CppGenericClass Enumerator_t2485430073_GenericClass = { 1082, { &GenInst_List_1_t128053199_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2485430073_0_0_0 = { &Enumerator_t2485430073_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t712889340_GenericClass = { 1479, { &GenInst_List_1_t128053199_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t712889340_GenericClass = { 1481, { &GenInst_List_1_t128053199_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t712889340_0_0_0 = { &UnityAction_1_t712889340_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t792119500_GenericClass = { 1869, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t792119500_GenericClass = { 1875, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t792119500_0_0_0 = { &ListPool_1_t792119500_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t934228263_GenericClass = { 1870, { &GenInst_List_1_t1234605051_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t934228263_GenericClass = { 1876, { &GenInst_List_1_t1234605051_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t934228263_0_0_0 = { &ObjectPool_1_t934228263_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t2077994506_GenericClass = { 1081, { &GenInst_List_1_t1234605051_0_0_0, NULL }, NULL };
@@ -8834,7 +8978,7 @@ extern const RuntimeType IEnumerable_1_t214457940_0_0_0 = { &IEnumerable_1_t2144
 Il2CppGenericClass Enumerator_t3591981925_GenericClass = { 1082, { &GenInst_List_1_t1234605051_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t3591981925_0_0_0 = { &Enumerator_t3591981925_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t1819441192_GenericClass = { 1479, { &GenInst_List_1_t1234605051_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t1819441192_GenericClass = { 1481, { &GenInst_List_1_t1234605051_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t1819441192_0_0_0 = { &UnityAction_1_t1819441192_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass LinkedList_1_t104023486_GenericClass = { 1076, { &GenInst_Action_t1264377477_0_0_0, NULL }, NULL };
@@ -8938,7 +9082,7 @@ extern const RuntimeType Enumerator_t470182708_0_0_0 = { &Enumerator_t470182708_
 Il2CppGenericClass Enumerator_t1855471826_GenericClass = { 162, { &GenInst_Action_t1264377477_0_0_0_LinkedListNode_1_t1009552580_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t1855471826_0_0_0 = { &Enumerator_t1855471826_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_1_t2446676753_GenericClass = { 1892, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_1_t2446676753_GenericClass = { 1898, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_1_t2446676753_0_0_0 = { &FastAction_1_t2446676753_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass LinkedList_1_t2092219768_GenericClass = { 1076, { &GenInst_Action_1_t3252573759_0_0_0, NULL }, NULL };
@@ -9016,7 +9160,7 @@ extern const RuntimeType Enumerator_t615580428_0_0_0 = { &Enumerator_t615580428_
 Il2CppGenericClass Enumerator_t2000869546_GenericClass = { 162, { &GenInst_Action_1_t3252573759_0_0_0_LinkedListNode_1_t2997748862_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2000869546_0_0_0 = { &Enumerator_t2000869546_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_2_t598245951_GenericClass = { 1893, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_2_t598245951_GenericClass = { 1899, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_2_t598245951_0_0_0 = { &FastAction_2_t598245951_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass LinkedList_1_t1309654847_GenericClass = { 1076, { &GenInst_Action_2_t2470008838_0_0_0, NULL }, NULL };
@@ -9094,7 +9238,7 @@ extern const RuntimeType Enumerator_t643594256_0_0_0 = { &Enumerator_t643594256_
 Il2CppGenericClass Enumerator_t2028883374_GenericClass = { 162, { &GenInst_Action_2_t2470008838_0_0_0_LinkedListNode_1_t2215183941_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2028883374_0_0_0 = { &Enumerator_t2028883374_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_3_t868154009_GenericClass = { 1894, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_3_t868154009_GenericClass = { 1900, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_3_t868154009_0_0_0 = { &FastAction_3_t868154009_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass LinkedList_1_t2472200954_GenericClass = { 1076, { &GenInst_Action_3_t3632554945_0_0_0, NULL }, NULL };
@@ -9210,13 +9354,13 @@ Il2CppGenericClass Dictionary_2_t3548062253_GenericClass = { 160, { &GenInst_Int
 extern const RuntimeType Dictionary_2_t3548062253_0_0_0 = { &Dictionary_2_t3548062253_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Dictionary_2_t3548062253_0_0_1 = { &Dictionary_2_t3548062253_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_FontAsset_t364381626_0_0_0 = { (void*)1953, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_FontAsset_t364381626_1_0_2 = { (void*)1953, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_FontAsset_t364381626_0_0_6 = { (void*)1953, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_FontAsset_t364381626_1_0_0 = { (void*)1953, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_FontAsset_t364381626_0_0_17 = { (void*)1953, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_FontAsset_t364381626_0_0_4 = { (void*)1953, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_FontAsset_t364381626_0_0_1 = { (void*)1953, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_FontAsset_t364381626_0_0_0 = { (void*)1959, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_FontAsset_t364381626_1_0_2 = { (void*)1959, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_FontAsset_t364381626_0_0_6 = { (void*)1959, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_FontAsset_t364381626_1_0_0 = { (void*)1959, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_FontAsset_t364381626_0_0_17 = { (void*)1959, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_FontAsset_t364381626_0_0_4 = { (void*)1959, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_FontAsset_t364381626_0_0_1 = { (void*)1959, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t796952094_GenericClass = { 25, { &GenInst_TMP_FontAsset_t364381626_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t796952094_0_0_0 = { &IEnumerator_1_t796952094_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9236,8 +9380,8 @@ extern const RuntimeType IEnumerable_1_t3639201811_0_0_0 = { &IEnumerable_1_t363
 Il2CppGenericClass IList_1_t4285277068_GenericClass = { 48, { &GenInst_TMP_Asset_t2469957285_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t4285277068_0_0_0 = { &IList_1_t4285277068_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_Asset_t2469957285_0_0_0 = { (void*)1931, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Asset_t2469957285_1_0_0 = { (void*)1931, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_Asset_t2469957285_0_0_0 = { (void*)1937, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Asset_t2469957285_1_0_0 = { (void*)1937, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2902527753_GenericClass = { 25, { &GenInst_TMP_Asset_t2469957285_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2902527753_0_0_0 = { &IEnumerator_1_t2902527753_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9285,14 +9429,14 @@ Il2CppGenericClass Dictionary_2_t3668501260_GenericClass = { 160, { &GenInst_Int
 extern const RuntimeType Dictionary_2_t3668501260_0_0_0 = { &Dictionary_2_t3668501260_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Dictionary_2_t3668501260_0_0_1 = { &Dictionary_2_t3668501260_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_0 = { (void*)1989, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_SpriteAsset_t484820633_1_0_2 = { (void*)1989, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_6 = { (void*)1989, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_1 = { (void*)1989, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_3 = { (void*)1989, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_SpriteAsset_t484820633_1_0_0 = { (void*)1989, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_22 = { (void*)1989, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_4 = { (void*)1989, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_0 = { (void*)1995, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SpriteAsset_t484820633_1_0_2 = { (void*)1995, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_6 = { (void*)1995, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_1 = { (void*)1995, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_3 = { (void*)1995, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SpriteAsset_t484820633_1_0_0 = { (void*)1995, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_22 = { (void*)1995, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SpriteAsset_t484820633_0_0_4 = { (void*)1995, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t917391101_GenericClass = { 25, { &GenInst_TMP_SpriteAsset_t484820633_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t917391101_0_0_0 = { &IEnumerator_1_t917391101_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9343,10 +9487,10 @@ Il2CppGenericClass Dictionary_2_t2566769099_GenericClass = { 160, { &GenInst_Int
 extern const RuntimeType Dictionary_2_t2566769099_0_0_0 = { &Dictionary_2_t2566769099_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Dictionary_2_t2566769099_0_0_1 = { &Dictionary_2_t2566769099_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_ColorGradient_t3678055768_0_0_0 = { (void*)1932, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_ColorGradient_t3678055768_1_0_2 = { (void*)1932, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_ColorGradient_t3678055768_1_0_0 = { (void*)1932, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_ColorGradient_t3678055768_0_0_4 = { (void*)1932, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_ColorGradient_t3678055768_0_0_0 = { (void*)1938, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_ColorGradient_t3678055768_1_0_2 = { (void*)1938, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_ColorGradient_t3678055768_1_0_0 = { (void*)1938, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_ColorGradient_t3678055768_0_0_4 = { (void*)1938, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t4110626236_GenericClass = { 25, { &GenInst_TMP_ColorGradient_t3678055768_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t4110626236_0_0_0 = { &IEnumerator_1_t4110626236_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9396,8 +9540,8 @@ extern const RuntimeType Enumerator_t225984578_0_0_0 = { &Enumerator_t225984578_
 Il2CppGenericClass IEnumerator_1_t2384915100_GenericClass = { 25, { &GenInst_MaterialReference_t1952344632_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2384915100_0_0_0 = { &IEnumerator_1_t2384915100_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType MaterialReference_t1952344632_0_0_0 = { (void*)1896, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MaterialReference_t1952344632_1_0_0 = { (void*)1896, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType MaterialReference_t1952344632_0_0_0 = { (void*)1902, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MaterialReference_t1952344632_1_0_0 = { (void*)1902, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t2859408749_GenericClass = { 41, { &GenInst_MaterialReference_t1952344632_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t2859408749_0_0_0 = { &InternalEnumerator_1_t2859408749_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9462,8 +9606,8 @@ extern const RuntimeType ShimEnumerator_t1836379881_0_0_0 = { &ShimEnumerator_t1
 Il2CppGenericClass IEnumerator_1_t3045608465_GenericClass = { 25, { &GenInst_TMP_SubMesh_t2613037997_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3045608465_0_0_0 = { &IEnumerator_1_t3045608465_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_SubMesh_t2613037997_0_0_0 = { (void*)1998, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_SubMesh_t2613037997_1_0_0 = { (void*)1998, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_SubMesh_t2613037997_0_0_0 = { (void*)2004, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SubMesh_t2613037997_1_0_0 = { (void*)2004, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3520102114_GenericClass = { 41, { &GenInst_TMP_SubMesh_t2613037997_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t3520102114_0_0_0 = { &InternalEnumerator_1_t3520102114_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9480,9 +9624,9 @@ extern const RuntimeType IEnumerable_1_t1592890886_0_0_0 = { &IEnumerable_1_t159
 Il2CppGenericClass IEnumerator_1_t3204318102_GenericClass = { 25, { &GenInst_TMP_MeshInfo_t2771747634_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3204318102_0_0_0 = { &IEnumerator_1_t3204318102_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_MeshInfo_t2771747634_0_0_0 = { (void*)1980, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_MeshInfo_t2771747634_1_0_0 = { (void*)1980, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TMP_MeshInfo_t2771747634_0_0_3 = { (void*)1980, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_MeshInfo_t2771747634_0_0_0 = { (void*)1986, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_MeshInfo_t2771747634_1_0_0 = { (void*)1986, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_MeshInfo_t2771747634_0_0_3 = { (void*)1986, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3678811751_GenericClass = { 41, { &GenInst_TMP_MeshInfo_t2771747634_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t3678811751_0_0_0 = { &InternalEnumerator_1_t3678811751_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9500,10 +9644,10 @@ Il2CppGenericClass Dictionary_2_t3765528460_GenericClass = { 160, { &GenInst_Int
 extern const RuntimeType Dictionary_2_t3765528460_0_0_0 = { &Dictionary_2_t3765528460_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Dictionary_2_t3765528460_0_0_1 = { &Dictionary_2_t3765528460_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_Glyph_t581847833_0_0_0 = { (void*)1907, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Glyph_t581847833_1_0_0 = { (void*)1907, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_Glyph_t581847833_1_0_2 = { (void*)1907, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_Glyph_t581847833_0_0_4 = { (void*)1907, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Glyph_t581847833_0_0_0 = { (void*)1913, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Glyph_t581847833_1_0_0 = { (void*)1913, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_Glyph_t581847833_1_0_2 = { (void*)1913, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_Glyph_t581847833_0_0_4 = { (void*)1913, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1014418301_GenericClass = { 25, { &GenInst_TMP_Glyph_t581847833_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1014418301_0_0_0 = { &IEnumerator_1_t1014418301_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9523,10 +9667,10 @@ extern const RuntimeType IEnumerable_1_t3856668018_0_0_0 = { &IEnumerable_1_t385
 Il2CppGenericClass IList_1_t1945047252_GenericClass = { 48, { &GenInst_TMP_TextElement_t129727469_0_0_0, NULL }, NULL };
 extern const RuntimeType IList_1_t1945047252_0_0_0 = { &IList_1_t1945047252_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_TextElement_t129727469_0_0_0 = { (void*)2016, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextElement_t129727469_0_0_6 = { (void*)2016, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextElement_t129727469_0_0_4 = { (void*)2016, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextElement_t129727469_1_0_0 = { (void*)2016, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_TextElement_t129727469_0_0_0 = { (void*)2022, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextElement_t129727469_0_0_6 = { (void*)2022, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextElement_t129727469_0_0_4 = { (void*)2022, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextElement_t129727469_1_0_0 = { (void*)2022, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t562297937_GenericClass = { 25, { &GenInst_TMP_TextElement_t129727469_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t562297937_0_0_0 = { &IEnumerator_1_t562297937_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9570,12 +9714,12 @@ extern const RuntimeType Enumerator_t39454821_0_0_0 = { &Enumerator_t39454821_Ge
 Il2CppGenericClass Enumerator_t1424743939_GenericClass = { 162, { &GenInst_Int32_t2950945753_0_0_0_TMP_Glyph_t581847833_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t1424743939_0_0_0 = { &Enumerator_t1424743939_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_XmlTagStack_1_t2514600297_GenericClass = { 2025, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_XmlTagStack_1_t2514600297_GenericClass = { 2031, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_XmlTagStack_1_t2514600297_0_0_0 = { &TMP_XmlTagStack_1_t2514600297_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t2514600297_0_0_6 = { &TMP_XmlTagStack_1_t2514600297_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t2514600297_0_0_4 = { &TMP_XmlTagStack_1_t2514600297_GenericClass, 4, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_XmlTagStack_1_t1515999176_GenericClass = { 2025, { &GenInst_MaterialReference_t1952344632_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_XmlTagStack_1_t1515999176_GenericClass = { 2031, { &GenInst_MaterialReference_t1952344632_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_XmlTagStack_1_t1515999176_0_0_0 = { &TMP_XmlTagStack_1_t1515999176_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t1515999176_0_0_6 = { &TMP_XmlTagStack_1_t1515999176_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t1515999176_0_0_4 = { &TMP_XmlTagStack_1_t1515999176_GenericClass, 4, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9583,9 +9727,9 @@ extern const RuntimeType TMP_XmlTagStack_1_t1515999176_0_0_4 = { &TMP_XmlTagStac
 Il2CppGenericClass IEnumerator_1_t3618197265_GenericClass = { 25, { &GenInst_TMP_CharacterInfo_t3185626797_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3618197265_0_0_0 = { &IEnumerator_1_t3618197265_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_CharacterInfo_t3185626797_0_0_0 = { (void*)1918, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_CharacterInfo_t3185626797_1_0_0 = { (void*)1918, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TMP_CharacterInfo_t3185626797_0_0_3 = { (void*)1918, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_CharacterInfo_t3185626797_0_0_0 = { (void*)1924, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_CharacterInfo_t3185626797_1_0_0 = { (void*)1924, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_CharacterInfo_t3185626797_0_0_3 = { (void*)1924, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t4092690914_GenericClass = { 41, { &GenInst_TMP_CharacterInfo_t3185626797_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t4092690914_0_0_0 = { &InternalEnumerator_1_t4092690914_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9616,21 +9760,21 @@ extern const RuntimeType Enumerator_t3725700245_0_0_0 = { &Enumerator_t372570024
 Il2CppGenericClass Comparison_1_t139312805_GenericClass = { 920, { &GenInst_TMP_FontAsset_t364381626_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t139312805_0_0_0 = { &Comparison_1_t139312805_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_XmlTagStack_1_t960921318_GenericClass = { 2025, { &GenInst_Single_t1397266774_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_XmlTagStack_1_t960921318_GenericClass = { 2031, { &GenInst_Single_t1397266774_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_XmlTagStack_1_t960921318_0_0_0 = { &TMP_XmlTagStack_1_t960921318_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t960921318_0_0_6 = { &TMP_XmlTagStack_1_t960921318_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t960921318_0_0_4 = { &TMP_XmlTagStack_1_t960921318_GenericClass, 4, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_XmlTagStack_1_t3600445780_GenericClass = { 2025, { &GenInst_TextAlignmentOptions_t4036791236_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_XmlTagStack_1_t3600445780_GenericClass = { 2031, { &GenInst_TextAlignmentOptions_t4036791236_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_XmlTagStack_1_t3600445780_0_0_0 = { &TMP_XmlTagStack_1_t3600445780_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t3600445780_0_0_6 = { &TMP_XmlTagStack_1_t3600445780_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t3600445780_0_0_4 = { &TMP_XmlTagStack_1_t3600445780_GenericClass, 4, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TextAlignmentOptions_t4036791236_0_0_0 = { (void*)2001, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextAlignmentOptions_t4036791236_0_0_6 = { (void*)2001, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextAlignmentOptions_t4036791236_1_0_0 = { (void*)2001, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextAlignmentOptions_t4036791236_0_0_32854 = { (void*)2001, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextAlignmentOptions_t4036791236_0_0_4 = { (void*)2001, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextAlignmentOptions_t4036791236_0_0_0 = { (void*)2007, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextAlignmentOptions_t4036791236_0_0_6 = { (void*)2007, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextAlignmentOptions_t4036791236_1_0_0 = { (void*)2007, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextAlignmentOptions_t4036791236_0_0_32854 = { (void*)2007, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextAlignmentOptions_t4036791236_0_0_4 = { (void*)2007, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t174394408_GenericClass = { 25, { &GenInst_TextAlignmentOptions_t4036791236_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t174394408_0_0_0 = { &IEnumerator_1_t174394408_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9647,24 +9791,24 @@ extern const RuntimeType ICollection_1_t2569976174_0_0_0 = { &ICollection_1_t256
 Il2CppGenericClass IEnumerable_1_t3016644125_GenericClass = { 29, { &GenInst_TextAlignmentOptions_t4036791236_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerable_1_t3016644125_0_0_0 = { &IEnumerable_1_t3016644125_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_XmlTagStack_1_t2164155836_GenericClass = { 2025, { &GenInst_Color32_t2600501292_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_XmlTagStack_1_t2164155836_GenericClass = { 2031, { &GenInst_Color32_t2600501292_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_XmlTagStack_1_t2164155836_0_0_0 = { &TMP_XmlTagStack_1_t2164155836_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t2164155836_0_0_6 = { &TMP_XmlTagStack_1_t2164155836_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t2164155836_0_0_4 = { &TMP_XmlTagStack_1_t2164155836_GenericClass, 4, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_XmlTagStack_1_t3241710312_GenericClass = { 2025, { &GenInst_TMP_ColorGradient_t3678055768_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_XmlTagStack_1_t3241710312_GenericClass = { 2031, { &GenInst_TMP_ColorGradient_t3678055768_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_XmlTagStack_1_t3241710312_0_0_0 = { &TMP_XmlTagStack_1_t3241710312_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t3241710312_0_0_6 = { &TMP_XmlTagStack_1_t3241710312_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t3241710312_0_0_4 = { &TMP_XmlTagStack_1_t3241710312_GenericClass, 4, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_XmlTagStack_1_t2643760708_GenericClass = { 2025, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_XmlTagStack_1_t2643760708_GenericClass = { 2031, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_XmlTagStack_1_t2643760708_0_0_0 = { &TMP_XmlTagStack_1_t2643760708_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3041001101_GenericClass = { 25, { &GenInst_TMP_PageInfo_t2608430633_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3041001101_0_0_0 = { &IEnumerator_1_t3041001101_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_PageInfo_t2608430633_0_0_0 = { (void*)1921, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_PageInfo_t2608430633_1_0_0 = { (void*)1921, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_PageInfo_t2608430633_0_0_0 = { (void*)1927, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_PageInfo_t2608430633_1_0_0 = { (void*)1927, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3515494750_GenericClass = { 41, { &GenInst_TMP_PageInfo_t2608430633_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t3515494750_0_0_0 = { &InternalEnumerator_1_t3515494750_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9682,8 +9826,8 @@ Il2CppGenericClass List_1_t2026141888_GenericClass = { 174, { &GenInst_TMP_Sprit
 extern const RuntimeType List_1_t2026141888_0_0_0 = { &List_1_t2026141888_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t2026141888_0_0_6 = { &List_1_t2026141888_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_Sprite_t554067146_0_0_0 = { (void*)1986, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Sprite_t554067146_1_0_0 = { (void*)1986, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_Sprite_t554067146_0_0_0 = { (void*)1992, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Sprite_t554067146_1_0_0 = { (void*)1992, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t986637614_GenericClass = { 25, { &GenInst_TMP_Sprite_t554067146_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t986637614_0_0_0 = { &IEnumerator_1_t986637614_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9716,9 +9860,9 @@ Il2CppGenericClass Dictionary_2_t1159568920_GenericClass = { 160, { &GenInst_Int
 extern const RuntimeType Dictionary_2_t1159568920_0_0_0 = { &Dictionary_2_t1159568920_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Dictionary_2_t1159568920_0_0_1 = { &Dictionary_2_t1159568920_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType KerningPair_t2270855589_0_0_0 = { (void*)1911, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType KerningPair_t2270855589_1_0_0 = { (void*)1911, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType KerningPair_t2270855589_0_0_1 = { (void*)1911, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType KerningPair_t2270855589_0_0_0 = { (void*)1917, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType KerningPair_t2270855589_1_0_0 = { (void*)1917, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType KerningPair_t2270855589_0_0_1 = { (void*)1917, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2703426057_GenericClass = { 25, { &GenInst_KerningPair_t2270855589_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2703426057_0_0_0 = { &IEnumerator_1_t2703426057_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9768,9 +9912,9 @@ extern const RuntimeType Enumerator_t3113751695_0_0_0 = { &Enumerator_t311375169
 Il2CppGenericClass IEnumerator_1_t1512202104_GenericClass = { 25, { &GenInst_TMP_LineInfo_t1079631636_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1512202104_0_0_0 = { &IEnumerator_1_t1512202104_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_LineInfo_t1079631636_0_0_0 = { (void*)1970, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_LineInfo_t1079631636_0_0_6 = { (void*)1970, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_LineInfo_t1079631636_1_0_0 = { (void*)1970, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_LineInfo_t1079631636_0_0_0 = { (void*)1976, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_LineInfo_t1079631636_0_0_6 = { (void*)1976, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_LineInfo_t1079631636_1_0_0 = { (void*)1976, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t1986695753_GenericClass = { 41, { &GenInst_TMP_LineInfo_t1079631636_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t1986695753_0_0_0 = { &InternalEnumerator_1_t1986695753_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9833,8 +9977,8 @@ extern const RuntimeType ShimEnumerator_t2519894598_0_0_0 = { &ShimEnumerator_t2
 Il2CppGenericClass IEnumerator_1_t3763636771_GenericClass = { 25, { &GenInst_TMP_WordInfo_t3331066303_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3763636771_0_0_0 = { &IEnumerator_1_t3763636771_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_WordInfo_t3331066303_0_0_0 = { (void*)1923, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_WordInfo_t3331066303_1_0_0 = { (void*)1923, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_WordInfo_t3331066303_0_0_0 = { (void*)1929, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_WordInfo_t3331066303_1_0_0 = { (void*)1929, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t4238130420_GenericClass = { 41, { &GenInst_TMP_WordInfo_t3331066303_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t4238130420_0_0_0 = { &InternalEnumerator_1_t4238130420_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9851,8 +9995,8 @@ extern const RuntimeType IEnumerable_1_t2310919192_0_0_0 = { &IEnumerable_1_t231
 Il2CppGenericClass IEnumerator_1_t2011441779_GenericClass = { 25, { &GenInst_TMP_SubMeshUI_t1578871311_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2011441779_0_0_0 = { &IEnumerator_1_t2011441779_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_SubMeshUI_t1578871311_0_0_0 = { (void*)1999, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_SubMeshUI_t1578871311_1_0_0 = { (void*)1999, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_SubMeshUI_t1578871311_0_0_0 = { (void*)2005, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SubMeshUI_t1578871311_1_0_0 = { (void*)2005, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t2485935428_GenericClass = { 41, { &GenInst_TMP_SubMeshUI_t1578871311_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t2485935428_0_0_0 = { &InternalEnumerator_1_t2485935428_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9866,27 +10010,27 @@ extern const RuntimeType ICollection_1_t112056249_0_0_0 = { &ICollection_1_t1120
 Il2CppGenericClass IEnumerable_1_t558724200_GenericClass = { 29, { &GenInst_TMP_SubMeshUI_t1578871311_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerable_1_t558724200_0_0_0 = { &IEnumerable_1_t558724200_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ListPool_1_t1523819978_GenericClass = { 1971, { &GenInst_Canvas_t3310196443_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ListPool_1_t1523819978_GenericClass = { 1977, { &GenInst_Canvas_t3310196443_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ListPool_1_t1523819978_0_0_0 = { &TMP_ListPool_1_t1523819978_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ListPool_1_t1293729699_GenericClass = { 1971, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ListPool_1_t1293729699_GenericClass = { 1977, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ListPool_1_t1293729699_0_0_0 = { &TMP_ListPool_1_t1293729699_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ObjectPool_1_t1772858050_GenericClass = { 1981, { &GenInst_List_1_t257213610_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ObjectPool_1_t1772858050_GenericClass = { 1987, { &GenInst_List_1_t257213610_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ObjectPool_1_t1772858050_0_0_0 = { &TMP_ObjectPool_1_t1772858050_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ObjectPool_1_t300783308_GenericClass = { 1981, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ObjectPool_1_t300783308_GenericClass = { 1987, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ObjectPool_1_t300783308_0_0_0 = { &TMP_ObjectPool_1_t300783308_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ObjectPool_1_t2002948329_GenericClass = { 1981, { &GenInst_List_1_t487303889_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ObjectPool_1_t2002948329_GenericClass = { 1987, { &GenInst_List_1_t487303889_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ObjectPool_1_t2002948329_0_0_0 = { &TMP_ObjectPool_1_t2002948329_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_2_t2884460249_GenericClass = { 1893, { &GenInst_RuntimeObject_0_0_0_Compute_DT_EventArgs_t1071353166_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_2_t2884460249_GenericClass = { 1899, { &GenInst_RuntimeObject_0_0_0_Compute_DT_EventArgs_t1071353166_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_2_t2884460249_0_0_0 = { &FastAction_2_t2884460249_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType FastAction_2_t2884460249_0_0_54 = { &FastAction_2_t2884460249_GenericClass, 54, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Compute_DT_EventArgs_t1071353166_0_0_0 = { (void*)1903, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Compute_DT_EventArgs_t1071353166_1_0_0 = { (void*)1903, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Compute_DT_EventArgs_t1071353166_0_0_0 = { (void*)1909, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Compute_DT_EventArgs_t1071353166_1_0_0 = { (void*)1909, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass LinkedList_1_t3595869145_GenericClass = { 1076, { &GenInst_Action_2_t461255840_0_0_0, NULL }, NULL };
 extern const RuntimeType LinkedList_1_t3595869145_0_0_0 = { &LinkedList_1_t3595869145_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -9966,11 +10110,11 @@ extern const RuntimeType Enumerator_t461865064_0_0_0 = { &Enumerator_t461865064_
 Il2CppGenericClass Enumerator_t1847154182_GenericClass = { 162, { &GenInst_Action_2_t461255840_0_0_0_LinkedListNode_1_t206430943_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t1847154182_0_0_0 = { &Enumerator_t1847154182_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_2_t2206961073_GenericClass = { 1893, { &GenInst_Boolean_t97287965_0_0_0_Material_t340375123_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_2_t2206961073_GenericClass = { 1899, { &GenInst_Boolean_t97287965_0_0_0_Material_t340375123_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_2_t2206961073_0_0_0 = { &FastAction_2_t2206961073_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType FastAction_2_t2206961073_0_0_54 = { &FastAction_2_t2206961073_GenericClass, 54, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_2_t651724818_GenericClass = { 1893, { &GenInst_Boolean_t97287965_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_2_t651724818_GenericClass = { 1899, { &GenInst_Boolean_t97287965_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_2_t651724818_0_0_0 = { &FastAction_2_t651724818_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass LinkedList_1_t1363133714_GenericClass = { 1076, { &GenInst_Action_2_t2523487705_0_0_0, NULL }, NULL };
@@ -10129,7 +10273,7 @@ extern const RuntimeType Enumerator_t3758912008_0_0_0 = { &Enumerator_t375891200
 Il2CppGenericClass Enumerator_t849233830_GenericClass = { 162, { &GenInst_Action_2_t4078723960_0_0_0_LinkedListNode_1_t3823899063_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t849233830_0_0_0 = { &Enumerator_t849233830_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_2_t2230967576_GenericClass = { 1893, { &GenInst_Boolean_t97287965_0_0_0_TMP_FontAsset_t364381626_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_2_t2230967576_GenericClass = { 1899, { &GenInst_Boolean_t97287965_0_0_0_TMP_FontAsset_t364381626_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_2_t2230967576_0_0_0 = { &FastAction_2_t2230967576_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType FastAction_2_t2230967576_0_0_54 = { &FastAction_2_t2230967576_GenericClass, 54, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -10211,7 +10355,7 @@ extern const RuntimeType Enumerator_t3081624716_0_0_0 = { &Enumerator_t308162471
 Il2CppGenericClass Enumerator_t171946538_GenericClass = { 162, { &GenInst_Action_2_t4102730463_0_0_0_LinkedListNode_1_t3847905566_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t171946538_0_0_0 = { &Enumerator_t171946538_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_2_t2497593903_GenericClass = { 1893, { &GenInst_Boolean_t97287965_0_0_0_Object_t631007953_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_2_t2497593903_GenericClass = { 1899, { &GenInst_Boolean_t97287965_0_0_0_Object_t631007953_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_2_t2497593903_0_0_0 = { &FastAction_2_t2497593903_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType FastAction_2_t2497593903_0_0_54 = { &FastAction_2_t2497593903_GenericClass, 54, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -10293,13 +10437,13 @@ extern const RuntimeType Enumerator_t610486864_0_0_0 = { &Enumerator_t610486864_
 Il2CppGenericClass Enumerator_t1995775982_GenericClass = { 162, { &GenInst_Action_2_t74389494_0_0_0_LinkedListNode_1_t4114531893_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t1995775982_0_0_0 = { &Enumerator_t1995775982_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_2_t4260179116_GenericClass = { 1893, { &GenInst_Boolean_t97287965_0_0_0_TextMeshPro_t2393593166_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_2_t4260179116_GenericClass = { 1899, { &GenInst_Boolean_t97287965_0_0_0_TextMeshPro_t2393593166_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_2_t4260179116_0_0_0 = { &FastAction_2_t4260179116_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType FastAction_2_t4260179116_0_0_54 = { &FastAction_2_t4260179116_GenericClass, 54, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TextMeshPro_t2393593166_0_0_0 = { (void*)1899, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextMeshPro_t2393593166_0_0_1 = { (void*)1899, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextMeshPro_t2393593166_1_0_0 = { (void*)1899, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TextMeshPro_t2393593166_0_0_0 = { (void*)1905, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMeshPro_t2393593166_0_0_1 = { (void*)1905, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMeshPro_t2393593166_1_0_0 = { (void*)1905, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass LinkedList_1_t676620716_GenericClass = { 1076, { &GenInst_Action_2_t1836974707_0_0_0, NULL }, NULL };
 extern const RuntimeType LinkedList_1_t676620716_0_0_0 = { &LinkedList_1_t676620716_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -10379,7 +10523,7 @@ extern const RuntimeType Enumerator_t2276059068_0_0_0 = { &Enumerator_t227605906
 Il2CppGenericClass Enumerator_t3661348186_GenericClass = { 162, { &GenInst_Action_2_t1836974707_0_0_0_LinkedListNode_1_t1582149810_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t3661348186_0_0_0 = { &Enumerator_t3661348186_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_3_t58649212_GenericClass = { 1894, { &GenInst_GameObject_t1113636619_0_0_0_Material_t340375123_0_0_0_Material_t340375123_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_3_t58649212_GenericClass = { 1900, { &GenInst_GameObject_t1113636619_0_0_0_Material_t340375123_0_0_0_Material_t340375123_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_3_t58649212_0_0_0 = { &FastAction_3_t58649212_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType FastAction_3_t58649212_0_0_54 = { &FastAction_3_t58649212_GenericClass, 54, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -10461,7 +10605,7 @@ extern const RuntimeType Enumerator_t793948120_0_0_0 = { &Enumerator_t793948120_
 Il2CppGenericClass Enumerator_t2179237238_GenericClass = { 162, { &GenInst_Action_3_t2823050148_0_0_0_LinkedListNode_1_t2568225251_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2179237238_0_0_0 = { &Enumerator_t2179237238_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_1_t3758825850_GenericClass = { 1892, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_1_t3758825850_GenericClass = { 1898, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_1_t3758825850_0_0_0 = { &FastAction_1_t3758825850_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType FastAction_1_t3758825850_0_0_54 = { &FastAction_1_t3758825850_GenericClass, 54, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -10543,7 +10687,7 @@ extern const RuntimeType Enumerator_t1981208392_0_0_0 = { &Enumerator_t198120839
 Il2CppGenericClass Enumerator_t3366497510_GenericClass = { 162, { &GenInst_Action_1_t269755560_0_0_0_LinkedListNode_1_t14930663_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t3366497510_0_0_0 = { &Enumerator_t3366497510_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_1_t3044626357_GenericClass = { 1892, { &GenInst_TMP_ColorGradient_t3678055768_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_1_t3044626357_GenericClass = { 1898, { &GenInst_TMP_ColorGradient_t3678055768_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_1_t3044626357_0_0_0 = { &FastAction_1_t3044626357_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType FastAction_1_t3044626357_0_0_54 = { &FastAction_1_t3044626357_GenericClass, 54, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -10625,14 +10769,14 @@ extern const RuntimeType Enumerator_t866510844_0_0_0 = { &Enumerator_t866510844_
 Il2CppGenericClass Enumerator_t2251799962_GenericClass = { 162, { &GenInst_Action_1_t3850523363_0_0_0_LinkedListNode_1_t3595698466_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t2251799962_0_0_0 = { &Enumerator_t2251799962_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_2_t2395899227_GenericClass = { 1893, { &GenInst_Boolean_t97287965_0_0_0_TextMeshProUGUI_t529313277_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_2_t2395899227_GenericClass = { 1899, { &GenInst_Boolean_t97287965_0_0_0_TextMeshProUGUI_t529313277_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_2_t2395899227_0_0_0 = { &FastAction_2_t2395899227_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType FastAction_2_t2395899227_0_0_54 = { &FastAction_2_t2395899227_GenericClass, 54, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TextMeshProUGUI_t529313277_0_0_0 = { (void*)1900, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextMeshProUGUI_t529313277_1_0_0 = { (void*)1900, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TextMeshProUGUI_t529313277_0_0_1 = { (void*)1900, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextMeshProUGUI_t529313277_0_0_6 = { (void*)1900, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMeshProUGUI_t529313277_0_0_0 = { (void*)1906, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMeshProUGUI_t529313277_1_0_0 = { (void*)1906, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TextMeshProUGUI_t529313277_0_0_1 = { (void*)1906, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMeshProUGUI_t529313277_0_0_6 = { (void*)1906, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass LinkedList_1_t3107308123_GenericClass = { 1076, { &GenInst_Action_2_t4267662114_0_0_0, NULL }, NULL };
 extern const RuntimeType LinkedList_1_t3107308123_0_0_0 = { &LinkedList_1_t3107308123_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -10712,7 +10856,7 @@ extern const RuntimeType Enumerator_t1649859616_0_0_0 = { &Enumerator_t164985961
 Il2CppGenericClass Enumerator_t3035148734_GenericClass = { 162, { &GenInst_Action_2_t4267662114_0_0_0_LinkedListNode_1_t4012837217_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t3035148734_0_0_0 = { &Enumerator_t3035148734_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass FastAction_1_t4292545838_GenericClass = { 1892, { &GenInst_Object_t631007953_0_0_0, NULL }, NULL };
+Il2CppGenericClass FastAction_1_t4292545838_GenericClass = { 1898, { &GenInst_Object_t631007953_0_0_0, NULL }, NULL };
 extern const RuntimeType FastAction_1_t4292545838_0_0_0 = { &FastAction_1_t4292545838_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType FastAction_1_t4292545838_0_0_54 = { &FastAction_1_t4292545838_GenericClass, 54, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -10866,9 +11010,9 @@ Il2CppGenericClass List_1_t2586715010_GenericClass = { 174, { &GenInst_OptionDat
 extern const RuntimeType List_1_t2586715010_0_0_0 = { &List_1_t2586715010_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t2586715010_0_0_1 = { &List_1_t2586715010_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType OptionData_t1114640268_0_0_0 = { (void*)1947, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OptionData_t1114640268_0_0_17 = { (void*)1947, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OptionData_t1114640268_1_0_0 = { (void*)1947, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OptionData_t1114640268_0_0_0 = { (void*)1953, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OptionData_t1114640268_0_0_17 = { (void*)1953, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OptionData_t1114640268_1_0_0 = { (void*)1953, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1547210736_GenericClass = { 25, { &GenInst_OptionData_t1114640268_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1547210736_0_0_0 = { &IEnumerator_1_t1547210736_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -10901,9 +11045,9 @@ Il2CppGenericClass List_1_t3314671453_GenericClass = { 174, { &GenInst_DropdownI
 extern const RuntimeType List_1_t3314671453_0_0_0 = { &List_1_t3314671453_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t3314671453_0_0_1 = { &List_1_t3314671453_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType DropdownItem_t1842596711_0_0_0 = { (void*)1946, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DropdownItem_t1842596711_1_0_0 = { (void*)1946, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType DropdownItem_t1842596711_0_0_3 = { (void*)1946, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DropdownItem_t1842596711_0_0_0 = { (void*)1952, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DropdownItem_t1842596711_1_0_0 = { (void*)1952, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DropdownItem_t1842596711_0_0_3 = { (void*)1952, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2275167179_GenericClass = { 25, { &GenInst_DropdownItem_t1842596711_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2275167179_0_0_0 = { &IEnumerator_1_t2275167179_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -10932,14 +11076,14 @@ extern const RuntimeType Enumerator_t908948034_0_0_0 = { &Enumerator_t908948034_
 Il2CppGenericClass Comparison_1_t1617527890_GenericClass = { 920, { &GenInst_DropdownItem_t1842596711_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t1617527890_0_0_0 = { &Comparison_1_t1617527890_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TweenRunner_1_t3214153611_GenericClass = { 1941, { &GenInst_FloatTween_t3783157226_0_0_0, NULL }, NULL };
+Il2CppGenericClass TweenRunner_1_t3214153611_GenericClass = { 1947, { &GenInst_FloatTween_t3783157226_0_0_0, NULL }, NULL };
 extern const RuntimeType TweenRunner_1_t3214153611_0_0_0 = { &TweenRunner_1_t3214153611_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TweenRunner_1_t3214153611_0_0_1 = { &TweenRunner_1_t3214153611_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType FloatTween_t3783157226_0_0_0 = { (void*)1939, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FloatTween_t3783157226_1_0_0 = { (void*)1939, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FloatTween_t3783157226_0_0_0 = { (void*)1945, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FloatTween_t3783157226_1_0_0 = { (void*)1945, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-Il2CppGenericClass U3CStartU3Ec__Iterator0_t4196805488_GenericClass = { 1942, { &GenInst_FloatTween_t3783157226_0_0_0, NULL }, NULL };
+Il2CppGenericClass U3CStartU3Ec__Iterator0_t4196805488_GenericClass = { 1948, { &GenInst_FloatTween_t3783157226_0_0_0, NULL }, NULL };
 extern const RuntimeType U3CStartU3Ec__Iterator0_t4196805488_0_0_0 = { &U3CStartU3Ec__Iterator0_t4196805488_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t2053922575_GenericClass = { 174, { &GenInst_TMP_Glyph_t581847833_0_0_0, NULL }, NULL };
@@ -10961,8 +11105,8 @@ extern const RuntimeType Comparison_1_t356779012_0_0_0 = { &Comparison_1_t356779
 Il2CppGenericClass IEnumerator_1_t1348871535_GenericClass = { 25, { &GenInst_TMP_FontWeights_t916301067_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1348871535_0_0_0 = { &IEnumerator_1_t1348871535_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_FontWeights_t916301067_0_0_0 = { (void*)1952, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_FontWeights_t916301067_1_0_0 = { (void*)1952, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_FontWeights_t916301067_0_0_0 = { (void*)1958, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_FontWeights_t916301067_1_0_0 = { (void*)1958, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t1823365184_GenericClass = { 41, { &GenInst_TMP_FontWeights_t916301067_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t1823365184_0_0_0 = { &InternalEnumerator_1_t1823365184_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11035,10 +11179,10 @@ extern const RuntimeType Comparison_1_t3409391649_0_0_0 = { &Comparison_1_t34093
 Il2CppGenericClass IEnumerator_1_t1561511753_GenericClass = { 25, { &GenInst_ContentType_t1128941285_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1561511753_0_0_0 = { &IEnumerator_1_t1561511753_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ContentType_t1128941285_0_0_0 = { (void*)1956, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ContentType_t1128941285_0_0_1 = { (void*)1956, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ContentType_t1128941285_1_0_0 = { (void*)1956, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ContentType_t1128941285_0_0_32854 = { (void*)1956, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ContentType_t1128941285_0_0_0 = { (void*)1962, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ContentType_t1128941285_0_0_1 = { (void*)1962, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ContentType_t1128941285_1_0_0 = { (void*)1962, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ContentType_t1128941285_0_0_32854 = { (void*)1962, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t2036005402_GenericClass = { 41, { &GenInst_ContentType_t1128941285_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t2036005402_0_0_0 = { &InternalEnumerator_1_t2036005402_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11052,27 +11196,27 @@ extern const RuntimeType ICollection_1_t3957093519_0_0_0 = { &ICollection_1_t395
 Il2CppGenericClass IEnumerable_1_t108794174_GenericClass = { 29, { &GenInst_ContentType_t1128941285_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerable_1_t108794174_0_0_0 = { &IEnumerable_1_t108794174_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_3_t1597070127_GenericClass = { 1484, { &GenInst_String_t_0_0_0_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_3_t1597070127_GenericClass = { 1486, { &GenInst_String_t_0_0_0_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_3_t1597070127_0_0_0 = { &UnityEvent_3_t1597070127_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_3_t4111858730_GenericClass = { 1484, { &GenInst_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_3_t4111858730_GenericClass = { 1486, { &GenInst_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_3_t4111858730_0_0_0 = { &UnityEvent_3_t4111858730_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_3_t3264350645_GenericClass = { 1483, { &GenInst_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_3_t3264350645_GenericClass = { 1485, { &GenInst_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_3_t3264350645_0_0_0 = { &UnityAction_3_t3264350645_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_3_t1471335598_GenericClass = { 1469, { &GenInst_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_3_t1471335598_GenericClass = { 1471, { &GenInst_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_3_t1471335598_0_0_0 = { &InvokableCall_3_t1471335598_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_3_t749562042_GenericClass = { 1483, { &GenInst_String_t_0_0_0_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_3_t749562042_GenericClass = { 1485, { &GenInst_String_t_0_0_0_Int32_t2950945753_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_3_t749562042_0_0_0 = { &UnityAction_3_t749562042_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t1488971017_GenericClass = { 174, { &GenInst_MaskingMaterial_t16896275_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t1488971017_0_0_0 = { &List_1_t1488971017_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t1488971017_0_0_17 = { &List_1_t1488971017_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType MaskingMaterial_t16896275_0_0_0 = { (void*)1974, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MaskingMaterial_t16896275_1_0_0 = { (void*)1974, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MaskingMaterial_t16896275_0_0_0 = { (void*)1980, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MaskingMaterial_t16896275_1_0_0 = { (void*)1980, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t449466743_GenericClass = { 25, { &GenInst_MaskingMaterial_t16896275_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t449466743_0_0_0 = { &IEnumerator_1_t449466743_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11105,8 +11249,8 @@ Il2CppGenericClass Dictionary_2_t939051307_GenericClass = { 160, { &GenInst_Int6
 extern const RuntimeType Dictionary_2_t939051307_0_0_0 = { &Dictionary_2_t939051307_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Dictionary_2_t939051307_0_0_17 = { &Dictionary_2_t939051307_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType FallbackMaterial_t4171378819_0_0_0 = { (void*)1973, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FallbackMaterial_t4171378819_1_0_0 = { (void*)1973, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FallbackMaterial_t4171378819_0_0_0 = { (void*)1979, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FallbackMaterial_t4171378819_1_0_0 = { (void*)1979, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass Dictionary_2_t4142745948_GenericClass = { 160, { &GenInst_Int64_t3736567304_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
 extern const RuntimeType Dictionary_2_t4142745948_0_0_0 = { &Dictionary_2_t4142745948_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11272,10 +11416,10 @@ extern const RuntimeType Enumerator_t3237730142_0_0_0 = { &Enumerator_t323773014
 Il2CppGenericClass Comparison_1_t3946309998_GenericClass = { 920, { &GenInst_FallbackMaterial_t4171378819_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t3946309998_0_0_0 = { &Comparison_1_t3946309998_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ListPool_1_t17275666_GenericClass = { 1971, { &GenInst_Mask_t1803652131_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ListPool_1_t17275666_GenericClass = { 1977, { &GenInst_Mask_t1803652131_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ListPool_1_t17275666_0_0_0 = { &TMP_ListPool_1_t17275666_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ObjectPool_1_t496404017_GenericClass = { 1981, { &GenInst_List_1_t3275726873_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ObjectPool_1_t496404017_GenericClass = { 1987, { &GenInst_List_1_t3275726873_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ObjectPool_1_t496404017_0_0_0 = { &TMP_ObjectPool_1_t496404017_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass List_1_t3447100432_GenericClass = { 174, { &GenInst_IMaterialModifier_t1975025690_0_0_0, NULL }, NULL };
@@ -11293,10 +11437,10 @@ extern const RuntimeType Enumerator_t1041377013_0_0_0 = { &Enumerator_t104137701
 Il2CppGenericClass Comparison_1_t1749956869_GenericClass = { 920, { &GenInst_IMaterialModifier_t1975025690_0_0_0, NULL }, NULL };
 extern const RuntimeType Comparison_1_t1749956869_0_0_0 = { &Comparison_1_t1749956869_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ListPool_1_t188649225_GenericClass = { 1971, { &GenInst_IMaterialModifier_t1975025690_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ListPool_1_t188649225_GenericClass = { 1977, { &GenInst_IMaterialModifier_t1975025690_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ListPool_1_t188649225_0_0_0 = { &TMP_ListPool_1_t188649225_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ObjectPool_1_t667777576_GenericClass = { 1981, { &GenInst_List_1_t3447100432_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ObjectPool_1_t667777576_GenericClass = { 1987, { &GenInst_List_1_t3447100432_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ObjectPool_1_t667777576_0_0_0 = { &TMP_ObjectPool_1_t667777576_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Stack_1_t4290489887_GenericClass = { 1081, { &GenInst_List_1_t3447100432_0_0_0, NULL }, NULL };
@@ -11320,7 +11464,7 @@ extern const RuntimeType IEnumerable_1_t2426953321_0_0_0 = { &IEnumerable_1_t242
 Il2CppGenericClass Enumerator_t1509510010_GenericClass = { 1082, { &GenInst_List_1_t3447100432_0_0_0, NULL }, NULL };
 extern const RuntimeType Enumerator_t1509510010_0_0_0 = { &Enumerator_t1509510010_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t4031936573_GenericClass = { 1479, { &GenInst_List_1_t3447100432_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t4031936573_GenericClass = { 1481, { &GenInst_List_1_t3447100432_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t4031936573_0_0_0 = { &UnityAction_1_t4031936573_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass Dictionary_2_t3280968592_GenericClass = { 160, { &GenInst_Int32_t2950945753_0_0_0_Boolean_t97287965_0_0_0, NULL }, NULL };
@@ -11389,8 +11533,8 @@ Il2CppGenericClass List_1_t225505033_GenericClass = { 174, { &GenInst_SpriteData
 extern const RuntimeType List_1_t225505033_0_0_0 = { &List_1_t225505033_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t225505033_0_0_6 = { &List_1_t225505033_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType SpriteData_t3048397587_0_0_0 = { (void*)1994, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SpriteData_t3048397587_1_0_0 = { (void*)1994, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType SpriteData_t3048397587_0_0_0 = { (void*)2000, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SpriteData_t3048397587_1_0_0 = { (void*)2000, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass ICollection_1_t1581582525_GenericClass = { 49, { &GenInst_SpriteData_t3048397587_0_0_0, NULL }, NULL };
 extern const RuntimeType ICollection_1_t1581582525_0_0_0 = { &ICollection_1_t1581582525_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11450,8 +11594,8 @@ Il2CppGenericClass List_1_t656488210_GenericClass = { 174, { &GenInst_TMP_Style_
 extern const RuntimeType List_1_t656488210_0_0_0 = { &List_1_t656488210_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t656488210_0_0_1 = { &List_1_t656488210_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_Style_t3479380764_0_0_0 = { (void*)1996, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Style_t3479380764_1_0_0 = { (void*)1996, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_Style_t3479380764_0_0_0 = { (void*)2002, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Style_t3479380764_1_0_0 = { (void*)2002, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3911951232_GenericClass = { 25, { &GenInst_TMP_Style_t3479380764_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3911951232_0_0_0 = { &IEnumerator_1_t3911951232_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11517,8 +11661,8 @@ extern const RuntimeType Enumerator_t27309574_0_0_0 = { &Enumerator_t27309574_Ge
 Il2CppGenericClass IEnumerator_1_t1606994777_GenericClass = { 25, { &GenInst_XML_TagAttribute_t1174424309_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1606994777_0_0_0 = { &IEnumerator_1_t1606994777_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType XML_TagAttribute_t1174424309_0_0_0 = { (void*)1929, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType XML_TagAttribute_t1174424309_1_0_0 = { (void*)1929, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType XML_TagAttribute_t1174424309_0_0_0 = { (void*)1935, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType XML_TagAttribute_t1174424309_1_0_0 = { (void*)1935, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t2081488426_GenericClass = { 41, { &GenInst_XML_TagAttribute_t1174424309_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t2081488426_0_0_0 = { &InternalEnumerator_1_t2081488426_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11535,8 +11679,8 @@ extern const RuntimeType IEnumerable_1_t154277198_0_0_0 = { &IEnumerable_1_t1542
 Il2CppGenericClass IEnumerator_1_t1524653944_GenericClass = { 25, { &GenInst_TMP_LinkInfo_t1092083476_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1524653944_0_0_0 = { &IEnumerator_1_t1524653944_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_LinkInfo_t1092083476_0_0_0 = { (void*)1922, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_LinkInfo_t1092083476_1_0_0 = { (void*)1922, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_LinkInfo_t1092083476_0_0_0 = { (void*)1928, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_LinkInfo_t1092083476_1_0_0 = { (void*)1928, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t1999147593_GenericClass = { 41, { &GenInst_TMP_LinkInfo_t1092083476_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t1999147593_0_0_0 = { &InternalEnumerator_1_t1999147593_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11554,12 +11698,12 @@ Il2CppGenericClass List_1_t4071693616_GenericClass = { 174, { &GenInst_TMP_Text_
 extern const RuntimeType List_1_t4071693616_0_0_0 = { &List_1_t4071693616_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t4071693616_0_0_33 = { &List_1_t4071693616_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_Text_t2599618874_0_0_0 = { (void*)2014, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Text_t2599618874_0_0_6 = { (void*)2014, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Text_t2599618874_0_0_1 = { (void*)2014, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Text_t2599618874_0_0_4 = { (void*)2014, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Text_t2599618874_1_0_0 = { (void*)2014, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_Text_t2599618874_0_0_3 = { (void*)2014, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Text_t2599618874_0_0_0 = { (void*)2020, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Text_t2599618874_0_0_6 = { (void*)2020, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Text_t2599618874_0_0_1 = { (void*)2020, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Text_t2599618874_0_0_4 = { (void*)2020, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Text_t2599618874_1_0_0 = { (void*)2020, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_Text_t2599618874_0_0_3 = { (void*)2020, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3032189342_GenericClass = { 25, { &GenInst_TMP_Text_t2599618874_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3032189342_0_0_0 = { &IEnumerator_1_t3032189342_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11599,8 +11743,8 @@ Il2CppGenericClass List_1_t2572021131_GenericClass = { 174, { &GenInst_CPC_Point
 extern const RuntimeType List_1_t2572021131_0_0_0 = { &List_1_t2572021131_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t2572021131_0_0_6 = { &List_1_t2572021131_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType CPC_Point_t1099946389_0_0_0 = { (void*)2047, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CPC_Point_t1099946389_1_0_0 = { (void*)2047, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CPC_Point_t1099946389_0_0_0 = { (void*)2053, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CPC_Point_t1099946389_1_0_0 = { (void*)2053, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1532516857_GenericClass = { 25, { &GenInst_CPC_Point_t1099946389_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1532516857_0_0_0 = { &IEnumerator_1_t1532516857_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11632,8 +11776,8 @@ extern const RuntimeType Comparison_1_t874877568_0_0_0 = { &Comparison_1_t874877
 Il2CppGenericClass IEnumerator_1_t3222043648_GenericClass = { 25, { &GenInst_ContourDrawing_t2789473180_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3222043648_0_0_0 = { &IEnumerator_1_t3222043648_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ContourDrawing_t2789473180_0_0_0 = { (void*)2051, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ContourDrawing_t2789473180_1_0_0 = { (void*)2051, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ContourDrawing_t2789473180_0_0_0 = { (void*)2057, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ContourDrawing_t2789473180_1_0_0 = { (void*)2057, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3696537297_GenericClass = { 41, { &GenInst_ContourDrawing_t2789473180_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t3696537297_0_0_0 = { &InternalEnumerator_1_t3696537297_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11650,9 +11794,9 @@ extern const RuntimeType IEnumerable_1_t1769326069_0_0_0 = { &IEnumerable_1_t176
 Il2CppGenericClass IEnumerator_1_t2263890551_GenericClass = { 25, { &GenInst_Preset_t1831320083_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2263890551_0_0_0 = { &IEnumerator_1_t2263890551_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Preset_t1831320083_0_0_0 = { (void*)2063, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Preset_t1831320083_1_0_0 = { (void*)2063, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Preset_t1831320083_0_0_6 = { (void*)2063, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Preset_t1831320083_0_0_0 = { (void*)2069, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Preset_t1831320083_1_0_0 = { (void*)2069, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Preset_t1831320083_0_0_6 = { (void*)2069, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t2738384200_GenericClass = { 41, { &GenInst_Preset_t1831320083_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t2738384200_0_0_0 = { &InternalEnumerator_1_t2738384200_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11766,8 +11910,8 @@ extern const RuntimeType Enumerator_t2117577434_0_0_0 = { &Enumerator_t211757743
 Il2CppGenericClass IEnumerator_1_t1684115973_GenericClass = { 25, { &GenInst_SceneEdge_t1251545505_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1684115973_0_0_0 = { &IEnumerator_1_t1684115973_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType SceneEdge_t1251545505_0_0_0 = { (void*)2077, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SceneEdge_t1251545505_1_0_0 = { (void*)2077, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SceneEdge_t1251545505_0_0_0 = { (void*)2083, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SceneEdge_t1251545505_1_0_0 = { (void*)2083, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t2158609622_GenericClass = { 41, { &GenInst_SceneEdge_t1251545505_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t2158609622_0_0_0 = { &InternalEnumerator_1_t2158609622_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11781,41 +11925,41 @@ extern const RuntimeType ICollection_1_t4079697739_0_0_0 = { &ICollection_1_t407
 Il2CppGenericClass IEnumerable_1_t231398394_GenericClass = { 29, { &GenInst_SceneEdge_t1251545505_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerable_1_t231398394_0_0_0 = { &IEnumerable_1_t231398394_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_2_t1712011387_GenericClass = { 1482, { &GenInst_String_t_0_0_0_AsyncOperation_t1445031843_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_2_t1712011387_GenericClass = { 1484, { &GenInst_String_t_0_0_0_AsyncOperation_t1445031843_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_2_t1712011387_0_0_0 = { &UnityEvent_2_t1712011387_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_2_t86747581_GenericClass = { 1481, { &GenInst_String_t_0_0_0_AsyncOperation_t1445031843_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_2_t86747581_GenericClass = { 1483, { &GenInst_String_t_0_0_0_AsyncOperation_t1445031843_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_2_t86747581_0_0_0 = { &UnityAction_2_t86747581_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_2_t3839143818_GenericClass = { 1481, { &GenInst_Char_t3634460470_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_2_t3839143818_GenericClass = { 1483, { &GenInst_Char_t3634460470_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_2_t3839143818_0_0_0 = { &UnityAction_2_t3839143818_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_2_t1169440328_GenericClass = { 1482, { &GenInst_Char_t3634460470_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_2_t1169440328_GenericClass = { 1484, { &GenInst_Char_t3634460470_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_2_t1169440328_0_0_0 = { &UnityEvent_2_t1169440328_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_2_t917579589_GenericClass = { 1468, { &GenInst_Char_t3634460470_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_2_t917579589_GenericClass = { 1470, { &GenInst_Char_t3634460470_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_2_t917579589_0_0_0 = { &InvokableCall_2_t917579589_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_3_t1646105010_GenericClass = { 1483, { &GenInst_String_t_0_0_0_String_t_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_3_t1646105010_GenericClass = { 1485, { &GenInst_String_t_0_0_0_String_t_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_3_t1646105010_0_0_0 = { &UnityAction_3_t1646105010_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_3_t1428076302_GenericClass = { 1483, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_3_t1428076302_GenericClass = { 1485, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_3_t1428076302_0_0_0 = { &UnityAction_3_t1428076302_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_3_t2493613095_GenericClass = { 1484, { &GenInst_String_t_0_0_0_String_t_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_3_t2493613095_GenericClass = { 1486, { &GenInst_String_t_0_0_0_String_t_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_3_t2493613095_0_0_0 = { &UnityEvent_3_t2493613095_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_3_t2275584387_GenericClass = { 1484, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_3_t2275584387_GenericClass = { 1486, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_3_t2275584387_0_0_0 = { &UnityEvent_3_t2275584387_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_3_t3930028551_GenericClass = { 1469, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_3_t3930028551_GenericClass = { 1471, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_Int32_t2950945753_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_3_t3930028551_0_0_0 = { &InvokableCall_3_t3930028551_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t2664455310_GenericClass = { 25, { &GenInst_VertexAnim_t2231884842_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2664455310_0_0_0 = { &IEnumerator_1_t2664455310_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType VertexAnim_t2231884842_0_0_0 = { (void*)2135, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType VertexAnim_t2231884842_1_0_0 = { (void*)2135, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType VertexAnim_t2231884842_0_0_0 = { (void*)2141, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VertexAnim_t2231884842_1_0_0 = { (void*)2141, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3138948959_GenericClass = { 41, { &GenInst_VertexAnim_t2231884842_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t3138948959_0_0_0 = { &InternalEnumerator_1_t3138948959_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11902,9 +12046,9 @@ Il2CppGenericClass List_1_t2994939210_GenericClass = { 174, { &GenInst_MenuLayou
 extern const RuntimeType List_1_t2994939210_0_0_0 = { &List_1_t2994939210_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t2994939210_0_0_1 = { &List_1_t2994939210_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType MenuLayout_t1522864468_0_0_0 = { (void*)2149, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MenuLayout_t1522864468_1_0_0 = { (void*)2149, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType MenuLayout_t1522864468_0_0_1 = { (void*)2149, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MenuLayout_t1522864468_0_0_0 = { (void*)2155, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MenuLayout_t1522864468_1_0_0 = { (void*)2155, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MenuLayout_t1522864468_0_0_1 = { (void*)2155, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t1955434936_GenericClass = { 25, { &GenInst_MenuLayout_t1522864468_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t1955434936_0_0_0 = { &IEnumerator_1_t1955434936_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11938,8 +12082,8 @@ extern const RuntimeType List_1_t857997111_0_0_0 = { &List_1_t857997111_GenericC
 extern const RuntimeType List_1_t857997111_0_0_1 = { &List_1_t857997111_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType List_1_t857997111_0_0_6 = { &List_1_t857997111_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType AudioClip_t3680889665_0_0_0 = { (void*)1600, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioClip_t3680889665_1_0_0 = { (void*)1600, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioClip_t3680889665_0_0_0 = { (void*)1602, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioClip_t3680889665_1_0_0 = { (void*)1602, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IEnumerator_1_t4113460133_GenericClass = { 25, { &GenInst_AudioClip_t3680889665_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t4113460133_0_0_0 = { &IEnumerator_1_t4113460133_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11971,8 +12115,8 @@ extern const RuntimeType Comparison_1_t3455820844_0_0_0 = { &Comparison_1_t34558
 Il2CppGenericClass IEnumerator_1_t2658772955_GenericClass = { 25, { &GenInst_Actor_t2226202487_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2658772955_0_0_0 = { &IEnumerator_1_t2658772955_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Actor_t2226202487_0_0_0 = { (void*)2155, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Actor_t2226202487_1_0_0 = { (void*)2155, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Actor_t2226202487_0_0_0 = { (void*)2162, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Actor_t2226202487_1_0_0 = { (void*)2162, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3133266604_GenericClass = { 41, { &GenInst_Actor_t2226202487_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t3133266604_0_0_0 = { &InternalEnumerator_1_t3133266604_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -11989,8 +12133,8 @@ extern const RuntimeType IEnumerable_1_t1206055376_0_0_0 = { &IEnumerable_1_t120
 Il2CppGenericClass IEnumerator_1_t2261219167_GenericClass = { 25, { &GenInst_Point_t1828648699_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t2261219167_0_0_0 = { &IEnumerator_1_t2261219167_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType Point_t1828648699_0_0_0 = { (void*)2198, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Point_t1828648699_1_0_0 = { (void*)2198, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Point_t1828648699_0_0_0 = { (void*)2205, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Point_t1828648699_1_0_0 = { (void*)2205, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t2735712816_GenericClass = { 41, { &GenInst_Point_t1828648699_0_0_0, NULL }, NULL };
 extern const RuntimeType InternalEnumerator_1_t2735712816_0_0_0 = { &InternalEnumerator_1_t2735712816_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -12340,112 +12484,120 @@ extern const RuntimeType RegexOptions_t92845595_1_0_0 = { (void*)1168, 0, IL2CPP
 extern const RuntimeType RegexOptions_t92845595_0_0_32854 = { (void*)1168, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType RegexOptions_t92845595_0_0_6 = { (void*)1168, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType DefaultExecutionOrder_t3059642329_0_0_0 = { (void*)1394, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DefaultExecutionOrder_t3059642329_1_0_0 = { (void*)1394, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DefaultExecutionOrder_t3059642329_0_0_0 = { (void*)1395, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DefaultExecutionOrder_t3059642329_1_0_0 = { (void*)1395, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType UnityAction_t3245792599_0_0_0 = { (void*)1477, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityAction_t3245792599_0_0_3 = { (void*)1477, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityAction_t3245792599_0_0_1 = { (void*)1477, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityAction_t3245792599_1_0_0 = { (void*)1477, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType UnityAction_t3245792599_0_0_132 = { (void*)1477, 132, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityAction_t3245792599_0_0_0 = { (void*)1479, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityAction_t3245792599_0_0_3 = { (void*)1479, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityAction_t3245792599_0_0_1 = { (void*)1479, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityAction_t3245792599_1_0_0 = { (void*)1479, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityAction_t3245792599_0_0_132 = { (void*)1479, 132, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType CachedInvokableCall_1_t3153979999_0_0_0 = { (void*)1471, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CachedInvokableCall_1_t3153979999_1_0_0 = { (void*)1471, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CachedInvokableCall_1_t3153979999_0_0_0 = { (void*)1473, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CachedInvokableCall_1_t3153979999_1_0_0 = { (void*)1473, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PlayerConnection_t3081694049_0_0_0 = { (void*)1527, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PlayerConnection_t3081694049_1_0_0 = { (void*)1527, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType PlayerConnection_t3081694049_0_0_17 = { (void*)1527, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PlayerConnection_t3081694049_0_0_0 = { (void*)1529, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PlayerConnection_t3081694049_1_0_0 = { (void*)1529, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PlayerConnection_t3081694049_0_0_17 = { (void*)1529, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType GUILayer_t2783472903_0_0_0 = { (void*)1329, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType GUILayer_t2783472903_1_0_0 = { (void*)1329, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GUITargetAttribute_t25796337_0_0_0 = { (void*)1638, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUITargetAttribute_t25796337_1_0_0 = { (void*)1638, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType KeyCode_t2599294277_0_0_0 = { (void*)1434, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType KeyCode_t2599294277_1_0_0 = { (void*)1434, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType KeyCode_t2599294277_0_0_32854 = { (void*)1434, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType KeyCode_t2599294277_0_0_6 = { (void*)1434, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType AxisEventData_t2331243652_0_0_0 = { (void*)1732, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AxisEventData_t2331243652_1_0_0 = { (void*)1732, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType AxisEventData_t2331243652_0_0_1 = { (void*)1732, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextEditor_t2759855366_0_0_0 = { (void*)1646, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextEditor_t2759855366_1_0_0 = { (void*)1646, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType GUITargetAttribute_t25796337_0_0_0 = { (void*)1642, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUITargetAttribute_t25796337_1_0_0 = { (void*)1642, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType AxisEventData_t2331243652_0_0_0 = { (void*)1738, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AxisEventData_t2331243652_1_0_0 = { (void*)1738, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AxisEventData_t2331243652_0_0_1 = { (void*)1738, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType SpriteRenderer_t3235626157_0_0_0 = { (void*)1357, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType SpriteRenderer_t3235626157_1_0_0 = { (void*)1357, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const RuntimeType SpriteRenderer_t3235626157_0_0_1 = { (void*)1357, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Image_t2670269651_0_0_0 = { (void*)1782, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Image_t2670269651_0_0_1 = { (void*)1782, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Image_t2670269651_1_0_0 = { (void*)1782, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Image_t2670269651_0_0_6 = { (void*)1782, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Image_t2670269651_0_0_0 = { (void*)1788, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Image_t2670269651_0_0_1 = { (void*)1788, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Image_t2670269651_1_0_0 = { (void*)1788, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Image_t2670269651_0_0_6 = { (void*)1788, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Button_t4055032469_0_0_0 = { (void*)1759, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Button_t4055032469_1_0_0 = { (void*)1759, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Button_t4055032469_0_0_3 = { (void*)1759, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Button_t4055032469_0_0_0 = { (void*)1765, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Button_t4055032469_1_0_0 = { (void*)1765, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Button_t4055032469_0_0_3 = { (void*)1765, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType RawImage_t3182918964_0_0_0 = { (void*)1810, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RawImage_t3182918964_1_0_0 = { (void*)1810, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType RawImage_t3182918964_0_0_6 = { (void*)1810, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RawImage_t3182918964_0_0_1 = { (void*)1810, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RawImage_t3182918964_0_0_0 = { (void*)1816, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RawImage_t3182918964_1_0_0 = { (void*)1816, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RawImage_t3182918964_0_0_6 = { (void*)1816, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RawImage_t3182918964_0_0_1 = { (void*)1816, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Slider_t3903728902_0_0_0 = { (void*)1825, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Slider_t3903728902_1_0_0 = { (void*)1825, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Slider_t3903728902_0_0_0 = { (void*)1831, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Slider_t3903728902_1_0_0 = { (void*)1831, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Scrollbar_t1494447233_0_0_0 = { (void*)1812, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Scrollbar_t1494447233_1_0_0 = { (void*)1812, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Scrollbar_t1494447233_0_0_3 = { (void*)1812, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Scrollbar_t1494447233_0_0_1 = { (void*)1812, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Scrollbar_t1494447233_0_0_4 = { (void*)1812, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Scrollbar_t1494447233_0_0_6 = { (void*)1812, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Scrollbar_t1494447233_0_0_0 = { (void*)1818, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Scrollbar_t1494447233_1_0_0 = { (void*)1818, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Scrollbar_t1494447233_0_0_3 = { (void*)1818, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Scrollbar_t1494447233_0_0_1 = { (void*)1818, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Scrollbar_t1494447233_0_0_4 = { (void*)1818, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Scrollbar_t1494447233_0_0_6 = { (void*)1818, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType InputField_t3762917431_0_0_0 = { (void*)1792, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType InputField_t3762917431_1_0_0 = { (void*)1792, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType InputField_t3762917431_0_0_3 = { (void*)1792, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InputField_t3762917431_0_0_0 = { (void*)1798, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InputField_t3762917431_1_0_0 = { (void*)1798, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType InputField_t3762917431_0_0_3 = { (void*)1798, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType ScrollRect_t4137855814_0_0_0 = { (void*)1817, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ScrollRect_t4137855814_1_0_0 = { (void*)1817, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ScrollRect_t4137855814_0_0_0 = { (void*)1823, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ScrollRect_t4137855814_1_0_0 = { (void*)1823, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Dropdown_t2274391225_0_0_0 = { (void*)1768, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Dropdown_t2274391225_1_0_0 = { (void*)1768, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Dropdown_t2274391225_0_0_3 = { (void*)1768, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Dropdown_t2274391225_0_0_0 = { (void*)1774, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Dropdown_t2274391225_1_0_0 = { (void*)1774, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Dropdown_t2274391225_0_0_3 = { (void*)1774, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType GraphicRaycaster_t2999697109_0_0_0 = { (void*)1778, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GraphicRaycaster_t2999697109_1_0_0 = { (void*)1778, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GraphicRaycaster_t2999697109_0_0_0 = { (void*)1784, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GraphicRaycaster_t2999697109_1_0_0 = { (void*)1784, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CanvasRenderer_t2598313366_0_0_0 = { (void*)1690, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CanvasRenderer_t2598313366_1_0_0 = { (void*)1690, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType CanvasRenderer_t2598313366_0_0_129 = { (void*)1690, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CanvasRenderer_t2598313366_0_0_1 = { (void*)1690, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CanvasRenderer_t2598313366_0_0_0 = { (void*)1696, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CanvasRenderer_t2598313366_1_0_0 = { (void*)1696, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CanvasRenderer_t2598313366_0_0_129 = { (void*)1696, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CanvasRenderer_t2598313366_0_0_1 = { (void*)1696, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType IMeshModifier_t1571826021_0_0_0 = { (void*)1882, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IMeshModifier_t1571826021_1_0_0 = { (void*)1882, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IMeshModifier_t1571826021_0_0_0 = { (void*)1888, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IMeshModifier_t1571826021_1_0_0 = { (void*)1888, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Corner_t1493259673_0_0_0 = { (void*)1851, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Corner_t1493259673_0_0_4 = { (void*)1851, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Corner_t1493259673_1_0_0 = { (void*)1851, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Corner_t1493259673_0_0_32854 = { (void*)1851, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Corner_t1493259673_0_0_0 = { (void*)1857, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Corner_t1493259673_0_0_4 = { (void*)1857, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Corner_t1493259673_1_0_0 = { (void*)1857, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Corner_t1493259673_0_0_32854 = { (void*)1857, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType Axis_t3613393006_0_0_0 = { (void*)1852, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Axis_t3613393006_0_0_4 = { (void*)1852, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Axis_t3613393006_1_0_0 = { (void*)1852, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Axis_t3613393006_0_0_32854 = { (void*)1852, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Axis_t3613393006_0_0_0 = { (void*)1858, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Axis_t3613393006_0_0_4 = { (void*)1858, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Axis_t3613393006_1_0_0 = { (void*)1858, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Axis_t3613393006_0_0_32854 = { (void*)1858, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType Constraint_t814224393_0_0_0 = { (void*)1853, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Constraint_t814224393_0_0_4 = { (void*)1853, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Constraint_t814224393_1_0_0 = { (void*)1853, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Constraint_t814224393_0_0_32854 = { (void*)1853, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Constraint_t814224393_0_0_0 = { (void*)1859, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Constraint_t814224393_0_0_4 = { (void*)1859, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Constraint_t814224393_1_0_0 = { (void*)1859, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Constraint_t814224393_0_0_32854 = { (void*)1859, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType SubmitEvent_t648412432_0_0_0 = { (void*)1798, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SubmitEvent_t648412432_0_0_1 = { (void*)1798, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SubmitEvent_t648412432_1_0_0 = { (void*)1798, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SubmitEvent_t648412432_0_0_0 = { (void*)1804, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SubmitEvent_t648412432_0_0_1 = { (void*)1804, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SubmitEvent_t648412432_1_0_0 = { (void*)1804, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType OnChangeEvent_t467195904_0_0_0 = { (void*)1799, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnChangeEvent_t467195904_0_0_1 = { (void*)1799, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnChangeEvent_t467195904_1_0_0 = { (void*)1799, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OnChangeEvent_t467195904_0_0_0 = { (void*)1805, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnChangeEvent_t467195904_0_0_1 = { (void*)1805, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnChangeEvent_t467195904_1_0_0 = { (void*)1805, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType OnValidateInput_t2355412304_0_0_0 = { (void*)1797, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnValidateInput_t2355412304_0_0_1 = { (void*)1797, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnValidateInput_t2355412304_1_0_0 = { (void*)1797, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OnValidateInput_t2355412304_0_0_0 = { (void*)1803, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnValidateInput_t2355412304_0_0_1 = { (void*)1803, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnValidateInput_t2355412304_1_0_0 = { (void*)1803, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType LayoutElement_t1785403678_0_0_0 = { (void*)1861, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LayoutElement_t1785403678_1_0_0 = { (void*)1861, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType LayoutElement_t1785403678_0_0_4 = { (void*)1861, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LayoutElement_t1785403678_0_0_0 = { (void*)1867, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LayoutElement_t1785403678_1_0_0 = { (void*)1867, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType LayoutElement_t1785403678_0_0_4 = { (void*)1867, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType RectOffset_t1369453676_0_0_0 = { (void*)1327, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType RectOffset_t1369453676_1_0_0 = { (void*)1327, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -12453,260 +12605,260 @@ extern const RuntimeType RectOffset_t1369453676_0_0_129 = { (void*)1327, 129, IL
 extern const RuntimeType RectOffset_t1369453676_0_0_33 = { (void*)1327, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType RectOffset_t1369453676_0_0_4 = { (void*)1327, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType TextAnchor_t2035777396_0_0_0 = { (void*)1557, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextAnchor_t2035777396_1_0_0 = { (void*)1557, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextAnchor_t2035777396_0_0_32854 = { (void*)1557, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextAnchor_t2035777396_0_0_6 = { (void*)1557, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextAnchor_t2035777396_0_0_1 = { (void*)1557, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextAnchor_t2035777396_0_0_4 = { (void*)1557, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextAnchor_t2035777396_0_0_0 = { (void*)1559, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextAnchor_t2035777396_1_0_0 = { (void*)1559, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextAnchor_t2035777396_0_0_32854 = { (void*)1559, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextAnchor_t2035777396_0_0_6 = { (void*)1559, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextAnchor_t2035777396_0_0_1 = { (void*)1559, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextAnchor_t2035777396_0_0_4 = { (void*)1559, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ILayoutIgnorer_t1530801976_0_0_0 = { (void*)1860, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutIgnorer_t1530801976_1_0_0 = { (void*)1860, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ILayoutIgnorer_t1530801976_0_0_1 = { (void*)1860, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutIgnorer_t1530801976_0_0_0 = { (void*)1866, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutIgnorer_t1530801976_1_0_0 = { (void*)1866, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ILayoutIgnorer_t1530801976_0_0_1 = { (void*)1866, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType ILayoutGroup_t1287622989_0_0_0 = { (void*)1858, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutGroup_t1287622989_0_0_7 = { (void*)1858, 7, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutGroup_t1287622989_1_0_0 = { (void*)1858, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ILayoutGroup_t1287622989_0_0_1 = { (void*)1858, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutGroup_t1287622989_0_0_0 = { (void*)1864, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutGroup_t1287622989_0_0_7 = { (void*)1864, 7, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutGroup_t1287622989_1_0_0 = { (void*)1864, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ILayoutGroup_t1287622989_0_0_1 = { (void*)1864, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType ILayoutController_t915495727_0_0_0 = { (void*)1857, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutController_t915495727_0_0_9 = { (void*)1857, 9, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutController_t915495727_0_0_1 = { (void*)1857, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutController_t915495727_1_0_0 = { (void*)1857, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ILayoutController_t915495727_0_0_2 = { (void*)1857, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutController_t915495727_0_0_0 = { (void*)1863, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutController_t915495727_0_0_9 = { (void*)1863, 9, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutController_t915495727_0_0_1 = { (void*)1863, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutController_t915495727_1_0_0 = { (void*)1863, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ILayoutController_t915495727_0_0_2 = { (void*)1863, 2, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Physics_t2310948930_0_0_0 = { (void*)1654, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Physics_t2310948930_1_0_0 = { (void*)1654, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Physics_t2310948930_0_0_0 = { (void*)1660, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Physics_t2310948930_1_0_0 = { (void*)1660, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Ray_t3785851493_0_0_0 = { (void*)1451, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Ray_t3785851493_1_0_2 = { (void*)1451, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Ray_t3785851493_1_0_0 = { (void*)1451, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Ray_t3785851493_0_0_0 = { (void*)1453, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Ray_t3785851493_1_0_2 = { (void*)1453, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Ray_t3785851493_1_0_0 = { (void*)1453, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType Raycast3DCallback_t701940803_0_0_0 = { (void*)1872, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Raycast3DCallback_t701940803_0_0_6 = { (void*)1872, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Raycast3DCallback_t701940803_1_0_0 = { (void*)1872, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Raycast3DCallback_t701940803_0_0_0 = { (void*)1878, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Raycast3DCallback_t701940803_0_0_6 = { (void*)1878, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Raycast3DCallback_t701940803_1_0_0 = { (void*)1878, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Physics2D_t1528932956_0_0_0 = { (void*)1549, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Physics2D_t1528932956_1_0_0 = { (void*)1549, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Physics2D_t1528932956_0_0_0 = { (void*)1551, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Physics2D_t1528932956_1_0_0 = { (void*)1551, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Raycast2DCallback_t768590915_0_0_0 = { (void*)1873, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Raycast2DCallback_t768590915_0_0_6 = { (void*)1873, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Raycast2DCallback_t768590915_1_0_0 = { (void*)1873, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Raycast2DCallback_t768590915_0_0_0 = { (void*)1879, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Raycast2DCallback_t768590915_0_0_6 = { (void*)1879, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Raycast2DCallback_t768590915_1_0_0 = { (void*)1879, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType RaycastAllCallback_t1884415901_0_0_0 = { (void*)1874, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RaycastAllCallback_t1884415901_0_0_6 = { (void*)1874, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RaycastAllCallback_t1884415901_1_0_0 = { (void*)1874, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RaycastAllCallback_t1884415901_0_0_0 = { (void*)1880, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RaycastAllCallback_t1884415901_0_0_6 = { (void*)1880, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RaycastAllCallback_t1884415901_1_0_0 = { (void*)1880, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GetRayIntersectionAllCallback_t3913627115_0_0_0 = { (void*)1875, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GetRayIntersectionAllCallback_t3913627115_0_0_6 = { (void*)1875, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GetRayIntersectionAllCallback_t3913627115_1_0_0 = { (void*)1875, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GetRayIntersectionAllCallback_t3913627115_0_0_0 = { (void*)1881, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GetRayIntersectionAllCallback_t3913627115_0_0_6 = { (void*)1881, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GetRayIntersectionAllCallback_t3913627115_1_0_0 = { (void*)1881, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType RaycastHit2DU5BU5D_t4286651560_0_0_0 = { (void*)&RaycastHit2D_t2279581989_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType RaycastHit2DU5BU5D_t4286651560_0_0_1 = { (void*)&RaycastHit2D_t2279581989_0_0_0, 1, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType GetRayIntersectionAllNonAllocCallback_t2311174851_0_0_0 = { (void*)1876, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GetRayIntersectionAllNonAllocCallback_t2311174851_0_0_6 = { (void*)1876, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GetRayIntersectionAllNonAllocCallback_t2311174851_1_0_0 = { (void*)1876, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GetRayIntersectionAllNonAllocCallback_t2311174851_0_0_0 = { (void*)1882, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GetRayIntersectionAllNonAllocCallback_t2311174851_0_0_6 = { (void*)1882, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GetRayIntersectionAllNonAllocCallback_t2311174851_1_0_0 = { (void*)1882, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType RaycastHitU5BU5D_t1690781147_0_0_0 = { (void*)&RaycastHit_t1056001966_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType RaycastHitU5BU5D_t1690781147_0_0_1 = { (void*)&RaycastHit_t1056001966_0_0_0, 1, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType GetRaycastNonAllocCallback_t3841783507_0_0_0 = { (void*)1877, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GetRaycastNonAllocCallback_t3841783507_0_0_6 = { (void*)1877, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GetRaycastNonAllocCallback_t3841783507_1_0_0 = { (void*)1877, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GetRaycastNonAllocCallback_t3841783507_0_0_0 = { (void*)1883, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GetRaycastNonAllocCallback_t3841783507_0_0_6 = { (void*)1883, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GetRaycastNonAllocCallback_t3841783507_1_0_0 = { (void*)1883, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AnimationTriggers_t2532145056_0_0_0 = { (void*)1758, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AnimationTriggers_t2532145056_1_0_0 = { (void*)1758, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType AnimationTriggers_t2532145056_0_0_1 = { (void*)1758, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AnimationTriggers_t2532145056_0_0_0 = { (void*)1764, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AnimationTriggers_t2532145056_1_0_0 = { (void*)1764, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AnimationTriggers_t2532145056_0_0_1 = { (void*)1764, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Animator_t434523843_0_0_0 = { (void*)1583, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Animator_t434523843_1_0_0 = { (void*)1583, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Animator_t434523843_0_0_6 = { (void*)1583, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Animator_t434523843_0_0_1 = { (void*)1583, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Animator_t434523843_0_0_0 = { (void*)1585, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Animator_t434523843_1_0_0 = { (void*)1585, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Animator_t434523843_0_0_6 = { (void*)1585, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Animator_t434523843_0_0_1 = { (void*)1585, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType Renderer_t2627027031_0_0_0 = { (void*)1323, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Renderer_t2627027031_1_0_0 = { (void*)1323, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const RuntimeType Renderer_t2627027031_0_0_1 = { (void*)1323, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Renderer_t2627027031_0_0_6 = { (void*)1323, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType MeshFilter_t3523625662_0_0_0 = { (void*)1412, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MeshFilter_t3523625662_1_0_0 = { (void*)1412, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType MeshFilter_t3523625662_0_0_1 = { (void*)1412, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MeshFilter_t3523625662_0_0_0 = { (void*)1413, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MeshFilter_t3523625662_1_0_0 = { (void*)1413, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MeshFilter_t3523625662_0_0_1 = { (void*)1413, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType TMP_InputField_t1099764886_0_0_0 = { (void*)1955, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_InputField_t1099764886_1_0_0 = { (void*)1955, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_InputField_t1099764886_0_0_3 = { (void*)1955, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_InputField_t1099764886_0_0_6 = { (void*)1955, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_InputField_t1099764886_0_0_0 = { (void*)1961, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_InputField_t1099764886_1_0_0 = { (void*)1961, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_InputField_t1099764886_0_0_3 = { (void*)1961, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_InputField_t1099764886_0_0_6 = { (void*)1961, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType TMP_Dropdown_t3024694699_0_0_0 = { (void*)1945, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Dropdown_t3024694699_1_0_0 = { (void*)1945, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_Dropdown_t3024694699_0_0_3 = { (void*)1945, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Dropdown_t3024694699_0_0_0 = { (void*)1951, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Dropdown_t3024694699_1_0_0 = { (void*)1951, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_Dropdown_t3024694699_0_0_3 = { (void*)1951, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType SubmitEvent_t1343580625_0_0_0 = { (void*)1961, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SubmitEvent_t1343580625_0_0_1 = { (void*)1961, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SubmitEvent_t1343580625_1_0_0 = { (void*)1961, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SubmitEvent_t1343580625_0_0_0 = { (void*)1967, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SubmitEvent_t1343580625_0_0_1 = { (void*)1967, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SubmitEvent_t1343580625_1_0_0 = { (void*)1967, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SelectionEvent_t4268942288_0_0_0 = { (void*)1963, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SelectionEvent_t4268942288_0_0_1 = { (void*)1963, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SelectionEvent_t4268942288_1_0_0 = { (void*)1963, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SelectionEvent_t4268942288_0_0_0 = { (void*)1969, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SelectionEvent_t4268942288_0_0_1 = { (void*)1969, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SelectionEvent_t4268942288_1_0_0 = { (void*)1969, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TextSelectionEvent_t1023421581_0_0_0 = { (void*)1964, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextSelectionEvent_t1023421581_0_0_1 = { (void*)1964, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextSelectionEvent_t1023421581_1_0_0 = { (void*)1964, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TextSelectionEvent_t1023421581_0_0_0 = { (void*)1970, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextSelectionEvent_t1023421581_0_0_1 = { (void*)1970, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextSelectionEvent_t1023421581_1_0_0 = { (void*)1970, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType OnChangeEvent_t4257774360_0_0_0 = { (void*)1962, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnChangeEvent_t4257774360_0_0_1 = { (void*)1962, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnChangeEvent_t4257774360_1_0_0 = { (void*)1962, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OnChangeEvent_t4257774360_0_0_0 = { (void*)1968, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnChangeEvent_t4257774360_0_0_1 = { (void*)1968, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnChangeEvent_t4257774360_1_0_0 = { (void*)1968, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType OnValidateInput_t373909109_0_0_0 = { (void*)1960, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnValidateInput_t373909109_0_0_1 = { (void*)1960, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnValidateInput_t373909109_1_0_0 = { (void*)1960, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OnValidateInput_t373909109_0_0_0 = { (void*)1966, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnValidateInput_t373909109_0_0_1 = { (void*)1966, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnValidateInput_t373909109_1_0_0 = { (void*)1966, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType LineType_t2817627283_0_0_0 = { (void*)1959, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType LineType_t2817627283_0_0_1 = { (void*)1959, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType LineType_t2817627283_1_0_0 = { (void*)1959, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType LineType_t2817627283_0_0_32854 = { (void*)1959, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType LineType_t2817627283_0_0_0 = { (void*)1965, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType LineType_t2817627283_0_0_1 = { (void*)1965, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType LineType_t2817627283_1_0_0 = { (void*)1965, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType LineType_t2817627283_0_0_32854 = { (void*)1965, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType InputType_t2510134850_0_0_0 = { (void*)1957, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType InputType_t2510134850_0_0_1 = { (void*)1957, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType InputType_t2510134850_1_0_0 = { (void*)1957, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType InputType_t2510134850_0_0_32854 = { (void*)1957, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputType_t2510134850_0_0_0 = { (void*)1963, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputType_t2510134850_0_0_1 = { (void*)1963, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputType_t2510134850_1_0_0 = { (void*)1963, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType InputType_t2510134850_0_0_32854 = { (void*)1963, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType CharacterValidation_t3801396403_0_0_0 = { (void*)1958, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CharacterValidation_t3801396403_0_0_1 = { (void*)1958, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CharacterValidation_t3801396403_1_0_0 = { (void*)1958, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType CharacterValidation_t3801396403_0_0_32854 = { (void*)1958, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CharacterValidation_t3801396403_0_0_0 = { (void*)1964, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CharacterValidation_t3801396403_0_0_1 = { (void*)1964, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CharacterValidation_t3801396403_1_0_0 = { (void*)1964, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CharacterValidation_t3801396403_0_0_32854 = { (void*)1964, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TMP_InputValidator_t1385053824_0_0_0 = { (void*)1969, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_InputValidator_t1385053824_0_0_4 = { (void*)1969, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_InputValidator_t1385053824_1_0_0 = { (void*)1969, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_InputValidator_t1385053824_0_0_0 = { (void*)1975, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_InputValidator_t1385053824_0_0_4 = { (void*)1975, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_InputValidator_t1385053824_1_0_0 = { (void*)1975, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_SelectionCaret_t407257285_0_0_0 = { (void*)1983, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_SelectionCaret_t407257285_1_0_0 = { (void*)1983, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_SelectionCaret_t407257285_0_0_0 = { (void*)1989, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SelectionCaret_t407257285_1_0_0 = { (void*)1989, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_Settings_t2071156274_0_0_0 = { (void*)1984, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Settings_t2071156274_1_0_0 = { (void*)1984, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_Settings_t2071156274_0_0_17 = { (void*)1984, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Settings_t2071156274_0_0_0 = { (void*)1990, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Settings_t2071156274_1_0_0 = { (void*)1990, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_Settings_t2071156274_0_0_17 = { (void*)1990, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType TMP_StyleSheet_t917564226_0_0_0 = { (void*)1997, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_StyleSheet_t917564226_0_0_1 = { (void*)1997, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_StyleSheet_t917564226_1_0_0 = { (void*)1997, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_StyleSheet_t917564226_0_0_17 = { (void*)1997, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_StyleSheet_t917564226_0_0_0 = { (void*)2003, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_StyleSheet_t917564226_0_0_1 = { (void*)2003, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_StyleSheet_t917564226_1_0_0 = { (void*)2003, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_StyleSheet_t917564226_0_0_17 = { (void*)2003, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType BoxCollider_t1640800422_0_0_0 = { (void*)1658, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BoxCollider_t1640800422_1_0_0 = { (void*)1658, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType BoxCollider_t1640800422_0_0_1 = { (void*)1658, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BoxCollider_t1640800422_0_0_0 = { (void*)1664, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BoxCollider_t1640800422_1_0_0 = { (void*)1664, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BoxCollider_t1640800422_0_0_1 = { (void*)1664, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Rigidbody_t3916780224_0_0_0 = { (void*)1656, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Rigidbody_t3916780224_1_0_0 = { (void*)1656, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Rigidbody_t3916780224_0_0_3 = { (void*)1656, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Rigidbody_t3916780224_0_0_6 = { (void*)1656, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Rigidbody_t3916780224_0_0_0 = { (void*)1662, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Rigidbody_t3916780224_1_0_0 = { (void*)1662, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Rigidbody_t3916780224_0_0_3 = { (void*)1662, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Rigidbody_t3916780224_0_0_6 = { (void*)1662, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType TMP_SpriteAnimator_t2836635477_0_0_0 = { (void*)1987, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_SpriteAnimator_t2836635477_1_0_0 = { (void*)1987, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_SpriteAnimator_t2836635477_0_0_3 = { (void*)1987, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_SpriteAnimator_t2836635477_0_0_4 = { (void*)1987, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SpriteAnimator_t2836635477_0_0_0 = { (void*)1993, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SpriteAnimator_t2836635477_1_0_0 = { (void*)1993, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_SpriteAnimator_t2836635477_0_0_3 = { (void*)1993, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_SpriteAnimator_t2836635477_0_0_4 = { (void*)1993, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType MeshRenderer_t587009260_0_0_0 = { (void*)1430, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MeshRenderer_t587009260_1_0_0 = { (void*)1430, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MeshRenderer_t587009260_0_0_0 = { (void*)1431, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MeshRenderer_t587009260_1_0_0 = { (void*)1431, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AudioManager_t3267510698_0_0_0 = { (void*)2156, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioManager_t3267510698_1_0_0 = { (void*)2156, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioManager_t3267510698_0_0_0 = { (void*)2163, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioManager_t3267510698_1_0_0 = { (void*)2163, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType BezerkControl_t2461146280_0_0_0 = { (void*)2159, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BezerkControl_t2461146280_1_0_0 = { (void*)2159, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType BezerkControl_t2461146280_0_0_3 = { (void*)2159, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BezerkControl_t2461146280_0_0_0 = { (void*)2166, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BezerkControl_t2461146280_1_0_0 = { (void*)2166, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BezerkControl_t2461146280_0_0_3 = { (void*)2166, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType OnGameOver_t3547337964_0_0_0 = { (void*)2190, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnGameOver_t3547337964_1_0_0 = { (void*)2190, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType OnGameOver_t3547337964_0_0_3 = { (void*)2190, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnGameOver_t3547337964_0_0_0 = { (void*)2197, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnGameOver_t3547337964_1_0_0 = { (void*)2197, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OnGameOver_t3547337964_0_0_3 = { (void*)2197, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType BGM_Player_t3305628395_0_0_0 = { (void*)2166, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BGM_Player_t3305628395_1_0_0 = { (void*)2166, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType BGM_Player_t3305628395_0_0_3 = { (void*)2166, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BGM_Player_t3305628395_0_0_0 = { (void*)2173, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BGM_Player_t3305628395_1_0_0 = { (void*)2173, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BGM_Player_t3305628395_0_0_3 = { (void*)2173, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Link_System_t305660607_0_0_0 = { (void*)2185, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Link_System_t305660607_1_0_0 = { (void*)2185, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Link_System_t305660607_0_0_3 = { (void*)2185, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Link_System_t305660607_0_0_0 = { (void*)2192, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Link_System_t305660607_1_0_0 = { (void*)2192, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Link_System_t305660607_0_0_3 = { (void*)2192, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType BezerkMissile_t794639485_0_0_0 = { (void*)2163, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BezerkMissile_t794639485_1_0_0 = { (void*)2163, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BezerkMissile_t794639485_0_0_0 = { (void*)2170, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BezerkMissile_t794639485_1_0_0 = { (void*)2170, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Animation_t3648466861_0_0_0 = { (void*)1577, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Animation_t3648466861_1_0_0 = { (void*)1577, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Animation_t3648466861_0_0_1 = { (void*)1577, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Animation_t3648466861_0_0_6 = { (void*)1577, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Animation_t3648466861_0_0_0 = { (void*)1579, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Animation_t3648466861_1_0_0 = { (void*)1579, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Animation_t3648466861_0_0_1 = { (void*)1579, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Animation_t3648466861_0_0_6 = { (void*)1579, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType AudioLowPassFilter_t919637367_0_0_0 = { (void*)1606, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioLowPassFilter_t919637367_1_0_0 = { (void*)1606, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType AudioLowPassFilter_t919637367_0_0_6 = { (void*)1606, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioLowPassFilter_t919637367_0_0_1 = { (void*)1606, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioLowPassFilter_t919637367_0_0_0 = { (void*)1608, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioLowPassFilter_t919637367_1_0_0 = { (void*)1608, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioLowPassFilter_t919637367_0_0_6 = { (void*)1608, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioLowPassFilter_t919637367_0_0_1 = { (void*)1608, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType AudioSource_t3935305588_0_0_0 = { (void*)1605, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioSource_t3935305588_1_0_0 = { (void*)1605, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType AudioSource_t3935305588_0_0_1 = { (void*)1605, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioSource_t3935305588_0_0_6 = { (void*)1605, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioSource_t3935305588_0_0_0 = { (void*)1607, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioSource_t3935305588_1_0_0 = { (void*)1607, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioSource_t3935305588_0_0_1 = { (void*)1607, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioSource_t3935305588_0_0_6 = { (void*)1607, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType DepthOfField_t300342762_0_0_0 = { (void*)2146, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DepthOfField_t300342762_1_0_0 = { (void*)2146, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DepthOfField_t300342762_0_0_0 = { (void*)2152, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DepthOfField_t300342762_1_0_0 = { (void*)2152, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FiltersController_t2522042075_0_0_0 = { (void*)2054, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FiltersController_t2522042075_1_0_0 = { (void*)2054, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FiltersController_t2522042075_0_0_0 = { (void*)2060, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FiltersController_t2522042075_1_0_0 = { (void*)2060, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PlayerMoveJump_t3323239635_0_0_0 = { (void*)2197, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PlayerMoveJump_t3323239635_1_0_0 = { (void*)2197, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PlayerMoveJump_t3323239635_0_0_0 = { (void*)2204, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PlayerMoveJump_t3323239635_1_0_0 = { (void*)2204, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType OnNextLevel_t3187268939_0_0_0 = { (void*)2193, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnNextLevel_t3187268939_1_0_0 = { (void*)2193, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType OnNextLevel_t3187268939_0_0_3 = { (void*)2193, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnNextLevel_t3187268939_0_0_0 = { (void*)2200, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnNextLevel_t3187268939_1_0_0 = { (void*)2200, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OnNextLevel_t3187268939_0_0_3 = { (void*)2200, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType MenuManagerInputs_t1631057777_0_0_0 = { (void*)2235, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MenuManagerInputs_t1631057777_1_0_0 = { (void*)2235, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType MenuManagerInputs_t1631057777_0_0_3 = { (void*)2235, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MenuManagerInputs_t1631057777_0_0_0 = { (void*)2242, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MenuManagerInputs_t1631057777_1_0_0 = { (void*)2242, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MenuManagerInputs_t1631057777_0_0_3 = { (void*)2242, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Missile_t4280459806_0_0_0 = { (void*)2188, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Missile_t4280459806_1_0_0 = { (void*)2188, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Missile_t4280459806_0_0_0 = { (void*)2195, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Missile_t4280459806_1_0_0 = { (void*)2195, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SaveManager_Inputs_t2402574047_0_0_0 = { (void*)2239, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SaveManager_Inputs_t2402574047_1_0_0 = { (void*)2239, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType SaveManager_Inputs_t2402574047_0_0_3 = { (void*)2239, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SaveManager_Inputs_t2402574047_0_0_0 = { (void*)2246, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SaveManager_Inputs_t2402574047_1_0_0 = { (void*)2246, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SaveManager_Inputs_t2402574047_0_0_3 = { (void*)2246, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType OptionsManagerInputs_t1837724265_0_0_0 = { (void*)2237, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OptionsManagerInputs_t1837724265_1_0_0 = { (void*)2237, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OptionsManagerInputs_t1837724265_0_0_0 = { (void*)2244, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OptionsManagerInputs_t1837724265_1_0_0 = { (void*)2244, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FireControl_t3033014547_0_0_0 = { (void*)2178, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FireControl_t3033014547_1_0_0 = { (void*)2178, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType FireControl_t3033014547_0_0_3 = { (void*)2178, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FireControl_t3033014547_0_0_0 = { (void*)2185, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FireControl_t3033014547_1_0_0 = { (void*)2185, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FireControl_t3033014547_0_0_3 = { (void*)2185, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType BlackboardCamera_t3458410486_0_0_0 = { (void*)2069, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BlackboardCamera_t3458410486_1_0_0 = { (void*)2069, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType BlackboardCamera_t3458410486_0_0_1 = { (void*)2069, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BlackboardCamera_t3458410486_0_0_0 = { (void*)2075, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BlackboardCamera_t3458410486_1_0_0 = { (void*)2075, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BlackboardCamera_t3458410486_0_0_1 = { (void*)2075, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType ParticleSystem_t1800779281_0_0_0 = { (void*)1652, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ParticleSystem_t1800779281_1_0_0 = { (void*)1652, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ParticleSystem_t1800779281_0_0_0 = { (void*)1658, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ParticleSystem_t1800779281_1_0_0 = { (void*)1658, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CharacterController_t1138636865_0_0_0 = { (void*)1663, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CharacterController_t1138636865_1_0_0 = { (void*)1663, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType CharacterController_t1138636865_0_0_3 = { (void*)1663, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CharacterController_t1138636865_0_0_1 = { (void*)1663, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CharacterController_t1138636865_0_0_0 = { (void*)1669, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CharacterController_t1138636865_1_0_0 = { (void*)1669, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CharacterController_t1138636865_0_0_3 = { (void*)1669, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CharacterController_t1138636865_0_0_1 = { (void*)1669, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType SceneStreamer_t546612758_0_0_0 = { (void*)2078, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SceneStreamer_t546612758_1_0_0 = { (void*)2078, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType SceneStreamer_t546612758_0_0_17 = { (void*)2078, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SceneStreamer_t546612758_0_0_3 = { (void*)2078, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SceneStreamer_t546612758_0_0_0 = { (void*)2084, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SceneStreamer_t546612758_1_0_0 = { (void*)2084, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SceneStreamer_t546612758_0_0_17 = { (void*)2084, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SceneStreamer_t546612758_0_0_3 = { (void*)2084, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType NeighboringScenes_t2352515565_0_0_0 = { (void*)2076, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NeighboringScenes_t2352515565_1_0_0 = { (void*)2076, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NeighboringScenes_t2352515565_0_0_0 = { (void*)2082, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NeighboringScenes_t2352515565_1_0_0 = { (void*)2082, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SceneLoadTrigger_t68892663_0_0_0 = { (void*)2205, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SceneLoadTrigger_t68892663_1_0_0 = { (void*)2205, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SceneLoadTrigger_t68892663_0_0_0 = { (void*)2212, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SceneLoadTrigger_t68892663_1_0_0 = { (void*)2212, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TitleSaveManagerInputs_t2244120510_0_0_0 = { (void*)2247, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TitleSaveManagerInputs_t2244120510_1_0_0 = { (void*)2247, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TitleSaveManagerInputs_t2244120510_0_0_3 = { (void*)2247, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TitleSaveManagerInputs_t2244120510_0_0_0 = { (void*)2254, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TitleSaveManagerInputs_t2244120510_1_0_0 = { (void*)2254, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TitleSaveManagerInputs_t2244120510_0_0_3 = { (void*)2254, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType HintList_t1636427951_0_0_0 = { (void*)2184, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType HintList_t1636427951_1_0_0 = { (void*)2184, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType HintList_t1636427951_0_0_0 = { (void*)2191, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType HintList_t1636427951_1_0_0 = { (void*)2191, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType Texture2D_t3840446185_0_0_0 = { (void*)1361, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Texture2D_t3840446185_1_0_0 = { (void*)1361, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -12714,31 +12866,31 @@ extern const RuntimeType Texture2D_t3840446185_0_0_129 = { (void*)1361, 129, IL2
 extern const RuntimeType Texture2D_t3840446185_0_0_20 = { (void*)1361, 20, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Texture2D_t3840446185_0_0_6 = { (void*)1361, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType TitleScreenOptionsManager_t2832345059_0_0_0 = { (void*)2254, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TitleScreenOptionsManager_t2832345059_1_0_0 = { (void*)2254, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TitleScreenOptionsManager_t2832345059_0_0_0 = { (void*)2261, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TitleScreenOptionsManager_t2832345059_1_0_0 = { (void*)2261, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType StartMenuManagerInputs_t1631812305_0_0_0 = { (void*)2243, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType StartMenuManagerInputs_t1631812305_1_0_0 = { (void*)2243, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType StartMenuManagerInputs_t1631812305_0_0_3 = { (void*)2243, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StartMenuManagerInputs_t1631812305_0_0_0 = { (void*)2250, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StartMenuManagerInputs_t1631812305_1_0_0 = { (void*)2250, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType StartMenuManagerInputs_t1631812305_0_0_3 = { (void*)2250, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType SaveSerial_t2776190746_0_0_0 = { (void*)2200, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SaveSerial_t2776190746_1_0_0 = { (void*)2200, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SaveSerial_t2776190746_0_0_0 = { (void*)2207, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SaveSerial_t2776190746_1_0_0 = { (void*)2207, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TextMesh_t1536577757_0_0_0 = { (void*)1560, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextMesh_t1536577757_1_0_0 = { (void*)1560, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TextMesh_t1536577757_0_0_1 = { (void*)1560, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMesh_t1536577757_0_0_0 = { (void*)1562, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMesh_t1536577757_1_0_0 = { (void*)1562, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TextMesh_t1536577757_0_0_1 = { (void*)1562, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType TextMeshProFloatingText_t845872552_0_0_0 = { (void*)2108, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextMeshProFloatingText_t845872552_0_0_1 = { (void*)2108, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextMeshProFloatingText_t845872552_1_0_0 = { (void*)2108, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TextMeshProFloatingText_t845872552_0_0_3 = { (void*)2108, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMeshProFloatingText_t845872552_0_0_0 = { (void*)2114, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMeshProFloatingText_t845872552_0_0_1 = { (void*)2114, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMeshProFloatingText_t845872552_1_0_0 = { (void*)2114, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TextMeshProFloatingText_t845872552_0_0_3 = { (void*)2114, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType Light_t3756812086_0_0_0 = { (void*)1338, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Light_t3756812086_1_0_0 = { (void*)1338, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TextContainer_t97923372_0_0_0 = { (void*)1898, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextContainer_t97923372_1_0_0 = { (void*)1898, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TextContainer_t97923372_0_0_1 = { (void*)1898, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextContainer_t97923372_0_0_0 = { (void*)1904, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextContainer_t97923372_1_0_0 = { (void*)1904, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TextContainer_t97923372_0_0_1 = { (void*)1904, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType GenericComparer_1_t3581574675_0_0_0 = { (void*)158, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType GenericComparer_1_t3581574675_1_0_0 = { (void*)158, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -18084,14 +18236,14 @@ extern const RuntimeType U3CModuleU3E_t692745530_1_0_0 = { (void*)1290, 0, IL2CP
 extern const RuntimeType Application_t1852185770_0_0_0 = { (void*)1291, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Application_t1852185770_1_0_0 = { (void*)1291, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType RuntimePlatform_t4159857903_0_0_0 = { (void*)1399, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RuntimePlatform_t4159857903_1_0_0 = { (void*)1399, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RuntimePlatform_t4159857903_0_0_32854 = { (void*)1399, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RuntimePlatform_t4159857903_0_0_0 = { (void*)1400, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RuntimePlatform_t4159857903_1_0_0 = { (void*)1400, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RuntimePlatform_t4159857903_0_0_32854 = { (void*)1400, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType LogType_t73765434_0_0_0 = { (void*)1401, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType LogType_t73765434_1_0_0 = { (void*)1401, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType LogType_t73765434_0_0_32854 = { (void*)1401, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType LogType_t73765434_0_0_1 = { (void*)1401, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType LogType_t73765434_0_0_0 = { (void*)1402, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType LogType_t73765434_1_0_0 = { (void*)1402, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType LogType_t73765434_0_0_32854 = { (void*)1402, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType LogType_t73765434_0_0_1 = { (void*)1402, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType LowMemoryCallback_t4104246196_0_0_17 = { (void*)1292, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType LowMemoryCallback_t4104246196_0_0_0 = { (void*)1292, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
@@ -18113,9 +18265,9 @@ extern const RuntimeType YieldInstruction_t403091072_1_0_0 = { (void*)1367, 0, I
 extern const RuntimeType SystemInfo_t3561985952_0_0_0 = { (void*)1297, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType SystemInfo_t3561985952_1_0_0 = { (void*)1297, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType OperatingSystemFamily_t1868066375_0_0_0 = { (void*)1400, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType OperatingSystemFamily_t1868066375_1_0_0 = { (void*)1400, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType OperatingSystemFamily_t1868066375_0_0_32854 = { (void*)1400, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType OperatingSystemFamily_t1868066375_0_0_0 = { (void*)1401, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType OperatingSystemFamily_t1868066375_1_0_0 = { (void*)1401, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType OperatingSystemFamily_t1868066375_0_0_32854 = { (void*)1401, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType WaitForSeconds_t1699091251_0_0_0 = { (void*)1298, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType WaitForSeconds_t1699091251_1_0_0 = { (void*)1298, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -18138,19 +18290,19 @@ extern const RuntimeType ScriptableObject_CreateInstance_m3798243879_gp_0_0_0_0 
 extern const RuntimeType FailedToLoadScriptObject_t547604379_0_0_0 = { (void*)1304, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType FailedToLoadScriptObject_t547604379_1_0_0 = { (void*)1304, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Rect_t2360479859_0_0_0 = { (void*)1452, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Rect_t2360479859_1_0_2 = { (void*)1452, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Rect_t2360479859_1_0_0 = { (void*)1452, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Rect_t2360479859_0_0_51 = { (void*)1452, 51, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Rect_t2360479859_0_0_6 = { (void*)1452, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Rect_t2360479859_0_0_19 = { (void*)1452, 19, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Rect_t2360479859_0_0_3 = { (void*)1452, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Rect_t2360479859_0_0_1 = { (void*)1452, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Rect_t2360479859_0_0_129 = { (void*)1452, 129, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Rect_t2360479859_0_0_0 = { (void*)1454, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Rect_t2360479859_1_0_2 = { (void*)1454, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Rect_t2360479859_1_0_0 = { (void*)1454, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Rect_t2360479859_0_0_51 = { (void*)1454, 51, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Rect_t2360479859_0_0_6 = { (void*)1454, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Rect_t2360479859_0_0_19 = { (void*)1454, 19, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Rect_t2360479859_0_0_1 = { (void*)1454, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Rect_t2360479859_0_0_3 = { (void*)1454, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Rect_t2360479859_0_0_129 = { (void*)1454, 129, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType CameraClearFlags_t2362496923_0_0_0 = { (void*)1413, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CameraClearFlags_t2362496923_1_0_0 = { (void*)1413, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType CameraClearFlags_t2362496923_0_0_32854 = { (void*)1413, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CameraClearFlags_t2362496923_0_0_0 = { (void*)1414, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CameraClearFlags_t2362496923_1_0_0 = { (void*)1414, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CameraClearFlags_t2362496923_0_0_32854 = { (void*)1414, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType CameraU5BU5D_t1709987734_0_0_0 = { (void*)&Camera_t4157153871_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType CameraU5BU5D_t1709987734_0_0_17 = { (void*)&Camera_t4157153871_0_0_0, 17, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
@@ -18160,9 +18312,9 @@ extern const RuntimeType Shader_t4151988712_1_0_0 = { (void*)1353, 0, IL2CPP_TYP
 extern const RuntimeType Shader_t4151988712_0_0_1 = { (void*)1353, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Shader_t4151988712_0_0_6 = { (void*)1353, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType DepthTextureMode_t4161834719_0_0_0 = { (void*)1414, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType DepthTextureMode_t4161834719_1_0_0 = { (void*)1414, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType DepthTextureMode_t4161834719_0_0_32854 = { (void*)1414, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType DepthTextureMode_t4161834719_0_0_0 = { (void*)1415, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType DepthTextureMode_t4161834719_1_0_0 = { (void*)1415, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType DepthTextureMode_t4161834719_0_0_32854 = { (void*)1415, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType CameraCallback_t190067161_0_0_22 = { (void*)1307, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType CameraCallback_t190067161_0_0_0 = { (void*)1307, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
@@ -18208,9 +18360,9 @@ extern const RuntimeType TU5BU5D_t844731229_0_0_0 = { (void*)&Component_GetCompo
 
 extern const RuntimeType Component_GetComponents_m3213858047_gp_0_0_0_0 = { (void*)179, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType SendMessageOptions_t3580193095_0_0_0 = { (void*)1397, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SendMessageOptions_t3580193095_1_0_0 = { (void*)1397, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType SendMessageOptions_t3580193095_0_0_32854 = { (void*)1397, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SendMessageOptions_t3580193095_0_0_0 = { (void*)1398, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SendMessageOptions_t3580193095_1_0_0 = { (void*)1398, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType SendMessageOptions_t3580193095_0_0_32854 = { (void*)1398, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType CullingGroupEvent_t1722745023_0_0_0 = { (void*)1309, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType CullingGroupEvent_t1722745023_1_0_0 = { (void*)1309, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
@@ -18232,16 +18384,16 @@ extern const RuntimeType Cursor_t1422555833_1_0_0 = { (void*)1313, 0, IL2CPP_TYP
 extern const RuntimeType DebugLogHandler_t826086171_0_0_0 = { (void*)1314, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType DebugLogHandler_t826086171_1_0_0 = { (void*)1314, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ILogHandler_t2464711877_0_0_0 = { (void*)1523, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILogHandler_t2464711877_1_0_0 = { (void*)1523, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ILogHandler_t2464711877_0_0_1 = { (void*)1523, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILogHandler_t2464711877_0_0_0 = { (void*)1525, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILogHandler_t2464711877_1_0_0 = { (void*)1525, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ILogHandler_t2464711877_0_0_1 = { (void*)1525, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType Debug_t3317548046_0_0_0 = { (void*)1315, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Debug_t3317548046_1_0_0 = { (void*)1315, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ILogger_t2607134790_0_0_0 = { (void*)1522, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILogger_t2607134790_0_0_19 = { (void*)1522, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILogger_t2607134790_1_0_0 = { (void*)1522, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ILogger_t2607134790_0_0_0 = { (void*)1524, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILogger_t2607134790_0_0_19 = { (void*)1524, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILogger_t2607134790_1_0_0 = { (void*)1524, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType DisplayU5BU5D_t103034768_0_0_22 = { (void*)&Display_t1387065949_0_0_0, 22, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType DisplayU5BU5D_t103034768_0_0_0 = { (void*)&Display_t1387065949_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
@@ -18315,9 +18467,9 @@ extern const RuntimeType NoAllocHelpers_SafeLength_m3904382575_gp_0_0_0_0 = { (v
 extern const RuntimeType QualitySettings_t3101090599_0_0_0 = { (void*)1322, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType QualitySettings_t3101090599_1_0_0 = { (void*)1322, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ColorSpace_t3453996949_0_0_0 = { (void*)1416, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColorSpace_t3453996949_1_0_0 = { (void*)1416, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ColorSpace_t3453996949_0_0_32854 = { (void*)1416, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorSpace_t3453996949_0_0_0 = { (void*)1417, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorSpace_t3453996949_1_0_0 = { (void*)1417, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ColorSpace_t3453996949_0_0_32854 = { (void*)1417, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType MaterialPropertyBlock_t3213117958_0_0_0 = { (void*)1324, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType MaterialPropertyBlock_t3213117958_1_0_0 = { (void*)1324, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -18325,9 +18477,9 @@ extern const RuntimeType MaterialPropertyBlock_t3213117958_1_0_0 = { (void*)1324
 extern const RuntimeType MaterialU5BU5D_t561872642_0_0_0 = { (void*)&Material_t340375123_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType MaterialU5BU5D_t561872642_0_0_4 = { (void*)&Material_t340375123_0_0_0, 4, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType ShadowCastingMode_t2280965600_0_0_0 = { (void*)1427, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ShadowCastingMode_t2280965600_1_0_0 = { (void*)1427, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ShadowCastingMode_t2280965600_0_0_32854 = { (void*)1427, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ShadowCastingMode_t2280965600_0_0_0 = { (void*)1428, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ShadowCastingMode_t2280965600_1_0_0 = { (void*)1428, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ShadowCastingMode_t2280965600_0_0_32854 = { (void*)1428, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType Graphics_t783367614_0_0_0 = { (void*)1325, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Graphics_t783367614_1_0_0 = { (void*)1325, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -18345,8 +18497,8 @@ extern const RuntimeType TouchScreenKeyboard_t731888065_1_0_0 = { (void*)1330, 0
 extern const RuntimeType TouchScreenKeyboard_t731888065_0_0_6 = { (void*)1330, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType TouchScreenKeyboard_t731888065_0_0_4 = { (void*)1330, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType RangeInt_t2094684618_0_0_0 = { (void*)1450, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RangeInt_t2094684618_1_0_0 = { (void*)1450, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RangeInt_t2094684618_0_0_0 = { (void*)1452, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RangeInt_t2094684618_1_0_0 = { (void*)1452, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 extern const RuntimeType TouchPhase_t72348083_0_0_0 = { (void*)1331, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType TouchPhase_t72348083_1_0_0 = { (void*)1331, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
@@ -18372,11 +18524,6 @@ extern const RuntimeType Gyroscope_t3288342876_0_0_17 = { (void*)1335, 17, IL2CP
 
 extern const RuntimeType Input_t1431474628_0_0_0 = { (void*)1336, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Input_t1431474628_1_0_0 = { (void*)1336, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-
-extern const RuntimeType KeyCode_t2599294277_0_0_0 = { (void*)1432, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType KeyCode_t2599294277_1_0_0 = { (void*)1432, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType KeyCode_t2599294277_0_0_32854 = { (void*)1432, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType KeyCode_t2599294277_0_0_6 = { (void*)1432, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType LayerMask_t3493934918_0_0_0 = { (void*)1337, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType LayerMask_t3493934918_1_0_0 = { (void*)1337, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
@@ -18445,35 +18592,35 @@ extern const RuntimeType TextAsset_t3022178571_0_0_0 = { (void*)1359, 0, IL2CPP_
 extern const RuntimeType TextAsset_t3022178571_1_0_0 = { (void*)1359, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const RuntimeType TextAsset_t3022178571_0_0_1 = { (void*)1359, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType FilterMode_t3761284007_0_0_0 = { (void*)1417, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FilterMode_t3761284007_1_0_0 = { (void*)1417, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FilterMode_t3761284007_0_0_32854 = { (void*)1417, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FilterMode_t3761284007_0_0_0 = { (void*)1418, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FilterMode_t3761284007_1_0_0 = { (void*)1418, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FilterMode_t3761284007_0_0_32854 = { (void*)1418, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TextureWrapMode_t584250749_0_0_0 = { (void*)1418, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextureWrapMode_t584250749_1_0_0 = { (void*)1418, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextureWrapMode_t584250749_0_0_32854 = { (void*)1418, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextureWrapMode_t584250749_0_0_0 = { (void*)1419, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextureWrapMode_t584250749_1_0_0 = { (void*)1419, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextureWrapMode_t584250749_0_0_32854 = { (void*)1419, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType RenderTextureFormat_t962350765_0_0_0 = { (void*)1419, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RenderTextureFormat_t962350765_1_0_0 = { (void*)1419, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RenderTextureFormat_t962350765_0_0_32854 = { (void*)1419, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RenderTextureFormat_t962350765_0_0_1 = { (void*)1419, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureFormat_t962350765_0_0_0 = { (void*)1420, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureFormat_t962350765_1_0_0 = { (void*)1420, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RenderTextureFormat_t962350765_0_0_32854 = { (void*)1420, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureFormat_t962350765_0_0_1 = { (void*)1420, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType RenderTextureReadWrite_t1793271918_0_0_0 = { (void*)1422, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RenderTextureReadWrite_t1793271918_1_0_0 = { (void*)1422, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RenderTextureReadWrite_t1793271918_0_0_32854 = { (void*)1422, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureReadWrite_t1793271918_0_0_0 = { (void*)1423, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureReadWrite_t1793271918_1_0_0 = { (void*)1423, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RenderTextureReadWrite_t1793271918_0_0_32854 = { (void*)1423, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType RenderTextureMemoryless_t852891252_0_0_0 = { (void*)1423, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RenderTextureMemoryless_t852891252_1_0_0 = { (void*)1423, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RenderTextureMemoryless_t852891252_0_0_32854 = { (void*)1423, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RenderTextureMemoryless_t852891252_0_0_1 = { (void*)1423, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureMemoryless_t852891252_0_0_0 = { (void*)1424, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureMemoryless_t852891252_1_0_0 = { (void*)1424, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RenderTextureMemoryless_t852891252_0_0_32854 = { (void*)1424, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureMemoryless_t852891252_0_0_1 = { (void*)1424, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType VRTextureUsage_t3142149582_0_0_0 = { (void*)1420, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType VRTextureUsage_t3142149582_1_0_0 = { (void*)1420, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType VRTextureUsage_t3142149582_0_0_32854 = { (void*)1420, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType VRTextureUsage_t3142149582_0_0_1 = { (void*)1420, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VRTextureUsage_t3142149582_0_0_0 = { (void*)1421, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VRTextureUsage_t3142149582_1_0_0 = { (void*)1421, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType VRTextureUsage_t3142149582_0_0_32854 = { (void*)1421, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VRTextureUsage_t3142149582_0_0_1 = { (void*)1421, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType RenderTextureDescriptor_t1974534975_0_0_0 = { (void*)1460, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RenderTextureDescriptor_t1974534975_1_0_0 = { (void*)1460, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RenderTextureDescriptor_t1974534975_0_0_0 = { (void*)1462, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureDescriptor_t1974534975_1_0_0 = { (void*)1462, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 extern const RuntimeType Time_t2420636075_0_0_0 = { (void*)1363, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Time_t2420636075_1_0_0 = { (void*)1363, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -18505,9 +18652,9 @@ extern const RuntimeType SceneManager_t2787271929_1_0_0 = { (void*)1371, 0, IL2C
 extern const RuntimeType ScriptableRenderContext_t274343796_0_0_0 = { (void*)1372, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType ScriptableRenderContext_t274343796_1_0_0 = { (void*)1372, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType Space_t654135784_0_0_0 = { (void*)1398, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Space_t654135784_1_0_0 = { (void*)1398, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Space_t654135784_0_0_32854 = { (void*)1398, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Space_t654135784_0_0_0 = { (void*)1399, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Space_t654135784_1_0_0 = { (void*)1399, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Space_t654135784_0_0_32854 = { (void*)1399, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType Enumerator_t3442430665_0_0_0 = { (void*)1374, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Enumerator_t3442430665_1_0_0 = { (void*)1374, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -18551,8 +18698,11 @@ extern const RuntimeType Mode_t4227090116_0_0_0 = { (void*)1386, 0, IL2CPP_TYPE_
 extern const RuntimeType Mode_t4227090116_1_0_0 = { (void*)1386, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 extern const RuntimeType Mode_t4227090116_0_0_32854 = { (void*)1386, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType AttributeHelperEngine_t2735742303_0_0_0 = { (void*)1387, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AttributeHelperEngine_t2735742303_1_0_0 = { (void*)1387, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Utility_t3720139105_0_0_0 = { (void*)1387, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Utility_t3720139105_1_0_0 = { (void*)1387, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType AttributeHelperEngine_t2735742303_0_0_0 = { (void*)1388, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AttributeHelperEngine_t2735742303_1_0_0 = { (void*)1388, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType AttributeHelperEngine_GetCustomAttributeOfType_m3435288294_gp_0_0_0_0 = { (void*)199, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
@@ -18565,99 +18715,102 @@ extern const RuntimeType ExecuteInEditModeU5BU5D_t3239458680_0_0_0 = { (void*)&E
 extern const RuntimeType RequireComponentU5BU5D_t2245623724_0_0_22 = { (void*)&RequireComponent_t3490506609_0_0_0, 22, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType RequireComponentU5BU5D_t2245623724_0_0_0 = { (void*)&RequireComponent_t3490506609_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType AddComponentMenu_t415040132_0_0_0 = { (void*)1390, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AddComponentMenu_t415040132_1_0_0 = { (void*)1390, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AddComponentMenu_t415040132_0_0_0 = { (void*)1391, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AddComponentMenu_t415040132_1_0_0 = { (void*)1391, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ContextMenu_t1295656858_0_0_0 = { (void*)1391, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ContextMenu_t1295656858_1_0_0 = { (void*)1391, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ContextMenu_t1295656858_0_0_0 = { (void*)1392, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ContextMenu_t1295656858_1_0_0 = { (void*)1392, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType HideInInspector_t1216868993_0_0_0 = { (void*)1393, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType HideInInspector_t1216868993_1_0_0 = { (void*)1393, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType HideInInspector_t1216868993_0_0_0 = { (void*)1394, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType HideInInspector_t1216868993_1_0_0 = { (void*)1394, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType NativeClassAttribute_t2601352714_0_0_0 = { (void*)1395, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeClassAttribute_t2601352714_1_0_0 = { (void*)1395, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeClassAttribute_t2601352714_0_0_0 = { (void*)1396, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeClassAttribute_t2601352714_1_0_0 = { (void*)1396, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AssemblyIsEditorAssembly_t3442416807_0_0_0 = { (void*)1396, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AssemblyIsEditorAssembly_t3442416807_1_0_0 = { (void*)1396, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AssemblyIsEditorAssembly_t3442416807_0_0_0 = { (void*)1397, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AssemblyIsEditorAssembly_t3442416807_1_0_0 = { (void*)1397, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType BeforeRenderHelper_t1336903776_0_0_0 = { (void*)1402, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BeforeRenderHelper_t1336903776_1_0_0 = { (void*)1402, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BeforeRenderHelper_t1336903776_0_0_0 = { (void*)1403, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BeforeRenderHelper_t1336903776_1_0_0 = { (void*)1403, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CastHelper_1_t960663435_0_0_0 = { (void*)1404, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CastHelper_1_t960663435_1_0_0 = { (void*)1404, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CastHelper_1_t960663435_0_0_0 = { (void*)1405, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CastHelper_1_t960663435_1_0_0 = { (void*)1405, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 extern const RuntimeType CastHelper_1_t960663435_gp_0_0_0_6 = { (void*)200, 6, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType ClassLibraryInitializer_t2339504045_0_0_0 = { (void*)1405, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ClassLibraryInitializer_t2339504045_1_0_0 = { (void*)1405, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ClassLibraryInitializer_t2339504045_0_0_0 = { (void*)1406, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ClassLibraryInitializer_t2339504045_1_0_0 = { (void*)1406, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SetupCoroutine_t2062820429_0_0_0 = { (void*)1408, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SetupCoroutine_t2062820429_1_0_0 = { (void*)1408, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SetupCoroutine_t2062820429_0_0_0 = { (void*)1409, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SetupCoroutine_t2062820429_1_0_0 = { (void*)1409, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GL_t2454730511_0_0_0 = { (void*)1409, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GL_t2454730511_1_0_0 = { (void*)1409, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GL_t2454730511_0_0_0 = { (void*)1410, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GL_t2454730511_1_0_0 = { (void*)1410, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ImageEffectAllowedInSceneView_t1344019161_0_0_0 = { (void*)1411, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ImageEffectAllowedInSceneView_t1344019161_1_0_0 = { (void*)1411, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ImageEffectAllowedInSceneView_t1344019161_0_0_0 = { (void*)1412, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ImageEffectAllowedInSceneView_t1344019161_1_0_0 = { (void*)1412, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Mesh_t3648964284_0_0_0 = { (void*)1435, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Mesh_t3648964284_1_0_0 = { (void*)1435, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Mesh_t3648964284_0_0_148 = { (void*)1435, 148, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Mesh_t3648964284_0_0_132 = { (void*)1435, 132, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Mesh_t3648964284_0_0_6 = { (void*)1435, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Mesh_t3648964284_0_0_1 = { (void*)1435, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Mesh_t3648964284_0_0_4 = { (void*)1435, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Mesh_t3648964284_0_0_0 = { (void*)1437, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Mesh_t3648964284_1_0_0 = { (void*)1437, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Mesh_t3648964284_0_0_148 = { (void*)1437, 148, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Mesh_t3648964284_0_0_132 = { (void*)1437, 132, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Mesh_t3648964284_0_0_6 = { (void*)1437, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Mesh_t3648964284_0_0_1 = { (void*)1437, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Mesh_t3648964284_0_0_4 = { (void*)1437, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType MeshTopology_t838400051_0_0_0 = { (void*)1415, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MeshTopology_t838400051_1_0_0 = { (void*)1415, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType MeshTopology_t838400051_0_0_32854 = { (void*)1415, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MeshTopology_t838400051_0_0_0 = { (void*)1416, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MeshTopology_t838400051_1_0_0 = { (void*)1416, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType MeshTopology_t838400051_0_0_32854 = { (void*)1416, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType RenderTextureCreationFlags_t557679221_0_0_0 = { (void*)1421, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RenderTextureCreationFlags_t557679221_1_0_0 = { (void*)1421, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RenderTextureCreationFlags_t557679221_0_0_32854 = { (void*)1421, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RenderTextureCreationFlags_t557679221_0_0_1 = { (void*)1421, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureCreationFlags_t557679221_0_0_0 = { (void*)1422, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureCreationFlags_t557679221_1_0_0 = { (void*)1422, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RenderTextureCreationFlags_t557679221_0_0_32854 = { (void*)1422, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderTextureCreationFlags_t557679221_0_0_1 = { (void*)1422, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType CompareFunction_t2171731108_0_0_0 = { (void*)1424, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CompareFunction_t2171731108_1_0_0 = { (void*)1424, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType CompareFunction_t2171731108_0_0_32854 = { (void*)1424, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CompareFunction_t2171731108_0_0_6 = { (void*)1424, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CompareFunction_t2171731108_0_0_0 = { (void*)1425, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CompareFunction_t2171731108_1_0_0 = { (void*)1425, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CompareFunction_t2171731108_0_0_32854 = { (void*)1425, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CompareFunction_t2171731108_0_0_6 = { (void*)1425, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ColorWriteMask_t4282245599_0_0_0 = { (void*)1425, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColorWriteMask_t4282245599_1_0_0 = { (void*)1425, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ColorWriteMask_t4282245599_0_0_32854 = { (void*)1425, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColorWriteMask_t4282245599_0_0_6 = { (void*)1425, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorWriteMask_t4282245599_0_0_0 = { (void*)1426, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorWriteMask_t4282245599_1_0_0 = { (void*)1426, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ColorWriteMask_t4282245599_0_0_32854 = { (void*)1426, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorWriteMask_t4282245599_0_0_6 = { (void*)1426, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType StencilOp_t3446174106_0_0_0 = { (void*)1426, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType StencilOp_t3446174106_1_0_0 = { (void*)1426, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType StencilOp_t3446174106_0_0_32854 = { (void*)1426, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType StencilOp_t3446174106_0_0_6 = { (void*)1426, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType StencilOp_t3446174106_0_0_0 = { (void*)1427, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType StencilOp_t3446174106_1_0_0 = { (void*)1427, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType StencilOp_t3446174106_0_0_32854 = { (void*)1427, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType StencilOp_t3446174106_0_0_6 = { (void*)1427, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ShadowSamplingMode_t838715745_0_0_0 = { (void*)1428, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ShadowSamplingMode_t838715745_1_0_0 = { (void*)1428, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ShadowSamplingMode_t838715745_0_0_32854 = { (void*)1428, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ShadowSamplingMode_t838715745_0_0_1 = { (void*)1428, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ShadowSamplingMode_t838715745_0_0_0 = { (void*)1429, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ShadowSamplingMode_t838715745_1_0_0 = { (void*)1429, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ShadowSamplingMode_t838715745_0_0_32854 = { (void*)1429, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ShadowSamplingMode_t838715745_0_0_1 = { (void*)1429, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TextureDimension_t3933106086_0_0_0 = { (void*)1429, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextureDimension_t3933106086_1_0_0 = { (void*)1429, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextureDimension_t3933106086_0_0_32854 = { (void*)1429, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextureDimension_t3933106086_0_0_1 = { (void*)1429, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextureDimension_t3933106086_0_0_0 = { (void*)1430, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextureDimension_t3933106086_1_0_0 = { (void*)1430, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextureDimension_t3933106086_0_0_32854 = { (void*)1430, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextureDimension_t3933106086_0_0_1 = { (void*)1430, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType IExposedPropertyTable_t2524209546_0_0_0 = { (void*)1431, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IExposedPropertyTable_t2524209546_1_0_0 = { (void*)1431, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUIStateObjects_t327145277_0_0_0 = { (void*)1432, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStateObjects_t327145277_1_0_0 = { (void*)1432, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ManagedStreamHelpers_t1984295859_0_0_0 = { (void*)1433, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ManagedStreamHelpers_t1984295859_1_0_0 = { (void*)1433, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IExposedPropertyTable_t2524209546_0_0_0 = { (void*)1433, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IExposedPropertyTable_t2524209546_1_0_0 = { (void*)1433, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MathfInternal_t624072491_0_0_0 = { (void*)1434, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MathfInternal_t624072491_1_0_0 = { (void*)1434, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ManagedStreamHelpers_t1984295859_0_0_0 = { (void*)1435, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ManagedStreamHelpers_t1984295859_1_0_0 = { (void*)1435, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType InternalShaderChannel_t300897861_0_0_0 = { (void*)1436, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType InternalShaderChannel_t300897861_1_0_0 = { (void*)1436, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType InternalShaderChannel_t300897861_0_0_32854 = { (void*)1436, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MathfInternal_t624072491_0_0_0 = { (void*)1436, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MathfInternal_t624072491_1_0_0 = { (void*)1436, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType InternalVertexChannelType_t299736786_0_0_0 = { (void*)1437, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType InternalVertexChannelType_t299736786_1_0_0 = { (void*)1437, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType InternalVertexChannelType_t299736786_0_0_32854 = { (void*)1437, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InternalShaderChannel_t300897861_0_0_0 = { (void*)1438, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InternalShaderChannel_t300897861_1_0_0 = { (void*)1438, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType InternalShaderChannel_t300897861_0_0_32854 = { (void*)1438, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+
+extern const RuntimeType InternalVertexChannelType_t299736786_0_0_0 = { (void*)1439, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InternalVertexChannelType_t299736786_1_0_0 = { (void*)1439, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType InternalVertexChannelType_t299736786_0_0_32854 = { (void*)1439, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType TU5BU5D_t1621417715_0_0_0 = { (void*)&Mesh_GetAllocArrayFromChannel_m2628993430_gp_0_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
@@ -18701,96 +18854,96 @@ extern const RuntimeType List_1_t36016685_0_0_0 = { &List_1_t36016685_GenericCla
 
 extern const RuntimeType Mesh_SetUvsImpl_m3478311143_gp_0_0_0_0 = { (void*)207, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType ScriptingUtils_t2624832893_0_0_0 = { (void*)1438, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ScriptingUtils_t2624832893_1_0_0 = { (void*)1438, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ScriptingUtils_t2624832893_0_0_0 = { (void*)1440, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ScriptingUtils_t2624832893_1_0_0 = { (void*)1440, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SendMouseEvents_t3273302915_0_0_0 = { (void*)1439, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SendMouseEvents_t3273302915_1_0_0 = { (void*)1439, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SendMouseEvents_t3273302915_0_0_0 = { (void*)1441, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SendMouseEvents_t3273302915_1_0_0 = { (void*)1441, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType HitInfoU5BU5D_t1685002053_0_0_49 = { (void*)&HitInfo_t3229609740_0_0_0, 49, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType HitInfoU5BU5D_t1685002053_0_0_0 = { (void*)&HitInfo_t3229609740_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType Plane_t1000493321_0_0_0 = { (void*)1441, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Plane_t1000493321_1_0_0 = { (void*)1441, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Plane_t1000493321_0_0_0 = { (void*)1443, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Plane_t1000493321_1_0_0 = { (void*)1443, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType PropertyAttribute_t3677895545_0_0_0 = { (void*)1442, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PropertyAttribute_t3677895545_1_0_0 = { (void*)1442, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PropertyAttribute_t3677895545_0_0_0 = { (void*)1444, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PropertyAttribute_t3677895545_1_0_0 = { (void*)1444, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TooltipAttribute_t3957072629_0_0_0 = { (void*)1443, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TooltipAttribute_t3957072629_1_0_0 = { (void*)1443, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TooltipAttribute_t3957072629_0_0_0 = { (void*)1445, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TooltipAttribute_t3957072629_1_0_0 = { (void*)1445, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SpaceAttribute_t3956583069_0_0_0 = { (void*)1444, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SpaceAttribute_t3956583069_1_0_0 = { (void*)1444, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SpaceAttribute_t3956583069_0_0_0 = { (void*)1446, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SpaceAttribute_t3956583069_1_0_0 = { (void*)1446, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType HeaderAttribute_t618189647_0_0_0 = { (void*)1445, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType HeaderAttribute_t618189647_1_0_0 = { (void*)1445, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType HeaderAttribute_t618189647_0_0_0 = { (void*)1447, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType HeaderAttribute_t618189647_1_0_0 = { (void*)1447, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType RangeAttribute_t3337244227_0_0_0 = { (void*)1446, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RangeAttribute_t3337244227_1_0_0 = { (void*)1446, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RangeAttribute_t3337244227_0_0_0 = { (void*)1448, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RangeAttribute_t3337244227_1_0_0 = { (void*)1448, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TextAreaAttribute_t3326046611_0_0_0 = { (void*)1447, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextAreaAttribute_t3326046611_1_0_0 = { (void*)1447, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TextAreaAttribute_t3326046611_0_0_0 = { (void*)1449, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextAreaAttribute_t3326046611_1_0_0 = { (void*)1449, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PropertyNameUtils_t539849043_0_0_0 = { (void*)1448, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PropertyNameUtils_t539849043_1_0_0 = { (void*)1448, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PropertyNameUtils_t539849043_0_0_0 = { (void*)1450, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PropertyNameUtils_t539849043_1_0_0 = { (void*)1450, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PropertyName_t3749835189_0_0_0 = { (void*)1449, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType PropertyName_t3749835189_1_0_2 = { (void*)1449, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType PropertyName_t3749835189_1_0_0 = { (void*)1449, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType PropertyName_t3749835189_0_0_17 = { (void*)1449, 17, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType PropertyName_t3749835189_0_0_6 = { (void*)1449, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PropertyName_t3749835189_0_0_0 = { (void*)1451, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PropertyName_t3749835189_1_0_2 = { (void*)1451, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType PropertyName_t3749835189_1_0_0 = { (void*)1451, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType PropertyName_t3749835189_0_0_17 = { (void*)1451, 17, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PropertyName_t3749835189_0_0_6 = { (void*)1451, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType SelectionBaseAttribute_t3493465804_0_0_0 = { (void*)1453, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SelectionBaseAttribute_t3493465804_1_0_0 = { (void*)1453, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SelectionBaseAttribute_t3493465804_0_0_0 = { (void*)1455, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SelectionBaseAttribute_t3493465804_1_0_0 = { (void*)1455, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SerializePrivateVariables_t3872960625_0_0_0 = { (void*)1454, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SerializePrivateVariables_t3872960625_1_0_0 = { (void*)1454, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SerializePrivateVariables_t3872960625_0_0_0 = { (void*)1456, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SerializePrivateVariables_t3872960625_1_0_0 = { (void*)1456, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SerializeField_t3286833614_0_0_0 = { (void*)1455, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SerializeField_t3286833614_1_0_0 = { (void*)1455, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SerializeField_t3286833614_0_0_0 = { (void*)1457, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SerializeField_t3286833614_1_0_0 = { (void*)1457, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PreferBinarySerialization_t2906007930_0_0_0 = { (void*)1456, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PreferBinarySerialization_t2906007930_1_0_0 = { (void*)1456, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PreferBinarySerialization_t2906007930_0_0_0 = { (void*)1458, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PreferBinarySerialization_t2906007930_1_0_0 = { (void*)1458, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ISerializationCallbackReceiver_t2363941153_0_0_0 = { (void*)1457, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ISerializationCallbackReceiver_t2363941153_1_0_0 = { (void*)1457, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ISerializationCallbackReceiver_t2363941153_0_0_0 = { (void*)1459, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ISerializationCallbackReceiver_t2363941153_1_0_0 = { (void*)1459, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType StackTraceUtility_t3465565809_0_0_0 = { (void*)1458, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType StackTraceUtility_t3465565809_1_0_0 = { (void*)1458, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType StackTraceUtility_t3465565809_0_0_0 = { (void*)1460, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StackTraceUtility_t3465565809_1_0_0 = { (void*)1460, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType UnityException_t3598173660_0_0_0 = { (void*)1459, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityException_t3598173660_1_0_0 = { (void*)1459, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityException_t3598173660_0_0_0 = { (void*)1461, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityException_t3598173660_1_0_0 = { (void*)1461, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TrackedReference_t1199777556_0_0_0 = { (void*)1462, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TrackedReference_t1199777556_1_0_0 = { (void*)1462, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TrackedReference_t1199777556_0_0_0 = { (void*)1464, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TrackedReference_t1199777556_1_0_0 = { (void*)1464, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PersistentListenerMode_t232255230_0_0_0 = { (void*)1463, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType PersistentListenerMode_t232255230_1_0_0 = { (void*)1463, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType PersistentListenerMode_t232255230_0_0_32854 = { (void*)1463, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType PersistentListenerMode_t232255230_0_0_1 = { (void*)1463, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PersistentListenerMode_t232255230_0_0_0 = { (void*)1465, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PersistentListenerMode_t232255230_1_0_0 = { (void*)1465, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType PersistentListenerMode_t232255230_0_0_32854 = { (void*)1465, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PersistentListenerMode_t232255230_0_0_1 = { (void*)1465, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ArgumentCache_t2187958399_0_0_0 = { (void*)1464, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ArgumentCache_t2187958399_1_0_0 = { (void*)1464, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ArgumentCache_t2187958399_0_0_1 = { (void*)1464, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ArgumentCache_t2187958399_0_0_0 = { (void*)1466, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ArgumentCache_t2187958399_1_0_0 = { (void*)1466, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ArgumentCache_t2187958399_0_0_1 = { (void*)1466, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType BaseInvokableCall_ThrowOnInvalidArg_m900335854_gp_0_0_0_0 = { (void*)208, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType InvokableCall_t832123510_0_0_0 = { (void*)1466, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType InvokableCall_t832123510_1_0_0 = { (void*)1466, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType InvokableCall_t832123510_0_0_0 = { (void*)1468, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InvokableCall_t832123510_1_0_0 = { (void*)1468, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType InvokableCall_1_t3865199217_0_0_0 = { (void*)1467, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType InvokableCall_1_t3865199217_1_0_0 = { (void*)1467, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType InvokableCall_1_t3865199217_0_0_0 = { (void*)1469, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InvokableCall_1_t3865199217_1_0_0 = { (void*)1469, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_1_t802700511_GenericClass = { 1479, { &GenInst_InvokableCall_1_t3865199217_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t802700511_GenericClass = { 1481, { &GenInst_InvokableCall_1_t3865199217_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t802700511_0_0_0 = { &UnityAction_1_t802700511_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_1_t802700511_0_0_1 = { &UnityAction_1_t802700511_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const RuntimeType InvokableCall_1_t3865199217_gp_0_0_0_0 = { (void*)209, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType InvokableCall_2_t3865133681_0_0_0 = { (void*)1468, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType InvokableCall_2_t3865133681_1_0_0 = { (void*)1468, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType InvokableCall_2_t3865133681_0_0_0 = { (void*)1470, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InvokableCall_2_t3865133681_1_0_0 = { (void*)1470, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_2_t300839120_GenericClass = { 1481, { &GenInst_InvokableCall_2_t3865133681_gp_0_0_0_0_InvokableCall_2_t3865133681_gp_1_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_2_t300839120_GenericClass = { 1483, { &GenInst_InvokableCall_2_t3865133681_gp_0_0_0_0_InvokableCall_2_t3865133681_gp_1_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_2_t300839120_0_0_0 = { &UnityAction_2_t300839120_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_2_t300839120_0_0_1 = { &UnityAction_2_t300839120_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -18798,10 +18951,10 @@ extern const RuntimeType InvokableCall_2_t3865133681_gp_0_0_0_0 = { (void*)210, 
 
 extern const RuntimeType InvokableCall_2_t3865133681_gp_1_0_0_0 = { (void*)211, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType InvokableCall_3_t3865068145_0_0_0 = { (void*)1469, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType InvokableCall_3_t3865068145_1_0_0 = { (void*)1469, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType InvokableCall_3_t3865068145_0_0_0 = { (void*)1471, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InvokableCall_3_t3865068145_1_0_0 = { (void*)1471, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_3_t148588884_GenericClass = { 1483, { &GenInst_InvokableCall_3_t3865068145_gp_0_0_0_0_InvokableCall_3_t3865068145_gp_1_0_0_0_InvokableCall_3_t3865068145_gp_2_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_3_t148588884_GenericClass = { 1485, { &GenInst_InvokableCall_3_t3865068145_gp_0_0_0_0_InvokableCall_3_t3865068145_gp_1_0_0_0_InvokableCall_3_t3865068145_gp_2_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_3_t148588884_0_0_0 = { &UnityAction_3_t148588884_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_3_t148588884_0_0_1 = { &UnityAction_3_t148588884_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -18811,10 +18964,10 @@ extern const RuntimeType InvokableCall_3_t3865068145_gp_1_0_0_0 = { (void*)213, 
 
 extern const RuntimeType InvokableCall_3_t3865068145_gp_2_0_0_0 = { (void*)214, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType InvokableCall_4_t3865002609_0_0_0 = { (void*)1470, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType InvokableCall_4_t3865002609_1_0_0 = { (void*)1470, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType InvokableCall_4_t3865002609_0_0_0 = { (void*)1472, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InvokableCall_4_t3865002609_1_0_0 = { (void*)1472, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_4_t3882611097_GenericClass = { 1485, { &GenInst_InvokableCall_4_t3865002609_gp_0_0_0_0_InvokableCall_4_t3865002609_gp_1_0_0_0_InvokableCall_4_t3865002609_gp_2_0_0_0_InvokableCall_4_t3865002609_gp_3_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_4_t3882611097_GenericClass = { 1487, { &GenInst_InvokableCall_4_t3865002609_gp_0_0_0_0_InvokableCall_4_t3865002609_gp_1_0_0_0_InvokableCall_4_t3865002609_gp_2_0_0_0_InvokableCall_4_t3865002609_gp_3_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_4_t3882611097_0_0_1 = { &UnityAction_4_t3882611097_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_4_t3882611097_0_0_0 = { &UnityAction_4_t3882611097_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -18826,75 +18979,75 @@ extern const RuntimeType InvokableCall_4_t3865002609_gp_2_0_0_0 = { (void*)217, 
 
 extern const RuntimeType InvokableCall_4_t3865002609_gp_3_0_0_0 = { (void*)218, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_1_t3918776686_GenericClass = { 1467, { &GenInst_CachedInvokableCall_1_t3153979999_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_1_t3918776686_GenericClass = { 1469, { &GenInst_CachedInvokableCall_1_t3153979999_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_1_t3918776686_0_0_0 = { &InvokableCall_1_t3918776686_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const RuntimeType CachedInvokableCall_1_t3153979999_gp_0_0_0_0 = { (void*)219, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 extern const RuntimeType CachedInvokableCall_1_t3153979999_gp_0_0_0_33 = { (void*)219, 33, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType UnityEventCallState_t3448586328_0_0_0 = { (void*)1472, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType UnityEventCallState_t3448586328_1_0_0 = { (void*)1472, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType UnityEventCallState_t3448586328_0_0_32854 = { (void*)1472, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType UnityEventCallState_t3448586328_0_0_1 = { (void*)1472, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType UnityEventCallState_t3448586328_0_0_0 = { (void*)1474, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType UnityEventCallState_t3448586328_1_0_0 = { (void*)1474, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType UnityEventCallState_t3448586328_0_0_32854 = { (void*)1474, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType UnityEventCallState_t3448586328_0_0_1 = { (void*)1474, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType UnityEventBase_t3960448221_0_0_0 = { (void*)1476, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityEventBase_t3960448221_1_0_0 = { (void*)1476, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityEventBase_t3960448221_0_0_0 = { (void*)1478, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityEventBase_t3960448221_1_0_0 = { (void*)1478, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PersistentCallGroup_t3050769227_0_0_0 = { (void*)1474, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PersistentCallGroup_t3050769227_1_0_0 = { (void*)1474, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType PersistentCallGroup_t3050769227_0_0_1 = { (void*)1474, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PersistentCallGroup_t3050769227_0_0_0 = { (void*)1476, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PersistentCallGroup_t3050769227_1_0_0 = { (void*)1476, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PersistentCallGroup_t3050769227_0_0_1 = { (void*)1476, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType InvokableCallList_t2498835369_0_0_0 = { (void*)1475, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType InvokableCallList_t2498835369_1_0_0 = { (void*)1475, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType InvokableCallList_t2498835369_0_0_1 = { (void*)1475, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InvokableCallList_t2498835369_0_0_0 = { (void*)1477, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InvokableCallList_t2498835369_1_0_0 = { (void*)1477, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType InvokableCallList_t2498835369_0_0_1 = { (void*)1477, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType UnityEvent_t2581268647_0_0_0 = { (void*)1478, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityEvent_t2581268647_1_0_0 = { (void*)1478, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityEvent_t2581268647_0_0_0 = { (void*)1480, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityEvent_t2581268647_1_0_0 = { (void*)1480, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType UnityAction_1_t1563376616_0_0_0 = { (void*)1479, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityAction_1_t1563376616_1_0_0 = { (void*)1479, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityAction_1_t1563376616_0_0_0 = { (void*)1481, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityAction_1_t1563376616_1_0_0 = { (void*)1481, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType UnityAction_1_t1563376616_gp_0_0_0_0 = { (void*)220, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType UnityEvent_1_t74220259_0_0_0 = { (void*)1480, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityEvent_1_t74220259_1_0_0 = { (void*)1480, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityEvent_1_t74220259_0_0_0 = { (void*)1482, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityEvent_1_t74220259_1_0_0 = { (void*)1482, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_1_t1306688849_GenericClass = { 1479, { &GenInst_UnityEvent_1_t74220259_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t1306688849_GenericClass = { 1481, { &GenInst_UnityEvent_1_t74220259_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t1306688849_0_0_0 = { &UnityAction_1_t1306688849_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const RuntimeType UnityEvent_1_t74220259_gp_0_0_0_0 = { (void*)221, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_1_t1603512212_GenericClass = { 1480, { &GenInst_UnityEvent_1_t74220259_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_1_t1603512212_GenericClass = { 1482, { &GenInst_UnityEvent_1_t74220259_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_1_t1603512212_0_0_0 = { &UnityEvent_1_t1603512212_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_1_t839016946_GenericClass = { 1467, { &GenInst_UnityEvent_1_t74220259_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_1_t839016946_GenericClass = { 1469, { &GenInst_UnityEvent_1_t74220259_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_1_t839016946_0_0_0 = { &InvokableCall_1_t839016946_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType UnityAction_2_t3519691752_0_0_0 = { (void*)1481, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityAction_2_t3519691752_1_0_0 = { (void*)1481, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityAction_2_t3519691752_0_0_0 = { (void*)1483, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityAction_2_t3519691752_1_0_0 = { (void*)1483, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType UnityAction_2_t3519691752_gp_0_0_0_0 = { (void*)222, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
 extern const RuntimeType UnityAction_2_t3519691752_gp_1_0_0_0 = { (void*)223, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType UnityEvent_2_t477504786_0_0_0 = { (void*)1482, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityEvent_2_t477504786_1_0_0 = { (void*)1482, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityEvent_2_t477504786_0_0_0 = { (void*)1484, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityEvent_2_t477504786_1_0_0 = { (void*)1484, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_2_t2961511724_GenericClass = { 1481, { &GenInst_UnityEvent_2_t477504786_gp_0_0_0_0_UnityEvent_2_t477504786_gp_1_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_2_t2961511724_GenericClass = { 1483, { &GenInst_UnityEvent_2_t477504786_gp_0_0_0_0_UnityEvent_2_t477504786_gp_1_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_2_t2961511724_0_0_0 = { &UnityAction_2_t2961511724_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const RuntimeType UnityEvent_2_t477504786_gp_0_0_0_0 = { (void*)224, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
 extern const RuntimeType UnityEvent_2_t477504786_gp_1_0_0_0 = { (void*)225, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_2_t291808234_GenericClass = { 1482, { &GenInst_UnityEvent_2_t477504786_gp_0_0_0_0_UnityEvent_2_t477504786_gp_1_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_2_t291808234_GenericClass = { 1484, { &GenInst_UnityEvent_2_t477504786_gp_0_0_0_0_UnityEvent_2_t477504786_gp_1_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_2_t291808234_0_0_0 = { &UnityEvent_2_t291808234_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_2_t39947495_GenericClass = { 1468, { &GenInst_UnityEvent_2_t477504786_gp_0_0_0_0_UnityEvent_2_t477504786_gp_1_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_2_t39947495_GenericClass = { 1470, { &GenInst_UnityEvent_2_t477504786_gp_0_0_0_0_UnityEvent_2_t477504786_gp_1_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_2_t39947495_0_0_0 = { &InvokableCall_2_t39947495_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType UnityAction_3_t1181039592_0_0_0 = { (void*)1483, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityAction_3_t1181039592_1_0_0 = { (void*)1483, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityAction_3_t1181039592_0_0_0 = { (void*)1485, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityAction_3_t1181039592_1_0_0 = { (void*)1485, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType UnityAction_3_t1181039592_gp_0_0_0_0 = { (void*)226, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
@@ -18902,10 +19055,10 @@ extern const RuntimeType UnityAction_3_t1181039592_gp_1_0_0_0 = { (void*)227, 0,
 
 extern const RuntimeType UnityAction_3_t1181039592_gp_2_0_0_0 = { (void*)228, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType UnityEvent_3_t3206388141_0_0_0 = { (void*)1484, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityEvent_3_t3206388141_1_0_0 = { (void*)1484, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityEvent_3_t3206388141_0_0_0 = { (void*)1486, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityEvent_3_t3206388141_1_0_0 = { (void*)1486, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_3_t1003794624_GenericClass = { 1483, { &GenInst_UnityEvent_3_t3206388141_gp_0_0_0_0_UnityEvent_3_t3206388141_gp_1_0_0_0_UnityEvent_3_t3206388141_gp_2_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_3_t1003794624_GenericClass = { 1485, { &GenInst_UnityEvent_3_t3206388141_gp_0_0_0_0_UnityEvent_3_t3206388141_gp_1_0_0_0_UnityEvent_3_t3206388141_gp_2_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_3_t1003794624_0_0_0 = { &UnityAction_3_t1003794624_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const RuntimeType UnityEvent_3_t3206388141_gp_0_0_0_0 = { (void*)229, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
@@ -18914,14 +19067,14 @@ extern const RuntimeType UnityEvent_3_t3206388141_gp_1_0_0_0 = { (void*)230, 0, 
 
 extern const RuntimeType UnityEvent_3_t3206388141_gp_2_0_0_0 = { (void*)231, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-Il2CppGenericClass UnityEvent_3_t1851302709_GenericClass = { 1484, { &GenInst_UnityEvent_3_t3206388141_gp_0_0_0_0_UnityEvent_3_t3206388141_gp_1_0_0_0_UnityEvent_3_t3206388141_gp_2_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityEvent_3_t1851302709_GenericClass = { 1486, { &GenInst_UnityEvent_3_t3206388141_gp_0_0_0_0_UnityEvent_3_t3206388141_gp_1_0_0_0_UnityEvent_3_t3206388141_gp_2_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityEvent_3_t1851302709_0_0_0 = { &UnityEvent_3_t1851302709_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_3_t3505746873_GenericClass = { 1469, { &GenInst_UnityEvent_3_t3206388141_gp_0_0_0_0_UnityEvent_3_t3206388141_gp_1_0_0_0_UnityEvent_3_t3206388141_gp_2_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_3_t3505746873_GenericClass = { 1471, { &GenInst_UnityEvent_3_t3206388141_gp_0_0_0_0_UnityEvent_3_t3206388141_gp_1_0_0_0_UnityEvent_3_t3206388141_gp_2_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_3_t3505746873_0_0_0 = { &InvokableCall_3_t3505746873_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType UnityAction_4_t371735528_0_0_0 = { (void*)1485, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityAction_4_t371735528_1_0_0 = { (void*)1485, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityAction_4_t371735528_0_0_0 = { (void*)1487, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityAction_4_t371735528_1_0_0 = { (void*)1487, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType UnityAction_4_t371735528_gp_0_0_0_0 = { (void*)232, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
@@ -18931,8 +19084,8 @@ extern const RuntimeType UnityAction_4_t371735528_gp_2_0_0_0 = { (void*)234, 0, 
 
 extern const RuntimeType UnityAction_4_t371735528_gp_3_0_0_0 = { (void*)235, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType UnityEvent_4_t3609672668_0_0_0 = { (void*)1486, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnityEvent_4_t3609672668_1_0_0 = { (void*)1486, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnityEvent_4_t3609672668_0_0_0 = { (void*)1488, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnityEvent_4_t3609672668_1_0_0 = { (void*)1488, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType UnityEvent_4_t3609672668_gp_0_0_0_0 = { (void*)236, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
@@ -18942,615 +19095,618 @@ extern const RuntimeType UnityEvent_4_t3609672668_gp_2_0_0_0 = { (void*)238, 0, 
 
 extern const RuntimeType UnityEvent_4_t3609672668_gp_3_0_0_0 = { (void*)239, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-Il2CppGenericClass InvokableCall_4_t3420349028_GenericClass = { 1470, { &GenInst_UnityEvent_4_t3609672668_gp_0_0_0_0_UnityEvent_4_t3609672668_gp_1_0_0_0_UnityEvent_4_t3609672668_gp_2_0_0_0_UnityEvent_4_t3609672668_gp_3_0_0_0, NULL }, NULL };
+Il2CppGenericClass InvokableCall_4_t3420349028_GenericClass = { 1472, { &GenInst_UnityEvent_4_t3609672668_gp_0_0_0_0_UnityEvent_4_t3609672668_gp_1_0_0_0_UnityEvent_4_t3609672668_gp_2_0_0_0_UnityEvent_4_t3609672668_gp_3_0_0_0, NULL }, NULL };
 extern const RuntimeType InvokableCall_4_t3420349028_0_0_0 = { &InvokableCall_4_t3420349028_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType UnitySynchronizationContext_t1887453786_0_0_0 = { (void*)1487, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UnitySynchronizationContext_t1887453786_1_0_0 = { (void*)1487, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UnitySynchronizationContext_t1887453786_0_0_0 = { (void*)1489, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UnitySynchronizationContext_t1887453786_1_0_0 = { (void*)1489, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Vector3Int_t741115188_0_0_0 = { (void*)1490, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Vector3Int_t741115188_1_0_0 = { (void*)1490, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Vector3Int_t741115188_0_0_49 = { (void*)1490, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector3Int_t741115188_0_0_0 = { (void*)1492, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Vector3Int_t741115188_1_0_0 = { (void*)1492, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Vector3Int_t741115188_0_0_49 = { (void*)1492, 49, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType WaitForSecondsRealtime_t189548121_0_0_0 = { (void*)1492, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WaitForSecondsRealtime_t189548121_1_0_0 = { (void*)1492, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WaitForSecondsRealtime_t189548121_0_0_0 = { (void*)1494, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WaitForSecondsRealtime_t189548121_1_0_0 = { (void*)1494, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ReadOnlyAttribute_t2029203740_0_0_0 = { (void*)1493, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ReadOnlyAttribute_t2029203740_1_0_0 = { (void*)1493, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ReadOnlyAttribute_t2029203740_0_0_0 = { (void*)1495, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ReadOnlyAttribute_t2029203740_1_0_0 = { (void*)1495, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType WriteOnlyAttribute_t595109273_0_0_0 = { (void*)1494, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WriteOnlyAttribute_t595109273_1_0_0 = { (void*)1494, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WriteOnlyAttribute_t595109273_0_0_0 = { (void*)1496, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WriteOnlyAttribute_t595109273_1_0_0 = { (void*)1496, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType DeallocateOnJobCompletionAttribute_t3131681843_0_0_0 = { (void*)1495, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DeallocateOnJobCompletionAttribute_t3131681843_1_0_0 = { (void*)1495, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DeallocateOnJobCompletionAttribute_t3131681843_0_0_0 = { (void*)1497, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DeallocateOnJobCompletionAttribute_t3131681843_1_0_0 = { (void*)1497, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType NativeFixedLengthAttribute_t71849338_0_0_0 = { (void*)1496, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeFixedLengthAttribute_t71849338_1_0_0 = { (void*)1496, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeFixedLengthAttribute_t71849338_0_0_0 = { (void*)1498, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeFixedLengthAttribute_t71849338_1_0_0 = { (void*)1498, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType NativeMatchesParallelForLengthAttribute_t3874858371_0_0_0 = { (void*)1497, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeMatchesParallelForLengthAttribute_t3874858371_1_0_0 = { (void*)1497, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeMatchesParallelForLengthAttribute_t3874858371_0_0_0 = { (void*)1499, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeMatchesParallelForLengthAttribute_t3874858371_1_0_0 = { (void*)1499, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType NativeDisableParallelForRestrictionAttribute_t3089424280_0_0_0 = { (void*)1498, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeDisableParallelForRestrictionAttribute_t3089424280_1_0_0 = { (void*)1498, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeDisableParallelForRestrictionAttribute_t3089424280_0_0_0 = { (void*)1500, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeDisableParallelForRestrictionAttribute_t3089424280_1_0_0 = { (void*)1500, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType NativeContainerAttribute_t2600515814_0_0_0 = { (void*)1499, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeContainerAttribute_t2600515814_1_0_0 = { (void*)1499, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeContainerAttribute_t2600515814_0_0_0 = { (void*)1501, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeContainerAttribute_t2600515814_1_0_0 = { (void*)1501, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType NativeContainerIsAtomicWriteOnlyAttribute_t394027931_0_0_0 = { (void*)1500, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeContainerIsAtomicWriteOnlyAttribute_t394027931_1_0_0 = { (void*)1500, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeContainerIsAtomicWriteOnlyAttribute_t394027931_0_0_0 = { (void*)1502, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeContainerIsAtomicWriteOnlyAttribute_t394027931_1_0_0 = { (void*)1502, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType NativeContainerSupportsMinMaxWriteRestrictionAttribute_t1586929818_0_0_0 = { (void*)1501, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeContainerSupportsMinMaxWriteRestrictionAttribute_t1586929818_1_0_0 = { (void*)1501, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeContainerSupportsMinMaxWriteRestrictionAttribute_t1586929818_0_0_0 = { (void*)1503, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeContainerSupportsMinMaxWriteRestrictionAttribute_t1586929818_1_0_0 = { (void*)1503, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType NativeContainerSupportsDeallocateOnJobCompletionAttribute_t1683066125_0_0_0 = { (void*)1502, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeContainerSupportsDeallocateOnJobCompletionAttribute_t1683066125_1_0_0 = { (void*)1502, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeContainerSupportsDeallocateOnJobCompletionAttribute_t1683066125_0_0_0 = { (void*)1504, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeContainerSupportsDeallocateOnJobCompletionAttribute_t1683066125_1_0_0 = { (void*)1504, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PlayableHandle_t1095853803_0_0_0 = { (void*)1515, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType PlayableHandle_t1095853803_0_0_1 = { (void*)1515, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType PlayableHandle_t1095853803_1_0_0 = { (void*)1515, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType PlayableHandle_t1095853803_0_0_0 = { (void*)1517, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PlayableHandle_t1095853803_0_0_1 = { (void*)1517, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PlayableHandle_t1095853803_1_0_0 = { (void*)1517, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType IPlayable_t2231939639_0_0_0 = { (void*)1504, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPlayable_t2231939639_1_0_0 = { (void*)1504, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IPlayable_t2231939639_0_0_0 = { (void*)1506, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPlayable_t2231939639_1_0_0 = { (void*)1506, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType IPlayableBehaviour_t216449062_0_0_0 = { (void*)1505, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPlayableBehaviour_t216449062_1_0_0 = { (void*)1505, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IPlayableBehaviour_t216449062_0_0_0 = { (void*)1507, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPlayableBehaviour_t216449062_1_0_0 = { (void*)1507, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType IPlayableOutput_t3561299444_0_0_0 = { (void*)1506, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPlayableOutput_t3561299444_1_0_0 = { (void*)1506, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IPlayableOutput_t3561299444_0_0_0 = { (void*)1508, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPlayableOutput_t3561299444_1_0_0 = { (void*)1508, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType PlayableBindingU5BU5D_t829358056_0_0_54 = { (void*)&PlayableBinding_t354260709_0_0_0, 54, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType PlayableBindingU5BU5D_t829358056_0_0_0 = { (void*)&PlayableBinding_t354260709_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType DataStreamType_t4132467813_0_0_1 = { (void*)1513, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType DataStreamType_t4132467813_0_0_0 = { (void*)1513, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType DataStreamType_t4132467813_1_0_0 = { (void*)1513, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType DataStreamType_t4132467813_0_0_32854 = { (void*)1513, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType DataStreamType_t4132467813_0_0_1 = { (void*)1515, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType DataStreamType_t4132467813_0_0_0 = { (void*)1515, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType DataStreamType_t4132467813_1_0_0 = { (void*)1515, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType DataStreamType_t4132467813_0_0_32854 = { (void*)1515, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType IPlayableAsset_t178020480_0_0_0 = { (void*)1510, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IPlayableAsset_t178020480_1_0_0 = { (void*)1510, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IPlayableAsset_t178020480_0_0_0 = { (void*)1512, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IPlayableAsset_t178020480_1_0_0 = { (void*)1512, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PlayableAsset_t3219022681_0_0_0 = { (void*)1511, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PlayableAsset_t3219022681_1_0_0 = { (void*)1511, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PlayableAsset_t3219022681_0_0_0 = { (void*)1513, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PlayableAsset_t3219022681_1_0_0 = { (void*)1513, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PlayableGraph_t3515989261_0_0_0 = { (void*)1514, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType PlayableGraph_t3515989261_1_0_0 = { (void*)1514, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType PlayableGraph_t3515989261_0_0_0 = { (void*)1516, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PlayableGraph_t3515989261_1_0_0 = { (void*)1516, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType PlayableBehaviour_t4203540982_0_0_0 = { (void*)1512, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PlayableBehaviour_t4203540982_1_0_0 = { (void*)1512, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PlayableBehaviour_t4203540982_0_0_0 = { (void*)1514, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PlayableBehaviour_t4203540982_1_0_0 = { (void*)1514, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType PlayableHandle_IsPlayableOfType_m3521778301_gp_0_0_0_0 = { (void*)240, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType ScriptPlayableOutput_t2715692609_0_0_0 = { (void*)1517, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ScriptPlayableOutput_t2715692609_1_0_0 = { (void*)1517, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ScriptPlayableOutput_t2715692609_0_0_0 = { (void*)1519, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ScriptPlayableOutput_t2715692609_1_0_0 = { (void*)1519, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType TexturePlayableOutput_t648497447_0_0_0 = { (void*)1519, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TexturePlayableOutput_t648497447_1_0_0 = { (void*)1519, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TexturePlayableOutput_t648497447_0_0_0 = { (void*)1521, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TexturePlayableOutput_t648497447_1_0_0 = { (void*)1521, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType DefaultValueAttribute_t2337225216_0_0_0 = { (void*)1520, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DefaultValueAttribute_t2337225216_1_0_0 = { (void*)1520, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DefaultValueAttribute_t2337225216_0_0_0 = { (void*)1522, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DefaultValueAttribute_t2337225216_1_0_0 = { (void*)1522, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ExcludeFromDocsAttribute_t3592494112_0_0_0 = { (void*)1521, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ExcludeFromDocsAttribute_t3592494112_1_0_0 = { (void*)1521, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ExcludeFromDocsAttribute_t3592494112_0_0_0 = { (void*)1523, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ExcludeFromDocsAttribute_t3592494112_1_0_0 = { (void*)1523, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Logger_t274032455_0_0_0 = { (void*)1524, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Logger_t274032455_1_0_0 = { (void*)1524, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Logger_t274032455_0_0_0 = { (void*)1526, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Logger_t274032455_1_0_0 = { (void*)1526, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType IEditorPlayerConnection_t3531090928_0_0_0 = { (void*)1526, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IEditorPlayerConnection_t3531090928_1_0_0 = { (void*)1526, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IEditorPlayerConnection_t3531090928_0_0_0 = { (void*)1528, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IEditorPlayerConnection_t3531090928_1_0_0 = { (void*)1528, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PlayerEditorConnectionEvents_t3411787513_0_0_1 = { (void*)1528, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PlayerEditorConnectionEvents_t3411787513_0_0_0 = { (void*)1528, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PlayerEditorConnectionEvents_t3411787513_1_0_0 = { (void*)1528, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PlayerEditorConnectionEvents_t3411787513_0_0_1 = { (void*)1530, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PlayerEditorConnectionEvents_t3411787513_0_0_0 = { (void*)1530, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PlayerEditorConnectionEvents_t3411787513_1_0_0 = { (void*)1530, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ConnectionChangeEvent_t3251856151_0_0_6 = { (void*)1530, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ConnectionChangeEvent_t3251856151_0_0_0 = { (void*)1530, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ConnectionChangeEvent_t3251856151_1_0_0 = { (void*)1530, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ConnectionChangeEvent_t3251856151_0_0_6 = { (void*)1532, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ConnectionChangeEvent_t3251856151_0_0_0 = { (void*)1532, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ConnectionChangeEvent_t3251856151_1_0_0 = { (void*)1532, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MessageEvent_t1491597365_0_0_0 = { (void*)1529, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MessageEvent_t1491597365_1_0_0 = { (void*)1529, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType MessageEvent_t1491597365_0_0_6 = { (void*)1529, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MessageEvent_t1491597365_0_0_0 = { (void*)1531, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MessageEvent_t1491597365_1_0_0 = { (void*)1531, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MessageEvent_t1491597365_0_0_6 = { (void*)1531, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t907692441_0_0_0 = { (void*)1532, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t907692441_1_0_0 = { (void*)1532, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t907692441_0_0_0 = { (void*)1534, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_t907692441_1_0_0 = { (void*)1534, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType IRenderPipeline_t857809005_0_0_0 = { (void*)1533, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IRenderPipeline_t857809005_1_0_0 = { (void*)1533, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IRenderPipeline_t857809005_0_0_17 = { (void*)1533, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IRenderPipeline_t857809005_0_0_0 = { (void*)1535, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IRenderPipeline_t857809005_1_0_0 = { (void*)1535, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IRenderPipeline_t857809005_0_0_17 = { (void*)1535, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType IRenderPipelineAsset_t3275513850_0_0_0 = { (void*)1534, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IRenderPipelineAsset_t3275513850_1_0_0 = { (void*)1534, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IRenderPipelineAsset_t3275513850_0_0_17 = { (void*)1534, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IRenderPipelineAsset_t3275513850_0_0_0 = { (void*)1536, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IRenderPipelineAsset_t3275513850_1_0_0 = { (void*)1536, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IRenderPipelineAsset_t3275513850_0_0_17 = { (void*)1536, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType RenderPipelineManager_t4036911426_0_0_0 = { (void*)1535, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RenderPipelineManager_t4036911426_1_0_0 = { (void*)1535, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RenderPipelineManager_t4036911426_0_0_0 = { (void*)1537, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RenderPipelineManager_t4036911426_1_0_0 = { (void*)1537, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MovedFromAttribute_t481952341_0_0_0 = { (void*)1536, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MovedFromAttribute_t481952341_1_0_0 = { (void*)1536, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MovedFromAttribute_t481952341_0_0_0 = { (void*)1538, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MovedFromAttribute_t481952341_1_0_0 = { (void*)1538, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FormerlySerializedAsAttribute_t2859083114_0_0_0 = { (void*)1537, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FormerlySerializedAsAttribute_t2859083114_1_0_0 = { (void*)1537, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FormerlySerializedAsAttribute_t2859083114_0_0_0 = { (void*)1539, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FormerlySerializedAsAttribute_t2859083114_1_0_0 = { (void*)1539, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TypeInferenceRules_t96689094_0_0_0 = { (void*)1538, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TypeInferenceRules_t96689094_1_0_0 = { (void*)1538, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TypeInferenceRules_t96689094_0_0_32854 = { (void*)1538, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TypeInferenceRules_t96689094_0_0_0 = { (void*)1540, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TypeInferenceRules_t96689094_1_0_0 = { (void*)1540, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TypeInferenceRules_t96689094_0_0_32854 = { (void*)1540, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TypeInferenceRuleAttribute_t254868554_0_0_0 = { (void*)1539, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TypeInferenceRuleAttribute_t254868554_1_0_0 = { (void*)1539, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TypeInferenceRuleAttribute_t254868554_0_0_0 = { (void*)1541, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TypeInferenceRuleAttribute_t254868554_1_0_0 = { (void*)1541, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GenericStack_t1310059385_0_0_0 = { (void*)1540, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GenericStack_t1310059385_1_0_0 = { (void*)1540, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType GenericStack_t1310059385_0_0_17 = { (void*)1540, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GenericStack_t1310059385_0_0_3 = { (void*)1540, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GenericStack_t1310059385_0_0_0 = { (void*)1542, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GenericStack_t1310059385_1_0_0 = { (void*)1542, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GenericStack_t1310059385_0_0_17 = { (void*)1542, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GenericStack_t1310059385_0_0_3 = { (void*)1542, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType NetFxCoreExtensions_t4089902045_0_0_0 = { (void*)1541, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NetFxCoreExtensions_t4089902045_1_0_0 = { (void*)1541, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NetFxCoreExtensions_t4089902045_0_0_0 = { (void*)1543, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NetFxCoreExtensions_t4089902045_1_0_0 = { (void*)1543, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CSSMeasureFunc_t1554030124_0_0_0 = { (void*)1542, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CSSMeasureFunc_t1554030124_1_0_0 = { (void*)1542, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CSSMeasureFunc_t1554030124_0_0_0 = { (void*)1544, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CSSMeasureFunc_t1554030124_1_0_0 = { (void*)1544, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CSSMeasureMode_t3184398371_0_0_0 = { (void*)1543, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CSSMeasureMode_t3184398371_1_0_0 = { (void*)1543, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType CSSMeasureMode_t3184398371_0_0_32854 = { (void*)1543, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CSSMeasureMode_t3184398371_0_0_0 = { (void*)1545, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CSSMeasureMode_t3184398371_1_0_0 = { (void*)1545, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CSSMeasureMode_t3184398371_0_0_32854 = { (void*)1545, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType CSSSize_t3377836552_0_0_0 = { (void*)1544, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CSSSize_t3377836552_1_0_0 = { (void*)1544, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CSSSize_t3377836552_0_0_0 = { (void*)1546, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CSSSize_t3377836552_1_0_0 = { (void*)1546, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType Native_t2017798882_0_0_0 = { (void*)1545, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Native_t2017798882_1_0_0 = { (void*)1545, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Native_t2017798882_0_0_0 = { (void*)1547, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Native_t2017798882_1_0_0 = { (void*)1547, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745531_0_0_0 = { (void*)1546, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745531_1_0_0 = { (void*)1546, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745531_0_0_0 = { (void*)1548, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745531_1_0_0 = { (void*)1548, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GridLayout_t754322041_0_0_0 = { (void*)1547, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GridLayout_t754322041_1_0_0 = { (void*)1547, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GridLayout_t754322041_0_0_0 = { (void*)1549, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GridLayout_t754322041_1_0_0 = { (void*)1549, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745532_0_0_0 = { (void*)1548, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745532_1_0_0 = { (void*)1548, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745532_0_0_0 = { (void*)1550, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745532_1_0_0 = { (void*)1550, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ContactFilter2D_t3805203441_0_0_0 = { (void*)1553, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ContactFilter2D_t3805203441_1_0_0 = { (void*)1553, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ContactFilter2D_t3805203441_0_0_0 = { (void*)1555, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ContactFilter2D_t3805203441_1_0_0 = { (void*)1555, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType Collider2D_t2806799626_0_0_0 = { (void*)1551, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Collider2D_t2806799626_1_0_0 = { (void*)1551, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Collider2D_t2806799626_0_0_1 = { (void*)1551, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Collider2D_t2806799626_0_0_0 = { (void*)1553, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Collider2D_t2806799626_1_0_0 = { (void*)1553, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Collider2D_t2806799626_0_0_1 = { (void*)1553, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Collision2D_t2842956331_0_0_0 = { (void*)1552, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Collision2D_t2842956331_1_0_0 = { (void*)1552, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Collision2D_t2842956331_0_0_0 = { (void*)1554, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Collision2D_t2842956331_1_0_0 = { (void*)1554, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType ContactPoint2DU5BU5D_t96683501_0_0_3 = { (void*)&ContactPoint2D_t3390240644_0_0_0, 3, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745533_0_0_0 = { (void*)1556, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745533_1_0_0 = { (void*)1556, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745533_0_0_0 = { (void*)1558, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745533_1_0_0 = { (void*)1558, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType HorizontalWrapMode_t2172737147_0_0_0 = { (void*)1558, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType HorizontalWrapMode_t2172737147_1_0_0 = { (void*)1558, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType HorizontalWrapMode_t2172737147_0_0_32854 = { (void*)1558, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType HorizontalWrapMode_t2172737147_0_0_6 = { (void*)1558, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType HorizontalWrapMode_t2172737147_0_0_1 = { (void*)1558, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HorizontalWrapMode_t2172737147_0_0_0 = { (void*)1560, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HorizontalWrapMode_t2172737147_1_0_0 = { (void*)1560, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType HorizontalWrapMode_t2172737147_0_0_32854 = { (void*)1560, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HorizontalWrapMode_t2172737147_0_0_6 = { (void*)1560, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HorizontalWrapMode_t2172737147_0_0_1 = { (void*)1560, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType VerticalWrapMode_t2936607737_0_0_0 = { (void*)1559, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType VerticalWrapMode_t2936607737_1_0_0 = { (void*)1559, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType VerticalWrapMode_t2936607737_0_0_32854 = { (void*)1559, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType VerticalWrapMode_t2936607737_0_0_6 = { (void*)1559, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType VerticalWrapMode_t2936607737_0_0_1 = { (void*)1559, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VerticalWrapMode_t2936607737_0_0_0 = { (void*)1561, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VerticalWrapMode_t2936607737_1_0_0 = { (void*)1561, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType VerticalWrapMode_t2936607737_0_0_32854 = { (void*)1561, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VerticalWrapMode_t2936607737_0_0_6 = { (void*)1561, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VerticalWrapMode_t2936607737_0_0_1 = { (void*)1561, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType FontTextureRebuildCallback_t2467502454_0_0_1 = { (void*)1562, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FontTextureRebuildCallback_t2467502454_0_0_0 = { (void*)1562, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FontTextureRebuildCallback_t2467502454_1_0_0 = { (void*)1562, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FontTextureRebuildCallback_t2467502454_0_0_1 = { (void*)1564, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FontTextureRebuildCallback_t2467502454_0_0_0 = { (void*)1564, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FontTextureRebuildCallback_t2467502454_1_0_0 = { (void*)1564, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TextGenerator_t3211863866_0_0_0 = { (void*)1566, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextGenerator_t3211863866_1_0_0 = { (void*)1566, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TextGenerator_t3211863866_0_0_1 = { (void*)1566, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextGenerator_t3211863866_0_0_0 = { (void*)1568, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextGenerator_t3211863866_1_0_0 = { (void*)1568, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TextGenerator_t3211863866_0_0_1 = { (void*)1568, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType FontStyle_t82229486_0_0_0 = { (void*)1567, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FontStyle_t82229486_1_0_0 = { (void*)1567, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FontStyle_t82229486_0_0_32854 = { (void*)1567, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FontStyle_t82229486_0_0_6 = { (void*)1567, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FontStyle_t82229486_0_0_1 = { (void*)1567, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontStyle_t82229486_0_0_0 = { (void*)1569, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontStyle_t82229486_1_0_0 = { (void*)1569, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FontStyle_t82229486_0_0_32854 = { (void*)1569, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontStyle_t82229486_0_0_6 = { (void*)1569, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontStyle_t82229486_0_0_1 = { (void*)1569, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TextGenerationError_t3604799999_1_0_2 = { (void*)1568, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextGenerationError_t3604799999_0_0_0 = { (void*)1568, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextGenerationError_t3604799999_0_0_1 = { (void*)1568, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextGenerationError_t3604799999_1_0_0 = { (void*)1568, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextGenerationError_t3604799999_0_0_32854 = { (void*)1568, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextGenerationError_t3604799999_1_0_2 = { (void*)1570, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextGenerationError_t3604799999_0_0_0 = { (void*)1570, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextGenerationError_t3604799999_0_0_1 = { (void*)1570, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextGenerationError_t3604799999_1_0_0 = { (void*)1570, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextGenerationError_t3604799999_0_0_32854 = { (void*)1570, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TextGenerationSettings_t1351628751_0_0_0 = { (void*)1569, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextGenerationSettings_t1351628751_0_0_1 = { (void*)1569, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextGenerationSettings_t1351628751_1_0_0 = { (void*)1569, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextGenerationSettings_t1351628751_0_0_0 = { (void*)1571, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextGenerationSettings_t1351628751_0_0_1 = { (void*)1571, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextGenerationSettings_t1351628751_1_0_0 = { (void*)1571, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745534_0_0_0 = { (void*)1570, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745534_1_0_0 = { (void*)1570, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745534_0_0_0 = { (void*)1572, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745534_1_0_0 = { (void*)1572, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType NavMesh_t1865600375_0_0_0 = { (void*)1571, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NavMesh_t1865600375_1_0_0 = { (void*)1571, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NavMesh_t1865600375_0_0_0 = { (void*)1573, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NavMesh_t1865600375_1_0_0 = { (void*)1573, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType OnNavMeshPreUpdate_t1580782682_0_0_22 = { (void*)1572, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnNavMeshPreUpdate_t1580782682_0_0_0 = { (void*)1572, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnNavMeshPreUpdate_t1580782682_1_0_0 = { (void*)1572, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OnNavMeshPreUpdate_t1580782682_0_0_22 = { (void*)1574, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnNavMeshPreUpdate_t1580782682_0_0_0 = { (void*)1574, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnNavMeshPreUpdate_t1580782682_1_0_0 = { (void*)1574, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745535_0_0_0 = { (void*)1573, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745535_1_0_0 = { (void*)1573, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745535_0_0_0 = { (void*)1575, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745535_1_0_0 = { (void*)1575, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AnimationEventSource_t3045280095_0_0_0 = { (void*)1574, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimationEventSource_t3045280095_1_0_0 = { (void*)1574, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType AnimationEventSource_t3045280095_0_0_32854 = { (void*)1574, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimationEventSource_t3045280095_0_0_3 = { (void*)1574, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationEventSource_t3045280095_0_0_0 = { (void*)1576, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationEventSource_t3045280095_1_0_0 = { (void*)1576, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimationEventSource_t3045280095_0_0_32854 = { (void*)1576, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationEventSource_t3045280095_0_0_3 = { (void*)1576, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType AnimationEvent_t1536042487_0_0_0 = { (void*)1575, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AnimationEvent_t1536042487_1_0_0 = { (void*)1575, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AnimationEvent_t1536042487_0_0_0 = { (void*)1577, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AnimationEvent_t1536042487_1_0_0 = { (void*)1577, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AnimationState_t1108360407_0_0_3 = { (void*)1579, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AnimationState_t1108360407_0_0_0 = { (void*)1579, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AnimationState_t1108360407_1_0_0 = { (void*)1579, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AnimationState_t1108360407_0_0_3 = { (void*)1581, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AnimationState_t1108360407_0_0_0 = { (void*)1581, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AnimationState_t1108360407_1_0_0 = { (void*)1581, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AnimatorStateInfo_t509032636_0_0_3 = { (void*)1581, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimatorStateInfo_t509032636_0_0_0 = { (void*)1581, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimatorStateInfo_t509032636_1_0_0 = { (void*)1581, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimatorStateInfo_t509032636_0_0_3 = { (void*)1583, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimatorStateInfo_t509032636_0_0_0 = { (void*)1583, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimatorStateInfo_t509032636_1_0_0 = { (void*)1583, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType AnimatorClipInfo_t3156717155_0_0_3 = { (void*)1580, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimatorClipInfo_t3156717155_0_0_0 = { (void*)1580, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimatorClipInfo_t3156717155_1_0_0 = { (void*)1580, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimatorClipInfo_t3156717155_0_0_3 = { (void*)1582, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimatorClipInfo_t3156717155_0_0_0 = { (void*)1582, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimatorClipInfo_t3156717155_1_0_0 = { (void*)1582, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType PlayMode_t3051407859_0_0_0 = { (void*)1576, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType PlayMode_t3051407859_1_0_0 = { (void*)1576, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType PlayMode_t3051407859_0_0_32854 = { (void*)1576, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PlayMode_t3051407859_0_0_0 = { (void*)1578, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PlayMode_t3051407859_1_0_0 = { (void*)1578, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType PlayMode_t3051407859_0_0_32854 = { (void*)1578, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType Enumerator_t1136361084_0_0_0 = { (void*)1578, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Enumerator_t1136361084_1_0_0 = { (void*)1578, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Enumerator_t1136361084_0_0_0 = { (void*)1580, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Enumerator_t1136361084_1_0_0 = { (void*)1580, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AnimatorTransitionInfo_t2534804151_0_0_0 = { (void*)1582, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimatorTransitionInfo_t2534804151_1_0_0 = { (void*)1582, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimatorTransitionInfo_t2534804151_0_0_0 = { (void*)1584, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimatorTransitionInfo_t2534804151_1_0_0 = { (void*)1584, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType SkeletonBone_t4134054672_0_0_0 = { (void*)1585, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SkeletonBone_t4134054672_1_0_0 = { (void*)1585, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType SkeletonBone_t4134054672_0_0_0 = { (void*)1587, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SkeletonBone_t4134054672_1_0_0 = { (void*)1587, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType HumanLimit_t2901552972_0_0_0 = { (void*)1586, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType HumanLimit_t2901552972_1_0_0 = { (void*)1586, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType HumanLimit_t2901552972_0_0_6 = { (void*)1586, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HumanLimit_t2901552972_0_0_0 = { (void*)1588, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HumanLimit_t2901552972_1_0_0 = { (void*)1588, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType HumanLimit_t2901552972_0_0_6 = { (void*)1588, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType HumanBone_t2465339518_0_0_0 = { (void*)1587, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType HumanBone_t2465339518_1_0_0 = { (void*)1587, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType HumanBone_t2465339518_0_0_0 = { (void*)1589, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HumanBone_t2465339518_1_0_0 = { (void*)1589, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType SharedBetweenAnimatorsAttribute_t2857104338_0_0_0 = { (void*)1588, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SharedBetweenAnimatorsAttribute_t2857104338_1_0_0 = { (void*)1588, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SharedBetweenAnimatorsAttribute_t2857104338_0_0_0 = { (void*)1590, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SharedBetweenAnimatorsAttribute_t2857104338_1_0_0 = { (void*)1590, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType StateMachineBehaviour_t957311111_0_0_0 = { (void*)1589, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType StateMachineBehaviour_t957311111_1_0_0 = { (void*)1589, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType StateMachineBehaviour_t957311111_0_0_0 = { (void*)1591, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StateMachineBehaviour_t957311111_1_0_0 = { (void*)1591, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AnimationPlayableOutput_t1918618239_0_0_0 = { (void*)1595, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnimationPlayableOutput_t1918618239_1_0_0 = { (void*)1595, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnimationPlayableOutput_t1918618239_0_0_0 = { (void*)1597, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnimationPlayableOutput_t1918618239_1_0_0 = { (void*)1597, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745536_0_0_0 = { (void*)1596, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745536_1_0_0 = { (void*)1596, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745536_0_0_0 = { (void*)1598, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745536_1_0_0 = { (void*)1598, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AudioSettings_t3587374600_0_0_0 = { (void*)1597, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioSettings_t3587374600_1_0_0 = { (void*)1597, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioSettings_t3587374600_0_0_0 = { (void*)1599, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioSettings_t3587374600_1_0_0 = { (void*)1599, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AudioConfigurationChangeHandler_t2089929874_0_0_17 = { (void*)1598, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioConfigurationChangeHandler_t2089929874_0_0_0 = { (void*)1598, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioConfigurationChangeHandler_t2089929874_1_0_0 = { (void*)1598, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioConfigurationChangeHandler_t2089929874_0_0_17 = { (void*)1600, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioConfigurationChangeHandler_t2089929874_0_0_0 = { (void*)1600, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioConfigurationChangeHandler_t2089929874_1_0_0 = { (void*)1600, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AudioExtensionManager_t3220897493_0_0_0 = { (void*)1599, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioExtensionManager_t3220897493_1_0_0 = { (void*)1599, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioExtensionManager_t3220897493_0_0_0 = { (void*)1601, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioExtensionManager_t3220897493_1_0_0 = { (void*)1601, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AudioListener_t2734094699_0_0_0 = { (void*)1604, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioListener_t2734094699_1_0_0 = { (void*)1604, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType AudioListener_t2734094699_0_0_1 = { (void*)1604, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioListener_t2734094699_0_0_0 = { (void*)1606, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioListener_t2734094699_1_0_0 = { (void*)1606, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioListener_t2734094699_0_0_1 = { (void*)1606, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType AudioListenerExtension_t3242956547_0_0_0 = { (void*)1610, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioListenerExtension_t3242956547_0_0_3 = { (void*)1610, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioListenerExtension_t3242956547_1_0_0 = { (void*)1610, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioListenerExtension_t3242956547_0_0_0 = { (void*)1612, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioListenerExtension_t3242956547_0_0_3 = { (void*)1612, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioListenerExtension_t3242956547_1_0_0 = { (void*)1612, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType SingleU5BU5D_t1444911251_0_0_0 = { (void*)&Single_t1397266774_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType SingleU5BU5D_t1444911251_1_0_0 = { (void*)&Single_t1397266774_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 1, 0 };
 extern const RuntimeType SingleU5BU5D_t1444911251_0_0_4 = { (void*)&Single_t1397266774_0_0_0, 4, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType SingleU5BU5D_t1444911251_0_0_33 = { (void*)&Single_t1397266774_0_0_0, 33, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType PCMReaderCallback_t1677636661_0_0_1 = { (void*)1601, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PCMReaderCallback_t1677636661_0_0_0 = { (void*)1601, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PCMReaderCallback_t1677636661_1_0_0 = { (void*)1601, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PCMReaderCallback_t1677636661_0_0_1 = { (void*)1603, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PCMReaderCallback_t1677636661_0_0_0 = { (void*)1603, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PCMReaderCallback_t1677636661_1_0_0 = { (void*)1603, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PCMSetPositionCallback_t1059417452_0_0_1 = { (void*)1602, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PCMSetPositionCallback_t1059417452_0_0_0 = { (void*)1602, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PCMSetPositionCallback_t1059417452_1_0_0 = { (void*)1602, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PCMSetPositionCallback_t1059417452_0_0_1 = { (void*)1604, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PCMSetPositionCallback_t1059417452_0_0_0 = { (void*)1604, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PCMSetPositionCallback_t1059417452_1_0_0 = { (void*)1604, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AudioBehaviour_t2879336574_0_0_0 = { (void*)1603, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioBehaviour_t2879336574_1_0_0 = { (void*)1603, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioBehaviour_t2879336574_0_0_0 = { (void*)1605, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioBehaviour_t2879336574_1_0_0 = { (void*)1605, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AudioExtensionDefinition_t3271167678_0_0_0 = { (void*)1607, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AudioExtensionDefinition_t3271167678_1_0_0 = { (void*)1607, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType AudioExtensionDefinition_t3271167678_0_0_6 = { (void*)1607, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioExtensionDefinition_t3271167678_0_0_0 = { (void*)1609, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioExtensionDefinition_t3271167678_1_0_0 = { (void*)1609, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AudioExtensionDefinition_t3271167678_0_0_6 = { (void*)1609, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType AudioPlayableOutput_t2664391219_0_0_0 = { (void*)1612, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AudioPlayableOutput_t2664391219_1_0_0 = { (void*)1612, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AudioPlayableOutput_t2664391219_0_0_0 = { (void*)1614, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AudioPlayableOutput_t2664391219_1_0_0 = { (void*)1614, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745537_0_0_0 = { (void*)1615, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745537_1_0_0 = { (void*)1615, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745537_0_0_0 = { (void*)1617, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745537_1_0_0 = { (void*)1617, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PlayableDirector_t508516997_0_0_0 = { (void*)1616, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PlayableDirector_t508516997_1_0_0 = { (void*)1616, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PlayableDirector_t508516997_0_0_0 = { (void*)1618, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PlayableDirector_t508516997_1_0_0 = { (void*)1618, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745538_0_0_0 = { (void*)1617, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745538_1_0_0 = { (void*)1617, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745538_0_0_0 = { (void*)1619, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745538_1_0_0 = { (void*)1619, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Event_t2956885303_0_0_0 = { (void*)1618, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Event_t2956885303_1_0_0 = { (void*)1618, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Event_t2956885303_0_0_17 = { (void*)1618, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Event_t2956885303_0_0_1 = { (void*)1618, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType EventType_t3528516131_0_0_0 = { (void*)1630, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EventType_t3528516131_1_0_0 = { (void*)1630, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType EventType_t3528516131_0_0_32854 = { (void*)1630, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType EventType_t3528516131_0_0_0 = { (void*)1627, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType EventType_t3528516131_1_0_0 = { (void*)1627, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType EventType_t3528516131_0_0_32854 = { (void*)1627, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EventModifiers_t2016417398_0_0_0 = { (void*)1631, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EventModifiers_t2016417398_1_0_0 = { (void*)1631, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType EventModifiers_t2016417398_0_0_32854 = { (void*)1631, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType EventModifiers_t2016417398_0_0_0 = { (void*)1628, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType EventModifiers_t2016417398_1_0_0 = { (void*)1628, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType EventModifiers_t2016417398_0_0_32854 = { (void*)1628, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType GUI_t1624858472_0_0_0 = { (void*)1621, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUI_t1624858472_1_0_0 = { (void*)1621, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GUI_t1624858472_0_0_0 = { (void*)1619, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUI_t1624858472_1_0_0 = { (void*)1619, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUIContent_t3050628031_0_0_0 = { (void*)1632, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIContent_t3050628031_1_0_0 = { (void*)1632, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUIContent_t3050628031_0_0_49 = { (void*)1632, 49, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIContent_t3050628031_0_0_22 = { (void*)1632, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIContent_t3050628031_0_0_1 = { (void*)1632, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType GUIContent_t3050628031_0_0_0 = { (void*)1629, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIContent_t3050628031_1_0_0 = { (void*)1629, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType GUIContent_t3050628031_0_0_49 = { (void*)1629, 49, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIContent_t3050628031_0_0_22 = { (void*)1629, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIContent_t3050628031_0_0_1 = { (void*)1629, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUISkin_t1244372282_0_0_0 = { (void*)1640, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUISkin_t1244372282_0_0_17 = { (void*)1640, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUISkin_t1244372282_1_0_0 = { (void*)1640, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUISkin_t1244372282_0_0_19 = { (void*)1640, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType GUISkin_t1244372282_0_0_0 = { (void*)1636, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUISkin_t1244372282_0_0_17 = { (void*)1636, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUISkin_t1244372282_1_0_0 = { (void*)1636, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType GUISkin_t1244372282_0_0_19 = { (void*)1636, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WindowFunction_t3146511083_0_0_0 = { (void*)1622, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WindowFunction_t3146511083_1_0_0 = { (void*)1622, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType WindowFunction_t3146511083_0_0_0 = { (void*)1620, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WindowFunction_t3146511083_1_0_0 = { (void*)1620, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-
-extern const RuntimeType GUILayoutUtility_t66395690_0_0_0 = { (void*)1621, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUILayoutUtility_t66395690_1_0_0 = { (void*)1621, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUILayoutUtility_t66395690_0_0_0 = { (void*)1623, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUILayoutUtility_t66395690_1_0_0 = { (void*)1623, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType GUILayoutOptionU5BU5D_t2510215842_0_0_0 = { (void*)&GUILayoutOption_t811797299_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType GUILayoutGroup_t2157789695_0_0_0 = { (void*)1633, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUILayoutGroup_t2157789695_0_0_3 = { (void*)1633, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUILayoutGroup_t2157789695_1_0_0 = { (void*)1633, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUILayoutGroup_t2157789695_0_0_0 = { (void*)1637, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUILayoutGroup_t2157789695_0_0_3 = { (void*)1637, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUILayoutGroup_t2157789695_1_0_0 = { (void*)1637, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GUISettings_t1774757634_0_0_0 = { (void*)1623, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUISettings_t1774757634_1_0_0 = { (void*)1623, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType GUISettings_t1774757634_0_0_1 = { (void*)1623, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUISettings_t1774757634_0_0_0 = { (void*)1625, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUISettings_t1774757634_1_0_0 = { (void*)1625, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUISettings_t1774757634_0_0_1 = { (void*)1625, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType GUIStyleState_t1397964415_0_0_0 = { (void*)1624, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIStyleState_t1397964415_1_0_0 = { (void*)1624, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType GUIStyleState_t1397964415_0_0_129 = { (void*)1624, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyleState_t1397964415_0_0_0 = { (void*)1626, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyleState_t1397964415_1_0_0 = { (void*)1626, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUIStyleState_t1397964415_0_0_129 = { (void*)1626, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType GUIUtility_t1868551600_0_0_0 = { (void*)1626, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIUtility_t1868551600_1_0_0 = { (void*)1626, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Internal_DrawWithTextSelectionArguments_t978153917_0_0_0 = { (void*)1627, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Internal_DrawWithTextSelectionArguments_t978153917_1_0_0 = { (void*)1627, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType GUILayout_t3503650450_0_0_0 = { (void*)1630, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUILayout_t3503650450_1_0_0 = { (void*)1630, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUIUtility_t1868551600_0_0_0 = { (void*)1629, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIUtility_t1868551600_1_0_0 = { (void*)1629, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Type_t3858932131_0_0_0 = { (void*)1632, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Type_t3858932131_0_0_3 = { (void*)1632, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Type_t3858932131_1_0_0 = { (void*)1632, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Type_t3858932131_0_0_32854 = { (void*)1632, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FocusType_t718022695_0_0_0 = { (void*)1633, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FocusType_t718022695_1_0_0 = { (void*)1633, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FocusType_t718022695_0_0_32854 = { (void*)1633, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType GUIScrollGroup_t1523329021_0_0_0 = { (void*)1634, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GUIScrollGroup_t1523329021_1_0_0 = { (void*)1634, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUILayout_t3503650450_0_0_0 = { (void*)1634, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUILayout_t3503650450_1_0_0 = { (void*)1634, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType Type_t3858932131_0_0_0 = { (void*)1636, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Type_t3858932131_0_0_3 = { (void*)1636, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Type_t3858932131_1_0_0 = { (void*)1636, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Type_t3858932131_0_0_32854 = { (void*)1636, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+
+extern const RuntimeType GUIScrollGroup_t1523329021_0_0_0 = { (void*)1638, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIScrollGroup_t1523329021_1_0_0 = { (void*)1638, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType GUIStyleU5BU5D_t2383250302_0_0_3 = { (void*)&GUIStyle_t3956901511_0_0_0, 3, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType GUIStyleU5BU5D_t2383250302_0_0_0 = { (void*)&GUIStyle_t3956901511_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType SkinChangedDelegate_t1143955295_0_0_19 = { (void*)1637, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SkinChangedDelegate_t1143955295_0_0_0 = { (void*)1637, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SkinChangedDelegate_t1143955295_1_0_0 = { (void*)1637, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SkinChangedDelegate_t1143955295_0_0_19 = { (void*)1641, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SkinChangedDelegate_t1143955295_0_0_0 = { (void*)1641, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SkinChangedDelegate_t1143955295_1_0_0 = { (void*)1641, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ExitGUIException_t133215258_0_0_0 = { (void*)1639, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ExitGUIException_t133215258_1_0_0 = { (void*)1639, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ExitGUIException_t133215258_0_0_0 = { (void*)1643, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ExitGUIException_t133215258_1_0_0 = { (void*)1643, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ScrollViewState_t3797911395_0_0_0 = { (void*)1640, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ScrollViewState_t3797911395_1_0_0 = { (void*)1640, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ScrollViewState_t3797911395_0_0_0 = { (void*)1644, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ScrollViewState_t3797911395_1_0_0 = { (void*)1644, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SliderState_t2207048770_0_0_0 = { (void*)1641, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SliderState_t2207048770_1_0_0 = { (void*)1641, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SliderState_t2207048770_0_0_0 = { (void*)1645, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SliderState_t2207048770_1_0_0 = { (void*)1645, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TextEditor_t2759855366_0_0_0 = { (void*)1642, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextEditor_t2759855366_1_0_0 = { (void*)1642, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DblClickSnapping_t2629979741_0_0_0 = { (void*)1647, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType DblClickSnapping_t2629979741_0_0_1 = { (void*)1647, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType DblClickSnapping_t2629979741_1_0_0 = { (void*)1647, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType DblClickSnapping_t2629979741_0_0_32854 = { (void*)1647, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType DblClickSnapping_t2629979741_0_0_1 = { (void*)1643, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType DblClickSnapping_t2629979741_0_0_0 = { (void*)1643, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType DblClickSnapping_t2629979741_1_0_0 = { (void*)1643, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType DblClickSnapping_t2629979741_0_0_32854 = { (void*)1643, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CharacterType_t1303021140_0_0_0 = { (void*)1648, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CharacterType_t1303021140_1_0_0 = { (void*)1648, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CharacterType_t1303021140_0_0_32854 = { (void*)1648, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745539_0_0_0 = { (void*)1644, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745539_1_0_0 = { (void*)1644, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745539_0_0_0 = { (void*)1650, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745539_1_0_0 = { (void*)1650, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType NativeInputDeviceInfo_t3032009285_0_0_0 = { (void*)1645, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType NativeInputDeviceInfo_t3032009285_1_0_0 = { (void*)1645, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType NativeInputDeviceInfo_t3032009285_0_0_0 = { (void*)1651, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType NativeInputDeviceInfo_t3032009285_1_0_0 = { (void*)1651, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType NativeInputUpdateType_t3942820534_0_0_0 = { (void*)1646, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType NativeInputUpdateType_t3942820534_1_0_0 = { (void*)1646, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType NativeInputUpdateType_t3942820534_0_0_32854 = { (void*)1646, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType NativeInputUpdateType_t3942820534_0_0_0 = { (void*)1652, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType NativeInputUpdateType_t3942820534_1_0_0 = { (void*)1652, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType NativeInputUpdateType_t3942820534_0_0_32854 = { (void*)1652, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType NativeUpdateCallback_t2379345390_0_0_0 = { (void*)1647, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeUpdateCallback_t2379345390_1_0_0 = { (void*)1647, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType NativeUpdateCallback_t2379345390_0_0_22 = { (void*)1647, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeUpdateCallback_t2379345390_0_0_0 = { (void*)1653, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeUpdateCallback_t2379345390_1_0_0 = { (void*)1653, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeUpdateCallback_t2379345390_0_0_22 = { (void*)1653, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType NativeEventCallback_t83445637_0_0_0 = { (void*)1648, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeEventCallback_t83445637_1_0_0 = { (void*)1648, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType NativeEventCallback_t83445637_0_0_22 = { (void*)1648, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeEventCallback_t83445637_0_0_0 = { (void*)1654, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeEventCallback_t83445637_1_0_0 = { (void*)1654, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeEventCallback_t83445637_0_0_22 = { (void*)1654, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType NativeDeviceDiscoveredCallback_t3494240628_0_0_0 = { (void*)1649, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeDeviceDiscoveredCallback_t3494240628_1_0_0 = { (void*)1649, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType NativeDeviceDiscoveredCallback_t3494240628_0_0_17 = { (void*)1649, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeDeviceDiscoveredCallback_t3494240628_0_0_0 = { (void*)1655, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeDeviceDiscoveredCallback_t3494240628_1_0_0 = { (void*)1655, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeDeviceDiscoveredCallback_t3494240628_0_0_17 = { (void*)1655, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType NativeInputSystem_t922881982_0_0_0 = { (void*)1650, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType NativeInputSystem_t922881982_1_0_0 = { (void*)1650, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType NativeInputSystem_t922881982_0_0_0 = { (void*)1656, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType NativeInputSystem_t922881982_1_0_0 = { (void*)1656, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745540_0_0_0 = { (void*)1651, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745540_1_0_0 = { (void*)1651, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745540_0_0_0 = { (void*)1657, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745540_1_0_0 = { (void*)1657, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745541_0_0_0 = { (void*)1653, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745541_1_0_0 = { (void*)1653, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745541_0_0_0 = { (void*)1659, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745541_1_0_0 = { (void*)1659, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType QueryTriggerInteraction_t962663221_0_0_0 = { (void*)1668, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType QueryTriggerInteraction_t962663221_1_0_0 = { (void*)1668, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType QueryTriggerInteraction_t962663221_0_0_32854 = { (void*)1668, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType QueryTriggerInteraction_t962663221_0_0_0 = { (void*)1674, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType QueryTriggerInteraction_t962663221_1_0_0 = { (void*)1674, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType QueryTriggerInteraction_t962663221_0_0_32854 = { (void*)1674, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType ColliderU5BU5D_t4234922487_0_0_0 = { (void*)&Collider_t1773347010_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType ColliderU5BU5D_t4234922487_0_0_6 = { (void*)&Collider_t1773347010_0_0_0, 6, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType ForceMode_t3656391766_0_0_0 = { (void*)1664, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ForceMode_t3656391766_1_0_0 = { (void*)1664, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ForceMode_t3656391766_0_0_32854 = { (void*)1664, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ForceMode_t3656391766_0_0_0 = { (void*)1670, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ForceMode_t3656391766_1_0_0 = { (void*)1670, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ForceMode_t3656391766_0_0_32854 = { (void*)1670, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType SphereCollider_t2077223608_0_0_0 = { (void*)1659, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SphereCollider_t2077223608_1_0_0 = { (void*)1659, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SphereCollider_t2077223608_0_0_0 = { (void*)1665, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SphereCollider_t2077223608_1_0_0 = { (void*)1665, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MeshCollider_t903564387_0_0_0 = { (void*)1660, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MeshCollider_t903564387_1_0_0 = { (void*)1660, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MeshCollider_t903564387_0_0_0 = { (void*)1666, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MeshCollider_t903564387_1_0_0 = { (void*)1666, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CapsuleCollider_t197597763_0_0_0 = { (void*)1661, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CapsuleCollider_t197597763_1_0_0 = { (void*)1661, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CapsuleCollider_t197597763_0_0_0 = { (void*)1667, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CapsuleCollider_t197597763_1_0_0 = { (void*)1667, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CollisionFlags_t1776808576_0_0_0 = { (void*)1667, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CollisionFlags_t1776808576_1_0_0 = { (void*)1667, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType CollisionFlags_t1776808576_0_0_32854 = { (void*)1667, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CollisionFlags_t1776808576_0_0_0 = { (void*)1673, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CollisionFlags_t1776808576_1_0_0 = { (void*)1673, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CollisionFlags_t1776808576_0_0_32854 = { (void*)1673, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ControllerColliderHit_t240592346_0_0_0 = { (void*)1665, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ControllerColliderHit_t240592346_1_0_0 = { (void*)1665, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ControllerColliderHit_t240592346_0_0_0 = { (void*)1671, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ControllerColliderHit_t240592346_1_0_0 = { (void*)1671, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Collision_t4262080450_0_0_0 = { (void*)1666, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Collision_t4262080450_1_0_0 = { (void*)1666, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Collision_t4262080450_0_0_0 = { (void*)1672, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Collision_t4262080450_1_0_0 = { (void*)1672, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType ContactPointU5BU5D_t872956888_0_0_0 = { (void*)&ContactPoint_t3758755253_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType ContactPointU5BU5D_t872956888_0_0_3 = { (void*)&ContactPoint_t3758755253_0_0_0, 3, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745542_0_0_0 = { (void*)1669, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745542_1_0_0 = { (void*)1669, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745542_0_0_0 = { (void*)1675, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745542_1_0_0 = { (void*)1675, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TerrainData_t657004131_0_0_0 = { (void*)1670, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TerrainData_t657004131_1_0_0 = { (void*)1670, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TerrainData_t657004131_0_0_0 = { (void*)1676, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TerrainData_t657004131_1_0_0 = { (void*)1676, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType BoundaryValueType_t1782311533_0_0_0 = { (void*)1671, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType BoundaryValueType_t1782311533_1_0_0 = { (void*)1671, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType BoundaryValueType_t1782311533_0_0_32854 = { (void*)1671, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType BoundaryValueType_t1782311533_0_0_0 = { (void*)1677, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType BoundaryValueType_t1782311533_1_0_0 = { (void*)1677, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType BoundaryValueType_t1782311533_0_0_32854 = { (void*)1677, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745543_0_0_0 = { (void*)1672, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745543_1_0_0 = { (void*)1672, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745543_0_0_0 = { (void*)1678, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745543_1_0_0 = { (void*)1678, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ITilemap_t3496540090_0_0_0 = { (void*)1673, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ITilemap_t3496540090_1_0_0 = { (void*)1673, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ITilemap_t3496540090_0_0_19 = { (void*)1673, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ITilemap_t3496540090_0_0_0 = { (void*)1679, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ITilemap_t3496540090_1_0_0 = { (void*)1679, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ITilemap_t3496540090_0_0_19 = { (void*)1679, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Tilemap_t1578933799_0_0_3 = { (void*)1678, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Tilemap_t1578933799_0_0_0 = { (void*)1678, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Tilemap_t1578933799_1_0_0 = { (void*)1678, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Tilemap_t1578933799_0_0_3 = { (void*)1684, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Tilemap_t1578933799_0_0_0 = { (void*)1684, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Tilemap_t1578933799_1_0_0 = { (void*)1684, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Tile_t1378929773_0_0_0 = { (void*)1674, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Tile_t1378929773_1_0_0 = { (void*)1674, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Tile_t1378929773_0_0_0 = { (void*)1680, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Tile_t1378929773_1_0_0 = { (void*)1680, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TileBase_t3985733243_0_0_0 = { (void*)1676, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TileBase_t3985733243_1_0_0 = { (void*)1676, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TileBase_t3985733243_0_0_0 = { (void*)1682, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TileBase_t3985733243_1_0_0 = { (void*)1682, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TileData_t2042394239_1_0_0 = { (void*)1679, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TileData_t2042394239_0_0_0 = { (void*)1679, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TileData_t2042394239_1_0_0 = { (void*)1685, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TileData_t2042394239_0_0_0 = { (void*)1685, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TileFlags_t2429973456_0_0_1 = { (void*)1677, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TileFlags_t2429973456_0_0_0 = { (void*)1677, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TileFlags_t2429973456_1_0_0 = { (void*)1677, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TileFlags_t2429973456_0_0_32854 = { (void*)1677, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TileFlags_t2429973456_0_0_1 = { (void*)1683, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TileFlags_t2429973456_0_0_0 = { (void*)1683, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TileFlags_t2429973456_1_0_0 = { (void*)1683, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TileFlags_t2429973456_0_0_32854 = { (void*)1683, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ColliderType_t2056028780_0_0_1 = { (void*)1675, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColliderType_t2056028780_0_0_0 = { (void*)1675, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColliderType_t2056028780_1_0_0 = { (void*)1675, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ColliderType_t2056028780_0_0_32854 = { (void*)1675, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColliderType_t2056028780_0_0_1 = { (void*)1681, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColliderType_t2056028780_0_0_0 = { (void*)1681, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColliderType_t2056028780_1_0_0 = { (void*)1681, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ColliderType_t2056028780_0_0_32854 = { (void*)1681, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TileAnimationData_t649120048_1_0_0 = { (void*)1680, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TileAnimationData_t649120048_0_0_0 = { (void*)1680, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TileAnimationData_t649120048_1_0_0 = { (void*)1686, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TileAnimationData_t649120048_0_0_0 = { (void*)1686, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType SpriteU5BU5D_t2581906349_0_0_1 = { (void*)&Sprite_t280657092_0_0_0, 1, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745544_0_0_0 = { (void*)1681, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745544_1_0_0 = { (void*)1681, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745544_0_0_0 = { (void*)1687, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745544_1_0_0 = { (void*)1687, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType RenderMode_t4077056833_0_0_0 = { (void*)1682, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RenderMode_t4077056833_1_0_0 = { (void*)1682, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RenderMode_t4077056833_0_0_32854 = { (void*)1682, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderMode_t4077056833_0_0_0 = { (void*)1688, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RenderMode_t4077056833_1_0_0 = { (void*)1688, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RenderMode_t4077056833_0_0_32854 = { (void*)1688, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType AdditionalCanvasShaderChannels_t2298426082_0_0_0 = { (void*)1683, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AdditionalCanvasShaderChannels_t2298426082_1_0_0 = { (void*)1683, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType AdditionalCanvasShaderChannels_t2298426082_0_0_32854 = { (void*)1683, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AdditionalCanvasShaderChannels_t2298426082_0_0_0 = { (void*)1689, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AdditionalCanvasShaderChannels_t2298426082_1_0_0 = { (void*)1689, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AdditionalCanvasShaderChannels_t2298426082_0_0_32854 = { (void*)1689, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType WillRenderCanvases_t3309123499_0_0_0 = { (void*)1685, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WillRenderCanvases_t3309123499_0_0_17 = { (void*)1685, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WillRenderCanvases_t3309123499_1_0_0 = { (void*)1685, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WillRenderCanvases_t3309123499_0_0_0 = { (void*)1691, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WillRenderCanvases_t3309123499_0_0_17 = { (void*)1691, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WillRenderCanvases_t3309123499_1_0_0 = { (void*)1691, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType UISystemProfilerApi_t2230074258_0_0_0 = { (void*)1686, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UISystemProfilerApi_t2230074258_1_0_0 = { (void*)1686, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UISystemProfilerApi_t2230074258_0_0_0 = { (void*)1692, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UISystemProfilerApi_t2230074258_1_0_0 = { (void*)1692, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SampleType_t1208595618_0_0_0 = { (void*)1687, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SampleType_t1208595618_1_0_0 = { (void*)1687, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType SampleType_t1208595618_0_0_32854 = { (void*)1687, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SampleType_t1208595618_0_0_0 = { (void*)1693, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SampleType_t1208595618_1_0_0 = { (void*)1693, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType SampleType_t1208595618_0_0_32854 = { (void*)1693, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType RectTransformUtility_t1743242446_0_0_0 = { (void*)1691, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RectTransformUtility_t1743242446_1_0_0 = { (void*)1691, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RectTransformUtility_t1743242446_0_0_0 = { (void*)1697, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RectTransformUtility_t1743242446_1_0_0 = { (void*)1697, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745545_0_0_0 = { (void*)1692, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745545_1_0_0 = { (void*)1692, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745545_0_0_0 = { (void*)1698, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745545_1_0_0 = { (void*)1698, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType WebRequestUtils_t3541624225_0_0_0 = { (void*)1693, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WebRequestUtils_t3541624225_1_0_0 = { (void*)1693, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WebRequestUtils_t3541624225_0_0_0 = { (void*)1699, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WebRequestUtils_t3541624225_1_0_0 = { (void*)1699, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745546_0_0_0 = { (void*)1694, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745546_1_0_0 = { (void*)1694, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745546_0_0_0 = { (void*)1700, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745546_1_0_0 = { (void*)1700, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType InputTracking_t2240286067_0_0_0 = { (void*)1695, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType InputTracking_t2240286067_1_0_0 = { (void*)1695, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType InputTracking_t2240286067_0_0_0 = { (void*)1701, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InputTracking_t2240286067_1_0_0 = { (void*)1701, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TrackingStateEventType_t4085253601_0_0_0 = { (void*)1696, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TrackingStateEventType_t4085253601_1_0_0 = { (void*)1696, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TrackingStateEventType_t4085253601_0_0_32854 = { (void*)1696, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TrackingStateEventType_t4085253601_0_0_0 = { (void*)1702, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TrackingStateEventType_t4085253601_1_0_0 = { (void*)1702, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TrackingStateEventType_t4085253601_0_0_32854 = { (void*)1702, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType XRNode_t3929440994_0_0_0 = { (void*)1697, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType XRNode_t3929440994_1_0_0 = { (void*)1697, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType XRNode_t3929440994_0_0_32854 = { (void*)1697, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType XRNode_t3929440994_0_0_1 = { (void*)1697, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType XRNode_t3929440994_0_0_0 = { (void*)1703, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType XRNode_t3929440994_1_0_0 = { (void*)1703, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType XRNode_t3929440994_0_0_32854 = { (void*)1703, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType XRNode_t3929440994_0_0_1 = { (void*)1703, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType AvailableTrackingData_t3752197997_0_0_0 = { (void*)1698, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AvailableTrackingData_t3752197997_1_0_0 = { (void*)1698, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType AvailableTrackingData_t3752197997_0_0_32854 = { (void*)1698, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AvailableTrackingData_t3752197997_0_0_1 = { (void*)1698, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AvailableTrackingData_t3752197997_0_0_0 = { (void*)1704, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AvailableTrackingData_t3752197997_1_0_0 = { (void*)1704, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AvailableTrackingData_t3752197997_0_0_32854 = { (void*)1704, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AvailableTrackingData_t3752197997_0_0_1 = { (void*)1704, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745547_0_0_0 = { (void*)1700, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745547_1_0_0 = { (void*)1700, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745547_0_0_0 = { (void*)1706, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745547_1_0_0 = { (void*)1706, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745548_0_0_0 = { (void*)1701, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745548_1_0_0 = { (void*)1701, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745548_0_0_0 = { (void*)1707, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745548_1_0_0 = { (void*)1707, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType EventHandle_t600343995_0_0_0 = { (void*)1702, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType EventHandle_t600343995_1_0_0 = { (void*)1702, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType EventHandle_t600343995_0_0_32854 = { (void*)1702, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EventHandle_t600343995_0_0_0 = { (void*)1708, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EventHandle_t600343995_1_0_0 = { (void*)1708, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType EventHandle_t600343995_0_0_32854 = { (void*)1708, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType EventTrigger_t1076084509_0_0_0 = { (void*)1722, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType EventTrigger_t1076084509_1_0_0 = { (void*)1722, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType EventTrigger_t1076084509_0_0_0 = { (void*)1728, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType EventTrigger_t1076084509_1_0_0 = { (void*)1728, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType EventTriggerType_t55832929_0_0_0 = { (void*)1725, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType EventTriggerType_t55832929_0_0_6 = { (void*)1725, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType EventTriggerType_t55832929_1_0_0 = { (void*)1725, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType EventTriggerType_t55832929_0_0_32854 = { (void*)1725, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EventTriggerType_t55832929_0_0_0 = { (void*)1731, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EventTriggerType_t55832929_0_0_6 = { (void*)1731, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EventTriggerType_t55832929_1_0_0 = { (void*)1731, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType EventTriggerType_t55832929_0_0_32854 = { (void*)1731, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TriggerEvent_t3867320123_0_0_0 = { (void*)1723, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TriggerEvent_t3867320123_1_0_0 = { (void*)1723, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TriggerEvent_t3867320123_0_0_6 = { (void*)1723, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TriggerEvent_t3867320123_0_0_0 = { (void*)1729, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TriggerEvent_t3867320123_1_0_0 = { (void*)1729, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TriggerEvent_t3867320123_0_0_6 = { (void*)1729, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType ExecuteEvents_t3484638744_0_0_0 = { (void*)1726, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ExecuteEvents_t3484638744_1_0_0 = { (void*)1726, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ExecuteEvents_t3484638744_0_0_0 = { (void*)1732, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ExecuteEvents_t3484638744_1_0_0 = { (void*)1732, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType ExecuteEvents_ValidateEventData_m4040660561_gp_0_0_0_0 = { (void*)241, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t563366306_GenericClass = { 1727, { &GenInst_ExecuteEvents_Execute_m1094039016_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t563366306_GenericClass = { 1733, { &GenInst_ExecuteEvents_Execute_m1094039016_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t563366306_0_0_0 = { &EventFunction_1_t563366306_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const RuntimeType ExecuteEvents_Execute_m1094039016_gp_0_0_0_0 = { (void*)242, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-Il2CppGenericClass EventFunction_1_t3732300806_GenericClass = { 1727, { &GenInst_ExecuteEvents_ExecuteHierarchy_m790245648_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass EventFunction_1_t3732300806_GenericClass = { 1733, { &GenInst_ExecuteEvents_ExecuteHierarchy_m790245648_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType EventFunction_1_t3732300806_0_0_0 = { &EventFunction_1_t3732300806_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const RuntimeType ExecuteEvents_ExecuteHierarchy_m790245648_gp_0_0_0_0 = { (void*)243, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
@@ -19563,240 +19719,240 @@ extern const RuntimeType ExecuteEvents_CanHandleEvent_m955629521_gp_0_0_0_0 = { 
 
 extern const RuntimeType ExecuteEvents_GetEventHandler_m2411054390_gp_0_0_0_0 = { (void*)247, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType EventFunction_1_t432204885_0_0_0 = { (void*)1727, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType EventFunction_1_t432204885_1_0_0 = { (void*)1727, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType EventFunction_1_t432204885_0_0_0 = { (void*)1733, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType EventFunction_1_t432204885_1_0_0 = { (void*)1733, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType EventFunction_1_t432204885_gp_0_0_0_0 = { (void*)248, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType MoveDirection_t1216237838_0_0_0 = { (void*)1728, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MoveDirection_t1216237838_1_0_0 = { (void*)1728, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType MoveDirection_t1216237838_0_0_32854 = { (void*)1728, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MoveDirection_t1216237838_0_0_1 = { (void*)1728, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MoveDirection_t1216237838_0_0_0 = { (void*)1734, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MoveDirection_t1216237838_1_0_0 = { (void*)1734, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType MoveDirection_t1216237838_0_0_32854 = { (void*)1734, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MoveDirection_t1216237838_0_0_1 = { (void*)1734, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType RaycasterManager_t2536340562_0_0_0 = { (void*)1729, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RaycasterManager_t2536340562_1_0_0 = { (void*)1729, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RaycasterManager_t2536340562_0_0_0 = { (void*)1735, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RaycasterManager_t2536340562_1_0_0 = { (void*)1735, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType InputButton_t3704011348_0_0_0 = { (void*)1736, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType InputButton_t3704011348_0_0_1 = { (void*)1736, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType InputButton_t3704011348_1_0_0 = { (void*)1736, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType InputButton_t3704011348_0_0_32854 = { (void*)1736, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputButton_t3704011348_0_0_0 = { (void*)1742, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputButton_t3704011348_0_0_1 = { (void*)1742, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputButton_t3704011348_1_0_0 = { (void*)1742, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType InputButton_t3704011348_0_0_32854 = { (void*)1742, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType FramePressState_t3039385657_0_0_0 = { (void*)1737, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FramePressState_t3039385657_1_0_0 = { (void*)1737, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FramePressState_t3039385657_0_0_32854 = { (void*)1737, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FramePressState_t3039385657_0_0_6 = { (void*)1737, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FramePressState_t3039385657_0_0_0 = { (void*)1743, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FramePressState_t3039385657_1_0_0 = { (void*)1743, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FramePressState_t3039385657_0_0_32854 = { (void*)1743, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FramePressState_t3039385657_0_0_6 = { (void*)1743, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType PointerInputModule_t3453173740_0_0_0 = { (void*)1740, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PointerInputModule_t3453173740_1_0_0 = { (void*)1740, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PointerInputModule_t3453173740_0_0_0 = { (void*)1746, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PointerInputModule_t3453173740_1_0_0 = { (void*)1746, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MouseState_t384203932_0_0_0 = { (void*)1742, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MouseState_t384203932_0_0_33 = { (void*)1742, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MouseState_t384203932_1_0_0 = { (void*)1742, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MouseState_t384203932_0_0_0 = { (void*)1748, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MouseState_t384203932_0_0_33 = { (void*)1748, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MouseState_t384203932_1_0_0 = { (void*)1748, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MouseButtonEventData_t3190347560_0_0_0 = { (void*)1743, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MouseButtonEventData_t3190347560_0_0_1 = { (void*)1743, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MouseButtonEventData_t3190347560_1_0_0 = { (void*)1743, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MouseButtonEventData_t3190347560_0_0_0 = { (void*)1749, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MouseButtonEventData_t3190347560_0_0_1 = { (void*)1749, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MouseButtonEventData_t3190347560_1_0_0 = { (void*)1749, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType StandaloneInputModule_t2760469101_0_0_0 = { (void*)1744, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType StandaloneInputModule_t2760469101_1_0_0 = { (void*)1744, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType StandaloneInputModule_t2760469101_0_0_0 = { (void*)1750, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StandaloneInputModule_t2760469101_1_0_0 = { (void*)1750, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType InputMode_t3382566315_0_0_0 = { (void*)1745, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType InputMode_t3382566315_1_0_0 = { (void*)1745, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType InputMode_t3382566315_0_0_32854 = { (void*)1745, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputMode_t3382566315_0_0_0 = { (void*)1751, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType InputMode_t3382566315_1_0_0 = { (void*)1751, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType InputMode_t3382566315_0_0_32854 = { (void*)1751, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TouchInputModule_t4248229598_0_0_0 = { (void*)1746, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TouchInputModule_t4248229598_1_0_0 = { (void*)1746, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TouchInputModule_t4248229598_0_0_0 = { (void*)1752, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TouchInputModule_t4248229598_1_0_0 = { (void*)1752, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Physics2DRaycaster_t3382992964_0_0_0 = { (void*)1748, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Physics2DRaycaster_t3382992964_1_0_0 = { (void*)1748, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Physics2DRaycaster_t3382992964_0_0_0 = { (void*)1754, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Physics2DRaycaster_t3382992964_1_0_0 = { (void*)1754, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PhysicsRaycaster_t437419520_0_0_0 = { (void*)1749, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PhysicsRaycaster_t437419520_1_0_0 = { (void*)1749, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PhysicsRaycaster_t437419520_0_0_0 = { (void*)1755, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PhysicsRaycaster_t437419520_1_0_0 = { (void*)1755, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ITweenValue_t1003554771_0_0_0 = { (void*)1750, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ITweenValue_t1003554771_1_0_0 = { (void*)1750, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ITweenValue_t1003554771_0_0_1 = { (void*)1750, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ITweenValue_t1003554771_0_0_0 = { (void*)1756, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ITweenValue_t1003554771_1_0_0 = { (void*)1756, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ITweenValue_t1003554771_0_0_1 = { (void*)1756, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType ColorTweenMode_t1000778859_0_0_0 = { (void*)1752, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColorTweenMode_t1000778859_0_0_1 = { (void*)1752, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColorTweenMode_t1000778859_1_0_0 = { (void*)1752, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ColorTweenMode_t1000778859_0_0_32854 = { (void*)1752, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorTweenMode_t1000778859_0_0_0 = { (void*)1758, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorTweenMode_t1000778859_0_0_1 = { (void*)1758, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorTweenMode_t1000778859_1_0_0 = { (void*)1758, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ColorTweenMode_t1000778859_0_0_32854 = { (void*)1758, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ColorTweenCallback_t1121741130_0_0_1 = { (void*)1753, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ColorTweenCallback_t1121741130_0_0_0 = { (void*)1753, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ColorTweenCallback_t1121741130_1_0_0 = { (void*)1753, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ColorTweenCallback_t1121741130_0_0_1 = { (void*)1759, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ColorTweenCallback_t1121741130_0_0_0 = { (void*)1759, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ColorTweenCallback_t1121741130_1_0_0 = { (void*)1759, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FloatTweenCallback_t1856710240_0_0_1 = { (void*)1755, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FloatTweenCallback_t1856710240_0_0_0 = { (void*)1755, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FloatTweenCallback_t1856710240_1_0_0 = { (void*)1755, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FloatTweenCallback_t1856710240_0_0_1 = { (void*)1761, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FloatTweenCallback_t1856710240_0_0_0 = { (void*)1761, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FloatTweenCallback_t1856710240_1_0_0 = { (void*)1761, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TweenRunner_1_t3844461449_0_0_0 = { (void*)1756, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TweenRunner_1_t3844461449_1_0_0 = { (void*)1756, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TweenRunner_1_t3844461449_0_0_0 = { (void*)1762, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TweenRunner_1_t3844461449_1_0_0 = { (void*)1762, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType TweenRunner_1_t3844461449_gp_0_0_0_0 = { (void*)250, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType U3CStartU3Ec__Iterator0_t1249263001_0_0_0 = { (void*)1757, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartU3Ec__Iterator0_t1249263001_1_0_0 = { (void*)1757, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t1249263001_0_0_0 = { (void*)1763, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t1249263001_1_0_0 = { (void*)1763, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType U3CStartU3Ec__Iterator0_t1249263001_gp_0_0_0_3 = { (void*)249, 3, IL2CPP_TYPE_VAR, 0, 0, 0 };
 extern const RuntimeType U3CStartU3Ec__Iterator0_t1249263001_gp_0_0_0_0 = { (void*)249, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-Il2CppGenericClass U3CStartU3Ec__Iterator0_t3247905664_GenericClass = { 1757, { &GenInst_TweenRunner_1_t3844461449_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass U3CStartU3Ec__Iterator0_t3247905664_GenericClass = { 1763, { &GenInst_TweenRunner_1_t3844461449_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType U3CStartU3Ec__Iterator0_t3247905664_0_0_0 = { &U3CStartU3Ec__Iterator0_t3247905664_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TweenRunner_1_t2443037680_GenericClass = { 1756, { &GenInst_TweenRunner_1_t3844461449_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass TweenRunner_1_t2443037680_GenericClass = { 1762, { &GenInst_TweenRunner_1_t3844461449_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType TweenRunner_1_t2443037680_0_0_0 = { &TweenRunner_1_t2443037680_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ButtonClickedEvent_t48803504_0_0_0 = { (void*)1760, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ButtonClickedEvent_t48803504_0_0_1 = { (void*)1760, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ButtonClickedEvent_t48803504_1_0_0 = { (void*)1760, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ButtonClickedEvent_t48803504_0_0_0 = { (void*)1766, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ButtonClickedEvent_t48803504_0_0_1 = { (void*)1766, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ButtonClickedEvent_t48803504_1_0_0 = { (void*)1766, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3COnFinishSubmitU3Ec__Iterator0_t3413438900_0_0_0 = { (void*)1761, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3COnFinishSubmitU3Ec__Iterator0_t3413438900_1_0_0 = { (void*)1761, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3COnFinishSubmitU3Ec__Iterator0_t3413438900_0_0_0 = { (void*)1767, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3COnFinishSubmitU3Ec__Iterator0_t3413438900_1_0_0 = { (void*)1767, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CanvasUpdate_t2572322932_0_0_0 = { (void*)1762, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CanvasUpdate_t2572322932_1_0_0 = { (void*)1762, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType CanvasUpdate_t2572322932_0_0_32854 = { (void*)1762, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CanvasUpdate_t2572322932_0_0_0 = { (void*)1768, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CanvasUpdate_t2572322932_1_0_0 = { (void*)1768, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CanvasUpdate_t2572322932_0_0_32854 = { (void*)1768, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType CanvasUpdateRegistry_t2720824592_0_0_0 = { (void*)1764, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CanvasUpdateRegistry_t2720824592_1_0_0 = { (void*)1764, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType CanvasUpdateRegistry_t2720824592_0_0_17 = { (void*)1764, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CanvasUpdateRegistry_t2720824592_0_0_0 = { (void*)1770, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CanvasUpdateRegistry_t2720824592_1_0_0 = { (void*)1770, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CanvasUpdateRegistry_t2720824592_0_0_17 = { (void*)1770, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType DefaultControls_t4098465386_0_0_0 = { (void*)1766, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DefaultControls_t4098465386_1_0_0 = { (void*)1766, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DefaultControls_t4098465386_0_0_0 = { (void*)1772, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DefaultControls_t4098465386_1_0_0 = { (void*)1772, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Resources_t1597885468_0_0_0 = { (void*)1767, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Resources_t1597885468_1_0_0 = { (void*)1767, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Resources_t1597885468_0_0_0 = { (void*)1773, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Resources_t1597885468_1_0_0 = { (void*)1773, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType DropdownEvent_t4040729994_0_0_0 = { (void*)1772, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DropdownEvent_t4040729994_0_0_1 = { (void*)1772, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DropdownEvent_t4040729994_1_0_0 = { (void*)1772, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DropdownEvent_t4040729994_0_0_0 = { (void*)1778, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DropdownEvent_t4040729994_0_0_1 = { (void*)1778, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DropdownEvent_t4040729994_1_0_0 = { (void*)1778, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType Dropdown_GetOrAddComponent_m2149273607_gp_0_0_0_0 = { (void*)251, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType OptionDataList_t1438173104_0_0_1 = { (void*)1771, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OptionDataList_t1438173104_0_0_0 = { (void*)1771, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OptionDataList_t1438173104_1_0_0 = { (void*)1771, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OptionDataList_t1438173104_0_0_1 = { (void*)1777, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OptionDataList_t1438173104_0_0_0 = { (void*)1777, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OptionDataList_t1438173104_1_0_0 = { (void*)1777, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CShowU3Ec__AnonStorey1_t1106527198_0_0_0 = { (void*)1773, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CShowU3Ec__AnonStorey1_t1106527198_1_0_0 = { (void*)1773, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CShowU3Ec__AnonStorey1_t1106527198_0_0_0 = { (void*)1779, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CShowU3Ec__AnonStorey1_t1106527198_1_0_0 = { (void*)1779, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CDelayedDestroyDropdownListU3Ec__Iterator0_t3853912249_0_0_0 = { (void*)1774, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CDelayedDestroyDropdownListU3Ec__Iterator0_t3853912249_1_0_0 = { (void*)1774, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CDelayedDestroyDropdownListU3Ec__Iterator0_t3853912249_0_0_0 = { (void*)1780, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CDelayedDestroyDropdownListU3Ec__Iterator0_t3853912249_1_0_0 = { (void*)1780, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FontData_t746620069_0_0_0 = { (void*)1775, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FontData_t746620069_1_0_0 = { (void*)1775, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType FontData_t746620069_0_0_1 = { (void*)1775, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FontData_t746620069_0_0_0 = { (void*)1781, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FontData_t746620069_1_0_0 = { (void*)1781, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FontData_t746620069_0_0_1 = { (void*)1781, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType FontUpdateTracker_t1839077620_0_0_0 = { (void*)1776, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FontUpdateTracker_t1839077620_1_0_0 = { (void*)1776, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FontUpdateTracker_t1839077620_0_0_0 = { (void*)1782, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FontUpdateTracker_t1839077620_1_0_0 = { (void*)1782, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType VertexHelper_t2453304189_0_0_0 = { (void*)1878, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType VertexHelper_t2453304189_0_0_177 = { (void*)1878, 177, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType VertexHelper_t2453304189_1_0_0 = { (void*)1878, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType VertexHelper_t2453304189_0_0_0 = { (void*)1884, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexHelper_t2453304189_0_0_177 = { (void*)1884, 177, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexHelper_t2453304189_1_0_0 = { (void*)1884, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType BlockingObjects_t612090948_0_0_0 = { (void*)1779, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType BlockingObjects_t612090948_0_0_1 = { (void*)1779, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType BlockingObjects_t612090948_1_0_0 = { (void*)1779, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType BlockingObjects_t612090948_0_0_32854 = { (void*)1779, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType BlockingObjects_t612090948_0_0_0 = { (void*)1785, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType BlockingObjects_t612090948_0_0_1 = { (void*)1785, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType BlockingObjects_t612090948_1_0_0 = { (void*)1785, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType BlockingObjects_t612090948_0_0_32854 = { (void*)1785, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType GraphicRegistry_t3479976429_0_0_0 = { (void*)1780, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GraphicRegistry_t3479976429_1_0_0 = { (void*)1780, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType GraphicRegistry_t3479976429_0_0_17 = { (void*)1780, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GraphicRegistry_t3479976429_0_0_0 = { (void*)1786, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GraphicRegistry_t3479976429_1_0_0 = { (void*)1786, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GraphicRegistry_t3479976429_0_0_17 = { (void*)1786, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType IGraphicEnabledDisabled_t4213867128_0_0_0 = { (void*)1781, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IGraphicEnabledDisabled_t4213867128_1_0_0 = { (void*)1781, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IGraphicEnabledDisabled_t4213867128_0_0_0 = { (void*)1787, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IGraphicEnabledDisabled_t4213867128_1_0_0 = { (void*)1787, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType OriginHorizontal_t1174417785_0_0_0 = { (void*)1785, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType OriginHorizontal_t1174417785_1_0_0 = { (void*)1785, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType OriginHorizontal_t1174417785_0_0_32854 = { (void*)1785, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType OriginHorizontal_t1174417785_0_0_0 = { (void*)1791, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType OriginHorizontal_t1174417785_1_0_0 = { (void*)1791, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType OriginHorizontal_t1174417785_0_0_32854 = { (void*)1791, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType OriginVertical_t2256455259_0_0_0 = { (void*)1786, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType OriginVertical_t2256455259_1_0_0 = { (void*)1786, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType OriginVertical_t2256455259_0_0_32854 = { (void*)1786, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType OriginVertical_t2256455259_0_0_0 = { (void*)1792, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType OriginVertical_t2256455259_1_0_0 = { (void*)1792, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType OriginVertical_t2256455259_0_0_32854 = { (void*)1792, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType Origin90_t1855765812_0_0_0 = { (void*)1787, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Origin90_t1855765812_1_0_0 = { (void*)1787, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Origin90_t1855765812_0_0_32854 = { (void*)1787, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Origin90_t1855765812_0_0_0 = { (void*)1793, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Origin90_t1855765812_1_0_0 = { (void*)1793, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Origin90_t1855765812_0_0_32854 = { (void*)1793, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType Origin180_t325369132_0_0_0 = { (void*)1788, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Origin180_t325369132_1_0_0 = { (void*)1788, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Origin180_t325369132_0_0_32854 = { (void*)1788, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Origin180_t325369132_0_0_0 = { (void*)1794, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Origin180_t325369132_1_0_0 = { (void*)1794, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Origin180_t325369132_0_0_32854 = { (void*)1794, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType Origin360_t707706162_0_0_0 = { (void*)1789, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Origin360_t707706162_1_0_0 = { (void*)1789, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Origin360_t707706162_0_0_32854 = { (void*)1789, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Origin360_t707706162_0_0_0 = { (void*)1795, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Origin360_t707706162_1_0_0 = { (void*)1795, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Origin360_t707706162_0_0_32854 = { (void*)1795, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType IMask_t3901070703_0_0_0 = { (void*)1790, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IMask_t3901070703_1_0_0 = { (void*)1790, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IMask_t3901070703_0_0_0 = { (void*)1796, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IMask_t3901070703_1_0_0 = { (void*)1796, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType EditState_t3741896775_0_0_0 = { (void*)1800, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType EditState_t3741896775_1_0_0 = { (void*)1800, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType EditState_t3741896775_0_0_32854 = { (void*)1800, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EditState_t3741896775_0_0_0 = { (void*)1806, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EditState_t3741896775_1_0_0 = { (void*)1806, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType EditState_t3741896775_0_0_32854 = { (void*)1806, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType ContentTypeU5BU5D_t2431451661_0_0_0 = { (void*)&ContentType_t1787303396_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType SelectionState_t2656606514_0_0_0 = { (void*)1823, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SelectionState_t2656606514_0_0_1 = { (void*)1823, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SelectionState_t2656606514_1_0_0 = { (void*)1823, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType SelectionState_t2656606514_0_0_32854 = { (void*)1823, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SelectionState_t2656606514_0_0_0 = { (void*)1829, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SelectionState_t2656606514_0_0_1 = { (void*)1829, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SelectionState_t2656606514_1_0_0 = { (void*)1829, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType SelectionState_t2656606514_0_0_32854 = { (void*)1829, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType UIVertexU5BU5D_t1981460040_0_0_4 = { (void*)&UIVertex_t4057497605_0_0_0, 4, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType UIVertexU5BU5D_t1981460040_0_0_33 = { (void*)&UIVertex_t4057497605_0_0_0, 33, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType UIVertexU5BU5D_t1981460040_0_0_0 = { (void*)&UIVertex_t4057497605_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType U3CCaretBlinkU3Ec__Iterator0_t2589889038_0_0_0 = { (void*)1801, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CCaretBlinkU3Ec__Iterator0_t2589889038_1_0_0 = { (void*)1801, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CCaretBlinkU3Ec__Iterator0_t2589889038_0_0_0 = { (void*)1807, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CCaretBlinkU3Ec__Iterator0_t2589889038_1_0_0 = { (void*)1807, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CMouseDragOutsideRectU3Ec__Iterator1_t3909241878_0_0_0 = { (void*)1802, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CMouseDragOutsideRectU3Ec__Iterator1_t3909241878_1_0_0 = { (void*)1802, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CMouseDragOutsideRectU3Ec__Iterator1_t3909241878_0_0_0 = { (void*)1808, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CMouseDragOutsideRectU3Ec__Iterator1_t3909241878_1_0_0 = { (void*)1808, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CullStateChangedEvent_t3661388177_0_0_0 = { (void*)1805, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CullStateChangedEvent_t3661388177_0_0_1 = { (void*)1805, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CullStateChangedEvent_t3661388177_1_0_0 = { (void*)1805, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CullStateChangedEvent_t3661388177_0_0_0 = { (void*)1811, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CullStateChangedEvent_t3661388177_0_0_1 = { (void*)1811, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CullStateChangedEvent_t3661388177_1_0_0 = { (void*)1811, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MaskUtilities_t4151184739_0_0_0 = { (void*)1806, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MaskUtilities_t4151184739_1_0_0 = { (void*)1806, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MaskUtilities_t4151184739_0_0_0 = { (void*)1812, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MaskUtilities_t4151184739_1_0_0 = { (void*)1812, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Misc_t1447421763_0_0_0 = { (void*)1807, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Misc_t1447421763_1_0_0 = { (void*)1807, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Misc_t1447421763_0_0_0 = { (void*)1813, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Misc_t1447421763_1_0_0 = { (void*)1813, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Mode_t1066900953_0_0_0 = { (void*)1809, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Mode_t1066900953_0_0_1 = { (void*)1809, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Mode_t1066900953_1_0_0 = { (void*)1809, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Mode_t1066900953_0_0_32854 = { (void*)1809, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Mode_t1066900953_0_0_0 = { (void*)1815, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Mode_t1066900953_0_0_1 = { (void*)1815, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Mode_t1066900953_1_0_0 = { (void*)1815, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Mode_t1066900953_0_0_32854 = { (void*)1815, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType RectangularVertexClipper_t626611136_0_0_161 = { (void*)1841, 161, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RectangularVertexClipper_t626611136_0_0_0 = { (void*)1841, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType RectangularVertexClipper_t626611136_1_0_0 = { (void*)1841, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RectangularVertexClipper_t626611136_0_0_161 = { (void*)1847, 161, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RectangularVertexClipper_t626611136_0_0_0 = { (void*)1847, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RectangularVertexClipper_t626611136_1_0_0 = { (void*)1847, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ScrollEvent_t149898510_0_0_0 = { (void*)1814, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ScrollEvent_t149898510_0_0_1 = { (void*)1814, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ScrollEvent_t149898510_1_0_0 = { (void*)1814, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ScrollEvent_t149898510_0_0_0 = { (void*)1820, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ScrollEvent_t149898510_0_0_1 = { (void*)1820, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ScrollEvent_t149898510_1_0_0 = { (void*)1820, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Axis_t1697763317_0_0_0 = { (void*)1815, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Axis_t1697763317_1_0_0 = { (void*)1815, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Axis_t1697763317_0_0_32854 = { (void*)1815, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Axis_t1697763317_0_0_0 = { (void*)1821, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Axis_t1697763317_1_0_0 = { (void*)1821, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Axis_t1697763317_0_0_32854 = { (void*)1821, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType U3CClickRepeatU3Ec__Iterator0_t3442648935_0_0_0 = { (void*)1816, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CClickRepeatU3Ec__Iterator0_t3442648935_1_0_0 = { (void*)1816, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CClickRepeatU3Ec__Iterator0_t3442648935_0_0_0 = { (void*)1822, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CClickRepeatU3Ec__Iterator0_t3442648935_1_0_0 = { (void*)1822, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MovementType_t4072922106_0_0_0 = { (void*)1818, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MovementType_t4072922106_0_0_1 = { (void*)1818, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MovementType_t4072922106_1_0_0 = { (void*)1818, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType MovementType_t4072922106_0_0_32854 = { (void*)1818, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MovementType_t4072922106_0_0_0 = { (void*)1824, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MovementType_t4072922106_0_0_1 = { (void*)1824, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MovementType_t4072922106_1_0_0 = { (void*)1824, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType MovementType_t4072922106_0_0_32854 = { (void*)1824, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ScrollbarVisibility_t705693775_0_0_0 = { (void*)1819, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ScrollbarVisibility_t705693775_0_0_1 = { (void*)1819, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ScrollbarVisibility_t705693775_1_0_0 = { (void*)1819, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ScrollbarVisibility_t705693775_0_0_32854 = { (void*)1819, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ScrollbarVisibility_t705693775_0_0_0 = { (void*)1825, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ScrollbarVisibility_t705693775_0_0_1 = { (void*)1825, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ScrollbarVisibility_t705693775_1_0_0 = { (void*)1825, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ScrollbarVisibility_t705693775_0_0_32854 = { (void*)1825, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ScrollRectEvent_t343079324_0_0_0 = { (void*)1820, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ScrollRectEvent_t343079324_0_0_1 = { (void*)1820, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ScrollRectEvent_t343079324_1_0_0 = { (void*)1820, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ScrollRectEvent_t343079324_0_0_0 = { (void*)1826, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ScrollRectEvent_t343079324_0_0_1 = { (void*)1826, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ScrollRectEvent_t343079324_1_0_0 = { (void*)1826, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SetPropertyUtility_t3359423571_0_0_0 = { (void*)1824, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SetPropertyUtility_t3359423571_1_0_0 = { (void*)1824, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SetPropertyUtility_t3359423571_0_0_0 = { (void*)1830, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SetPropertyUtility_t3359423571_1_0_0 = { (void*)1830, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType SetPropertyUtility_SetStruct_m2462657881_gp_0_1_0_0 = { (void*)252, 0, IL2CPP_TYPE_MVAR, 0, 1, 0 };
 extern const RuntimeType SetPropertyUtility_SetStruct_m2462657881_gp_0_0_0_0 = { (void*)252, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
@@ -19807,90 +19963,90 @@ extern const RuntimeType EqualityComparer_1_t1286072262_0_0_0 = { &EqualityCompa
 extern const RuntimeType SetPropertyUtility_SetClass_m1441723447_gp_0_1_0_0 = { (void*)253, 0, IL2CPP_TYPE_MVAR, 0, 1, 0 };
 extern const RuntimeType SetPropertyUtility_SetClass_m1441723447_gp_0_0_0_0 = { (void*)253, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType SliderEvent_t3180273144_0_0_0 = { (void*)1827, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SliderEvent_t3180273144_0_0_1 = { (void*)1827, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SliderEvent_t3180273144_1_0_0 = { (void*)1827, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SliderEvent_t3180273144_0_0_0 = { (void*)1833, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SliderEvent_t3180273144_0_0_1 = { (void*)1833, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SliderEvent_t3180273144_1_0_0 = { (void*)1833, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Axis_t809944411_0_0_0 = { (void*)1828, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Axis_t809944411_1_0_0 = { (void*)1828, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Axis_t809944411_0_0_32854 = { (void*)1828, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Axis_t809944411_0_0_0 = { (void*)1834, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Axis_t809944411_1_0_0 = { (void*)1834, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Axis_t809944411_0_0_32854 = { (void*)1834, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType StencilMaterial_t3850132571_0_0_0 = { (void*)1830, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType StencilMaterial_t3850132571_1_0_0 = { (void*)1830, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType StencilMaterial_t3850132571_0_0_0 = { (void*)1836, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StencilMaterial_t3850132571_1_0_0 = { (void*)1836, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ToggleGroup_t123837990_0_0_0 = { (void*)1836, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ToggleGroup_t123837990_0_0_1 = { (void*)1836, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ToggleGroup_t123837990_1_0_0 = { (void*)1836, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ToggleGroup_t123837990_0_0_0 = { (void*)1842, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ToggleGroup_t123837990_0_0_1 = { (void*)1842, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ToggleGroup_t123837990_1_0_0 = { (void*)1842, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ToggleTransition_t3587297765_0_0_6 = { (void*)1834, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ToggleTransition_t3587297765_0_0_0 = { (void*)1834, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ToggleTransition_t3587297765_1_0_0 = { (void*)1834, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ToggleTransition_t3587297765_0_0_32854 = { (void*)1834, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ToggleTransition_t3587297765_0_0_6 = { (void*)1840, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ToggleTransition_t3587297765_0_0_0 = { (void*)1840, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ToggleTransition_t3587297765_1_0_0 = { (void*)1840, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ToggleTransition_t3587297765_0_0_32854 = { (void*)1840, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ToggleEvent_t1873685584_0_0_6 = { (void*)1835, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ToggleEvent_t1873685584_0_0_0 = { (void*)1835, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ToggleEvent_t1873685584_1_0_0 = { (void*)1835, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ToggleEvent_t1873685584_0_0_6 = { (void*)1841, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ToggleEvent_t1873685584_0_0_0 = { (void*)1841, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ToggleEvent_t1873685584_1_0_0 = { (void*)1841, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ClipperRegistry_t2428680409_0_0_0 = { (void*)1837, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ClipperRegistry_t2428680409_1_0_0 = { (void*)1837, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ClipperRegistry_t2428680409_0_0_17 = { (void*)1837, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ClipperRegistry_t2428680409_0_0_0 = { (void*)1843, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ClipperRegistry_t2428680409_1_0_0 = { (void*)1843, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ClipperRegistry_t2428680409_0_0_17 = { (void*)1843, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType Clipping_t312708592_0_0_0 = { (void*)1838, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Clipping_t312708592_1_0_0 = { (void*)1838, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Clipping_t312708592_0_0_0 = { (void*)1844, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Clipping_t312708592_1_0_0 = { (void*)1844, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AspectRatioFitter_t3312407083_0_0_0 = { (void*)1842, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AspectRatioFitter_t3312407083_1_0_0 = { (void*)1842, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AspectRatioFitter_t3312407083_0_0_0 = { (void*)1848, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AspectRatioFitter_t3312407083_1_0_0 = { (void*)1848, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ILayoutSelfController_t2317839084_0_0_0 = { (void*)1859, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ILayoutSelfController_t2317839084_1_0_0 = { (void*)1859, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ILayoutSelfController_t2317839084_0_0_0 = { (void*)1865, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ILayoutSelfController_t2317839084_1_0_0 = { (void*)1865, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CanvasScaler_t2767979955_0_0_0 = { (void*)1844, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CanvasScaler_t2767979955_1_0_0 = { (void*)1844, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CanvasScaler_t2767979955_0_0_0 = { (void*)1850, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CanvasScaler_t2767979955_1_0_0 = { (void*)1850, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ScaleMode_t2604066427_0_0_0 = { (void*)1845, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ScaleMode_t2604066427_0_0_1 = { (void*)1845, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ScaleMode_t2604066427_1_0_0 = { (void*)1845, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ScaleMode_t2604066427_0_0_32854 = { (void*)1845, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ScaleMode_t2604066427_0_0_0 = { (void*)1851, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ScaleMode_t2604066427_0_0_1 = { (void*)1851, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ScaleMode_t2604066427_1_0_0 = { (void*)1851, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ScaleMode_t2604066427_0_0_32854 = { (void*)1851, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ScreenMatchMode_t3675272090_0_0_0 = { (void*)1846, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ScreenMatchMode_t3675272090_0_0_4 = { (void*)1846, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ScreenMatchMode_t3675272090_1_0_0 = { (void*)1846, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ScreenMatchMode_t3675272090_0_0_32854 = { (void*)1846, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ScreenMatchMode_t3675272090_0_0_0 = { (void*)1852, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ScreenMatchMode_t3675272090_0_0_4 = { (void*)1852, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ScreenMatchMode_t3675272090_1_0_0 = { (void*)1852, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ScreenMatchMode_t3675272090_0_0_32854 = { (void*)1852, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType Unit_t2218508340_0_0_0 = { (void*)1847, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Unit_t2218508340_0_0_4 = { (void*)1847, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Unit_t2218508340_1_0_0 = { (void*)1847, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Unit_t2218508340_0_0_32854 = { (void*)1847, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Unit_t2218508340_0_0_0 = { (void*)1853, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Unit_t2218508340_0_0_4 = { (void*)1853, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Unit_t2218508340_1_0_0 = { (void*)1853, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Unit_t2218508340_0_0_32854 = { (void*)1853, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ContentSizeFitter_t3850442145_0_0_0 = { (void*)1848, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ContentSizeFitter_t3850442145_1_0_0 = { (void*)1848, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ContentSizeFitter_t3850442145_0_0_0 = { (void*)1854, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ContentSizeFitter_t3850442145_1_0_0 = { (void*)1854, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GridLayoutGroup_t3046220461_0_0_0 = { (void*)1850, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GridLayoutGroup_t3046220461_1_0_0 = { (void*)1850, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GridLayoutGroup_t3046220461_0_0_0 = { (void*)1856, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GridLayoutGroup_t3046220461_1_0_0 = { (void*)1856, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType LayoutGroup_t2436138090_0_0_0 = { (void*)1862, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LayoutGroup_t2436138090_1_0_0 = { (void*)1862, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType LayoutGroup_t2436138090_0_0_0 = { (void*)1868, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LayoutGroup_t2436138090_1_0_0 = { (void*)1868, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType HorizontalLayoutGroup_t2586782146_0_0_0 = { (void*)1854, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType HorizontalLayoutGroup_t2586782146_1_0_0 = { (void*)1854, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType HorizontalLayoutGroup_t2586782146_0_0_0 = { (void*)1860, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType HorizontalLayoutGroup_t2586782146_1_0_0 = { (void*)1860, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType HorizontalOrVerticalLayoutGroup_t729725570_0_0_0 = { (void*)1855, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType HorizontalOrVerticalLayoutGroup_t729725570_1_0_0 = { (void*)1855, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType HorizontalOrVerticalLayoutGroup_t729725570_0_0_0 = { (void*)1861, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType HorizontalOrVerticalLayoutGroup_t729725570_1_0_0 = { (void*)1861, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType LayoutGroup_SetProperty_m3996003139_gp_0_1_0_0 = { (void*)254, 0, IL2CPP_TYPE_MVAR, 0, 1, 0 };
 extern const RuntimeType LayoutGroup_SetProperty_m3996003139_gp_0_0_0_0 = { (void*)254, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType U3CDelayedSetDirtyU3Ec__Iterator0_t3170500204_0_0_0 = { (void*)1863, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CDelayedSetDirtyU3Ec__Iterator0_t3170500204_1_0_0 = { (void*)1863, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CDelayedSetDirtyU3Ec__Iterator0_t3170500204_0_0_0 = { (void*)1869, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CDelayedSetDirtyU3Ec__Iterator0_t3170500204_1_0_0 = { (void*)1869, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType LayoutUtility_t2745813735_0_0_0 = { (void*)1865, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LayoutUtility_t2745813735_1_0_0 = { (void*)1865, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType LayoutUtility_t2745813735_0_0_0 = { (void*)1871, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LayoutUtility_t2745813735_1_0_0 = { (void*)1871, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType VerticalLayoutGroup_t923838031_0_0_0 = { (void*)1866, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType VerticalLayoutGroup_t923838031_1_0_0 = { (void*)1866, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType VerticalLayoutGroup_t923838031_0_0_0 = { (void*)1872, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VerticalLayoutGroup_t923838031_1_0_0 = { (void*)1872, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType IndexedSet_1_t2120020791_0_0_0 = { (void*)1868, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IndexedSet_1_t2120020791_1_0_0 = { (void*)1868, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IndexedSet_1_t2120020791_0_0_0 = { (void*)1874, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IndexedSet_1_t2120020791_1_0_0 = { (void*)1874, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType IndexedSet_1_t2120020791_gp_0_0_0_0 = { (void*)255, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
@@ -19924,29 +20080,29 @@ Il2CppGenericClass IEnumerable_1_t1747506129_GenericClass = { 29, { &GenInst_Ind
 extern const RuntimeType IEnumerable_1_t1747506129_0_0_2 = { &IEnumerable_1_t1747506129_GenericClass, 2, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType IEnumerable_1_t1747506129_0_0_0 = { &IEnumerable_1_t1747506129_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ListPool_1_t890186770_0_0_0 = { (void*)1869, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ListPool_1_t890186770_1_0_0 = { (void*)1869, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ListPool_1_t890186770_0_0_0 = { (void*)1875, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ListPool_1_t890186770_1_0_0 = { (void*)1875, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass List_1_t3009893961_GenericClass = { 174, { &GenInst_ListPool_1_t890186770_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t3009893961_0_0_0 = { &List_1_t3009893961_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const RuntimeType ListPool_1_t890186770_gp_0_0_0_0 = { (void*)256, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-Il2CppGenericClass ObjectPool_1_t2709517173_GenericClass = { 1870, { &GenInst_List_1_t3009893961_0_0_0, NULL }, NULL };
+Il2CppGenericClass ObjectPool_1_t2709517173_GenericClass = { 1876, { &GenInst_List_1_t3009893961_0_0_0, NULL }, NULL };
 extern const RuntimeType ObjectPool_1_t2709517173_0_0_49 = { &ObjectPool_1_t2709517173_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType ObjectPool_1_t2709517173_0_0_0 = { &ObjectPool_1_t2709517173_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t3594730102_GenericClass = { 1479, { &GenInst_List_1_t3009893961_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t3594730102_GenericClass = { 1481, { &GenInst_List_1_t3009893961_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t3594730102_0_0_17 = { &UnityAction_1_t3594730102_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_1_t3594730102_0_0_0 = { &UnityAction_1_t3594730102_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass ListPool_1_t2567408410_GenericClass = { 1869, { &GenInst_ListPool_1_t890186770_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass ListPool_1_t2567408410_GenericClass = { 1875, { &GenInst_ListPool_1_t890186770_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType ListPool_1_t2567408410_0_0_0 = { &ListPool_1_t2567408410_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ObjectPool_1_t892185599_0_0_0 = { (void*)1870, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ObjectPool_1_t892185599_1_0_0 = { (void*)1870, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ObjectPool_1_t892185599_0_0_0 = { (void*)1876, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ObjectPool_1_t892185599_1_0_0 = { (void*)1876, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_1_t2124654189_GenericClass = { 1479, { &GenInst_ObjectPool_1_t892185599_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t2124654189_GenericClass = { 1481, { &GenInst_ObjectPool_1_t892185599_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t2124654189_0_0_0 = { &UnityAction_1_t2124654189_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_1_t2124654189_0_0_33 = { &UnityAction_1_t2124654189_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -19956,50 +20112,50 @@ Il2CppGenericClass Stack_1_t2383207503_GenericClass = { 1081, { &GenInst_ObjectP
 extern const RuntimeType Stack_1_t2383207503_0_0_33 = { &Stack_1_t2383207503_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Stack_1_t2383207503_0_0_0 = { &Stack_1_t2383207503_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType ReflectionMethodsCache_t2103211062_0_0_0 = { (void*)1871, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ReflectionMethodsCache_t2103211062_1_0_0 = { (void*)1871, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ReflectionMethodsCache_t2103211062_0_0_17 = { (void*)1871, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ReflectionMethodsCache_t2103211062_0_0_0 = { (void*)1877, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ReflectionMethodsCache_t2103211062_1_0_0 = { (void*)1877, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ReflectionMethodsCache_t2103211062_0_0_17 = { (void*)1877, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType BaseVertexEffect_t2675891272_0_0_0 = { (void*)1879, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseVertexEffect_t2675891272_1_0_0 = { (void*)1879, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BaseVertexEffect_t2675891272_0_0_0 = { (void*)1885, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseVertexEffect_t2675891272_1_0_0 = { (void*)1885, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType BaseMeshEffect_t2440176439_0_0_0 = { (void*)1880, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BaseMeshEffect_t2440176439_1_0_0 = { (void*)1880, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BaseMeshEffect_t2440176439_0_0_0 = { (void*)1886, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseMeshEffect_t2440176439_1_0_0 = { (void*)1886, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType IVertexModifier_t3404627876_0_0_0 = { (void*)1881, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IVertexModifier_t3404627876_1_0_0 = { (void*)1881, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IVertexModifier_t3404627876_0_0_0 = { (void*)1887, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IVertexModifier_t3404627876_1_0_0 = { (void*)1887, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Outline_t2536100125_0_0_0 = { (void*)1883, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Outline_t2536100125_1_0_0 = { (void*)1883, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Outline_t2536100125_0_0_0 = { (void*)1889, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Outline_t2536100125_1_0_0 = { (void*)1889, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Shadow_t773074319_0_0_0 = { (void*)1885, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Shadow_t773074319_1_0_0 = { (void*)1885, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Shadow_t773074319_0_0_0 = { (void*)1891, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Shadow_t773074319_1_0_0 = { (void*)1891, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PositionAsUV1_t3991086357_0_0_0 = { (void*)1884, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PositionAsUV1_t3991086357_1_0_0 = { (void*)1884, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PositionAsUV1_t3991086357_0_0_0 = { (void*)1890, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PositionAsUV1_t3991086357_1_0_0 = { (void*)1890, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CPrivateImplementationDetailsU3E_t3057255365_0_0_0 = { (void*)1886, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CPrivateImplementationDetailsU3E_t3057255365_1_0_0 = { (void*)1886, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CPrivateImplementationDetailsU3E_t3057255365_0_0_0 = { (void*)1892, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CPrivateImplementationDetailsU3E_t3057255365_1_0_0 = { (void*)1892, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U24ArrayTypeU3D12_t2488454196_0_0_307 = { (void*)1887, 307, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType U24ArrayTypeU3D12_t2488454196_0_0_0 = { (void*)1887, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType U24ArrayTypeU3D12_t2488454196_1_0_0 = { (void*)1887, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType U24ArrayTypeU3D12_t2488454196_0_0_307 = { (void*)1893, 307, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType U24ArrayTypeU3D12_t2488454196_0_0_0 = { (void*)1893, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType U24ArrayTypeU3D12_t2488454196_1_0_0 = { (void*)1893, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745549_0_0_0 = { (void*)1888, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745549_1_0_0 = { (void*)1888, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745549_0_0_0 = { (void*)1894, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745549_1_0_0 = { (void*)1894, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SystemSettings_t3809791252_0_0_0 = { (void*)1889, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SystemSettings_t3809791252_1_0_0 = { (void*)1889, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SystemSettings_t3809791252_0_0_0 = { (void*)1895, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SystemSettings_t3809791252_1_0_0 = { (void*)1895, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745550_0_0_0 = { (void*)1890, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745550_1_0_0 = { (void*)1890, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745550_0_0_0 = { (void*)1896, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745550_1_0_0 = { (void*)1896, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FastAction_t3491443480_0_0_0 = { (void*)1891, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FastAction_t3491443480_1_0_0 = { (void*)1891, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType FastAction_t3491443480_0_0_54 = { (void*)1891, 54, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FastAction_t3491443480_0_0_0 = { (void*)1897, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FastAction_t3491443480_1_0_0 = { (void*)1897, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FastAction_t3491443480_0_0_54 = { (void*)1897, 54, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType FastAction_1_t2420856216_0_0_0 = { (void*)1892, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FastAction_1_t2420856216_1_0_0 = { (void*)1892, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FastAction_1_t2420856216_0_0_0 = { (void*)1898, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FastAction_1_t2420856216_1_0_0 = { (void*)1898, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass Action_1_t3240956260_GenericClass = { 917, { &GenInst_FastAction_1_t2420856216_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType Action_1_t3240956260_0_0_0 = { &Action_1_t3240956260_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -20017,8 +20173,8 @@ extern const RuntimeType Dictionary_2_t184590335_0_0_0 = { &Dictionary_2_t184590
 Il2CppGenericClass LinkedListNode_1_t2986131363_GenericClass = { 1078, { &GenInst_Action_1_t3240956260_0_0_0, NULL }, NULL };
 extern const RuntimeType LinkedListNode_1_t2986131363_0_0_0 = { &LinkedListNode_1_t2986131363_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType FastAction_2_t2421052824_0_0_0 = { (void*)1893, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FastAction_2_t2421052824_1_0_0 = { (void*)1893, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FastAction_2_t2421052824_0_0_0 = { (void*)1899, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FastAction_2_t2421052824_1_0_0 = { (void*)1899, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass Action_2_t3881532715_GenericClass = { 1256, { &GenInst_FastAction_2_t2421052824_gp_0_0_0_0_FastAction_2_t2421052824_gp_1_0_0_0, NULL }, NULL };
 extern const RuntimeType Action_2_t3881532715_0_0_0 = { &Action_2_t3881532715_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -20038,8 +20194,8 @@ extern const RuntimeType Dictionary_2_t1064250627_0_0_0 = { &Dictionary_2_t10642
 Il2CppGenericClass LinkedListNode_1_t3626707818_GenericClass = { 1078, { &GenInst_Action_2_t3881532715_0_0_0, NULL }, NULL };
 extern const RuntimeType LinkedListNode_1_t3626707818_0_0_0 = { &LinkedListNode_1_t3626707818_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType FastAction_3_t2420987288_0_0_0 = { (void*)1894, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FastAction_3_t2420987288_1_0_0 = { (void*)1894, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FastAction_3_t2420987288_0_0_0 = { (void*)1900, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FastAction_3_t2420987288_1_0_0 = { (void*)1900, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass Action_3_t4213579327_GenericClass = { 1257, { &GenInst_FastAction_3_t2420987288_gp_0_0_0_0_FastAction_3_t2420987288_gp_1_0_0_0_FastAction_3_t2420987288_gp_2_0_0_0, NULL }, NULL };
 extern const RuntimeType Action_3_t4213579327_0_0_0 = { &Action_3_t4213579327_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -20061,32 +20217,32 @@ extern const RuntimeType Dictionary_2_t4178068019_0_0_0 = { &Dictionary_2_t41780
 Il2CppGenericClass LinkedListNode_1_t3958754430_GenericClass = { 1078, { &GenInst_Action_3_t4213579327_0_0_0, NULL }, NULL };
 extern const RuntimeType LinkedListNode_1_t3958754430_0_0_0 = { &LinkedListNode_1_t3958754430_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType MaterialReferenceManager_t2114976864_0_0_0 = { (void*)1895, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MaterialReferenceManager_t2114976864_1_0_0 = { (void*)1895, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType MaterialReferenceManager_t2114976864_0_0_17 = { (void*)1895, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MaterialReferenceManager_t2114976864_0_0_0 = { (void*)1901, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MaterialReferenceManager_t2114976864_1_0_0 = { (void*)1901, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MaterialReferenceManager_t2114976864_0_0_17 = { (void*)1901, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType MaterialReferenceU5BU5D_t648826345_0_0_0 = { (void*)&MaterialReference_t1952344632_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType MaterialReferenceU5BU5D_t648826345_0_0_4 = { (void*)&MaterialReference_t1952344632_0_0_0, 4, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType TextContainerAnchors_t945851193_0_0_0 = { (void*)1897, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextContainerAnchors_t945851193_1_0_0 = { (void*)1897, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextContainerAnchors_t945851193_0_0_32854 = { (void*)1897, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextContainerAnchors_t945851193_0_0_1 = { (void*)1897, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextContainerAnchors_t945851193_0_0_0 = { (void*)1903, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextContainerAnchors_t945851193_1_0_0 = { (void*)1903, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextContainerAnchors_t945851193_0_0_32854 = { (void*)1903, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextContainerAnchors_t945851193_0_0_1 = { (void*)1903, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType MaskingTypes_t3687969768_0_0_0 = { (void*)2006, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MaskingTypes_t3687969768_0_0_1 = { (void*)2006, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MaskingTypes_t3687969768_1_0_0 = { (void*)2006, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType MaskingTypes_t3687969768_0_0_32854 = { (void*)2006, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MaskingTypes_t3687969768_0_0_0 = { (void*)2012, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MaskingTypes_t3687969768_0_0_1 = { (void*)2012, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MaskingTypes_t3687969768_1_0_0 = { (void*)2012, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType MaskingTypes_t3687969768_0_0_32854 = { (void*)2012, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TMP_TextInfo_t3598145122_0_0_0 = { (void*)2017, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextInfo_t3598145122_0_0_6 = { (void*)2017, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextInfo_t3598145122_0_0_4 = { (void*)2017, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextInfo_t3598145122_1_0_0 = { (void*)2017, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_TextInfo_t3598145122_0_0_3 = { (void*)2017, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextInfo_t3598145122_0_0_0 = { (void*)2023, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextInfo_t3598145122_0_0_6 = { (void*)2023, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextInfo_t3598145122_0_0_4 = { (void*)2023, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextInfo_t3598145122_1_0_0 = { (void*)2023, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_TextInfo_t3598145122_0_0_3 = { (void*)2023, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType TMP_VertexDataUpdateFlags_t388000256_0_0_0 = { (void*)1917, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_VertexDataUpdateFlags_t388000256_1_0_0 = { (void*)1917, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TMP_VertexDataUpdateFlags_t388000256_0_0_32854 = { (void*)1917, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_VertexDataUpdateFlags_t388000256_0_0_0 = { (void*)1923, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_VertexDataUpdateFlags_t388000256_1_0_0 = { (void*)1923, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_VertexDataUpdateFlags_t388000256_0_0_32854 = { (void*)1923, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType TMP_SubMeshU5BU5D_t1860744960_0_0_4 = { (void*)&TMP_SubMesh_t2613037997_0_0_0, 4, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType TMP_SubMeshU5BU5D_t1860744960_0_0_0 = { (void*)&TMP_SubMesh_t2613037997_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
@@ -20094,204 +20250,204 @@ extern const RuntimeType TMP_SubMeshU5BU5D_t1860744960_0_0_0 = { (void*)&TMP_Sub
 extern const RuntimeType TMP_SubMeshUIU5BU5D_t3119380694_0_0_4 = { (void*)&TMP_SubMeshUI_t1578871311_0_0_0, 4, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType TMP_SubMeshUIU5BU5D_t3119380694_0_0_0 = { (void*)&TMP_SubMeshUI_t1578871311_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType Compute_DistanceTransform_EventTypes_t2554612104_0_0_0 = { (void*)1901, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Compute_DistanceTransform_EventTypes_t2554612104_1_0_0 = { (void*)1901, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Compute_DistanceTransform_EventTypes_t2554612104_0_0_32854 = { (void*)1901, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Compute_DistanceTransform_EventTypes_t2554612104_0_0_6 = { (void*)1901, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Compute_DistanceTransform_EventTypes_t2554612104_0_0_0 = { (void*)1907, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Compute_DistanceTransform_EventTypes_t2554612104_1_0_0 = { (void*)1907, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Compute_DistanceTransform_EventTypes_t2554612104_0_0_32854 = { (void*)1907, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Compute_DistanceTransform_EventTypes_t2554612104_0_0_6 = { (void*)1907, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TMPro_EventManager_t712497257_0_0_0 = { (void*)1902, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMPro_EventManager_t712497257_1_0_0 = { (void*)1902, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMPro_EventManager_t712497257_0_0_0 = { (void*)1908, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMPro_EventManager_t712497257_1_0_0 = { (void*)1908, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType ColorU5BU5D_t941916413_0_0_0 = { (void*)&Color_t2555686324_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType ColorU5BU5D_t941916413_0_0_6 = { (void*)&Color_t2555686324_0_0_0, 6, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType TMPro_ExtensionMethods_t1453208966_0_0_0 = { (void*)1904, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMPro_ExtensionMethods_t1453208966_1_0_0 = { (void*)1904, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMPro_ExtensionMethods_t1453208966_0_0_0 = { (void*)1910, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMPro_ExtensionMethods_t1453208966_1_0_0 = { (void*)1910, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass List_1_t3323821122_GenericClass = { 174, { &GenInst_TMPro_ExtensionMethods_FindInstanceID_m3522252796_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t3323821122_0_0_0 = { &List_1_t3323821122_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const RuntimeType TMPro_ExtensionMethods_FindInstanceID_m3522252796_gp_0_0_0_0 = { (void*)264, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType TMP_Math_t624304809_0_0_0 = { (void*)1905, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Math_t624304809_1_0_0 = { (void*)1905, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_Math_t624304809_0_0_0 = { (void*)1911, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Math_t624304809_1_0_0 = { (void*)1911, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FaceInfo_t2243299176_0_0_0 = { (void*)1906, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FaceInfo_t2243299176_1_0_0 = { (void*)1906, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType FaceInfo_t2243299176_0_0_1 = { (void*)1906, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FaceInfo_t2243299176_0_0_0 = { (void*)1912, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FaceInfo_t2243299176_1_0_0 = { (void*)1912, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FaceInfo_t2243299176_0_0_1 = { (void*)1912, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType FontCreationSetting_t628772060_0_0_0 = { (void*)1908, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FontCreationSetting_t628772060_1_0_0 = { (void*)1908, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FontCreationSetting_t628772060_0_0_6 = { (void*)1908, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontCreationSetting_t628772060_0_0_0 = { (void*)1914, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontCreationSetting_t628772060_1_0_0 = { (void*)1914, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FontCreationSetting_t628772060_0_0_6 = { (void*)1914, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType KerningPairKey_t536493877_0_0_0 = { (void*)1909, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType KerningPairKey_t536493877_1_0_0 = { (void*)1909, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType KerningPairKey_t536493877_0_0_0 = { (void*)1915, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType KerningPairKey_t536493877_1_0_0 = { (void*)1915, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType GlyphValueRecord_t4065874512_0_0_0 = { (void*)1910, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType GlyphValueRecord_t4065874512_1_0_0 = { (void*)1910, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType GlyphValueRecord_t4065874512_0_0_1 = { (void*)1910, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType GlyphValueRecord_t4065874512_0_0_0 = { (void*)1916, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType GlyphValueRecord_t4065874512_1_0_0 = { (void*)1916, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType GlyphValueRecord_t4065874512_0_0_1 = { (void*)1916, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType KerningTable_t2322366871_0_0_0 = { (void*)1912, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType KerningTable_t2322366871_1_0_0 = { (void*)1912, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType KerningTable_t2322366871_0_0_1 = { (void*)1912, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType KerningTable_t2322366871_0_0_0 = { (void*)1918, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType KerningTable_t2322366871_1_0_0 = { (void*)1918, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType KerningTable_t2322366871_0_0_1 = { (void*)1918, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CAddKerningPairU3Ec__AnonStorey0_t2688361982_0_0_0 = { (void*)1913, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAddKerningPairU3Ec__AnonStorey0_t2688361982_1_0_0 = { (void*)1913, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CAddKerningPairU3Ec__AnonStorey0_t2688361982_0_0_0 = { (void*)1919, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAddKerningPairU3Ec__AnonStorey0_t2688361982_1_0_0 = { (void*)1919, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CAddGlyphPairAdjustmentRecordU3Ec__AnonStorey1_t3257710262_0_0_0 = { (void*)1914, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAddGlyphPairAdjustmentRecordU3Ec__AnonStorey1_t3257710262_1_0_0 = { (void*)1914, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CAddGlyphPairAdjustmentRecordU3Ec__AnonStorey1_t3257710262_0_0_0 = { (void*)1920, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAddGlyphPairAdjustmentRecordU3Ec__AnonStorey1_t3257710262_1_0_0 = { (void*)1920, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CRemoveKerningPairU3Ec__AnonStorey2_t1355166074_0_0_0 = { (void*)1915, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CRemoveKerningPairU3Ec__AnonStorey2_t1355166074_1_0_0 = { (void*)1915, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CRemoveKerningPairU3Ec__AnonStorey2_t1355166074_0_0_0 = { (void*)1921, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CRemoveKerningPairU3Ec__AnonStorey2_t1355166074_1_0_0 = { (void*)1921, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_FontUtilities_t2599150238_0_0_0 = { (void*)1916, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_FontUtilities_t2599150238_1_0_0 = { (void*)1916, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_FontUtilities_t2599150238_0_0_0 = { (void*)1922, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_FontUtilities_t2599150238_1_0_0 = { (void*)1922, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_TextElementType_t1276645592_0_0_6 = { (void*)2005, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_TextElementType_t1276645592_0_0_0 = { (void*)2005, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_TextElementType_t1276645592_1_0_0 = { (void*)2005, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TMP_TextElementType_t1276645592_0_0_32854 = { (void*)2005, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_TextElementType_t1276645592_0_0_4 = { (void*)2005, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_TextElementType_t1276645592_0_0_6 = { (void*)2011, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_TextElementType_t1276645592_0_0_0 = { (void*)2011, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_TextElementType_t1276645592_1_0_0 = { (void*)2011, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_TextElementType_t1276645592_0_0_32854 = { (void*)2011, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_TextElementType_t1276645592_0_0_4 = { (void*)2011, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TMP_Vertex_t2404176824_0_0_6 = { (void*)1919, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_Vertex_t2404176824_0_0_0 = { (void*)1919, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_Vertex_t2404176824_1_0_0 = { (void*)1919, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_Vertex_t2404176824_0_0_6 = { (void*)1925, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_Vertex_t2404176824_0_0_0 = { (void*)1925, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_Vertex_t2404176824_1_0_0 = { (void*)1925, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType FontStyles_t3828945032_0_0_6 = { (void*)2010, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FontStyles_t3828945032_0_0_0 = { (void*)2010, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FontStyles_t3828945032_1_0_0 = { (void*)2010, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FontStyles_t3828945032_0_0_32854 = { (void*)2010, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FontStyles_t3828945032_0_0_4 = { (void*)2010, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontStyles_t3828945032_0_0_6 = { (void*)2016, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontStyles_t3828945032_0_0_0 = { (void*)2016, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontStyles_t3828945032_1_0_0 = { (void*)2016, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FontStyles_t3828945032_0_0_32854 = { (void*)2016, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontStyles_t3828945032_0_0_4 = { (void*)2016, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType VertexGradient_t345148380_0_0_0 = { (void*)1920, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType VertexGradient_t345148380_1_0_0 = { (void*)1920, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType VertexGradient_t345148380_0_0_4 = { (void*)1920, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VertexGradient_t345148380_0_0_0 = { (void*)1926, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VertexGradient_t345148380_1_0_0 = { (void*)1926, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType VertexGradient_t345148380_0_0_4 = { (void*)1926, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TMP_SpriteInfo_t2726321384_0_0_0 = { (void*)1924, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_SpriteInfo_t2726321384_1_0_0 = { (void*)1924, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_SpriteInfo_t2726321384_0_0_0 = { (void*)1930, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_SpriteInfo_t2726321384_1_0_0 = { (void*)1930, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType Extents_t3837212874_0_0_0 = { (void*)1925, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Extents_t3837212874_1_0_0 = { (void*)1925, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Extents_t3837212874_0_0_6 = { (void*)1925, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Extents_t3837212874_0_0_4 = { (void*)1925, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Extents_t3837212874_0_0_0 = { (void*)1931, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Extents_t3837212874_1_0_0 = { (void*)1931, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Extents_t3837212874_0_0_6 = { (void*)1931, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Extents_t3837212874_0_0_4 = { (void*)1931, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType Mesh_Extents_t3388355125_0_0_0 = { (void*)1926, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Mesh_Extents_t3388355125_1_0_0 = { (void*)1926, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Mesh_Extents_t3388355125_0_0_0 = { (void*)1932, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Mesh_Extents_t3388355125_1_0_0 = { (void*)1932, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType WordWrapState_t341939652_0_0_0 = { (void*)1927, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType WordWrapState_t341939652_1_0_0 = { (void*)1927, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType WordWrapState_t341939652_0_0_4 = { (void*)1927, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType WordWrapState_t341939652_0_0_0 = { (void*)1933, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType WordWrapState_t341939652_1_0_0 = { (void*)1933, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType WordWrapState_t341939652_0_0_4 = { (void*)1933, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TMP_BasicXmlTagStack_t2962628096_0_0_6 = { (void*)2024, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_BasicXmlTagStack_t2962628096_0_0_4 = { (void*)2024, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_BasicXmlTagStack_t2962628096_0_0_0 = { (void*)2024, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_BasicXmlTagStack_t2962628096_1_0_0 = { (void*)2024, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_BasicXmlTagStack_t2962628096_0_0_6 = { (void*)2030, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_BasicXmlTagStack_t2962628096_0_0_4 = { (void*)2030, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_BasicXmlTagStack_t2962628096_0_0_0 = { (void*)2030, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_BasicXmlTagStack_t2962628096_1_0_0 = { (void*)2030, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType TagAttribute_t688278634_0_0_0 = { (void*)1928, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TagAttribute_t688278634_1_0_0 = { (void*)1928, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TagAttribute_t688278634_0_0_0 = { (void*)1934, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TagAttribute_t688278634_1_0_0 = { (void*)1934, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType TagType_t123236451_0_0_6 = { (void*)2013, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TagType_t123236451_0_0_0 = { (void*)2013, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TagType_t123236451_1_0_0 = { (void*)2013, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TagType_t123236451_0_0_32854 = { (void*)2013, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TagType_t123236451_0_0_6 = { (void*)2019, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TagType_t123236451_0_0_0 = { (void*)2019, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TagType_t123236451_1_0_0 = { (void*)2019, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TagType_t123236451_0_0_32854 = { (void*)2019, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ShaderUtilities_t714255158_0_0_0 = { (void*)1930, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ShaderUtilities_t714255158_1_0_0 = { (void*)1930, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ShaderUtilities_t714255158_0_0_0 = { (void*)1936, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ShaderUtilities_t714255158_1_0_0 = { (void*)1936, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_Compatibility_t2923561388_0_0_0 = { (void*)1933, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_Compatibility_t2923561388_1_0_0 = { (void*)1933, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_Compatibility_t2923561388_0_0_0 = { (void*)1939, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_Compatibility_t2923561388_1_0_0 = { (void*)1939, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AnchorPositions_t1063569770_0_0_0 = { (void*)1934, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType AnchorPositions_t1063569770_1_0_0 = { (void*)1934, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType AnchorPositions_t1063569770_0_0_32854 = { (void*)1934, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnchorPositions_t1063569770_0_0_0 = { (void*)1940, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType AnchorPositions_t1063569770_1_0_0 = { (void*)1940, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType AnchorPositions_t1063569770_0_0_32854 = { (void*)1940, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ITweenValue_t1929962982_0_0_0 = { (void*)1935, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ITweenValue_t1929962982_1_0_0 = { (void*)1935, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ITweenValue_t1929962982_0_0_1 = { (void*)1935, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ITweenValue_t1929962982_0_0_0 = { (void*)1941, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ITweenValue_t1929962982_1_0_0 = { (void*)1941, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ITweenValue_t1929962982_0_0_1 = { (void*)1941, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType ColorTween_t378116136_0_0_0 = { (void*)1936, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColorTween_t378116136_1_0_0 = { (void*)1936, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ColorTween_t378116136_0_0_0 = { (void*)1942, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorTween_t378116136_1_0_0 = { (void*)1942, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType ColorTweenMode_t4194101034_0_0_0 = { (void*)1937, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColorTweenMode_t4194101034_0_0_1 = { (void*)1937, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType ColorTweenMode_t4194101034_1_0_0 = { (void*)1937, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType ColorTweenMode_t4194101034_0_0_32854 = { (void*)1937, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorTweenMode_t4194101034_0_0_0 = { (void*)1943, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorTweenMode_t4194101034_0_0_1 = { (void*)1943, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType ColorTweenMode_t4194101034_1_0_0 = { (void*)1943, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType ColorTweenMode_t4194101034_0_0_32854 = { (void*)1943, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ColorTweenCallback_t824784811_0_0_1 = { (void*)1938, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ColorTweenCallback_t824784811_0_0_0 = { (void*)1938, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ColorTweenCallback_t824784811_1_0_0 = { (void*)1938, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ColorTweenCallback_t824784811_0_0_1 = { (void*)1944, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ColorTweenCallback_t824784811_0_0_0 = { (void*)1944, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ColorTweenCallback_t824784811_1_0_0 = { (void*)1944, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FloatTweenCallback_t556094317_0_0_1 = { (void*)1940, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FloatTweenCallback_t556094317_0_0_0 = { (void*)1940, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FloatTweenCallback_t556094317_1_0_0 = { (void*)1940, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FloatTweenCallback_t556094317_0_0_1 = { (void*)1946, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FloatTweenCallback_t556094317_0_0_0 = { (void*)1946, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FloatTweenCallback_t556094317_1_0_0 = { (void*)1946, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TweenRunner_1_t3899390588_0_0_0 = { (void*)1941, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TweenRunner_1_t3899390588_1_0_0 = { (void*)1941, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TweenRunner_1_t3899390588_0_0_0 = { (void*)1947, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TweenRunner_1_t3899390588_1_0_0 = { (void*)1947, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType TweenRunner_1_t3899390588_gp_0_0_0_0 = { (void*)266, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType U3CStartU3Ec__Iterator0_t116377065_0_0_0 = { (void*)1942, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartU3Ec__Iterator0_t116377065_1_0_0 = { (void*)1942, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t116377065_0_0_0 = { (void*)1948, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t116377065_1_0_0 = { (void*)1948, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType U3CStartU3Ec__Iterator0_t116377065_gp_0_0_0_3 = { (void*)265, 3, IL2CPP_TYPE_VAR, 0, 0, 0 };
 extern const RuntimeType U3CStartU3Ec__Iterator0_t116377065_gp_0_0_0_0 = { (void*)265, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-Il2CppGenericClass U3CStartU3Ec__Iterator0_t665704003_GenericClass = { 1942, { &GenInst_TweenRunner_1_t3899390588_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass U3CStartU3Ec__Iterator0_t665704003_GenericClass = { 1948, { &GenInst_TweenRunner_1_t3899390588_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType U3CStartU3Ec__Iterator0_t665704003_0_0_0 = { &U3CStartU3Ec__Iterator0_t665704003_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TweenRunner_1_t3978019422_GenericClass = { 1941, { &GenInst_TweenRunner_1_t3899390588_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass TweenRunner_1_t3978019422_GenericClass = { 1947, { &GenInst_TweenRunner_1_t3899390588_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType TweenRunner_1_t3978019422_0_0_0 = { &TweenRunner_1_t3978019422_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_DefaultControls_t2837752704_0_0_0 = { (void*)1943, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_DefaultControls_t2837752704_1_0_0 = { (void*)1943, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_DefaultControls_t2837752704_0_0_0 = { (void*)1949, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_DefaultControls_t2837752704_1_0_0 = { (void*)1949, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Resources_t2155109485_0_0_0 = { (void*)1944, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Resources_t2155109485_1_0_0 = { (void*)1944, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Resources_t2155109485_0_0_0 = { (void*)1950, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Resources_t2155109485_1_0_0 = { (void*)1950, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType DropdownEvent_t1704673280_0_0_0 = { (void*)1949, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DropdownEvent_t1704673280_0_0_1 = { (void*)1949, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DropdownEvent_t1704673280_1_0_0 = { (void*)1949, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DropdownEvent_t1704673280_0_0_0 = { (void*)1955, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DropdownEvent_t1704673280_0_0_1 = { (void*)1955, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DropdownEvent_t1704673280_1_0_0 = { (void*)1955, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType TMP_Dropdown_GetOrAddComponent_m4059580914_gp_0_0_0_0 = { (void*)267, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType OptionDataList_t2293557512_0_0_1 = { (void*)1948, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OptionDataList_t2293557512_0_0_0 = { (void*)1948, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OptionDataList_t2293557512_1_0_0 = { (void*)1948, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OptionDataList_t2293557512_0_0_1 = { (void*)1954, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OptionDataList_t2293557512_0_0_0 = { (void*)1954, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OptionDataList_t2293557512_1_0_0 = { (void*)1954, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CShowU3Ec__AnonStorey1_t2598663617_0_0_0 = { (void*)1950, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CShowU3Ec__AnonStorey1_t2598663617_1_0_0 = { (void*)1950, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CShowU3Ec__AnonStorey1_t2598663617_0_0_0 = { (void*)1956, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CShowU3Ec__AnonStorey1_t2598663617_1_0_0 = { (void*)1956, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CDelayedDestroyDropdownListU3Ec__Iterator0_t3534484392_0_0_0 = { (void*)1951, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CDelayedDestroyDropdownListU3Ec__Iterator0_t3534484392_1_0_0 = { (void*)1951, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CDelayedDestroyDropdownListU3Ec__Iterator0_t3534484392_0_0_0 = { (void*)1957, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CDelayedDestroyDropdownListU3Ec__Iterator0_t3534484392_1_0_0 = { (void*)1957, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType TMP_GlyphU5BU5D_t151654500_0_0_0 = { (void*)&TMP_Glyph_t581847833_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType FontAssetTypes_t1222456209_0_0_6 = { (void*)1954, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FontAssetTypes_t1222456209_0_0_0 = { (void*)1954, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FontAssetTypes_t1222456209_1_0_0 = { (void*)1954, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FontAssetTypes_t1222456209_0_0_32854 = { (void*)1954, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontAssetTypes_t1222456209_0_0_6 = { (void*)1960, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontAssetTypes_t1222456209_0_0_0 = { (void*)1960, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontAssetTypes_t1222456209_1_0_0 = { (void*)1960, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FontAssetTypes_t1222456209_0_0_32854 = { (void*)1960, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType TMP_FontWeightsU5BU5D_t3691718250_0_0_6 = { (void*)&TMP_FontWeights_t916301067_0_0_0, 6, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType TMP_FontWeightsU5BU5D_t3691718250_0_0_0 = { (void*)&TMP_FontWeights_t916301067_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType EditState_t2966235475_0_0_0 = { (void*)1965, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType EditState_t2966235475_1_0_0 = { (void*)1965, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType EditState_t2966235475_0_0_32854 = { (void*)1965, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EditState_t2966235475_0_0_0 = { (void*)1971, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EditState_t2966235475_1_0_0 = { (void*)1971, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType EditState_t2966235475_0_0_32854 = { (void*)1971, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType ContentTypeU5BU5D_t3641282536_0_0_0 = { (void*)&ContentType_t1128941285_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType TMP_ScrollbarEventHandler_t374199898_0_0_4 = { (void*)1982, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_ScrollbarEventHandler_t374199898_0_0_0 = { (void*)1982, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_ScrollbarEventHandler_t374199898_1_0_0 = { (void*)1982, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_ScrollbarEventHandler_t374199898_0_0_4 = { (void*)1988, 4, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_ScrollbarEventHandler_t374199898_0_0_0 = { (void*)1988, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_ScrollbarEventHandler_t374199898_1_0_0 = { (void*)1988, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CCaretBlinkU3Ec__Iterator0_t4293627739_0_0_0 = { (void*)1966, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CCaretBlinkU3Ec__Iterator0_t4293627739_1_0_0 = { (void*)1966, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CCaretBlinkU3Ec__Iterator0_t4293627739_0_0_0 = { (void*)1972, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CCaretBlinkU3Ec__Iterator0_t4293627739_1_0_0 = { (void*)1972, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CMouseDragOutsideRectU3Ec__Iterator1_t2283961069_0_0_0 = { (void*)1967, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CMouseDragOutsideRectU3Ec__Iterator1_t2283961069_1_0_0 = { (void*)1967, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CMouseDragOutsideRectU3Ec__Iterator1_t2283961069_0_0_0 = { (void*)1973, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CMouseDragOutsideRectU3Ec__Iterator1_t2283961069_1_0_0 = { (void*)1973, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SetPropertyUtility_t2931591262_0_0_0 = { (void*)1968, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SetPropertyUtility_t2931591262_1_0_0 = { (void*)1968, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SetPropertyUtility_t2931591262_0_0_0 = { (void*)1974, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SetPropertyUtility_t2931591262_1_0_0 = { (void*)1974, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType SetPropertyUtility_SetEquatableStruct_m2525755454_gp_0_1_0_0 = { (void*)268, 0, IL2CPP_TYPE_MVAR, 0, 1, 0 };
 extern const RuntimeType SetPropertyUtility_SetEquatableStruct_m2525755454_gp_0_0_0_0 = { (void*)268, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
@@ -20305,48 +20461,48 @@ extern const RuntimeType SetPropertyUtility_SetStruct_m1689114115_gp_0_0_0_0 = {
 extern const RuntimeType SetPropertyUtility_SetClass_m2185591840_gp_0_1_0_0 = { (void*)270, 0, IL2CPP_TYPE_MVAR, 0, 1, 0 };
 extern const RuntimeType SetPropertyUtility_SetClass_m2185591840_gp_0_0_0_0 = { (void*)270, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType TMP_ListPool_1_t894436986_0_0_0 = { (void*)1971, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_ListPool_1_t894436986_1_0_0 = { (void*)1971, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_ListPool_1_t894436986_0_0_0 = { (void*)1977, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_ListPool_1_t894436986_1_0_0 = { (void*)1977, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass List_1_t3014144177_GenericClass = { 174, { &GenInst_TMP_ListPool_1_t894436986_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType List_1_t3014144177_0_0_0 = { &List_1_t3014144177_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const RuntimeType TMP_ListPool_1_t894436986_gp_0_0_0_0 = { (void*)271, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ObjectPool_1_t234821321_GenericClass = { 1981, { &GenInst_List_1_t3014144177_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ObjectPool_1_t234821321_GenericClass = { 1987, { &GenInst_List_1_t3014144177_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ObjectPool_1_t234821321_0_0_49 = { &TMP_ObjectPool_1_t234821321_GenericClass, 49, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType TMP_ObjectPool_1_t234821321_0_0_0 = { &TMP_ObjectPool_1_t234821321_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass TMP_ListPool_1_t4050660266_GenericClass = { 1971, { &GenInst_TMP_ListPool_1_t894436986_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass TMP_ListPool_1_t4050660266_GenericClass = { 1977, { &GenInst_TMP_ListPool_1_t894436986_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType TMP_ListPool_1_t4050660266_0_0_0 = { &TMP_ListPool_1_t4050660266_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-Il2CppGenericClass UnityAction_1_t3598980318_GenericClass = { 1479, { &GenInst_List_1_t3014144177_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t3598980318_GenericClass = { 1481, { &GenInst_List_1_t3014144177_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t3598980318_0_0_0 = { &UnityAction_1_t3598980318_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType TMP_MaterialManager_t2944071966_0_0_0 = { (void*)1972, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_MaterialManager_t2944071966_1_0_0 = { (void*)1972, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_MaterialManager_t2944071966_0_0_0 = { (void*)1978, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_MaterialManager_t2944071966_1_0_0 = { (void*)1978, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CGetBaseMaterialU3Ec__AnonStorey0_t3090515672_0_0_0 = { (void*)1975, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CGetBaseMaterialU3Ec__AnonStorey0_t3090515672_1_0_0 = { (void*)1975, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CGetBaseMaterialU3Ec__AnonStorey0_t3090515672_0_0_0 = { (void*)1981, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CGetBaseMaterialU3Ec__AnonStorey0_t3090515672_1_0_0 = { (void*)1981, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CAddMaskingMaterialU3Ec__AnonStorey1_t3195963584_0_0_0 = { (void*)1976, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAddMaskingMaterialU3Ec__AnonStorey1_t3195963584_1_0_0 = { (void*)1976, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CAddMaskingMaterialU3Ec__AnonStorey1_t3195963584_0_0_0 = { (void*)1982, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAddMaskingMaterialU3Ec__AnonStorey1_t3195963584_1_0_0 = { (void*)1982, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CRemoveStencilMaterialU3Ec__AnonStorey2_t2443477048_0_0_0 = { (void*)1977, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CRemoveStencilMaterialU3Ec__AnonStorey2_t2443477048_1_0_0 = { (void*)1977, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CRemoveStencilMaterialU3Ec__AnonStorey2_t2443477048_0_0_0 = { (void*)1983, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CRemoveStencilMaterialU3Ec__AnonStorey2_t2443477048_1_0_0 = { (void*)1983, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CReleaseBaseMaterialU3Ec__AnonStorey3_t317586538_0_0_0 = { (void*)1978, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CReleaseBaseMaterialU3Ec__AnonStorey3_t317586538_1_0_0 = { (void*)1978, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CReleaseBaseMaterialU3Ec__AnonStorey3_t317586538_0_0_0 = { (void*)1984, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CReleaseBaseMaterialU3Ec__AnonStorey3_t317586538_1_0_0 = { (void*)1984, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType VertexSortingOrder_t2659893934_0_0_0 = { (void*)1979, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType VertexSortingOrder_t2659893934_1_0_0 = { (void*)1979, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType VertexSortingOrder_t2659893934_0_0_32854 = { (void*)1979, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType VertexSortingOrder_t2659893934_0_0_4 = { (void*)1979, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VertexSortingOrder_t2659893934_0_0_0 = { (void*)1985, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VertexSortingOrder_t2659893934_1_0_0 = { (void*)1985, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType VertexSortingOrder_t2659893934_0_0_32854 = { (void*)1985, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VertexSortingOrder_t2659893934_0_0_4 = { (void*)1985, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TMP_ObjectPool_1_t2098678475_0_0_0 = { (void*)1981, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_ObjectPool_1_t2098678475_1_0_0 = { (void*)1981, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_ObjectPool_1_t2098678475_0_0_0 = { (void*)1987, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_ObjectPool_1_t2098678475_1_0_0 = { (void*)1987, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-Il2CppGenericClass UnityAction_1_t3331147065_GenericClass = { 1479, { &GenInst_TMP_ObjectPool_1_t2098678475_gp_0_0_0_0, NULL }, NULL };
+Il2CppGenericClass UnityAction_1_t3331147065_GenericClass = { 1481, { &GenInst_TMP_ObjectPool_1_t2098678475_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType UnityAction_1_t3331147065_0_0_0 = { &UnityAction_1_t3331147065_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType UnityAction_1_t3331147065_0_0_33 = { &UnityAction_1_t3331147065_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
@@ -20356,78 +20512,78 @@ Il2CppGenericClass Stack_1_t3589700379_GenericClass = { 1081, { &GenInst_TMP_Obj
 extern const RuntimeType Stack_1_t3589700379_0_0_33 = { &Stack_1_t3589700379_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const RuntimeType Stack_1_t3589700379_0_0_0 = { &Stack_1_t3589700379_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const RuntimeType LineBreakingTable_t1457697482_0_0_0 = { (void*)1985, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LineBreakingTable_t1457697482_0_0_1 = { (void*)1985, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LineBreakingTable_t1457697482_1_0_0 = { (void*)1985, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType LineBreakingTable_t1457697482_0_0_0 = { (void*)1991, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LineBreakingTable_t1457697482_0_0_1 = { (void*)1991, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LineBreakingTable_t1457697482_1_0_0 = { (void*)1991, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CDoSpriteAnimationInternalU3Ec__Iterator0_t827549206_0_0_0 = { (void*)1988, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CDoSpriteAnimationInternalU3Ec__Iterator0_t827549206_1_0_0 = { (void*)1988, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CDoSpriteAnimationInternalU3Ec__Iterator0_t827549206_0_0_0 = { (void*)1994, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CDoSpriteAnimationInternalU3Ec__Iterator0_t827549206_1_0_0 = { (void*)1994, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SpriteAssetImportFormats_t116390639_0_0_0 = { (void*)1990, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SpriteAssetImportFormats_t116390639_1_0_0 = { (void*)1990, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType SpriteAssetImportFormats_t116390639_0_0_32854 = { (void*)1990, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SpriteAssetImportFormats_t116390639_0_0_0 = { (void*)1996, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SpriteAssetImportFormats_t116390639_1_0_0 = { (void*)1996, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType SpriteAssetImportFormats_t116390639_0_0_32854 = { (void*)1996, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TexturePacker_t3148178657_0_0_0 = { (void*)1991, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TexturePacker_t3148178657_1_0_0 = { (void*)1991, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TexturePacker_t3148178657_0_0_0 = { (void*)1997, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TexturePacker_t3148178657_1_0_0 = { (void*)1997, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SpriteFrame_t3912389194_0_0_0 = { (void*)1992, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SpriteFrame_t3912389194_1_0_0 = { (void*)1992, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType SpriteFrame_t3912389194_0_0_6 = { (void*)1992, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SpriteFrame_t3912389194_0_0_0 = { (void*)1998, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SpriteFrame_t3912389194_1_0_0 = { (void*)1998, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType SpriteFrame_t3912389194_0_0_6 = { (void*)1998, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType SpriteSize_t3355290999_0_0_0 = { (void*)1993, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SpriteSize_t3355290999_1_0_0 = { (void*)1993, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType SpriteSize_t3355290999_0_0_6 = { (void*)1993, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SpriteSize_t3355290999_0_0_0 = { (void*)1999, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SpriteSize_t3355290999_1_0_0 = { (void*)1999, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType SpriteSize_t3355290999_0_0_6 = { (void*)1999, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType SpriteDataObject_t308163541_0_0_0 = { (void*)1995, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SpriteDataObject_t308163541_1_0_0 = { (void*)1995, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SpriteDataObject_t308163541_0_0_0 = { (void*)2001, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SpriteDataObject_t308163541_1_0_0 = { (void*)2001, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ITextElement_t2864920724_0_0_0 = { (void*)2000, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ITextElement_t2864920724_1_0_0 = { (void*)2000, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ITextElement_t2864920724_0_0_0 = { (void*)2006, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ITextElement_t2864920724_1_0_0 = { (void*)2006, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType _HorizontalAlignmentOptions_t2379014378_0_0_0 = { (void*)2002, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType _HorizontalAlignmentOptions_t2379014378_1_0_0 = { (void*)2002, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType _HorizontalAlignmentOptions_t2379014378_0_0_32854 = { (void*)2002, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType _HorizontalAlignmentOptions_t2379014378_0_0_0 = { (void*)2008, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType _HorizontalAlignmentOptions_t2379014378_1_0_0 = { (void*)2008, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType _HorizontalAlignmentOptions_t2379014378_0_0_32854 = { (void*)2008, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType _VerticalAlignmentOptions_t2825528260_0_0_0 = { (void*)2003, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType _VerticalAlignmentOptions_t2825528260_1_0_0 = { (void*)2003, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType _VerticalAlignmentOptions_t2825528260_0_0_32854 = { (void*)2003, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType _VerticalAlignmentOptions_t2825528260_0_0_0 = { (void*)2009, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType _VerticalAlignmentOptions_t2825528260_1_0_0 = { (void*)2009, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType _VerticalAlignmentOptions_t2825528260_0_0_32854 = { (void*)2009, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TextRenderFlags_t2418684345_0_0_0 = { (void*)2004, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextRenderFlags_t2418684345_1_0_0 = { (void*)2004, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextRenderFlags_t2418684345_0_0_32854 = { (void*)2004, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextRenderFlags_t2418684345_0_0_4 = { (void*)2004, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextRenderFlags_t2418684345_0_0_0 = { (void*)2010, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextRenderFlags_t2418684345_1_0_0 = { (void*)2010, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextRenderFlags_t2418684345_0_0_32854 = { (void*)2010, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextRenderFlags_t2418684345_0_0_4 = { (void*)2010, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TextOverflowModes_t1430035314_0_0_0 = { (void*)2007, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextOverflowModes_t1430035314_1_0_0 = { (void*)2007, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextOverflowModes_t1430035314_0_0_32854 = { (void*)2007, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextOverflowModes_t1430035314_0_0_4 = { (void*)2007, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextOverflowModes_t1430035314_0_0_0 = { (void*)2013, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextOverflowModes_t1430035314_1_0_0 = { (void*)2013, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextOverflowModes_t1430035314_0_0_32854 = { (void*)2013, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextOverflowModes_t1430035314_0_0_4 = { (void*)2013, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType MaskingOffsetMode_t2266644590_0_0_0 = { (void*)2008, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MaskingOffsetMode_t2266644590_1_0_0 = { (void*)2008, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType MaskingOffsetMode_t2266644590_0_0_32854 = { (void*)2008, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MaskingOffsetMode_t2266644590_0_0_0 = { (void*)2014, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MaskingOffsetMode_t2266644590_1_0_0 = { (void*)2014, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType MaskingOffsetMode_t2266644590_0_0_32854 = { (void*)2014, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TextureMappingOptions_t270963663_0_0_0 = { (void*)2009, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextureMappingOptions_t270963663_1_0_0 = { (void*)2009, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextureMappingOptions_t270963663_0_0_32854 = { (void*)2009, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextureMappingOptions_t270963663_0_0_4 = { (void*)2009, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextureMappingOptions_t270963663_0_0_0 = { (void*)2015, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextureMappingOptions_t270963663_1_0_0 = { (void*)2015, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextureMappingOptions_t270963663_0_0_32854 = { (void*)2015, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextureMappingOptions_t270963663_0_0_4 = { (void*)2015, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType FontWeights_t3122883458_0_0_0 = { (void*)2011, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FontWeights_t3122883458_1_0_0 = { (void*)2011, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FontWeights_t3122883458_0_0_32854 = { (void*)2011, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontWeights_t3122883458_0_0_0 = { (void*)2017, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FontWeights_t3122883458_1_0_0 = { (void*)2017, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FontWeights_t3122883458_0_0_32854 = { (void*)2017, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TagUnits_t1169424683_0_0_0 = { (void*)2012, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TagUnits_t1169424683_1_0_0 = { (void*)2012, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TagUnits_t1169424683_0_0_32854 = { (void*)2012, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TagUnits_t1169424683_0_0_0 = { (void*)2018, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TagUnits_t1169424683_1_0_0 = { (void*)2018, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TagUnits_t1169424683_0_0_32854 = { (void*)2018, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType TU5BU5D_t1035434361_1_0_0 = { (void*)&TMP_Text_ResizeInternalArray_m836006716_gp_0_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 1, 0 };
 extern const RuntimeType TU5BU5D_t1035434361_0_0_0 = { (void*)&TMP_Text_ResizeInternalArray_m836006716_gp_0_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType TMP_Text_ResizeInternalArray_m836006716_gp_0_0_0_0 = { (void*)273, 0, IL2CPP_TYPE_MVAR, 0, 0, 0 };
 
-extern const RuntimeType TextInputSources_t1522115805_0_0_4 = { (void*)2015, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextInputSources_t1522115805_0_0_0 = { (void*)2015, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TextInputSources_t1522115805_1_0_0 = { (void*)2015, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType TextInputSources_t1522115805_0_0_32854 = { (void*)2015, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextInputSources_t1522115805_0_0_4 = { (void*)2021, 4, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextInputSources_t1522115805_0_0_0 = { (void*)2021, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextInputSources_t1522115805_1_0_0 = { (void*)2021, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextInputSources_t1522115805_0_0_32854 = { (void*)2021, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
 extern const RuntimeType XML_TagAttributeU5BU5D_t284240280_0_0_4 = { (void*)&XML_TagAttribute_t1174424309_0_0_0, 4, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType XML_TagAttributeU5BU5D_t284240280_0_0_0 = { (void*)&XML_TagAttribute_t1174424309_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
@@ -20463,31 +20619,31 @@ extern const RuntimeType TMP_LineInfoU5BU5D_t4120149533_0_0_0 = { (void*)&TMP_Li
 extern const RuntimeType TMP_PageInfoU5BU5D_t2463031060_0_0_6 = { (void*)&TMP_PageInfo_t2608430633_0_0_0, 6, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType TMP_PageInfoU5BU5D_t2463031060_0_0_0 = { (void*)&TMP_PageInfo_t2608430633_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType CaretPosition_t3997512201_0_0_0 = { (void*)2018, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CaretPosition_t3997512201_1_0_0 = { (void*)2018, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType CaretPosition_t3997512201_0_0_32854 = { (void*)2018, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CaretPosition_t3997512201_0_0_6 = { (void*)2018, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CaretPosition_t3997512201_1_0_2 = { (void*)2018, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CaretPosition_t3997512201_0_0_0 = { (void*)2024, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CaretPosition_t3997512201_1_0_0 = { (void*)2024, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CaretPosition_t3997512201_0_0_32854 = { (void*)2024, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CaretPosition_t3997512201_0_0_6 = { (void*)2024, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CaretPosition_t3997512201_1_0_2 = { (void*)2024, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType CaretInfo_t841780893_0_0_0 = { (void*)2019, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CaretInfo_t841780893_1_0_0 = { (void*)2019, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CaretInfo_t841780893_0_0_0 = { (void*)2025, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CaretInfo_t841780893_1_0_0 = { (void*)2025, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType TMP_TextUtilities_t2105690005_0_0_0 = { (void*)2020, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextUtilities_t2105690005_1_0_0 = { (void*)2020, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_TextUtilities_t2105690005_0_0_0 = { (void*)2026, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextUtilities_t2105690005_1_0_0 = { (void*)2026, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType LineSegment_t1526544958_0_0_0 = { (void*)2021, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType LineSegment_t1526544958_1_0_0 = { (void*)2021, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType LineSegment_t1526544958_0_0_0 = { (void*)2027, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType LineSegment_t1526544958_1_0_0 = { (void*)2027, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType TMP_UpdateManager_t4114267509_0_0_0 = { (void*)2022, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_UpdateManager_t4114267509_1_0_0 = { (void*)2022, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_UpdateManager_t4114267509_0_0_17 = { (void*)2022, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_UpdateManager_t4114267509_0_0_0 = { (void*)2028, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_UpdateManager_t4114267509_1_0_0 = { (void*)2028, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_UpdateManager_t4114267509_0_0_17 = { (void*)2028, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType TMP_UpdateRegistry_t461608481_0_0_0 = { (void*)2023, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_UpdateRegistry_t461608481_1_0_0 = { (void*)2023, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TMP_UpdateRegistry_t461608481_0_0_17 = { (void*)2023, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_UpdateRegistry_t461608481_0_0_0 = { (void*)2029, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_UpdateRegistry_t461608481_1_0_0 = { (void*)2029, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_UpdateRegistry_t461608481_0_0_17 = { (void*)2029, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType TMP_XmlTagStack_1_t3882766083_0_0_0 = { (void*)2025, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType TMP_XmlTagStack_1_t3882766083_1_0_0 = { (void*)2025, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TMP_XmlTagStack_1_t3882766083_0_0_0 = { (void*)2031, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TMP_XmlTagStack_1_t3882766083_1_0_0 = { (void*)2031, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
 extern const RuntimeType TU5BU5D_t2779490605_0_0_0 = { (void*)&TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType TU5BU5D_t2779490605_0_0_6 = { (void*)&TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0, 6, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
@@ -20495,694 +20651,697 @@ extern const RuntimeType TU5BU5D_t2779490605_0_0_6 = { (void*)&TMP_XmlTagStack_1
 extern const RuntimeType TMP_XmlTagStack_1_t3882766083_gp_0_0_0_0 = { (void*)276, 0, IL2CPP_TYPE_VAR, 0, 0, 0 };
 extern const RuntimeType TMP_XmlTagStack_1_t3882766083_gp_0_0_0_1 = { (void*)276, 1, IL2CPP_TYPE_VAR, 0, 0, 0 };
 
-extern const RuntimeType U3CPrivateImplementationDetailsU3E_t3057255366_0_0_0 = { (void*)2026, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CPrivateImplementationDetailsU3E_t3057255366_1_0_0 = { (void*)2026, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CPrivateImplementationDetailsU3E_t3057255366_0_0_0 = { (void*)2032, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CPrivateImplementationDetailsU3E_t3057255366_1_0_0 = { (void*)2032, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U24ArrayTypeU3D12_t2488454197_0_0_307 = { (void*)2027, 307, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType U24ArrayTypeU3D12_t2488454197_0_0_0 = { (void*)2027, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType U24ArrayTypeU3D12_t2488454197_1_0_0 = { (void*)2027, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType U24ArrayTypeU3D12_t2488454197_0_0_307 = { (void*)2033, 307, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType U24ArrayTypeU3D12_t2488454197_0_0_0 = { (void*)2033, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType U24ArrayTypeU3D12_t2488454197_1_0_0 = { (void*)2033, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType U24ArrayTypeU3D40_t2865632059_0_0_307 = { (void*)2028, 307, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType U24ArrayTypeU3D40_t2865632059_0_0_0 = { (void*)2028, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType U24ArrayTypeU3D40_t2865632059_1_0_0 = { (void*)2028, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType U24ArrayTypeU3D40_t2865632059_0_0_307 = { (void*)2034, 307, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType U24ArrayTypeU3D40_t2865632059_0_0_0 = { (void*)2034, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType U24ArrayTypeU3D40_t2865632059_1_0_0 = { (void*)2034, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745551_0_0_0 = { (void*)2029, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745551_1_0_0 = { (void*)2029, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745551_0_0_0 = { (void*)2035, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745551_1_0_0 = { (void*)2035, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ForceShieldDestroyBall_t3750824413_0_0_0 = { (void*)2030, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ForceShieldDestroyBall_t3750824413_1_0_0 = { (void*)2030, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ForceShieldDestroyBall_t3750824413_0_0_0 = { (void*)2036, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ForceShieldDestroyBall_t3750824413_1_0_0 = { (void*)2036, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ForceShieldImpactDetection_t2207266850_0_0_0 = { (void*)2031, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ForceShieldImpactDetection_t2207266850_1_0_0 = { (void*)2031, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ForceShieldImpactDetection_t2207266850_0_0_0 = { (void*)2037, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ForceShieldImpactDetection_t2207266850_1_0_0 = { (void*)2037, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ForceShieldShootBall_t1903519245_0_0_0 = { (void*)2032, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ForceShieldShootBall_t1903519245_1_0_0 = { (void*)2032, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ForceShieldShootBall_t1903519245_0_0_0 = { (void*)2038, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ForceShieldShootBall_t1903519245_1_0_0 = { (void*)2038, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType highlightAnimated_t2361048705_0_0_0 = { (void*)2033, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType highlightAnimated_t2361048705_1_0_0 = { (void*)2033, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType highlightAnimated_t2361048705_0_0_0 = { (void*)2039, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType highlightAnimated_t2361048705_1_0_0 = { (void*)2039, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Pixelize_t649930646_0_0_0 = { (void*)2034, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Pixelize_t649930646_1_0_0 = { (void*)2034, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Pixelize_t649930646_0_0_0 = { (void*)2040, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Pixelize_t649930646_1_0_0 = { (void*)2040, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType VolumetricSphere_t695589337_0_0_0 = { (void*)2035, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType VolumetricSphere_t695589337_1_0_0 = { (void*)2035, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType VolumetricSphere_t695589337_0_0_0 = { (void*)2041, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VolumetricSphere_t695589337_1_0_0 = { (void*)2041, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PlaneClip_t1676643679_0_0_0 = { (void*)2036, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PlaneClip_t1676643679_1_0_0 = { (void*)2036, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PlaneClip_t1676643679_0_0_0 = { (void*)2042, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PlaneClip_t1676643679_1_0_0 = { (void*)2042, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SimpleGPUInstancingExample_t3397657823_0_0_0 = { (void*)2037, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SimpleGPUInstancingExample_t3397657823_1_0_0 = { (void*)2037, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SimpleGPUInstancingExample_t3397657823_0_0_0 = { (void*)2043, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SimpleGPUInstancingExample_t3397657823_1_0_0 = { (void*)2043, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SimpleMoveExample_t3250560126_0_0_0 = { (void*)2038, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SimpleMoveExample_t3250560126_1_0_0 = { (void*)2038, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SimpleMoveExample_t3250560126_0_0_0 = { (void*)2044, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SimpleMoveExample_t3250560126_1_0_0 = { (void*)2044, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Smear_t1003218668_0_0_0 = { (void*)2039, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Smear_t1003218668_1_0_0 = { (void*)2039, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Smear_t1003218668_0_0_0 = { (void*)2045, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Smear_t1003218668_1_0_0 = { (void*)2045, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PostProcessExample_t2287901021_0_0_0 = { (void*)2040, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PostProcessExample_t2287901021_1_0_0 = { (void*)2040, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PostProcessExample_t2287901021_0_0_0 = { (void*)2046, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PostProcessExample_t2287901021_1_0_0 = { (void*)2046, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SpriteMaskController_t61034286_0_0_0 = { (void*)2041, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SpriteMaskController_t61034286_1_0_0 = { (void*)2041, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SpriteMaskController_t61034286_0_0_0 = { (void*)2047, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SpriteMaskController_t61034286_1_0_0 = { (void*)2047, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CModuleU3E_t692745552_0_0_0 = { (void*)2042, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CModuleU3E_t692745552_1_0_0 = { (void*)2042, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CModuleU3E_t692745552_0_0_0 = { (void*)2048, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CModuleU3E_t692745552_1_0_0 = { (void*)2048, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CPC_DEMO_UpDown_t4093741139_0_0_0 = { (void*)2043, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CPC_DEMO_UpDown_t4093741139_1_0_0 = { (void*)2043, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CPC_DEMO_UpDown_t4093741139_0_0_0 = { (void*)2049, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CPC_DEMO_UpDown_t4093741139_1_0_0 = { (void*)2049, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CPC_Visual_t962685042_0_0_0 = { (void*)2044, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CPC_Visual_t962685042_1_0_0 = { (void*)2044, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType CPC_Visual_t962685042_0_0_6 = { (void*)2044, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CPC_Visual_t962685042_0_0_0 = { (void*)2050, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CPC_Visual_t962685042_1_0_0 = { (void*)2050, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CPC_Visual_t962685042_0_0_6 = { (void*)2050, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType CPC_ECurveType_t270484675_0_0_0 = { (void*)2045, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CPC_ECurveType_t270484675_1_0_0 = { (void*)2045, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType CPC_ECurveType_t270484675_0_0_32854 = { (void*)2045, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CPC_ECurveType_t270484675_0_0_6 = { (void*)2045, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CPC_ECurveType_t270484675_0_0_0 = { (void*)2051, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CPC_ECurveType_t270484675_1_0_0 = { (void*)2051, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CPC_ECurveType_t270484675_0_0_32854 = { (void*)2051, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CPC_ECurveType_t270484675_0_0_6 = { (void*)2051, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType CPC_EAfterLoop_t2825772590_0_0_0 = { (void*)2046, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CPC_EAfterLoop_t2825772590_1_0_0 = { (void*)2046, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType CPC_EAfterLoop_t2825772590_0_0_32854 = { (void*)2046, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType CPC_EAfterLoop_t2825772590_0_0_6 = { (void*)2046, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CPC_EAfterLoop_t2825772590_0_0_0 = { (void*)2052, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CPC_EAfterLoop_t2825772590_1_0_0 = { (void*)2052, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType CPC_EAfterLoop_t2825772590_0_0_32854 = { (void*)2052, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType CPC_EAfterLoop_t2825772590_0_0_6 = { (void*)2052, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType CPC_CameraPath_t1049654548_0_0_0 = { (void*)2048, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CPC_CameraPath_t1049654548_1_0_0 = { (void*)2048, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType CPC_CameraPath_t1049654548_0_0_3 = { (void*)2048, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CPC_CameraPath_t1049654548_0_0_0 = { (void*)2054, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CPC_CameraPath_t1049654548_1_0_0 = { (void*)2054, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CPC_CameraPath_t1049654548_0_0_3 = { (void*)2054, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CFollowPathU3Ec__Iterator0_t2922937071_0_0_0 = { (void*)2049, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFollowPathU3Ec__Iterator0_t2922937071_1_0_0 = { (void*)2049, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFollowPathU3Ec__Iterator0_t2922937071_0_0_0 = { (void*)2055, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFollowPathU3Ec__Iterator0_t2922937071_1_0_0 = { (void*)2055, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AutoRotate_t913508323_0_0_0 = { (void*)2050, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AutoRotate_t913508323_1_0_0 = { (void*)2050, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AutoRotate_t913508323_0_0_0 = { (void*)2056, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AutoRotate_t913508323_1_0_0 = { (void*)2056, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Demo_t3434230056_0_0_0 = { (void*)2052, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Demo_t3434230056_1_0_0 = { (void*)2052, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Demo_t3434230056_0_0_0 = { (void*)2058, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Demo_t3434230056_1_0_0 = { (void*)2058, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType ContourDrawingU5BU5D_t129562229_0_0_1 = { (void*)&ContourDrawing_t2789473180_0_0_0, 1, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType Contour_Drawing_Post_t2699392158_0_0_0 = { (void*)2053, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Contour_Drawing_Post_t2699392158_1_0_0 = { (void*)2053, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Contour_Drawing_Post_t2699392158_0_0_0 = { (void*)2059, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Contour_Drawing_Post_t2699392158_1_0_0 = { (void*)2059, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType WaterColor_t777644432_0_0_6 = { (void*)2056, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WaterColor_t777644432_0_0_0 = { (void*)2056, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WaterColor_t777644432_1_0_0 = { (void*)2056, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WaterColor_t777644432_0_0_6 = { (void*)2062, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WaterColor_t777644432_0_0_0 = { (void*)2062, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WaterColor_t777644432_1_0_0 = { (void*)2062, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType EFilter_t3464647452_0_0_0 = { (void*)2055, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType EFilter_t3464647452_1_0_0 = { (void*)2055, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType EFilter_t3464647452_0_0_32854 = { (void*)2055, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EFilter_t3464647452_0_0_0 = { (void*)2061, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EFilter_t3464647452_1_0_0 = { (void*)2061, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType EFilter_t3464647452_0_0_32854 = { (void*)2061, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType FXAA_t264094441_0_0_0 = { (void*)2057, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FXAA_t264094441_1_0_0 = { (void*)2057, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FXAA_t264094441_0_0_0 = { (void*)2063, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FXAA_t264094441_1_0_0 = { (void*)2063, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType DebugPass_t3634219376_0_0_0 = { (void*)2058, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType DebugPass_t3634219376_1_0_0 = { (void*)2058, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType DebugPass_t3634219376_0_0_32854 = { (void*)2058, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType DebugPass_t3634219376_0_0_6 = { (void*)2058, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType DebugPass_t3634219376_0_0_0 = { (void*)2064, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType DebugPass_t3634219376_1_0_0 = { (void*)2064, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType DebugPass_t3634219376_0_0_32854 = { (void*)2064, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType DebugPass_t3634219376_0_0_6 = { (void*)2064, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType EdgeDetectionMethod_t2861411631_0_0_0 = { (void*)2059, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType EdgeDetectionMethod_t2861411631_1_0_0 = { (void*)2059, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType EdgeDetectionMethod_t2861411631_0_0_32854 = { (void*)2059, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType EdgeDetectionMethod_t2861411631_0_0_6 = { (void*)2059, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EdgeDetectionMethod_t2861411631_0_0_0 = { (void*)2065, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EdgeDetectionMethod_t2861411631_1_0_0 = { (void*)2065, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType EdgeDetectionMethod_t2861411631_0_0_32854 = { (void*)2065, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType EdgeDetectionMethod_t2861411631_0_0_6 = { (void*)2065, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType HDRMode_t3005662727_0_0_0 = { (void*)2060, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType HDRMode_t3005662727_1_0_0 = { (void*)2060, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType HDRMode_t3005662727_0_0_32854 = { (void*)2060, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType HDRMode_t3005662727_0_0_6 = { (void*)2060, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HDRMode_t3005662727_0_0_0 = { (void*)2066, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HDRMode_t3005662727_1_0_0 = { (void*)2066, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType HDRMode_t3005662727_0_0_32854 = { (void*)2066, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType HDRMode_t3005662727_0_0_6 = { (void*)2066, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType MinAttribute_t915262114_0_0_0 = { (void*)2061, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MinAttribute_t915262114_1_0_0 = { (void*)2061, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MinAttribute_t915262114_0_0_0 = { (void*)2067, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MinAttribute_t915262114_1_0_0 = { (void*)2067, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PredicationPreset_t2890721090_0_0_0 = { (void*)2062, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PredicationPreset_t2890721090_1_0_0 = { (void*)2062, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType PredicationPreset_t2890721090_0_0_6 = { (void*)2062, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PredicationPreset_t2890721090_0_0_0 = { (void*)2068, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PredicationPreset_t2890721090_1_0_0 = { (void*)2068, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PredicationPreset_t2890721090_0_0_6 = { (void*)2068, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType QualityPreset_t1569042089_0_0_0 = { (void*)2064, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType QualityPreset_t1569042089_1_0_0 = { (void*)2064, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType QualityPreset_t1569042089_0_0_32854 = { (void*)2064, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType QualityPreset_t1569042089_0_0_6 = { (void*)2064, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType QualityPreset_t1569042089_0_0_0 = { (void*)2070, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType QualityPreset_t1569042089_1_0_0 = { (void*)2070, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType QualityPreset_t1569042089_0_0_32854 = { (void*)2070, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType QualityPreset_t1569042089_0_0_6 = { (void*)2070, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType SMAA_t1813313867_0_0_0 = { (void*)2065, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SMAA_t1813313867_1_0_0 = { (void*)2065, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SMAA_t1813313867_0_0_0 = { (void*)2071, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SMAA_t1813313867_1_0_0 = { (void*)2071, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType PresetU5BU5D_t1330263106_0_0_4 = { (void*)&Preset_t1831320083_0_0_0, 4, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType PresetU5BU5D_t1330263106_0_0_0 = { (void*)&Preset_t1831320083_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType FreeCamera_t3182309955_0_0_0 = { (void*)2066, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FreeCamera_t3182309955_1_0_0 = { (void*)2066, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FreeCamera_t3182309955_0_0_0 = { (void*)2072, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FreeCamera_t3182309955_1_0_0 = { (void*)2072, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Rotation_t2762746343_0_0_0 = { (void*)2067, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Rotation_t2762746343_1_0_0 = { (void*)2067, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Rotation_t2762746343_0_0_0 = { (void*)2073, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Rotation_t2762746343_1_0_0 = { (void*)2073, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MangaSpeedLine_t1402183988_0_0_0 = { (void*)2068, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MangaSpeedLine_t1402183988_1_0_0 = { (void*)2068, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MangaSpeedLine_t1402183988_0_0_0 = { (void*)2074, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MangaSpeedLine_t1402183988_1_0_0 = { (void*)2074, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType BlackboardObject_t8902128_0_0_0 = { (void*)2070, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BlackboardObject_t8902128_1_0_0 = { (void*)2070, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BlackboardObject_t8902128_0_0_0 = { (void*)2076, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BlackboardObject_t8902128_1_0_0 = { (void*)2076, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Demo_t4004729819_0_0_0 = { (void*)2071, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Demo_t4004729819_1_0_0 = { (void*)2071, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Demo_t4004729819_0_0_0 = { (void*)2077, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Demo_t4004729819_1_0_0 = { (void*)2077, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PingPongRT_t17049029_0_0_1 = { (void*)2072, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PingPongRT_t17049029_0_0_0 = { (void*)2072, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PingPongRT_t17049029_1_0_0 = { (void*)2072, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PingPongRT_t17049029_0_0_1 = { (void*)2078, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PingPongRT_t17049029_0_0_0 = { (void*)2078, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PingPongRT_t17049029_1_0_0 = { (void*)2078, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType RenderTextureU5BU5D_t4111643188_0_0_1 = { (void*)&RenderTexture_t2108887433_0_0_0, 1, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType RenderTextureU5BU5D_t4111643188_0_0_0 = { (void*)&RenderTexture_t2108887433_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType FPSWalkerEnhanced_t2047175006_0_0_0 = { (void*)2073, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FPSWalkerEnhanced_t2047175006_1_0_0 = { (void*)2073, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FPSWalkerEnhanced_t2047175006_0_0_0 = { (void*)2079, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FPSWalkerEnhanced_t2047175006_1_0_0 = { (void*)2079, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SmoothMouseLook_t648248330_0_0_0 = { (void*)2074, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SmoothMouseLook_t648248330_1_0_0 = { (void*)2074, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SmoothMouseLook_t648248330_0_0_0 = { (void*)2080, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SmoothMouseLook_t648248330_1_0_0 = { (void*)2080, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType RotationAxes_t3347401639_0_0_6 = { (void*)2075, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RotationAxes_t3347401639_0_0_0 = { (void*)2075, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType RotationAxes_t3347401639_1_0_0 = { (void*)2075, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType RotationAxes_t3347401639_0_0_32854 = { (void*)2075, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RotationAxes_t3347401639_0_0_6 = { (void*)2081, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RotationAxes_t3347401639_0_0_0 = { (void*)2081, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType RotationAxes_t3347401639_1_0_0 = { (void*)2081, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType RotationAxes_t3347401639_0_0_32854 = { (void*)2081, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType InternalLoadedHandler_t3430990945_0_0_0 = { (void*)2081, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType InternalLoadedHandler_t3430990945_1_0_0 = { (void*)2081, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType InternalLoadedHandler_t3430990945_0_0_3 = { (void*)2081, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InternalLoadedHandler_t3430990945_0_0_0 = { (void*)2087, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType InternalLoadedHandler_t3430990945_1_0_0 = { (void*)2087, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType InternalLoadedHandler_t3430990945_0_0_3 = { (void*)2087, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType StringAsyncEvent_t3921970743_0_0_6 = { (void*)2080, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType StringAsyncEvent_t3921970743_0_0_0 = { (void*)2080, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType StringAsyncEvent_t3921970743_1_0_0 = { (void*)2080, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType StringAsyncEvent_t3921970743_0_0_6 = { (void*)2086, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StringAsyncEvent_t3921970743_0_0_0 = { (void*)2086, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StringAsyncEvent_t3921970743_1_0_0 = { (void*)2086, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType StringEvent_t3570558668_0_0_6 = { (void*)2079, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType StringEvent_t3570558668_0_0_0 = { (void*)2079, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType StringEvent_t3570558668_1_0_0 = { (void*)2079, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType StringEvent_t3570558668_0_0_6 = { (void*)2085, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StringEvent_t3570558668_0_0_0 = { (void*)2085, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StringEvent_t3570558668_1_0_0 = { (void*)2085, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CLoadCurrentSceneU3Ec__Iterator0_t3294193427_0_0_0 = { (void*)2082, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CLoadCurrentSceneU3Ec__Iterator0_t3294193427_1_0_0 = { (void*)2082, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CLoadCurrentSceneU3Ec__Iterator0_t3294193427_0_0_0 = { (void*)2088, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CLoadCurrentSceneU3Ec__Iterator0_t3294193427_1_0_0 = { (void*)2088, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CLoadAdditiveAsyncU3Ec__Iterator1_t3550245055_0_0_0 = { (void*)2083, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CLoadAdditiveAsyncU3Ec__Iterator1_t3550245055_1_0_0 = { (void*)2083, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CLoadAdditiveAsyncU3Ec__Iterator1_t3550245055_0_0_0 = { (void*)2089, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CLoadAdditiveAsyncU3Ec__Iterator1_t3550245055_1_0_0 = { (void*)2089, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CLoadAdditiveU3Ec__Iterator2_t1827482632_0_0_0 = { (void*)2084, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CLoadAdditiveU3Ec__Iterator2_t1827482632_1_0_0 = { (void*)2084, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CLoadAdditiveU3Ec__Iterator2_t1827482632_0_0_0 = { (void*)2090, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CLoadAdditiveU3Ec__Iterator2_t1827482632_1_0_0 = { (void*)2090, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SetStartScene_t854415948_0_0_0 = { (void*)2085, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SetStartScene_t854415948_1_0_0 = { (void*)2085, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SetStartScene_t854415948_0_0_0 = { (void*)2091, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SetStartScene_t854415948_1_0_0 = { (void*)2091, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Benchmark01_t1571072624_0_0_0 = { (void*)2086, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Benchmark01_t1571072624_1_0_0 = { (void*)2086, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Benchmark01_t1571072624_0_0_3 = { (void*)2086, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Benchmark01_t1571072624_0_0_0 = { (void*)2092, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Benchmark01_t1571072624_1_0_0 = { (void*)2092, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Benchmark01_t1571072624_0_0_3 = { (void*)2092, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CStartU3Ec__Iterator0_t2216151886_0_0_0 = { (void*)2087, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartU3Ec__Iterator0_t2216151886_1_0_0 = { (void*)2087, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t2216151886_0_0_0 = { (void*)2093, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t2216151886_1_0_0 = { (void*)2093, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Benchmark01_UGUI_t3264177817_0_0_0 = { (void*)2088, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Benchmark01_UGUI_t3264177817_1_0_0 = { (void*)2088, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Benchmark01_UGUI_t3264177817_0_0_3 = { (void*)2088, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Benchmark01_UGUI_t3264177817_0_0_0 = { (void*)2094, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Benchmark01_UGUI_t3264177817_1_0_0 = { (void*)2094, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Benchmark01_UGUI_t3264177817_0_0_3 = { (void*)2094, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CStartU3Ec__Iterator0_t2622988697_0_0_0 = { (void*)2089, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartU3Ec__Iterator0_t2622988697_1_0_0 = { (void*)2089, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t2622988697_0_0_0 = { (void*)2095, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t2622988697_1_0_0 = { (void*)2095, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Benchmark02_t1571269232_0_0_0 = { (void*)2090, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Benchmark02_t1571269232_1_0_0 = { (void*)2090, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Benchmark02_t1571269232_0_0_0 = { (void*)2096, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Benchmark02_t1571269232_1_0_0 = { (void*)2096, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Benchmark03_t1571203696_0_0_0 = { (void*)2091, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Benchmark03_t1571203696_1_0_0 = { (void*)2091, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Benchmark03_t1571203696_0_0_0 = { (void*)2097, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Benchmark03_t1571203696_1_0_0 = { (void*)2097, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Benchmark04_t1570876016_0_0_0 = { (void*)2092, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Benchmark04_t1570876016_1_0_0 = { (void*)2092, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Benchmark04_t1570876016_0_0_0 = { (void*)2098, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Benchmark04_t1570876016_1_0_0 = { (void*)2098, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ChatController_t3486202795_0_0_0 = { (void*)2093, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ChatController_t3486202795_1_0_0 = { (void*)2093, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ChatController_t3486202795_0_0_0 = { (void*)2099, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ChatController_t3486202795_1_0_0 = { (void*)2099, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType EnvMapAnimator_t1140999784_0_0_0 = { (void*)2094, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType EnvMapAnimator_t1140999784_1_0_0 = { (void*)2094, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType EnvMapAnimator_t1140999784_0_0_3 = { (void*)2094, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType EnvMapAnimator_t1140999784_0_0_0 = { (void*)2100, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType EnvMapAnimator_t1140999784_1_0_0 = { (void*)2100, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType EnvMapAnimator_t1140999784_0_0_3 = { (void*)2100, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CStartU3Ec__Iterator0_t1520811813_0_0_0 = { (void*)2095, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartU3Ec__Iterator0_t1520811813_1_0_0 = { (void*)2095, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t1520811813_0_0_0 = { (void*)2101, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t1520811813_1_0_0 = { (void*)2101, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ObjectSpin_t341713598_0_0_0 = { (void*)2096, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ObjectSpin_t341713598_1_0_0 = { (void*)2096, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ObjectSpin_t341713598_0_0_0 = { (void*)2102, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ObjectSpin_t341713598_1_0_0 = { (void*)2102, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType MotionType_t1905163921_0_0_6 = { (void*)2097, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MotionType_t1905163921_0_0_0 = { (void*)2097, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType MotionType_t1905163921_1_0_0 = { (void*)2097, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType MotionType_t1905163921_0_0_32854 = { (void*)2097, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MotionType_t1905163921_0_0_6 = { (void*)2103, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MotionType_t1905163921_0_0_0 = { (void*)2103, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType MotionType_t1905163921_1_0_0 = { (void*)2103, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType MotionType_t1905163921_0_0_32854 = { (void*)2103, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType ShaderPropAnimator_t3617420994_0_0_0 = { (void*)2098, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ShaderPropAnimator_t3617420994_1_0_0 = { (void*)2098, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType ShaderPropAnimator_t3617420994_0_0_3 = { (void*)2098, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ShaderPropAnimator_t3617420994_0_0_0 = { (void*)2104, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ShaderPropAnimator_t3617420994_1_0_0 = { (void*)2104, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ShaderPropAnimator_t3617420994_0_0_3 = { (void*)2104, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CAnimatePropertiesU3Ec__Iterator0_t4041402054_0_0_0 = { (void*)2099, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAnimatePropertiesU3Ec__Iterator0_t4041402054_1_0_0 = { (void*)2099, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CAnimatePropertiesU3Ec__Iterator0_t4041402054_0_0_0 = { (void*)2105, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAnimatePropertiesU3Ec__Iterator0_t4041402054_1_0_0 = { (void*)2105, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SimpleScript_t3279312205_0_0_0 = { (void*)2100, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SimpleScript_t3279312205_1_0_0 = { (void*)2100, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SimpleScript_t3279312205_0_0_0 = { (void*)2106, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SimpleScript_t3279312205_1_0_0 = { (void*)2106, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SkewTextExample_t3460249701_0_0_0 = { (void*)2101, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SkewTextExample_t3460249701_1_0_0 = { (void*)2101, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType SkewTextExample_t3460249701_0_0_3 = { (void*)2101, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SkewTextExample_t3460249701_0_0_0 = { (void*)2107, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SkewTextExample_t3460249701_1_0_0 = { (void*)2107, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SkewTextExample_t3460249701_0_0_3 = { (void*)2107, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CWarpTextU3Ec__Iterator0_t116130919_0_0_0 = { (void*)2102, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CWarpTextU3Ec__Iterator0_t116130919_1_0_0 = { (void*)2102, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CWarpTextU3Ec__Iterator0_t116130919_0_0_0 = { (void*)2108, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CWarpTextU3Ec__Iterator0_t116130919_1_0_0 = { (void*)2108, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TeleType_t2409835159_0_0_0 = { (void*)2103, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TeleType_t2409835159_1_0_0 = { (void*)2103, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TeleType_t2409835159_0_0_3 = { (void*)2103, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TeleType_t2409835159_0_0_0 = { (void*)2109, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TeleType_t2409835159_1_0_0 = { (void*)2109, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TeleType_t2409835159_0_0_3 = { (void*)2109, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CStartU3Ec__Iterator0_t3341539328_0_0_0 = { (void*)2104, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartU3Ec__Iterator0_t3341539328_1_0_0 = { (void*)2104, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t3341539328_0_0_0 = { (void*)2110, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartU3Ec__Iterator0_t3341539328_1_0_0 = { (void*)2110, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TextConsoleSimulator_t3766250034_0_0_0 = { (void*)2105, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextConsoleSimulator_t3766250034_1_0_0 = { (void*)2105, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TextConsoleSimulator_t3766250034_0_0_3 = { (void*)2105, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextConsoleSimulator_t3766250034_0_0_0 = { (void*)2111, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextConsoleSimulator_t3766250034_1_0_0 = { (void*)2111, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TextConsoleSimulator_t3766250034_0_0_3 = { (void*)2111, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CRevealCharactersU3Ec__Iterator0_t860191687_0_0_0 = { (void*)2106, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CRevealCharactersU3Ec__Iterator0_t860191687_1_0_0 = { (void*)2106, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CRevealCharactersU3Ec__Iterator0_t860191687_0_0_0 = { (void*)2112, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CRevealCharactersU3Ec__Iterator0_t860191687_1_0_0 = { (void*)2112, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CRevealWordsU3Ec__Iterator1_t1343183262_0_0_0 = { (void*)2107, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CRevealWordsU3Ec__Iterator1_t1343183262_1_0_0 = { (void*)2107, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CRevealWordsU3Ec__Iterator1_t1343183262_0_0_0 = { (void*)2113, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CRevealWordsU3Ec__Iterator1_t1343183262_1_0_0 = { (void*)2113, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t2967292235_0_0_0 = { (void*)2109, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t2967292235_1_0_0 = { (void*)2109, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t2967292235_0_0_0 = { (void*)2115, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CDisplayTextMeshProFloatingTextU3Ec__Iterator0_t2967292235_1_0_0 = { (void*)2115, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t865582314_0_0_0 = { (void*)2110, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t865582314_1_0_0 = { (void*)2110, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t865582314_0_0_0 = { (void*)2116, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CDisplayTextMeshFloatingTextU3Ec__Iterator1_t865582314_1_0_0 = { (void*)2116, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TextMeshSpawner_t177691618_0_0_0 = { (void*)2111, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TextMeshSpawner_t177691618_1_0_0 = { (void*)2111, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TextMeshSpawner_t177691618_0_0_0 = { (void*)2117, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TextMeshSpawner_t177691618_1_0_0 = { (void*)2117, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_DigitValidator_t573672104_0_0_0 = { (void*)2112, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_DigitValidator_t573672104_1_0_0 = { (void*)2112, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_DigitValidator_t573672104_0_0_0 = { (void*)2118, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_DigitValidator_t573672104_1_0_0 = { (void*)2118, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_ExampleScript_01_t3051742005_0_0_0 = { (void*)2113, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_ExampleScript_01_t3051742005_1_0_0 = { (void*)2113, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_ExampleScript_01_t3051742005_0_0_0 = { (void*)2119, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_ExampleScript_01_t3051742005_1_0_0 = { (void*)2119, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType objectType_t4082700821_0_0_6 = { (void*)2114, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType objectType_t4082700821_0_0_0 = { (void*)2114, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType objectType_t4082700821_1_0_0 = { (void*)2114, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType objectType_t4082700821_0_0_32854 = { (void*)2114, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType objectType_t4082700821_0_0_6 = { (void*)2120, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType objectType_t4082700821_0_0_0 = { (void*)2120, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType objectType_t4082700821_1_0_0 = { (void*)2120, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType objectType_t4082700821_0_0_32854 = { (void*)2120, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TMP_FrameRateCounter_t314972976_0_0_0 = { (void*)2115, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_FrameRateCounter_t314972976_1_0_0 = { (void*)2115, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_FrameRateCounter_t314972976_0_0_0 = { (void*)2121, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_FrameRateCounter_t314972976_1_0_0 = { (void*)2121, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FpsCounterAnchorPositions_t1585798158_0_0_0 = { (void*)2116, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t1585798158_0_0_6 = { (void*)2116, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t1585798158_0_0_1 = { (void*)2116, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t1585798158_1_0_0 = { (void*)2116, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t1585798158_0_0_32854 = { (void*)2116, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t1585798158_0_0_0 = { (void*)2122, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t1585798158_0_0_6 = { (void*)2122, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t1585798158_0_0_1 = { (void*)2122, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t1585798158_1_0_0 = { (void*)2122, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t1585798158_0_0_32854 = { (void*)2122, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TMP_PhoneNumberValidator_t743649728_0_0_0 = { (void*)2117, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_PhoneNumberValidator_t743649728_1_0_0 = { (void*)2117, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_PhoneNumberValidator_t743649728_0_0_0 = { (void*)2123, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_PhoneNumberValidator_t743649728_1_0_0 = { (void*)2123, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_TextEventCheck_t1103849140_0_0_0 = { (void*)2118, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextEventCheck_t1103849140_1_0_0 = { (void*)2118, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_TextEventCheck_t1103849140_0_0_0 = { (void*)2124, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextEventCheck_t1103849140_1_0_0 = { (void*)2124, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_TextEventHandler_t1869054637_0_0_6 = { (void*)2119, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextEventHandler_t1869054637_0_0_0 = { (void*)2119, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextEventHandler_t1869054637_1_0_0 = { (void*)2119, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_TextEventHandler_t1869054637_0_0_6 = { (void*)2125, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextEventHandler_t1869054637_0_0_0 = { (void*)2125, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextEventHandler_t1869054637_1_0_0 = { (void*)2125, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CharacterSelectionEvent_t3109943174_0_0_0 = { (void*)2120, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CharacterSelectionEvent_t3109943174_0_0_1 = { (void*)2120, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CharacterSelectionEvent_t3109943174_1_0_0 = { (void*)2120, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CharacterSelectionEvent_t3109943174_0_0_0 = { (void*)2126, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CharacterSelectionEvent_t3109943174_0_0_1 = { (void*)2126, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CharacterSelectionEvent_t3109943174_1_0_0 = { (void*)2126, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SpriteSelectionEvent_t2798445241_0_0_0 = { (void*)2121, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SpriteSelectionEvent_t2798445241_0_0_1 = { (void*)2121, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SpriteSelectionEvent_t2798445241_1_0_0 = { (void*)2121, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SpriteSelectionEvent_t2798445241_0_0_0 = { (void*)2127, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SpriteSelectionEvent_t2798445241_0_0_1 = { (void*)2127, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SpriteSelectionEvent_t2798445241_1_0_0 = { (void*)2127, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType WordSelectionEvent_t1841909953_0_0_0 = { (void*)2122, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WordSelectionEvent_t1841909953_0_0_1 = { (void*)2122, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WordSelectionEvent_t1841909953_1_0_0 = { (void*)2122, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WordSelectionEvent_t1841909953_0_0_0 = { (void*)2128, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WordSelectionEvent_t1841909953_0_0_1 = { (void*)2128, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WordSelectionEvent_t1841909953_1_0_0 = { (void*)2128, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType LineSelectionEvent_t2868010532_0_0_0 = { (void*)2123, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LineSelectionEvent_t2868010532_0_0_1 = { (void*)2123, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LineSelectionEvent_t2868010532_1_0_0 = { (void*)2123, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType LineSelectionEvent_t2868010532_0_0_0 = { (void*)2129, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LineSelectionEvent_t2868010532_0_0_1 = { (void*)2129, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LineSelectionEvent_t2868010532_1_0_0 = { (void*)2129, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType LinkSelectionEvent_t1590929858_0_0_0 = { (void*)2124, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LinkSelectionEvent_t1590929858_0_0_1 = { (void*)2124, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType LinkSelectionEvent_t1590929858_1_0_0 = { (void*)2124, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType LinkSelectionEvent_t1590929858_0_0_0 = { (void*)2130, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LinkSelectionEvent_t1590929858_0_0_1 = { (void*)2130, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LinkSelectionEvent_t1590929858_1_0_0 = { (void*)2130, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_TextInfoDebugTool_t1868681444_0_0_0 = { (void*)2125, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextInfoDebugTool_t1868681444_1_0_0 = { (void*)2125, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_TextInfoDebugTool_t1868681444_0_0_0 = { (void*)2131, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextInfoDebugTool_t1868681444_1_0_0 = { (void*)2131, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_TextSelector_A_t3982526506_0_0_0 = { (void*)2126, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextSelector_A_t3982526506_1_0_0 = { (void*)2126, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_TextSelector_A_t3982526506_0_0_0 = { (void*)2132, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextSelector_A_t3982526506_1_0_0 = { (void*)2132, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_TextSelector_B_t3982526505_0_0_0 = { (void*)2127, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_TextSelector_B_t3982526505_1_0_0 = { (void*)2127, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_TextSelector_B_t3982526505_0_0_0 = { (void*)2133, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_TextSelector_B_t3982526505_1_0_0 = { (void*)2133, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TMP_UiFrameRateCounter_t811747397_0_0_0 = { (void*)2128, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMP_UiFrameRateCounter_t811747397_1_0_0 = { (void*)2128, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMP_UiFrameRateCounter_t811747397_0_0_0 = { (void*)2134, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMP_UiFrameRateCounter_t811747397_1_0_0 = { (void*)2134, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FpsCounterAnchorPositions_t2550331785_0_0_0 = { (void*)2129, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t2550331785_0_0_6 = { (void*)2129, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t2550331785_0_0_1 = { (void*)2129, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t2550331785_1_0_0 = { (void*)2129, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t2550331785_0_0_32854 = { (void*)2129, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t2550331785_0_0_0 = { (void*)2135, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t2550331785_0_0_6 = { (void*)2135, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t2550331785_0_0_1 = { (void*)2135, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t2550331785_1_0_0 = { (void*)2135, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t2550331785_0_0_32854 = { (void*)2135, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType TMPro_InstructionOverlay_t4246705477_0_0_0 = { (void*)2130, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TMPro_InstructionOverlay_t4246705477_1_0_0 = { (void*)2130, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TMPro_InstructionOverlay_t4246705477_0_0_0 = { (void*)2136, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TMPro_InstructionOverlay_t4246705477_1_0_0 = { (void*)2136, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FpsCounterAnchorPositions_t2334657565_0_0_0 = { (void*)2131, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t2334657565_0_0_6 = { (void*)2131, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t2334657565_1_0_0 = { (void*)2131, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType FpsCounterAnchorPositions_t2334657565_0_0_32854 = { (void*)2131, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t2334657565_0_0_0 = { (void*)2137, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t2334657565_0_0_6 = { (void*)2137, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t2334657565_1_0_0 = { (void*)2137, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType FpsCounterAnchorPositions_t2334657565_0_0_32854 = { (void*)2137, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType VertexColorCycler_t3003193665_0_0_0 = { (void*)2132, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType VertexColorCycler_t3003193665_1_0_0 = { (void*)2132, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType VertexColorCycler_t3003193665_0_0_3 = { (void*)2132, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexColorCycler_t3003193665_0_0_0 = { (void*)2138, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexColorCycler_t3003193665_1_0_0 = { (void*)2138, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType VertexColorCycler_t3003193665_0_0_3 = { (void*)2138, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t897284962_0_0_0 = { (void*)2133, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t897284962_1_0_0 = { (void*)2133, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t897284962_0_0_0 = { (void*)2139, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t897284962_1_0_0 = { (void*)2139, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType VertexJitter_t4087429332_0_0_0 = { (void*)2134, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType VertexJitter_t4087429332_1_0_0 = { (void*)2134, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType VertexJitter_t4087429332_0_0_3 = { (void*)2134, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexJitter_t4087429332_0_0_0 = { (void*)2140, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexJitter_t4087429332_1_0_0 = { (void*)2140, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType VertexJitter_t4087429332_0_0_3 = { (void*)2140, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t225534713_0_0_0 = { (void*)2136, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t225534713_1_0_0 = { (void*)2136, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t225534713_0_0_0 = { (void*)2142, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t225534713_1_0_0 = { (void*)2142, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType VertexAnimU5BU5D_t1611656175_0_0_3 = { (void*)&VertexAnim_t2231884842_0_0_0, 3, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType VertexAnimU5BU5D_t1611656175_0_0_0 = { (void*)&VertexAnim_t2231884842_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType VertexShakeA_t4262048139_0_0_0 = { (void*)2137, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType VertexShakeA_t4262048139_1_0_0 = { (void*)2137, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType VertexShakeA_t4262048139_0_0_3 = { (void*)2137, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexShakeA_t4262048139_0_0_0 = { (void*)2143, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexShakeA_t4262048139_1_0_0 = { (void*)2143, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType VertexShakeA_t4262048139_0_0_3 = { (void*)2143, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t956521787_0_0_0 = { (void*)2138, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t956521787_1_0_0 = { (void*)2138, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t956521787_0_0_0 = { (void*)2144, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t956521787_1_0_0 = { (void*)2144, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType Vector3U5BU5DU5BU5D_t546443028_0_0_3 = { (void*)&Vector3U5BU5D_t1718750761_0_0_0, 3, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType Vector3U5BU5DU5BU5D_t546443028_0_0_0 = { (void*)&Vector3U5BU5D_t1718750761_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType VertexShakeB_t1533164784_0_0_0 = { (void*)2139, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType VertexShakeB_t1533164784_1_0_0 = { (void*)2139, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType VertexShakeB_t1533164784_0_0_3 = { (void*)2139, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexShakeB_t1533164784_0_0_0 = { (void*)2145, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexShakeB_t1533164784_1_0_0 = { (void*)2145, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType VertexShakeB_t1533164784_0_0_3 = { (void*)2145, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t168300594_0_0_0 = { (void*)2140, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t168300594_1_0_0 = { (void*)2140, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t168300594_0_0_0 = { (void*)2146, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t168300594_1_0_0 = { (void*)2146, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType VertexZoom_t550798657_0_0_0 = { (void*)2141, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType VertexZoom_t550798657_1_0_0 = { (void*)2141, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType VertexZoom_t550798657_0_0_3 = { (void*)2141, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexZoom_t550798657_0_0_0 = { (void*)2147, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VertexZoom_t550798657_1_0_0 = { (void*)2147, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType VertexZoom_t550798657_0_0_3 = { (void*)2147, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t3792186008_0_0_0 = { (void*)2142, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t3792186008_1_0_0 = { (void*)2142, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t3792186008_0_0_3 = { (void*)2142, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t3792186008_0_0_0 = { (void*)2148, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t3792186008_1_0_0 = { (void*)2148, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__Iterator0_t3792186008_0_0_3 = { (void*)2148, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__AnonStorey1_t446847514_0_0_1 = { (void*)2143, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__AnonStorey1_t446847514_0_0_0 = { (void*)2143, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CAnimateVertexColorsU3Ec__AnonStorey1_t446847514_1_0_0 = { (void*)2143, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__AnonStorey1_t446847514_0_0_1 = { (void*)2149, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__AnonStorey1_t446847514_0_0_0 = { (void*)2149, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CAnimateVertexColorsU3Ec__AnonStorey1_t446847514_1_0_0 = { (void*)2149, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType WarpTextExample_t3821118074_0_0_0 = { (void*)2144, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WarpTextExample_t3821118074_1_0_0 = { (void*)2144, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType WarpTextExample_t3821118074_0_0_3 = { (void*)2144, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WarpTextExample_t3821118074_0_0_0 = { (void*)2150, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WarpTextExample_t3821118074_1_0_0 = { (void*)2150, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WarpTextExample_t3821118074_0_0_3 = { (void*)2150, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CWarpTextU3Ec__Iterator0_t4025661343_0_0_0 = { (void*)2145, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CWarpTextU3Ec__Iterator0_t4025661343_1_0_0 = { (void*)2145, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CWarpTextU3Ec__Iterator0_t4025661343_0_0_0 = { (void*)2151, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CWarpTextU3Ec__Iterator0_t4025661343_1_0_0 = { (void*)2151, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Line_t3796957314_0_0_0 = { (void*)2147, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Line_t3796957314_1_0_0 = { (void*)2147, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Line_t3796957314_0_0_0 = { (void*)2153, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Line_t3796957314_1_0_0 = { (void*)2153, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType IScreen_t3372351023_0_0_0 = { (void*)2148, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType IScreen_t3372351023_1_0_0 = { (void*)2148, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType IScreen_t3372351023_0_0_1 = { (void*)2148, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IScreen_t3372351023_0_0_0 = { (void*)2154, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IScreen_t3372351023_1_0_0 = { (void*)2154, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType IScreen_t3372351023_0_0_1 = { (void*)2154, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType MenuStack_t1187980235_0_0_0 = { (void*)2150, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType MenuStack_t1187980235_1_0_0 = { (void*)2150, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType MenuStack_t1187980235_0_0_1 = { (void*)2150, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MenuStack_t1187980235_0_0_0 = { (void*)2156, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MenuStack_t1187980235_1_0_0 = { (void*)2156, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType MenuStack_t1187980235_0_0_1 = { (void*)2156, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType OnScreenLog_t4176756454_0_0_0 = { (void*)2151, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OnScreenLog_t4176756454_1_0_0 = { (void*)2151, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OnScreenLog_t4176756454_0_0_0 = { (void*)2157, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OnScreenLog_t4176756454_1_0_0 = { (void*)2157, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SonyVitaSystemSettings_t1920556399_0_0_0 = { (void*)2152, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SonyVitaSystemSettings_t1920556399_1_0_0 = { (void*)2152, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SimpleNativePlugin_t1651452636_0_0_0 = { (void*)2158, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SimpleNativePlugin_t1651452636_1_0_0 = { (void*)2158, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Parallax_BG_t374717227_0_0_0 = { (void*)2153, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Parallax_BG_t374717227_1_0_0 = { (void*)2153, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SonyVitaSystemSettings_t1920556399_0_0_0 = { (void*)2159, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SonyVitaSystemSettings_t1920556399_1_0_0 = { (void*)2159, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AimToggler_t2679511282_0_0_0 = { (void*)2154, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AimToggler_t2679511282_1_0_0 = { (void*)2154, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Parallax_BG_t374717227_0_0_0 = { (void*)2160, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Parallax_BG_t374717227_1_0_0 = { (void*)2160, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType AimToggler_t2679511282_0_0_0 = { (void*)2161, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AimToggler_t2679511282_1_0_0 = { (void*)2161, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType ComponentU5BU5D_t3294940482_0_0_6 = { (void*)&Component_t1923634451_0_0_0, 6, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType Bezerk_Blinker_t124437985_0_0_0 = { (void*)2157, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Bezerk_Blinker_t124437985_1_0_0 = { (void*)2157, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Bezerk_Blinker_t124437985_0_0_3 = { (void*)2157, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Bezerk_Blinker_t124437985_0_0_0 = { (void*)2164, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Bezerk_Blinker_t124437985_1_0_0 = { (void*)2164, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Bezerk_Blinker_t124437985_0_0_3 = { (void*)2164, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CcolorAnimatorU3Ec__Iterator0_t4005243626_0_0_0 = { (void*)2158, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CcolorAnimatorU3Ec__Iterator0_t4005243626_1_0_0 = { (void*)2158, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CcolorAnimatorU3Ec__Iterator0_t4005243626_0_0_0 = { (void*)2165, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CcolorAnimatorU3Ec__Iterator0_t4005243626_1_0_0 = { (void*)2165, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CbezerkAdderU3Ec__Iterator0_t3559520566_0_0_0 = { (void*)2160, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CbezerkAdderU3Ec__Iterator0_t3559520566_1_0_0 = { (void*)2160, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CbezerkAdderU3Ec__Iterator0_t3559520566_0_0_0 = { (void*)2167, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CbezerkAdderU3Ec__Iterator0_t3559520566_1_0_0 = { (void*)2167, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CbackgroundFaderU3Ec__Iterator1_t711702929_0_0_0 = { (void*)2161, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CbackgroundFaderU3Ec__Iterator1_t711702929_1_0_0 = { (void*)2161, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CbackgroundFaderU3Ec__Iterator1_t711702929_0_0_0 = { (void*)2168, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CbackgroundFaderU3Ec__Iterator1_t711702929_1_0_0 = { (void*)2168, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CmaterialFaderU3Ec__Iterator2_t2324292952_0_0_0 = { (void*)2162, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CmaterialFaderU3Ec__Iterator2_t2324292952_1_0_0 = { (void*)2162, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CmaterialFaderU3Ec__Iterator2_t2324292952_0_0_0 = { (void*)2169, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CmaterialFaderU3Ec__Iterator2_t2324292952_1_0_0 = { (void*)2169, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType BG_Layer_Shift_t616870124_0_0_0 = { (void*)2164, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BG_Layer_Shift_t616870124_1_0_0 = { (void*)2164, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BG_Layer_Shift_t616870124_0_0_0 = { (void*)2171, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BG_Layer_Shift_t616870124_1_0_0 = { (void*)2171, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType BG_Parallax_t631976775_0_0_0 = { (void*)2165, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BG_Parallax_t631976775_1_0_0 = { (void*)2165, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BG_Parallax_t631976775_0_0_0 = { (void*)2172, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BG_Parallax_t631976775_1_0_0 = { (void*)2172, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CscaleLPFU3Ec__Iterator0_t2045043415_0_0_0 = { (void*)2167, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CscaleLPFU3Ec__Iterator0_t2045043415_1_0_0 = { (void*)2167, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CscaleLPFU3Ec__Iterator0_t2045043415_0_0_0 = { (void*)2174, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CscaleLPFU3Ec__Iterator0_t2045043415_1_0_0 = { (void*)2174, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType BounceScaleAwake_t1140760356_0_0_0 = { (void*)2168, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BounceScaleAwake_t1140760356_1_0_0 = { (void*)2168, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BounceScaleAwake_t1140760356_0_0_0 = { (void*)2175, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BounceScaleAwake_t1140760356_1_0_0 = { (void*)2175, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Bullet_t1042140031_0_0_0 = { (void*)2169, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Bullet_t1042140031_1_0_0 = { (void*)2169, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Bullet_t1042140031_0_0_0 = { (void*)2176, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Bullet_t1042140031_1_0_0 = { (void*)2176, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Bullet_Destroyer_t3190144642_0_0_0 = { (void*)2170, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Bullet_Destroyer_t3190144642_1_0_0 = { (void*)2170, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Bullet_Destroyer_t3190144642_0_0_0 = { (void*)2177, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Bullet_Destroyer_t3190144642_1_0_0 = { (void*)2177, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType CameraFacingBillboard_t1991403390_0_0_0 = { (void*)2171, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType CameraFacingBillboard_t1991403390_1_0_0 = { (void*)2171, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType CameraFacingBillboard_t1991403390_0_0_0 = { (void*)2178, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType CameraFacingBillboard_t1991403390_1_0_0 = { (void*)2178, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ClearPlayerPrefs_t2651082224_0_0_0 = { (void*)2172, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ClearPlayerPrefs_t2651082224_1_0_0 = { (void*)2172, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ClearPlayerPrefs_t2651082224_0_0_0 = { (void*)2179, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ClearPlayerPrefs_t2651082224_1_0_0 = { (void*)2179, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Dupe_Rotation_t417245426_0_0_0 = { (void*)2173, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Dupe_Rotation_t417245426_1_0_0 = { (void*)2173, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Dupe_Rotation_t417245426_0_0_0 = { (void*)2180, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Dupe_Rotation_t417245426_1_0_0 = { (void*)2180, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FadeIn_t1801613303_0_0_0 = { (void*)2174, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FadeIn_t1801613303_1_0_0 = { (void*)2174, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FadeIn_t1801613303_0_0_0 = { (void*)2181, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FadeIn_t1801613303_1_0_0 = { (void*)2181, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FadeMe_t1801940979_0_0_0 = { (void*)2175, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FadeMe_t1801940979_1_0_0 = { (void*)2175, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FadeMe_t1801940979_0_0_0 = { (void*)2182, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FadeMe_t1801940979_1_0_0 = { (void*)2182, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Fadeout_t2017630435_0_0_0 = { (void*)2176, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Fadeout_t2017630435_1_0_0 = { (void*)2176, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Fadeout_t2017630435_0_0_3 = { (void*)2176, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Fadeout_t2017630435_0_0_0 = { (void*)2183, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Fadeout_t2017630435_1_0_0 = { (void*)2183, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Fadeout_t2017630435_0_0_3 = { (void*)2183, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CWaitU3Ec__Iterator0_t508845540_0_0_0 = { (void*)2177, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CWaitU3Ec__Iterator0_t508845540_1_0_0 = { (void*)2177, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CWaitU3Ec__Iterator0_t508845540_0_0_0 = { (void*)2184, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CWaitU3Ec__Iterator0_t508845540_1_0_0 = { (void*)2184, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CshotIteratorU3Ec__Iterator0_t3383974276_0_0_0 = { (void*)2179, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CshotIteratorU3Ec__Iterator0_t3383974276_1_0_0 = { (void*)2179, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CshotIteratorU3Ec__Iterator0_t3383974276_0_0_0 = { (void*)2186, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CshotIteratorU3Ec__Iterator0_t3383974276_1_0_0 = { (void*)2186, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Follow_Player_t3215939975_0_0_0 = { (void*)2180, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Follow_Player_t3215939975_1_0_0 = { (void*)2180, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Follow_Player_t3215939975_0_0_0 = { (void*)2187, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Follow_Player_t3215939975_1_0_0 = { (void*)2187, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FollowPlayerwithRotation_t153715049_0_0_0 = { (void*)2181, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FollowPlayerwithRotation_t153715049_1_0_0 = { (void*)2181, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FollowPlayerwithRotation_t153715049_0_0_0 = { (void*)2188, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FollowPlayerwithRotation_t153715049_1_0_0 = { (void*)2188, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType HealthBar_t4188698988_0_0_0 = { (void*)2182, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType HealthBar_t4188698988_1_0_0 = { (void*)2182, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType HealthBar_t4188698988_0_0_3 = { (void*)2182, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType HealthBar_t4188698988_0_0_0 = { (void*)2189, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType HealthBar_t4188698988_1_0_0 = { (void*)2189, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType HealthBar_t4188698988_0_0_3 = { (void*)2189, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CcolorAnimatorU3Ec__Iterator0_t2714528900_0_0_0 = { (void*)2183, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CcolorAnimatorU3Ec__Iterator0_t2714528900_1_0_0 = { (void*)2183, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CcolorAnimatorU3Ec__Iterator0_t2714528900_0_0_0 = { (void*)2190, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CcolorAnimatorU3Ec__Iterator0_t2714528900_1_0_0 = { (void*)2190, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CIncrementCountU3Ec__Iterator0_t848451864_0_0_0 = { (void*)2186, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CIncrementCountU3Ec__Iterator0_t848451864_1_0_0 = { (void*)2186, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CIncrementCountU3Ec__Iterator0_t848451864_0_0_0 = { (void*)2193, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CIncrementCountU3Ec__Iterator0_t848451864_1_0_0 = { (void*)2193, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CWaitCalculateU3Ec__Iterator1_t3776656802_0_0_0 = { (void*)2187, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CWaitCalculateU3Ec__Iterator1_t3776656802_1_0_0 = { (void*)2187, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CWaitCalculateU3Ec__Iterator1_t3776656802_0_0_0 = { (void*)2194, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CWaitCalculateU3Ec__Iterator1_t3776656802_1_0_0 = { (void*)2194, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ObjectFader_t2143227768_0_0_0 = { (void*)2189, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ObjectFader_t2143227768_1_0_0 = { (void*)2189, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ObjectFader_t2143227768_0_0_0 = { (void*)2196, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ObjectFader_t2143227768_1_0_0 = { (void*)2196, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t2439768346_0_0_0 = { (void*)2191, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t2439768346_1_0_0 = { (void*)2191, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t2439768346_0_0_0 = { (void*)2198, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t2439768346_1_0_0 = { (void*)2198, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2529207987_0_0_0 = { (void*)2192, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2529207987_1_0_0 = { (void*)2192, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2529207987_0_0_0 = { (void*)2199, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2529207987_1_0_0 = { (void*)2199, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t2916495583_0_0_0 = { (void*)2194, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t2916495583_1_0_0 = { (void*)2194, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t2916495583_0_0_0 = { (void*)2201, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t2916495583_1_0_0 = { (void*)2201, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t3170001492_0_0_0 = { (void*)2195, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t3170001492_1_0_0 = { (void*)2195, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t3170001492_0_0_0 = { (void*)2202, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t3170001492_1_0_0 = { (void*)2202, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Particle_Pauser_t2295192862_0_0_0 = { (void*)2196, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Particle_Pauser_t2295192862_1_0_0 = { (void*)2196, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Particle_Pauser_t2295192862_0_0_0 = { (void*)2203, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Particle_Pauser_t2295192862_1_0_0 = { (void*)2203, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Reloader_t1939385864_0_0_0 = { (void*)2199, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Reloader_t1939385864_1_0_0 = { (void*)2199, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Reloader_t1939385864_0_0_0 = { (void*)2206, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Reloader_t1939385864_1_0_0 = { (void*)2206, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SaveData_t4186603175_0_0_0 = { (void*)2201, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SaveData_t4186603175_1_0_0 = { (void*)2201, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SaveData_t4186603175_0_0_0 = { (void*)2208, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SaveData_t4186603175_1_0_0 = { (void*)2208, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SceneLoader_t4130533360_0_0_0 = { (void*)2202, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SceneLoader_t4130533360_1_0_0 = { (void*)2202, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType SceneLoader_t4130533360_0_0_3 = { (void*)2202, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SceneLoader_t4130533360_0_0_0 = { (void*)2209, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SceneLoader_t4130533360_1_0_0 = { (void*)2209, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SceneLoader_t4130533360_0_0_3 = { (void*)2209, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t861601243_0_0_0 = { (void*)2203, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t861601243_1_0_0 = { (void*)2203, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t861601243_0_0_0 = { (void*)2210, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t861601243_1_0_0 = { (void*)2210, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t1069699069_0_0_0 = { (void*)2204, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t1069699069_1_0_0 = { (void*)2204, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t1069699069_0_0_0 = { (void*)2211, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t1069699069_1_0_0 = { (void*)2211, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SetScenes_t1986016658_0_0_0 = { (void*)2206, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SetScenes_t1986016658_1_0_0 = { (void*)2206, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SetScenes_t1986016658_0_0_0 = { (void*)2213, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SetScenes_t1986016658_1_0_0 = { (void*)2213, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType StencilHitCheck_t2934387889_0_0_0 = { (void*)2207, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType StencilHitCheck_t2934387889_1_0_0 = { (void*)2207, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType StencilHitCheck_t2934387889_0_0_0 = { (void*)2214, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StencilHitCheck_t2934387889_1_0_0 = { (void*)2214, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType UV_Scroller_t1857965904_0_0_0 = { (void*)2208, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType UV_Scroller_t1857965904_1_0_0 = { (void*)2208, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType UV_Scroller_t1857965904_0_0_0 = { (void*)2215, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UV_Scroller_t1857965904_1_0_0 = { (void*)2215, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Waypoint_t1614450805_0_0_0 = { (void*)2209, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Waypoint_t1614450805_1_0_0 = { (void*)2209, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Waypoint_t1614450805_0_0_0 = { (void*)2216, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Waypoint_t1614450805_1_0_0 = { (void*)2216, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const RuntimeType TransformU5BU5D_t807237628_0_0_1 = { (void*)&Transform_t3600365921_0_0_0, 1, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType WaypointUtility_t4146954148_0_0_0 = { (void*)2210, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WaypointUtility_t4146954148_1_0_0 = { (void*)2210, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WaypointUtility_t4146954148_0_0_0 = { (void*)2217, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WaypointUtility_t4146954148_1_0_0 = { (void*)2217, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType DrawLine_t239201497_0_0_0 = { (void*)2211, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType DrawLine_t239201497_1_0_0 = { (void*)2211, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType DrawLine_t239201497_0_0_17 = { (void*)2211, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DrawLine_t239201497_0_0_0 = { (void*)2218, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DrawLine_t239201497_1_0_0 = { (void*)2218, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType DrawLine_t239201497_0_0_17 = { (void*)2218, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType ColorExtension_t4110873130_0_0_0 = { (void*)2212, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ColorExtension_t4110873130_1_0_0 = { (void*)2212, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ColorExtension_t4110873130_0_0_0 = { (void*)2219, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ColorExtension_t4110873130_1_0_0 = { (void*)2219, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType BuildSetup_t1563323527_0_0_0 = { (void*)2213, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType BuildSetup_t1563323527_1_0_0 = { (void*)2213, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType BuildSetup_t1563323527_0_0_0 = { (void*)2220, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BuildSetup_t1563323527_1_0_0 = { (void*)2220, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType FremerateManager_t1913578291_0_0_0 = { (void*)2214, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType FremerateManager_t1913578291_1_0_0 = { (void*)2214, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType FremerateManager_t1913578291_0_0_0 = { (void*)2221, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType FremerateManager_t1913578291_1_0_0 = { (void*)2221, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GetResolution_t3320440621_0_0_0 = { (void*)2215, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GetResolution_t3320440621_1_0_0 = { (void*)2215, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GetResolution_t3320440621_0_0_0 = { (void*)2222, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GetResolution_t3320440621_1_0_0 = { (void*)2222, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType HeapAllocator_t2507178471_0_0_0 = { (void*)2216, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType HeapAllocator_t2507178471_1_0_0 = { (void*)2216, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType HeapAllocator_t2507178471_0_0_0 = { (void*)2223, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType HeapAllocator_t2507178471_1_0_0 = { (void*)2223, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType OutlinePost_t3737395541_0_0_0 = { (void*)2217, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType OutlinePost_t3737395541_1_0_0 = { (void*)2217, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType OutlinePost_t3737395541_0_0_0 = { (void*)2224, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType OutlinePost_t3737395541_1_0_0 = { (void*)2224, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType ResolutionSetter_t853612697_0_0_0 = { (void*)2218, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType ResolutionSetter_t853612697_1_0_0 = { (void*)2218, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ResolutionSetter_t853612697_0_0_0 = { (void*)2225, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ResolutionSetter_t853612697_1_0_0 = { (void*)2225, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType SequencePlayer_t1120302796_0_0_0 = { (void*)2219, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType SequencePlayer_t1120302796_1_0_0 = { (void*)2219, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType SequencePlayer_t1120302796_0_0_3 = { (void*)2219, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SequencePlayer_t1120302796_0_0_0 = { (void*)2226, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType SequencePlayer_t1120302796_1_0_0 = { (void*)2226, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType SequencePlayer_t1120302796_0_0_3 = { (void*)2226, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CPlayLoopU3Ec__Iterator0_t3076249267_0_0_0 = { (void*)2220, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CPlayLoopU3Ec__Iterator0_t3076249267_1_0_0 = { (void*)2220, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CPlayLoopU3Ec__Iterator0_t3076249267_0_0_0 = { (void*)2227, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CPlayLoopU3Ec__Iterator0_t3076249267_1_0_0 = { (void*)2227, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CPlayU3Ec__Iterator1_t2316854480_0_0_0 = { (void*)2221, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CPlayU3Ec__Iterator1_t2316854480_1_0_0 = { (void*)2221, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CPlayU3Ec__Iterator1_t2316854480_0_0_0 = { (void*)2228, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CPlayU3Ec__Iterator1_t2316854480_1_0_0 = { (void*)2228, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Title_DoF_Animator_t3804621630_0_0_0 = { (void*)2222, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Title_DoF_Animator_t3804621630_1_0_0 = { (void*)2222, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Title_DoF_Animator_t3804621630_0_0_0 = { (void*)2229, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Title_DoF_Animator_t3804621630_1_0_0 = { (void*)2229, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType WaypointAgent_t2735810886_0_0_0 = { (void*)2223, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WaypointAgent_t2735810886_1_0_0 = { (void*)2223, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WaypointAgent_t2735810886_0_0_0 = { (void*)2230, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WaypointAgent_t2735810886_1_0_0 = { (void*)2230, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType WaypointManager_t3890418417_0_0_6 = { (void*)2226, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WaypointManager_t3890418417_0_0_0 = { (void*)2226, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WaypointManager_t3890418417_1_0_0 = { (void*)2226, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WaypointManager_t3890418417_0_0_6 = { (void*)2233, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WaypointManager_t3890418417_0_0_0 = { (void*)2233, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WaypointManager_t3890418417_1_0_0 = { (void*)2233, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType AxisToggle_t2251360501_0_0_6 = { (void*)2224, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AxisToggle_t2251360501_0_0_0 = { (void*)2224, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType AxisToggle_t2251360501_1_0_0 = { (void*)2224, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AxisToggle_t2251360501_0_0_6 = { (void*)2231, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AxisToggle_t2251360501_0_0_0 = { (void*)2231, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AxisToggle_t2251360501_1_0_0 = { (void*)2231, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType WaypointData_t4246105513_0_0_0 = { (void*)2225, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType WaypointData_t4246105513_1_0_0 = { (void*)2225, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType WaypointData_t4246105513_0_0_6 = { (void*)2225, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WaypointData_t4246105513_0_0_0 = { (void*)2232, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WaypointData_t4246105513_1_0_0 = { (void*)2232, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WaypointData_t4246105513_0_0_6 = { (void*)2232, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType PointU5BU5D_t998645434_0_0_6 = { (void*)&Point_t1828648699_0_0_0, 6, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 extern const RuntimeType PointU5BU5D_t998645434_0_0_0 = { (void*)&Point_t1828648699_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
-extern const RuntimeType Buttons_t3044739808_0_0_0 = { (void*)2227, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Buttons_t3044739808_1_0_0 = { (void*)2227, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType Buttons_t3044739808_0_0_3 = { (void*)2227, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Buttons_t3044739808_0_0_0 = { (void*)2234, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Buttons_t3044739808_1_0_0 = { (void*)2234, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Buttons_t3044739808_0_0_3 = { (void*)2234, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType SelectedEnemy_t916768779_0_0_6 = { (void*)2228, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SelectedEnemy_t916768779_0_0_0 = { (void*)2228, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType SelectedEnemy_t916768779_1_0_0 = { (void*)2228, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType SelectedEnemy_t916768779_0_0_32854 = { (void*)2228, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SelectedEnemy_t916768779_0_0_6 = { (void*)2235, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SelectedEnemy_t916768779_0_0_0 = { (void*)2235, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType SelectedEnemy_t916768779_1_0_0 = { (void*)2235, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType SelectedEnemy_t916768779_0_0_32854 = { (void*)2235, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType U3CFadeLoadSaveScreenU3Ec__Iterator0_t430801388_0_0_0 = { (void*)2229, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeLoadSaveScreenU3Ec__Iterator0_t430801388_1_0_0 = { (void*)2229, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeLoadSaveScreenU3Ec__Iterator0_t430801388_0_0_0 = { (void*)2236, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeLoadSaveScreenU3Ec__Iterator0_t430801388_1_0_0 = { (void*)2236, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CtimerU3Ec__Iterator1_t2797602007_0_0_0 = { (void*)2230, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CtimerU3Ec__Iterator1_t2797602007_1_0_0 = { (void*)2230, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CtimerU3Ec__Iterator1_t2797602007_0_0_0 = { (void*)2237, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CtimerU3Ec__Iterator1_t2797602007_1_0_0 = { (void*)2237, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType GameOverButtons_t2863511746_0_0_0 = { (void*)2231, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType GameOverButtons_t2863511746_1_0_0 = { (void*)2231, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType GameOverButtons_t2863511746_0_0_3 = { (void*)2231, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GameOverButtons_t2863511746_0_0_0 = { (void*)2238, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GameOverButtons_t2863511746_1_0_0 = { (void*)2238, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GameOverButtons_t2863511746_0_0_3 = { (void*)2238, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4103928459_0_0_0 = { (void*)2232, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4103928459_1_0_0 = { (void*)2232, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4103928459_0_0_0 = { (void*)2239, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4103928459_1_0_0 = { (void*)2239, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2104540285_0_0_0 = { (void*)2233, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2104540285_1_0_0 = { (void*)2233, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2104540285_0_0_0 = { (void*)2240, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2104540285_1_0_0 = { (void*)2240, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Joystick_Target_t2061983948_0_0_0 = { (void*)2234, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Joystick_Target_t2061983948_1_0_0 = { (void*)2234, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Joystick_Target_t2061983948_0_0_0 = { (void*)2241, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Joystick_Target_t2061983948_1_0_0 = { (void*)2241, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CFadeScreenU3Ec__Iterator0_t3422042327_0_0_0 = { (void*)2236, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeScreenU3Ec__Iterator0_t3422042327_1_0_0 = { (void*)2236, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeScreenU3Ec__Iterator0_t3422042327_0_0_0 = { (void*)2243, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeScreenU3Ec__Iterator0_t3422042327_1_0_0 = { (void*)2243, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType PauseManager_t1166378904_0_0_0 = { (void*)2238, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType PauseManager_t1166378904_1_0_0 = { (void*)2238, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType PauseManager_t1166378904_0_0_0 = { (void*)2245, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PauseManager_t1166378904_1_0_0 = { (void*)2245, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4274245721_0_0_0 = { (void*)2240, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4274245721_1_0_0 = { (void*)2240, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4274245721_0_0_0 = { (void*)2247, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4274245721_1_0_0 = { (void*)2247, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t1537162934_0_0_0 = { (void*)2241, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t1537162934_1_0_0 = { (void*)2241, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t1537162934_0_0_0 = { (void*)2248, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t1537162934_1_0_0 = { (void*)2248, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CDialogHandlerU3Ec__Iterator2_t2750974388_0_0_0 = { (void*)2242, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CDialogHandlerU3Ec__Iterator2_t2750974388_1_0_0 = { (void*)2242, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CDialogHandlerU3Ec__Iterator2_t2750974388_0_0_0 = { (void*)2249, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CDialogHandlerU3Ec__Iterator2_t2750974388_1_0_0 = { (void*)2249, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4179645091_0_0_0 = { (void*)2244, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4179645091_1_0_0 = { (void*)2244, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4179645091_0_0_0 = { (void*)2251, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t4179645091_1_0_0 = { (void*)2251, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2470269376_0_0_0 = { (void*)2245, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2470269376_1_0_0 = { (void*)2245, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2470269376_0_0_0 = { (void*)2252, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2470269376_1_0_0 = { (void*)2252, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CFadeScreenU3Ec__Iterator2_t2843304175_0_0_0 = { (void*)2246, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeScreenU3Ec__Iterator2_t2843304175_1_0_0 = { (void*)2246, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeScreenU3Ec__Iterator2_t2843304175_0_0_0 = { (void*)2253, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeScreenU3Ec__Iterator2_t2843304175_1_0_0 = { (void*)2253, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t1375117951_0_0_0 = { (void*)2248, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t1375117951_1_0_0 = { (void*)2248, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t1375117951_0_0_0 = { (void*)2255, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CStartLoadU3Ec__Iterator0_t1375117951_1_0_0 = { (void*)2255, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2284539295_0_0_0 = { (void*)2249, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2284539295_1_0_0 = { (void*)2249, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2284539295_0_0_0 = { (void*)2256, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator1_t2284539295_1_0_0 = { (void*)2256, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CDialogHandlerU3Ec__Iterator2_t3551168443_0_0_0 = { (void*)2250, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CDialogHandlerU3Ec__Iterator2_t3551168443_1_0_0 = { (void*)2250, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CDialogHandlerU3Ec__Iterator2_t3551168443_0_0_0 = { (void*)2257, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CDialogHandlerU3Ec__Iterator2_t3551168443_1_0_0 = { (void*)2257, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType TitleScreenButtons_t4084505703_0_0_0 = { (void*)2251, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType TitleScreenButtons_t4084505703_1_0_0 = { (void*)2251, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-extern const RuntimeType TitleScreenButtons_t4084505703_0_0_3 = { (void*)2251, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TitleScreenButtons_t4084505703_0_0_0 = { (void*)2258, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType TitleScreenButtons_t4084505703_1_0_0 = { (void*)2258, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType TitleScreenButtons_t4084505703_0_0_3 = { (void*)2258, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator0_t2982066617_0_0_0 = { (void*)2252, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator0_t2982066617_1_0_0 = { (void*)2252, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator0_t2982066617_0_0_0 = { (void*)2259, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CFadeLoadingScreenU3Ec__Iterator0_t2982066617_1_0_0 = { (void*)2259, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType U3CInputDelayU3Ec__Iterator1_t2666026029_0_0_0 = { (void*)2253, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CInputDelayU3Ec__Iterator1_t2666026029_1_0_0 = { (void*)2253, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CInputDelayU3Ec__Iterator1_t2666026029_0_0_0 = { (void*)2260, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CInputDelayU3Ec__Iterator1_t2666026029_1_0_0 = { (void*)2260, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType Touch_t4199062853_0_0_0 = { (void*)2255, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType Touch_t4199062853_1_0_0 = { (void*)2255, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Touch_t4199062853_0_0_0 = { (void*)2262, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Touch_t4199062853_1_0_0 = { (void*)2262, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const RuntimeType VitaRenderTexturePlayback_t163567984_0_0_0 = { (void*)2256, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType VitaRenderTexturePlayback_t163567984_1_0_0 = { (void*)2256, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType VitaRenderTexturePlayback_t163567984_0_0_0 = { (void*)2263, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType VitaRenderTexturePlayback_t163567984_1_0_0 = { (void*)2263, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 Il2CppGenericClass IComparer_1_t884274696_GenericClass = { 169, { &GenInst_DefaultComparer_t3277344064_gp_0_0_0_0, NULL }, NULL };
 extern const RuntimeType IComparer_1_t884274696_0_0_0 = { &IComparer_1_t884274696_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -21222,7 +21381,7 @@ extern const RuntimeType TextAlignmentOptionsU5BU5D_t3552942253_0_0_0 = { (void*
 extern const RuntimeType TMP_ColorGradientU5BU5D_t2496920137_0_0_0 = { (void*)&TMP_ColorGradient_t3678055768_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType ITrackingHandlerU5BU5D_t3758023570_0_0_0 = { (void*)&ITrackingHandler_t1244553475_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const RuntimeType* const  g_Il2CppTypeTable[10641] = 
+extern const RuntimeType* const  g_Il2CppTypeTable[10701] = 
 {
 	&IEnumerator_1_t3512676632_0_0_0,
 	&RuntimeObject_0_0_0,
@@ -22437,6 +22596,21 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&IComparable_1_t954642244_0_0_0,
 	&DefaultComparer_t3733548460_0_0_0,
 	&Comparison_1_t1360909010_0_0_0,
+	&Dictionary_2_t1968819495_0_0_0,
+	&ICollection_1_t2899676600_0_0_0,
+	&KeyValuePair_2_t71524366_0_0_0,
+	&IEnumerator_1_t504094834_0_0_0,
+	&InternalEnumerator_1_t978588483_0_0_0,
+	&IList_1_t1886844149_0_0_0,
+	&IEnumerable_1_t3346344551_0_0_0,
+	&IDictionary_2_t432670886_0_0_0,
+	&ValueCollection_t3684863813_0_0_0,
+	&Enumerator_t2537713152_0_0_0,
+	&Enumerator_t3923002270_0_0_0,
+	&Transform_1_t2404408695_0_0_0,
+	&Transform_1_t2448278169_0_0_0,
+	&Transform_1_t3690794193_0_0_0,
+	&ShimEnumerator_t1965540292_0_0_0,
 	&IEnumerator_1_t3751599405_0_0_0,
 	&Vector4_t3319028937_0_0_0,
 	&InternalEnumerator_1_t4226093054_0_0_0,
@@ -22795,21 +22969,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&IEnumerable_1_t4086617484_0_0_0,
 	&Dictionary_2_t3261990503_0_0_0,
 	&LayoutCache_t78309876_0_0_0,
-	&Dictionary_2_t1968819495_0_0_0,
-	&ICollection_1_t2899676600_0_0_0,
-	&KeyValuePair_2_t71524366_0_0_0,
-	&IEnumerator_1_t504094834_0_0_0,
-	&InternalEnumerator_1_t978588483_0_0_0,
-	&IList_1_t1886844149_0_0_0,
-	&IEnumerable_1_t3346344551_0_0_0,
-	&IDictionary_2_t432670886_0_0_0,
-	&ValueCollection_t3684863813_0_0_0,
-	&Enumerator_t2537713152_0_0_0,
-	&Enumerator_t3923002270_0_0_0,
-	&Transform_1_t2404408695_0_0_0,
-	&Transform_1_t2448278169_0_0_0,
-	&Transform_1_t3690794193_0_0_0,
-	&ShimEnumerator_t1965540292_0_0_0,
 	&IEnumerator_1_t510880344_0_0_0,
 	&InternalEnumerator_1_t985373993_0_0_0,
 	&IList_1_t1893629659_0_0_0,
@@ -22856,6 +23015,49 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&ValueCollection_t1163234832_0_0_0,
 	&Enumerator_t16084171_0_0_0,
 	&Enumerator_t1401373289_0_0_0,
+	&Dictionary_2_t3055005891_0_0_0,
+	&Event_t2956885303_0_0_0,
+	&TextEditOp_t1927482598_0_0_0,
+	&Dictionary_2_t3274888882_0_0_0,
+	&ICollection_1_t4205745987_0_0_0,
+	&KeyValuePair_2_t1377593753_0_0_0,
+	&IEnumerator_1_t1810164221_0_0_0,
+	&InternalEnumerator_1_t2284657870_0_0_0,
+	&IList_1_t3192913536_0_0_0,
+	&IEnumerable_1_t357446642_0_0_0,
+	&IDictionary_2_t1738740273_0_0_0,
+	&IEnumerator_1_t2360053066_0_0_0,
+	&InternalEnumerator_1_t2834546715_0_0_0,
+	&IList_1_t3742802381_0_0_0,
+	&ICollection_1_t460667536_0_0_0,
+	&IEnumerable_1_t907335487_0_0_0,
+	&ValueCollection_t695965904_0_0_0,
+	&Enumerator_t3843782539_0_0_0,
+	&Enumerator_t934104361_0_0_0,
+	&Transform_1_t3239041426_0_0_0,
+	&Transform_1_t140567170_0_0_0,
+	&Transform_1_t2689152581_0_0_0,
+	&ShimEnumerator_t3271609679_0_0_0,
+	&IEqualityComparer_1_t4034814616_0_0_0,
+	&EqualityComparer_1_t97254934_0_0_0,
+	&IEquatable_1_t2818628325_0_0_0,
+	&DefaultComparer_t2659107550_0_0_0,
+	&IEnumerator_1_t3389455771_0_0_0,
+	&InternalEnumerator_1_t3863949420_0_0_0,
+	&IList_1_t477237790_0_0_0,
+	&ICollection_1_t1490070241_0_0_0,
+	&IEnumerable_1_t1936738192_0_0_0,
+	&IEqualityComparer_1_t769250025_0_0_0,
+	&Transform_1_t1958752525_0_0_0,
+	&KeyValuePair_2_t1157710762_0_0_0,
+	&IEnumerator_1_t1590281230_0_0_0,
+	&InternalEnumerator_1_t2064774879_0_0_0,
+	&IList_1_t2973030545_0_0_0,
+	&ICollection_1_t3985862996_0_0_0,
+	&IEnumerable_1_t137563651_0_0_0,
+	&ValueCollection_t476082913_0_0_0,
+	&Enumerator_t3623899548_0_0_0,
+	&Enumerator_t714221370_0_0_0,
 	&IEnumerator_1_t1488572434_0_0_0,
 	&RaycastHit_t1056001966_0_0_0,
 	&InternalEnumerator_1_t1963066083_0_0_0,
@@ -24754,6 +24956,8 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&CachedInvokableCall_1_t3153979999_0_0_0,
 	&PlayerConnection_t3081694049_0_0_0,
 	&GUILayer_t2783472903_0_0_0,
+	&KeyCode_t2599294277_0_0_0,
+	&TextEditor_t2759855366_0_0_0,
 	&GUITargetAttribute_t25796337_0_0_0,
 	&AxisEventData_t2331243652_0_0_0,
 	&SpriteRenderer_t3235626157_0_0_0,
@@ -28999,6 +29203,7 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&Screen_t3860757715_1_0_0,
 	&ResolutionU5BU5D_t290426658_0_0_0,
 	&RectOffset_t1369453676_1_0_0,
+	&Rect_t2360479859_1_0_0,
 	&IntPtr_t_0_0_131,
 	&RuntimeObject_0_0_33,
 	&GUIElement_t3567083079_0_0_0,
@@ -29025,7 +29230,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&Gyroscope_t3288342876_1_0_0,
 	&Input_t1431474628_0_0_0,
 	&Input_t1431474628_1_0_0,
-	&KeyCode_t2599294277_0_0_0,
 	&Vector2_t2156229523_1_0_2,
 	&Touch_t1921856868_1_0_2,
 	&Gyroscope_t3288342876_0_0_17,
@@ -29154,6 +29358,8 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&Looping_t2263117051_0_0_32854,
 	&Mode_t4227090116_1_0_0,
 	&Mode_t4227090116_0_0_32854,
+	&Utility_t3720139105_0_0_0,
+	&Utility_t3720139105_1_0_0,
 	&AttributeHelperEngine_t2735742303_0_0_0,
 	&AttributeHelperEngine_t2735742303_1_0_0,
 	&AttributeHelperEngine_GetCustomAttributeOfType_m3435288294_gp_0_0_0_0,
@@ -29246,6 +29452,9 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&TextureDimension_t3933106086_1_0_0,
 	&TextureDimension_t3933106086_0_0_32854,
 	&MeshRenderer_t587009260_1_0_0,
+	&GUIStateObjects_t327145277_0_0_0,
+	&GUIStateObjects_t327145277_1_0_0,
+	&Dictionary_2_t1968819495_0_0_17,
 	&IExposedPropertyTable_t2524209546_0_0_0,
 	&IExposedPropertyTable_t2524209546_1_0_0,
 	&KeyCode_t2599294277_1_0_0,
@@ -29311,7 +29520,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&PropertyName_t3749835189_1_0_2,
 	&PropertyName_t3749835189_1_0_0,
 	&RangeInt_t2094684618_1_0_0,
-	&Rect_t2360479859_1_0_0,
 	&SelectionBaseAttribute_t3493465804_0_0_0,
 	&SelectionBaseAttribute_t3493465804_1_0_0,
 	&SerializePrivateVariables_t3872960625_0_0_0,
@@ -29765,7 +29973,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&PlayableDirector_t508516997_1_0_0,
 	&U3CModuleU3E_t692745538_0_0_0,
 	&U3CModuleU3E_t692745538_1_0_0,
-	&Event_t2956885303_0_0_0,
 	&Event_t2956885303_1_0_0,
 	&EventType_t3528516131_0_0_0,
 	&EventModifiers_t2016417398_0_0_0,
@@ -29798,6 +30005,9 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&GUIStyleState_t1397964415_1_0_0,
 	&GUIStyle_t3956901511_0_0_33,
 	&Texture2D_t3840446185_0_0_129,
+	&Internal_DrawWithTextSelectionArguments_t978153917_0_0_0,
+	&Internal_DrawWithTextSelectionArguments_t978153917_1_0_0,
+	&Rect_t2360479859_0_0_6,
 	&GUIStyle_t3956901511_1_0_0,
 	&IntPtr_t_1_0_2,
 	&GUIStyleState_t1397964415_0_0_129,
@@ -29805,6 +30015,7 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&Font_t1956802104_0_0_129,
 	&GUIUtility_t1868551600_0_0_0,
 	&GUIUtility_t1868551600_1_0_0,
+	&FocusType_t718022695_0_0_0,
 	&Action_t1264377477_0_0_19,
 	&Func_3_t4119323734_0_0_19,
 	&Func_2_t3450341358_0_0_19,
@@ -29817,6 +30028,8 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&Texture_t3661962703_0_0_1,
 	&GUIContent_t3050628031_0_0_49,
 	&GUIContent_t3050628031_0_0_22,
+	&FocusType_t718022695_1_0_0,
+	&FocusType_t718022695_0_0_32854,
 	&GUILayout_t3503650450_0_0_0,
 	&GUILayout_t3503650450_1_0_0,
 	&GUILayoutOption_t811797299_1_0_0,
@@ -29832,7 +30045,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&GUIScrollGroup_t1523329021_1_0_0,
 	&GUIStyle_t3956901511_0_0_6,
 	&GUILayoutEntry_t3214611570_1_0_0,
-	&Rect_t2360479859_0_0_6,
 	&GUIStyle_t3956901511_0_0_1,
 	&Rect_t2360479859_0_0_19,
 	&Int32_t2950945753_0_0_20,
@@ -29853,14 +30065,20 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&ScrollViewState_t3797911395_1_0_0,
 	&SliderState_t2207048770_0_0_0,
 	&SliderState_t2207048770_1_0_0,
-	&TextEditor_t2759855366_0_0_0,
 	&TextEditor_t2759855366_1_0_0,
+	&DblClickSnapping_t2629979741_0_0_0,
+	&CharacterType_t1303021140_0_0_0,
 	&TouchScreenKeyboard_t731888065_0_0_6,
 	&GUIContent_t3050628031_0_0_1,
+	&Rect_t2360479859_0_0_1,
 	&DblClickSnapping_t2629979741_0_0_1,
-	&DblClickSnapping_t2629979741_0_0_0,
+	&Dictionary_2_t3055005891_0_0_17,
 	&DblClickSnapping_t2629979741_1_0_0,
 	&DblClickSnapping_t2629979741_0_0_32854,
+	&CharacterType_t1303021140_1_0_0,
+	&CharacterType_t1303021140_0_0_32854,
+	&TextEditOp_t1927482598_1_0_0,
+	&TextEditOp_t1927482598_0_0_32854,
 	&U3CModuleU3E_t692745539_0_0_0,
 	&U3CModuleU3E_t692745539_1_0_0,
 	&NativeInputDeviceInfo_t3032009285_0_0_0,
@@ -30398,7 +30616,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&Mode_t1066900953_1_0_0,
 	&Mode_t1066900953_0_0_32854,
 	&RawImage_t3182918964_1_0_0,
-	&Rect_t2360479859_0_0_1,
 	&RectMask2D_t3474889437_1_0_0,
 	&RectangularVertexClipper_t626611136_0_0_161,
 	&HashSet_1_t4099546121_0_0_129,
@@ -31545,6 +31762,8 @@ extern const RuntimeType* const  g_Il2CppTypeTable[10641] =
 	&OnScreenLog_t4176756454_0_0_0,
 	&OnScreenLog_t4176756454_1_0_0,
 	&List_1_t3319525431_0_0_17,
+	&SimpleNativePlugin_t1651452636_0_0_0,
+	&SimpleNativePlugin_t1651452636_1_0_0,
 	&SonyVitaSystemSettings_t1920556399_0_0_0,
 	&SonyVitaSystemSettings_t1920556399_1_0_0,
 	&MenuStack_t1187980235_0_0_1,

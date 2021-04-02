@@ -15493,13 +15493,13 @@ extern "C"  int32_t Dictionary_2_get_Count_m3116003634_gshared (Dictionary_2_t18
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>::set_Item(!0,!1)
 extern "C"  void Dictionary_2_set_Item_m3394774875_gshared (Dictionary_2_t1839659084 * __this, int32_t p0, int32_t p1, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::.ctor()
-extern "C"  void Dictionary_2__ctor_m2601736566_gshared (Dictionary_2_t1968819495 * __this, const RuntimeMethod* method);
+extern "C"  void Dictionary_2__ctor_m252876485_gshared (Dictionary_2_t1968819495 * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::ContainsKey(!0)
 extern "C"  bool Dictionary_2_ContainsKey_m2382293057_gshared (Dictionary_2_t1968819495 * __this, int32_t p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::Add(!0,!1)
 extern "C"  void Dictionary_2_Add_m2059424751_gshared (Dictionary_2_t1968819495 * __this, int32_t p0, RuntimeObject * p1, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::TryGetValue(!0,!1&)
-extern "C"  bool Dictionary_2_TryGetValue_m3411363121_gshared (Dictionary_2_t1968819495 * __this, int32_t p0, RuntimeObject ** p1, const RuntimeMethod* method);
+extern "C"  bool Dictionary_2_TryGetValue_m3167860287_gshared (Dictionary_2_t1968819495 * __this, int32_t p0, RuntimeObject ** p1, const RuntimeMethod* method);
 // System.Boolean System.Linq.Enumerable::Contains<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,!!0)
 extern "C"  bool Enumerable_Contains_TisRuntimeObject_m806373428_gshared (RuntimeObject * __this /* static, unused */, RuntimeObject* p0, RuntimeObject * p1, const RuntimeMethod* method);
 // !!0 UnityEngine.Component::GetComponent<System.Object>()
@@ -15718,13 +15718,13 @@ extern "C"  bool Object_op_Inequality_m4071470834 (RuntimeObject * __this /* sta
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>::set_Item(!0,!1)
 #define Dictionary_2_set_Item_m3394774875(__this, p0, p1, method) ((  void (*) (Dictionary_2_t1839659084 *, int32_t, int32_t, const RuntimeMethod*))Dictionary_2_set_Item_m3394774875_gshared)(__this, p0, p1, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Material>::.ctor()
-#define Dictionary_2__ctor_m1559119416(__this, method) ((  void (*) (Dictionary_2_t3524055750 *, const RuntimeMethod*))Dictionary_2__ctor_m2601736566_gshared)(__this, method)
+#define Dictionary_2__ctor_m1559119416(__this, method) ((  void (*) (Dictionary_2_t3524055750 *, const RuntimeMethod*))Dictionary_2__ctor_m252876485_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_FontAsset>::.ctor()
-#define Dictionary_2__ctor_m2880932050(__this, method) ((  void (*) (Dictionary_2_t3548062253 *, const RuntimeMethod*))Dictionary_2__ctor_m2601736566_gshared)(__this, method)
+#define Dictionary_2__ctor_m2880932050(__this, method) ((  void (*) (Dictionary_2_t3548062253 *, const RuntimeMethod*))Dictionary_2__ctor_m252876485_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_SpriteAsset>::.ctor()
-#define Dictionary_2__ctor_m1628725251(__this, method) ((  void (*) (Dictionary_2_t3668501260 *, const RuntimeMethod*))Dictionary_2__ctor_m2601736566_gshared)(__this, method)
+#define Dictionary_2__ctor_m1628725251(__this, method) ((  void (*) (Dictionary_2_t3668501260 *, const RuntimeMethod*))Dictionary_2__ctor_m252876485_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_ColorGradient>::.ctor()
-#define Dictionary_2__ctor_m651306490(__this, method) ((  void (*) (Dictionary_2_t2566769099 *, const RuntimeMethod*))Dictionary_2__ctor_m2601736566_gshared)(__this, method)
+#define Dictionary_2__ctor_m651306490(__this, method) ((  void (*) (Dictionary_2_t2566769099 *, const RuntimeMethod*))Dictionary_2__ctor_m252876485_gshared)(__this, method)
 // System.Void TMPro.MaterialReferenceManager::.ctor()
 extern "C"  void MaterialReferenceManager__ctor_m912257905 (MaterialReferenceManager_t2114976864 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // TMPro.MaterialReferenceManager TMPro.MaterialReferenceManager::get_instance()
@@ -15756,19 +15756,19 @@ extern "C"  void MaterialReferenceManager_AddColorGradientPreset_Internal_m22260
 // System.Boolean TMPro.MaterialReferenceManager::TryGetFontAssetInternal(System.Int32,TMPro.TMP_FontAsset&)
 extern "C"  bool MaterialReferenceManager_TryGetFontAssetInternal_m3430961127 (MaterialReferenceManager_t2114976864 * __this, int32_t ___hashCode0, TMP_FontAsset_t364381626 ** ___fontAsset1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_FontAsset>::TryGetValue(!0,!1&)
-#define Dictionary_2_TryGetValue_m2479136426(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3548062253 *, int32_t, TMP_FontAsset_t364381626 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3411363121_gshared)(__this, p0, p1, method)
+#define Dictionary_2_TryGetValue_m2479136426(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3548062253 *, int32_t, TMP_FontAsset_t364381626 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3167860287_gshared)(__this, p0, p1, method)
 // System.Boolean TMPro.MaterialReferenceManager::TryGetSpriteAssetInternal(System.Int32,TMPro.TMP_SpriteAsset&)
 extern "C"  bool MaterialReferenceManager_TryGetSpriteAssetInternal_m3148505359 (MaterialReferenceManager_t2114976864 * __this, int32_t ___hashCode0, TMP_SpriteAsset_t484820633 ** ___spriteAsset1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_SpriteAsset>::TryGetValue(!0,!1&)
-#define Dictionary_2_TryGetValue_m271518343(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3668501260 *, int32_t, TMP_SpriteAsset_t484820633 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3411363121_gshared)(__this, p0, p1, method)
+#define Dictionary_2_TryGetValue_m271518343(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3668501260 *, int32_t, TMP_SpriteAsset_t484820633 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3167860287_gshared)(__this, p0, p1, method)
 // System.Boolean TMPro.MaterialReferenceManager::TryGetColorGradientPresetInternal(System.Int32,TMPro.TMP_ColorGradient&)
 extern "C"  bool MaterialReferenceManager_TryGetColorGradientPresetInternal_m4097383273 (MaterialReferenceManager_t2114976864 * __this, int32_t ___hashCode0, TMP_ColorGradient_t3678055768 ** ___gradientPreset1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_ColorGradient>::TryGetValue(!0,!1&)
-#define Dictionary_2_TryGetValue_m2230094949(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t2566769099 *, int32_t, TMP_ColorGradient_t3678055768 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3411363121_gshared)(__this, p0, p1, method)
+#define Dictionary_2_TryGetValue_m2230094949(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t2566769099 *, int32_t, TMP_ColorGradient_t3678055768 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3167860287_gshared)(__this, p0, p1, method)
 // System.Boolean TMPro.MaterialReferenceManager::TryGetMaterialInternal(System.Int32,UnityEngine.Material&)
 extern "C"  bool MaterialReferenceManager_TryGetMaterialInternal_m3267467437 (MaterialReferenceManager_t2114976864 * __this, int32_t ___hashCode0, Material_t340375123 ** ___material1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Material>::TryGetValue(!0,!1&)
-#define Dictionary_2_TryGetValue_m1190653738(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3524055750 *, int32_t, Material_t340375123 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3411363121_gshared)(__this, p0, p1, method)
+#define Dictionary_2_TryGetValue_m1190653738(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3524055750 *, int32_t, Material_t340375123 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3167860287_gshared)(__this, p0, p1, method)
 // System.Void TMPro.Mesh_Extents::.ctor(UnityEngine.Vector2,UnityEngine.Vector2)
 extern "C"  void Mesh_Extents__ctor_m769434183 (Mesh_Extents_t3388355125 * __this, Vector2_t2156229523  ___min0, Vector2_t2156229523  ___max1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.String TMPro.Mesh_Extents::ToString()
@@ -16192,7 +16192,7 @@ extern "C"  float TMP_SubMesh_get_padding_m360660882 (TMP_SubMesh_t2613037997 * 
 // System.Collections.Generic.Dictionary`2<System.Int32,TMPro.KerningPair> TMPro.TMP_FontAsset::get_kerningDictionary()
 extern "C"  Dictionary_2_t1159568920 * TMP_FontAsset_get_kerningDictionary_m3031755164 (TMP_FontAsset_t364381626 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,TMPro.KerningPair>::TryGetValue(!0,!1&)
-#define Dictionary_2_TryGetValue_m3778774191(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t1159568920 *, int32_t, KerningPair_t2270855589 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3411363121_gshared)(__this, p0, p1, method)
+#define Dictionary_2_TryGetValue_m3778774191(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t1159568920 *, int32_t, KerningPair_t2270855589 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3167860287_gshared)(__this, p0, p1, method)
 // TMPro.GlyphValueRecord TMPro.KerningPair::get_firstGlyphAdjustments()
 extern "C"  GlyphValueRecord_t4065874512  KerningPair_get_firstGlyphAdjustments_m3739554385 (KerningPair_t2270855589 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // TMPro.GlyphValueRecord TMPro.KerningPair::get_secondGlyphAdjustments()

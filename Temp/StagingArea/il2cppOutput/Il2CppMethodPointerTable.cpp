@@ -1868,6 +1868,9 @@ extern "C" void FlagsAttribute__ctor_m2686422840 ();
 extern "C" void FormatException__ctor_m1479314061 ();
 extern "C" void FormatException__ctor_m4049685996 ();
 extern "C" void FormatException__ctor_m3747066592 ();
+extern "C" void GC_get_MaxGeneration_m2376144064 ();
+extern "C" void GC_InternalCollect_m742461464 ();
+extern "C" void GC_Collect_m743975114 ();
 extern "C" void GC_KeepAlive_m1400443516 ();
 extern "C" void GC_SuppressFinalize_m1177400158 ();
 extern "C" void Calendar__ctor_m106290643 ();
@@ -2335,6 +2338,7 @@ extern "C" void File_Create_m604182744 ();
 extern "C" void File_Delete_m321251800 ();
 extern "C" void File_Exists_m3943585060 ();
 extern "C" void File_Open_m664439378 ();
+extern "C" void File_Open_m70483901 ();
 extern "C" void File_OpenRead_m2936789020 ();
 extern "C" void File_OpenText_m196858847 ();
 extern "C" void FileLoadException__ctor_m3879680456 ();
@@ -8243,6 +8247,8 @@ extern "C" void Graphics__cctor_m2078894045 ();
 extern "C" void GUIElement__ctor_m3257342989 ();
 extern "C" void GUILayer_HitTest_m512928460 ();
 extern "C" void GUILayer_INTERNAL_CALL_HitTest_m1069802956 ();
+extern "C" void GUIStateObjects_GetStateObject_m610289746 ();
+extern "C" void GUIStateObjects__cctor_m3979345696 ();
 extern "C" void HeaderAttribute__ctor_m1154052380 ();
 extern "C" void HideInInspector__ctor_m1179782685 ();
 extern "C" void ImageEffectAllowedInSceneView__ctor_m2451209732 ();
@@ -8594,6 +8600,7 @@ extern "C" void PSVitaVideoPlayer_Play_m439140063 ();
 extern "C" void PSVitaVideoPlayer_TransferMemToHeap_m3307362304 ();
 extern "C" void PSVitaVideoPlayer_Init_m2659996897 ();
 extern "C" void PSVitaVideoPlayer_Update_m3897723372 ();
+extern "C" void Utility_set_gcEnable_m457904756 ();
 extern "C" void QualitySettings_set_maxQueuedFrames_m926206817 ();
 extern "C" void QualitySettings_get_activeColorSpace_m2902748248 ();
 extern "C" void Quaternion__ctor_m435141806_AdjustorThunk ();
@@ -8688,6 +8695,8 @@ extern "C" void RectOffset_get_bottom_m890891527 ();
 extern "C" void RectOffset_set_bottom_m2747419780 ();
 extern "C" void RectOffset_get_horizontal_m2663785949 ();
 extern "C" void RectOffset_get_vertical_m2029961580 ();
+extern "C" void RectOffset_Remove_m923691646 ();
+extern "C" void RectOffset_INTERNAL_CALL_Remove_m2717276736 ();
 extern "C" void RectOffset_Finalize_m3971587028 ();
 extern "C" void RectOffset_ToString_m2007443979 ();
 extern "C" void RectTransform_get_rect_m574169965 ();
@@ -8930,6 +8939,7 @@ extern "C" void Time_get_deltaTime_m372706562 ();
 extern "C" void Time_get_unscaledTime_m3457564332 ();
 extern "C" void Time_get_unscaledDeltaTime_m4270080131 ();
 extern "C" void Time_set_timeScale_m1127545364 ();
+extern "C" void Time_get_frameCount_m1220035214 ();
 extern "C" void Time_get_realtimeSinceStartup_m3141794964 ();
 extern "C" void TooltipAttribute__ctor_m534364555 ();
 extern "C" void Touch_get_fingerId_m859576425_AdjustorThunk ();
@@ -9351,23 +9361,33 @@ extern "C" void Event_Init_m2830944622 ();
 extern "C" void Event_Cleanup_m2477919477 ();
 extern "C" void Event_get_rawType_m2996166859 ();
 extern "C" void Event_get_type_m1370041809 ();
+extern "C" void Event_set_type_m3901523645 ();
 extern "C" void Event_Internal_GetMousePosition_m1101229675 ();
 extern "C" void Event_get_modifiers_m995073384 ();
+extern "C" void Event_set_modifiers_m1736248727 ();
+extern "C" void Event_get_clickCount_m2853192404 ();
 extern "C" void Event_get_character_m1666742088 ();
+extern "C" void Event_set_character_m1015181207 ();
 extern "C" void Event_get_commandName_m4275147343 ();
 extern "C" void Event_get_keyCode_m1098493350 ();
+extern "C" void Event_set_keyCode_m1503549422 ();
 extern "C" void Event_Internal_SetNativeEvent_m1397431767 ();
 extern "C" void Event_set_displayIndex_m1342258734 ();
+extern "C" void Event_Internal_Use_m1097157232 ();
 extern "C" void Event_PopEvent_m2275423287 ();
 extern "C" void Event_Finalize_m2235592665 ();
 extern "C" void Event_get_mousePosition_m733809635 ();
+extern "C" void Event_get_shift_m2390976042 ();
+extern "C" void Event_get_alt_m3910191449 ();
 extern "C" void Event_get_current_m2393892120 ();
 extern "C" void Event_Internal_MakeMasterEventCurrent_m112421958 ();
 extern "C" void Event_get_isKey_m1703963445 ();
 extern "C" void Event_get_isMouse_m1058251071 ();
+extern "C" void Event_KeyboardEvent_m3559380707 ();
 extern "C" void Event_GetHashCode_m3559153592 ();
 extern "C" void Event_Equals_m321840542 ();
 extern "C" void Event_ToString_m1688862299 ();
+extern "C" void Event_Use_m1333167935 ();
 extern "C" void GUI__cctor_m3051457990 ();
 extern "C" void GUI_set_changed_m535954674 ();
 extern "C" void GUI_set_enabled_m3922032131 ();
@@ -9385,6 +9405,13 @@ extern "C" void GUI_Label_m3404668030 ();
 extern "C" void GUI_Button_m1518979886 ();
 extern "C" void GUI_Button_m2223708732 ();
 extern "C" void GUI_Button_m1546789121 ();
+extern "C" void GUI_PasswordFieldGetStrToShow_m613030658 ();
+extern "C" void GUI_TextArea_m3287099916 ();
+extern "C" void GUI_DoTextField_m2995045020 ();
+extern "C" void GUI_DoTextField_m981649653 ();
+extern "C" void GUI_DoTextField_m1332167741 ();
+extern "C" void GUI_HandleTextFieldEventForTouchscreen_m1092737262 ();
+extern "C" void GUI_HandleTextFieldEventForDesktop_m2685229389 ();
 extern "C" void GUI_CallWindowDelegate_m3309453386 ();
 extern "C" void WindowFunction__ctor_m2544237635 ();
 extern "C" void WindowFunction_Invoke_m3205356586 ();
@@ -9393,6 +9420,7 @@ extern "C" void WindowFunction_EndInvoke_m2850430521 ();
 extern "C" void GUIContent__ctor_m3360759894 ();
 extern "C" void GUIContent__ctor_m890195579 ();
 extern "C" void GUIContent__ctor_m2166411317 ();
+extern "C" void GUIContent_get_text_m1072111792 ();
 extern "C" void GUIContent_set_text_m607297463 ();
 extern "C" void GUIContent_set_image_m1091531865 ();
 extern "C" void GUIContent_set_tooltip_m738967743 ();
@@ -9444,10 +9472,18 @@ extern "C" void GUIScrollGroup_SetHorizontal_m291416666 ();
 extern "C" void GUIScrollGroup_CalcHeight_m3173593443 ();
 extern "C" void GUIScrollGroup_SetVertical_m353811564 ();
 extern "C" void GUISettings__ctor_m2761652600 ();
+extern "C" void GUISettings_Internal_GetCursorFlashSpeed_m2762316906 ();
+extern "C" void GUISettings_get_doubleClickSelectsWord_m3025565005 ();
+extern "C" void GUISettings_get_tripleClickSelectsLine_m3492055675 ();
+extern "C" void GUISettings_get_cursorColor_m1142243417 ();
+extern "C" void GUISettings_get_cursorFlashSpeed_m873595026 ();
+extern "C" void GUISettings_get_selectionColor_m689844895 ();
 extern "C" void GUISkin__ctor_m3576427628 ();
 extern "C" void GUISkin_get_font_m3937910082 ();
 extern "C" void GUISkin_get_label_m1693050720 ();
+extern "C" void GUISkin_get_textArea_m1928475264 ();
 extern "C" void GUISkin_get_button_m2792560996 ();
+extern "C" void GUISkin_get_settings_m545552441 ();
 extern "C" void GUISkin_get_error_m3656702485 ();
 extern "C" void GUISkin_BuildStyleCache_m1553793917 ();
 extern "C" void GUISkin_GetStyle_m2344315993 ();
@@ -9470,6 +9506,12 @@ extern "C" void GUIStyle_GetRectOffsetPtr_m2881421249 ();
 extern "C" void GUIStyle_INTERNAL_CALL_GetRectOffsetPtr_m152975056 ();
 extern "C" void GUIStyle_set_alignment_m3944619660 ();
 extern "C" void GUIStyle_set_wordWrap_m1419501823 ();
+extern "C" void GUIStyle_get_contentOffset_m3404024487 ();
+extern "C" void GUIStyle_set_contentOffset_m1529148399 ();
+extern "C" void GUIStyle_INTERNAL_get_contentOffset_m3619270446 ();
+extern "C" void GUIStyle_INTERNAL_set_contentOffset_m72876448 ();
+extern "C" void GUIStyle_set_Internal_clipOffset_m2642848929 ();
+extern "C" void GUIStyle_INTERNAL_set_Internal_clipOffset_m136489018 ();
 extern "C" void GUIStyle_get_fixedWidth_m2576616348 ();
 extern "C" void GUIStyle_get_fixedHeight_m2868324709 ();
 extern "C" void GUIStyle_get_stretchWidth_m3556443132 ();
@@ -9477,15 +9519,38 @@ extern "C" void GUIStyle_set_stretchWidth_m2564034386 ();
 extern "C" void GUIStyle_get_stretchHeight_m4172805773 ();
 extern "C" void GUIStyle_set_stretchHeight_m3442828884 ();
 extern "C" void GUIStyle_Internal_GetLineHeight_m4231395871 ();
+extern "C" void GUIStyle_GetFontInternal_m1734480648 ();
 extern "C" void GUIStyle_get_fontSize_m408481077 ();
 extern "C" void GUIStyle_set_fontSize_m1566850023 ();
+extern "C" void GUIStyle_Internal_Draw2_m573548245 ();
+extern "C" void GUIStyle_INTERNAL_CALL_Internal_Draw2_m1418187183 ();
+extern "C" void GUIStyle_Internal_GetCursorFlashOffset_m862474508 ();
+extern "C" void GUIStyle_Internal_DrawCursor_m2741354140 ();
+extern "C" void GUIStyle_INTERNAL_CALL_Internal_DrawCursor_m138068406 ();
+extern "C" void GUIStyle_Internal_DrawWithTextSelection_m3929602010 ();
 extern "C" void GUIStyle_SetDefaultFont_m1581452579 ();
+extern "C" void GUIStyle_Internal_GetCursorPixelPosition_m208803822 ();
+extern "C" void GUIStyle_INTERNAL_CALL_Internal_GetCursorPixelPosition_m878150067 ();
+extern "C" void GUIStyle_Internal_GetCursorStringIndex_m1958709211 ();
+extern "C" void GUIStyle_INTERNAL_CALL_Internal_GetCursorStringIndex_m1750936228 ();
+extern "C" void GUIStyle_Internal_CalcSize_m4224365767 ();
+extern "C" void GUIStyle_Internal_CalcHeight_m446125850 ();
 extern "C" void GUIStyle_Finalize_m1912900812 ();
 extern "C" void GUIStyle_get_normal_m729441812 ();
 extern "C" void GUIStyle_get_margin_m3595798603 ();
 extern "C" void GUIStyle_get_padding_m3526264743 ();
+extern "C" void GUIStyle_get_font_m2893473160 ();
 extern "C" void GUIStyle_get_lineHeight_m3399768780 ();
+extern "C" void GUIStyle_Draw_m3190299676 ();
+extern "C" void GUIStyle_DrawCursor_m2683410016 ();
+extern "C" void GUIStyle_DrawWithTextSelection_m2316478565 ();
+extern "C" void GUIStyle_DrawWithTextSelection_m2520817525 ();
+extern "C" void GUIStyle_DrawWithTextSelection_m394506342 ();
 extern "C" void GUIStyle_get_none_m1545577352 ();
+extern "C" void GUIStyle_GetCursorPixelPosition_m3960759208 ();
+extern "C" void GUIStyle_GetCursorStringIndex_m534719898 ();
+extern "C" void GUIStyle_CalcSize_m1046812636 ();
+extern "C" void GUIStyle_CalcHeight_m1341687357 ();
 extern "C" void GUIStyle_ToString_m3014660435 ();
 extern "C" void GUIStyle__cctor_m3477697449 ();
 extern "C" void GUIStyleState__ctor_m1648430456 ();
@@ -9499,15 +9564,28 @@ extern "C" void GUIStyleState_GetGUIStyleState_m74106824 ();
 extern "C" void GUIStyleState_Finalize_m1466589588 ();
 extern "C" void GUITargetAttribute_GetGUITargetAttrValue_m2954410352 ();
 extern "C" void GUIUtility_Internal_GetPixelsPerPoint_m290411053 ();
+extern "C" void GUIUtility_Internal_GetNextControlID2_m800052281 ();
+extern "C" void GUIUtility_INTERNAL_CALL_Internal_GetNextControlID2_m3439369849 ();
+extern "C" void GUIUtility_Internal_GetHotControl_m2856765646 ();
+extern "C" void GUIUtility_Internal_SetHotControl_m3891677565 ();
+extern "C" void GUIUtility_Internal_GetKeyboardControl_m2201588114 ();
+extern "C" void GUIUtility_Internal_SetKeyboardControl_m4077915422 ();
 extern "C" void GUIUtility_get_systemCopyBuffer_m2735901425 ();
 extern "C" void GUIUtility_set_systemCopyBuffer_m608712289 ();
 extern "C" void GUIUtility_Internal_GetDefaultSkin_m2977444868 ();
 extern "C" void GUIUtility_Internal_ExitGUI_m273923508 ();
 extern "C" void GUIUtility_Internal_GetGUIDepth_m1169824684 ();
+extern "C" void GUIUtility_set_textFieldInput_m4036087722 ();
 extern "C" void GUIUtility_get_pixelsPerPoint_m2369948084 ();
+extern "C" void GUIUtility_GetControlID_m1220503034 ();
+extern "C" void GUIUtility_GetStateObject_m1741015855 ();
 extern "C" void GUIUtility_set_guiIsExiting_m1558910088 ();
+extern "C" void GUIUtility_get_hotControl_m226353344 ();
+extern "C" void GUIUtility_set_hotControl_m1874596979 ();
 extern "C" void GUIUtility_TakeCapture_m1130863121 ();
 extern "C" void GUIUtility_RemoveCapture_m1294193818 ();
+extern "C" void GUIUtility_get_keyboardControl_m2990485252 ();
+extern "C" void GUIUtility_set_keyboardControl_m119089252 ();
 extern "C" void GUIUtility_GetDefaultSkin_m1141001896 ();
 extern "C" void GUIUtility_ProcessEvent_m3254259822 ();
 extern "C" void GUIUtility_BeginGUI_m1428629348 ();
@@ -9522,6 +9600,94 @@ extern "C" void GUIUtility__cctor_m3177179339 ();
 extern "C" void ScrollViewState__ctor_m1599613496 ();
 extern "C" void SliderState__ctor_m3367986001 ();
 extern "C" void TextEditor__ctor_m242049450 ();
+extern "C" void TextEditor_get_text_m3620786721 ();
+extern "C" void TextEditor_set_text_m3128827115 ();
+extern "C" void TextEditor_get_position_m2027231954 ();
+extern "C" void TextEditor_set_position_m2726739347 ();
+extern "C" void TextEditor_get_localPosition_m3201938373 ();
+extern "C" void TextEditor_get_cursorIndex_m590337076 ();
+extern "C" void TextEditor_set_cursorIndex_m3874797575 ();
+extern "C" void TextEditor_get_selectIndex_m3283854236 ();
+extern "C" void TextEditor_set_selectIndex_m2204227925 ();
+extern "C" void TextEditor_ClearCursorPos_m1765024837 ();
+extern "C" void TextEditor_OnFocus_m3224255389 ();
+extern "C" void TextEditor_OnLostFocus_m3728191196 ();
+extern "C" void TextEditor_GrabGraphicalCursorPos_m2654128003 ();
+extern "C" void TextEditor_HandleKeyEvent_m2539982240 ();
+extern "C" void TextEditor_DeleteLineBack_m38020651 ();
+extern "C" void TextEditor_DeleteWordBack_m4135014383 ();
+extern "C" void TextEditor_DeleteWordForward_m768603331 ();
+extern "C" void TextEditor_Delete_m1195035524 ();
+extern "C" void TextEditor_Backspace_m2977709891 ();
+extern "C" void TextEditor_SelectAll_m1416101779 ();
+extern "C" void TextEditor_SelectNone_m2297517419 ();
+extern "C" void TextEditor_get_hasSelection_m3446945309 ();
+extern "C" void TextEditor_DeleteSelection_m1433877599 ();
+extern "C" void TextEditor_ReplaceSelection_m2459920881 ();
+extern "C" void TextEditor_Insert_m1009419335 ();
+extern "C" void TextEditor_MoveRight_m2127805806 ();
+extern "C" void TextEditor_MoveLeft_m2284693690 ();
+extern "C" void TextEditor_MoveUp_m4029468687 ();
+extern "C" void TextEditor_MoveDown_m2566154205 ();
+extern "C" void TextEditor_MoveLineStart_m799500285 ();
+extern "C" void TextEditor_MoveLineEnd_m1563956413 ();
+extern "C" void TextEditor_MoveGraphicalLineStart_m3220976677 ();
+extern "C" void TextEditor_MoveGraphicalLineEnd_m1598222378 ();
+extern "C" void TextEditor_MoveTextStart_m3356225499 ();
+extern "C" void TextEditor_MoveTextEnd_m122202411 ();
+extern "C" void TextEditor_IndexOfEndOfLine_m2343282214 ();
+extern "C" void TextEditor_MoveParagraphForward_m2923875987 ();
+extern "C" void TextEditor_MoveParagraphBackward_m2833567235 ();
+extern "C" void TextEditor_MoveCursorToPosition_m4041970523 ();
+extern "C" void TextEditor_MoveCursorToPosition_Internal_m62434073 ();
+extern "C" void TextEditor_SelectToPosition_m2765508349 ();
+extern "C" void TextEditor_SelectLeft_m1199119289 ();
+extern "C" void TextEditor_SelectRight_m3884253943 ();
+extern "C" void TextEditor_SelectUp_m1420626460 ();
+extern "C" void TextEditor_SelectDown_m3143902594 ();
+extern "C" void TextEditor_SelectTextEnd_m3028904016 ();
+extern "C" void TextEditor_SelectTextStart_m3167909833 ();
+extern "C" void TextEditor_MouseDragSelectsWholeWords_m3727032633 ();
+extern "C" void TextEditor_DblClickSnap_m2518183695 ();
+extern "C" void TextEditor_GetGraphicalLineStart_m2559051595 ();
+extern "C" void TextEditor_GetGraphicalLineEnd_m3806510628 ();
+extern "C" void TextEditor_FindNextSeperator_m1645636445 ();
+extern "C" void TextEditor_isLetterLikeChar_m996697962 ();
+extern "C" void TextEditor_FindPrevSeperator_m3194847708 ();
+extern "C" void TextEditor_MoveWordRight_m1054074473 ();
+extern "C" void TextEditor_MoveToStartOfNextWord_m3617394292 ();
+extern "C" void TextEditor_MoveToEndOfPreviousWord_m1495106220 ();
+extern "C" void TextEditor_SelectToStartOfNextWord_m1653431915 ();
+extern "C" void TextEditor_SelectToEndOfPreviousWord_m980050655 ();
+extern "C" void TextEditor_ClassifyChar_m1487069091 ();
+extern "C" void TextEditor_FindStartOfNextWord_m3896457211 ();
+extern "C" void TextEditor_FindEndOfPreviousWord_m1511551992 ();
+extern "C" void TextEditor_MoveWordLeft_m3950769410 ();
+extern "C" void TextEditor_SelectWordRight_m1240835195 ();
+extern "C" void TextEditor_SelectWordLeft_m1096629303 ();
+extern "C" void TextEditor_ExpandSelectGraphicalLineStart_m3871949422 ();
+extern "C" void TextEditor_ExpandSelectGraphicalLineEnd_m398038944 ();
+extern "C" void TextEditor_SelectGraphicalLineStart_m2749120624 ();
+extern "C" void TextEditor_SelectGraphicalLineEnd_m3395132977 ();
+extern "C" void TextEditor_SelectParagraphForward_m347077616 ();
+extern "C" void TextEditor_SelectParagraphBackward_m605299273 ();
+extern "C" void TextEditor_SelectCurrentWord_m2393978600 ();
+extern "C" void TextEditor_FindEndOfClassification_m693898338 ();
+extern "C" void TextEditor_SelectCurrentParagraph_m1964167510 ();
+extern "C" void TextEditor_UpdateScrollOffsetIfNeeded_m1477068066 ();
+extern "C" void TextEditor_UpdateScrollOffset_m2538334426 ();
+extern "C" void TextEditor_DrawCursor_m141192737 ();
+extern "C" void TextEditor_PerformOperation_m3367399747 ();
+extern "C" void TextEditor_SaveBackup_m2256777438 ();
+extern "C" void TextEditor_Cut_m1289908069 ();
+extern "C" void TextEditor_Copy_m1714932363 ();
+extern "C" void TextEditor_ReplaceNewlinesWithSpaces_m1720138249 ();
+extern "C" void TextEditor_Paste_m1883125123 ();
+extern "C" void TextEditor_MapKey_m3816184446 ();
+extern "C" void TextEditor_InitKeyActions_m2739856363 ();
+extern "C" void TextEditor_DetectFocusChange_m2363925725 ();
+extern "C" void TextEditor_OnDetectFocusChange_m1722867805 ();
+extern "C" void TextEditor_ClampTextIndex_m255190107 ();
 extern "C" void NativeDeviceDiscoveredCallback__ctor_m3062146467 ();
 extern "C" void NativeDeviceDiscoveredCallback_Invoke_m2547691835 ();
 extern "C" void NativeDeviceDiscoveredCallback_BeginInvoke_m2259466034 ();
@@ -12741,6 +12907,7 @@ extern "C" void U3CcolorAnimatorU3Ec__Iterator0_Dispose_m1398722411 ();
 extern "C" void U3CcolorAnimatorU3Ec__Iterator0_Reset_m3201183128 ();
 extern "C" void HeapAllocator__ctor_m4091207571 ();
 extern "C" void HeapAllocator_Awake_m3377598147 ();
+extern "C" void HeapAllocator_Update_m1566269101 ();
 extern "C" void HintList__ctor_m1693648247 ();
 extern "C" void Joystick_Target__ctor_m3731848802 ();
 extern "C" void Joystick_Target_Start_m1400747374 ();
@@ -13049,6 +13216,17 @@ extern "C" void U3CPlayLoopU3Ec__Iterator0_System_Collections_Generic_IEnumerato
 extern "C" void U3CPlayLoopU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1709745136 ();
 extern "C" void U3CPlayLoopU3Ec__Iterator0_Dispose_m2325185699 ();
 extern "C" void U3CPlayLoopU3Ec__Iterator0_Reset_m3910945363 ();
+extern "C" void SimpleNativePlugin__ctor_m129101997 ();
+extern "C" void SimpleNativePlugin_loadStartModuleFromPath_m555344152 ();
+extern "C" void SimpleNativePlugin_StopUnloadModuleFromUID_m631954825 ();
+extern "C" void SimpleNativePlugin_StartModule_m3306753167 ();
+extern "C" void SimpleNativePlugin_StopModule_m609934485 ();
+extern "C" void SimpleNativePlugin_OnGUI_m2465164336 ();
+extern "C" void SimpleNativePlugin_SetFrequencies_m4219557632 ();
+extern "C" void SimpleNativePlugin_ResetFrequencies_m3501636655 ();
+extern "C" void SimpleNativePlugin_WriteIntRaw_m721372422 ();
+extern "C" void SimpleNativePlugin_Println_m3386395471 ();
+extern "C" void SimpleNativePlugin__cctor_m3544134728 ();
 extern "C" void MinAttribute__ctor_m440264838 ();
 extern "C" void PredicationPreset__ctor_m288160507 ();
 extern "C" void Preset__ctor_m696776117 ();
@@ -13451,7 +13629,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13433] = 
+extern const Il2CppMethodPointer g_MethodPointers[13611] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -15303,6 +15481,9 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	FormatException__ctor_m1479314061,
 	FormatException__ctor_m4049685996,
 	FormatException__ctor_m3747066592,
+	GC_get_MaxGeneration_m2376144064,
+	GC_InternalCollect_m742461464,
+	GC_Collect_m743975114,
 	GC_KeepAlive_m1400443516,
 	GC_SuppressFinalize_m1177400158,
 	Calendar__ctor_m106290643,
@@ -15770,6 +15951,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	File_Delete_m321251800,
 	File_Exists_m3943585060,
 	File_Open_m664439378,
+	File_Open_m70483901,
 	File_OpenRead_m2936789020,
 	File_OpenText_m196858847,
 	FileLoadException__ctor_m3879680456,
@@ -21678,6 +21860,8 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	GUIElement__ctor_m3257342989,
 	GUILayer_HitTest_m512928460,
 	GUILayer_INTERNAL_CALL_HitTest_m1069802956,
+	GUIStateObjects_GetStateObject_m610289746,
+	GUIStateObjects__cctor_m3979345696,
 	HeaderAttribute__ctor_m1154052380,
 	HideInInspector__ctor_m1179782685,
 	ImageEffectAllowedInSceneView__ctor_m2451209732,
@@ -22029,6 +22213,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	PSVitaVideoPlayer_TransferMemToHeap_m3307362304,
 	PSVitaVideoPlayer_Init_m2659996897,
 	PSVitaVideoPlayer_Update_m3897723372,
+	Utility_set_gcEnable_m457904756,
 	QualitySettings_set_maxQueuedFrames_m926206817,
 	QualitySettings_get_activeColorSpace_m2902748248,
 	Quaternion__ctor_m435141806_AdjustorThunk,
@@ -22123,6 +22308,8 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	RectOffset_set_bottom_m2747419780,
 	RectOffset_get_horizontal_m2663785949,
 	RectOffset_get_vertical_m2029961580,
+	RectOffset_Remove_m923691646,
+	RectOffset_INTERNAL_CALL_Remove_m2717276736,
 	RectOffset_Finalize_m3971587028,
 	RectOffset_ToString_m2007443979,
 	RectTransform_get_rect_m574169965,
@@ -22365,6 +22552,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	Time_get_unscaledTime_m3457564332,
 	Time_get_unscaledDeltaTime_m4270080131,
 	Time_set_timeScale_m1127545364,
+	Time_get_frameCount_m1220035214,
 	Time_get_realtimeSinceStartup_m3141794964,
 	TooltipAttribute__ctor_m534364555,
 	Touch_get_fingerId_m859576425_AdjustorThunk,
@@ -22786,23 +22974,33 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	Event_Cleanup_m2477919477,
 	Event_get_rawType_m2996166859,
 	Event_get_type_m1370041809,
+	Event_set_type_m3901523645,
 	Event_Internal_GetMousePosition_m1101229675,
 	Event_get_modifiers_m995073384,
+	Event_set_modifiers_m1736248727,
+	Event_get_clickCount_m2853192404,
 	Event_get_character_m1666742088,
+	Event_set_character_m1015181207,
 	Event_get_commandName_m4275147343,
 	Event_get_keyCode_m1098493350,
+	Event_set_keyCode_m1503549422,
 	Event_Internal_SetNativeEvent_m1397431767,
 	Event_set_displayIndex_m1342258734,
+	Event_Internal_Use_m1097157232,
 	Event_PopEvent_m2275423287,
 	Event_Finalize_m2235592665,
 	Event_get_mousePosition_m733809635,
+	Event_get_shift_m2390976042,
+	Event_get_alt_m3910191449,
 	Event_get_current_m2393892120,
 	Event_Internal_MakeMasterEventCurrent_m112421958,
 	Event_get_isKey_m1703963445,
 	Event_get_isMouse_m1058251071,
+	Event_KeyboardEvent_m3559380707,
 	Event_GetHashCode_m3559153592,
 	Event_Equals_m321840542,
 	Event_ToString_m1688862299,
+	Event_Use_m1333167935,
 	GUI__cctor_m3051457990,
 	GUI_set_changed_m535954674,
 	GUI_set_enabled_m3922032131,
@@ -22820,6 +23018,13 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	GUI_Button_m1518979886,
 	GUI_Button_m2223708732,
 	GUI_Button_m1546789121,
+	GUI_PasswordFieldGetStrToShow_m613030658,
+	GUI_TextArea_m3287099916,
+	GUI_DoTextField_m2995045020,
+	GUI_DoTextField_m981649653,
+	GUI_DoTextField_m1332167741,
+	GUI_HandleTextFieldEventForTouchscreen_m1092737262,
+	GUI_HandleTextFieldEventForDesktop_m2685229389,
 	GUI_CallWindowDelegate_m3309453386,
 	WindowFunction__ctor_m2544237635,
 	WindowFunction_Invoke_m3205356586,
@@ -22828,6 +23033,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	GUIContent__ctor_m3360759894,
 	GUIContent__ctor_m890195579,
 	GUIContent__ctor_m2166411317,
+	GUIContent_get_text_m1072111792,
 	GUIContent_set_text_m607297463,
 	GUIContent_set_image_m1091531865,
 	GUIContent_set_tooltip_m738967743,
@@ -22879,10 +23085,18 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	GUIScrollGroup_CalcHeight_m3173593443,
 	GUIScrollGroup_SetVertical_m353811564,
 	GUISettings__ctor_m2761652600,
+	GUISettings_Internal_GetCursorFlashSpeed_m2762316906,
+	GUISettings_get_doubleClickSelectsWord_m3025565005,
+	GUISettings_get_tripleClickSelectsLine_m3492055675,
+	GUISettings_get_cursorColor_m1142243417,
+	GUISettings_get_cursorFlashSpeed_m873595026,
+	GUISettings_get_selectionColor_m689844895,
 	GUISkin__ctor_m3576427628,
 	GUISkin_get_font_m3937910082,
 	GUISkin_get_label_m1693050720,
+	GUISkin_get_textArea_m1928475264,
 	GUISkin_get_button_m2792560996,
+	GUISkin_get_settings_m545552441,
 	GUISkin_get_error_m3656702485,
 	GUISkin_BuildStyleCache_m1553793917,
 	GUISkin_GetStyle_m2344315993,
@@ -22905,6 +23119,12 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	GUIStyle_INTERNAL_CALL_GetRectOffsetPtr_m152975056,
 	GUIStyle_set_alignment_m3944619660,
 	GUIStyle_set_wordWrap_m1419501823,
+	GUIStyle_get_contentOffset_m3404024487,
+	GUIStyle_set_contentOffset_m1529148399,
+	GUIStyle_INTERNAL_get_contentOffset_m3619270446,
+	GUIStyle_INTERNAL_set_contentOffset_m72876448,
+	GUIStyle_set_Internal_clipOffset_m2642848929,
+	GUIStyle_INTERNAL_set_Internal_clipOffset_m136489018,
 	GUIStyle_get_fixedWidth_m2576616348,
 	GUIStyle_get_fixedHeight_m2868324709,
 	GUIStyle_get_stretchWidth_m3556443132,
@@ -22912,15 +23132,38 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	GUIStyle_get_stretchHeight_m4172805773,
 	GUIStyle_set_stretchHeight_m3442828884,
 	GUIStyle_Internal_GetLineHeight_m4231395871,
+	GUIStyle_GetFontInternal_m1734480648,
 	GUIStyle_get_fontSize_m408481077,
 	GUIStyle_set_fontSize_m1566850023,
+	GUIStyle_Internal_Draw2_m573548245,
+	GUIStyle_INTERNAL_CALL_Internal_Draw2_m1418187183,
+	GUIStyle_Internal_GetCursorFlashOffset_m862474508,
+	GUIStyle_Internal_DrawCursor_m2741354140,
+	GUIStyle_INTERNAL_CALL_Internal_DrawCursor_m138068406,
+	GUIStyle_Internal_DrawWithTextSelection_m3929602010,
 	GUIStyle_SetDefaultFont_m1581452579,
+	GUIStyle_Internal_GetCursorPixelPosition_m208803822,
+	GUIStyle_INTERNAL_CALL_Internal_GetCursorPixelPosition_m878150067,
+	GUIStyle_Internal_GetCursorStringIndex_m1958709211,
+	GUIStyle_INTERNAL_CALL_Internal_GetCursorStringIndex_m1750936228,
+	GUIStyle_Internal_CalcSize_m4224365767,
+	GUIStyle_Internal_CalcHeight_m446125850,
 	GUIStyle_Finalize_m1912900812,
 	GUIStyle_get_normal_m729441812,
 	GUIStyle_get_margin_m3595798603,
 	GUIStyle_get_padding_m3526264743,
+	GUIStyle_get_font_m2893473160,
 	GUIStyle_get_lineHeight_m3399768780,
+	GUIStyle_Draw_m3190299676,
+	GUIStyle_DrawCursor_m2683410016,
+	GUIStyle_DrawWithTextSelection_m2316478565,
+	GUIStyle_DrawWithTextSelection_m2520817525,
+	GUIStyle_DrawWithTextSelection_m394506342,
 	GUIStyle_get_none_m1545577352,
+	GUIStyle_GetCursorPixelPosition_m3960759208,
+	GUIStyle_GetCursorStringIndex_m534719898,
+	GUIStyle_CalcSize_m1046812636,
+	GUIStyle_CalcHeight_m1341687357,
 	GUIStyle_ToString_m3014660435,
 	GUIStyle__cctor_m3477697449,
 	GUIStyleState__ctor_m1648430456,
@@ -22934,15 +23177,28 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	GUIStyleState_Finalize_m1466589588,
 	GUITargetAttribute_GetGUITargetAttrValue_m2954410352,
 	GUIUtility_Internal_GetPixelsPerPoint_m290411053,
+	GUIUtility_Internal_GetNextControlID2_m800052281,
+	GUIUtility_INTERNAL_CALL_Internal_GetNextControlID2_m3439369849,
+	GUIUtility_Internal_GetHotControl_m2856765646,
+	GUIUtility_Internal_SetHotControl_m3891677565,
+	GUIUtility_Internal_GetKeyboardControl_m2201588114,
+	GUIUtility_Internal_SetKeyboardControl_m4077915422,
 	GUIUtility_get_systemCopyBuffer_m2735901425,
 	GUIUtility_set_systemCopyBuffer_m608712289,
 	GUIUtility_Internal_GetDefaultSkin_m2977444868,
 	GUIUtility_Internal_ExitGUI_m273923508,
 	GUIUtility_Internal_GetGUIDepth_m1169824684,
+	GUIUtility_set_textFieldInput_m4036087722,
 	GUIUtility_get_pixelsPerPoint_m2369948084,
+	GUIUtility_GetControlID_m1220503034,
+	GUIUtility_GetStateObject_m1741015855,
 	GUIUtility_set_guiIsExiting_m1558910088,
+	GUIUtility_get_hotControl_m226353344,
+	GUIUtility_set_hotControl_m1874596979,
 	GUIUtility_TakeCapture_m1130863121,
 	GUIUtility_RemoveCapture_m1294193818,
+	GUIUtility_get_keyboardControl_m2990485252,
+	GUIUtility_set_keyboardControl_m119089252,
 	GUIUtility_GetDefaultSkin_m1141001896,
 	GUIUtility_ProcessEvent_m3254259822,
 	GUIUtility_BeginGUI_m1428629348,
@@ -22957,6 +23213,94 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	ScrollViewState__ctor_m1599613496,
 	SliderState__ctor_m3367986001,
 	TextEditor__ctor_m242049450,
+	TextEditor_get_text_m3620786721,
+	TextEditor_set_text_m3128827115,
+	TextEditor_get_position_m2027231954,
+	TextEditor_set_position_m2726739347,
+	TextEditor_get_localPosition_m3201938373,
+	TextEditor_get_cursorIndex_m590337076,
+	TextEditor_set_cursorIndex_m3874797575,
+	TextEditor_get_selectIndex_m3283854236,
+	TextEditor_set_selectIndex_m2204227925,
+	TextEditor_ClearCursorPos_m1765024837,
+	TextEditor_OnFocus_m3224255389,
+	TextEditor_OnLostFocus_m3728191196,
+	TextEditor_GrabGraphicalCursorPos_m2654128003,
+	TextEditor_HandleKeyEvent_m2539982240,
+	TextEditor_DeleteLineBack_m38020651,
+	TextEditor_DeleteWordBack_m4135014383,
+	TextEditor_DeleteWordForward_m768603331,
+	TextEditor_Delete_m1195035524,
+	TextEditor_Backspace_m2977709891,
+	TextEditor_SelectAll_m1416101779,
+	TextEditor_SelectNone_m2297517419,
+	TextEditor_get_hasSelection_m3446945309,
+	TextEditor_DeleteSelection_m1433877599,
+	TextEditor_ReplaceSelection_m2459920881,
+	TextEditor_Insert_m1009419335,
+	TextEditor_MoveRight_m2127805806,
+	TextEditor_MoveLeft_m2284693690,
+	TextEditor_MoveUp_m4029468687,
+	TextEditor_MoveDown_m2566154205,
+	TextEditor_MoveLineStart_m799500285,
+	TextEditor_MoveLineEnd_m1563956413,
+	TextEditor_MoveGraphicalLineStart_m3220976677,
+	TextEditor_MoveGraphicalLineEnd_m1598222378,
+	TextEditor_MoveTextStart_m3356225499,
+	TextEditor_MoveTextEnd_m122202411,
+	TextEditor_IndexOfEndOfLine_m2343282214,
+	TextEditor_MoveParagraphForward_m2923875987,
+	TextEditor_MoveParagraphBackward_m2833567235,
+	TextEditor_MoveCursorToPosition_m4041970523,
+	TextEditor_MoveCursorToPosition_Internal_m62434073,
+	TextEditor_SelectToPosition_m2765508349,
+	TextEditor_SelectLeft_m1199119289,
+	TextEditor_SelectRight_m3884253943,
+	TextEditor_SelectUp_m1420626460,
+	TextEditor_SelectDown_m3143902594,
+	TextEditor_SelectTextEnd_m3028904016,
+	TextEditor_SelectTextStart_m3167909833,
+	TextEditor_MouseDragSelectsWholeWords_m3727032633,
+	TextEditor_DblClickSnap_m2518183695,
+	TextEditor_GetGraphicalLineStart_m2559051595,
+	TextEditor_GetGraphicalLineEnd_m3806510628,
+	TextEditor_FindNextSeperator_m1645636445,
+	TextEditor_isLetterLikeChar_m996697962,
+	TextEditor_FindPrevSeperator_m3194847708,
+	TextEditor_MoveWordRight_m1054074473,
+	TextEditor_MoveToStartOfNextWord_m3617394292,
+	TextEditor_MoveToEndOfPreviousWord_m1495106220,
+	TextEditor_SelectToStartOfNextWord_m1653431915,
+	TextEditor_SelectToEndOfPreviousWord_m980050655,
+	TextEditor_ClassifyChar_m1487069091,
+	TextEditor_FindStartOfNextWord_m3896457211,
+	TextEditor_FindEndOfPreviousWord_m1511551992,
+	TextEditor_MoveWordLeft_m3950769410,
+	TextEditor_SelectWordRight_m1240835195,
+	TextEditor_SelectWordLeft_m1096629303,
+	TextEditor_ExpandSelectGraphicalLineStart_m3871949422,
+	TextEditor_ExpandSelectGraphicalLineEnd_m398038944,
+	TextEditor_SelectGraphicalLineStart_m2749120624,
+	TextEditor_SelectGraphicalLineEnd_m3395132977,
+	TextEditor_SelectParagraphForward_m347077616,
+	TextEditor_SelectParagraphBackward_m605299273,
+	TextEditor_SelectCurrentWord_m2393978600,
+	TextEditor_FindEndOfClassification_m693898338,
+	TextEditor_SelectCurrentParagraph_m1964167510,
+	TextEditor_UpdateScrollOffsetIfNeeded_m1477068066,
+	TextEditor_UpdateScrollOffset_m2538334426,
+	TextEditor_DrawCursor_m141192737,
+	TextEditor_PerformOperation_m3367399747,
+	TextEditor_SaveBackup_m2256777438,
+	TextEditor_Cut_m1289908069,
+	TextEditor_Copy_m1714932363,
+	TextEditor_ReplaceNewlinesWithSpaces_m1720138249,
+	TextEditor_Paste_m1883125123,
+	TextEditor_MapKey_m3816184446,
+	TextEditor_InitKeyActions_m2739856363,
+	TextEditor_DetectFocusChange_m2363925725,
+	TextEditor_OnDetectFocusChange_m1722867805,
+	TextEditor_ClampTextIndex_m255190107,
 	NativeDeviceDiscoveredCallback__ctor_m3062146467,
 	NativeDeviceDiscoveredCallback_Invoke_m2547691835,
 	NativeDeviceDiscoveredCallback_BeginInvoke_m2259466034,
@@ -26176,6 +26520,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	U3CcolorAnimatorU3Ec__Iterator0_Reset_m3201183128,
 	HeapAllocator__ctor_m4091207571,
 	HeapAllocator_Awake_m3377598147,
+	HeapAllocator_Update_m1566269101,
 	HintList__ctor_m1693648247,
 	Joystick_Target__ctor_m3731848802,
 	Joystick_Target_Start_m1400747374,
@@ -26484,6 +26829,17 @@ extern const Il2CppMethodPointer g_MethodPointers[13433] =
 	U3CPlayLoopU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1709745136,
 	U3CPlayLoopU3Ec__Iterator0_Dispose_m2325185699,
 	U3CPlayLoopU3Ec__Iterator0_Reset_m3910945363,
+	SimpleNativePlugin__ctor_m129101997,
+	SimpleNativePlugin_loadStartModuleFromPath_m555344152,
+	SimpleNativePlugin_StopUnloadModuleFromUID_m631954825,
+	SimpleNativePlugin_StartModule_m3306753167,
+	SimpleNativePlugin_StopModule_m609934485,
+	SimpleNativePlugin_OnGUI_m2465164336,
+	SimpleNativePlugin_SetFrequencies_m4219557632,
+	SimpleNativePlugin_ResetFrequencies_m3501636655,
+	SimpleNativePlugin_WriteIntRaw_m721372422,
+	SimpleNativePlugin_Println_m3386395471,
+	SimpleNativePlugin__cctor_m3544134728,
 	MinAttribute__ctor_m440264838,
 	PredicationPreset__ctor_m288160507,
 	Preset__ctor_m696776117,

@@ -118,6 +118,7 @@
      <Compile Include="Assets\SonyExamples\Utils\MenuLayout.cs" />
      <Compile Include="Assets\SonyExamples\Utils\MenuStack.cs" />
      <Compile Include="Assets\SonyExamples\Utils\OnScreenLog.cs" />
+     <Compile Include="Assets\SonyExamples\Vita\SimpleNativePlugin\Scripts\SimpleNativePlugin.cs" />
      <Compile Include="Assets\SonyExamples\Vita\SystemSettings\Scripts\SonyVitaSystemSettings.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\3D Skybox\Parallax_BG.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\AimToggler.cs" />
@@ -129,6 +130,7 @@
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\BG_Layer_Shift.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\BG_Parallax.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\BGM_Player.cs" />
+     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Blast_Ring.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\BounceScaleAwake.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Bullet.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Bullet_Destroyer.cs" />
@@ -211,6 +213,7 @@
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Tiles.shader" />
+     <None Include="Assets\VitaFTPI\SaveConfig.txt" />
      <None Include="Assets\Addons\NPR Paint Filter\ReadMe.txt" />
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\Sphere Map.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -220,6 +223,7 @@
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Blackboard Color.shader" />
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\Contour_Drawing_Transparent.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+     <None Include="Assets\VitaFTPI\LastBuildDir.txt" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\DepthOfField\Example\Shaders\TransparencyExample.shader" />
      <None Include="Assets\DepthOfField\Example\Shaders\NormalSurfaceExample.shader" />
@@ -245,6 +249,7 @@
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\Contour Drawing_Stencil.shader" />
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\With_Tex.shader" />
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\DepthCG.cginc" />
+     <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\Blast_Distortion.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Pencil.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Blackboard.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Ascii.shader" />

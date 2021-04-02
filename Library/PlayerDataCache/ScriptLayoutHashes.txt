@@ -311,6 +311,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 f0c2ee7f86f51430df3294122dfc5ab1 Assembly-CSharp.dll:.TitleSaveManagerInputs
 6826e26f7cc718f870001971f13e79c7 Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.VertexColorCycler
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SimpleNativePlugin
 05524b8f659e7bfe5756d1335fec24ba AmplifyShaderEditor.Samples.BuiltIn.dll:.SpriteMaskController
 d720d104ba371072094e66111bc68ea5 Assembly-CSharp.dll:.FollowPlayerwithRotation
 9d71505a7183a2a0aa404a20996f7753 Assembly-CSharp.dll:.BezerkControl

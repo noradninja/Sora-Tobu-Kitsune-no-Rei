@@ -32,7 +32,9 @@ public class FireControl : MonoBehaviour {
 	public GameObject Target2;
 	public GameObject Bullet;
 	public GameObject Missile;
+	public GameObject Distorter;
 	public GameObject targetVector;
+	public GameObject shootVecLoc;
 	public GameObject BGMManager;
 	private GameObject resetVector;
 	private int maskLayer;
@@ -62,7 +64,10 @@ public class FireControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-		shootVec = new Vector3 (playerLocation.x, playerLocation.y, (playerLocation.z));
+		float randRangeX = (Random.Range((shootVecLoc.transform.position.x + 1.0f), (shootVecLoc.transform.position.x - 1.0f)));
+		float randRangeY = (Random.Range((shootVecLoc.transform.position.y + 1.0f), (shootVecLoc.transform.position.y)));
+		float randRangeZ = (Random.Range((shootVecLoc.transform.position.z + 1.0f), (shootVecLoc.transform.position.z))); //we don't reduce z because misssiles will destroy themselves if they hit player
+		shootVec = new Vector3 (randRangeX, randRangeY, randRangeZ);
         targetingSystem();
 
     }
@@ -182,9 +187,11 @@ public class FireControl : MonoBehaviour {
 	}
 	void fireMissiles(GameObject target){
 		GameObject firedMissile = Instantiate (Missile, shootVec, Quaternion.identity);
+		GameObject blastRing = Instantiate (Distorter, shootVec, Quaternion.identity);
 		audioSource.PlayOneShot(clipList[6]);
 		firedMissile.GetComponent<Missile>().missileTarget = target;
 		firedMissile.SetActive(true);
+		blastRing.SetActive(true);
 	}
 
 	void reset(){

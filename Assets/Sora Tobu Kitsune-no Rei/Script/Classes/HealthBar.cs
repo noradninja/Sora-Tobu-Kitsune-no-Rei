@@ -53,9 +53,9 @@ public class HealthBar : MonoBehaviour {
 		//apply finalColor to lifebar/cap
 		fillImage.color = finalColor;
 		endImage.color = finalColor;
-		if (currentValue <= 0.25f){
-			Blinker(baseColor, dimColor, repeatRate);
-		}
+		// if (currentValue <= 0.25f && playerTemp.GetComponent<Actor>().health != 0.0001f){
+		// 	Blinker(baseColor, dimColor, repeatRate);
+		// }
 		//turn off cap when player dies
 		if (playerTemp.GetComponent<Actor>().health <= 0.0001f){
 			endImage.color = new Vector4(0,0,0,0);
@@ -73,6 +73,7 @@ public class HealthBar : MonoBehaviour {
 			time += Time.deltaTime;
 			yield return null;
 		}
+	StopCoroutine("colorAnimator");
 	StartCoroutine(colorAnimator(brightColor, dimColor, repeatRate)); //call the routine again to lerp the color back from light to dark, this will cycle until bezerk drops below
 	}
 }

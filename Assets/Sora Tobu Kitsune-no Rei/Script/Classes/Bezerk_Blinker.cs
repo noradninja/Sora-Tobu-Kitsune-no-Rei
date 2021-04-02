@@ -46,7 +46,8 @@ public class Bezerk_Blinker : MonoBehaviour {
 				time += Time.deltaTime;
 				yield return null;
 			}
-		StartCoroutine(colorAnimator(brightColor, dimColor, repeatRate)); //call the routine again to lerp the color back from light to dark, this will cycle until bezerk drops below
 		}
+		StopCoroutine("colorAnimator");
+		StartCoroutine(colorAnimator(brightColor, dimColor, repeatRate)); //call the routine again to lerp the color back from light to dark, this will cycle until bezerk drops below
 	}
 }

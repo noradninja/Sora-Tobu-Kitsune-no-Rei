@@ -23403,7 +23403,7 @@ extern "C"  RuntimeObject* Enumerable_OrderBy_TisRuntimeObject_TisInt32_t2950945
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 extern "C"  List_1_t257213610 * Enumerable_ToList_TisRuntimeObject_m636557350_gshared (RuntimeObject * __this /* static, unused */, RuntimeObject* p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::.ctor()
-extern "C"  void Dictionary_2__ctor_m2601736566_gshared (Dictionary_2_t1968819495 * __this, const RuntimeMethod* method);
+extern "C"  void Dictionary_2__ctor_m252876485_gshared (Dictionary_2_t1968819495 * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::ContainsKey(!0)
 extern "C"  bool Dictionary_2_ContainsKey_m2382293057_gshared (Dictionary_2_t1968819495 * __this, int32_t p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::Add(!0,!1)
@@ -23421,7 +23421,7 @@ extern "C"  void List_1__ctor_m1628857705_gshared (List_1_t128053199 * __this, c
 // System.Void System.Collections.Generic.List`1<System.Int32>::Clear()
 extern "C"  void List_1_Clear_m2154023298_gshared (List_1_t128053199 * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::TryGetValue(!0,!1&)
-extern "C"  bool Dictionary_2_TryGetValue_m3411363121_gshared (Dictionary_2_t1968819495 * __this, int32_t p0, RuntimeObject ** p1, const RuntimeMethod* method);
+extern "C"  bool Dictionary_2_TryGetValue_m3167860287_gshared (Dictionary_2_t1968819495 * __this, int32_t p0, RuntimeObject ** p1, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.List`1<System.Int32>::Contains(!0)
 extern "C"  bool List_1_Contains_m3214315560_gshared (List_1_t128053199 * __this, int32_t p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)
@@ -24068,7 +24068,7 @@ extern "C"  void TMP_Glyph__ctor_m578509870 (TMP_Glyph_t581847833 * __this, cons
 // System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<TMPro.TMP_Glyph>(System.Collections.Generic.IEnumerable`1<!!0>)
 #define Enumerable_ToList_TisTMP_Glyph_t581847833_m1705456872(__this /* static, unused */, p0, method) ((  List_1_t2053922575 * (*) (RuntimeObject * /* static, unused */, RuntimeObject*, const RuntimeMethod*))Enumerable_ToList_TisRuntimeObject_m636557350_gshared)(__this /* static, unused */, p0, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Glyph>::.ctor()
-#define Dictionary_2__ctor_m1481972951(__this, method) ((  void (*) (Dictionary_2_t3765528460 *, const RuntimeMethod*))Dictionary_2__ctor_m2601736566_gshared)(__this, method)
+#define Dictionary_2__ctor_m1481972951(__this, method) ((  void (*) (Dictionary_2_t3765528460 *, const RuntimeMethod*))Dictionary_2__ctor_m252876485_gshared)(__this, method)
 // !0 System.Collections.Generic.List`1<TMPro.TMP_Glyph>::get_Item(System.Int32)
 #define List_1_get_Item_m2812174342(__this, p0, method) ((  TMP_Glyph_t581847833 * (*) (List_1_t2053922575 *, int32_t, const RuntimeMethod*))List_1_get_Item_m2287542950_gshared)(__this, p0, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Glyph>::ContainsKey(!0)
@@ -24086,7 +24086,7 @@ extern "C"  bool Material_HasProperty_m1904868334 (Material_t340375123 * __this,
 // System.Single UnityEngine.Material::GetFloat(System.Int32)
 extern "C"  float Material_GetFloat_m2836278142 (Material_t340375123 * __this, int32_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,TMPro.KerningPair>::.ctor()
-#define Dictionary_2__ctor_m564016983(__this, method) ((  void (*) (Dictionary_2_t1159568920 *, const RuntimeMethod*))Dictionary_2__ctor_m2601736566_gshared)(__this, method)
+#define Dictionary_2__ctor_m564016983(__this, method) ((  void (*) (Dictionary_2_t1159568920 *, const RuntimeMethod*))Dictionary_2__ctor_m252876485_gshared)(__this, method)
 // !0 System.Collections.Generic.List`1<TMPro.KerningPair>::get_Item(System.Int32)
 #define List_1_get_Item_m2192376775(__this, p0, method) ((  KerningPair_t2270855589 * (*) (List_1_t3742930331 *, int32_t, const RuntimeMethod*))List_1_get_Item_m2287542950_gshared)(__this, p0, method)
 // System.Void TMPro.KerningPair::ConvertLegacyKerningData()
@@ -24146,7 +24146,7 @@ extern "C"  TMP_FontAsset_t364381626 * TMP_FontUtilities_SearchForGlyphInternal_
 // TMPro.TMP_FontAsset TMPro.TMP_FontUtilities::SearchForGlyphInternal(System.Collections.Generic.List`1<TMPro.TMP_FontAsset>,System.Int32,TMPro.TMP_Glyph&)
 extern "C"  TMP_FontAsset_t364381626 * TMP_FontUtilities_SearchForGlyphInternal_m1844143904 (RuntimeObject * __this /* static, unused */, List_1_t1836456368 * ___fonts0, int32_t ___character1, TMP_Glyph_t581847833 ** ___glyph2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Glyph>::TryGetValue(!0,!1&)
-#define Dictionary_2_TryGetValue_m2021354054(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3765528460 *, int32_t, TMP_Glyph_t581847833 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3411363121_gshared)(__this, p0, p1, method)
+#define Dictionary_2_TryGetValue_m2021354054(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3765528460 *, int32_t, TMP_Glyph_t581847833 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3167860287_gshared)(__this, p0, p1, method)
 // System.Int32 UnityEngine.Object::GetInstanceID()
 extern "C"  int32_t Object_GetInstanceID_m1255174761 (Object_t631007953 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Generic.List`1<System.Int32>::Contains(!0)
@@ -24960,7 +24960,7 @@ extern "C"  TMP_SpriteAsset_t484820633 * TMP_SpriteAsset_SearchForSpriteByHashCo
 // System.Void System.Collections.Generic.List`1<TMPro.TMP_Style>::.ctor(System.Int32)
 #define List_1__ctor_m339916140(__this, p0, method) ((  void (*) (List_1_t656488210 *, int32_t, const RuntimeMethod*))List_1__ctor_m3947764094_gshared)(__this, p0, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style>::.ctor()
-#define Dictionary_2__ctor_m2041557116(__this, method) ((  void (*) (Dictionary_2_t2368094095 *, const RuntimeMethod*))Dictionary_2__ctor_m2601736566_gshared)(__this, method)
+#define Dictionary_2__ctor_m2041557116(__this, method) ((  void (*) (Dictionary_2_t2368094095 *, const RuntimeMethod*))Dictionary_2__ctor_m252876485_gshared)(__this, method)
 // TMPro.TMP_StyleSheet TMPro.TMP_Settings::get_defaultStyleSheet()
 extern "C"  TMP_StyleSheet_t917564226 * TMP_Settings_get_defaultStyleSheet_m4271144481 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.Resources::Load<TMPro.TMP_StyleSheet>(System.String)
@@ -24972,7 +24972,7 @@ extern "C"  TMP_StyleSheet_t917564226 * TMP_StyleSheet_get_instance_m2706108343 
 // TMPro.TMP_Style TMPro.TMP_StyleSheet::GetStyleInternal(System.Int32)
 extern "C"  TMP_Style_t3479380764 * TMP_StyleSheet_GetStyleInternal_m3353180048 (TMP_StyleSheet_t917564226 * __this, int32_t ___hashCode0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style>::TryGetValue(!0,!1&)
-#define Dictionary_2_TryGetValue_m3859444303(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t2368094095 *, int32_t, TMP_Style_t3479380764 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3411363121_gshared)(__this, p0, p1, method)
+#define Dictionary_2_TryGetValue_m3859444303(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t2368094095 *, int32_t, TMP_Style_t3479380764 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3167860287_gshared)(__this, p0, p1, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style>::ContainsKey(!0)
 #define Dictionary_2_ContainsKey_m861179287(__this, p0, method) ((  bool (*) (Dictionary_2_t2368094095 *, int32_t, const RuntimeMethod*))Dictionary_2_ContainsKey_m2382293057_gshared)(__this, p0, method)
 // !1 System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style>::get_Item(!0)
@@ -25298,7 +25298,7 @@ extern "C"  bool TMP_Text_ValidateHtmlTag_m4132461426 (TMP_Text_t2599618874 * __
 // System.Collections.Generic.Dictionary`2<System.Int32,TMPro.KerningPair> TMPro.TMP_FontAsset::get_kerningDictionary()
 extern "C"  Dictionary_2_t1159568920 * TMP_FontAsset_get_kerningDictionary_m3031755164 (TMP_FontAsset_t364381626 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,TMPro.KerningPair>::TryGetValue(!0,!1&)
-#define Dictionary_2_TryGetValue_m3778774191(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t1159568920 *, int32_t, KerningPair_t2270855589 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3411363121_gshared)(__this, p0, p1, method)
+#define Dictionary_2_TryGetValue_m3778774191(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t1159568920 *, int32_t, KerningPair_t2270855589 **, const RuntimeMethod*))Dictionary_2_TryGetValue_m3167860287_gshared)(__this, p0, p1, method)
 // TMPro.GlyphValueRecord TMPro.KerningPair::get_firstGlyphAdjustments()
 extern "C"  GlyphValueRecord_t4065874512  KerningPair_get_firstGlyphAdjustments_m3739554385 (KerningPair_t2270855589 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // TMPro.GlyphValueRecord TMPro.KerningPair::get_secondGlyphAdjustments()
