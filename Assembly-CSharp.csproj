@@ -123,6 +123,7 @@
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\3D Skybox\Parallax_BG.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\AimToggler.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Actor.cs" />
+     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\AnimateSpriteSheet.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\AudioManager.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Bezerk_Blinker.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\BezerkControl.cs" />

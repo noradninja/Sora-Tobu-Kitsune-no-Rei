@@ -11,7 +11,6 @@
         Tags { "RenderType"="Transparent" "Queue"="Transparent"}
         Cull Off
         ZWrite Off
-        ZTest Always
         LOD 100
  
         GrabPass

@@ -187,11 +187,11 @@ public class FireControl : MonoBehaviour {
 	}
 	void fireMissiles(GameObject target){
 		GameObject firedMissile = Instantiate (Missile, shootVec, Quaternion.identity);
-		GameObject blastRing = Instantiate (Distorter, shootVec, Quaternion.identity);
+		//GameObject blastRing = Instantiate (Distorter, shootVec, Quaternion.identity);
 		audioSource.PlayOneShot(clipList[6]);
 		firedMissile.GetComponent<Missile>().missileTarget = target;
 		firedMissile.SetActive(true);
-		blastRing.SetActive(true);
+		//blastRing.SetActive(true);
 	}
 
 	void reset(){
