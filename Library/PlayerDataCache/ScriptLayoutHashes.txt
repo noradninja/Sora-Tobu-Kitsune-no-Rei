@@ -110,6 +110,7 @@ ae0da52e0acaab8369973fe94aa0d007 Assembly-CSharp.dll:.ResolutionSetter
 765037da3d8faeee91e39d672b924c61 Assembly-CSharp.dll:.EnvMapAnimator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bullet_Destroyer
 9d998475649a9a5c1d04a38ebea8637f Assembly-CSharp.dll:.CameraFacingBillboard
+7786f4d420d931fbaf10d14029a6114e Assembly-CSharp.dll:.AnimateSpriteSheet
 05524b8f659e7bfe5756d1335fec24ba AmplifyShaderEditor.Samples.BuiltIn.dll:TFHC_ForceShield_Shader_Sample.ForceShieldImpactDetection
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -236,7 +237,7 @@ d538a6fe900875625ba0efe59835c53e Assembly-CSharp.dll:.Parallax_BG
 8e392726e9189569299d2ca9b78eb55e Assembly-CSharp.dll:.SceneLoader
 2149df7fdad246e43552a7c0edb0129b Assembly-CSharp.dll:WayPoint.WaypointAgent
 8a50d3d11bf0cc541f5c35347dd25633 Assembly-CSharp.dll:TMPro.Examples.ShaderPropAnimator
-8d364fbe01628976ef2fea9f632d015e Assembly-CSharp.dll:.FireControl
+e76276c64135915b577b27ad365571c1 Assembly-CSharp.dll:.FireControl
 76015de5fcb247eeb8df66c001d5a22d Assembly-CSharp.dll:TMPro.Examples.TMP_FrameRateCounter
 42d1ee01b2aa4efd94725fdfbc29706b Assembly-CSharp.dll:.BGM_Player
 b8f04bdad423045528c67dfa4c3dca0d Assembly-CSharp.dll:TMPro.Examples.VertexShakeA
@@ -325,6 +326,7 @@ e340493acfe3684ff428033c311f18f4 Assembly-CSharp.dll:.SequencePlayer
 af7666733efcc974926d7d470e1732a6 Assembly-CSharp.dll:TMPro.Examples.SkewTextExample
 9ddca358d43be23a49fd9081d8c549c9 Assembly-CSharp.dll:.Bullet
 9aa1376c8b9823ae6852e98d608a3c05 Assembly-CSharp.dll:WayPoint.WaypointData
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Blast_Ring
 2644d057f63d93704a3f0a5fca484633 Assembly-CSharp.dll:.Waypoint
 ccf46ea869884024addfe9fba6c985b2 Assembly-CSharp.dll:.Title_DoF_Animator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Touch

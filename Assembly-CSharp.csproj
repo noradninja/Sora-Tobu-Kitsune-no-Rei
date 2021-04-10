@@ -219,6 +219,7 @@
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\Sphere Map.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\SimpleMask.shader" />
+     <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\ParticleMultDoubTrans.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Blackboard Color.shader" />

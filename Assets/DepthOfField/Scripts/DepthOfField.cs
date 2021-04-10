@@ -66,17 +66,21 @@ public class DepthOfField : MonoBehaviour {
     Graphics.Blit(src, grabTextureA, material, 0); // Downsample 1
     Graphics.Blit(grabTextureA, grabTextureB, material, 1); // Downsample 2
     RenderTexture.ReleaseTemporary(grabTextureA);
+    grabTextureA.DiscardContents();
 
     var grabTextureC = GetTemporaryTexture(temporaryWidth / 2, temporaryHeight / 2);
     material.SetTexture("_GrabTextureC", grabTextureC);
     Graphics.Blit(grabTextureB, grabTextureC, material, 1); // Upsample
     RenderTexture.ReleaseTemporary(grabTextureB);
+    grabTextureB.DiscardContents();
     RenderTexture.ReleaseTemporary(grabTextureC);
+    grabTextureC.DiscardContents();
 
     var grabTextureD = GetTemporaryTexture(temporaryWidth / 1, temporaryHeight / 1);
     material.SetTexture("_GrabTextureD", grabTextureD);
     Graphics.Blit(null, grabTextureD, material, 2); // Blend midground and background
     Graphics.Blit(src, dest, material, 3); // Blend foreground and background
     RenderTexture.ReleaseTemporary(grabTextureD);
+    grabTextureD.DiscardContents();
   }
 }

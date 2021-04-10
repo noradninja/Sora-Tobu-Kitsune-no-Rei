@@ -51,8 +51,10 @@ namespace NprPaintFilter
 				var rendertex2 = GetTemporaryTexture(640, 368);
 				Graphics.Blit(rendertex, rendertex2, m_WaterColor.m_Mat, 1);
 				RenderTexture.ReleaseTemporary(rendertex);
+				rendertex.DiscardContents();
 				Graphics.Blit(rendertex2, dst, m_WaterColor.m_Mat, 1);
 				RenderTexture.ReleaseTemporary(rendertex2);
+				rendertex2.DiscardContents();
 		}
 	}
 }
