@@ -32802,6 +32802,13 @@ static void FXAA_t264094441_CustomAttributesCacheGenerator(CustomAttributesCache
 		ExecuteInEditMode__ctor_m2191480222(tmp, NULL);
 	}
 }
+static void FXAA3_11_ConsoleEffect_t3571672928_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		ExecuteInEditMode_t3727731349 * tmp = (ExecuteInEditMode_t3727731349 *)cache->attributes[0];
+		ExecuteInEditMode__ctor_m2191480222(tmp, NULL);
+	}
+}
 static void PredicationPreset_t2890721090_CustomAttributesCacheGenerator_Threshold(CustomAttributesCache* cache)
 {
 	{
@@ -36118,7 +36125,7 @@ static void U3CInputDelayU3Ec__Iterator1_t2666026029_CustomAttributesCacheGenera
 		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[3638] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[3639] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -39302,6 +39309,7 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[3638] =
 	WaterColor_t777644432_CustomAttributesCacheGenerator_m_EdgeSize,
 	WaterColor_t777644432_CustomAttributesCacheGenerator_m_EdgePower,
 	FXAA_t264094441_CustomAttributesCacheGenerator,
+	FXAA3_11_ConsoleEffect_t3571672928_CustomAttributesCacheGenerator,
 	PredicationPreset_t2890721090_CustomAttributesCacheGenerator_Threshold,
 	PredicationPreset_t2890721090_CustomAttributesCacheGenerator_Scale,
 	PredicationPreset_t2890721090_CustomAttributesCacheGenerator_Strength,

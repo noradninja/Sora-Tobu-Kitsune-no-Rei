@@ -59,6 +59,7 @@
      <Compile Include="Assets\Addons\Contour_Drawing_Post\Contour_Drawing_Post.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\FiltersController.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\FXAA\FXAA.cs" />
+     <Compile Include="Assets\Addons\Fullscreen Effects\FXAA3_11_Console\FXAA3_11_ConsoleEffect.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\SMAA\Scripts\DebugPass.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\SMAA\Scripts\EdgeDetectionMethod.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\SMAA\Scripts\HDRMode.cs" />
@@ -242,6 +243,7 @@
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\Addons\Fullscreen Effects\FXAA\FXAA.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\MosaicCircle.shader" />
+     <None Include="Assets\Addons\Fullscreen Effects\FXAA3_11_Console\_Sources\Shaders\FXAA3_11_Console.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\WashPainting\WashPainting.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\Abstract Painting.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />

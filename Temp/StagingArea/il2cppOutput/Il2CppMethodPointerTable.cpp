@@ -12906,6 +12906,10 @@ extern "C" void FremerateManager_Start_m1996138170 ();
 extern "C" void FremerateManager_Update_m3920395920 ();
 extern "C" void FXAA__ctor_m2750438762 ();
 extern "C" void FXAA_OnRenderImage_m1700901963 ();
+extern "C" void FXAA3_11_ConsoleEffect__ctor_m825181646 ();
+extern "C" void FXAA3_11_ConsoleEffect_CreateMaterialIfNeeded_m1550564465 ();
+extern "C" void FXAA3_11_ConsoleEffect_Start_m1388153086 ();
+extern "C" void FXAA3_11_ConsoleEffect_OnRenderImage_m3544821324 ();
 extern "C" void GameOverButtons__ctor_m1407105206 ();
 extern "C" void GameOverButtons_Start_m473358338 ();
 extern "C" void GameOverButtons_Update_m1246355668 ();
@@ -13661,7 +13665,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13643] = 
+extern const Il2CppMethodPointer g_MethodPointers[13647] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -26551,6 +26555,10 @@ extern const Il2CppMethodPointer g_MethodPointers[13643] =
 	FremerateManager_Update_m3920395920,
 	FXAA__ctor_m2750438762,
 	FXAA_OnRenderImage_m1700901963,
+	FXAA3_11_ConsoleEffect__ctor_m825181646,
+	FXAA3_11_ConsoleEffect_CreateMaterialIfNeeded_m1550564465,
+	FXAA3_11_ConsoleEffect_Start_m1388153086,
+	FXAA3_11_ConsoleEffect_OnRenderImage_m3544821324,
 	GameOverButtons__ctor_m1407105206,
 	GameOverButtons_Start_m473358338,
 	GameOverButtons_Update_m1246355668,
