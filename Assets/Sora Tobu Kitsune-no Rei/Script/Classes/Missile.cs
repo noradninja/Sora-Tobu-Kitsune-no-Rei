@@ -26,7 +26,6 @@ public class Missile : MonoBehaviour {
 	void Update () {
 		
 		targetCount = List.Count;
-	//	print (targetCount);
 		float step = speed * Time.deltaTime;
 		
 		//check that list contains more than 0 items, set target to [List.Count-1] transform, send missile to it

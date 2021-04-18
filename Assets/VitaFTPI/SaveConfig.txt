@@ -1,1 +1,1 @@
-{"IP":"192.168.1.173","File_Name":"Build","DriveLetter":"D:","UseUSB":true,"storageType":"sd2vita","startOnBuildEnd":true,"CustomUploaderFolder":true,"UploaderFolder":"C:\\PSVITA\\Uploader","KeepFolderAfterBuild":true,"ExtractOnPC":true}
+{"IP":"192.168.1.173","File_Name":"Build","UseUSB":true,"storageType":"sd2vita","startOnBuildEnd":true,"CustomUploaderFolder":true,"UploaderFolder":"C:\\PSVITA\\Uploader","KeepFolderAfterBuild":true,"ExtractOnPC":true,"UseReplaceInstallOnEnd":true}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Title_DoF_Animator : MonoBehaviour {
 	public float DoF;
 	public float ArP;
-	public float incrementor = 0.001f;
+	public float camIncrementor = 0.001f;
 	public float timeIncrementor = 0.001f;
 	public float delay = 0.0f;
 	public float time = 0.0f;
@@ -23,11 +23,15 @@ public class Title_DoF_Animator : MonoBehaviour {
 		DoF = mainCamera.GetComponent<DepthOfField>().focalDistance;
 		ArP = mainCamera.GetComponent<DepthOfField>().aperture;
 		if (time < delay){
-			time = time + ((timeIncrementor/10000) * 12);
+			time += (timeIncrementor * Time.deltaTime);
 		}
-		if (mainCamera.GetComponent<DepthOfField>().focalDistance < 2.4f && time >= delay){
-			DoF = DoF += ((incrementor/10000) * 12);
+		if (mainCamera.GetComponent<DepthOfField>().aperture < 0.6f && time >= delay){
+			ArP += (camIncrementor * Time.deltaTime);
+			mainCamera.GetComponent<DepthOfField>().aperture = ArP;
+		}
+		if (mainCamera.GetComponent<DepthOfField>().focalDistance < 2.3f && time >= delay){
+			DoF += (camIncrementor * Time.deltaTime);
 			mainCamera.GetComponent<DepthOfField>().focalDistance = DoF;
-		}	
+		}		
 	}
 }

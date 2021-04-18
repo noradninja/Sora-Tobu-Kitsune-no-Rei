@@ -101,7 +101,7 @@ public class Buttons : MonoBehaviour {
 		miniMapCam.SetActive(true);
 	}
 
-	if (PauseManager.isPaused == false) {	//ignore all inputs in game world if game is paused 
+	if (PauseManager.isPaused == false && SetScenes.currentScene != "Level2") {	//ignore all inputs in game world if game is paused 
 	if (enablePaint == true && enableDoF == false){
 		indicatorText.text = (paintOn + " / " + depthOff);// + " / Threshold: " + mainCam.GetComponent<FXAA>().Threshold);
 	}

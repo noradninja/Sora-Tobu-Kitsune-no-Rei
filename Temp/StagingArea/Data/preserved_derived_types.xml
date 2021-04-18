@@ -99,13 +99,10 @@
 <type fullname="StencilHitCheck" preserve="all"/>
 <type fullname="UV_Scroller" preserve="all"/>
 <type fullname="Waypoint" preserve="all"/>
-<type fullname="BuildSetup" preserve="all"/>
-<type fullname="FremerateManager" preserve="all"/>
+<type fullname="DynamicResolution" preserve="all"/>
 <type fullname="GetResolution" preserve="all"/>
 <type fullname="HeapAllocator" preserve="all"/>
-<type fullname="OutlinePost" preserve="all"/>
 <type fullname="ResolutionSetter" preserve="all"/>
-<type fullname="SequencePlayer" preserve="all"/>
 <type fullname="Title_DoF_Animator" preserve="all"/>
 <type fullname="WayPoint.WaypointAgent" preserve="all"/>
 <type fullname="WayPoint.WaypointData" preserve="all"/>

@@ -94,7 +94,7 @@ public class FireControl : MonoBehaviour {
 			{
 				// get the name of the object we hit
 				GameObject checkHit = GameObject.Find(hit.transform.name);
-					print("There is a new collision with " + checkHit.transform.name + " in front of the reticle!");
+					DebugVita.Log("There is a new collision with " + checkHit.transform.name + " in front of the reticle!");
 					// make the enemy a target for a missile
 					missileTarget = checkHit;
 			}

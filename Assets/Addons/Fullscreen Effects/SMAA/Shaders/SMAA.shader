@@ -44,12 +44,12 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 
 		sampler2D _CameraDepthTexture;
 		
-		float4 _MainTex_TexelSize;
+		fixed4 _MainTex_TexelSize;
 
-		float4 _Metrics; // 1f / width, 1f / height, width, height
-		float4 _Params1; // SMAA_THRESHOLD, SMAA_DEPTH_THRESHOLD, SMAA_MAX_SEARCH_STEPS, SMAA_MAX_SEARCH_STEPS_DIAG
-		float2 _Params2; // SMAA_CORNER_ROUNDING, SMAA_LOCAL_CONTRAST_ADAPTATION_FACTOR
-		float3 _Params3; // SMAA_PREDICATION_THRESHOLD, SMAA_PREDICATION_SCALE, SMAA_PREDICATION_STRENGTH
+		fixed4 _Metrics; // 1f / width, 1f / height, width, height
+		fixed4 _Params1; // SMAA_THRESHOLD, SMAA_DEPTH_THRESHOLD, SMAA_MAX_SEARCH_STEPS, SMAA_MAX_SEARCH_STEPS_DIAG
+		fixed2 _Params2; // SMAA_CORNER_ROUNDING, SMAA_LOCAL_CONTRAST_ADAPTATION_FACTOR
+		fixed3 _Params3; // SMAA_PREDICATION_THRESHOLD, SMAA_PREDICATION_SCALE, SMAA_PREDICATION_STRENGTH
 
 		#define SMAA_RT_METRICS _Metrics
 		#define SMAA_THRESHOLD _Params1.x
@@ -68,9 +68,9 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 		#define mad(a, b, c) (a * b + c)
 		#define SMAATexture2D(tex) sampler2D tex
 		#define SMAATexturePass2D(tex) tex
-		#define SMAASampleLevelZero(tex, coord) tex2Dlod(tex, float4(coord, 0.0, 0.0))
-		#define SMAASampleLevelZeroPoint(tex, coord) tex2Dlod(tex, float4(coord, 0.0, 0.0))
-		#define SMAASampleLevelZeroOffset(tex, coord, offset) tex2Dlod(tex, float4(coord + offset * SMAA_RT_METRICS.xy, 0.0, 0.0))
+		#define SMAASampleLevelZero(tex, coord) tex2Dlod(tex, fixed4(coord, 0.0, 0.0))
+		#define SMAASampleLevelZeroPoint(tex, coord) tex2Dlod(tex, fixed4(coord, 0.0, 0.0))
+		#define SMAASampleLevelZeroOffset(tex, coord, offset) tex2Dlod(tex, fixed4(coord + offset * SMAA_RT_METRICS.xy, 0.0, 0.0))
 		#define SMAASample(tex, coord) tex2D(tex, coord)
 		#define SMAASamplePoint(tex, coord) tex2D(tex, coord)
 		#define SMAASampleOffset(tex, coord, offset) tex2D(tex, coord + offset * SMAA_RT_METRICS.xy)
@@ -85,15 +85,15 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 
 		struct vInput
 		{
-			float4 pos : POSITION;
-			float2 uv : TEXCOORD0;
+			fixed4 pos : POSITION;
+			fixed2 uv : TEXCOORD0;
 		};
 
 		struct fInput_edge
 		{
-			float4 pos : SV_POSITION;
-			float2 uv : TEXCOORD0;
-			float4 offset[3] : TEXCOORD1;
+			fixed4 pos : SV_POSITION;
+			fixed2 uv : TEXCOORD0;
+			fixed4 offset[3] : TEXCOORD1;
 		};
 
 		fInput_edge vert_edge(vInput i)
@@ -107,9 +107,9 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 				o.uv.y = 1.0 - o.uv.y;
 			#endif
 
-			o.offset[0] = mad(SMAA_RT_METRICS.xyxy, float4(-1.0, 0.0, 0.0, -1.0), o.uv.xyxy);
-			o.offset[1] = mad(SMAA_RT_METRICS.xyxy, float4( 1.0, 0.0, 0.0,  1.0), o.uv.xyxy);
-			o.offset[2] = mad(SMAA_RT_METRICS.xyxy, float4(-2.0, 0.0, 0.0, -2.0), o.uv.xyxy);
+			o.offset[0] = mad(SMAA_RT_METRICS.xyxy, fixed4(-1.0, 0.0, 0.0, -1.0), o.uv.xyxy);
+			o.offset[1] = mad(SMAA_RT_METRICS.xyxy, fixed4( 1.0, 0.0, 0.0,  1.0), o.uv.xyxy);
+			o.offset[2] = mad(SMAA_RT_METRICS.xyxy, fixed4(-2.0, 0.0, 0.0, -2.0), o.uv.xyxy);
 			return o;
 		}
 
@@ -129,9 +129,9 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 				#pragma fragment frag
 				#include "UnityCG.cginc"
 
-				float4 frag(v2f_img i) : COLOR
+				fixed4 frag(v2f_img i) : COLOR
 				{
-					return float4(0.0, 0.0, 0.0, 0.0);
+					return fixed4(0.0, 0.0, 0.0, 0.0);
 				}
 
 			ENDCG
@@ -166,12 +166,12 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 				#include "UnityCG.cginc"
 				#include "SMAA.cginc"
 
-				float4 frag(fInput_edge i) : COLOR
+				fixed4 frag(fInput_edge i) : COLOR
 				{
 					#if SMAA_PREDICATION
-					return float4(SMAALumaEdgeDetectionPS(i.uv, i.offset, _MainTex, _CameraDepthTexture), 0.0, 0.0);
+					return fixed4(SMAALumaEdgeDetectionPS(i.uv, i.offset, _MainTex, _CameraDepthTexture), 0.0, 0.0);
 					#else
-					return float4(SMAALumaEdgeDetectionPS(i.uv, i.offset, _MainTex), 0.0, 0.0);
+					return fixed4(SMAALumaEdgeDetectionPS(i.uv, i.offset, _MainTex), 0.0, 0.0);
 					#endif
 				}
 
@@ -203,12 +203,12 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 				#include "UnityCG.cginc"
 				#include "SMAA.cginc"
 
-				float4 frag(fInput_edge i) : COLOR
+				fixed4 frag(fInput_edge i) : COLOR
 				{
 					#if SMAA_PREDICATION
-					return float4(SMAAColorEdgeDetectionPS(i.uv, i.offset, _MainTex, _CameraDepthTexture), 0.0, 0.0);
+					return fixed4(SMAAColorEdgeDetectionPS(i.uv, i.offset, _MainTex, _CameraDepthTexture), 0.0, 0.0);
 					#else
-					return float4(SMAAColorEdgeDetectionPS(i.uv, i.offset, _MainTex), 0.0, 0.0);
+					return fixed4(SMAAColorEdgeDetectionPS(i.uv, i.offset, _MainTex), 0.0, 0.0);
 					#endif
 				}
 
@@ -235,9 +235,9 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 				#include "UnityCG.cginc"
 				#include "SMAA.cginc"
 
-				float4 frag(fInput_edge i) : COLOR
+				fixed4 frag(fInput_edge i) : COLOR
 				{
-					return float4(SMAADepthEdgeDetectionPS(i.uv, i.offset, _CameraDepthTexture), 0.0, 0.0);
+					return fixed4(SMAADepthEdgeDetectionPS(i.uv, i.offset, _CameraDepthTexture), 0.0, 0.0);
 				}
 
 			ENDCG
@@ -278,10 +278,10 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 
 				struct fInput
 				{
-					float4 pos : SV_POSITION;
-					float2 uv : TEXCOORD0;
-					float2 pixcoord : TEXCOORD1;
-					float4 offset[3] : TEXCOORD2;
+					fixed4 pos : SV_POSITION;
+					fixed2 uv : TEXCOORD0;
+					fixed2 pixcoord : TEXCOORD1;
+					fixed4 offset[3] : TEXCOORD2;
 				};
 
 				fInput vert(vInput i)
@@ -292,20 +292,20 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 					o.pixcoord = o.uv * SMAA_RT_METRICS.zw;
 	
 					// We will use these offsets for the searches later on (see @PSEUDO_GATHER4):
-					o.offset[0] = mad(SMAA_RT_METRICS.xyxy, float4(-0.25, -0.125,  1.25, -0.125), o.uv.xyxy);
-					o.offset[1] = mad(SMAA_RT_METRICS.xyxy, float4(-0.125, -0.25, -0.125,  1.25), o.uv.xyxy);
+					o.offset[0] = mad(SMAA_RT_METRICS.xyxy, fixed4(-0.25, -0.125,  1.25, -0.125), o.uv.xyxy);
+					o.offset[1] = mad(SMAA_RT_METRICS.xyxy, fixed4(-0.125, -0.25, -0.125,  1.25), o.uv.xyxy);
 	
 					// And these for the searches, they indicate the ends of the loops:
-					o.offset[2] = mad(SMAA_RT_METRICS.xxyy, float4(-2.0, 2.0, -2.0, 2.0) * float(SMAA_MAX_SEARCH_STEPS),
-									float4(o.offset[0].xz, o.offset[1].yw));
+					o.offset[2] = mad(SMAA_RT_METRICS.xxyy, fixed4(-2.0, 2.0, -2.0, 2.0) * fixed(SMAA_MAX_SEARCH_STEPS),
+									fixed4(o.offset[0].xz, o.offset[1].yw));
 
 					return o;
 				}
 
-				float4 frag(fInput i) : COLOR
+				fixed4 frag(fInput i) : COLOR
 				{
 					return SMAABlendingWeightCalculationPS(i.uv, i.pixcoord, i.offset, _MainTex, _AreaTex, _SearchTex,
-									float4(0.0, 0.0, 0.0, 0.0));
+									fixed4(0.0, 0.0, 0.0, 0.0));
 				}
 
 			ENDCG
@@ -327,9 +327,9 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 
 				struct fInput
 				{
-					float4 pos : SV_POSITION;
-					float2 uv : TEXCOORD0;
-					float4 offset : TEXCOORD1;
+					fixed4 pos : SV_POSITION;
+					fixed2 uv : TEXCOORD0;
+					fixed4 offset : TEXCOORD1;
 				};
 
 				fInput vert(vInput i)
@@ -337,11 +337,11 @@ Shader "Hidden/Subpixel Morphological Antialiasing"
 					fInput o;
 					o.pos = UnityObjectToClipPos(i.pos);
 					o.uv = i.uv;
-					o.offset = mad(SMAA_RT_METRICS.xyxy, float4(1.0, 0.0, 0.0, 1.0), o.uv.xyxy);
+					o.offset = mad(SMAA_RT_METRICS.xyxy, fixed4(1.0, 0.0, 0.0, 1.0), o.uv.xyxy);
 					return o;
 				}
 
-				float4 frag(fInput i) : COLOR
+				fixed4 frag(fInput i) : COLOR
 				{
 					return SMAANeighborhoodBlendingPS(i.uv, i.offset, _MainTex, _BlendTex);
 				}
