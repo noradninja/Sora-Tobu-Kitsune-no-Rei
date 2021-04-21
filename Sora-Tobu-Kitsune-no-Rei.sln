@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sora-Tobu-Kitsune-no-Rei", "Assembly-CSharp.csproj", "{65736AFC-DAAB-00E1-8FFA-83C755B9B5C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sora-Tobu-Kitsune-no-Rei", "AmplifyShaderEditor.Samples.BuiltIn.csproj", "{EB820720-97FE-1B01-ABB2-296165E77516}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sora-Tobu-Kitsune-no-Rei", "AmplifyShaderEditor.csproj", "{BECF4721-3CE7-9924-2B1C-58CA2268DE42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sora-Tobu-Kitsune-no-Rei", "Assembly-CSharp-Editor.csproj", "{A8C3B940-CDDF-D4CD-C02C-33108347701E}"
@@ -19,10 +17,6 @@ Global
 		{65736AFC-DAAB-00E1-8FFA-83C755B9B5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65736AFC-DAAB-00E1-8FFA-83C755B9B5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65736AFC-DAAB-00E1-8FFA-83C755B9B5C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB820720-97FE-1B01-ABB2-296165E77516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB820720-97FE-1B01-ABB2-296165E77516}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB820720-97FE-1B01-ABB2-296165E77516}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB820720-97FE-1B01-ABB2-296165E77516}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BECF4721-3CE7-9924-2B1C-58CA2268DE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BECF4721-3CE7-9924-2B1C-58CA2268DE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BECF4721-3CE7-9924-2B1C-58CA2268DE42}.Release|Any CPU.ActiveCfg = Release|Any CPU

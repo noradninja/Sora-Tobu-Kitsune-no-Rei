@@ -42,7 +42,7 @@ Category {
                 fixed4 color : COLOR;
                 float2 texcoord : TEXCOORD0;
 				float2 alphacoord : TEXCOORD3;
-                UNITY_FOG_COORDS(1)
+                //UNITY_FOG_COORDS(1)
                 #ifdef SOFTPARTICLES_ON
                 float4 projPos : TEXCOORD2;
                 #endif
@@ -65,7 +65,7 @@ Category {
                 o.color = v.color;
                 o.texcoord = TRANSFORM_TEX(v.texcoord,_MainTex);
 				o.alphacoord = TRANSFORM_TEX(v.texcoord,_AlphaTex);
-                UNITY_TRANSFER_FOG(o,o.vertex);
+              // UNITY_TRANSFER_FOG(o,o.vertex);
                 return o;
             }
 
@@ -87,7 +87,7 @@ Category {
                 col.rgb = tex.rgb * i.color.rgb * 2; 
                 col.a = alph.rgb; //this takes the RGB value of the texture file and writes it to the alpha channel as a hack to get around mp4 not having alpha for overlays
                 col = lerp(fixed4(0.5f,0.5f,0.5f,0.5f), col, col.a);
-                UNITY_APPLY_FOG_COLOR(i.fogCoord, col, fixed4(0.5,0.5,0.5,0.5)); // fog towards gray due to our blend mode
+               // UNITY_APPLY_FOG_COLOR(i.fogCoord, col, fixed4(0.5,0.5,0.5,0.5)); // fog towards gray due to our blend mode
                 return col;
             }
             ENDCG

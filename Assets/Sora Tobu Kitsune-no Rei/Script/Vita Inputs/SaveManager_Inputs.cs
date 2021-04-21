@@ -51,6 +51,7 @@ public class SaveManager_Inputs : MonoBehaviour {
 	public string slot1String = "No Data";
 	public string slot2String = "No Data";
 	public string slot3String = "No Data";
+	public string dateTime = "";
 	public GameObject currentSelection; 
 	public GameObject previousSelection;
 	private Animator anim;
@@ -81,6 +82,7 @@ public class SaveManager_Inputs : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		dateTime = (System.DateTime.Now.ToShortDateString() + " " + System.DateTime.Now.ToShortTimeString());
 		if (menuManager.GetComponent<MenuManagerInputs>().dialogEnabled == false ){
 			menuManager.GetComponent<MenuManagerInputs>().delayTimer = false;
 		}
@@ -164,13 +166,13 @@ public class SaveManager_Inputs : MonoBehaviour {
 				menuManager.GetComponent<MenuManagerInputs>().delayTimer = false;
 				audioSource.PlayOneShot(clipList[0]);
 				if (selectedSlot==1){
-						slot1Text.text = (System.DateTime.Now.ToShortDateString() + " " +System.DateTime.Now.ToShortTimeString());
+						slot1Text.text = dateTime;
 					}
 					if (selectedSlot==2){
-						slot2Text.text = (System.DateTime.Now.ToShortDateString() + " " +System.DateTime.Now.ToShortTimeString());
+						slot2Text.text = dateTime;
 					}
 					if (selectedSlot==3){
-						slot3Text.text = (System.DateTime.Now.ToShortDateString() + " " +System.DateTime.Now.ToShortTimeString());
+						slot3Text.text = dateTime;
 					}
 					PlayerPrefs.SetString("Slot1", slot1Text.text);
 					PlayerPrefs.SetString("Slot2", slot2Text.text);

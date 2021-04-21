@@ -1,7 +1,8 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEditor;
 using UnityEditor.Callbacks;
 using System.IO;
+using System.Net.Sockets;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -9,10 +10,41 @@ using System.Threading;
 [ExecuteInEditMode]
 public class UploadBuild 
 {
-	public static UploadData data = null;
+	public static UploadWrapper.UploadData data = null;
 	public static string UploaderPath = null;
 	public static string LastBuildDirSavePath = Application.dataPath + "/VitaFTPI/LastBuildDir.txt";
 	public static string buildDir = null;
+	public static string Path = new System.Diagnostics.StackTrace(true).GetFrame(0).GetFileName();
+
+	public static string GetUploadDir()
+    {
+		return JsonUtility.FromJson<UploadWrapper.UploadData>(File.ReadAllText(VitaFTPOptions.SavePath)).UploaderFolder;
+    }
+
+	public static void sendCommand(string cmd)
+	{
+		if (PreSetup() < 0)
+			return;
+		using (TcpClient client = new TcpClient(data.IP, 1338))
+		{
+			using (NetworkStream ns = client.GetStream())
+			{
+				using (StreamWriter sw = new StreamWriter(ns))
+				{
+					sw.Write(cmd + "\n");
+					sw.Flush();
+					using (StreamReader sr = new StreamReader(ns))
+					{
+						DebugVita.Log(sr.ReadToEnd());
+						sr.Close();
+					}
+					sw.Close();
+				}
+				ns.Close();
+			}
+			client.Close();
+		}
+	}
 	
 
 	[PostProcessBuildAttribute(1)]
@@ -23,7 +55,7 @@ public class UploadBuild
 
 		File.WriteAllText(LastBuildDirSavePath,pathToBuiltProject);
 		if(data == null)
-			data = JsonUtility.FromJson<UploadData>(File.ReadAllText(VitaFTPOptions.SavePath));
+			data = JsonUtility.FromJson<UploadWrapper.UploadData>(File.ReadAllText(VitaFTPOptions.SavePath));
 		if(!data.startOnBuildEnd)
 			return;
 
@@ -57,6 +89,7 @@ public class UploadBuild
 		process = new Process();
 		process.EnableRaisingEvents = true;
 		process.OutputDataReceived += Process_OutputDataReceived;
+        process.Exited += OnDebugExit;
 		process.StartInfo = info;
 		process.Start();
 		process.BeginOutputReadLine();
@@ -65,7 +98,12 @@ public class UploadBuild
 		HasStarted = true;
 	}
 
-	public static void StopDebug()
+    private static void OnDebugExit(object sender, System.EventArgs e)
+    {
+		HasStarted = false;
+    }
+
+    public static void StopDebug()
 	{
 		HasStarted = false;
 		process.Kill();
@@ -88,7 +126,7 @@ public class UploadBuild
 			return -1;
         }
 		if(data == null && File.Exists(VitaFTPOptions.SavePath))
-			data = JsonUtility.FromJson<UploadData>(File.ReadAllText(VitaFTPOptions.SavePath));
+			data = JsonUtility.FromJson<UploadWrapper.UploadData>(File.ReadAllText(VitaFTPOptions.SavePath));
 		else if(!File.Exists(VitaFTPOptions.SavePath))
 		{
 			UnityEngine.Debug.Log("Please configure options under VitaFTPI/Options");
@@ -119,7 +157,7 @@ public class UploadBuild
 
 		if (!File.Exists(UploaderPath + "/" + GetProjectName() + ".vpk") && !data.ExtractOnPC)
 		{
-			UnityEngine.Debug.Log("No VPK found! Please build it first");
+			UnityEngine.Debug.Log("No VPK found! Please pack it first");
 			return;
 		}
 
@@ -150,6 +188,7 @@ public class UploadBuild
 			args += " --pre-extract \"" + buildDir + "\"";
 		}
 		args += " --replace-install";
+		args += " --compare";
 
 
 		ProcessStartInfo VitaFTPIStartInfo = new ProcessStartInfo();
@@ -162,6 +201,20 @@ public class UploadBuild
 		VitaFTPI.StartInfo = VitaFTPIStartInfo;
 		VitaFTPI.Start();
 		UnityEngine.Debug.Log("Done!");
+	}
+
+	public static void BuildGame()
+    {
+		if (PreSetup() < 0)
+			return;
+
+		int sceneCount = UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings;
+		string[] scenes = new string[sceneCount];
+		for (int i = 0; i < sceneCount; i++)
+		{
+			scenes[i] = UnityEngine.SceneManagement.SceneUtility.GetScenePathByBuildIndex(i);
+		}
+		BuildPipeline.BuildPlayer(scenes, buildDir, BuildTarget.PSP2, BuildOptions.None);
 	}
 
 	static void CopyCustomFiles()
@@ -208,7 +261,7 @@ public class UploadBuild
 
 		if(!File.Exists(UploaderPath + "/" + GetProjectName() + ".vpk"))
 		{
-			UnityEngine.Debug.Log("No VPK found! Please build it first");
+			UnityEngine.Debug.Log("No VPK found! Please pack it first");
 			return;
 		}
 		if (data.ExtractOnPC)
@@ -248,10 +301,37 @@ public class UploadBuild
 		UnityEngine.Debug.Log("Done!");
 	}
 
-	[MenuItem("VitaFTPI/Run UnityTools")]
+	public static void PackVPK()
+    {
+		if (PreSetup() < 0)
+			return;
+
+		if (!File.Exists(LastBuildDirSavePath))
+			return;
+
+		if (!Directory.Exists(File.ReadAllText(LastBuildDirSavePath)))
+			UnityEngine.Debug.Log("No build directory found!");
+
+		if (File.Exists(data.UploaderFolder + "/" + GetProjectName() + ".vpk"))
+			File.Delete(data.UploaderFolder + "/" + GetProjectName() + ".vpk");
+
+		string args = "-i \"" + buildDir + "\" -o \"" + UploaderPath + "/" + GetProjectName() + "\"" + " -f -u -r -p";
+
+
+		ProcessStartInfo processStartInfo = new ProcessStartInfo();
+		processStartInfo.FileName = UploaderPath + "/UnityTools.exe";
+		processStartInfo.Arguments = args;
+		Process UnityTools = new Process();
+		UnityTools.StartInfo = processStartInfo;
+		UnityTools.Start();
+
+		UnityEngine.Debug.Log("Done!");
+	}
+
+	[MenuItem("VitaFTPI/Pack VPK")]
 	public static void BuildVPKMenu()
 	{
-		BuildVPK(false);
+		PackVPK();
 	}
 
 	static string boolToString(bool a)
