@@ -33,7 +33,7 @@ ef8209a27b2387f8b14a889277c4c528 Assembly-CSharp.dll:.Bezerk_Blinker
 5be477358093a9e3773daac9e564f5d6 Assembly-CSharp.dll:.Joystick_Target
 83a1b236ee280dc0e3e8ff29fce154e3 Assembly-CSharp.dll:.OnNextLevel
 9330df9cdbd2773bef4f0fedac739433 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.SceneStreamer
-907bb495068ba920c4d7e87340390490 Assembly-CSharp.dll:.HealthBar
+5daa38a9d0d5084baa11ba8cbd60c87e Assembly-CSharp.dll:.HealthBar
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -201,6 +201,7 @@ b900ead596b2fb1093b31cb63a678767 Assembly-CSharp.dll:TMPro.Examples.TextMeshProF
 959bd7b567fca81937238fe8d9921a51 Assembly-CSharp.dll:NprPaintFilter.Demo
 373eaa321c3e55931967052630f0b131 Assembly-CSharp.dll:.CPC_CameraPath
 caeff54b1e2e0057f49b4f54cc8906ed Assembly-CSharp.dll:.TitleScreenOptionsManager
+e340493acfe3684ff428033c311f18f4 Assembly-CSharp.dll:.SequencePlayer
 dad1c1272dfe1898bb613dcb2631bcce Assembly-CSharp.dll:TMPro.Examples.Benchmark02
 05524b8f659e7bfe5756d1335fec24ba TextMeshPro-2017.3-Editor.dll:TMPro.EditorUtilities.DropdownEditor
 05524b8f659e7bfe5756d1335fec24ba TextMeshPro-2017.3-Editor.dll:TMPro.EditorUtilities.TMP_ColorGradientEditor
@@ -274,6 +275,7 @@ aa9d1bd0cc771545f2ae1f63a6d0ed6a Assembly-CSharp.dll:TMPro.Examples.TMP_TextEven
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+768824ce46e369babfa4714dbb4529cb Assembly-CSharp.dll:.Jump
 730283abd5811ca53cdde8a9471a4e4b Assembly-CSharp.dll:.FadeIn
 f0f0ab6b8a39d0572cfa4ea315d84fbf Assembly-CSharp.dll:TMPro.Examples.Benchmark04
 29273f491d11f6bdd02a43a9d8df84c7 Assembly-CSharp.dll:TMPro.Examples.TMP_ExampleScript_01
@@ -317,5 +319,3 @@ ddc32343c607d561dca65919d8f34af9 Assembly-CSharp.dll:.Title_DoF_Animator
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 f8f1c341c82c3a48504f430c7d4c9c67 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.FPSWalkerEnhanced
-768824ce46e369babfa4714dbb4529cb Assembly-CSharp.dll:.Jump
-e340493acfe3684ff428033c311f18f4 Assembly-CSharp.dll:.SequencePlayer

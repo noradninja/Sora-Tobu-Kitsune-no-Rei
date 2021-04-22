@@ -18,7 +18,7 @@ public class Bezerk_Blinker : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (eventManager.GetComponent<BezerkControl>().meterCharged == true && blinkerOn == false){ //is meter > 25% full
+		if (eventManager.GetComponent<BezerkControl>().meterCharged == true && !blinkerOn){ //is meter > 25% full
 			Blinker(baseColor, dimColor, repeatRate);
 		}
 	}

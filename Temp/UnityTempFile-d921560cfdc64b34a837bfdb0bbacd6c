@@ -1,0 +1,288 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:Library/ScriptAssemblies/AmplifyShaderEditor.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.WebModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\PSP2Player/Tools/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"Assets/Addons/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll"
+-r:"Assets/Addons/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll"
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.4/UnityEngine.Advertisements.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
+-r:C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_2
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:ENABLE_AUDIO
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_PSVITA
+-define:UNITY_PSP2
+-define:UNITY_PSP2_API
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:ENABLE_AUDIO_MANAGER_BASED_SCHEDULING
+-define:ENABLE_MICROPHONE
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_NETWORK
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:AMPLIFY_SHADER_EDITOR
+Assets/Addons/CameraPathCreator/DEMO/CPC_DEMO_UpDown.cs
+Assets/Addons/CameraPathCreator/Scripts/CPC_CameraPath.cs
+"Assets/Addons/Contour Draw/AutoRotate.cs"
+"Assets/Addons/Contour Draw/ContourDrawing.cs"
+"Assets/Addons/Contour Draw/Demo.cs"
+Assets/Addons/Contour_Drawing_Post/Contour_Drawing_Post.cs
+"Assets/Addons/Fullscreen Effects/FiltersController.cs"
+"Assets/Addons/Fullscreen Effects/FXAA/FXAA.cs"
+"Assets/Addons/Fullscreen Effects/FXAA3_11_Console/FXAA3_11_ConsoleEffect.cs"
+"Assets/Addons/Fullscreen Effects/SMAA/Scripts/DebugPass.cs"
+"Assets/Addons/Fullscreen Effects/SMAA/Scripts/EdgeDetectionMethod.cs"
+"Assets/Addons/Fullscreen Effects/SMAA/Scripts/HDRMode.cs"
+"Assets/Addons/Fullscreen Effects/SMAA/Scripts/MinAttribute.cs"
+"Assets/Addons/Fullscreen Effects/SMAA/Scripts/PredicationPreset.cs"
+"Assets/Addons/Fullscreen Effects/SMAA/Scripts/Preset.cs"
+"Assets/Addons/Fullscreen Effects/SMAA/Scripts/QualityPreset.cs"
+"Assets/Addons/Fullscreen Effects/SMAA/Scripts/SMAA.cs"
+"Assets/Addons/NPR Paint Filter/Common/FreeCamera.cs"
+"Assets/Addons/NPR Paint Filter/Common/Rotation.cs"
+"Assets/Addons/NPR Paint Filter/MangaSpeedLine/MangaSpeedLine.cs"
+"Assets/Addons/NPR Paint Filter/Script/BlackboardCamera.cs"
+"Assets/Addons/NPR Paint Filter/Script/BlackboardObject.cs"
+"Assets/Addons/NPR Paint Filter/WashPainting/Demo.cs"
+"Assets/Addons/NPR Paint Filter/WashPainting/PingPongRT.cs"
+"Assets/Addons/Scene Streamer/Example/Scripts/FPSWalkerEnhanced.cs"
+"Assets/Addons/Scene Streamer/Example/Scripts/SmoothMouseLook.cs"
+"Assets/Addons/Scene Streamer/Scripts/NeighboringScenes.cs"
+"Assets/Addons/Scene Streamer/Scripts/SceneEdge.cs"
+"Assets/Addons/Scene Streamer/Scripts/SceneStreamer.cs"
+"Assets/Addons/Scene Streamer/Scripts/SetStartScene.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
+"Assets/Addons/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+Assets/DepthOfField/Scripts/DepthOfField.cs
+Assets/Line.cs
+"Assets/Sora Tobu Kitsune-no Rei/Script/3D Skybox/Parallax_BG.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/AimToggler.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Actor.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/AnimateSpriteSheet.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/AudioManager.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Bezerk_Blinker.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/BezerkControl.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/BezerkMissile.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/BG_Layer_Shift.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/BG_Parallax.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/BGM_Player.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Blast_Ring.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/BounceScaleAwake.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Bullet.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Bullet_Destroyer.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/CameraFacingBillboard.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/ClearPlayerPrefs.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Dupe_Rotation.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/FadeIn.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/FadeMe.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Fadeout.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/FireControl.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Follow_Player.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/FollowPlayerwithRotation.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/HealthBar.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/HintList.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Link_System.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Missile.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/ObjectFader.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/OnGameOver.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/OnNextLevel.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Particle_Pauser.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/PlayerMoveJump.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Point.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Reloader.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/SaveSerial.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/SceneLoader.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/SceneLoadTrigger.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/SetScenes.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/StencilHitCheck.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/UV_Scroller.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/Waypoint.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Classes/WaypointUtility.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Extensions/ColorExtension.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Extensions/DebugVita.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Setup/DynamicResolution.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Setup/GetResolution.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Setup/ResolutionSetter.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Setup/SequencePlayer.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Setup/Title_DoF_Animator.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Setup/WaypointAgent.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Setup/WaypointData.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Setup/WaypointManager.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/Buttons.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/GameOverButtons.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/Joystick_Target.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/MenuManagerInputs.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/OptionsManagerInputs.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/PauseManager.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/SaveManager_Inputs.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/StartMenuManagerInputs.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/TitleSaveManagerInputs.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/TitleScreenButtons.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/TitleScreenOptionsManager.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/Touch.cs"
+"Assets/Sora Tobu Kitsune-no Rei/Script/Vita Inputs/VitaRenderTexturePlayback.cs"
+Assets/StencilShader/Jump.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

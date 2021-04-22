@@ -20,6 +20,7 @@ public class HealthBar : MonoBehaviour {
 	public float angleCalc;
 	public Color newColor;
 	public Color finalColor;
+	public bool blinkerOn;
 	public RectTransform capRotationPoint;
 	private float r;
 	private float g;
@@ -52,28 +53,32 @@ public class HealthBar : MonoBehaviour {
 		finalColor = Color.Lerp(fillImage.color, newColor, 0.1f);
 		//apply finalColor to lifebar/cap
 		fillImage.color = finalColor;
-		endImage.color = finalColor;
-		// if (currentValue <= 0.25f && playerTemp.GetComponent<Actor>().health != 0.0001f){
-		// 	Blinker(baseColor, dimColor, repeatRate);
-		// }
-		//turn off cap when player dies
-		if (playerTemp.GetComponent<Actor>().health <= 0.0001f){
-			endImage.color = new Vector4(0,0,0,0);
+		if (playerTemp.GetComponent<Actor>().health > 0.0001f){
+			endImage.color = finalColor;
+		}
+		if (currentValue <= 0.25f && playerTemp.GetComponent<Actor>().health > 0.0001f && !blinkerOn){
+			Blinker(baseColor, dimColor, repeatRate);
 		}
 	}
 
 	void Blinker(Color intialColor, Color flashColor, float duration){
+		blinkerOn = true;
 		StartCoroutine(colorAnimator(intialColor, flashColor, (repeatRate/4)));
 	}
 	IEnumerator colorAnimator (Color startColor, Color endColor, float duration){
 		float time = 0;
 		while (time < duration){
-			fillImage.color = Color.Lerp(startColor, endColor, time/duration); //lerp the colors from dark to light
-			endImage.color = Color.Lerp(startColor, endColor, time/duration); //lerp the colors from dark to light
+			fillImage.color = Color.Lerp(startColor, endColor, time/duration); //lerp the bar colors from dark to light
+			endImage.color = Color.Lerp(startColor, endColor, time/duration); //lerp the cap colors from dark to light
 			time += Time.deltaTime;
 			yield return null;
 		}
-	StopCoroutine("colorAnimator");
-	StartCoroutine(colorAnimator(brightColor, dimColor, repeatRate)); //call the routine again to lerp the color back from light to dark, this will cycle until bezerk drops below
+		//if the player has died, kill the routine and make the bar/cap transparent
+		if (playerTemp.GetComponent<Actor>().health <= 0.0001f){
+				StopCoroutine("colorAnimator");
+				fillImage.color = new Vector4(0,0,0,0);
+				endImage.color = new Vector4(0,0,0,0);
+		}
+		else StartCoroutine(colorAnimator(brightColor, dimColor, repeatRate)); //call the routine again to lerp the color back from light to dark
 	}
 }
