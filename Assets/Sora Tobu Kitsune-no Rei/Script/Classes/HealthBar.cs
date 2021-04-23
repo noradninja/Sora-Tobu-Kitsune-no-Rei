@@ -51,11 +51,13 @@ public class HealthBar : MonoBehaviour {
 		//Set color of lifebar/cap based on newColor
 		//apply those values to finalColor
 		finalColor = Color.Lerp(fillImage.color, newColor, 0.1f);
-		//apply finalColor to lifebar/cap
-		fillImage.color = finalColor;
+		
 		if (playerTemp.GetComponent<Actor>().health > 0.0001f){
+			//apply finalColor to lifebar/cap
+			fillImage.color = finalColor;
 			endImage.color = finalColor;
 		}
+		//if we have 1/4 or less health, flash the health indicator
 		if (currentValue <= 0.25f && playerTemp.GetComponent<Actor>().health > 0.0001f && !blinkerOn){
 			Blinker(baseColor, dimColor, repeatRate);
 		}

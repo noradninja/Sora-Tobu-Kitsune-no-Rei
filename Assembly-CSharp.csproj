@@ -58,7 +58,6 @@
      <Compile Include="Assets\Addons\Contour Draw\Demo.cs" />
      <Compile Include="Assets\Addons\Contour_Drawing_Post\Contour_Drawing_Post.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\FiltersController.cs" />
-     <Compile Include="Assets\Addons\Fullscreen Effects\FXAA\FXAA.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\FXAA3_11_Console\FXAA3_11_ConsoleEffect.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\SMAA\Scripts\DebugPass.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\SMAA\Scripts\EdgeDetectionMethod.cs" />
@@ -220,6 +219,7 @@
      <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\Contour_Drawing_Transparent.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
      <None Include="Assets\VitaFTPI\LastBuildDir.txt" />
+     <None Include="Assets\Sora Tobu Kitsune-no Rei\Shader\Contour Drawing No Fog.shader" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\DepthOfField\Example\Shaders\TransparencyExample.shader" />
      <None Include="Assets\DepthOfField\Example\Shaders\NormalSurfaceExample.shader" />
@@ -236,7 +236,6 @@
      <None Include="Assets\Addons\Fullscreen Effects\SMAA\Shaders\SMAA.cginc" />
      <None Include="Assets\Addons\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\Addons\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\Addons\Fullscreen Effects\FXAA\FXAA.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\Shader\MosaicCircle.shader" />
      <None Include="Assets\Addons\Fullscreen Effects\FXAA3_11_Console\_Sources\Shaders\FXAA3_11_Console.shader" />
      <None Include="Assets\Addons\NPR Paint Filter\WashPainting\WashPainting.shader" />

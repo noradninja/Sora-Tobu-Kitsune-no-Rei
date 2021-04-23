@@ -12623,8 +12623,6 @@ extern "C" void FollowPlayerwithRotation_Update_m3449626632 ();
 extern "C" void FreeCamera__ctor_m576293524 ();
 extern "C" void FreeCamera_Update_m980384344 ();
 extern "C" void FreeCamera_Move_m1116194622 ();
-extern "C" void FXAA__ctor_m2750438762 ();
-extern "C" void FXAA_OnRenderImage_m1700901963 ();
 extern "C" void FXAA3_11_ConsoleEffect__ctor_m825181646 ();
 extern "C" void FXAA3_11_ConsoleEffect_CreateMaterialIfNeeded_m1550564465 ();
 extern "C" void FXAA3_11_ConsoleEffect_Start_m1388153086 ();
@@ -13339,7 +13337,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13321] = 
+extern const Il2CppMethodPointer g_MethodPointers[13319] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -25946,8 +25944,6 @@ extern const Il2CppMethodPointer g_MethodPointers[13321] =
 	FreeCamera__ctor_m576293524,
 	FreeCamera_Update_m980384344,
 	FreeCamera_Move_m1116194622,
-	FXAA__ctor_m2750438762,
-	FXAA_OnRenderImage_m1700901963,
 	FXAA3_11_ConsoleEffect__ctor_m825181646,
 	FXAA3_11_ConsoleEffect_CreateMaterialIfNeeded_m1550564465,
 	FXAA3_11_ConsoleEffect_Start_m1388153086,

@@ -7,7 +7,6 @@
 <type fullname="NPRContourDrawing.MultiPass.Demo" preserve="all"/>
 <type fullname="Contour_Drawing_Post" preserve="all"/>
 <type fullname="NprPaintFilter.FiltersController" preserve="all"/>
-<type fullname="FXAA" preserve="all"/>
 <type fullname="FXAA3_11_ConsoleEffect" preserve="all"/>
 <type fullname="Smaa.SMAA" preserve="all"/>
 <type fullname="FreeCamera" preserve="all"/>

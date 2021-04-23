@@ -37,9 +37,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 587
+    y: 631
     width: 388
-    height: 480
+    height: 436
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 371}
   m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
-  controlID: 15171
+  controlID: 122
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -114,7 +114,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Laptop
+  m_LastLoadedLayoutName: 
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 371}
   m_MaxSize: {x: 22012, y: 14021}
   vertical: 0
-  controlID: 15170
+  controlID: 86
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_MinSize: {x: 481, y: 221}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 0
-  controlID: 15048
+  controlID: 87
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,7 +207,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 192}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 15049
+  controlID: 88
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 362
-    height: 883
+    height: 852
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
@@ -248,9 +248,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 883
+    y: 852
     width: 362
-    height: 184
+    height: 215
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 342}
   m_MaxSize: {x: 4004, y: 8042}
   vertical: 1
-  controlID: 15018
+  controlID: 10
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -375,7 +375,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 388
-    height: 587
+    height: 631
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 24}
@@ -405,9 +405,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1534
-    y: 679
+    y: 723
     width: 386
-    height: 459
+    height: 415
   m_PersistentViewDataDictionary: {fileID: 0}
   storageOptions:
   - OFFICIAL
@@ -546,12 +546,12 @@ MonoBehaviour:
     x: 0
     y: 92
     width: 360
-    height: 862
+    height: 831
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
-    m_CachedPref: 103
+    m_CachedPref: -303
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -578,9 +578,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 975
+    y: 944
     width: 360
-    height: 163
+    height: 194
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &22
 MonoBehaviour:
@@ -611,9 +611,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 1ebeddff74bfddff7ac1ddff36c4ddff4cc4ddff5cc4ddffccc6ddff6a00deff6201deff6403deff1c06deff2e06deff3a06deffa608deff0e7de4ff2a2cffff682effff5ea7ffff9ea8ffffb8aaffff2aadffff76b1ffff7eb1ffff80b1ffff90b1ffffbeb2ffffdeb4ffff1cb5ffff8eb7ffff96b7ffffa8b7ffffb4b7ffff20baffff04bcffff10bcffff20bcffff44c5ffff7ac6ffff9ac8ffff52cbffff64cbffff70cbffffdccdfffff2ceffff32d0ffff4ed2ffffc0d4ffff36d9ffff42d9ffff52d9ffff28e1ffff66e2ffff82e4ffffa6e5fffff4e6ffff6aebffff76ebffff86ebffff94fbffff00000000aebf00007ec10000726b0400
+    m_SelectedIDs: 482df3ff
+    m_LastClickedID: -840376
+    m_ExpandedIDs: 220af6ff1c0bf6ff1e0df6ffd60ff6ffe80ff6fff40ff6ff6012f6ffca37f7ffd241f7ffcc42f7ffce44f7ff8647f7ff884cf7ff944cf7ffa44cf7ffb2dbf7ffaadcf7ffb0def7ff6ce1f7ff54e6f7ff64e6f7ff78e6f7fff2f7f7ff245cf9ff125df9ff125ff9ffca61f9ffdc61f9ffe861f9ff5464f9ff92b8f9ffe823faff5230fbff4831fbff4e33fbff0a36fbff2036fbff3036fbffa038fbff12b9fbff1acffbff48d5fbff42d6fbff44d8fbfffcdafbff0edbfbff1adbfbff86ddfbff9cfbffff000000005e5e0000e262000098100100fc13010030150100f61a0100981b010084c30100cac50100e21402003a190200881902003a1a0200601a0200f21b0200861e02006a200200b2210200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -664,14 +664,14 @@ MonoBehaviour:
     height: 460
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 1239.524936
+  lastFramingTime: 4420.6743457
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 480, y: 272, z: -554}
+    m_Target: {x: -1.2457123, y: -8.275003, z: 3899.765}
     speed: 2
-    m_Value: {x: 480, y: 272, z: -554}
+    m_Value: {x: -1.2457123, y: -8.275003, z: 3899.765}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -687,21 +687,21 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
+      m_Target: 1
       speed: 2
-      m_Value: 0
+      m_Value: 1
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.051267672, y: 0.31221142, z: -0.016875839, w: 0.9484787}
+    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: -0.05126767, y: -0.3122114, z: 0.016875839, w: -0.94847864}
+    m_Value: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_Size:
-    m_Target: 2401.5498
+    m_Target: 14.149856
     speed: 2
-    m_Value: 2401.5498
+    m_Value: 14.149856
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -738,7 +738,7 @@ MonoBehaviour:
     x: 1534
     y: 92
     width: 386
-    height: 566
+    height: 610
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -752,19 +752,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Resources/Clouds
+    - Assets/Sora Tobu Kitsune-no Rei/Material/Enviro
   m_ViewMode: 1
   m_StartGridSize: 73
   m_LastFolders:
-  - Assets/Resources/Clouds
+  - Assets/Sora Tobu Kitsune-no Rei/Material/Enviro
   m_LastFoldersGridSize: 73
   m_LastProjectPath: C:\PSVITA\Sora-Tobu-Kitsune-no-Rei
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9abd0300
-    m_LastClickedID: 245146
-    m_ExpandedIDs: 000000009034000054380000283f0000a24200005c4300008c4300003c440000fe440000a4450000ba4500000e46000054490000304a0000f64d0000004e0000ca5400009c5600002c6700002e67000030670000326700003467000036670000386700003a6700003c6700003e67000040670000426700004467000046670000486700004a6700004c6700004e67000050670000526700005467000056670000586700005a6700005c6700005e67000060670000626700006467000066670000686700006a6700006c6700006e67000070670000726700007467000076670000786700007a6700007c6700007e67000080670000826700008467000086670000141e0400ffffff7f
+    scrollPos: {x: 0, y: 387}
+    m_SelectedIDs: c8340000
+    m_LastClickedID: 13512
+    m_ExpandedIDs: 000000007a34000080380000d23f00001a4100008c4300005e4400008e440000344500004e4500002e460000da460000fa46000058470000f04a0000e44b00002a5000003850000096570000ce580000885900002c6a00002e6a0000306a0000326a0000346a0000366a0000386a00003a6a00003c6a00003e6a0000406a0000426a0000446a0000466a0000486a00004a6a00004c6a00004e6a0000506a0000526a0000546a0000566a0000586a00005a6a00005c6a00005e6a0000606a0000626a0000646a0000666a0000686a00006a6a00006c6a00006e6a0000706a0000726a0000746a0000766a0000786a00007a6a00007c6a00007e6a0000806a0000826a0000846a0000866a0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -792,7 +792,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000090340000283f000062400000b2410000a24200005c4300008c4300003c440000fe440000a4450000ba4500000e46000054490000304a0000f64d0000004e0000ca5400009c5600002c6700002e67000030670000326700003467000036670000386700003a6700003c6700003e67000040670000426700004467000046670000486700004a6700004c6700004e67000050670000526700005467000056670000586700005a6700005c6700005e67000060670000626700006467000066670000686700006a6700006c6700006e67000070670000726700007467000076670000786700007a6700007c6700007e67000080670000826700008467000086670000ffffff7f
+    m_ExpandedIDs: 000000007a34000080380000d23f00001a4100008c4300005e4400008e4400004e4500002e460000da460000fa46000058470000f04a0000e44b00002a5000003850000096570000885900002c6a00002e6a0000306a0000326a0000346a0000366a0000386a00003a6a00003c6a00003e6a0000406a0000426a0000446a0000466a0000486a00004a6a00004c6a00004e6a0000506a0000526a0000546a0000566a0000586a00005a6a00005c6a00005e6a0000606a0000626a0000646a0000666a0000686a00006a6a00006c6a00006e6a0000706a0000726a0000746a0000766a0000786a00007a6a00007c6a00007e6a0000806a0000826a0000846a0000866a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -844,6 +844,6 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 11318}
+    m_ScrollPosition: {x: 0, y: 387}
     m_GridSize: 73
   m_DirectoriesAreaWidth: 152

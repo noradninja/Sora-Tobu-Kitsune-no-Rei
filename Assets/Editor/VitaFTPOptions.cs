@@ -171,11 +171,11 @@ public class VitaFTPOptions : EditorWindow
         EditorGUILayout.Space();
 
         GuiLine(1);
-        EditorGUILayout.Space();
+        // EditorGUILayout.Space();
 
-        EditorGUILayout.Space();
-        GUILayout.Label("Made with <3 by Ibrahim");
-        GUILayout.Label("Layout by Bizzy and iDevOnAParkingLot");
+        // EditorGUILayout.Space();
+        // GUILayout.Label("Made with <3 by Ibrahim");
+        // GUILayout.Label("Layout by Bizzy and iDevOnAParkingLot");
 
         EditorGUILayout.EndScrollView();
         EditorGUILayout.EndHorizontal();

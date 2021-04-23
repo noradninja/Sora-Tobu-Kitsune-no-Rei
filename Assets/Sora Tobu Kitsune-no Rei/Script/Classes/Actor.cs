@@ -44,7 +44,9 @@ public class Actor : MonoBehaviour {
 				}
 			//get a list of the actual subObjects so we can do things with them when they die
 				foreach (Transform subs in this.transform){
-					subObjectsGO.Add(subs.gameObject);
+					if(subs.gameObject.tag == "BossSO"){
+						subObjectsGO.Add(subs.gameObject);
+					}
 				}
 
 			}
