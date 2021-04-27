@@ -56,7 +56,6 @@
 <type fullname="DepthOfField" preserve="all"/>
 <type fullname="Line" preserve="all"/>
 <type fullname="Parallax_BG" preserve="all"/>
-<type fullname="AimToggler" preserve="all"/>
 <type fullname="Actor" preserve="all"/>
 <type fullname="AnimateSpriteSheet" preserve="all"/>
 <type fullname="AudioManager" preserve="all"/>
@@ -79,6 +78,7 @@
 <type fullname="FireControl" preserve="all"/>
 <type fullname="Follow_Player" preserve="all"/>
 <type fullname="FollowPlayerwithRotation" preserve="all"/>
+<type fullname="General_Blinker" preserve="all"/>
 <type fullname="HealthBar" preserve="all"/>
 <type fullname="HintList" preserve="all"/>
 <type fullname="Link_System" preserve="all"/>

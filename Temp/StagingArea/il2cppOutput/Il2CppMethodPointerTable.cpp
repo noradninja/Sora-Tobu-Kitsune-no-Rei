@@ -12391,9 +12391,6 @@ extern "C" void Actor_Update_m2538636658 ();
 extern "C" void Actor_ApplyDamage_m2254863939 ();
 extern "C" void Actor_BezerkMissile_m3772565923 ();
 extern "C" void Actor_Shot_m750359375 ();
-extern "C" void AimToggler__ctor_m1878335701 ();
-extern "C" void AimToggler_Start_m1404742749 ();
-extern "C" void AimToggler_Update_m2389447279 ();
 extern "C" void AnimateSpriteSheet__ctor_m2295730266 ();
 extern "C" void AnimateSpriteSheet_RegisterCallback_m3207741364 ();
 extern "C" void AnimateSpriteSheet_UnRegisterCallback_m1041123263 ();
@@ -12644,6 +12641,17 @@ extern "C" void U3CStartLoadU3Ec__Iterator0_System_Collections_Generic_IEnumerat
 extern "C" void U3CStartLoadU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3073029200 ();
 extern "C" void U3CStartLoadU3Ec__Iterator0_Dispose_m2028035624 ();
 extern "C" void U3CStartLoadU3Ec__Iterator0_Reset_m487251578 ();
+extern "C" void General_Blinker__ctor_m134066612 ();
+extern "C" void General_Blinker_OnEnable_m1843412657 ();
+extern "C" void General_Blinker_Update_m500669126 ();
+extern "C" void General_Blinker_Blinker_m2349730876 ();
+extern "C" void General_Blinker_colorAnimator_m2701457147 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0__ctor_m260830350 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0_MoveNext_m3023171465 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3427144259 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1091458734 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0_Dispose_m661418964 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0_Reset_m2640118906 ();
 extern "C" void GetResolution__ctor_m189058412 ();
 extern "C" void GetResolution_Start_m2720700068 ();
 extern "C" void GetResolution_Update_m2847888505 ();
@@ -13337,7 +13345,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13319] = 
+extern const Il2CppMethodPointer g_MethodPointers[13327] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -25712,9 +25720,6 @@ extern const Il2CppMethodPointer g_MethodPointers[13319] =
 	Actor_ApplyDamage_m2254863939,
 	Actor_BezerkMissile_m3772565923,
 	Actor_Shot_m750359375,
-	AimToggler__ctor_m1878335701,
-	AimToggler_Start_m1404742749,
-	AimToggler_Update_m2389447279,
 	AnimateSpriteSheet__ctor_m2295730266,
 	AnimateSpriteSheet_RegisterCallback_m3207741364,
 	AnimateSpriteSheet_UnRegisterCallback_m1041123263,
@@ -25965,6 +25970,17 @@ extern const Il2CppMethodPointer g_MethodPointers[13319] =
 	U3CStartLoadU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3073029200,
 	U3CStartLoadU3Ec__Iterator0_Dispose_m2028035624,
 	U3CStartLoadU3Ec__Iterator0_Reset_m487251578,
+	General_Blinker__ctor_m134066612,
+	General_Blinker_OnEnable_m1843412657,
+	General_Blinker_Update_m500669126,
+	General_Blinker_Blinker_m2349730876,
+	General_Blinker_colorAnimator_m2701457147,
+	U3CcolorAnimatorU3Ec__Iterator0__ctor_m260830350,
+	U3CcolorAnimatorU3Ec__Iterator0_MoveNext_m3023171465,
+	U3CcolorAnimatorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3427144259,
+	U3CcolorAnimatorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1091458734,
+	U3CcolorAnimatorU3Ec__Iterator0_Dispose_m661418964,
+	U3CcolorAnimatorU3Ec__Iterator0_Reset_m2640118906,
 	GetResolution__ctor_m189058412,
 	GetResolution_Start_m2720700068,
 	GetResolution_Update_m2847888505,

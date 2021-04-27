@@ -115,7 +115,6 @@
      <Compile Include="Assets\DepthOfField\Scripts\DepthOfField.cs" />
      <Compile Include="Assets\Line.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\3D Skybox\Parallax_BG.cs" />
-     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\AimToggler.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Actor.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\AnimateSpriteSheet.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\AudioManager.cs" />
@@ -138,6 +137,7 @@
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\FireControl.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Follow_Player.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\FollowPlayerwithRotation.cs" />
+     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\General_Blinker.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\HealthBar.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\HintList.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Link_System.cs" />

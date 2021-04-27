@@ -103,7 +103,6 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 6a492d7b8465b2c00d15794caa46ec2e Assembly-CSharp.dll:TMPro.Examples.TMPro_InstructionOverlay
 8733a24c22910ccab9c11e0cc322872d Assembly-CSharp.dll:.TitleScreenButtons
 1325774eb0bc8170cf2cf63e3ed27df6 Assembly-CSharp.dll:.ContourDrawing
-a049a5041924f75c612e817908652940 Assembly-CSharp.dll:.AimToggler
 ae0da52e0acaab8369973fe94aa0d007 Assembly-CSharp.dll:.ResolutionSetter
 765037da3d8faeee91e39d672b924c61 Assembly-CSharp.dll:.EnvMapAnimator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bullet_Destroyer
@@ -299,6 +298,7 @@ d5a25c6fc8d6bf4f768ef3eadb983b2d Assembly-CSharp.dll:.DynamicResolution
 f0c2ee7f86f51430df3294122dfc5ab1 Assembly-CSharp.dll:.TitleSaveManagerInputs
 6826e26f7cc718f870001971f13e79c7 Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.VertexColorCycler
+e383881a2518472159f598a41051418b Assembly-CSharp.dll:.General_Blinker
 d720d104ba371072094e66111bc68ea5 Assembly-CSharp.dll:.FollowPlayerwithRotation
 9d71505a7183a2a0aa404a20996f7753 Assembly-CSharp.dll:.BezerkControl
 22d0936cb538dc6053295cc40731687c Assembly-CSharp.dll:.Line

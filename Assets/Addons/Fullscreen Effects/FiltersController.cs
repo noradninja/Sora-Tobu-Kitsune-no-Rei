@@ -34,7 +34,7 @@ namespace NprPaintFilter
 						temporaryTexture.wrapMode = TextureWrapMode.Clamp;
 						temporaryTexture.anisoLevel = 0;
 						temporaryTexture.filterMode = FilterMode.Bilinear;
-						temporaryTexture.antiAliasing = 4;
+						temporaryTexture.antiAliasing = 1;
 						return temporaryTexture;
 					}
 		void Start ()
