@@ -7,23 +7,25 @@ using UnityEngine;
 public class General_Blinker : MonoBehaviour {
 
 	public Color dimColor;
+	public Color midColor;
 	public Color brightColor;
 	public Color blinkerColor;
 	public Renderer objectRenderer;
 	public float repeatRate;
 	public bool blinkerOn;
 
-	// Set up values when object is enabled
 	void OnEnable () {
-		blinkerOn = false; //disable blinking 
-		objectRenderer = this.GetComponent<Renderer>();
-
+		objectRenderer = this.GetComponent<Renderer>(); //get renderer of object we are blinking
+	}
+	void OnDisable () {
+		blinkerOn = false; //disable blinking when object is enabled so we are only calling the routine loop once
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		//only call this if blinkerOn is disabled, so we only run Blinker() once
 		if(!blinkerOn){
-			Blinker(dimColor, brightColor, repeatRate);
+			Blinker(dimColor, midColor, repeatRate);
 		}
 	}
 
@@ -35,12 +37,23 @@ public class General_Blinker : MonoBehaviour {
 	IEnumerator colorAnimator (Color startColor, Color endColor, float duration){
 		float time = 0;
 		while (time < duration){	
-				blinkerColor = Color.Lerp(startColor, endColor, time/duration); //lerp the colors from dark to light
+				blinkerColor = Color.Lerp(startColor, endColor, time/duration); //lerp the colors from dark to mid
 				objectRenderer.material.SetColor("_Color", blinkerColor); //get the color of the material and set it to our current lerped value
 				time += Time.deltaTime;
 				yield return null;
 			}
 		StopCoroutine("colorAnimator");
-		StartCoroutine(colorAnimator(brightColor, dimColor, repeatRate)); //call the routine again to lerp the color back from light to dark, this will cycle until bezerk drops below
+		blinkerColor = endColor; //make sure we have hit the target color so if/else block doesn't fail
+		
+		if (blinkerColor == midColor){
+			
+			StartCoroutine(colorAnimator(midColor, brightColor, repeatRate)); //call the routine again to lerp the color back from mid to bright
+		}
+		else if(blinkerColor == brightColor){
+			StartCoroutine(colorAnimator(brightColor, dimColor, repeatRate)); //call the routine again to lerp the color back from bright to dark
+		}
+		else if(blinkerColor == dimColor){
+			Blinker(dimColor, midColor, repeatRate); //if we are back at dark, rerun Blinker() to start the cycle again
+		}
 	}
 }
