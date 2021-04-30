@@ -8,17 +8,12 @@ public class Follow_Player : MonoBehaviour {
 	private Vector3 playerPosition;
 	private Vector3 playerRotation;
 
-	// Use this for initialization
-	void Start () {
-
-	}
-	
 	// Update is called once per frame
 	void Update () {
 		if ((PauseManager.isPaused) == false){
-		gameObject.transform.rotation = Player.transform.localRotation;
-		playerPosition = new Vector3 (Player.transform.position.x, Player.transform.position.y, Player.transform.position.z);
-		transform.position = playerPosition;
-	}
+			gameObject.transform.rotation = Player.transform.localRotation;
+			playerPosition = new Vector3 (Player.transform.position.x, Player.transform.position.y, Player.transform.position.z);
+			transform.position = playerPosition;
+		}
 	}
 }

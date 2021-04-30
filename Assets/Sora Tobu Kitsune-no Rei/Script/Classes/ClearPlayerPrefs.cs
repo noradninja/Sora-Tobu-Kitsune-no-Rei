@@ -8,9 +8,4 @@ public class ClearPlayerPrefs : MonoBehaviour {
 	void Start () {
 		PlayerPrefs.DeleteAll();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

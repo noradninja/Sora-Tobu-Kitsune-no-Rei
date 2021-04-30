@@ -10,13 +10,7 @@ public class Title_DoF_Animator : MonoBehaviour {
 	public float delay = 0.0f;
 	public float time = 0.0f;
 	public GameObject mainCamera;
-	
 
-	// Use this for initialization
-	void Start () {
-
-	}
-	
 	// Update is called once per frame
 	void Update () {
 		//get focal distance from main camera

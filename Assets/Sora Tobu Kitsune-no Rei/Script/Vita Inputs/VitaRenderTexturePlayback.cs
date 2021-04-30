@@ -11,18 +11,11 @@ public class VitaRenderTexturePlayback : MonoBehaviour
 
     void Start()
     {
-       // m_RenderTexture = new RenderTexture(512,512,0,RenderTextureFormat.Default);
         PSVitaVideoPlayer.Init(m_RenderTexture);
         PSVitaVideoPlayer.Play(m_MoviePath, PSVitaVideoPlayer.Looping.Continuous, PSVitaVideoPlayer.Mode.RenderToTexture);
         OnMovieEvent(1);
-        //m_Skin.GetComponent<Material>().SetTexture("_AlphaTex", m_RenderTexture);
         m_Skin.GetComponent<RawImage>().texture = m_RenderTexture;
     
-    }
-
-    void OnPreRender()
-    {
-        
     }
     void OnMovieEvent(int eventID)
 {
@@ -42,7 +35,6 @@ public class VitaRenderTexturePlayback : MonoBehaviour
 }
     void Update()
     {
-        PSVitaVideoPlayer.Update();
-        
+        PSVitaVideoPlayer.Update();       
     }
 }

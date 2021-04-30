@@ -19,15 +19,15 @@ public class OnNextLevel : MonoBehaviour {
 	
 
     void Start() {
-	SetScenes.sceneToLoad = "LoadScreen";	
-	loading = false;
+		SetScenes.sceneToLoad = "LoadScreen";	
+		loading = false;
 	}
 
 	void Update(){
 		//check if we are actually loading a level to avoid spamming the console with nullrefs 
 		if (loading == true){
-		//Store the load progress
-		loadProgress = loadingOperation.progress;
+			//Store the load progress
+			loadProgress = loadingOperation.progress;
 		}
 	}
 

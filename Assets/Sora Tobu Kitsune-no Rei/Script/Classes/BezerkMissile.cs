@@ -21,16 +21,13 @@ public class BezerkMissile : MonoBehaviour {
 	void Awake () {
 		//find the event manager
 		eventManager = GameObject.Find ("EventSystem");
-		//targetObject = GameObject.Find ("Main Camera");
 		eventManager.BroadcastMessage("LinkDecrementor");	
-		//Event.GetComponent<FireControl>().firingBezerk = true;	
 		missileTarget = eventManager.GetComponent<BezerkControl>().missileTarget;	
-		//speed = eventManager.GetComponent<BezerkControl>().missileSpeed;
 	}
 
 	// Update is called once per frame
 	void Update () {
-	//bezerkMeter = GameObject.Find ("Bezerk_Bar").GetComponent<Image>();
+
 	bezerkList = eventManager.GetComponent<BezerkControl>().bezerkList;		
 	float step = speed * Time.deltaTime;
 	
@@ -44,8 +41,6 @@ public class BezerkMissile : MonoBehaviour {
 				transform.position = Vector3.Slerp (transform.position, missileTarget.transform.position, step);
 			}
 		}	
-	
-	//else Destroy (gameObject);
 	}
 
 	public void OnTriggerEnter(Collider other)
@@ -64,8 +59,5 @@ public class BezerkMissile : MonoBehaviour {
 		if (other.tag == "Player") {
 			Destroy (gameObject);
 		}
-
-		
-	
 	}
 }

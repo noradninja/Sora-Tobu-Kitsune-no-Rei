@@ -16,12 +16,6 @@ public class OnGameOver : MonoBehaviour {
 	public float fadeValue;
 	public bool loading = false;
 
-	
-
-    void Start() {
-	
-	}
-
 	void Update(){
 		//check if we are actually loading a level to avoid spamming the console with nullrefs 
 		if (loading == true){

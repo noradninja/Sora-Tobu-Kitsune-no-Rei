@@ -11,11 +11,7 @@ public class Bezerk_Blinker : MonoBehaviour {
 	public GameObject eventManager;
 	public float repeatRate;
 	public bool blinkerOn = false;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (eventManager.GetComponent<BezerkControl>().meterCharged == true && !blinkerOn){ //is meter > 25% full

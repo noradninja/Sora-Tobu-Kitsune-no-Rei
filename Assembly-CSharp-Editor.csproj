@@ -56,12 +56,11 @@
      <Compile Include="Assets\Addons\Fullscreen Effects\SMAA\Scripts\Editor\SMAAEditor.cs" />
      <Compile Include="Assets\Addons\SimplestMeshBaker\Editor\BonesBaker.cs" />
      <Compile Include="Assets\Addons\SimplestMeshBaker\Editor\MeshBaker.cs" />
-     <Compile Include="Assets\Editor\UploadBuild.cs" />
-     <Compile Include="Assets\Editor\UploadData.cs" />
-     <Compile Include="Assets\Editor\VitaFTPIUpdater.cs" />
-     <Compile Include="Assets\Editor\VitaFTPOptions.cs" />
      <Compile Include="Assets\Editor\WaypointAgentEditor.cs" />
      <Compile Include="Assets\Editor\WaypointEditor.cs" />
+     <Compile Include="Assets\VitaFTPI\Editor\UploadBuild.cs" />
+     <Compile Include="Assets\VitaFTPI\Editor\UploadData.cs" />
+     <Compile Include="Assets\VitaFTPI\Editor\VitaFTPOptions.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -133,9 +132,6 @@
  </Reference>
  <Reference Include="TextMeshPro-2017.3-Runtime">
  <HintPath>C:/PSVITA/Sora-Tobu-Kitsune-no-Rei/Assets/Addons/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
- </Reference>
- <Reference Include="System.Windows.Forms">
- <HintPath>C:/PSVITA/Sora-Tobu-Kitsune-no-Rei/Assets/Editor/Plugins/System.Windows.Forms.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.4/UnityEngine.Advertisements.dll</HintPath>

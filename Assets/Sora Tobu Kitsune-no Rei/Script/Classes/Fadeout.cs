@@ -19,12 +19,6 @@ public class Fadeout : MonoBehaviour {
 		//Grab image to fade out
 		img = (RawImage)Target.GetComponent<RawImage> ();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
 	IEnumerator Wait(){
 		//allow for a wait period before crossfading
 		yield return new WaitForSeconds(delay);

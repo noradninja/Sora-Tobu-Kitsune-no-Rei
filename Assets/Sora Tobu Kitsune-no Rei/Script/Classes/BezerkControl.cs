@@ -39,12 +39,9 @@ public class BezerkControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		  bezerkManager();
-		  //BezerkArrayLength = bezerkArray.Length;
-		  //BezerkListCount = bezerkList.Count;
 	}
 	void bezerkManager(){
-			// int maskLayer = 1 << 15;
-			// bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
+			
 			//update the player location so we are always generating shots from there
 			playerLocation = originVec.transform.position;
 			//various checks to ensure proper resetting of bezerk mode    

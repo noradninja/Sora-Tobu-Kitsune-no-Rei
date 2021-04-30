@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class Particle_Pauser : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
 	// Update is called once per frame
 	void Update () {
 		if(PauseManager.isPaused == true){

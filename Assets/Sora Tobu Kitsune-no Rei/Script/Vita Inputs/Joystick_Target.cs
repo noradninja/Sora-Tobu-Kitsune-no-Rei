@@ -9,8 +9,18 @@ public class Joystick_Target : MonoBehaviour {
 	private const int R = 5;
 	private Quaternion qTo;
 	private Quaternion qTo2;
+	private float smooth = 2.5F;
+	private float tiltAngle = -25F;
+	private float targetAngle = 25F;
 
 	public string Stick;
+	#if UNITY_PSP2
+	[SerializeField]
+		public string Stick2 = "Right";
+	#else
+	 	Stick2 = "DS3Right";
+	#endif
+	public Text stickText;
 	public GameObject player;
 	public Rigidbody playerRB;
 	public GameObject target;
@@ -27,11 +37,17 @@ public class Joystick_Target : MonoBehaviour {
 	public float moveDamp = 1.0F;
 	public float rotateDamp = 1.0F;
 	public Vector3 currentRotation, targetRotation;
-	
+
 	void Start (){
 		qTo = camRotatePoint.transform.rotation;
 		qTo2 = radar.transform.rotation;
 		count = 0; //verify count is 0 so level reloads don't break joystick inputs
+		
+		//check if we are on the computer or the Vita and set RS input string as needed
+		if(Application.platform == RuntimePlatform.PSP2){
+			Stick2 = "Right";
+		}
+		else Stick2 = "DS3Right";
 	}
 
 	void Update ()
@@ -44,19 +60,26 @@ public class Joystick_Target : MonoBehaviour {
 		//Animation setup for L/R triggers
 		camRotatePoint.transform.localRotation = Quaternion.RotateTowards (camRotatePoint.transform.localRotation, qTo, rotateSpeed * Time.deltaTime);
 		radar.transform.rotation = Quaternion.RotateTowards (radar.transform.rotation, qTo2, rotateSpeed * Time.deltaTime);
-		const float smooth = 2.5F;
-		const float tiltAngle = -25F;
-		const float targetAngle = 25F;
+	
 		float tX = target.transform.position.x;
 		float tY = target.transform.position.y;
 
 		// Set up x/y coords for joystick and recticle
+
+		//Left stick inputs for player
 		float stickX = Input.GetAxis (Stick + " Stick Horizontal") * -45F;
 		float stickY = Input.GetAxis (Stick + " Stick Vertical") * 45F;
+		//Right stick inputs
+		float stick2X = Input.GetAxis (Stick2 + " Stick Horizontal");
+		float stick2Y = Input.GetAxis (Stick2 + " Stick Vertical");
+		//Left stick inputs for camera
 		float stickXCam = Input.GetAxis (Stick + " Stick Horizontal") * (tiltAngle/2);
 		float stickYCam = Input.GetAxis (Stick + " Stick Vertical") * (targetAngle/2);
+		//Left stick inputs for target
 		float xTarget = Input.GetAxis (Stick + " Stick Horizontal") * targetAngle;
 		float yTarget = Input.GetAxis (Stick + " Stick Vertical") * tiltAngle;
+		
+		stickText.text = ("RS: "+ stick2X +", "+ stick2Y);
 
 
 		// Get L/R input for cam rotation

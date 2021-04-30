@@ -19,8 +19,4 @@ public class FadeIn : MonoBehaviour {
 		img.CrossFadeAlpha (100, time, ignore);
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	}
 }

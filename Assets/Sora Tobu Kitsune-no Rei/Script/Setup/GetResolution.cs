@@ -15,9 +15,4 @@ public class GetResolution : MonoBehaviour {
             resText.text += (res.width + "x" + res.height + " : " + res.refreshRate + "  ");
         }
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
