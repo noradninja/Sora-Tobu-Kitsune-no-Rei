@@ -35,11 +35,11 @@ Shader "Post Effects/Depth of Field (Mobile)" {
         o.pos = UnityObjectToClipPos (v.vertex);
         o.uv = v.texcoord;
 
-        #if UNITY_UV_STARTS_AT_TOP
-        if (_MainTex_TexelSize.y < 0) {
-          o.uv.y = 1 - o.uv.y;
-        }
-        #endif
+        // #if UNITY_UV_STARTS_AT_TOP
+        // if (_MainTex_TexelSize.y < 0) {
+        //   o.uv.y = 1 - o.uv.y;
+        // }
+        // #endif
 
         o.uv2[0] = o.uv + _MainTex_TexelSize.xy * half2(+1.5, +1.5);
         o.uv2[1] = o.uv + _MainTex_TexelSize.xy * half2(-1.5, -1.5);
@@ -89,11 +89,11 @@ Shader "Post Effects/Depth of Field (Mobile)" {
         o.pos = UnityObjectToClipPos(v.vertex);
         o.uv = v.texcoord;
 
-        #if UNITY_UV_STARTS_AT_TOP
-        if (_MainTex_TexelSize.y < 0) {
-          o.uv.y = 1 - o.uv.y;
-        }
-        #endif
+        // #if UNITY_UV_STARTS_AT_TOP
+        // if (_MainTex_TexelSize.y < 0) {
+        //   o.uv.y = 1 - o.uv.y;
+        // }
+        // #endif
 
         o.uv01 = o.uv.xyxy + _MainTex_TexelSize.xyxy * half4(1.5, +1.5, -1.5, -1.5);
         o.uv23 = o.uv.xyxy + _MainTex_TexelSize.xyxy * half4(1.5, -1.5, -1.5, +1.5);
@@ -188,11 +188,11 @@ Shader "Post Effects/Depth of Field (Mobile)" {
         o.pos = UnityObjectToClipPos (v.vertex);
         o.uv = v.texcoord;
 
-        #if UNITY_UV_STARTS_AT_TOP
-        if (_MainTex_TexelSize.y < 0) {
-          o.uv.y = 1 - o.uv.y;
-        }
-        #endif
+        // #if UNITY_UV_STARTS_AT_TOP
+        // if (_MainTex_TexelSize.y < 0) {
+        //   o.uv.y = 1 - o.uv.y;
+        // }
+        // #endif
 
         o.uv2[0] = o.uv + _MainTex_TexelSize.xy * half2(+2.5, +2.5);
         o.uv2[1] = o.uv + _MainTex_TexelSize.xy * half2(-2.5, -2.5);

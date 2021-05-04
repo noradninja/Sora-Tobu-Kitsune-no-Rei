@@ -120,6 +120,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+47c1eb9c594361a990538982832d50e0 Assembly-CSharp.dll:.CameraResolutionScaler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Particle_Pauser
 c9e13909e8279d82d4c514c54ad16067 Assembly-CSharp.dll:.StartMenuManagerInputs
 65db87bd6edbb37d4167cb3a210090b8 Assembly-CSharp.dll:.FXAA3_11_ConsoleEffect
@@ -234,6 +235,7 @@ e76276c64135915b577b27ad365571c1 Assembly-CSharp.dll:.FireControl
 b8f04bdad423045528c67dfa4c3dca0d Assembly-CSharp.dll:TMPro.Examples.VertexShakeA
 72fe19725df76656cb1f8a12b161761f Assembly-CSharp.dll:.PlayerMoveJump
 2e53a33676aca83c8cc108e1967e35f1 Assembly-CSharp.dll:WayPoint.WaypointManager
+f03094ee0ee35871b0f0061ef9ea0d96 Assembly-CSharp.dll:.OutlineController
 df587c9dca955edc08baa7d1a685977f Assembly-CSharp.dll:.BG_Layer_Shift
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -289,7 +291,7 @@ d5a25c6fc8d6bf4f768ef3eadb983b2d Assembly-CSharp.dll:.DynamicResolution
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 6a224e42eee3806448691a98bc3c160e Assembly-CSharp.dll:.UV_Scroller
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.TextConsoleSimulator
-709eda206fde5880c08aad4fd3a16cef Assembly-CSharp.dll:.GetResolution
+19c7ee5ec2eb2c4ea670af5a5bc9d602 Assembly-CSharp.dll:.GetResolution
 68d44bb8382f48891c1e7a907be985b4 Assembly-CSharp.dll:.Fadeout
 75cd0c6c744b9733ef29aa6c59ece2b1 Assembly-CSharp.dll:TMPro.Examples.VertexShakeB
 935b8b1851edc7fb433fe37dd2f416b1 Assembly-CSharp.dll:.FadeMe

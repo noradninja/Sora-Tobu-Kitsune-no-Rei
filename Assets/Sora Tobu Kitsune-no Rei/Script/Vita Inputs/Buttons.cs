@@ -75,7 +75,7 @@ public class Buttons : MonoBehaviour {
 	void Start(){
 		
 		mainCam = GameObject.Find("Main Camera");
-		bgCam = GameObject.Find("Skybox_Geo_Camera");
+		bgCam = GameObject.Find("BG_Camera");
 		miniMapCam = GameObject.Find("MiniMap_Camera");
 		overlayCam =  GameObject.Find("Overlay_Camera");
 		img = (RawImage)Target.GetComponent<RawImage> ();

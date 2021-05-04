@@ -6,8 +6,8 @@
 uniform half _DepthFar;
 uniform half _DepthAperture;
 
-inline float CalculateDepth(float4 vertex) {
-  float z = mul(UNITY_MATRIX_MV, vertex).z;
+inline half CalculateDepth(half4 vertex) {
+  half z = mul(UNITY_MATRIX_MV, vertex).z;
   z = clamp(-z / _DepthFar, 0, 2);
   z = (1 - z) * _DepthAperture;
   return abs(z);

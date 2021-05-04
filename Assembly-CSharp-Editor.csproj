@@ -51,16 +51,64 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\BRT_VersionInfo.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\ApproximatelyEquals.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\FuzzyStringComparisonOptions.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\FuzzyStringComparisonTolerance.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\HammingDistance.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\JaccardDistance.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\JaroDistance.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\JaroWinklerDistance.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\LevenshteinDistance.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\LongestCommonSubsequence.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\LongestCommonSubstring.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\Operations.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\OverlapCoefficient.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\RatcliffObershelpSimilarity.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\SorensenDiceDistance.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\TanimotoCoefficient.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Options\BRT_FileFilters.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Options\BRT_FiltersUsed.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Options\BRT_Options.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\ReportData\BRT_AssetList.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\ReportData\BRT_BuildInfo.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\ReportData\BRT_BuildPlatformType.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\ReportData\BRT_BuildSettingsCategoryType.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\ReportData\BRT_SizePart.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\ReportData\BRT_UnityBuildSettings.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\ReportGeneration\BRT_ReportGenerator.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\ReportGeneration\BRT_UnityBuildSettingsUtility.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Utility\BRT_LibCacheUtil.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Utility\BRT_Util.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Utility\DldUtil_BackwardFileReader.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Utility\DldUtil_BigFileReader.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Utility\DldUtil_GetRspDefines.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Utility\DldUtil_TraverseDirectory.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Utility\DldUtil_UnityVersion.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\BRT_BuildReportWindow.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\BRT_WindowLabels.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\BRT_WindowSettings.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\BRT_WindowUtility.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\Screen\BRT_AssetListScreen.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\Screen\BRT_BaseScreen.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\Screen\BRT_BuildSettingsScreen.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\Screen\BRT_HelpScreen.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\Screen\BRT_OptionsScreen.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\Screen\BRT_OverviewScreen.cs" />
+     <Compile Include="Assets\Addons\BuildReport\Scripts\Editor\Window\Screen\BRT_SizeStatsScreen.cs" />
      <Compile Include="Assets\Addons\CameraPathCreator\Scripts\Editor\CPC_CameraPathInspector.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\SMAA\Scripts\Editor\MinDrawer.cs" />
      <Compile Include="Assets\Addons\Fullscreen Effects\SMAA\Scripts\Editor\SMAAEditor.cs" />
      <Compile Include="Assets\Addons\SimplestMeshBaker\Editor\BonesBaker.cs" />
      <Compile Include="Assets\Addons\SimplestMeshBaker\Editor\MeshBaker.cs" />
+     <Compile Include="Assets\Editor\ShaderlabVSCodeEditor.cs" />
+     <Compile Include="Assets\Editor\VSCodeBridge.cs" />
      <Compile Include="Assets\Editor\WaypointAgentEditor.cs" />
      <Compile Include="Assets\Editor\WaypointEditor.cs" />
      <Compile Include="Assets\VitaFTPI\Editor\UploadBuild.cs" />
      <Compile Include="Assets\VitaFTPI\Editor\UploadData.cs" />
      <Compile Include="Assets\VitaFTPI\Editor\VitaFTPOptions.cs" />
+     <None Include="Assets\Addons\BuildReport\Scripts\Editor\FuzzyString\FuzzyStringLicense.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

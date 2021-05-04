@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class GetResolution : MonoBehaviour {
-	public Text resText;
+	public RenderTexture foreGround;
+    public RenderTexture backGround;
+    public RenderTexture combinedTex;
 	// Use this for initialization
-	 void Start()
+	 void OnRenderImage(RenderTexture src, RenderTexture dst)
     {
-        Resolution[] resolutions = Screen.resolutions;
-
-        // Print the resolutions
-        foreach (var res in resolutions)
-        {
-            resText.text += (res.width + "x" + res.height + " : " + res.refreshRate + "  ");
-        }
+        src = foreGround;
+        dst =  backGround;
+        RenderTexture final = combinedTex;
+        Graphics.Blit (src, dst);
+        Graphics.Blit (dst, final);
     }
 }

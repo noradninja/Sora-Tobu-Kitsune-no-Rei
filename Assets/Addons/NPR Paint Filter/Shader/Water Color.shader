@@ -16,14 +16,14 @@
 
 			struct v2f
 			{
-				float4 pos : SV_POSITION;
-				float2 uv0 : TEXCOORD0;
-				float2 uv1 : TEXCOORD1;
+				half4 pos : SV_POSITION;
+				half2 uv0 : TEXCOORD0;
+				half2 uv1 : TEXCOORD1;
 			};
 
 			sampler2D _MainTex;
-			float4 _MainTex_TexelSize;
-			float4 ColorBlend (float4 c, float d)  { return c - (c - c * c) * (d - 1); }
+			half4 _MainTex_TexelSize;
+			half4 ColorBlend (half4 c, half d)  { return c - (c - c * c) * (d - 1); }
 		ENDCG
 		Pass {   // pass 0, wobble pass
 			CGPROGRAM
@@ -34,16 +34,16 @@
 
 			v2f vert (appdata_base v)
 			{
-				float aspect = _ScreenParams.x / _ScreenParams.y;
+				half aspect = _ScreenParams.x / _ScreenParams.y;
 				v2f o;
 				o.pos = UnityObjectToClipPos(v.vertex);
 				o.uv0 = v.texcoord;
-				o.uv1 = v.texcoord * float2(aspect, 1) * _WobbleScale;
+				o.uv1 = v.texcoord * half2(aspect, 1) * _WobbleScale;
 				return o;
 			}
-			fixed4 frag (v2f i) : COLOR
+			half4 frag (v2f i) : COLOR
 			{
-				fixed2 wobb = tex2D(_WobbleTex, i.uv1).wy * 2 - 1;
+				half2 wobb = tex2D(_WobbleTex, i.uv1).wy * 2 - 1;
 				return tex2D(_MainTex, i.uv0 + wobb * _WobblePower);
 			}
 			ENDCG
@@ -55,16 +55,16 @@
 			#pragma fragmentoption ARB_precision_hint_fastest
 			float _EdgeSize, _EdgePower;
 
-			fixed4 frag (v2f_img i) : COLOR
+			half4 frag (v2f_img i) : COLOR
 			{
-				float2 offset = _MainTex_TexelSize.xy * _EdgeSize;
-				fixed4 l = tex2D(_MainTex, i.uv + half2(-offset.x, 0));
-				fixed4 r = tex2D(_MainTex, i.uv + half2(+offset.x, 0));
-				fixed4 b = tex2D(_MainTex, i.uv + half2(           0, -offset.y));
-				fixed4 t = tex2D(_MainTex, i.uv + half2(           0, +offset.y));
-				fixed4 c = tex2D(_MainTex, i.uv);
+				half2 offset = _MainTex_TexelSize.xy * _EdgeSize;
+				half4 l = tex2D(_MainTex, i.uv + half2(-offset.x, 0));
+				half4 r = tex2D(_MainTex, i.uv + half2(+offset.x, 0));
+				half4 b = tex2D(_MainTex, i.uv + half2(           0, -offset.y));
+				half4 t = tex2D(_MainTex, i.uv + half2(           0, +offset.y));
+				half4 c = tex2D(_MainTex, i.uv);
 
-				fixed4 grad = abs(r - l) + abs(b - t);
+				half4 grad = abs(r - l) + abs(b - t);
 				half intens = saturate(0.666 * (grad.x + grad.y + grad.z));
 				half d = _EdgePower * intens + 1;
 				return ColorBlend(c, d);

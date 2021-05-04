@@ -20,6 +20,7 @@ public class DepthOfField : MonoBehaviour {
 
   [HideInInspector]
   public Material material;
+  
 
   private RenderTexture GetTemporaryTexture(int width, int height) {
     RenderTexture temporaryTexture = RenderTexture.GetTemporary(width, height, 0, RenderTextureFormat.Default);

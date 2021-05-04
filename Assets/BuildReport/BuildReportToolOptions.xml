@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BuildReportToolOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IncludeSvnInUnused>true</IncludeSvnInUnused>
+  <IncludeGitInUnused>true</IncludeGitInUnused>
+  <AllowDeletingOfUsedAssets>false</AllowDeletingOfUsedAssets>
+  <CollectBuildInfo>false</CollectBuildInfo>
+  <BuildReportFolderName>UnityBuildReports</BuildReportFolderName>
+  <SaveType>1</SaveType>
+  <FilterToUseInt>0</FilterToUseInt>
+  <AssetListPaginationLength>300</AssetListPaginationLength>
+  <UnusedAssetsEntriesPerBatch>1000</UnusedAssetsEntriesPerBatch>
+  <NumberOfTopLargestUsedAssetsToShow>20</NumberOfTopLargestUsedAssetsToShow>
+  <NumberOfTopLargestUnusedAssetsToShow>20</NumberOfTopLargestUnusedAssetsToShow>
+  <IncludeUsedAssetsInReportCreation>true</IncludeUsedAssetsInReportCreation>
+  <IncludeUnusedAssetsInReportCreation>true</IncludeUnusedAssetsInReportCreation>
+  <IncludeUnusedPrefabsInReportCreation>true</IncludeUnusedPrefabsInReportCreation>
+  <IncludeBuildSizeInReportCreation>true</IncludeBuildSizeInReportCreation>
+  <GetSizeBeforeBuildForUsedAssets>true</GetSizeBeforeBuildForUsedAssets>
+  <GetImportedSizesForUnusedAssets>true</GetImportedSizesForUnusedAssets>
+  <ShowImportedSizeForUsedAssets>false</ShowImportedSizeForUsedAssets>
+  <GetProjectSettings>true</GetProjectSettings>
+  <AutoShowWindowAfterNormalBuild>false</AutoShowWindowAfterNormalBuild>
+  <AutoResortAssetsWhenUnityEditorRegainsFocus>false</AutoResortAssetsWhenUnityEditorRegainsFocus>
+  <UseThreadedReportGeneration>true</UseThreadedReportGeneration>
+  <UseThreadedFileLoading>true</UseThreadedFileLoading>
+</BuildReportToolOptions>
