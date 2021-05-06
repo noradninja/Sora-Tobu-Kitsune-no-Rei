@@ -31938,6 +31938,15 @@ extern "C"  void QualitySettings_set_maxQueuedFrames_m926206817 (RuntimeObject *
 	_il2cpp_icall_func = (QualitySettings_set_maxQueuedFrames_m926206817_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.QualitySettings::set_maxQueuedFrames(System.Int32)");
 	_il2cpp_icall_func(___value0);
 }
+// System.Void UnityEngine.QualitySettings::set_vSyncCount(System.Int32)
+extern "C"  void QualitySettings_set_vSyncCount_m3131636076 (RuntimeObject * __this /* static, unused */, int32_t ___value0, const RuntimeMethod* method)
+{
+	typedef void (*QualitySettings_set_vSyncCount_m3131636076_ftn) (int32_t);
+	static QualitySettings_set_vSyncCount_m3131636076_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (QualitySettings_set_vSyncCount_m3131636076_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.QualitySettings::set_vSyncCount(System.Int32)");
+	_il2cpp_icall_func(___value0);
+}
 // UnityEngine.ColorSpace UnityEngine.QualitySettings::get_activeColorSpace()
 extern "C"  int32_t QualitySettings_get_activeColorSpace_m2902748248 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
 {

@@ -30085,6 +30085,8 @@ extern "C"  void PlayerPrefs_SetFloat_m3161432420 (RuntimeObject * __this /* sta
 extern "C"  void ParticleSystem_Pause_m3983736200 (ParticleSystem_t1800779281 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.ParticleSystem::Play()
 extern "C"  void ParticleSystem_Play_m882713458 (ParticleSystem_t1800779281 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.QualitySettings::set_vSyncCount(System.Int32)
+extern "C"  void QualitySettings_set_vSyncCount_m3131636076 (RuntimeObject * __this /* static, unused */, int32_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Transform>()
 #define Component_GetComponent_TisTransform_t3600365921_m1200784320(__this, method) ((  Transform_t3600365921 * (*) (Component_t1923634451 *, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m2906321015_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.CharacterController>()
@@ -46795,6 +46797,24 @@ extern "C"  void PauseManager_Update_m1449314415 (PauseManager_t1166378904 * __t
 	{
 		bool L_0 = ((PauseManager_t1166378904_StaticFields*)il2cpp_codegen_static_fields_for(PauseManager_t1166378904_il2cpp_TypeInfo_var))->get_isPaused_2();
 		__this->set_isPausedInspector_3(L_0);
+		bool L_1 = ((PauseManager_t1166378904_StaticFields*)il2cpp_codegen_static_fields_for(PauseManager_t1166378904_il2cpp_TypeInfo_var))->get_isPaused_2();
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		QualitySettings_set_vSyncCount_m3131636076(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		goto IL_0026;
+	}
+
+IL_0020:
+	{
+		QualitySettings_set_vSyncCount_m3131636076(NULL /*static, unused*/, 2, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
 		return;
 	}
 }

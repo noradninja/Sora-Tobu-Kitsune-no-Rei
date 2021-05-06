@@ -8587,6 +8587,7 @@ extern "C" void PSVitaVideoPlayer_Play_m439140063 ();
 extern "C" void PSVitaVideoPlayer_Init_m2659996897 ();
 extern "C" void PSVitaVideoPlayer_Update_m3897723372 ();
 extern "C" void QualitySettings_set_maxQueuedFrames_m926206817 ();
+extern "C" void QualitySettings_set_vSyncCount_m3131636076 ();
 extern "C" void QualitySettings_get_activeColorSpace_m2902748248 ();
 extern "C" void Quaternion__ctor_m435141806_AdjustorThunk ();
 extern "C" void Quaternion_AngleAxis_m1767165696 ();
@@ -13328,7 +13329,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13310] = 
+extern const Il2CppMethodPointer g_MethodPointers[13311] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -21899,6 +21900,7 @@ extern const Il2CppMethodPointer g_MethodPointers[13310] =
 	PSVitaVideoPlayer_Init_m2659996897,
 	PSVitaVideoPlayer_Update_m3897723372,
 	QualitySettings_set_maxQueuedFrames_m926206817,
+	QualitySettings_set_vSyncCount_m3131636076,
 	QualitySettings_get_activeColorSpace_m2902748248,
 	Quaternion__ctor_m435141806_AdjustorThunk,
 	Quaternion_AngleAxis_m1767165696,
