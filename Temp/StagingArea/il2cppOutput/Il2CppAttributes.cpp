@@ -395,7 +395,6 @@ extern const uint32_t Demo_t4004729819_CustomAttributesCacheGenerator_MetadataUs
 extern const RuntimeType* CharacterController_t1138636865_0_0_0_var;
 extern const uint32_t FPSWalkerEnhanced_t2047175006_CustomAttributesCacheGenerator_MetadataUsageId;
 extern const uint32_t DepthOfField_t300342762_CustomAttributesCacheGenerator_MetadataUsageId;
-extern const uint32_t OutlineController_t2558818692_CustomAttributesCacheGenerator_MetadataUsageId;
 extern const uint32_t ResolutionSetter_t853612697_CustomAttributesCacheGenerator_MetadataUsageId;
 
 
@@ -34605,23 +34604,6 @@ static void CameraResolutionScaler_t2459044074_CustomAttributesCacheGenerator_re
 		TooltipAttribute__ctor_m534364555(tmp, il2cpp_codegen_string_new_wrapper("1= full (960x544), 1.334 = mid (720x408), 1.5 = low (640x368) 2= very low (PSP, 480x272)"), NULL);
 	}
 }
-static void OutlineController_t2558818692_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (OutlineController_t2558818692_CustomAttributesCacheGenerator_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		ExecuteInEditMode_t3727731349 * tmp = (ExecuteInEditMode_t3727731349 *)cache->attributes[0];
-		ExecuteInEditMode__ctor_m2191480222(tmp, NULL);
-	}
-	{
-		RequireComponent_t3490506609 * tmp = (RequireComponent_t3490506609 *)cache->attributes[1];
-		RequireComponent__ctor_m886241599(tmp, il2cpp_codegen_type_get_object(Camera_t4157153871_0_0_0_var), NULL);
-	}
-}
 static void ResolutionSetter_t853612697_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodInitialized;
@@ -35627,7 +35609,7 @@ static void U3CInputDelayU3Ec__Iterator1_t2666026029_CustomAttributesCacheGenera
 		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[3577] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[3576] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -39064,7 +39046,6 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[3577] =
 	ColorExtension_t4110873130_CustomAttributesCacheGenerator,
 	ColorExtension_t4110873130_CustomAttributesCacheGenerator_ColorExtension_Slerp_m2311477308,
 	CameraResolutionScaler_t2459044074_CustomAttributesCacheGenerator_renderDivisor,
-	OutlineController_t2558818692_CustomAttributesCacheGenerator,
 	ResolutionSetter_t853612697_CustomAttributesCacheGenerator,
 	ResolutionSetter_t853612697_CustomAttributesCacheGenerator_bufferedFrames,
 	ResolutionSetter_t853612697_CustomAttributesCacheGenerator_divisor,

@@ -46,9 +46,9 @@ namespace NprPaintFilter
 		}
 		void OnRenderImage(RenderTexture src, RenderTexture dst)
 		{
-			    var rendertex = GetTemporaryTexture(640, 368);
+			    var rendertex = GetTemporaryTexture(640, 363);
 				Graphics.Blit (src, rendertex, m_WaterColor.m_Mat, 0);
-				var rendertex2 = GetTemporaryTexture(640, 368);
+				var rendertex2 = GetTemporaryTexture(640, 363);
 				Graphics.Blit(rendertex, rendertex2, m_WaterColor.m_Mat, 1);
 				RenderTexture.ReleaseTemporary(rendertex);
 				rendertex.DiscardContents();

@@ -97,7 +97,6 @@
 <type fullname="CameraResolutionScaler" preserve="all"/>
 <type fullname="DynamicResolution" preserve="all"/>
 <type fullname="GetResolution" preserve="all"/>
-<type fullname="OutlineController" preserve="all"/>
 <type fullname="ResolutionSetter" preserve="all"/>
 <type fullname="SequencePlayer" preserve="all"/>
 <type fullname="Title_DoF_Animator" preserve="all"/>

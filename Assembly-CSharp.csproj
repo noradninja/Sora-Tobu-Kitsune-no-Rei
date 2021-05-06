@@ -161,7 +161,6 @@
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\CameraResolutionScaler.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\DynamicResolution.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\GetResolution.cs" />
-     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\OutlineController.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\ResolutionSetter.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\SequencePlayer.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Setup\Title_DoF_Animator.cs" />

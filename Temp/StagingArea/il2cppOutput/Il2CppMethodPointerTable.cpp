@@ -12781,9 +12781,6 @@ extern "C" void OptionsManagerInputs_Start_m1196534723 ();
 extern "C" void OptionsManagerInputs_Update_m1520178053 ();
 extern "C" void OptionsManagerInputs_setColor_m2025469582 ();
 extern "C" void OptionsManagerInputs_animateButtons_m3260337386 ();
-extern "C" void OutlineController__ctor_m2583430268 ();
-extern "C" void OutlineController_GetTemporaryTexture_m3566418579 ();
-extern "C" void OutlineController_OnRenderImage_m1413917615 ();
 extern "C" void Parallax_BG__ctor_m4128471225 ();
 extern "C" void Parallax_BG_Start_m826111887 ();
 extern "C" void Parallax_BG_Update_m1668354270 ();
@@ -13331,7 +13328,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13313] = 
+extern const Il2CppMethodPointer g_MethodPointers[13310] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -26096,9 +26093,6 @@ extern const Il2CppMethodPointer g_MethodPointers[13313] =
 	OptionsManagerInputs_Update_m1520178053,
 	OptionsManagerInputs_setColor_m2025469582,
 	OptionsManagerInputs_animateButtons_m3260337386,
-	OutlineController__ctor_m2583430268,
-	OutlineController_GetTemporaryTexture_m3566418579,
-	OutlineController_OnRenderImage_m1413917615,
 	Parallax_BG__ctor_m4128471225,
 	Parallax_BG_Start_m826111887,
 	Parallax_BG_Update_m1668354270,
