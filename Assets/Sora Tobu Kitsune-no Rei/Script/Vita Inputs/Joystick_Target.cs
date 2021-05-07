@@ -148,7 +148,7 @@ public class Joystick_Target : MonoBehaviour {
 		if (count == 2) {     
 			
 			Quaternion target = Quaternion.Euler (stickYCam+6f, (-1*stickXCam), 0);
-			Quaternion Ptarget = Quaternion.Euler (0, stickX, 0);
+			Quaternion Ptarget = Quaternion.Euler (0.0f, stickX, 0.0f);
 			//rotate camera
 			transform.localRotation = Quaternion.Slerp (transform.localRotation, target, Time.deltaTime * smooth);
 			//rotate player
@@ -233,6 +233,7 @@ public class Joystick_Target : MonoBehaviour {
 			//move player in direction of stick
 			player.GetComponent<Rigidbody>().AddForce (pxTarget * moveDamp);
 		}
+		//player.transform.localRotation = Quaternion.Euler (player.transform.localRotation.x, Ptarget, 0.0f);
 	}
 	}
 }

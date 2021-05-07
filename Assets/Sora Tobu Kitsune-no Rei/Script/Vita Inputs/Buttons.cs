@@ -152,7 +152,7 @@ public class Buttons : MonoBehaviour {
 					if (enemyTypes[2] !=null){
 					enemyTypes[2].SetActive(false);
 					}
-					GameObject.Find("BossInfoText").GetComponent<Text>().text = " ";
+				//	GameObject.Find("BossInfoText").GetComponent<Text>().text = " ";
 				}
 					break;
 			 }

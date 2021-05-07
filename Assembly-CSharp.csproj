@@ -125,6 +125,7 @@
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\BG_Parallax.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\BGM_Player.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Blast_Ring.cs" />
+     <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\BossHealthBar.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Bullet.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\Bullet_Destroyer.cs" />
      <Compile Include="Assets\Sora Tobu Kitsune-no Rei\Script\Classes\CameraFacingBillboard.cs" />
