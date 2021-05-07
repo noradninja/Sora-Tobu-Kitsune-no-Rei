@@ -99,7 +99,7 @@ public class SaveManager_Inputs : MonoBehaviour {
 			currentSelection = GameObject.Find("Slot_3");
 		}	
 			//Decrement slot by -1 if you press up
-			if (Input.GetKeyDown (joystick1 + UP)){
+			if (Input.GetKeyDown (joystick1 + UP) && menuManager.GetComponent<MenuManagerInputs>().dialogEnabled == false){
 				audioSource.PlayOneShot(clipList[2]);
 				if (selectedSlot == 1){
 					previousSlot = selectedSlot;
@@ -123,7 +123,7 @@ public class SaveManager_Inputs : MonoBehaviour {
 			}
 			
 			//Increment slot by +1 if you press down
-			if (Input.GetKeyDown (joystick1 + DOWN)){
+			if (Input.GetKeyDown (joystick1 + DOWN) && menuManager.GetComponent<MenuManagerInputs>().dialogEnabled == false){
 				audioSource.PlayOneShot(clipList[3]);
 				if (selectedSlot == 3){
 					//set slot to 1 if you are at slot 3 to wrap selection

@@ -93,12 +93,14 @@ public class Buttons : MonoBehaviour {
 		bgCam.SetActive(false);
 		overlayCam.SetActive(false);
 		miniMapCam.SetActive(false);
+		QualitySettings.vSyncCount = 1;
 	}	
 	if (PauseManager.isPaused == false){
 		mainCam.SetActive(true);
 		bgCam.SetActive(true);
 		overlayCam.SetActive(true);
 		miniMapCam.SetActive(true);
+		QualitySettings.vSyncCount = 2;
 	}
 
 	if (PauseManager.isPaused == false && SetScenes.currentScene != "Level2") {	//ignore all inputs in game world if game is paused 

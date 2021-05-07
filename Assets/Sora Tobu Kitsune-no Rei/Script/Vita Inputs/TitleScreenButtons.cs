@@ -51,10 +51,12 @@ public class TitleScreenButtons : MonoBehaviour {
 		if (menuManager.GetComponent<StartMenuManagerInputs>().menuEnabled == true){
 			mainCam.SetActive(false);
 			bgCam.SetActive(false);
+			QualitySettings.vSyncCount = 1;
 		}
 			if (menuManager.GetComponent<StartMenuManagerInputs>().menuEnabled == false){
 			mainCam.SetActive(true);
 			bgCam.SetActive(true);
+			QualitySettings.vSyncCount = 2;
 		}
 
 		//if we are at the title sceeen and hit start, fade in the main menu
@@ -82,6 +84,7 @@ public class TitleScreenButtons : MonoBehaviour {
 				menuManager.GetComponent<StartMenuManagerInputs>().menuEnabled = true;
 				menuManager.GetComponent<StartMenuManagerInputs>().loaderEnabled = false;
 				audioSource.PlayOneShot(clipList[1]);
+				PauseManager.isPaused = true;
 			}
 			//if we are in the save/load menu with a dialog and hit Circle, close the dialog
 			else if (menuManager.GetComponent<StartMenuManagerInputs>().loaderEnabled == true && menuManager.GetComponent<StartMenuManagerInputs>().loadDialogEnabled == true){
@@ -90,6 +93,7 @@ public class TitleScreenButtons : MonoBehaviour {
 				menuManager.GetComponent<StartMenuManagerInputs>().loadDialogEnabled = false;
 				menuManager.GetComponent<StartMenuManagerInputs>().loadDialogGroup.GetComponent<CanvasGroup>().alpha = 0;
 				audioSource.PlayOneShot(clipList[1]);
+				PauseManager.isPaused = true;
 			}
 			//if we are in the options menu and hit circle, fade back to the main menu
 			else if (menuManager.GetComponent<StartMenuManagerInputs>().optionEnabled == true){
@@ -98,6 +102,7 @@ public class TitleScreenButtons : MonoBehaviour {
 				menuManager.GetComponent<StartMenuManagerInputs>().optionEnabled = false;
 				PlayerPrefs.Save();
 				audioSource.PlayOneShot(clipList[1]);
+				PauseManager.isPaused = true;
 			}
 		}
 	}

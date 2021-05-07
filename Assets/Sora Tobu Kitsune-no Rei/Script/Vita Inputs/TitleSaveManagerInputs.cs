@@ -95,7 +95,7 @@ public class TitleSaveManagerInputs : MonoBehaviour {
 			currentSelection = GameObject.Find("Slot_3");
 		}	
 			//Decrement slot by -1 if you press up
-			if (Input.GetKeyDown (joystick1 + UP)){
+			if (Input.GetKeyDown (joystick1 + UP) && menuManager.GetComponent<StartMenuManagerInputs>().loadDialogEnabled == false){
 				audioSource.PlayOneShot(clipList[2]);
 				if (selectedSlot == 1){
 					//set slot to 3 if you are at slot 1 to wrap selection
@@ -109,7 +109,7 @@ public class TitleSaveManagerInputs : MonoBehaviour {
 			}
 			
 			//Increment slot by +1 if you press down
-			if (Input.GetKeyDown (joystick1 + DOWN)){
+			if (Input.GetKeyDown (joystick1 + DOWN) && menuManager.GetComponent<StartMenuManagerInputs>().loadDialogEnabled == false){
 				audioSource.PlayOneShot(clipList[3]);
 				if (selectedSlot == 3){
 					//set slot to 1 if you are at slot 3 to wrap selection
@@ -130,6 +130,7 @@ public class TitleSaveManagerInputs : MonoBehaviour {
 				menuManager.GetComponent<StartMenuManagerInputs>().loadDialogEnabled= true;
 				StartCoroutine(DialogHandler());
 				audioSource.PlayOneShot(clipList[0]);
+				PauseManager.isPaused = true;
 			}
 			if (Input.GetKeyDown (joystick1 + CROSS) ){
 				//play an error sound if we try to load data from an empty slot

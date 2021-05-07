@@ -178,7 +178,7 @@ private const string joystick1 = "joystick 1 button ";
 			anim.SetTrigger("MakeBounce");
 			previousSelection.GetComponent<Animator>().SetTrigger("SteadyState");
 		}
-		//	else anim.SetTrigger("SteadyState");
+			else anim.SetTrigger("SteadyState");
 		
 		if (selectedSlot == 1){
 			currentSelection = GameObject.Find("New_Game");
@@ -187,7 +187,7 @@ private const string joystick1 = "joystick 1 button ";
 			anim.SetTrigger("MakeBounce");
 			previousSelection.GetComponent<Animator>().SetTrigger("SteadyState");
 		}
-		//else anim.SetTrigger("SteadyState");
+		else anim.SetTrigger("SteadyState");
 	}
 
 	IEnumerator FadeScreen(float targetValue, float duration) {
