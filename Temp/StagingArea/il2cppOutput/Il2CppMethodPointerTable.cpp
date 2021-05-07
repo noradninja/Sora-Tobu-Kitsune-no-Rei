@@ -12478,6 +12478,16 @@ extern "C" void U3CscaleLPFU3Ec__Iterator0_Reset_m2348999860 ();
 extern "C" void Blast_Ring__ctor_m2583816960 ();
 extern "C" void Blast_Ring_Start_m1949519720 ();
 extern "C" void Blast_Ring_Update_m2198929930 ();
+extern "C" void BossHealthBar__ctor_m2584505113 ();
+extern "C" void BossHealthBar_Update_m55556924 ();
+extern "C" void BossHealthBar_Blinker_m1490811935 ();
+extern "C" void BossHealthBar_colorAnimator_m3257928332 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0__ctor_m227131190 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0_MoveNext_m283858327 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2091335256 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3924248156 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0_Dispose_m2585715276 ();
+extern "C" void U3CcolorAnimatorU3Ec__Iterator0_Reset_m1091830610 ();
 extern "C" void Bullet__ctor_m2787309514 ();
 extern "C" void Bullet_Start_m1480719556 ();
 extern "C" void Bullet_Update_m2035088002 ();
@@ -13329,7 +13339,7 @@ extern "C" void DrawLine__ctor_m1970224332 ();
 extern "C" void DrawLine_Invoke_m1034572056 ();
 extern "C" void DrawLine_BeginInvoke_m2358246719 ();
 extern "C" void DrawLine_EndInvoke_m2171519246 ();
-extern const Il2CppMethodPointer g_MethodPointers[13311] = 
+extern const Il2CppMethodPointer g_MethodPointers[13321] = 
 {
 	Locale_GetText_m3374010885,
 	Locale_GetText_m1601577974,
@@ -25791,6 +25801,16 @@ extern const Il2CppMethodPointer g_MethodPointers[13311] =
 	Blast_Ring__ctor_m2583816960,
 	Blast_Ring_Start_m1949519720,
 	Blast_Ring_Update_m2198929930,
+	BossHealthBar__ctor_m2584505113,
+	BossHealthBar_Update_m55556924,
+	BossHealthBar_Blinker_m1490811935,
+	BossHealthBar_colorAnimator_m3257928332,
+	U3CcolorAnimatorU3Ec__Iterator0__ctor_m227131190,
+	U3CcolorAnimatorU3Ec__Iterator0_MoveNext_m283858327,
+	U3CcolorAnimatorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2091335256,
+	U3CcolorAnimatorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3924248156,
+	U3CcolorAnimatorU3Ec__Iterator0_Dispose_m2585715276,
+	U3CcolorAnimatorU3Ec__Iterator0_Reset_m1091830610,
 	Bullet__ctor_m2787309514,
 	Bullet_Start_m1480719556,
 	Bullet_Update_m2035088002,

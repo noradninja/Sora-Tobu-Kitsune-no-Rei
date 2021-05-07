@@ -33966,6 +33966,55 @@ static void U3CscaleLPFU3Ec__Iterator0_t2045043415_CustomAttributesCacheGenerato
 		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
 	}
 }
+static void BossHealthBar_t1731502815_CustomAttributesCacheGenerator_BossHealthBar_colorAnimator_m3257928332(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t587553342 * tmp = (DebuggerHiddenAttribute_t587553342 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
+	}
+}
+static void U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t23527886 * tmp = (CompilerGeneratedAttribute_t23527886 *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m3151881902(tmp, NULL);
+	}
+}
+static void U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator_U3CcolorAnimatorU3Ec__Iterator0__ctor_m227131190(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t587553342 * tmp = (DebuggerHiddenAttribute_t587553342 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
+	}
+}
+static void U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator_U3CcolorAnimatorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2091335256(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t587553342 * tmp = (DebuggerHiddenAttribute_t587553342 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
+	}
+}
+static void U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator_U3CcolorAnimatorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3924248156(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t587553342 * tmp = (DebuggerHiddenAttribute_t587553342 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
+	}
+}
+static void U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator_U3CcolorAnimatorU3Ec__Iterator0_Dispose_m2585715276(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t587553342 * tmp = (DebuggerHiddenAttribute_t587553342 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
+	}
+}
+static void U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator_U3CcolorAnimatorU3Ec__Iterator0_Reset_m1091830610(CustomAttributesCache* cache)
+{
+	{
+		DebuggerHiddenAttribute_t587553342 * tmp = (DebuggerHiddenAttribute_t587553342 *)cache->attributes[0];
+		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
+	}
+}
 static void FadeMe_t1801940979_CustomAttributesCacheGenerator_stencilCheckOffset(CustomAttributesCache* cache)
 {
 	{
@@ -35609,7 +35658,7 @@ static void U3CInputDelayU3Ec__Iterator1_t2666026029_CustomAttributesCacheGenera
 		DebuggerHiddenAttribute__ctor_m2764625696(tmp, NULL);
 	}
 }
-extern const CustomAttributesCacheGenerator g_AttributeGenerators[3576] = 
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[3583] = 
 {
 	NULL,
 	g_mscorlib_Assembly_CustomAttributesCacheGenerator,
@@ -38956,6 +39005,13 @@ extern const CustomAttributesCacheGenerator g_AttributeGenerators[3576] =
 	U3CscaleLPFU3Ec__Iterator0_t2045043415_CustomAttributesCacheGenerator_U3CscaleLPFU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m2658238515,
 	U3CscaleLPFU3Ec__Iterator0_t2045043415_CustomAttributesCacheGenerator_U3CscaleLPFU3Ec__Iterator0_Dispose_m1822316912,
 	U3CscaleLPFU3Ec__Iterator0_t2045043415_CustomAttributesCacheGenerator_U3CscaleLPFU3Ec__Iterator0_Reset_m2348999860,
+	BossHealthBar_t1731502815_CustomAttributesCacheGenerator_BossHealthBar_colorAnimator_m3257928332,
+	U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator,
+	U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator_U3CcolorAnimatorU3Ec__Iterator0__ctor_m227131190,
+	U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator_U3CcolorAnimatorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2091335256,
+	U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator_U3CcolorAnimatorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3924248156,
+	U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator_U3CcolorAnimatorU3Ec__Iterator0_Dispose_m2585715276,
+	U3CcolorAnimatorU3Ec__Iterator0_t3574936404_CustomAttributesCacheGenerator_U3CcolorAnimatorU3Ec__Iterator0_Reset_m1091830610,
 	FadeMe_t1801940979_CustomAttributesCacheGenerator_stencilCheckOffset,
 	FadeMe_t1801940979_CustomAttributesCacheGenerator_stencilCheckDiameter,
 	Fadeout_t2017630435_CustomAttributesCacheGenerator_Fadeout_Wait_m2109667953,

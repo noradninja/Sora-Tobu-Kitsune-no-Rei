@@ -26,15 +26,18 @@ public bool blinkerOn;
 		}
 		else if (bossEnemy != null && bossEnemy.activeSelf == false && bossBarObject.activeSelf == true){
 			bossBarObject.SetActive(false);
+			bossHealthBG.GetComponent<Image>().enabled = false;
 			bossHealthBar.fillAmount = 0.0f;
 			bossHealthBG.fillAmount = 0.0f;
 		}
 		if (bossBarObject.activeSelf == true && bossEnemy != null){
-			
-			originalValue = bossHealthBar.fillAmount;
-			originalBGValue = bossHealthBG.fillAmount;
-			currentValue = bossEnemy.GetComponent<Actor>().bossHealth/100.0f;
-			currentBGValue = 1-bossEnemy.GetComponent<Actor>().bossHealth/100.0f;
+			if (bossHealthBar.fillAmount >= 0.99f){
+				bossHealthBG.GetComponent<Image>().enabled = true;
+			}	
+			originalValue = Mathf.Clamp01(bossHealthBar.fillAmount);
+			originalBGValue = Mathf.Clamp01(bossHealthBG.fillAmount);
+			currentValue = Mathf.Clamp01(bossEnemy.GetComponent<Actor>().bossHealth/100.0f);
+			currentBGValue = Mathf.Clamp01(1-bossEnemy.GetComponent<Actor>().bossHealth/100.0f);
 			bossHealthBar.fillAmount = Mathf.Lerp (originalValue, currentValue, 0.1f);	
 			bossHealthBG.fillAmount = Mathf.Lerp (originalBGValue, currentBGValue, 0.1f);
 		}

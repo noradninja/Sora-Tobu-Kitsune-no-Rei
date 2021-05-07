@@ -66,6 +66,7 @@
 <type fullname="BG_Parallax" preserve="all"/>
 <type fullname="BGM_Player" preserve="all"/>
 <type fullname="Blast_Ring" preserve="all"/>
+<type fullname="BossHealthBar" preserve="all"/>
 <type fullname="Bullet" preserve="all"/>
 <type fullname="Bullet_Destroyer" preserve="all"/>
 <type fullname="CameraFacingBillboard" preserve="all"/>
