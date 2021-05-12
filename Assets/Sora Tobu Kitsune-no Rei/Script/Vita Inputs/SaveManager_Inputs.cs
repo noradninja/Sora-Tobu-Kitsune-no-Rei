@@ -178,6 +178,7 @@ public class SaveManager_Inputs : MonoBehaviour {
 					PlayerPrefs.SetString("Slot2", slot2Text.text);
 					PlayerPrefs.SetString("Slot3", slot3Text.text);
 					PlayerPrefs.Save();
+					anim.SetTrigger("SteadyState");
 				}
 			}
 			//check if we are actually loading a level to avoid spamming the console with nullrefs 

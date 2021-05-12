@@ -32,7 +32,7 @@ public class BezerkControl : MonoBehaviour {
 	public Vector3 playerLocation;
 	// Use this for initialization
 	void Start () {
-		LPFSweepDuration = GameObject.Find("BGMManager_Prefab").GetComponent<BGM_Player>().LPFSweepDuration;
+		//LPFSweepDuration = GameObject.Find("BGMManager_Prefab").GetComponent<BGM_Player>().LPFSweepDuration;
 		clipList = SFXManager.GetComponent<AudioManager>().SFXList;
 	}
 	
@@ -55,7 +55,7 @@ public class BezerkControl : MonoBehaviour {
 			{
 				BroadcastMessage("resetBar");
 				StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
-				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f, LPFSweepDuration));
 				bezerkOff();
 				print ("Exit A");
 			}
@@ -63,13 +63,13 @@ public class BezerkControl : MonoBehaviour {
 			{
 				BroadcastMessage("resetBar");
 				StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
-				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f, LPFSweepDuration));
 				bezerkOff();
 				print ("Exit B");
 			}
 			if (bezerkActive == false && bezerkArray.Length > 1 && currentHitCount > 0){
 				StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
-				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f, LPFSweepDuration));
 				bezerkOff();
 				print("Exit C");
 			}
@@ -86,6 +86,7 @@ public class BezerkControl : MonoBehaviour {
 			}
     }
 	void bezerkMode(){
+		GameObject.Find("BGMManager_Prefab").GetComponent<BGM_Player>().LPFSweepDuration = LPFSweepDuration;
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
 		hitCount = 0;
 		bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
@@ -136,7 +137,7 @@ public class BezerkControl : MonoBehaviour {
 	//cleanup tasks
 	 void bezerkOff(){
 		int maskLayer = 1 << 15; //this is a bitshift check to ignore objects in layers that don't contain enemies
-		
+		GameObject.Find("BGMManager_Prefab").GetComponent<BGM_Player>().LPFSweepDuration = 0.6f;
 		bezerkArray = Physics.OverlapSphere(playerLocation, bezerkRadius, maskLayer); //draw a sphere around the player and check for enemy objects
         for (int i = 0; i < bezerkArray.Length; i++){
 			GameObject deactivateHit = GameObject.Find(bezerkArray[i].GetComponent<Collider>().name);
@@ -154,7 +155,7 @@ public class BezerkControl : MonoBehaviour {
 			}
 		}
 		StartCoroutine(backgroundFader(bezerkBGImage.color, bezerkFadeColor, 0.5f));
-		StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+		StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f, LPFSweepDuration));
 		bezerkActive = false;
 		bezerkList.Clear();
 		hitCount = 0;

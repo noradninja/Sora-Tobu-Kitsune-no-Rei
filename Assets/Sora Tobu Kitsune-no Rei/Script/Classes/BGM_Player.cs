@@ -9,10 +9,7 @@ private AudioLowPassFilter filter;
 //[HideInInspector]
 public AudioSource sfxPlayer;
 public float scaler;
-[Range(0.0f, 1.0f)]
-public float LPFSweepDuration = 0.5f; //we clamp this range because anything > 1.0f causes unpredicatble behavior on the cutoff frequency
-
-
+public float LPFSweepDuration;
 	// Use this for initialization
 	void Start () {
 		filter = GetComponent<AudioLowPassFilter>();
@@ -34,11 +31,11 @@ public float LPFSweepDuration = 0.5f; //we clamp this range because anything > 1
 		}
 	}
 	//scales audio LPF with time when pausing/unpausing game, called from Buttons.cs when Start is pressed
-	public IEnumerator scaleLPF(float endValue){
+	public IEnumerator scaleLPF(float endValue, float duration){
 		
 		float time = 0;
-		while (time < LPFSweepDuration) {
-			filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, endValue, time / LPFSweepDuration);	
+		while (time < duration) {
+			filter.cutoffFrequency = Mathf.Lerp(filter.cutoffFrequency, endValue, time / duration);	
 			time += Time.deltaTime;
 			yield return null;	
 		}

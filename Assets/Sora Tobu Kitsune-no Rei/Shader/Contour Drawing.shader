@@ -89,7 +89,7 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 
 			struct v2f2 {
 				fixed4 pos : SV_POSITION;
-				fixed2 uv : TEXCOORD0;
+				fixed4 screenPos : TEXCOORD0;
 				fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
 				UNITY_FOG_COORDS(8)
 				UNITY_VERTEX_INPUT_INSTANCE_ID
@@ -117,7 +117,7 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 				v2f2 o;
 				fixed4 os = fixed4(v.normal, 0) * (UNITY_ACCESS_INSTANCED_PROP(Props,_ContourWidth) + UNITY_ACCESS_INSTANCED_PROP(Props, _Amplitude) * (hash(v.texcoord.xy + floor(_Time.y * UNITY_ACCESS_INSTANCED_PROP(Props,_Speed))) - 0.5));
 				o.pos = UnityObjectToClipPos(v.vertex + os);
-				o.uv = TRANSFORM_TEX(v.texcoord, _OutlineTexture);
+				o.screenPos = ComputeScreenPos(o.pos);
 				o.depth = CalculateDepth(v.vertex);
 				UNITY_TRANSFER_FOG(o,o.pos);
 				return o;
@@ -127,14 +127,19 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 				UNITY_SETUP_INSTANCE_ID(IN);
 				UNITY_APPLY_FOG(IN.fogCoord, UNITY_ACCESS_INSTANCED_PROP(Props,_ContourColor));
 				fixed4 color = UNITY_ACCESS_INSTANCED_PROP(Props,_ContourColor);
-				fixed4 main_color = tex2D(_OutlineTexture, IN.uv);
-				main_color.a = color.a * main_color.a;
+				float2 textureCoordinate = IN.screenPos.xy / IN.screenPos.w;
+                float aspect = _ScreenParams.x / _ScreenParams.y;
+              //  textureCoordinate.x = textureCoordinate.x * aspect;
+				textureCoordinate = TRANSFORM_TEX(textureCoordinate, _OutlineTexture);
+				fixed4 main_color = tex2D(_OutlineTexture, textureCoordinate);
+				main_color.a = (color.a * main_color.a); 
 				main_color.rgb = color.rgb;
 				return main_color;
 			}
 			ENDCG
 		}
-		Pass{
+		Pass {
+
 			Cull Front
 			Lighting Off
 			Blend SrcAlpha OneMinusSrcAlpha
@@ -151,7 +156,7 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 
 			struct v2f2 {
 				fixed4 pos : SV_POSITION;
-				fixed2 uv : TEXCOORD0;
+				fixed4 screenPos : TEXCOORD0;
 				fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
 				UNITY_FOG_COORDS(8)
 				UNITY_VERTEX_INPUT_INSTANCE_ID
@@ -175,11 +180,11 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 				UNITY_DEFINE_INSTANCED_PROP(fixed, _Amplitude)
 			UNITY_INSTANCING_BUFFER_END(Props)
 			
-			v2f2 vert (appdata_tan v) {
+			v2f2 vert (appdata_base v) {
 				v2f2 o;
 				fixed4 os = fixed4(v.normal, 0) * (UNITY_ACCESS_INSTANCED_PROP(Props,_ContourWidth) + UNITY_ACCESS_INSTANCED_PROP(Props, _Amplitude) * (hash(v.texcoord.xy + floor(_Time.y * UNITY_ACCESS_INSTANCED_PROP(Props,_Speed))) - 0.5));
 				o.pos = UnityObjectToClipPos(v.vertex + os);
-				o.uv = TRANSFORM_TEX(v.texcoord, _OutlineTexture);
+				o.screenPos = ComputeScreenPos(o.pos);
 				o.depth = CalculateDepth(v.vertex);
 				UNITY_TRANSFER_FOG(o,o.pos);
 				return o;
@@ -189,70 +194,12 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 				UNITY_SETUP_INSTANCE_ID(IN);
 				UNITY_APPLY_FOG(IN.fogCoord, UNITY_ACCESS_INSTANCED_PROP(Props,_ContourColor));
 				fixed4 color = UNITY_ACCESS_INSTANCED_PROP(Props,_ContourColor);
-				fixed4 main_color = tex2D(_OutlineTexture, IN.uv);
-	main_color.a = color.a * main_color.a;
-				main_color.rgb = color.rgb;
-				return main_color;
-			}
-			ENDCG
-		}
-		Pass{
-			Cull Front
-			Lighting Off
-			Blend SrcAlpha OneMinusSrcAlpha
-			CGPROGRAM
-			#pragma vertex vert
-			#pragma fragment frag
-			#pragma multi_compile_fog 
-			#pragma multi_compile_instancing
-			#include "UnityCG.cginc"
-			#include "DepthCG.cginc"
-			#pragma only_renderers psp2 d3d11
-			#pragma fragmentoption ARB_precision_hint_fastest
-			#define UNITY_HARDWARE_TIER1
-
-			struct v2f2 {
-				fixed4 pos : SV_POSITION;
-				fixed2 uv : TEXCOORD0;
-				fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
-				UNITY_FOG_COORDS(8)
-				UNITY_VERTEX_INPUT_INSTANCE_ID
-			};
-			
-			fixed hash(float2 seed) {
-			// We need irrationals for pseudo randomness.
-			// Most (all?) known transcendental numbers will (generally) work.
-			const float2 r = float2 (
-				23.1406926327792690,  // e^pi (Gelfond's constant)
-				2.6651441426902251 
-				); // 2^sqrt(2) (Gelfond–Schneider constant)
-			return frac( cos( fmod( 192837465., 1e-7 + 256. * dot(seed, r) ) ) );  
-			}
-			uniform sampler2D _OutlineTexture;
-			fixed4 _OutlineTexture_ST;
-			UNITY_INSTANCING_BUFFER_START(Props)
-				UNITY_DEFINE_INSTANCED_PROP(fixed4, _ContourColor)
-				UNITY_DEFINE_INSTANCED_PROP(fixed, _ContourWidth)
-				UNITY_DEFINE_INSTANCED_PROP(fixed, _Speed)
-				UNITY_DEFINE_INSTANCED_PROP(fixed, _Amplitude)
-			UNITY_INSTANCING_BUFFER_END(Props)
-			
-			v2f2 vert (appdata_tan v) {
-				v2f2 o;
-				fixed4 os = fixed4(v.normal, 0) * (UNITY_ACCESS_INSTANCED_PROP(Props,_ContourWidth) + UNITY_ACCESS_INSTANCED_PROP(Props, _Amplitude) * (hash(v.texcoord.xy + floor(_Time.y * UNITY_ACCESS_INSTANCED_PROP(Props,_Speed))) - 0.5));
-				o.pos = UnityObjectToClipPos(v.vertex + os);
-				o.uv = TRANSFORM_TEX(v.texcoord, _OutlineTexture);
-				o.depth = CalculateDepth(v.vertex);
-				UNITY_TRANSFER_FOG(o,o.pos);
-				return o;
-			}
-
-			fixed4 frag (v2f2 IN) : COLOR {
-				UNITY_SETUP_INSTANCE_ID(IN);
-				UNITY_APPLY_FOG(IN.fogCoord, UNITY_ACCESS_INSTANCED_PROP(Props,_ContourColor));
-				fixed4 color = UNITY_ACCESS_INSTANCED_PROP(Props,_ContourColor);
-				fixed4 main_color = tex2D(_OutlineTexture, IN.uv);
-				main_color.a = color.a * main_color.a;
+				float2 textureCoordinate = IN.screenPos.xy / IN.screenPos.w;
+                float aspect = _ScreenParams.x / _ScreenParams.y;
+                //textureCoordinate.y = textureCoordinate.y * aspect;
+				textureCoordinate = TRANSFORM_TEX(textureCoordinate, _OutlineTexture);
+				fixed4 main_color = tex2D(_OutlineTexture, textureCoordinate);
+				main_color.a = (color.a * main_color.a); 
 				main_color.rgb = color.rgb;
 				return main_color;
 			}

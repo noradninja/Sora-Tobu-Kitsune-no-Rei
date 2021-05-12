@@ -48,7 +48,7 @@ public bool blinkerOn;
 			currentBGValue = 0.0f;
 			bossHealthBar.fillAmount = Mathf.Lerp (originalValue, currentValue, 0.1f);	
 			bossHealthBG.fillOrigin = 0;
-			bossHealthBG.fillAmount = Mathf.Lerp (originalBGValue, currentBGValue, 0.1f);
+			bossHealthBG.fillAmount = Mathf.Lerp (originalBGValue, currentBGValue, 0.05f);
 			blinkerOn = false;
 		}
 		if (bossEnemy != null && currentValue <= 0.25f && bossEnemy.GetComponent<Actor>().bossHealth > 0.0001f && !blinkerOn){

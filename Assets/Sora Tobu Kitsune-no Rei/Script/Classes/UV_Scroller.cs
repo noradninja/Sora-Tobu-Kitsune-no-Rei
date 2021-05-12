@@ -18,15 +18,15 @@ public class UV_Scroller : MonoBehaviour {
 		float offset = Time.time * scrollSpeed;
 		if (uAxis == true && vAxis == true)
 		{
-			rend.material.SetTextureOffset ("_MainTexture", new Vector2(offset,offset));
+			rend.material.SetTextureOffset ("_DistortionTex", new Vector2(offset,offset));
 		}
 		else if (uAxis == true)
 		{
-			rend.material.SetTextureOffset ("_MainTexture", new Vector2(offset,0));
+			rend.material.SetTextureOffset ("_DistortionTex", new Vector2(offset,0));
 		}
 		else if (vAxis == true)
 		{
-			rend.material.SetTextureOffset ("_MainTexture", new Vector2(0,offset));
+			rend.material.SetTextureOffset ("_DistortionTex", new Vector2(0,offset));
 		}
 			
 	}

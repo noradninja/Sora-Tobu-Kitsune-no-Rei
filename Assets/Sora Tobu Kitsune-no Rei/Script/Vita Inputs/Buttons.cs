@@ -57,6 +57,7 @@ public class Buttons : MonoBehaviour {
 	public float divisionFactor = 1.0f;
 	public bool enablePaint = true;
 	public bool enableDoF = true;
+	public float LPFSweepDuration = 0.6f;
 	private TextMeshProUGUI currentRes;
 	private GameObject mainCam;
 	private GameObject bgCam;
@@ -228,7 +229,7 @@ public class Buttons : MonoBehaviour {
 			FireControl.gameObject.BroadcastMessage ("bezerkMode");
 			if (eventManager.GetComponent<BezerkControl>().bezerkArray.Length > 0){
 			StartCoroutine(eventManager.GetComponent<BezerkControl>().backgroundFader(eventManager.GetComponent<BezerkControl>().bezerkBGImage.color, Color.white, 0.5f));
-			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f));
+			StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(880.0f, LPFSweepDuration));
 			}
 		}
 		else if (Input.GetKeyDown (joystick1 + SELECT)){
@@ -254,9 +255,9 @@ public class Buttons : MonoBehaviour {
 			}
 			//if the game is paused but we are at the main pause menu
 			else if (PauseManager.isPaused == true && menuManager.GetComponent<MenuManagerInputs>().loaderEnabled == false && menuManager.GetComponent<MenuManagerInputs>().optionEnabled == false){
-								PauseManager.isPaused = false;
+				PauseManager.isPaused = false;
 				BGMManager.GetComponent<BGM_Player>().scaler = 1;
-				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f, LPFSweepDuration));
 				StartCoroutine(FadeLoadSaveScreen(0,0.5f));
 				saveManager.gameObject.BroadcastMessage("setColor");
 				audioSource.PlayOneShot(clipList[1]);
@@ -293,7 +294,6 @@ public class Buttons : MonoBehaviour {
 				menuManager.GetComponent<MenuManagerInputs>().dialogEnabled = false;
 				menuManager.GetComponent<MenuManagerInputs>().dialogCanvas.GetComponent<CanvasGroup>().alpha = 0;
 				GameObject.Find ("Confirmation_Load_Dialog").GetComponent<Animator>().SetTrigger("SteadyState");
-				;
 				audioSource.PlayOneShot(clipList[1]);
 			}
 			//if we are paused and in the options menu
@@ -308,7 +308,7 @@ public class Buttons : MonoBehaviour {
 			//pause/unpause game
 			if (PauseManager.isPaused == false) { 
 				audioSource.PlayOneShot(clipList[0]);
-				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(860.0F));
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(860.0F, LPFSweepDuration));
 				StartCoroutine(FadeLoadSaveScreen(1,0.5f));
 				PauseManager.isPaused = true;	
 			} 
@@ -316,7 +316,7 @@ public class Buttons : MonoBehaviour {
 			else if (PauseManager.isPaused == true && menuManager.GetComponent<MenuManagerInputs>().optionEnabled == false && menuManager.GetComponent<MenuManagerInputs>().loaderEnabled == false) {
 				PauseManager.isPaused = false;
 				BGMManager.GetComponent<BGM_Player>().scaler = 1;
-				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f));
+				StartCoroutine(BGMManager.GetComponent<BGM_Player>().scaleLPF(22000.0f, LPFSweepDuration));
 				StartCoroutine(FadeLoadSaveScreen(0,0.5f));
 				saveManager.gameObject.BroadcastMessage("setColor");
 				if ((GameObject.Find("Explode(Clone)") != null)||(GameObject.Find("Boss_Explode(Clone)")) != null){
