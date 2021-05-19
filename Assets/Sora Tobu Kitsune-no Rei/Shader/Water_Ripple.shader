@@ -14,7 +14,7 @@
         LOD 100
  
         //ZWrite Off
-        Blend SrcAlpha OneMinusSrcAlpha
+       // Blend One OneMinusSrcAlpha
  
         Pass
         {
@@ -38,7 +38,6 @@
                 fixed depth : TEXCOORD2; // Define depth float to pass to `frag`
                 fixed4 screenPos : TEXCOORD3;
                 float2 uv2 : TEXCOORD4;
-                //UNITY_FOG_COORDS(8)
                 float4 vertex : SV_POSITION;
             };
             sampler2D _DistortionTex;
@@ -80,13 +79,10 @@
             fixed4 frag (v2f i) : COLOR {
                 float scale = _Strength;
                 float2 textureCoordinate = i.screenPos.xy / i.screenPos.w;
-                textureCoordinate = TRANSFORM_TEX(textureCoordinate, _MainTex);
+                textureCoordinate = TRANSFORM_TEX(textureCoordinate, _MainTex); //project main texture in screen coords
                 // sample the texture
-                fixed4 color = tex2D(_MainTex, textureCoordinate + (UnpackNormal(tex2D(_DistortionTex, i.uv2))) * scale);
-                //color.rgb = color.rgb;
-                color.a = i.depth; //apply depth calculation
-                // apply fog
-               // UNITY_APPLY_FOG(i.fogCoord, color);
+                fixed4 color = tex2D(_MainTex, textureCoordinate + (UnpackNormal(tex2D(_DistortionTex, i.uv2))) * scale); //overlay our unpacked normal map on top of main texture for distortion
+                color.a = i.depth * color.a; //apply depth calculation
                 return color;
             }
        

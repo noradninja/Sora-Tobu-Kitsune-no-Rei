@@ -53,8 +53,8 @@
             {
                 FragData output;
 
-                output.vertex = float4(input.vertex.xy, 0.0, 1.0);
-                output.texcoord = (input.vertex.xy + 1.0) * 0.5;
+                output.vertex = float4(input.vertex.xyz, 1.0);
+                output.texcoord = (input.vertex.xyz);
 
                 // For Direct3D Build
                // output.texcoord.y = 1.0 - output.texcoord.y;

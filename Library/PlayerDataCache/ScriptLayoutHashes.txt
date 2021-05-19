@@ -174,6 +174,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 50a0fa002cfc67638c87a901e46b763e Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_B
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClearPlayerPrefs
 561fdfa530b6ded22cd2a0e14ad905b0 Assembly-CSharp.dll:.OptionsManagerInputs
+60357b346707faf340610b3615a21607 Assembly-CSharp.dll:.Match_Rotation
 5f8515f2e5e7bee9c7fbe8e4647e7fec Assembly-CSharp.dll:.Contour_Drawing_Post
 020550babdb991365f61c5bffe1f4f52 Assembly-CSharp.dll:TMPro.Examples.Benchmark03
 b9332c0eee630779376843b5343eb250 Assembly-CSharp.dll:TMPro.Examples.TMP_TextInfoDebugTool
@@ -319,3 +320,7 @@ ddc32343c607d561dca65919d8f34af9 Assembly-CSharp.dll:.Title_DoF_Animator
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 f8f1c341c82c3a48504f430c7d4c9c67 Assembly-CSharp.dll:PixelCrushers.SceneStreamer.Example.FPSWalkerEnhanced
+83e56f00e0d1ca4962d9b27779bae183 Assembly-CSharp.dll:.Outline
+10d9c7dc12eb20e1bdee38001b349b30 Assembly-CSharp.dll:.EdgeDetect
+2bd2e5e07f59fc1045c5fee6ff80aeb2 Assembly-CSharp.dll:.Demonstration_NoclipController
+68cce09156597fbbdd096fdf92d78e88 Assembly-CSharp.dll:.Demonstration_MeshProcessing

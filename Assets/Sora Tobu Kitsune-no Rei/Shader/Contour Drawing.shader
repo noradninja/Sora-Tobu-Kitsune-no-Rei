@@ -129,7 +129,6 @@ Shader "NPR Contour Drawing/Contour Drawing" {
 				fixed4 color = UNITY_ACCESS_INSTANCED_PROP(Props,_ContourColor);
 				float2 textureCoordinate = IN.screenPos.xy / IN.screenPos.w;
                 float aspect = _ScreenParams.x / _ScreenParams.y;
-              //  textureCoordinate.x = textureCoordinate.x * aspect;
 				textureCoordinate = TRANSFORM_TEX(textureCoordinate, _OutlineTexture);
 				fixed4 main_color = tex2D(_OutlineTexture, textureCoordinate);
 				main_color.a = (color.a * main_color.a); 
